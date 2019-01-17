@@ -10,86 +10,54 @@ using System.IO;
 using CWTools.CSharp;
 using static CWTools.Parser.Types;
 using static CWTools.Utilities.Position;
+using TechTree.FileIO;
+using TechTree.CWParser;
+using static CWTools.Localisation.STLLocalisation;
+using CWTools.Localisation;
+using CWTools.Common;
+using TechTree.DTO;
+using Newtonsoft.Json;
 
 namespace TechTree
 {
-    public class MyValue
-    {
-        public string Value { get; set; }
-    }
-    public class MyKeyValue
-    {
-        public string Key { get; set; }
-        public string Value { get; set; }
-    }
-    public class MyNode
-    {
-        public string Key { get; set; }
-        public List<MyKeyValue> KeyValues { get; set; }
-        public List<MyNode> Nodes { get; set; }
-        public List<MyValue> Values { get; set; }
-    }
+   
 
-    public static class MappingSample
-    {
-        public static MyValue ToMyValue(LeafValue lv)
-        {
-            return new MyValue { Value = lv.Key };
-        }
 
-        public static MyKeyValue ToMyKeyValue(Leaf l)
-        {
-            return new MyKeyValue { Key = l.Key, Value = l.Value.ToRawString() };
-        }
-
-        public static MyNode ToMyNode(Node n)
-        {
-            var nodes = n.AllChildren.Where(x => x.IsNodeC).Select(x => ToMyNode(x.node)).ToList();
-            var leaves = n.AllChildren.Where(x => x.IsLeafC).Select(x => ToMyKeyValue(x.leaf)).ToList();
-            var values = n.AllChildren.Where(x => x.IsLeafValueC).Select(x => ToMyValue(x.lefavalue)).ToList();
-            return new MyNode { Key = n.Key, Nodes = nodes, Values = values, KeyValues = leaves };
-        }
-        public static MyNode MapToMyNode()
-        {
-            //Support UTF-8
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-
-            //Parse event file
-            var parsed = CKParser.parseEventFile("./testevent.txt");
-
-            var eventFile = parsed.GetResult();
-
-            //"Process" result into nicer format
-            var processed = CK2Process.processEventFile(eventFile);
-
-            return ToMyNode(processed);
-        }
-    }
+   
     class Program
     {
+        public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
+
         static void Main(string[] args)
         {
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            //Parse event file
-            var parsed = CKParser.parseEventFile("C:/Games/SteamLibrary/steamapps/common/Stellaris/common/technology/00_eng_tech.txt");
+            //setup localisation 
+            ILocalisationAPI localisation = Localisation.GetLocalisationAPI(STELLARIS_ROOT_WINDOWS, STLLang.English);
 
-            var eventFile = parsed.GetResult();
+            // setup parser
+            var dirHelper = new StellarisDirectoryHelper(STELLARIS_ROOT_WINDOWS);
+            var parser = new TechTreeParser(localisation);
 
-            //"Process" result into nicer format
-            var processed = CK2Process.processEventFile(eventFile);
+            // trawl the technology files first as they are core
+            List<FileInfo> technologyFiles = DirectoryWalker.FindFilesInDirectoryTree(dirHelper.Technology, "*.txt"); ;
 
-            //Find interesting event
-            var myEvent = processed.Children.FirstOrDefault(x => x.Key == "tech_luxuries_2");
-        
-            //Output
-            var output = processed.ToRaw;
-            Console.WriteLine(CKPrinter.printKeyValueList(output, 0));
-            PrintfModule
-                .PrintFormatLine(
-                    new PrintfFormat<FSharpFunc<FSharpList<Statement>, Unit>, TextWriter, Unit, Unit, FSharpList<Statement>>("%A"))
-                .Invoke(output);
+
+            var visResults = parser.ParseTechFiles(technologyFiles);
+
+
+            /// Json outputter
+            JsonSerializer serializer = new JsonSerializer();
+            serializer.Formatting = Formatting.Indented;
+
+            using (StreamWriter sw = new StreamWriter(@"d:\json.txt"))
+            using (JsonWriter writer = new JsonTextWriter(sw))
+            {
+                serializer.Serialize(writer, visResults);
+            }
+
+            Console.WriteLine("done");
             Console.ReadLine();
         }
     }
