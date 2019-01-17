@@ -73,7 +73,7 @@ namespace TechTree
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
             //Parse event file
-            var parsed = CKParser.parseEventFile("./testevent.txt");
+            var parsed = CKParser.parseEventFile("C:/Games/SteamLibrary/steamapps/common/Stellaris/common/technology/00_eng_tech.txt");
 
             var eventFile = parsed.GetResult();
 
@@ -81,14 +81,8 @@ namespace TechTree
             var processed = CK2Process.processEventFile(eventFile);
 
             //Find interesting event
-            var myEvent = processed.Events.FirstOrDefault(x => x.ID == "test.1");
-
-            //Add is_triggered_only = true
-            var leaf = new Leaf(KeyValueItem.NewKeyValueItem(Key.NewKey("is_triggered_only"), Value.NewBool(true)), FSharpOption<range>.None);
-            myEvent.AllChildren.Add(Child.NewLeafC(leaf));
-            // or
-            // myEvent.AllChildren.Add(Leaf.Create("is_triggered_only", Value.NewBool(true)));
-
+            var myEvent = processed.Children.FirstOrDefault(x => x.Key == "tech_luxuries_2");
+        
             //Output
             var output = processed.ToRaw;
             Console.WriteLine(CKPrinter.printKeyValueList(output, 0));
