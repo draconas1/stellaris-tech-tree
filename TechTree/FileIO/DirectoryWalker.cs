@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace TechTree.FileIO
@@ -8,10 +9,10 @@ namespace TechTree.FileIO
     class DirectoryWalker
     {
 
-        public static List<FileInfo> FindFilesInDirectoryTree(string root, string fileMask)
+        public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames)
         {
             var result = new List<FileInfo>();
-            FindFilesInDirectoryTree(new DirectoryInfo(root), result, fileMask);
+            FindFilesInDirectoryTree(new DirectoryInfo(root), result, includeFileMask, excludedFileNames);
             return result;
         }
 
@@ -21,7 +22,7 @@ namespace TechTree.FileIO
         /// <param name="root"></param>
         /// <param name="fileInfos"></param>
         /// <param name="fileMask"></param>
-        private static void FindFilesInDirectoryTree(DirectoryInfo root, List<FileInfo> fileInfos, string fileMask)
+        private static void FindFilesInDirectoryTree(DirectoryInfo root, List<FileInfo> fileInfos, string fileMask, IEnumerable<string> excludedFileNames)
         {
             FileInfo[] files = null;
             DirectoryInfo[] subDirs = null;
@@ -47,14 +48,16 @@ namespace TechTree.FileIO
 
             if (files != null)
             {
-                fileInfos.AddRange(files);
+                foreach (var info in files.Where(fileInfo => excludedFileNames.All(x => x != fileInfo.Name))) {
+                    fileInfos.Add(info);
+                }
                 // Now find all the subdirectories under this directory.
                 subDirs = root.GetDirectories();
 
                 foreach (DirectoryInfo dirInfo in subDirs)
                 {
                     // Resursive call for each subdirectory.
-                    FindFilesInDirectoryTree(dirInfo, fileInfos, fileMask);
+                    FindFilesInDirectoryTree(dirInfo, fileInfos, fileMask, excludedFileNames);
                 }
             }
         }
