@@ -15,7 +15,7 @@ namespace TechTree.Extensions
         /// </summary>
         public static string GetName(this ILocalisationAPI api, string key)
         {
-            return removeQuotes(api.Values[key]);
+            return getValue(api, key);
         }
 
         /// <summary>
@@ -23,8 +23,26 @@ namespace TechTree.Extensions
         /// </summary>
         public static string GetDescription(this ILocalisationAPI api, string key)
         {
-            return removeQuotes(api.Values[key + "_desc"]);
+            return getValue(api, key + "_desc");
         }
+
+        private static string getValue(ILocalisationAPI api, string key)
+        {
+            string result = api.Values[key];
+
+            // first strip out comments
+            if (result.IndexOf("#") > 0)
+            {
+                result = result.Substring(0, result.IndexOf("#") - 1);
+                result = result.Trim();
+            }
+
+            // remove the surrounding quotation marks
+            result = removeQuotes(result);
+            result = result.Trim();
+            return result;
+        }
+
 
         private static string removeQuotes(string data) {
             if (data.StartsWith("\"")) {

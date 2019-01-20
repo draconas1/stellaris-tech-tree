@@ -28,12 +28,12 @@ namespace TechTree
     {
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
-        public const string ROOT_IN_USE = STELLARIS_ROOT_MAC;
+        public const string ROOT_IN_USE = STELLARIS_ROOT_WINDOWS;
         
         
-        public const string OUTPUT_WINDOWS = "d:/";
+        public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree";
         public const string OUTPUT_MAC = "/Users/christian/dev/graph";
-        public const string OUTPUT_IN_USE = OUTPUT_MAC;
+        public const string OUTPUT_IN_USE = OUTPUT_WINDOWS;
         static void Main(string[] args)
         {
             //Support UTF-8
@@ -44,24 +44,15 @@ namespace TechTree
 
             // setup parser
             var dirHelper = new StellarisDirectoryHelper(ROOT_IN_USE);
-            var parser = new TechTreeParser(localisation);
+            var parser = new TechTreeParser(localisation, dirHelper.Technology);
+            parser.IgnoreFiles.AddRange(new string[] { "00_tier.txt", "00_category.txt" });
+            //parser.ParseFileMask = "00_eng_tech.txt";
+           
+            // get the results parsed into nice tech tree format
+            var visResults = parser.ParseTechFiles();
 
-            // trawl the technology files first as they are core
-            List<FileInfo> technologyFiles = DirectoryWalker.FindFilesInDirectoryTree(dirHelper.Technology, "*.txt", new string[]{"00_tier.txt", "00_category.txt"}) ;
-
-
-            var visResults = parser.ParseTechFiles(technologyFiles);
-
-
-            /// Json outputter
-            JsonSerializer serializer = new JsonSerializer();
-            serializer.Formatting = Formatting.Indented;
-
-            using (StreamWriter sw = new StreamWriter(OUTPUT_IN_USE +"/json.txt"))
-            using (JsonWriter writer = new JsonTextWriter(sw))
-            {
-                serializer.Serialize(writer, visResults);
-            }
+            //save
+            visResults.WriteVisDataToOneJSFile(OUTPUT_WINDOWS);
 
             Console.WriteLine("done");
             Console.ReadLine();

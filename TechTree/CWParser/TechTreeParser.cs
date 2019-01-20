@@ -11,47 +11,51 @@ using CWTools.Localisation;
 using CWTools.Common;
 using TechTree.Extensions;
 using System.Linq;
+using TechTree.FileIO;
 
 namespace TechTree.CWParser
 {
     class TechTreeParser
     {
+        /// <summary>
+        /// List of file names (exact) that will be skipped when parsing.  Defaults to nont (all files)
+        /// </summary>
+        public List<string> IgnoreFiles { get; set; }
+        /// <summary>
+        /// File mask used for finding files.  defaults to "*.txt"
+        /// </summary>
+        public string ParseFileMask { get; set; }
         private readonly ILocalisationAPI localisationAPI;
+        private readonly string rootTechDir;
 
-        public TechTreeParser(ILocalisationAPI localisationAPI)
+        public TechTreeParser(ILocalisationAPI localisationAPI, string rootTechDir)
         {
             this.localisationAPI = localisationAPI;
+            this.rootTechDir = rootTechDir;
+            IgnoreFiles = new List<string>();
+            ParseFileMask = "*.txt";
         }
 
-        public VisData ParseTechFiles(IEnumerable<FileInfo> files)
+        public VisData ParseTechFiles()
         {
-            VisData result = new VisData();
-
-            foreach (FileInfo paradoxFile in files)
+            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(rootTechDir, ParseFileMask, IgnoreFiles);
+            var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
+            var result = new VisData();
+            foreach(var file in parsedTechFiles)
             {
-                // raw parsing
-                var parsed = CKParser.parseEventFile(paradoxFile.FullName);
-
-                // this is an extension method in CWTools.CSharp
-                var eventFile = parsed.GetResult();
-
-                //"Process" result into nicer format
-                var processed = CK2Process.processEventFile(eventFile);
-
-                // marshall this into a more c# fieldy type using the CWTools example
-                CWNode tech = CWParsedFileMapper.ToMyNode(processed);
-
-                // the nodes here are all tech items
-                foreach (CWNode node in tech.Nodes)
+                // top level nodes are files, so we process the immiedate children of each file, which is the individual techs.
+                foreach (var node in file.Nodes)
                 {
-                    // key values
-                    result.nodes.Add(ProcessNode(node));
-                    result.edges.AddRange(ProcessNodeLinks(node));
+                    if (node.GetKeyValue("area") == "engineering")
+                    {
+                        result.nodes.Add(ProcessNode(node));
+                        result.edges.AddRange(ProcessNodeLinks(node));
+                    }
                 }
             }
-
             return result;
         }
+
 
         public VisNode ProcessNode(CWNode node)
         {

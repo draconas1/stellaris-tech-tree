@@ -1,0 +1,1513 @@
+GraphData = `{
+  "nodes": [
+    {
+      "id": "tech_pk_nanobots",
+      "label": "Atmospheric Nanobot Dispersal",
+      "group": "engineering",
+      "title": "$PLANET_KILLER_NANOBOTS$"
+    },
+    {
+      "id": "tech_pk_cracker",
+      "label": "Core Cracking",
+      "group": "engineering",
+      "title": "$PLANET_KILLER_CRACKER_DESC$"
+    },
+    {
+      "id": "tech_colossus",
+      "label": "Colossi",
+      "group": "engineering",
+      "title": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button."
+    },
+    {
+      "id": "tech_nanite_repair_system",
+      "label": "Nanite Repair System",
+      "group": "engineering",
+      "title": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown."
+    },
+    {
+      "id": "tech_repeatable_lcluster_clue",
+      "label": "$clue$",
+      "group": "engineering",
+      "title": "Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new §Y$clue$§! into the $lgate_disabled$ mystery."
+    },
+    {
+      "id": "tech_mega_engineering",
+      "label": "Mega-Engineering",
+      "group": "engineering",
+      "title": "To complete construction projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures."
+    },
+    {
+      "id": "tech_housing_2",
+      "label": "Anti-Gravity Engineering",
+      "group": "engineering",
+      "title": "With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!"
+    },
+    {
+      "id": "tech_housing_1",
+      "label": "Weather Control Systems",
+      "group": "engineering",
+      "title": "The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation."
+    },
+    {
+      "id": "tech_construction_templates",
+      "label": "Construction Templates",
+      "group": "engineering",
+      "title": "Standardized pre-fab templates massively reduce on-site facility construction times."
+    },
+    {
+      "id": "tech_assembly_pattern",
+      "label": "Assembly Patterns",
+      "group": "engineering",
+      "title": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time."
+    },
+    {
+      "id": "tech_afterburners_2",
+      "label": "Advanced Afterburners",
+      "group": "engineering",
+      "title": "This improved version of the standard afterburners provide an even greater boost to a ship's combat speed."
+    },
+    {
+      "id": "tech_afterburners_1",
+      "label": "Afterburners",
+      "group": "engineering",
+      "title": "These powerful thrusters provide additional combat speed but consume a great deal of power."
+    },
+    {
+      "id": "tech_space_construction",
+      "label": "Offworld Construction",
+      "group": "engineering",
+      "title": "Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds."
+    },
+    {
+      "id": "tech_synthetic_leaders",
+      "label": "Synthetic Personality Matrix",
+      "group": "engineering",
+      "title": "Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles."
+    },
+    {
+      "id": "tech_synthetic_workers",
+      "label": "Synthetics",
+      "group": "engineering",
+      "title": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations."
+    },
+    {
+      "id": "tech_droid_workers",
+      "label": "Droids",
+      "group": "engineering",
+      "title": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved."
+    },
+    {
+      "id": "tech_robotic_workers",
+      "label": "Robotic Workers",
+      "group": "engineering",
+      "title": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs."
+    },
+    {
+      "id": "tech_engineering_3",
+      "label": "Superfluid Materials",
+      "group": "engineering",
+      "title": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity."
+    },
+    {
+      "id": "tech_engineering_2",
+      "label": "Supersolid Materials",
+      "group": "engineering",
+      "title": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization."
+    },
+    {
+      "id": "tech_engineering_1",
+      "label": "Nanomechanics",
+      "group": "engineering",
+      "title": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales."
+    },
+    {
+      "id": "tech_luxuries_2",
+      "label": "Replicator Kiosks",
+      "group": "engineering",
+      "title": "These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks."
+    },
+    {
+      "id": "tech_luxuries_1",
+      "label": "Nano-Circuit Assembly",
+      "group": "engineering",
+      "title": "With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators."
+    },
+    {
+      "id": "tech_alloys_2",
+      "label": "Nano-Separators",
+      "group": "engineering",
+      "title": "Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality."
+    },
+    {
+      "id": "tech_alloys_1",
+      "label": "Holographic Casts",
+      "group": "engineering",
+      "title": "Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production."
+    },
+    {
+      "id": "tech_mineral_purification_2",
+      "label": "Advanced Mineral Purification",
+      "group": "engineering",
+      "title": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation."
+    },
+    {
+      "id": "tech_mineral_purification_1",
+      "label": "Mineral Purification",
+      "group": "engineering",
+      "title": "Optimal processing of mined materials have allowed us to reach new levels of efficiency."
+    },
+    {
+      "id": "tech_mining_3",
+      "label": "Mineral Isolation",
+      "group": "engineering",
+      "title": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits."
+    },
+    {
+      "id": "tech_mining_2",
+      "label": "Deep Core Mining",
+      "group": "engineering",
+      "title": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core."
+    },
+    {
+      "id": "tech_mining_1",
+      "label": "Geothermal Fracking",
+      "group": "engineering",
+      "title": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust."
+    },
+    {
+      "id": "tech_space_mining_5",
+      "label": "Nanite Mineral Probes",
+      "group": "engineering",
+      "title": "These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction."
+    },
+    {
+      "id": "tech_space_mining_4",
+      "label": "Autonomous Mining Drones",
+      "group": "engineering",
+      "title": "Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals."
+    },
+    {
+      "id": "tech_space_mining_3",
+      "label": "Mineral Cutting Beams",
+      "group": "engineering",
+      "title": "These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair."
+    },
+    {
+      "id": "tech_space_mining_2",
+      "label": "Long-Range Mineral Scanners",
+      "group": "engineering",
+      "title": "Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there."
+    },
+    {
+      "id": "tech_space_mining_1",
+      "label": "Zero-G Refineries",
+      "group": "engineering",
+      "title": "The addition of internal refineries on mining stations will substantially increase mineral production."
+    },
+    {
+      "id": "tech_powered_exoskeletons",
+      "label": "Powered Exoskeletons",
+      "group": "engineering",
+      "title": "Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency."
+    },
+    {
+      "id": "tech_mechanized_mining",
+      "label": "Mechanized Mining",
+      "group": "engineering",
+      "title": "The application of mechanical engineering to mineral extraction is a fundamental requirement for any industrial society."
+    },
+    {
+      "id": "tech_basic_industry",
+      "label": "Industrial Base",
+      "group": "engineering",
+      "title": "The basic industrial infrastructure that is required to become a spacefaring civilization."
+    },
+    {
+      "id": "tech_defense_platform_hull_1",
+      "label": "Improved Structural Integrity",
+      "group": "engineering",
+      "title": "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure."
+    },
+    {
+      "id": "tech_space_defense_station_1",
+      "label": "Deep Space Defenses",
+      "group": "engineering",
+      "title": "This will enable the construction of defensive deep space platforms to protect our Starbases."
+    },
+    {
+      "id": "tech_thrusters_4",
+      "label": "Impulse Thrusters",
+      "group": "engineering",
+      "title": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions."
+    },
+    {
+      "id": "tech_thrusters_3",
+      "label": "Plasma Thrusters",
+      "group": "engineering",
+      "title": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability."
+    },
+    {
+      "id": "tech_thrusters_2",
+      "label": "Ion Thrusters",
+      "group": "engineering",
+      "title": "These electric thrusters use beams of ions to generate thrust without the need for propellant."
+    },
+    {
+      "id": "tech_thrusters_1",
+      "label": "Chemical Thrusters",
+      "group": "engineering",
+      "title": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function."
+    },
+    {
+      "id": "tech_crystal_armor_2",
+      "label": "Crystal-Forged Plating",
+      "group": "engineering",
+      "title": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals."
+    },
+    {
+      "id": "tech_crystal_armor_1",
+      "label": "Crystal-Infused Plating",
+      "group": "engineering",
+      "title": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls."
+    },
+    {
+      "id": "tech_ship_armor_5",
+      "label": "Neutronium Materials",
+      "group": "engineering",
+      "title": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag."
+    },
+    {
+      "id": "tech_ship_armor_4",
+      "label": "Durasteel Materials",
+      "group": "engineering",
+      "title": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor."
+    },
+    {
+      "id": "tech_ship_armor_3",
+      "label": "Plasteel Materials",
+      "group": "engineering",
+      "title": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor."
+    },
+    {
+      "id": "tech_ship_armor_2",
+      "label": "Ceramo-Metal Materials",
+      "group": "engineering",
+      "title": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility."
+    },
+    {
+      "id": "tech_ship_armor_1",
+      "label": "Nanocomposite Materials",
+      "group": "engineering",
+      "title": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation."
+    },
+    {
+      "id": "tech_assault_armies",
+      "label": "Interplanetary Expeditionary Forces",
+      "group": "engineering",
+      "title": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies."
+    },
+    {
+      "id": "tech_strike_craft_3",
+      "label": "Advanced Strike Craft",
+      "group": "engineering",
+      "title": "A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models."
+    },
+    {
+      "id": "tech_strike_craft_2",
+      "label": "Improved Strike Craft",
+      "group": "engineering",
+      "title": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments."
+    },
+    {
+      "id": "tech_strike_craft_1",
+      "label": "Carrier Operations",
+      "group": "engineering",
+      "title": "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses."
+    },
+    {
+      "id": "tech_space_defense_station_improvement",
+      "label": "Corps of Engineers",
+      "group": "engineering",
+      "title": "The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability."
+    },
+    {
+      "id": "tech_modular_engineering",
+      "label": "Modular Engineering",
+      "group": "engineering",
+      "title": "Streamlined starbase construction procedures, using modular designs, will reduce the present build cost and time."
+    },
+    {
+      "id": "tech_starbase_5",
+      "label": "Citadel",
+      "group": "engineering",
+      "title": "Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs."
+    },
+    {
+      "id": "tech_starbase_4",
+      "label": "Star Fortress",
+      "group": "engineering",
+      "title": "These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers."
+    },
+    {
+      "id": "tech_starbase_3",
+      "label": "Starhold",
+      "group": "engineering",
+      "title": "As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes."
+    },
+    {
+      "id": "tech_starbase_2",
+      "label": "Starport",
+      "group": "engineering",
+      "title": "The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems."
+    },
+    {
+      "id": "tech_starbase_1",
+      "label": "Starbase Construction",
+      "group": "engineering",
+      "title": "A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system."
+    },
+    {
+      "id": "tech_titan_hull_2",
+      "label": "Advanced Titan Hulls",
+      "group": "engineering",
+      "title": "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads."
+    },
+    {
+      "id": "tech_titan_hull_1",
+      "label": "Improved Titan Hulls",
+      "group": "engineering",
+      "title": "Advances in building techniques will allow for the construction of sturdier and more durable titans."
+    },
+    {
+      "id": "tech_battleship_hull_2",
+      "label": "Advanced Battleship Hulls",
+      "group": "engineering",
+      "title": "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads."
+    },
+    {
+      "id": "tech_battleship_hull_1",
+      "label": "Improved Battleship Hulls",
+      "group": "engineering",
+      "title": "Advances in building techniques will allow for the construction of sturdier and more durable battleships."
+    },
+    {
+      "id": "tech_battleship_build_speed",
+      "label": "Standardized Battleship Patterns",
+      "group": "engineering",
+      "title": "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled."
+    },
+    {
+      "id": "tech_cruiser_hull_2",
+      "label": "Advanced Cruiser Hulls",
+      "group": "engineering",
+      "title": "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads."
+    },
+    {
+      "id": "tech_cruiser_hull_1",
+      "label": "Improved Cruiser Hulls",
+      "group": "engineering",
+      "title": "Advances in building techniques will allow for the construction of sturdier and more durable cruisers."
+    },
+    {
+      "id": "tech_cruiser_build_speed",
+      "label": "Standardized Cruiser Patterns",
+      "group": "engineering",
+      "title": "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline."
+    },
+    {
+      "id": "tech_destroyer_hull_2",
+      "label": "Advanced Destroyer Hulls",
+      "group": "engineering",
+      "title": "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads."
+    },
+    {
+      "id": "tech_destroyer_hull_1",
+      "label": "Improved Destroyer Hulls",
+      "group": "engineering",
+      "title": "Advances in building techniques will allow for the construction of sturdier and more durable destroyers."
+    },
+    {
+      "id": "tech_destroyer_build_speed",
+      "label": "Standardized Destroyer Patterns",
+      "group": "engineering",
+      "title": "Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline."
+    },
+    {
+      "id": "tech_corvette_hull_2",
+      "label": "Advanced Corvette Hulls",
+      "group": "engineering",
+      "title": "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads."
+    },
+    {
+      "id": "tech_corvette_hull_1",
+      "label": "Improved Corvette Hulls",
+      "group": "engineering",
+      "title": "Advances in building techniques will allow for the construction of sturdier and more durable corvettes."
+    },
+    {
+      "id": "tech_corvette_build_speed",
+      "label": "Standardized Corvette Patterns",
+      "group": "engineering",
+      "title": "Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline."
+    },
+    {
+      "id": "tech_titans",
+      "label": "Titans",
+      "group": "engineering",
+      "title": "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons."
+    },
+    {
+      "id": "tech_battleships",
+      "label": "Battleships",
+      "group": "engineering",
+      "title": "The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries."
+    },
+    {
+      "id": "tech_cruisers",
+      "label": "Cruisers",
+      "group": "engineering",
+      "title": "Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance."
+    },
+    {
+      "id": "tech_destroyers",
+      "label": "Destroyers",
+      "group": "engineering",
+      "title": "While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats."
+    },
+    {
+      "id": "tech_corvettes",
+      "label": "Corvettes",
+      "group": "engineering",
+      "title": "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower."
+    },
+    {
+      "id": "tech_space_exploration",
+      "label": "Space Exploration",
+      "group": "engineering",
+      "title": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary."
+    },
+    {
+      "id": "tech_solar_panel_network",
+      "label": "Orbital Energy Conversion",
+      "group": "engineering",
+      "title": "Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however."
+    },
+    {
+      "id": "tech_repeatable_reduced_building_time",
+      "label": "Assembly Algorithms",
+      "group": "engineering",
+      "title": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_strike_craft_fire_rate",
+      "label": "Heat Recyclers",
+      "group": "engineering",
+      "title": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_strike_craft_fire_damage",
+      "label": "Synapse Interceptors",
+      "group": "engineering",
+      "title": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_kinetic_fire_rate",
+      "label": "Loader Efficiency",
+      "group": "engineering",
+      "title": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_kinetic_damage",
+      "label": "High-Density Munitions",
+      "group": "engineering",
+      "title": "Ultra-dense slugs can punch through even the strongest of projected shields."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_explosive_fire_rate",
+      "label": "Miniaturized Pre-Igniters",
+      "group": "engineering",
+      "title": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads."
+    },
+    {
+      "id": "tech_repeatable_weapon_type_explosive_damage",
+      "label": "Thermodynamic Yield Control",
+      "group": "engineering",
+      "title": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact."
+    },
+    {
+      "id": "tech_repeatable_improved_armor_output",
+      "label": "Matter Compression",
+      "group": "engineering",
+      "title": "Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts."
+    },
+    {
+      "id": "tech_repeatable_improved_military_station_health",
+      "label": "Fortified Core Layers",
+      "group": "engineering",
+      "title": "Additional layers of armor plating within the structure itself improves the resilience of Military Stations."
+    },
+    {
+      "id": "tech_repeatable_improved_military_station_damage",
+      "label": "Synchronized Firing Patterns",
+      "group": "engineering",
+      "title": "Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time."
+    },
+    {
+      "id": "tech_repeatable_improved_tile_mineral_output",
+      "label": "Extraction Patterns",
+      "group": "engineering",
+      "title": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns."
+    },
+    {
+      "id": "tech_torpedoes_3",
+      "label": "Devastator Torpedoes",
+      "group": "engineering",
+      "title": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens."
+    },
+    {
+      "id": "tech_torpedoes_2",
+      "label": "Armored Torpedoes",
+      "group": "engineering",
+      "title": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates."
+    },
+    {
+      "id": "tech_torpedoes_1",
+      "label": "Space Torpedoes",
+      "group": "engineering",
+      "title": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens."
+    },
+    {
+      "id": "tech_swarmer_missiles_2",
+      "label": "Whirlwind Missiles",
+      "group": "engineering",
+      "title": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance."
+    },
+    {
+      "id": "tech_swarmer_missiles_1",
+      "label": "Swarmer Missiles",
+      "group": "engineering",
+      "title": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems."
+    },
+    {
+      "id": "tech_missiles_5",
+      "label": "Marauder Missiles",
+      "group": "engineering",
+      "title": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets."
+    },
+    {
+      "id": "tech_missiles_4",
+      "label": "Quantum Missiles",
+      "group": "engineering",
+      "title": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum."
+    },
+    {
+      "id": "tech_missiles_3",
+      "label": "Antimatter Missiles",
+      "group": "engineering",
+      "title": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets."
+    },
+    {
+      "id": "tech_missiles_2",
+      "label": "Fusion Missiles",
+      "group": "engineering",
+      "title": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance."
+    },
+    {
+      "id": "tech_missiles_1",
+      "label": "Nuclear Missiles",
+      "group": "engineering",
+      "title": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range."
+    },
+    {
+      "id": "tech_flak_batteries_3",
+      "label": "Flak Artillery",
+      "group": "engineering",
+      "title": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft."
+    },
+    {
+      "id": "tech_flak_batteries_2",
+      "label": "Flak Cannons",
+      "group": "engineering",
+      "title": "Upgraded flak batteries with new, more powerful shrapnel rounds."
+    },
+    {
+      "id": "tech_flak_batteries_1",
+      "label": "Flak Battery",
+      "group": "engineering",
+      "title": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles."
+    },
+    {
+      "id": "tech_autocannons_3",
+      "label": "Stormfire Cannons",
+      "group": "engineering",
+      "title": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target."
+    },
+    {
+      "id": "tech_autocannons_2",
+      "label": "Ripper Cannons",
+      "group": "engineering",
+      "title": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire."
+    },
+    {
+      "id": "tech_autocannons_1",
+      "label": "Autocannons",
+      "group": "engineering",
+      "title": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire."
+    },
+    {
+      "id": "tech_mass_accelerator_2",
+      "label": "Giga Cannon",
+      "group": "engineering",
+      "title": "An even more powerful mass accelerator cannon that can rip through even the toughest shields."
+    },
+    {
+      "id": "tech_mass_accelerator_1",
+      "label": "Mega Cannon",
+      "group": "engineering",
+      "title": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances."
+    },
+    {
+      "id": "tech_kinetic_artillery_2",
+      "label": "Kinetic Artillery",
+      "group": "engineering",
+      "title": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer."
+    },
+    {
+      "id": "tech_kinetic_artillery_1",
+      "label": "Kinetic Battery",
+      "group": "engineering",
+      "title": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy."
+    },
+    {
+      "id": "tech_mass_drivers_5",
+      "label": "Gauss Cannons",
+      "group": "engineering",
+      "title": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed."
+    },
+    {
+      "id": "tech_mass_drivers_4",
+      "label": "Advanced Railguns",
+      "group": "engineering",
+      "title": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors."
+    },
+    {
+      "id": "tech_mass_drivers_3",
+      "label": "Railguns",
+      "group": "engineering",
+      "title": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds."
+    },
+    {
+      "id": "tech_mass_drivers_2",
+      "label": "Coilguns",
+      "group": "engineering",
+      "title": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets."
+    },
+    {
+      "id": "tech_mass_drivers_1",
+      "label": "Mass Drivers",
+      "group": "engineering",
+      "title": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds."
+    },
+    {
+      "id": "tech_dark_matter_propulsion",
+      "label": "Dark Matter Propulsion",
+      "group": "engineering",
+      "title": "$SHIP_THRUSTER_5_DESC$"
+    },
+    {
+      "id": "tech_dragon_armor",
+      "label": "Artificial Dragonscales",
+      "group": "engineering",
+      "title": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures."
+    },
+    {
+      "id": "tech_orbital_trash_dispersal",
+      "label": "Orbital Trash Dispersal",
+      "group": "engineering",
+      "title": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment."
+    },
+    {
+      "id": "tech_nanite_transmutation",
+      "label": "Nanite Transmutation",
+      "group": "engineering",
+      "title": "The mass-production of these rare resources require particularly capable nanites."
+    },
+    {
+      "id": "tech_rare_crystals",
+      "label": "Rare Crystal Manufacturing",
+      "group": "engineering",
+      "title": "The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants."
+    },
+    {
+      "id": "tech_mine_rare_crystals",
+      "label": "Rare Crystal Mining",
+      "group": "engineering",
+      "title": "Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision."
+    },
+    {
+      "id": "tech_exotic_gases",
+      "label": "Exotic Gas Refining",
+      "group": "engineering",
+      "title": "Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment."
+    },
+    {
+      "id": "tech_mine_exotic_gases",
+      "label": "Exotic Gas Extraction",
+      "group": "engineering",
+      "title": "Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology."
+    },
+    {
+      "id": "tech_mine_volatile_motes",
+      "label": "Mote Stabilization",
+      "group": "engineering",
+      "title": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes."
+    },
+    {
+      "id": "tech_mine_betharian",
+      "label": "Betharian Refining",
+      "group": "engineering",
+      "title": "The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable."
+    },
+    {
+      "id": "tech_mine_living_metal",
+      "label": "Living Metal",
+      "group": "engineering",
+      "title": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages."
+    },
+    {
+      "id": "tech_self_assembling_components",
+      "label": "Self-Assembling Components",
+      "group": "engineering",
+      "title": "Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones."
+    },
+    {
+      "id": "tech_micro_replicators",
+      "label": "Micro-Replicators",
+      "group": "engineering",
+      "title": "Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones."
+    },
+    {
+      "id": "tech_nanite_assemblers",
+      "label": "Nanite Assemblers",
+      "group": "engineering",
+      "title": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems."
+    },
+    {
+      "id": "tech_binary_motivators",
+      "label": "Binary Motivators",
+      "group": "engineering",
+      "title": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems."
+    },
+    {
+      "id": "tech_robomodding_points_2",
+      "label": "Fungible Circuitry",
+      "group": "engineering",
+      "title": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality."
+    },
+    {
+      "id": "tech_robomodding_points_1",
+      "label": "Cross-Model Standardization",
+      "group": "engineering",
+      "title": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality."
+    },
+    {
+      "id": "tech_robomodding",
+      "label": "Machine Template System",
+      "group": "engineering",
+      "title": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs."
+    },
+    {
+      "id": "tech_robomodding_m",
+      "label": "Machine Template System",
+      "group": "engineering",
+      "title": "Standardization of assembly templates allow for improved specialization of the drone population."
+    }
+  ],
+  "edges": [
+    {
+      "from": "tech_colossus",
+      "to": "tech_pk_nanobots",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colossus",
+      "to": "tech_pk_cracker",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_titans",
+      "to": "tech_colossus",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_mega_engineering",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mega_engineering",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_mega_engineering",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_housing_1",
+      "to": "tech_housing_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_assembly_pattern",
+      "to": "tech_construction_templates",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_engineering_1",
+      "to": "tech_assembly_pattern",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_afterburners_1",
+      "to": "tech_afterburners_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_3",
+      "to": "tech_afterburners_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_1",
+      "to": "tech_afterburners_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_synthetic_workers",
+      "to": "tech_synthetic_leaders",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_synthetic_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_synthetic_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_synthetic_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_droid_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_droid_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robotic_workers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_engineering_2",
+      "to": "tech_engineering_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_engineering_1",
+      "to": "tech_engineering_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_luxuries_1",
+      "to": "tech_luxuries_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_luxuries_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_luxuries_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_alloys_1",
+      "to": "tech_alloys_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_alloys_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_alloys_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mineral_purification_1",
+      "to": "tech_mineral_purification_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_mineral_purification_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mining_1",
+      "to": "tech_mineral_purification_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mining_2",
+      "to": "tech_mining_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mining_1",
+      "to": "tech_mining_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_mining_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_mining_4",
+      "to": "tech_space_mining_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_mining_3",
+      "to": "tech_space_mining_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_mining_2",
+      "to": "tech_space_mining_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_mining_1",
+      "to": "tech_space_mining_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_space_mining_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_powered_exoskeletons",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_defense_platform_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_1",
+      "to": "tech_space_defense_station_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_3",
+      "to": "tech_thrusters_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_2",
+      "to": "tech_thrusters_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_1",
+      "to": "tech_thrusters_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_ship_armor_4",
+      "to": "tech_ship_armor_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_ship_armor_3",
+      "to": "tech_ship_armor_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_ship_armor_2",
+      "to": "tech_ship_armor_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_ship_armor_1",
+      "to": "tech_ship_armor_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_planetary_defenses",
+      "to": "tech_assault_armies",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_strike_craft_2",
+      "to": "tech_strike_craft_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_strike_craft_1",
+      "to": "tech_strike_craft_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_2",
+      "to": "tech_strike_craft_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_4",
+      "to": "tech_space_defense_station_improvement",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_modular_engineering",
+      "to": "tech_space_defense_station_improvement",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_modular_engineering",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_4",
+      "to": "tech_starbase_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_starbase_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_2",
+      "to": "tech_starbase_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_1",
+      "to": "tech_starbase_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_starbase_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_titan_hull_1",
+      "to": "tech_titan_hull_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_titans",
+      "to": "tech_titan_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleship_hull_1",
+      "to": "tech_battleship_hull_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_battleship_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_battleship_build_speed",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_cruiser_hull_1",
+      "to": "tech_cruiser_hull_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_cruisers",
+      "to": "tech_cruiser_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_cruisers",
+      "to": "tech_cruiser_build_speed",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_destroyer_hull_1",
+      "to": "tech_destroyer_hull_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_destroyers",
+      "to": "tech_destroyer_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_destroyers",
+      "to": "tech_destroyer_build_speed",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_corvette_hull_1",
+      "to": "tech_corvette_hull_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_corvettes",
+      "to": "tech_corvette_hull_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_corvettes",
+      "to": "tech_corvette_build_speed",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_titans",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_cruisers",
+      "to": "tech_battleships",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_destroyers",
+      "to": "tech_cruisers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_corvettes",
+      "to": "tech_destroyers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_2",
+      "to": "tech_corvettes",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_space_exploration",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_starbase_2",
+      "to": "tech_solar_panel_network",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_construction_templates",
+      "to": "tech_repeatable_reduced_building_time",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_strike_craft_3",
+      "to": "tech_repeatable_weapon_type_strike_craft_fire_rate",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_strike_craft_3",
+      "to": "tech_repeatable_weapon_type_strike_craft_fire_damage",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_repeatable_weapon_type_kinetic_fire_rate",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_repeatable_weapon_type_kinetic_damage",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_repeatable_weapon_type_explosive_fire_rate",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_repeatable_weapon_type_explosive_damage",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_ship_armor_3",
+      "to": "tech_repeatable_improved_armor_output",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_defense_platform_hull_1",
+      "to": "tech_repeatable_improved_military_station_health",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_defense_platform_hull_1",
+      "to": "tech_repeatable_improved_military_station_damage",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mineral_purification_2",
+      "to": "tech_repeatable_improved_tile_mineral_output",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_torpedoes_2",
+      "to": "tech_torpedoes_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_torpedoes_1",
+      "to": "tech_torpedoes_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_torpedoes_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_swarmer_missiles_1",
+      "to": "tech_swarmer_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_swarmer_missiles_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_4",
+      "to": "tech_missiles_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_missiles_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_missiles_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_flak_batteries_2",
+      "to": "tech_flak_batteries_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_flak_batteries_1",
+      "to": "tech_flak_batteries_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_autocannons_2",
+      "to": "tech_autocannons_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_autocannons_1",
+      "to": "tech_autocannons_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_autocannons_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_accelerator_1",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_kinetic_artillery_1",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_kinetic_artillery_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_drivers_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_mass_drivers_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_mass_drivers_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_1",
+      "to": "tech_mass_drivers_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_thrusters_4",
+      "to": "tech_dark_matter_propulsion",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_rare_crystals",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_mine_rare_crystals",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_basic_industry",
+      "to": "tech_exotic_gases",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_mine_exotic_gases",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_mine_volatile_motes",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_mine_betharian",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_mine_living_metal",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_self_assembling_components",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_binary_motivators",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_binary_motivators",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding_m",
+      "to": "tech_binary_motivators",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding_points_1",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_synthetic_workers",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_robomodding",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robomodding_m",
+      "arrows": "to"
+    }
+  ]
+}`

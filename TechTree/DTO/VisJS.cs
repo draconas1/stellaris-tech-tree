@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace TechTree.DTO
 {
 #pragma warning disable IDE1006 // Naming Styles - must match json properties
-    class VisData
+    public class VisData
     {
         public List<VisNode> nodes { get; set; }
         public List<VisEdge> edges { get; set; }
@@ -15,9 +17,58 @@ namespace TechTree.DTO
             nodes = new List<VisNode>();
             edges = new List<VisEdge>();
         }
+
+        /// <summary>
+        /// Output JSON to files for loading into graph
+        /// </summary>
+        /// <param name="toDir">Directory where the files will be written</param>
+        /// <param name="edgesFile">Name of the edges file, defaults to "edges.json"</param>
+        /// <param name="nodesFile">Name of the nodes file, defaults to "nodes.json"</param>
+        public void WriteVisData(string toDir, string nodesFile = "nodes.json", string edgesFile = "edges.json")
+        {
+
+            JsonSerializer serializer = new JsonSerializer();
+            serializer.Formatting = Formatting.Indented;
+
+            using (JsonWriter writer = new JsonTextWriter(new StreamWriter(Path.Combine(toDir, nodesFile))))
+            {
+                serializer.Serialize(writer, nodes);
+            }
+            using (JsonWriter writer = new JsonTextWriter(new StreamWriter(Path.Combine(toDir, edgesFile))))
+            {
+                serializer.Serialize(writer, edges);
+            }
+        }
+
+        /// <summary>
+        /// Writes a single file that is a JS object of the data json.  The file will have a single javascript variable called GraphData that will be a single string of this VisData object.  (template so requires an Es6 complient browser.  
+        /// This can then be loaded into html using {script} tags and accessed using 
+        ///  var rawData = JSON.parse(GraphData);
+        /// var nodeJson = new vis.DataSet(rawData.nodes);
+        /// var edgeJson = new vis.DataSet(rawData.edges);
+        /// </summary>
+        /// <param name="toDir"></param>
+        /// <param name="fileName"></param>
+        public void WriteVisDataToOneJSFile(string toDir, string fileName = "graph.json")
+        {
+            JsonSerializer serializer = new JsonSerializer();
+            serializer.Formatting = Formatting.Indented;
+
+            var writer = new StringWriter();
+            writer.Write("GraphData = `");
+
+            serializer.Serialize(new JsonTextWriter(writer), this);
+
+            writer.Write("`");
+
+            using (var streamWriter = new StreamWriter(Path.Combine(toDir, fileName)))
+            {
+                streamWriter.WriteLine(writer.ToString());
+            }
+        }
     }
 
-    class VisNode
+    public class VisNode
     {
         // {id: 'soc-Hydroponics', label: 'Hydroponics', group: 'society', title: 'Large-scale hydroponics farms producing nutrient-rich produce helps sustain a growing population while minimizing negative environmental impact.'},
 
@@ -28,7 +79,7 @@ namespace TechTree.DTO
         public string title { get; set; }
     }
 
-    class VisEdge
+    public class VisEdge
     {
         //{from: 'soc-Hydroponics', to: 'soc-Eco Simulatio', arrows: 'to'}
 
