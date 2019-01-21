@@ -7,6 +7,7 @@ using System.Linq;
 using CWTools.Process;
 using Microsoft.FSharp.Core;
 using System.IO;
+using System.Text.RegularExpressions;
 using CWTools.CSharp;
 using static CWTools.Parser.Types;
 using static CWTools.Utilities.Position;
@@ -20,20 +21,17 @@ using Newtonsoft.Json;
 
 namespace TechTree
 {
-   
-
-
-   
-    class Program
-    {
+    class Program {
+        public const Boolean MAC = true;
+        
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
-        public const string ROOT_IN_USE = STELLARIS_ROOT_WINDOWS;
+        public const string ROOT_IN_USE = MAC ? STELLARIS_ROOT_MAC : STELLARIS_ROOT_WINDOWS;
         
         
         public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree";
-        public const string OUTPUT_MAC = "/Users/christian/dev/graph";
-        public const string OUTPUT_IN_USE = OUTPUT_WINDOWS;
+        public const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree";
+        public const string OUTPUT_IN_USE = MAC ? OUTPUT_MAC : OUTPUT_WINDOWS;
         static void Main(string[] args)
         {
             //Support UTF-8
@@ -52,7 +50,7 @@ namespace TechTree
             var visResults = parser.ParseTechFiles();
 
             //save
-            visResults.WriteVisDataToOneJSFile(OUTPUT_WINDOWS);
+            visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
 
             Console.WriteLine("done");
             Console.ReadLine();

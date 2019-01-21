@@ -1,34 +1,226 @@
 GraphData = `{
   "nodes": [
     {
+      "id": "tech_dark_matter_propulsion",
+      "label": "Dark Matter Propulsion",
+      "group": "engineering",
+      "title": "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics."
+    },
+    {
+      "id": "tech_self_assembling_components",
+      "label": "Self-Assembling Components",
+      "group": "engineering",
+      "title": "Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones."
+    },
+    {
+      "id": "tech_micro_replicators",
+      "label": "Micro-Replicators",
+      "group": "engineering",
+      "title": "Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones."
+    },
+    {
+      "id": "tech_nanite_assemblers",
+      "label": "Nanite Assemblers",
+      "group": "engineering",
+      "title": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems."
+    },
+    {
+      "id": "tech_binary_motivators",
+      "label": "Binary Motivators",
+      "group": "engineering",
+      "title": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems."
+    },
+    {
+      "id": "tech_robomodding_points_2",
+      "label": "Fungible Circuitry",
+      "group": "engineering",
+      "title": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality."
+    },
+    {
+      "id": "tech_robomodding_points_1",
+      "label": "Cross-Model Standardization",
+      "group": "engineering",
+      "title": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality."
+    },
+    {
+      "id": "tech_robomodding",
+      "label": "Machine Template System",
+      "group": "engineering",
+      "title": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs."
+    },
+    {
+      "id": "tech_robomodding_m",
+      "label": "Machine Template System",
+      "group": "engineering",
+      "title": "Standardization of assembly templates allow for improved specialization of the drone population."
+    },
+    {
+      "id": "tech_torpedoes_3",
+      "label": "Devastator Torpedoes",
+      "group": "engineering",
+      "title": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens."
+    },
+    {
+      "id": "tech_torpedoes_2",
+      "label": "Armored Torpedoes",
+      "group": "engineering",
+      "title": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates."
+    },
+    {
+      "id": "tech_torpedoes_1",
+      "label": "Space Torpedoes",
+      "group": "engineering",
+      "title": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens."
+    },
+    {
+      "id": "tech_swarmer_missiles_2",
+      "label": "Whirlwind Missiles",
+      "group": "engineering",
+      "title": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance."
+    },
+    {
+      "id": "tech_swarmer_missiles_1",
+      "label": "Swarmer Missiles",
+      "group": "engineering",
+      "title": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems."
+    },
+    {
+      "id": "tech_missiles_5",
+      "label": "Marauder Missiles",
+      "group": "engineering",
+      "title": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets."
+    },
+    {
+      "id": "tech_missiles_4",
+      "label": "Quantum Missiles",
+      "group": "engineering",
+      "title": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum."
+    },
+    {
+      "id": "tech_missiles_3",
+      "label": "Antimatter Missiles",
+      "group": "engineering",
+      "title": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets."
+    },
+    {
+      "id": "tech_missiles_2",
+      "label": "Fusion Missiles",
+      "group": "engineering",
+      "title": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance."
+    },
+    {
+      "id": "tech_missiles_1",
+      "label": "Nuclear Missiles",
+      "group": "engineering",
+      "title": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range."
+    },
+    {
+      "id": "tech_flak_batteries_3",
+      "label": "Flak Artillery",
+      "group": "engineering",
+      "title": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft."
+    },
+    {
+      "id": "tech_flak_batteries_2",
+      "label": "Flak Cannons",
+      "group": "engineering",
+      "title": "Upgraded flak batteries with new, more powerful shrapnel rounds."
+    },
+    {
+      "id": "tech_flak_batteries_1",
+      "label": "Flak Battery",
+      "group": "engineering",
+      "title": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles."
+    },
+    {
+      "id": "tech_autocannons_3",
+      "label": "Stormfire Cannons",
+      "group": "engineering",
+      "title": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target."
+    },
+    {
+      "id": "tech_autocannons_2",
+      "label": "Ripper Cannons",
+      "group": "engineering",
+      "title": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire."
+    },
+    {
+      "id": "tech_autocannons_1",
+      "label": "Autocannons",
+      "group": "engineering",
+      "title": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire."
+    },
+    {
+      "id": "tech_mass_accelerator_2",
+      "label": "Giga Cannon",
+      "group": "engineering",
+      "title": "An even more powerful mass accelerator cannon that can rip through even the toughest shields."
+    },
+    {
+      "id": "tech_mass_accelerator_1",
+      "label": "Mega Cannon",
+      "group": "engineering",
+      "title": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances."
+    },
+    {
+      "id": "tech_kinetic_artillery_2",
+      "label": "Kinetic Artillery",
+      "group": "engineering",
+      "title": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer."
+    },
+    {
+      "id": "tech_kinetic_artillery_1",
+      "label": "Kinetic Battery",
+      "group": "engineering",
+      "title": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy."
+    },
+    {
+      "id": "tech_mass_drivers_5",
+      "label": "Gauss Cannons",
+      "group": "engineering",
+      "title": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed."
+    },
+    {
+      "id": "tech_mass_drivers_4",
+      "label": "Advanced Railguns",
+      "group": "engineering",
+      "title": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors."
+    },
+    {
+      "id": "tech_mass_drivers_3",
+      "label": "Railguns",
+      "group": "engineering",
+      "title": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds."
+    },
+    {
+      "id": "tech_mass_drivers_2",
+      "label": "Coilguns",
+      "group": "engineering",
+      "title": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets."
+    },
+    {
+      "id": "tech_mass_drivers_1",
+      "label": "Mass Drivers",
+      "group": "engineering",
+      "title": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds."
+    },
+    {
       "id": "tech_pk_nanobots",
       "label": "Atmospheric Nanobot Dispersal",
       "group": "engineering",
-      "title": "$PLANET_KILLER_NANOBOTS$"
+      "title": "Nanobot Diffuser"
     },
     {
       "id": "tech_pk_cracker",
       "label": "Core Cracking",
       "group": "engineering",
-      "title": "$PLANET_KILLER_CRACKER_DESC$"
+      "title": "A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open."
     },
     {
       "id": "tech_colossus",
       "label": "Colossi",
       "group": "engineering",
       "title": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button."
-    },
-    {
-      "id": "tech_nanite_repair_system",
-      "label": "Nanite Repair System",
-      "group": "engineering",
-      "title": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown."
-    },
-    {
-      "id": "tech_repeatable_lcluster_clue",
-      "label": "$clue$",
-      "group": "engineering",
-      "title": "Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new §Y$clue$§! into the $lgate_disabled$ mystery."
     },
     {
       "id": "tech_mega_engineering",
@@ -559,172 +751,28 @@ GraphData = `{
       "title": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns."
     },
     {
-      "id": "tech_torpedoes_3",
-      "label": "Devastator Torpedoes",
+      "id": "tech_nanite_repair_system",
+      "label": "Nanite Repair System",
       "group": "engineering",
-      "title": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens."
+      "title": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown."
     },
     {
-      "id": "tech_torpedoes_2",
-      "label": "Armored Torpedoes",
+      "id": "tech_repeatable_lcluster_clue",
+      "label": "L-Gate Insight",
       "group": "engineering",
-      "title": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates."
-    },
-    {
-      "id": "tech_torpedoes_1",
-      "label": "Space Torpedoes",
-      "group": "engineering",
-      "title": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens."
-    },
-    {
-      "id": "tech_swarmer_missiles_2",
-      "label": "Whirlwind Missiles",
-      "group": "engineering",
-      "title": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance."
-    },
-    {
-      "id": "tech_swarmer_missiles_1",
-      "label": "Swarmer Missiles",
-      "group": "engineering",
-      "title": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems."
-    },
-    {
-      "id": "tech_missiles_5",
-      "label": "Marauder Missiles",
-      "group": "engineering",
-      "title": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets."
-    },
-    {
-      "id": "tech_missiles_4",
-      "label": "Quantum Missiles",
-      "group": "engineering",
-      "title": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum."
-    },
-    {
-      "id": "tech_missiles_3",
-      "label": "Antimatter Missiles",
-      "group": "engineering",
-      "title": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets."
-    },
-    {
-      "id": "tech_missiles_2",
-      "label": "Fusion Missiles",
-      "group": "engineering",
-      "title": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance."
-    },
-    {
-      "id": "tech_missiles_1",
-      "label": "Nuclear Missiles",
-      "group": "engineering",
-      "title": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range."
-    },
-    {
-      "id": "tech_flak_batteries_3",
-      "label": "Flak Artillery",
-      "group": "engineering",
-      "title": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft."
-    },
-    {
-      "id": "tech_flak_batteries_2",
-      "label": "Flak Cannons",
-      "group": "engineering",
-      "title": "Upgraded flak batteries with new, more powerful shrapnel rounds."
-    },
-    {
-      "id": "tech_flak_batteries_1",
-      "label": "Flak Battery",
-      "group": "engineering",
-      "title": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles."
-    },
-    {
-      "id": "tech_autocannons_3",
-      "label": "Stormfire Cannons",
-      "group": "engineering",
-      "title": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target."
-    },
-    {
-      "id": "tech_autocannons_2",
-      "label": "Ripper Cannons",
-      "group": "engineering",
-      "title": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire."
-    },
-    {
-      "id": "tech_autocannons_1",
-      "label": "Autocannons",
-      "group": "engineering",
-      "title": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire."
-    },
-    {
-      "id": "tech_mass_accelerator_2",
-      "label": "Giga Cannon",
-      "group": "engineering",
-      "title": "An even more powerful mass accelerator cannon that can rip through even the toughest shields."
-    },
-    {
-      "id": "tech_mass_accelerator_1",
-      "label": "Mega Cannon",
-      "group": "engineering",
-      "title": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances."
-    },
-    {
-      "id": "tech_kinetic_artillery_2",
-      "label": "Kinetic Artillery",
-      "group": "engineering",
-      "title": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer."
-    },
-    {
-      "id": "tech_kinetic_artillery_1",
-      "label": "Kinetic Battery",
-      "group": "engineering",
-      "title": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy."
-    },
-    {
-      "id": "tech_mass_drivers_5",
-      "label": "Gauss Cannons",
-      "group": "engineering",
-      "title": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed."
-    },
-    {
-      "id": "tech_mass_drivers_4",
-      "label": "Advanced Railguns",
-      "group": "engineering",
-      "title": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors."
-    },
-    {
-      "id": "tech_mass_drivers_3",
-      "label": "Railguns",
-      "group": "engineering",
-      "title": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds."
-    },
-    {
-      "id": "tech_mass_drivers_2",
-      "label": "Coilguns",
-      "group": "engineering",
-      "title": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets."
-    },
-    {
-      "id": "tech_mass_drivers_1",
-      "label": "Mass Drivers",
-      "group": "engineering",
-      "title": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds."
-    },
-    {
-      "id": "tech_dark_matter_propulsion",
-      "label": "Dark Matter Propulsion",
-      "group": "engineering",
-      "title": "$SHIP_THRUSTER_5_DESC$"
-    },
-    {
-      "id": "tech_dragon_armor",
-      "label": "Artificial Dragonscales",
-      "group": "engineering",
-      "title": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures."
+      "title": "Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new §YL-Gate Insight§! into the Disabled L-Gate mystery."
     },
     {
       "id": "tech_orbital_trash_dispersal",
       "label": "Orbital Trash Dispersal",
       "group": "engineering",
       "title": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment."
+    },
+    {
+      "id": "tech_dragon_armor",
+      "label": "Artificial Dragonscales",
+      "group": "engineering",
+      "title": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures."
     },
     {
       "id": "tech_nanite_transmutation",
@@ -773,57 +821,199 @@ GraphData = `{
       "label": "Living Metal",
       "group": "engineering",
       "title": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages."
-    },
-    {
-      "id": "tech_self_assembling_components",
-      "label": "Self-Assembling Components",
-      "group": "engineering",
-      "title": "Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones."
-    },
-    {
-      "id": "tech_micro_replicators",
-      "label": "Micro-Replicators",
-      "group": "engineering",
-      "title": "Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones."
-    },
-    {
-      "id": "tech_nanite_assemblers",
-      "label": "Nanite Assemblers",
-      "group": "engineering",
-      "title": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems."
-    },
-    {
-      "id": "tech_binary_motivators",
-      "label": "Binary Motivators",
-      "group": "engineering",
-      "title": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems."
-    },
-    {
-      "id": "tech_robomodding_points_2",
-      "label": "Fungible Circuitry",
-      "group": "engineering",
-      "title": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality."
-    },
-    {
-      "id": "tech_robomodding_points_1",
-      "label": "Cross-Model Standardization",
-      "group": "engineering",
-      "title": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality."
-    },
-    {
-      "id": "tech_robomodding",
-      "label": "Machine Template System",
-      "group": "engineering",
-      "title": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs."
-    },
-    {
-      "id": "tech_robomodding_m",
-      "label": "Machine Template System",
-      "group": "engineering",
-      "title": "Standardization of assembly templates allow for improved specialization of the drone population."
     }
   ],
   "edges": [
+    {
+      "from": "tech_thrusters_4",
+      "to": "tech_dark_matter_propulsion",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_self_assembling_components",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_binary_motivators",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_binary_motivators",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding_m",
+      "to": "tech_binary_motivators",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding_points_1",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_synthetic_workers",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robomodding",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_robomodding",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robomodding_m",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_torpedoes_2",
+      "to": "tech_torpedoes_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_torpedoes_1",
+      "to": "tech_torpedoes_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_torpedoes_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_swarmer_missiles_1",
+      "to": "tech_swarmer_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_swarmer_missiles_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_4",
+      "to": "tech_missiles_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_missiles_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_missiles_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_missiles_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_flak_batteries_2",
+      "to": "tech_flak_batteries_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_flak_batteries_1",
+      "to": "tech_flak_batteries_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_autocannons_2",
+      "to": "tech_autocannons_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_autocannons_1",
+      "to": "tech_autocannons_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_autocannons_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_accelerator_1",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_kinetic_artillery_1",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_kinetic_artillery_1",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_drivers_5",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_mass_drivers_4",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_mass_drivers_3",
+      "arrows": "to"
+    },
+    {
+      "from": "tech_mass_drivers_1",
+      "to": "tech_mass_drivers_2",
+      "arrows": "to"
+    },
     {
       "from": "tech_colossus",
       "to": "tech_pk_nanobots",
@@ -1285,141 +1475,6 @@ GraphData = `{
       "arrows": "to"
     },
     {
-      "from": "tech_torpedoes_2",
-      "to": "tech_torpedoes_3",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_torpedoes_1",
-      "to": "tech_torpedoes_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_torpedoes_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_swarmer_missiles_1",
-      "to": "tech_swarmer_missiles_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_swarmer_missiles_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_4",
-      "to": "tech_missiles_5",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_3",
-      "to": "tech_missiles_4",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_missiles_3",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_missiles_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_missiles_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_flak_batteries_2",
-      "to": "tech_flak_batteries_3",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_flak_batteries_1",
-      "to": "tech_flak_batteries_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_autocannons_2",
-      "to": "tech_autocannons_3",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_autocannons_1",
-      "to": "tech_autocannons_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_autocannons_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_accelerator_1",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_kinetic_artillery_1",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_kinetic_artillery_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_drivers_5",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_3",
-      "to": "tech_mass_drivers_4",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_mass_drivers_3",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_mass_drivers_1",
-      "to": "tech_mass_drivers_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_thrusters_4",
-      "to": "tech_dark_matter_propulsion",
-      "arrows": "to"
-    },
-    {
       "from": "tech_basic_industry",
       "to": "tech_rare_crystals",
       "arrows": "to"
@@ -1452,61 +1507,6 @@ GraphData = `{
     {
       "from": "tech_space_construction",
       "to": "tech_mine_living_metal",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_micro_replicators",
-      "to": "tech_self_assembling_components",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_binary_motivators",
-      "to": "tech_nanite_assemblers",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_nanite_assemblers",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_binary_motivators",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_robomodding_m",
-      "to": "tech_binary_motivators",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_robomodding_points_1",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_synthetic_workers",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_robomodding",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_droid_workers",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_robomodding",
-      "arrows": "to"
-    },
-    {
-      "from": "tech_powered_exoskeletons",
-      "to": "tech_robomodding_m",
       "arrows": "to"
     }
   ]

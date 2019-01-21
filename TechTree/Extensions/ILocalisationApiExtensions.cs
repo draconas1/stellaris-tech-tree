@@ -2,14 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace TechTree.Extensions
 {
     /// <summary>
     /// Extension methods for working with ILocalisationAPI
     /// </summary>
-    public static class ILocalisationApiExtensions
-    {
+    public static class ILocalisationApiExtensions {
+        private static readonly Regex VariableRegex = new Regex(@"(?<var>\$(?<varname>.+?)\$)");
         /// <summary>
         /// Get the primary text for a key, it's main name.  
         /// </summary>
@@ -35,6 +36,19 @@ namespace TechTree.Extensions
             {
                 result = result.Substring(0, result.IndexOf("#") - 1);
                 result = result.Trim();
+            }
+
+            // follow variables in the localisation text, they are denoted by $varName$ 
+            Match match = VariableRegex.Match(result);
+            while (match.Success) {
+                // get the name of the variable to find in localisation
+                var variableName = match.Groups["varname"].Value;
+                // go find the value of that variable, note recurision
+                string replacement = getValue(api, variableName);
+                // Replace is equivalent of javas ReplaceAll
+                result = result.Replace(match.Groups["var"].Value, replacement);
+                // look for other variables
+                match = VariableRegex.Match(result);
             }
 
             // remove the surrounding quotation marks
