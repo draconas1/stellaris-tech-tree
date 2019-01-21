@@ -42,8 +42,10 @@ namespace TechTree
 
             // setup parser
             var dirHelper = new StellarisDirectoryHelper(ROOT_IN_USE);
-            var parser = new TechTreeParser(localisation, dirHelper.Technology);
+            var scriptedVariablesHelper = new ScriptedVariableParser(dirHelper.ScriptedVariables);
+            var parser = new TechTreeParser(localisation, scriptedVariablesHelper.ParseScriptedVariables(), dirHelper.Technology);
             parser.IgnoreFiles.AddRange(new string[] { "00_tier.txt", "00_category.txt" });
+            parser.Areas.Add("physics");
             //parser.ParseFileMask = "00_eng_tech.txt";
            
             // get the results parsed into nice tech tree format

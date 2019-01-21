@@ -25,15 +25,59 @@ namespace TechTree.CWParser
         /// File mask used for finding files.  defaults to "*.txt"
         /// </summary>
         public string ParseFileMask { get; set; }
+
+        public ISet<string> Areas { get; set; }
+
+        public ISet<string> Categories { get; set; }
+
         private readonly ILocalisationAPI localisationAPI;
+        private readonly Dictionary<string, string> scriptedVariables;
         private readonly string rootTechDir;
 
-        public TechTreeParser(ILocalisationAPI localisationAPI, string rootTechDir)
+        //the minimum cost to be on a specific level of the graph
+        private readonly int[] techLevelCosts;
+        // in vanilla tier costs generally go up, however free floating costs or a mod could adjust those so a tierX tech is the same price as a tierX-1 tech.
+        // so this lookup sets the mimum level a tech can be at based on its tier.
+        private readonly Dictionary<int, int> techLevelLookupStartByTier;
+       
+
+        public TechTreeParser(ILocalisationAPI localisationAPI, Dictionary<string, string> scriptedVariables, string rootTechDir)
         {
             this.localisationAPI = localisationAPI;
+            this.scriptedVariables = scriptedVariables;
             this.rootTechDir = rootTechDir;
             IgnoreFiles = new List<string>();
             ParseFileMask = "*.txt";
+            Areas = new HashSet<string>();
+            Categories = new HashSet<string>();
+
+            // build the level list using the tech tier prices from scripted variables.
+            Dictionary<int, int> startIndex = new Dictionary<int, int>();
+            startIndex[0] = 0;
+            List<int> levels = new List<int>();
+            levels.Add(0);
+            levels.Add(500);
+            for(int tier = 1; tier <= 6; tier++)
+            {
+                for (int cost = 1; cost <= 5; cost++)
+                {
+                    var key = "@tier" + tier + "cost" + cost;
+                    if (scriptedVariables.ContainsKey(key))
+                    {
+                        if (!startIndex.ContainsKey(tier))
+                        {
+                            startIndex[tier] = levels.Count();
+                        }
+                        levels.Add(Int32.Parse(scriptedVariables[key]));
+                    }
+                }
+            }
+            // catch repeatable techs
+            levels.Add(levels.Last() + 1000);
+            // another level for much higher costing things
+            levels.Add(levels.Last() + 10000);
+            techLevelLookupStartByTier = startIndex;
+            techLevelCosts = levels.ToArray();
         }
 
         public VisData ParseTechFiles()
@@ -46,17 +90,35 @@ namespace TechTree.CWParser
                 // top level nodes are files, so we process the immiedate children of each file, which is the individual techs.
                 foreach (var node in file.Nodes)
                 {
-                    if (node.GetKeyValue("area") == "society")
+                    bool process = true;
+                    if (Areas.Count() > 0 && !Areas.Contains(node.GetKeyValue("area")))
                     {
-                       
+                        process = false;
                     }
-                    result.nodes.Add(ProcessNode(node));
-                    result.edges.AddRange(ProcessNodeLinks(node));
+                    if (Categories.Count() > 0 && !(Categories.Intersect(getCategories(node)).Count() > 0))
+                    {
+                        process = false;
+                    }
+
+                    if (process)
+                    {
+                        result.nodes.Add(ProcessNode(node));
+                        result.edges.AddRange(ProcessNodeLinks(node));
+                    }
                 }
             }
             return result;
         }
 
+        private List<string> getCategories(CWNode node)
+        {
+            var cats = node.GetNode("category");
+            if (cats != null)
+            {
+                return cats.Values;
+            }
+            return new List<string>();
+        }
 
         public VisNode ProcessNode(CWNode node)
         {
@@ -64,9 +126,46 @@ namespace TechTree.CWParser
             {
                 id = node.Key,
                 label = localisationAPI.GetName(node.Key),
-                title = localisationAPI.GetDescription(node.Key),
+                title = "<i>" + localisationAPI.GetDescription(node.Key) + "</i>",
                 group = node.GetKeyValue("area")
             };
+
+            var tier = int.Parse(node.GetKeyValue("tier", scriptedVariables) ?? "0");
+            result.title = result.title + "<br/><b>Tier: </b>" + tier;
+
+            if (node.GetNode("category") != null)
+            {
+                var categories = node.GetNode("category").Values;
+                var catString = categories.Count > 1 ? "Categories" : "Category";
+                var categoriesLocalised = categories.Select(x => localisationAPI.GetName(x)).ToArray();
+
+                result.title = result.title + "<br/><b>" + catString + ": </b>" + string.Join(",", categoriesLocalised);
+            }
+
+
+            // get the cost, this may be a variable.
+            // eugh, probably need to add scripted variables from the files themselves for working with mods.
+            string coststr = node.GetKeyValue("cost", scriptedVariables) ?? "0";
+            int cost = int.Parse(coststr);
+            result.title = result.title + "<br/><b>Base cost: </b>" + cost;
+
+            // find what level of the graph its meant to be on.  
+            // find the minimum level first based on its tier
+            var startindex = techLevelLookupStartByTier[tier];
+            result.level = startindex;
+            // no go through the remaining levels and keep bumping our level up if we make the cut.
+            for (int i = startindex; i< techLevelCosts.Length; i++)
+            {
+                if (cost >= techLevelCosts[i])
+                {
+                    result.level = i;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            
 
             // rare purple tech
             if ("yes".Equals(node.GetKeyValue("is_rare"), StringComparison.InvariantCultureIgnoreCase))
@@ -79,6 +178,7 @@ namespace TechTree.CWParser
             if ("yes".Equals(node.GetKeyValue("start_tech"), StringComparison.InvariantCultureIgnoreCase))
             {
                 setBorder(result, "#00CE56");
+                result.level = 0; //start tech is always level 0
             }
 
             // may cause endgame crisis or AI revolution
@@ -98,7 +198,7 @@ namespace TechTree.CWParser
             {
                 setBorder(result, "#0078CE");
             }
-
+            result.level = null;
             return result;
         }
 

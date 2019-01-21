@@ -83,6 +83,7 @@ namespace TechTree.DTO
         public string title { get; set; }
         public VisColor color { get; set; }
         public int? borderWidth { get; set; }
+        public int? level { get; set; }
     }
 
     public class VisColor

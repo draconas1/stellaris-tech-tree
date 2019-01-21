@@ -8,9 +8,14 @@ namespace TechTree.FileIO
 {
     class DirectoryWalker
     {
+        public const string TEXT_MASK = "*.txt";
 
-        public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames)
+        public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames = null)
         {
+            if (excludedFileNames == null)
+            {
+                excludedFileNames = new string[0];
+            }
             var result = new List<FileInfo>();
             FindFilesInDirectoryTree(new DirectoryInfo(root), result, includeFileMask, excludedFileNames);
             return result;

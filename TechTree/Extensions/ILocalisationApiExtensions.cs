@@ -29,6 +29,11 @@ namespace TechTree.Extensions
 
         private static string getValue(ILocalisationAPI api, string key)
         {
+            // if no localised text, return the key
+            if (!api.Values.ContainsKey(key))
+            {
+                return key;
+            }
             string result = api.Values[key];
 
             // first strip out comments

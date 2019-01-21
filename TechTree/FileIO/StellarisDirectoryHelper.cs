@@ -27,8 +27,13 @@ namespace TechTree.FileIO
             }
         }
 
-
-
+        public string ScriptedVariables
+        {
+            get
+            {
+                return GetScriptedVariablesDirectory(Root);
+            }
+        }   
 
         public StellarisDirectoryHelper(string rootDirectory)
         {
@@ -49,6 +54,11 @@ namespace TechTree.FileIO
         public static string GetLocalisationDirectory(string rootDirectory)
         {
             return Path.Combine(rootDirectory, "localisation");
+        }
+
+        public static string GetScriptedVariablesDirectory(string rootDirectory)
+        {
+            return Path.Combine(GetCommonDirectory(rootDirectory), "scripted_variables");
         }
     }
 }

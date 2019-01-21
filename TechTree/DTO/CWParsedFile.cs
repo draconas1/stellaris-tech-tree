@@ -43,6 +43,16 @@ namespace TechTree.DTO
         {
             return KeyValues.FirstOrDefault(x => x.Key == key)?.Value;
         }
+
+        public string GetKeyValue(string key, IDictionary<string, string> variables)
+        {
+            var value = KeyValues.FirstOrDefault(x => x.Key == key)?.Value;
+            if (value != null && value.StartsWith("@") && variables.ContainsKey(value))
+            {
+                return variables[value];
+            }
+            return value;
+        }
     }
 
     public static class CWParsedFileMapper

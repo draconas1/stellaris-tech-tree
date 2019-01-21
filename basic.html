@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Tech Tree</title>
+  <title>Sanbox</title>
 
   <script type="text/javascript" src="graph.json"></script>
   <script type="text/javascript" src="dist/vis.js"></script>
@@ -23,17 +23,30 @@
 <div id="mynetwork"></div>
 
 <script type="text/javascript">
-  // create an array with nodes
-  //import * as vis from "dist/vis";
-  var rawData = GraphData;
-  var nodeJson = new vis.DataSet(rawData.nodes);
-  var edgeJson = new vis.DataSet(rawData.edges);
+   // create an array with nodes
+  var nodes = new vis.DataSet([
+    {id: 1, label: 'Node 1', title: 'badger<br>mushroom'},
+    {id: 2, label: 'Node 2'},
+    {id: 3, label: 'Node 3'},
+    {id: 4, label: 'Node 4'},
+    {id: 5, label: 'Node 5'}
+  ]);
+
+  // create an array with edges
+  var edges = new vis.DataSet([
+    {from: 1, to: 3},
+    {from: 1, to: 2},
+    {from: 2, to: 4},
+    {from: 2, to: 5},
+    {from: 3, to: 3}
+  ]);
+
 
   // create a network
   var container = document.getElementById('mynetwork');
   var data = {
-    nodes: nodeJson,
-    edges: edgeJson
+    nodes: nodes,
+    edges: edges
   };
   var options = {
     nodes: {
@@ -60,11 +73,8 @@
         direction: "LR",
         sortMethod: 'directed',
 		levelSeparation: 500,
-		nodeSpacing: 50,
-		treeSpacing: 0,
-		blockShifting: false,
-		edgeMinimization: false,
-		parentCentralization: true
+		nodeSpacing: 150,
+		treeSpacing: 200		
       }
     },
     groups: {
@@ -90,7 +100,7 @@
       keyboard: true
     },
     physics: {
-        enabled: false
+        enabled: true
     },
     configure: {
       filter: function (option, path) {
