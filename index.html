@@ -25,7 +25,7 @@
 <script type="text/javascript">
   // create an array with nodes
   //import * as vis from "dist/vis";
-  var rawData = JSON.parse(GraphData);
+  var rawData = GraphData;
   var nodeJson = new vis.DataSet(rawData.nodes);
   var edgeJson = new vis.DataSet(rawData.edges);
 
@@ -37,10 +37,9 @@
   };
   var options = {
     nodes: {
-      borderWidth:4,
-      color: {
-        border: '#80d17d',
-        background: '#80d17d'
+	  shape: 'box',
+      borderWidth:0,
+      color: {       
       },
       shapeProperties: {
         useBorderWithImage:true
@@ -51,35 +50,44 @@
         type: 'cubicBezier',
         forceDirection: 'vertical',
         roundness: 0.4
-      }
+      },
+	  color: {
+		color: "#000000"
+	  }
     },
     layout: {
       hierarchical: {
-        direction: "UD",
-        sortMethod: 'directed'
+        direction: "LR",
+        sortMethod: 'directed',
+		levelSeparation: 500,
+		nodeSpacing: 150,
+		treeSpacing: 200		
       }
     },
     groups: {
       physics: {
-        shape: 'box',
-        color: '#427df4'
+        color: {
+			background :'#427df4'
+		}
       },
       society: {
-        shape: 'box',
-        color: '#80d17d'
+		color: {
+			background :'#80d17d'
+		}
       },
       engineering: {
-        shape: 'box',
-        color: '#e5a649'
+        color: {
+			background :'#e5a649'
+		}
       }
     },
     interaction: {
-      dragNodes :false,
+      dragNodes :true,
       navigationButtons: true,
       keyboard: true
     },
     physics: {
-        enabled: false
+        enabled: true
     },
     configure: {
       filter: function (option, path) {

@@ -27,8 +27,7 @@ namespace TechTree.DTO
         public void WriteVisData(string toDir, string nodesFile = "nodes.json", string edgesFile = "edges.json")
         {
 
-            JsonSerializer serializer = new JsonSerializer();
-            serializer.Formatting = Formatting.Indented;
+            JsonSerializer serializer = getSerializer();
 
             using (JsonWriter writer = new JsonTextWriter(new StreamWriter(Path.Combine(toDir, nodesFile))))
             {
@@ -51,20 +50,25 @@ namespace TechTree.DTO
         /// <param name="fileName"></param>
         public void WriteVisDataToOneJSFile(string toDir, string fileName = "graph.json")
         {
-            JsonSerializer serializer = new JsonSerializer();
-            serializer.Formatting = Formatting.Indented;
+            JsonSerializer serializer = getSerializer();
 
             var writer = new StringWriter();
-            writer.Write("GraphData = `");
+            writer.Write("GraphData = ");
 
             serializer.Serialize(new JsonTextWriter(writer), this);
-
-            writer.Write("`");
-
+            
             using (var streamWriter = new StreamWriter(Path.Combine(toDir, fileName)))
             {
                 streamWriter.WriteLine(writer.ToString());
             }
+        }
+
+        private static JsonSerializer getSerializer()
+        {
+            JsonSerializer serializer = new JsonSerializer();
+            serializer.Formatting = Formatting.Indented;
+            serializer.NullValueHandling = NullValueHandling.Ignore;
+            return serializer;
         }
     }
 
@@ -77,6 +81,15 @@ namespace TechTree.DTO
         public string label { get; set; }
         public string group { get; set; }
         public string title { get; set; }
+        public VisColor color { get; set; }
+        public int? borderWidth { get; set; }
+    }
+
+    public class VisColor
+    {
+        public string border { get; set; }
+
+        public string background { get; set; }
     }
 
     public class VisEdge

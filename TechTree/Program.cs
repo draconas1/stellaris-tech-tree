@@ -22,7 +22,7 @@ using Newtonsoft.Json;
 namespace TechTree
 {
     class Program {
-        public const Boolean MAC = true;
+        public const Boolean MAC = false;
         
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
@@ -53,7 +53,6 @@ namespace TechTree
             visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
 
             Console.WriteLine("done");
-            Console.ReadLine();
         }
     }
 }

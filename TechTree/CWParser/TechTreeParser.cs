@@ -46,11 +46,12 @@ namespace TechTree.CWParser
                 // top level nodes are files, so we process the immiedate children of each file, which is the individual techs.
                 foreach (var node in file.Nodes)
                 {
-                    if (node.GetKeyValue("area") == "engineering")
+                    if (node.GetKeyValue("area") == "society")
                     {
-                        result.nodes.Add(ProcessNode(node));
-                        result.edges.AddRange(ProcessNodeLinks(node));
+                       
                     }
+                    result.nodes.Add(ProcessNode(node));
+                    result.edges.AddRange(ProcessNodeLinks(node));
                 }
             }
             return result;
@@ -59,13 +60,52 @@ namespace TechTree.CWParser
 
         public VisNode ProcessNode(CWNode node)
         {
-            return new VisNode
+            var result = new VisNode
             {
                 id = node.Key,
                 label = localisationAPI.GetName(node.Key),
                 title = localisationAPI.GetDescription(node.Key),
                 group = node.GetKeyValue("area")
             };
+
+            // rare purple tech
+            if ("yes".Equals(node.GetKeyValue("is_rare"), StringComparison.InvariantCultureIgnoreCase))
+            {
+
+                setBorder(result, "#8900CE");
+            }
+
+            // starter technology
+            if ("yes".Equals(node.GetKeyValue("start_tech"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                setBorder(result, "#00CE56");
+            }
+
+            // may cause endgame crisis or AI revolution
+            if ("yes".Equals(node.GetKeyValue("is_dangerous"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                setBorder(result, "#D30000");
+            }
+            
+            // tech that requires an acquisition - base weight is 0
+            if ("0".Equals(node.GetKeyValue("weight"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                setBorder(result, "#CE7C00");
+            }
+
+            // tech that is repeatable
+            if (node.GetKeyValue("cost_per_level") != null)
+            {
+                setBorder(result, "#0078CE");
+            }
+
+            return result;
+        }
+
+        private void setBorder(VisNode node, string borderColour)
+        {
+            node.color = new VisColor { border = borderColour };
+            node.borderWidth = 2;
         }
 
         public IEnumerable<VisEdge> ProcessNodeLinks(CWNode node)
