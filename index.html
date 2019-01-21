@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Tech Tree</title>
-  
+
   <script type="text/javascript" src="graph.json"></script>
   <script type="text/javascript" src="dist/vis.js"></script>
 
@@ -18,9 +18,7 @@
 </head>
 <body>
 
-<p>
-  Create a simple network with some nodes and edges.
-</p>
+<p></p>
 
 <div id="mynetwork"></div>
 
@@ -57,6 +55,7 @@
     },
     layout: {
       hierarchical: {
+        direction: "UD",
         sortMethod: 'directed'
       }
     },
@@ -73,6 +72,23 @@
         shape: 'box',
         color: '#e5a649'
       }
+    },
+    interaction: {
+      dragNodes :false,
+      navigationButtons: true,
+      keyboard: true
+    },
+    physics: {
+        enabled: false
+    },
+    configure: {
+      filter: function (option, path) {
+          if (path.indexOf('hierarchical') !== -1) {
+              return true;
+          }
+          return false;
+      },
+      showButton:false
     }
   };
   var network = new vis.Network(container, data, options);
@@ -81,4 +97,3 @@
 
 </body>
 </html>
-
