@@ -107,6 +107,42 @@ namespace TechTree.CWParser
                     }
                 }
             }
+
+
+            var root = new VisNode
+            {
+                id = "rootNode",
+                label = "Root"
+            };
+
+            var nodeIds = result.nodes.Select(x => x.id).ToHashSet();
+
+            // remove edges that are missing ends.  - TODO: make method with logging
+            result.edges.RemoveAll(x => !(nodeIds.Contains(x.from) || nodeIds.Contains(x.to)));
+
+        
+            // find edges with no parent
+            var edgeTos = result.edges.Select(x => x.to);
+            foreach(string nodeId in edgeTos)
+            {
+                nodeIds.Remove(nodeId);
+            }
+
+            // create edges from the root node to everything that doesn't have a parent
+            result.nodes.Add(root);
+            foreach (string nodeId in nodeIds)
+            {
+                result.edges.Add(new VisEdge
+                {
+                    from = "rootNode",
+                    to = nodeId,
+                    color = new VisColor
+                    {
+                        opacity = 0
+                    }
+                });
+            }
+
             return result;
         }
 

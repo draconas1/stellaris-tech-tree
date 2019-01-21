@@ -91,6 +91,8 @@ namespace TechTree.DTO
         public string border { get; set; }
 
         public string background { get; set; }
+
+        public float? opacity { get; set; }
     }
 
     public class VisEdge
@@ -100,6 +102,7 @@ namespace TechTree.DTO
         public string from { get; set; }
         public string to { get; set; }
         public string arrows { get; set; }
+        public VisColor color { get; set; }
     }
 #pragma warning restore IDE1006 // Naming Styles
 }
