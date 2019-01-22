@@ -87,15 +87,14 @@ namespace TechTree.CWParser
             var result = new VisData();
             foreach(var file in parsedTechFiles)
             {
-                // top level nodes are files, so we process the immiedate children of each file, which is the individual techs.
+                // top level nodes are files, so we process the immiediate children of each file, which is the individual techs.
                 foreach (var node in file.Nodes)
                 {
-                    bool process = true;
-                    if (Areas.Count() > 0 && !Areas.Contains(node.GetKeyValue("area")))
-                    {
-                        process = false;
-                    }
-                    if (Categories.Count() > 0 && !(Categories.Intersect(getCategories(node)).Count() > 0))
+                    // only process if we have no area filter, or this is a tech from that area
+                    bool process = !(Areas.Any() && !Areas.Contains(node.GetKeyValue("area")));
+                    
+                    // if there is a category filter, filter by tech category
+                    if (Categories.Any() && !(Categories.Intersect(getCategories(node)).Any()))
                     {
                         process = false;
                     }
@@ -107,18 +106,11 @@ namespace TechTree.CWParser
                     }
                 }
             }
-
-
-            var root = new VisNode
-            {
-                id = "rootNode",
-                label = "Root"
-            };
-
-            var nodeIds = result.nodes.Select(x => x.id).ToHashSet();
+            
+            var nodeIds = result.nodes.ToDictionary(x => x.id);
 
             // remove edges that are missing ends.  - TODO: make method with logging
-            result.edges.RemoveAll(x => !(nodeIds.Contains(x.from) || nodeIds.Contains(x.to)));
+            result.edges.RemoveAll(x => !(nodeIds.ContainsKey(x.from) || nodeIds.ContainsKey(x.to)));
 
         
             // find edges with no parent
@@ -129,19 +121,27 @@ namespace TechTree.CWParser
             }
 
             // create edges from the root node to everything that doesn't have a parent
-            result.nodes.Add(root);
-            foreach (string nodeId in nodeIds)
-            {
-                result.edges.Add(new VisEdge
-                {
-                    from = "rootNode",
-                    to = nodeId,
-                    color = new VisColor
-                    {
-                        opacity = 0
-                    }
-                });
-            }
+//            foreach (var area in new String[]{"physics", "society", "engineering"}) {
+//                result.nodes.Add(new VisNode
+//                {
+//                    id = area + "_root",
+//                    label = "Root",
+//                    group = area
+//                });
+//            }
+//            
+//            foreach (var node in nodeIds)
+//            {
+//                result.edges.Add(new VisEdge
+//                {
+//                    from = node.Value.group + "_root",
+//                    to = node.Key,
+//                    color = new VisColor
+//                    {
+//                        opacity = 0
+//                    }
+//                });
+//            }
 
             return result;
         }
@@ -234,7 +234,6 @@ namespace TechTree.CWParser
             {
                 setBorder(result, "#0078CE");
             }
-            result.level = null;
             return result;
         }
 
