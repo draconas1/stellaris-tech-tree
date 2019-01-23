@@ -82,9 +82,14 @@ namespace TechTree.CWParser
 
         public VisData ParseTechFiles()
         {
+            
+            
             var techFiles = DirectoryWalker.FindFilesInDirectoryTree(rootTechDir, ParseFileMask, IgnoreFiles);
             var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
             var result = new VisData();
+
+            var techs = new Dictionary<string, Tech>();
+            var links = new HashSet<Link>();
             foreach(var file in parsedTechFiles)
             {
                 // top level nodes are files, so we process the immiediate children of each file, which is the individual techs.
@@ -99,14 +104,18 @@ namespace TechTree.CWParser
                         process = false;
                     }
 
-                    if (process)
-                    {
-                        result.nodes.Add(ProcessNode(node));
-                        result.edges.AddRange(ProcessNodeLinks(node));
+                    if (process) {
+                        Tech tech = ProcessNodeModel(node);
+                        techs[tech.Id] = tech;
                     }
                 }
             }
-            
+
+            foreach (var (id, tech) in techs) {
+                
+            }
+
+
             var nodeIds = result.nodes.ToDictionary(x => x.id);
 
             // remove edges that are missing ends.  - TODO: make method with logging
@@ -120,28 +129,7 @@ namespace TechTree.CWParser
                 nodeIds.Remove(nodeId);
             }
 
-            // create edges from the root node to everything that doesn't have a parent
-//            foreach (var area in new String[]{"physics", "society", "engineering"}) {
-//                result.nodes.Add(new VisNode
-//                {
-//                    id = area + "_root",
-//                    label = "Root",
-//                    group = area
-//                });
-//            }
-//            
-//            foreach (var node in nodeIds)
-//            {
-//                result.edges.Add(new VisEdge
-//                {
-//                    from = node.Value.group + "_root",
-//                    to = node.Key,
-//                    color = new VisColor
-//                    {
-//                        opacity = 0
-//                    }
-//                });
-//            }
+
 
             return result;
         }
@@ -156,6 +144,75 @@ namespace TechTree.CWParser
             return new List<string>();
         }
 
+
+        public Tech ProcessNodeModel(CWNode node) {
+            var result = new Tech(node.Key) {
+                Name =  localisationAPI.GetName(node.Key),
+                Description = localisationAPI.GetDescription(node.Key)
+            };
+
+            TechArea area;
+            string areaKeyValue = node.GetKeyValue("area");
+            if ("physics".Equals(areaKeyValue, StringComparison.OrdinalIgnoreCase)) {
+                area = TechArea.Physics;
+            }
+            else if ("society".Equals(areaKeyValue, StringComparison.OrdinalIgnoreCase)) {
+                area = TechArea.Society;
+            }
+            else if ("engineering".Equals(areaKeyValue, StringComparison.OrdinalIgnoreCase)) {
+                area = TechArea.Engineering;
+            }
+            else {
+                throw new Exception("Unable to determine tech area for " + node.Key + " found " + areaKeyValue);
+            }
+
+            result.Area = area;
+            result.Tier = int.Parse(node.GetKeyValue("tier", scriptedVariables) ?? "0");
+            result.BaseCost = int.Parse(node.GetKeyValue("cost", scriptedVariables) ?? "0");
+
+           
+            // interesting flags about the tech
+            var techFlags = new List<TechFlag>();
+            // rare purple tech
+            if ("yes".Equals(node.GetKeyValue("is_rare"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                techFlags.Add(TechFlag.Rare);
+            }
+
+            // starter technology
+            if ("yes".Equals(node.GetKeyValue("start_tech"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                techFlags.Add(TechFlag.Starter);
+            }
+
+            // may cause endgame crisis or AI revolution
+            if ("yes".Equals(node.GetKeyValue("is_dangerous"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                techFlags.Add(TechFlag.Dangerous);
+            }
+            
+            // tech that requires an acquisition - base weight is 0
+            // this is not foolproof, look up some other things
+            if ("0".Equals(node.GetKeyValue("weight"), StringComparison.InvariantCultureIgnoreCase))
+            {
+                techFlags.Add(TechFlag.RequiresAcquisition);
+            }
+
+            // tech that is repeatable
+            if (node.GetKeyValue("cost_per_level") != null)
+            {
+                techFlags.Add(TechFlag.Repeatable);
+            }
+
+            result.Flags = techFlags;
+            
+            node.ActOnNode("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
+            
+            return result;
+        }
+
+        
+        
         public VisNode ProcessNode(CWNode node)
         {
             var result = new VisNode

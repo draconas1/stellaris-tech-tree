@@ -34,6 +34,20 @@ namespace TechTree.DTO
             return Nodes.FirstOrDefault(x => x.Key == key);
         }
 
+        
+        /// <summary>
+        /// If there is a node with the given key, performs the specified Action on it.
+        /// use with caution, will get the first node if there are multiple with the same key in the same context!
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="perform"></param>
+        public void ActOnNode(string key, Action<CWNode> perform) {
+            var node = GetNode(key);
+            if (node != null) {
+                perform(node);
+            }
+        }
+
         /// <summary>
         /// use with caution, will get the first keyvalue if there are multiple with the same key in the same context!
         /// </summary>
@@ -44,6 +58,12 @@ namespace TechTree.DTO
             return KeyValues.FirstOrDefault(x => x.Key == key)?.Value;
         }
 
+        /// <summary>
+        /// Gets the first key value as <see cref="GetKeyValue(string)"/>, if that value exists and is a variable in the variables dictionary returns the variable value, otherwise returns the keyvalue.
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="variables"></param>
+        /// <returns></returns>
         public string GetKeyValue(string key, IDictionary<string, string> variables)
         {
             var value = KeyValues.FirstOrDefault(x => x.Key == key)?.Value;
