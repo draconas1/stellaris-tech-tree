@@ -48,7 +48,7 @@ namespace TechTree.Output {
             // Level 0 is the supernodes if I have them
             // Tier 0 starts at 1
             dictionary[0] = 1;
-            for (int i = 1; i < maxTier; i++) {
+            for (int i = 1; i <= maxTier; i++) {
                 var previousLevel = i - 1;
                 dictionary[i] = dictionary[previousLevel] + maxPathsPerTier[previousLevel];
             }
@@ -85,7 +85,7 @@ namespace TechTree.Output {
                 id = tech.Id,
                 label = tech.Name,
                 title = "<i>" + tech.Description + "</i>",
-                group = tech.Name
+                group = tech.Area.ToString()
             };
 
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
