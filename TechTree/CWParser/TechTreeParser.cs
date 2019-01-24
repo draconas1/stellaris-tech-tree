@@ -50,43 +50,12 @@ namespace TechTree.CWParser
             ParseFileMask = "*.txt";
             Areas = new HashSet<string>();
             Categories = new HashSet<string>();
-
-            // build the level list using the tech tier prices from scripted variables.
-            Dictionary<int, int> startIndex = new Dictionary<int, int>();
-            startIndex[0] = 0;
-            List<int> levels = new List<int>();
-            levels.Add(0);
-            levels.Add(500);
-            for(int tier = 1; tier <= 6; tier++)
-            {
-                for (int cost = 1; cost <= 5; cost++)
-                {
-                    var key = "@tier" + tier + "cost" + cost;
-                    if (scriptedVariables.ContainsKey(key))
-                    {
-                        if (!startIndex.ContainsKey(tier))
-                        {
-                            startIndex[tier] = levels.Count();
-                        }
-                        levels.Add(Int32.Parse(scriptedVariables[key]));
-                    }
-                }
-            }
-            // catch repeatable techs
-            levels.Add(levels.Last() + 1000);
-            // another level for much higher costing things
-            levels.Add(levels.Last() + 10000);
-            techLevelLookupStartByTier = startIndex;
-            techLevelCosts = levels.ToArray();
         }
 
-        public VisData ParseTechFiles()
+        public TechsAndDependencies ParseTechFiles()
         {
-            
-            
             var techFiles = DirectoryWalker.FindFilesInDirectoryTree(rootTechDir, ParseFileMask, IgnoreFiles);
             var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
-            var result = new VisData();
 
             var techs = new Dictionary<string, Tech>();
             var links = new HashSet<Link>();
@@ -111,27 +80,29 @@ namespace TechTree.CWParser
                 }
             }
 
+            // populate prerequisites
             foreach (var (id, tech) in techs) {
-                
+                // it is possible that the pre-reqs for a technology do not exist
+                // e.g. they were not processed due to the filters above.
+                // in this we do not add them to the populated list, but leave them in the ids list
+                var prereqs = new List<Tech>();
+                if (tech.PrerequisiteIds != null) {
+                    foreach (var prerequisiteId in tech.PrerequisiteIds) {
+                        Tech prereq;
+                        if (techs.TryGetValue(prerequisiteId, out prereq)) {
+                            prereqs.Add(prereq);
+                            links.Add(new Link() {From = prereq, To = tech});
+                        }
+                        else {
+                            Console.WriteLine("Could not find prerequisite {0} for tech {1}", prerequisiteId, id);
+                        }
+                    }
+                }
+
+                tech.Prerequisites = prereqs;
             }
 
-
-            var nodeIds = result.nodes.ToDictionary(x => x.id);
-
-            // remove edges that are missing ends.  - TODO: make method with logging
-            result.edges.RemoveAll(x => !(nodeIds.ContainsKey(x.from) || nodeIds.ContainsKey(x.to)));
-
-        
-            // find edges with no parent
-            var edgeTos = result.edges.Select(x => x.to);
-            foreach(string nodeId in edgeTos)
-            {
-                nodeIds.Remove(nodeId);
-            }
-
-
-
-            return result;
+            return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
         }
 
         private List<string> getCategories(CWNode node)
@@ -171,6 +142,12 @@ namespace TechTree.CWParser
             result.BaseCost = int.Parse(node.GetKeyValue("cost", scriptedVariables) ?? "0");
 
            
+            //categories, usually only one, but can be more
+            if (node.GetNode("category") != null)
+            {
+                result.Categories = node.GetNode("category").Values;
+            }
+            
             // interesting flags about the tech
             var techFlags = new List<TechFlag>();
             // rare purple tech
@@ -208,113 +185,6 @@ namespace TechTree.CWParser
             
             node.ActOnNode("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
             
-            return result;
-        }
-
-        
-        
-        public VisNode ProcessNode(CWNode node)
-        {
-            var result = new VisNode
-            {
-                id = node.Key,
-                label = localisationAPI.GetName(node.Key),
-                title = "<i>" + localisationAPI.GetDescription(node.Key) + "</i>",
-                group = node.GetKeyValue("area")
-            };
-
-            var tier = int.Parse(node.GetKeyValue("tier", scriptedVariables) ?? "0");
-            result.title = result.title + "<br/><b>Tier: </b>" + tier;
-
-            if (node.GetNode("category") != null)
-            {
-                var categories = node.GetNode("category").Values;
-                var catString = categories.Count > 1 ? "Categories" : "Category";
-                var categoriesLocalised = categories.Select(x => localisationAPI.GetName(x)).ToArray();
-
-                result.title = result.title + "<br/><b>" + catString + ": </b>" + string.Join(",", categoriesLocalised);
-            }
-
-
-            // get the cost, this may be a variable.
-            // eugh, probably need to add scripted variables from the files themselves for working with mods.
-            string coststr = node.GetKeyValue("cost", scriptedVariables) ?? "0";
-            int cost = int.Parse(coststr);
-            result.title = result.title + "<br/><b>Base cost: </b>" + cost;
-
-            // find what level of the graph its meant to be on.  
-            // find the minimum level first based on its tier
-            var startindex = techLevelLookupStartByTier[tier];
-            result.level = startindex;
-            // no go through the remaining levels and keep bumping our level up if we make the cut.
-            for (int i = startindex; i< techLevelCosts.Length; i++)
-            {
-                if (cost >= techLevelCosts[i])
-                {
-                    result.level = i;
-                }
-                else
-                {
-                    break;
-                }
-            }
-            
-
-            // rare purple tech
-            if ("yes".Equals(node.GetKeyValue("is_rare"), StringComparison.InvariantCultureIgnoreCase))
-            {
-
-                setBorder(result, "#8900CE");
-            }
-
-            // starter technology
-            if ("yes".Equals(node.GetKeyValue("start_tech"), StringComparison.InvariantCultureIgnoreCase))
-            {
-                setBorder(result, "#00CE56");
-                result.level = 0; //start tech is always level 0
-            }
-
-            // may cause endgame crisis or AI revolution
-            if ("yes".Equals(node.GetKeyValue("is_dangerous"), StringComparison.InvariantCultureIgnoreCase))
-            {
-                setBorder(result, "#D30000");
-            }
-            
-            // tech that requires an acquisition - base weight is 0
-            if ("0".Equals(node.GetKeyValue("weight"), StringComparison.InvariantCultureIgnoreCase))
-            {
-                setBorder(result, "#CE7C00");
-            }
-
-            // tech that is repeatable
-            if (node.GetKeyValue("cost_per_level") != null)
-            {
-                setBorder(result, "#0078CE");
-            }
-            return result;
-        }
-
-        private void setBorder(VisNode node, string borderColour)
-        {
-            node.color = new VisColor { border = borderColour };
-            node.borderWidth = 2;
-        }
-
-        public IEnumerable<VisEdge> ProcessNodeLinks(CWNode node)
-        {
-            var result = new List<VisEdge>();
-            if (node.GetNode("prerequisites") != null)
-            {
-                foreach (string prereq in node.GetNode("prerequisites").Values)
-                {
-                    result.Add(new VisEdge
-                    {
-                        from = prereq,
-                        to = node.Key,
-                        arrows = "to"
-                    });
-                }
-            }
             return result;
         }
     }

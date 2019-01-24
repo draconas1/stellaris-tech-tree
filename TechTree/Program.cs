@@ -18,6 +18,7 @@ using CWTools.Localisation;
 using CWTools.Common;
 using TechTree.DTO;
 using Newtonsoft.Json;
+using TechTree.Output;
 
 namespace TechTree
 {
@@ -49,7 +50,10 @@ namespace TechTree
             //parser.ParseFileMask = "00_eng_tech.txt";
            
             // get the results parsed into nice tech tree format
-            var visResults = parser.ParseTechFiles();
+            var model = parser.ParseTechFiles();
+
+            var visDataMarshaler = new VisDataMarshaler(localisation, null);
+            var visResults = visDataMarshaler.CreateVisData(model);
 
             //save
             visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);

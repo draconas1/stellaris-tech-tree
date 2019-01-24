@@ -20,10 +20,15 @@ namespace TechTree.DTO {
     public class Tech : Entity {
         
         public TechArea Area { get; set; }
-        public string Category { get; set; }
+      
         public int? Tier { get; set; }
+
+        // ReSharper disable once PossibleInvalidOperationException
+        public int TierValue => Tier.Value;
+
         public int? BaseCost { get; set; }
         
+        public IEnumerable<string> Categories { get; set; }
         public IEnumerable<TechFlag> Flags { get; set; }
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
@@ -58,6 +63,11 @@ namespace TechTree.DTO {
 
         public Entity From { get; set; }
         public Entity To { get; set; }
+    }
+
+    public class TechsAndDependencies {
+        public Dictionary<string, Tech> Techs { get; set; }
+        public ISet<Link> Prerequisites { get; set; }
     }
     
 }
