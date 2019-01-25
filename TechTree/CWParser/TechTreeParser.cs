@@ -1,16 +1,9 @@
-﻿using CWTools.Parser;
-using CWTools.CSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using CWTools.Process;
-using TechTree.DTO;
-using static CWTools.Localisation.STLLocalisation;
-using CWTools.Localisation;
-using CWTools.Common;
-using TechTree.Extensions;
 using System.Linq;
+using CWTools.Localisation;
+using TechTree.DTO;
+using TechTree.Extensions;
 using TechTree.FileIO;
 
 namespace TechTree.CWParser

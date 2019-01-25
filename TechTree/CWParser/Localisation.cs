@@ -1,11 +1,7 @@
 ﻿using CWTools.Common;
 using CWTools.Localisation;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.IO;
-using static CWTools.Localisation.STLLocalisation;
 using TechTree.FileIO;
+using static CWTools.Localisation.STLLocalisation;
 
 namespace TechTree.CWParser
 {

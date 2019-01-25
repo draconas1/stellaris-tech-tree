@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using CWTools.Parser;
 
 namespace TechTree.DTO {
     public enum TechArea {

@@ -59,26 +59,26 @@
       hierarchical: {
         direction: "LR",
         sortMethod: 'directed',
-		levelSeparation: 500,
-		nodeSpacing: 50,
-		treeSpacing: 0,
-		blockShifting: false,
-		edgeMinimization: false,
+		levelSeparation: 600,
+		nodeSpacing: 120,
+		treeSpacing: 100,
+		blockShifting: true,
+		edgeMinimization: true,
 		parentCentralization: true
       }
     },
     groups: {
-      physics: {
+      Physics: {
         color: {
 			background :'#427df4'
 		}
       },
-      society: {
+      Society: {
 		color: {
 			background :'#80d17d'
 		}
       },
-      engineering: {
+      Engineering: {
         color: {
 			background :'#e5a649'
 		}
@@ -90,17 +90,9 @@
       keyboard: true
     },
     physics: {
-        enabled: true
-    },
-    configure: {
-      filter: function (option, path) {
-          if (path.indexOf('hierarchical') !== -1) {
-              return true;
-          }
-          return false;
-      },
-      showButton:false
+        enabled: false
     }
+    
   };
   var network = new vis.Network(container, data, options);
 </script>

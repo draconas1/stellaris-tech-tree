@@ -1,23 +1,10 @@
 ﻿using System;
-using CWTools.Parser;
-using System.Text;
-using Microsoft.FSharp.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using CWTools.Process;
-using Microsoft.FSharp.Core;
-using System.IO;
-using System.Text.RegularExpressions;
-using CWTools.CSharp;
-using static CWTools.Parser.Types;
-using static CWTools.Utilities.Position;
-using TechTree.FileIO;
-using TechTree.CWParser;
-using static CWTools.Localisation.STLLocalisation;
-using CWTools.Localisation;
+using System.Text;
 using CWTools.Common;
-using TechTree.DTO;
-using Newtonsoft.Json;
+using CWTools.Localisation;
+using TechTree.CWParser;
+using TechTree.FileIO;
 using TechTree.Output;
 
 namespace TechTree
@@ -59,7 +46,6 @@ namespace TechTree
             visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
 
             Console.WriteLine("done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
-            Console.ReadLine();
         }
     }
 }

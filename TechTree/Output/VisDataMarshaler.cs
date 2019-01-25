@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using CWTools.Localisation;
-using SQLitePCL;
 using TechTree.DTO;
 using TechTree.Extensions;
 
@@ -22,23 +20,67 @@ namespace TechTree.Output {
 
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
+            
+            List<Tech> techsWithNoPrereqs = new List<Tech>();
             foreach (var tech in techsAndDependencies.Techs.Values) {
-                int pathLength = NumberOfPrereqsInSameTier(tech);
                 if (!tech.Tier.HasValue) {
                     throw new InvalidOperationException("All Techs must have Tiers to create vis data.  " + tech.Id);
                 }
+                
+                int pathLength = NumberOfPrereqsInSameTier(tech);
+                
                 var currentMaxForTier = maxPathPerTier.ComputeIfAbsent(tech.Tier.Value, ignored => 0);
                 if (pathLength > currentMaxForTier) {
                     maxPathPerTier[tech.Tier.Value] = pathLength;
+                }
+
+                // need to link to a supernode to make it look good
+                if (!tech.Prerequisites.Any()) {
+                    techsWithNoPrereqs.Add(tech);
                 }
             }
             
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
-
-            return new VisData() {
+        
+            var result = new VisData() {
                 nodes = techsAndDependencies.Techs.Values.Select(x => MarshalTech(x, minimumLevelForTier)).ToList(),
                 edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
+            };
+            
+            // add supernodes
+            var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
+            foreach (var techArea in techAreas) {
+                result.nodes.Add(BuildRootNode(techArea));
+            }
+            
+            // link to supernodes
+            foreach (var tech in techsWithNoPrereqs) {
+                result.edges.Add(BuildRootLink(tech.Area, tech.Id));
+            }
+
+            return result;
+        }
+
+        private VisNode BuildRootNode(TechArea area) {
+            var areaName = area.ToString();
+            var result = new VisNode
+            {
+                id = areaName + "-root",
+                label = localisationAPI.GetName(areaName.ToLower()),
+                group = areaName,
+                level = 0
+            };
+            return result;
+        }
+
+        private VisEdge BuildRootLink(TechArea area, string to) {
+            return new VisEdge() {
+                from = area.ToString() + "-root",
+                to = to,
+                color = new VisColor() {
+                    opacity = 0
+                }
             };
         }
 
@@ -66,7 +108,7 @@ namespace TechTree.Output {
         private int NumberOfPrereqsInSameTier(Tech tech) {
             int maxPreqs = 0;
             foreach (var techPrerequisite in tech.Prerequisites) {
-                if (techPrerequisite.Tier == tech.Tier) {
+                if (techPrerequisite.TierValue == tech.TierValue) {
                     var numberOfPrereqsDownThisBranch = 1 + NumberOfPrereqsInSameTier(techPrerequisite);
                     if (numberOfPrereqsDownThisBranch > maxPreqs) {
                         maxPreqs = numberOfPrereqsDownThisBranch;
@@ -98,12 +140,10 @@ namespace TechTree.Output {
                 result.title = result.title + "<br/><b>" + catString + ": </b>" + string.Join(",", categoriesLocalised);
             }
 
-
-            // get the cost, this may be a variable.
-            // eugh, probably need to add scripted variables from the files themselves for working with mods.
             result.title = result.title + "<br/><b>Base cost: </b>" + (tech.BaseCost ?? 0);
 
-            result.level = CalculateLevel(tech, startingLevelsByTier);  
+            // we are assigning levels in the graph, so work out where this tech sits.
+            result.level = tech.TierValue == -1 ? 0 : CalculateLevel(tech, startingLevelsByTier);  
 
           
             // rare purple tech
@@ -116,7 +156,6 @@ namespace TechTree.Output {
             if (tech.Flags.Contains(TechFlag.Starter))
             {
                 setBorder(result, "#00CE56");
-                result.level = 0; //start tech is always level 0
             }
 
             // may cause endgame crisis or AI revolution

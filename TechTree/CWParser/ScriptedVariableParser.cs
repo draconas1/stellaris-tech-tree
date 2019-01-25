@@ -1,5 +1,4 @@
-﻿using CWTools.Localisation;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using TechTree.FileIO;
 

@@ -124,7 +124,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_ftl_inhibitor",
@@ -200,7 +200,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_power_hub_2",
@@ -246,7 +246,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_sensors_4",
@@ -324,7 +324,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_reactor_boosters_3",
@@ -349,7 +349,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_zero_point_power",
@@ -388,7 +388,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_synchronized_defences",
@@ -601,7 +601,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_torpedoes_3",
@@ -675,7 +675,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_flak_batteries_3",
@@ -700,7 +700,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_autocannons_3",
@@ -788,7 +788,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_space_whale_weapon_1",
@@ -1021,7 +1021,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_synthetic_leaders",
@@ -1190,7 +1190,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_basic_industry",
@@ -1201,7 +1201,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_defense_platform_hull_1",
@@ -1223,7 +1223,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 3
     },
     {
       "id": "tech_thrusters_4",
@@ -1255,7 +1255,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_crystal_armor_2",
@@ -1316,7 +1316,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_assault_armies",
@@ -1327,7 +1327,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_strike_craft_3",
@@ -1402,7 +1402,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 3
     },
     {
       "id": "tech_starbase_1",
@@ -1413,7 +1413,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_titan_hull_2",
@@ -1574,7 +1574,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 4
     },
     {
       "id": "tech_space_exploration",
@@ -1585,7 +1585,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 2
     },
     {
       "id": "tech_solar_panel_network",
@@ -1596,7 +1596,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 4
     },
     {
       "id": "tech_repeatable_reduced_building_time",
@@ -1885,7 +1885,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_energy_torpedoes_2",
@@ -2008,7 +2008,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_executive_retreat",
@@ -2160,7 +2160,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_transcendent_faith",
@@ -2213,7 +2213,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_paradise_dome",
@@ -2238,7 +2238,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_resource_processing_algorithms",
@@ -2379,7 +2379,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_galactic_campaigns",
@@ -2841,7 +2841,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 3
     },
     {
       "id": "tech_alien_life_studies",
@@ -2933,7 +2933,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_prescient_data_modeling",
@@ -2980,7 +2980,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_planetary_defenses",
@@ -2991,7 +2991,7 @@ GraphData = {
         "border": "#00CE56"
       },
       "borderWidth": 2,
-      "level": 0
+      "level": 1
     },
     {
       "id": "tech_nanite_transmutation",
@@ -3176,6 +3176,24 @@ GraphData = {
       },
       "borderWidth": 2,
       "level": 11
+    },
+    {
+      "id": "Physics-root",
+      "label": "physics",
+      "group": "Physics",
+      "level": 0
+    },
+    {
+      "id": "Society-root",
+      "label": "society",
+      "group": "Society",
+      "level": 0
+    },
+    {
+      "id": "Engineering-root",
+      "label": "engineering",
+      "group": "Engineering",
+      "level": 0
     }
   ],
   "edges": [
@@ -4948,6 +4966,496 @@ GraphData = {
       "from": "tech_gene_crops",
       "to": "tech_repeatable_improved_tile_food_output",
       "arrows": "to"
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_micro_replicators",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_bio_reactor",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_power_plant_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_sensors_2",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_fission_power",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_automated_exploration",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_physics_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_archeology_lab",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_curator_lab",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_basic_science_lab_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_missiles_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_flak_batteries_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_mass_drivers_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_space_whale_weapon_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_scourge_missile_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_swarm_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_amoeba_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_housing_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_space_construction",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_engineering_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_mechanized_mining",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_basic_industry",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_thrusters_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_crystal_armor_2",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_crystal_armor_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_ship_armor_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_nanite_repair_system",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_neuroregeneration",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_repeatable_lcluster_clue",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_lgate_activation",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_gargantuan_evolution",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_akx_worm_2",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_akx_worm_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "null_void_beam",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_space_cloud_weapon_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_mining_drone_weapon_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_extradimensional_weapon_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_pd_tracking_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_lasers_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_executive_retreat",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_xeno_tourism_agency",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_orbital_trash_dispersal",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_decoder",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_encoder",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_dragon_armor",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_housing_agrarian_idyll",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_ascension_theory",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_hive_node",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_cultural_heritage",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_holo_entertainment",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_unity_of_purpose",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_artificial_moral_codes",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_neural_implants",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_planetary_government",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_galactic_ambitions",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_psionic_theory",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_centralized_command",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_doctrine_navy_size_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_interstellar_fleet_traditions",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_doctrine_fleet_size_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_regenerative_hull_tissue",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_genetic_resequencing",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_genome_mapping",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_alien_life_studies",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_society_1",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_industrial_farming",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_prescient_data_modeling",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_interplanetary_commerce",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_planetary_defenses",
+      "color": {
+        "opacity": 0.0
+      }
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_nanite_transmutation",
+      "color": {
+        "opacity": 0.0
+      }
     }
   ]
 }

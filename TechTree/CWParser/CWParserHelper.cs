@@ -1,17 +1,8 @@
-﻿using CWTools.Parser;
+﻿using System.Collections.Generic;
 using CWTools.CSharp;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+using CWTools.Parser;
 using CWTools.Process;
 using TechTree.DTO;
-using static CWTools.Localisation.STLLocalisation;
-using CWTools.Localisation;
-using CWTools.Common;
-using TechTree.Extensions;
-using System.Linq;
-using Newtonsoft.Json;
 
 namespace TechTree.CWParser
 {
