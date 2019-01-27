@@ -92,7 +92,7 @@ namespace TechTree.Output {
             dictionary[0] = 1;
             for (int i = 1; i <= maxTier; i++) {
                 var previousLevel = i - 1;
-                dictionary[i] = dictionary[previousLevel] + maxPathsPerTier[previousLevel];
+                dictionary[i] = 1 + dictionary[previousLevel] + maxPathsPerTier[previousLevel];
             }
 
             return dictionary;
@@ -184,14 +184,19 @@ namespace TechTree.Output {
             {
                 from = node.From.Id,
                 to = node.To.Id,
-                arrows = "to"
+                arrows = "to",
+                dashes = true,
+                color = new VisColor
+                {
+                    color = "grey"
+                }
             };
         }
 
         private void setBorder(VisNode node, string borderColour)
         {
             node.color = new VisColor { border = borderColour };
-            node.borderWidth = 2;
+            node.borderWidth = 1;
         }
 
         

@@ -23,78 +23,176 @@
 <div id="mynetwork"></div>
 
 <script type="text/javascript">
+
+  var network;
+  var allNodes;
+  var allEdges;
+  var highlightActive = false;
   // create an array with nodes
   //import * as vis from "dist/vis";
   var rawData = GraphData;
-  var nodeJson = new vis.DataSet(rawData.nodes);
-  var edgeJson = new vis.DataSet(rawData.edges);
-
+  var nodesDataset = new vis.DataSet(rawData.nodes); // these come from WorldCup2014.js
+  var edgesDataset = new vis.DataSet(rawData.edges); // these come from WorldCup2014.js
+  
   // create a network
   var container = document.getElementById('mynetwork');
   var data = {
-    nodes: nodeJson,
-    edges: edgeJson
+	nodes: nodesDataset,
+	edges: edgesDataset
   };
   var options = {
-    nodes: {
+	nodes: {
 	  shape: 'box',
-      borderWidth:0,
-      color: {       
-      },
-      shapeProperties: {
-        useBorderWithImage:true
-      }
-    },
-    edges: {
-      smooth: {
-        type: 'cubicBezier',
-        forceDirection: 'vertical',
-        roundness: 0.4
-      },
-	  color: {
-		color: "#000000"
+	  borderWidth:0,
+	  shapeProperties: {
+		useBorderWithImage:true
 	  }
-    },
-    layout: {
-      hierarchical: {
-        direction: "LR",
-        sortMethod: 'directed',
+	},
+	edges: {
+	  smooth: {
+		type: 'cubicBezier',
+		forceDirection: 'horizontal',
+		roundness: 0.4
+	  },
+	  dashes: true
+	},
+	layout: {
+	  hierarchical: {
+		direction: "LR",
+		sortMethod: 'directed',
 		levelSeparation: 600,
 		nodeSpacing: 120,
 		treeSpacing: 100,
 		blockShifting: true,
 		edgeMinimization: true,
 		parentCentralization: true
-      }
-    },
-    groups: {
-      Physics: {
-        color: {
+	  }
+	},
+	groups: {
+	  Physics: {
+		color: {
 			background :'#427df4'
 		}
-      },
-      Society: {
+	  },
+	  Society: {
 		color: {
 			background :'#80d17d'
 		}
-      },
-      Engineering: {
-        color: {
+	  },
+	  Engineering: {
+		color: {
 			background :'#e5a649'
 		}
-      }
-    },
-    interaction: {
-      dragNodes :true,
-      navigationButtons: true,
-      keyboard: true
-    },
-    physics: {
-        enabled: false
-    }
-    
+	  }
+	},
+	interaction: {
+	  dragNodes :true,
+	  navigationButtons: true,
+	  keyboard: true
+	},
+	physics: {
+		enabled: false
+	}
+	
   };
-  var network = new vis.Network(container, data, options);
+  network = new vis.Network(container, data, options);
+  
+  // get a JSON object
+  allNodes = nodesDataset.get({returnType:"Object"});
+  allEdges = edgesDataset.get({returnType:"Object"});
+
+  network.on("click",neighbourhoodHighlight);
+  
+  function findAllConnections(node, direction) {
+	var connectedNodes = network.getConnectedNodes(node, direction);
+	if (connectedNodes.length > 0) {
+		var i;
+		var allConnectedNodes = [].concat(connectedNodes);
+		for (i = 0; i<connectedNodes.length; i++) {
+			var connectedNode = connectedNodes[i];
+			var connections = findAllConnections(connectedNode, direction);
+			allConnectedNodes = allConnectedNodes.concat(connections);
+		}
+		
+		return allConnectedNodes;
+	}
+	return [];
+  }
+  
+  function connectsToRoot(edge) {
+	return edge.from == 'Engineering-root' || edge.from == 'Society-root' || edge.from == 'Physics-root';
+  }
+  
+  function highlightEdge(edge) {
+	if (connectsToRoot(edge)) {
+	}
+	else {
+		var color = {};
+		color.color = '#000000';
+		color.highlight = '#000000';
+		edge.color = color;
+		edge.width = 3;
+		edge.dashes = false;	
+	}
+	
+  }
+  
+  function highlightEdges(nodePathIds) {
+	for (i = 0; i < nodePathIds.length; i++) {
+		// can only get all the edges connected to our node, which includes edges to irrelvant nodes
+		var edges = network.getConnectedEdges(nodePathIds[i]);
+		for (j = 0; j < edges.length; j++) {			
+			var edge = allEdges[edges[j]];
+			// only highlight our edge if its from and to ends are on our path
+			if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
+				highlightEdge(edge);
+			}
+		}
+	}  
+  }
+  
+  function neighbourhoodHighlight(params) {
+    //reset first
+	 for (var edgeId in allEdges) {
+	    var edge = allEdges[edgeId];
+		if (connectsToRoot(edge)) {
+		}
+		else {
+			var color = {};
+			color.color = 'grey';
+			edge.color = color;
+			edge.width = 1;
+            edge.dashes = true;
+		}
+      }
+	
+	// if something is selected:
+    if (params.nodes.length > 0) {
+      highlightActive = true;
+      var i,j;
+      var selectedNode = params.nodes[0];
+
+	  // find and highlight the path
+      var fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
+	  var toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
+	  highlightEdges(fromNodes);
+	  highlightEdges(toNodes);
+	  
+	       
+    }
+    else if (highlightActive == true) {         
+      highlightActive = false
+    }
+
+    // transform the object into an array
+    var updateArray = [];
+    for (edgeId in allEdges) {
+      if (allEdges.hasOwnProperty(edgeId)) {
+        updateArray.push(allEdges[edgeId]);
+      }
+    }
+    edgesDataset.update(updateArray);
+  }
 </script>
 
 

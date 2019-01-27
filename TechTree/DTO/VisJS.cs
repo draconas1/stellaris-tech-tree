@@ -87,6 +87,7 @@ namespace TechTree.DTO
     public class VisColor
     {
         public string border { get; set; }
+        public string color { get; set; }
 
         public string background { get; set; }
 
@@ -101,6 +102,7 @@ namespace TechTree.DTO
         public string to { get; set; }
         public string arrows { get; set; }
         public VisColor color { get; set; }
+        public bool dashes { get; set; }
     }
 #pragma warning restore IDE1006 // Naming Styles
 }
