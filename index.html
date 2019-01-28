@@ -31,8 +31,10 @@
   // create an array with nodes
   //import * as vis from "dist/vis";
   var rawData = GraphData;
-  var nodesDataset = new vis.DataSet(rawData.nodes); // these come from WorldCup2014.js
-  var edgesDataset = new vis.DataSet(rawData.edges); // these come from WorldCup2014.js
+  var allImages = {};
+ 
+  var nodesDataset = new vis.DataSet(rawData.nodes);
+  var edgesDataset = new vis.DataSet(rawData.edges);
   
   // create a network
   var container = document.getElementById('mynetwork');
@@ -101,8 +103,40 @@
   allNodes = nodesDataset.get({returnType:"Object"});
   allEdges = edgesDataset.get({returnType:"Object"});
 
+  for (var nodeId in allNodes) {
+		var node = allNodes[nodeId];
+		if (node.hasOwnProperty("imagePath")) {
+			var newImg = new Image();
+			newImg.src = node.imagePath;
+			allImages[nodeId] = newImg;
+		}
+  }
+  
   network.on("click",neighbourhoodHighlight);
   
+  
+  network.on("afterDrawing", function (ctx) {
+  
+	for (var nodeId in allNodes) {
+		var node = allNodes[nodeId];
+		if (node.hasOwnProperty("imagePath")) {
+			try {		
+				var nodePosition = network.getPositions([nodeId]);
+				var boundingbox = network.getBoundingBox([nodeId]);
+				var img = allImages[nodeId];
+				ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top))/2));
+			}
+			catch (err) {
+				console.log("failed to load image: " + img.src + " : " + err.message);
+			}
+		}
+	  }
+  });
+  
+  
+  // Always give a direction else it will stack overflow due to infinite loop. 
+  // due to not checking if its already visited.
+  // fortunately a tech tree cannot contain loops 
   function findAllConnections(node, direction) {
 	var connectedNodes = network.getConnectedNodes(node, direction);
 	if (connectedNodes.length > 0) {
@@ -119,6 +153,7 @@
 	return [];
   }
   
+  // does the edge connect to one of the fake root nodes
   function connectsToRoot(edge) {
 	return edge.from == 'Engineering-root' || edge.from == 'Society-root' || edge.from == 'Physics-root';
   }

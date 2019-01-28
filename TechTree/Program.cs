@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Text;
 using CWTools.Common;
@@ -10,7 +11,7 @@ using TechTree.Output;
 namespace TechTree
 {
     class Program {
-        public const Boolean MAC = false;
+        public const bool MAC = false;
         
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
@@ -39,11 +40,13 @@ namespace TechTree
             // get the results parsed into nice tech tree format
             var model = parser.ParseTechFiles();
 
-            var visDataMarshaler = new VisDataMarshaler(localisation, null);
-            var visResults = visDataMarshaler.CreateVisData(model);
+            var visDataMarshaler = new VisDataMarshaler(localisation);
+            var visResults = visDataMarshaler.CreateVisData(model, "images/technologies");
 
             //save
             visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
+            ImageOutput.transformAndOutputImages(Path.Combine(dirHelper.Icons, "technologies"), Path.Combine(OUTPUT_IN_USE, "images", "technologies"), model.Techs.Values);
+
 
             Console.WriteLine("done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
         }

@@ -30,7 +30,15 @@ namespace TechTree.FileIO
             {
                 return GetScriptedVariablesDirectory(Root);
             }
-        }   
+        }
+
+        public string Icons
+        {
+            get
+            {
+                return GetIconsDirectory(Root);
+            }
+        }
 
         public StellarisDirectoryHelper(string rootDirectory)
         {
@@ -56,6 +64,11 @@ namespace TechTree.FileIO
         public static string GetScriptedVariablesDirectory(string rootDirectory)
         {
             return Path.Combine(GetCommonDirectory(rootDirectory), "scripted_variables");
+        }
+
+        public static string GetIconsDirectory(string rootDirectory)
+        {
+            return Path.Combine(rootDirectory, "gfx", "interface", "icons");
         }
     }
 }

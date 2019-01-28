@@ -40,6 +40,8 @@ namespace TechTree.DTO {
         public string Name { get; set; }
         public string Description { get; set; }
 
+        private string icon;
+        public string Icon { get { return icon ?? Id; } set { icon = value; } }
         public Entity(string id) {
             Id = id;
         }

@@ -27,13 +27,6 @@ namespace TechTree.CWParser
         private readonly Dictionary<string, string> scriptedVariables;
         private readonly string rootTechDir;
 
-        //the minimum cost to be on a specific level of the graph
-        private readonly int[] techLevelCosts;
-        // in vanilla tier costs generally go up, however free floating costs or a mod could adjust those so a tierX tech is the same price as a tierX-1 tech.
-        // so this lookup sets the mimum level a tech can be at based on its tier.
-        private readonly Dictionary<int, int> techLevelLookupStartByTier;
-       
-
         public TechTreeParser(ILocalisationAPI localisationAPI, Dictionary<string, string> scriptedVariables, string rootTechDir)
         {
             this.localisationAPI = localisationAPI;
@@ -177,7 +170,13 @@ namespace TechTree.CWParser
             result.Flags = techFlags;
             
             node.ActOnNode("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
-            
+
+            // if icon has been defined
+            if (node.GetKeyValue("icon") != null)
+            {
+                result.Icon = node.GetKeyValue("icon", scriptedVariables);
+            }
+
             return result;
         }
     }

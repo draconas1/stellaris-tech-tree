@@ -8,15 +8,13 @@ using TechTree.Extensions;
 namespace TechTree.Output {
     public class VisDataMarshaler {
         private readonly ILocalisationAPI localisationAPI;
-        private readonly Dictionary<string, string> scriptedVariables;
 
-        public VisDataMarshaler(ILocalisationAPI localisationAPI, Dictionary<string, string> scriptedVariables)
+        public VisDataMarshaler(ILocalisationAPI localisationAPI)
         {
             this.localisationAPI = localisationAPI;
-            this.scriptedVariables = scriptedVariables;
         }
         
-        public VisData CreateVisData(TechsAndDependencies techsAndDependencies) {
+        public VisData CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
 
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
@@ -44,7 +42,7 @@ namespace TechTree.Output {
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
         
             var result = new VisData() {
-                nodes = techsAndDependencies.Techs.Values.Select(x => MarshalTech(x, minimumLevelForTier)).ToList(),
+                nodes = techsAndDependencies.Techs.Values.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
                 edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
             };
             
@@ -120,14 +118,15 @@ namespace TechTree.Output {
         }
         
         
-        private VisNode MarshalTech(Tech tech,  Dictionary<int, int> startingLevelsByTier)
+        private VisNode MarshalTech(Tech tech,  Dictionary<int, int> startingLevelsByTier, string imagesPath)
         {
             var result = new VisNode
             {
                 id = tech.Id,
                 label = tech.Name,
                 title = "<i>" + tech.Description + "</i>",
-                group = tech.Area.ToString()
+                group = tech.Area.ToString(),
+                imagePath = imagesPath + "/" + tech.Id + ".png"
             };
 
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
