@@ -1,233 +1,293 @@
 <!doctype html>
 <html>
 <head>
-  <title>Tech Tree</title>
+    <title>Tech Tree</title>
 
-  <script type="text/javascript" src="graph.json"></script>
-  <script type="text/javascript" src="dist/vis.js"></script>
+    <script type="text/javascript" src="graph.json"></script>
+    <script type="text/javascript" src="dist/vis.js"></script>
 
-  <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
-  <style type="text/css">
-    #mynetwork {
-      width: 1524px;
-      height: 1024px;
-      border: 1px solid lightgray;
-    }
-  </style>
+    <style type="text/css">
+        #mynetwork {
+            width: 1524px;
+            height: 1024px;
+            border: 1px solid lightgray;
+        }
+    </style>
 </head>
 <body>
-
-<p></p>
+<h1>Filter</h1>
+<form onsubmit="return redraw()">
+    <label for="filterBox">Filter tree to:</label>
+    <select id="filterBox">
+        <option value="All">All</option>
+        <option value="Physics">Physics</option>
+        <option value="Society">Society</option>
+        <option value="Engineering">Engineering</option>
+    </select>
+    <button type="submit">Apply Filter</button>
+</form>
+<h1>Search</h1>
+<form onsubmit="return findNodesByText()">
+    <label for="searchBox">Find tech by name:</label>
+    <input id="searchBox" type="text"/>
+    <button type="submit">summit</button>
+</form>
 
 <div id="mynetwork"></div>
 
 <script type="text/javascript">
 
-  var network;
-  var allNodes;
-  var allEdges;
-  var highlightActive = false;
-  // create an array with nodes
-  //import * as vis from "dist/vis";
-  var rawData = GraphData;
-  var allImages = {};
- 
-  var nodesDataset = new vis.DataSet(rawData.nodes);
-  var edgesDataset = new vis.DataSet(rawData.edges);
-  
-  // create a network
-  var container = document.getElementById('mynetwork');
-  var data = {
-	nodes: nodesDataset,
-	edges: edgesDataset
-  };
-  var options = {
-	nodes: {
-	  shape: 'box',
-	  borderWidth:0,
-	  shapeProperties: {
-		useBorderWithImage:true
-	  }
-	},
-	edges: {
-	  smooth: {
-		type: 'cubicBezier',
-		forceDirection: 'horizontal',
-		roundness: 0.4
-	  },
-	  dashes: true
-	},
-	layout: {
-	  hierarchical: {
-		direction: "LR",
-		sortMethod: 'directed',
-		levelSeparation: 600,
-		nodeSpacing: 120,
-		treeSpacing: 100,
-		blockShifting: true,
-		edgeMinimization: true,
-		parentCentralization: true
-	  }
-	},
-	groups: {
-	  Physics: {
-		color: {
-			background :'#427df4'
-		}
-	  },
-	  Society: {
-		color: {
-			background :'#80d17d'
-		}
-	  },
-	  Engineering: {
-		color: {
-			background :'#e5a649'
-		}
-	  }
-	},
-	interaction: {
-	  dragNodes :true,
-	  navigationButtons: true,
-	  keyboard: true
-	},
-	physics: {
-		enabled: false
-	}
-	
-  };
-  network = new vis.Network(container, data, options);
-  
-  // get a JSON object
-  allNodes = nodesDataset.get({returnType:"Object"});
-  allEdges = edgesDataset.get({returnType:"Object"});
+    var network;
+    var allNodes;
+    var allEdges;
+    var highlightActive = false;
+    // create an array with nodes
+    //import * as vis from "dist/vis";
+    var rawData = GraphData;
+    var allImages = {};
 
-  for (var nodeId in allNodes) {
-		var node = allNodes[nodeId];
-		if (node.hasOwnProperty("imagePath")) {
-			var newImg = new Image();
-			newImg.src = node.imagePath;
-			allImages[nodeId] = newImg;
-		}
-  }
-  
-  network.on("click",neighbourhoodHighlight);
-  
-  
-  network.on("afterDrawing", function (ctx) {
-  
-	for (var nodeId in allNodes) {
-		var node = allNodes[nodeId];
-		if (node.hasOwnProperty("imagePath")) {
-			try {		
-				var nodePosition = network.getPositions([nodeId]);
-				var boundingbox = network.getBoundingBox([nodeId]);
-				var img = allImages[nodeId];
-				ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top))/2));
-			}
-			catch (err) {
-				console.log("failed to load image: " + img.src + " : " + err.message);
-			}
-		}
-	  }
-  });
-  
-  
-  // Always give a direction else it will stack overflow due to infinite loop. 
-  // due to not checking if its already visited.
-  // fortunately a tech tree cannot contain loops 
-  function findAllConnections(node, direction) {
-	var connectedNodes = network.getConnectedNodes(node, direction);
-	if (connectedNodes.length > 0) {
-		var i;
-		var allConnectedNodes = [].concat(connectedNodes);
-		for (i = 0; i<connectedNodes.length; i++) {
-			var connectedNode = connectedNodes[i];
-			var connections = findAllConnections(connectedNode, direction);
-			allConnectedNodes = allConnectedNodes.concat(connections);
-		}
-		
-		return allConnectedNodes;
-	}
-	return [];
-  }
-  
-  // does the edge connect to one of the fake root nodes
-  function connectsToRoot(edge) {
-	return edge.from == 'Engineering-root' || edge.from == 'Society-root' || edge.from == 'Physics-root';
-  }
-  
-  function highlightEdge(edge) {
-	if (connectsToRoot(edge)) {
-	}
-	else {
-		var color = {};
-		color.color = '#000000';
-		color.highlight = '#000000';
-		edge.color = color;
-		edge.width = 3;
-		edge.dashes = false;	
-	}
-	
-  }
-  
-  function highlightEdges(nodePathIds) {
-	for (i = 0; i < nodePathIds.length; i++) {
-		// can only get all the edges connected to our node, which includes edges to irrelvant nodes
-		var edges = network.getConnectedEdges(nodePathIds[i]);
-		for (j = 0; j < edges.length; j++) {			
-			var edge = allEdges[edges[j]];
-			// only highlight our edge if its from and to ends are on our path
-			if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
-				highlightEdge(edge);
-			}
-		}
-	}  
-  }
-  
-  function neighbourhoodHighlight(params) {
-    //reset first
-	 for (var edgeId in allEdges) {
-	    var edge = allEdges[edgeId];
-		if (connectsToRoot(edge)) {
-		}
-		else {
-			var color = {};
-			color.color = 'grey';
-			edge.color = color;
-			edge.width = 1;
-            edge.dashes = true;
-		}
-      }
-	
-	// if something is selected:
-    if (params.nodes.length > 0) {
-      highlightActive = true;
-      var i,j;
-      var selectedNode = params.nodes[0];
+    var nodesDataset;
+    var edgesDataset = new vis.DataSet(rawData.edges);
 
-	  // find and highlight the path
-      var fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
-	  var toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
-	  highlightEdges(fromNodes);
-	  highlightEdges(toNodes);
-	  
-	       
-    }
-    else if (highlightActive == true) {         
-      highlightActive = false
+
+    function redraw() {
+        var techAreaFilter = document.getElementById("filterBox").value;
+        if (techAreaFilter == undefined || techAreaFilter == '' || techAreaFilter == 'All') {
+            nodesDataset = new vis.DataSet(rawData.nodes);
+        } else {
+            let newNodes = [];
+            for (const nodeId in rawData.nodes) {
+                var node = rawData.nodes[nodeId];
+                if (node.group == techAreaFilter) {
+                    newNodes.push(node);
+                }
+            }
+            nodesDataset = new vis.DataSet(newNodes);
+        }
+
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+        var data = {
+            nodes: nodesDataset,
+            edges: edgesDataset
+        };
+        var options = {
+            nodes: {
+                shape: 'box',
+                font: {
+                    size: 26
+                },
+                color: {
+                    highlight: {
+                        background: 'red'
+                    }
+                },
+                borderWidth: 0,
+                borderWidthSelected: 2,
+                shapeProperties: {
+                    useBorderWithImage: true
+                }
+            },
+            edges: {
+                smooth: {
+                    type: 'cubicBezier',
+                    forceDirection: 'horizontal',
+                    roundness: 0.4
+                },
+                dashes: true
+            },
+            layout: {
+                hierarchical: {
+                    direction: "LR",
+                    sortMethod: 'directed',
+                    levelSeparation: 600,
+                    nodeSpacing: 120,
+                    treeSpacing: 100,
+                    blockShifting: true,
+                    edgeMinimization: true,
+                    parentCentralization: true
+                }
+            },
+            groups: {
+                Physics: {
+                    color: {
+                        background: '#427df4'
+                    }
+                },
+                Society: {
+                    color: {
+                        background: '#80d17d'
+                    }
+                },
+                Engineering: {
+                    color: {
+                        background: '#e5a649'
+                    }
+                }
+            },
+            interaction: {
+                dragNodes: true,
+                navigationButtons: true,
+                keyboard: true
+            },
+            physics: {
+                enabled: false
+            }
+
+        };
+        network = new vis.Network(container, data, options);
+
+        // get a JSON object
+        allNodes = nodesDataset.get({returnType: "Object"});
+        allEdges = edgesDataset.get({returnType: "Object"});
+
+        // for (var nodeId in allNodes) {
+        //     var node = allNodes[nodeId];
+        //     if (node.hasOwnProperty("imagePath")) {
+        //         var newImg = new Image();
+        //         newImg.src = node.imagePath;
+        //         allImages[nodeId] = newImg;
+        //     }
+        // }
+
+        network.on("click", neighbourhoodHighlight);
+
+
+        // network.on("afterDrawing", function (ctx) {
+        //
+        //     for (var nodeId in allNodes) {
+        //         var node = allNodes[nodeId];
+        //         if (node.hasOwnProperty("imagePath")) {
+        //             try {
+        //                 var nodePosition = network.getPositions([nodeId]);
+        //                 var boundingbox = network.getBoundingBox([nodeId]);
+        //                 var img = allImages[nodeId];
+        //                 ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+        //             } catch (err) {
+        //                 console.log("failed to load image: " + img.src + " : " + err.message);
+        //             }
+        //         }
+        //     }
+        // });
+
+        return false;
     }
 
-    // transform the object into an array
-    var updateArray = [];
-    for (edgeId in allEdges) {
-      if (allEdges.hasOwnProperty(edgeId)) {
-        updateArray.push(allEdges[edgeId]);
-      }
+    function findNodesByText() {
+        var toFind = document.getElementById("searchBox").value;
+        toFind = toFind.toUpperCase();
+        var found = [];
+        for (var nodeId in allNodes) {
+            var node = allNodes[nodeId];
+            if (node.label.toUpperCase().indexOf(toFind) > -1) {
+                found.push(nodeId);
+            }
+        }
+        if (found.length > 0) {
+            network.selectNodes(found);
+            network.fit({
+                nodes: found
+            });
+        }
+        return false;
     }
-    edgesDataset.update(updateArray);
-  }
+
+    // Always give a direction else it will stack overflow due to infinite loop.
+    // due to not checking if its already visited.
+    // fortunately a tech tree cannot contain loops
+    function findAllConnections(node, direction) {
+        var connectedNodes = network.getConnectedNodes(node, direction);
+        if (connectedNodes.length > 0) {
+            var i;
+            var allConnectedNodes = [].concat(connectedNodes);
+            for (i = 0; i < connectedNodes.length; i++) {
+                var connectedNode = connectedNodes[i];
+                var connections = findAllConnections(connectedNode, direction);
+                allConnectedNodes = allConnectedNodes.concat(connections);
+            }
+
+            return allConnectedNodes;
+        }
+        return [];
+    }
+
+    // does the edge connect to one of the fake root nodes
+    function connectsToRoot(edge) {
+        return edge.from == 'Engineering-root' || edge.from == 'Society-root' || edge.from == 'Physics-root';
+    }
+
+    function highlightEdge(edge) {
+        if (connectsToRoot(edge)) {
+        } else {
+            var color = {};
+            color.color = '#000000';
+            color.highlight = '#000000';
+            edge.color = color;
+            edge.width = 3;
+            edge.dashes = false;
+        }
+
+    }
+
+    function highlightEdges(nodePathIds) {
+        for (i = 0; i < nodePathIds.length; i++) {
+            // can only get all the edges connected to our node, which includes edges to irrelvant nodes
+            var edges = network.getConnectedEdges(nodePathIds[i]);
+            for (j = 0; j < edges.length; j++) {
+                var edge = allEdges[edges[j]];
+                // only highlight our edge if its from and to ends are on our path
+                if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
+                    highlightEdge(edge);
+                }
+            }
+        }
+    }
+
+    function neighbourhoodHighlight(params) {
+        //reset first
+        for (var edgeId in allEdges) {
+            var edge = allEdges[edgeId];
+            if (connectsToRoot(edge)) {
+            } else {
+                var color = {};
+                color.color = 'grey';
+                edge.color = color;
+                edge.width = 1;
+                edge.dashes = true;
+            }
+        }
+
+        // if something is selected:
+        if (params.nodes.length > 0) {
+            highlightActive = true;
+            var i, j;
+            var selectedNode = params.nodes[0];
+
+            // find and highlight the path
+            var fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
+            var toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
+            highlightEdges(fromNodes);
+            highlightEdges(toNodes);
+
+
+        } else if (highlightActive == true) {
+            highlightActive = false
+        }
+
+        // transform the object into an array
+        var updateArray = [];
+        for (edgeId in allEdges) {
+            if (allEdges.hasOwnProperty(edgeId)) {
+                updateArray.push(allEdges[edgeId]);
+            }
+        }
+        edgesDataset.update(updateArray);
+    }
+
+    redraw();
 </script>
 
 
