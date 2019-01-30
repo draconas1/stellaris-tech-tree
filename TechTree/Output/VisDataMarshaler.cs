@@ -49,7 +49,7 @@ namespace TechTree.Output {
             // add supernodes
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
             foreach (var techArea in techAreas) {
-                result.nodes.Add(BuildRootNode(techArea));
+                result.nodes.Add(BuildRootNode(techArea, imagesPath));
             }
             
             // link to supernodes
@@ -60,13 +60,15 @@ namespace TechTree.Output {
             return result;
         }
 
-        private VisNode BuildRootNode(TechArea area) {
+        private VisNode BuildRootNode(TechArea area, string imagesPath) {
             var areaName = area.ToString();
             var result = new VisNode
             {
                 id = areaName + "-root",
                 label = localisationAPI.GetName(areaName.ToLower()),
                 group = areaName,
+                image = imagesPath + "/" + areaName + "-root" + ".png",
+                hasImage = true,
                 level = 0
             };
             return result;
@@ -126,7 +128,8 @@ namespace TechTree.Output {
                 label = tech.Name,
                 title = "<i>" + tech.Description + "</i>",
                 group = tech.Area.ToString(),
-                imagePath = imagesPath + "/" + tech.Id + ".png"
+                image = imagesPath + "/" + tech.Id + ".png",
+                prerequisites = tech.PrerequisiteIds?.ToArray()                
             };
 
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
@@ -144,6 +147,10 @@ namespace TechTree.Output {
             // we are assigning levels in the graph, so work out where this tech sits.
             result.level = tech.TierValue == -1 ? 0 : CalculateLevel(tech, startingLevelsByTier);  
 
+            if (tech.Flags.Any())
+            {
+                result.title = result.title + "<br/><b>Attributes: </b>" + string.Join(", ", tech.Flags);
+            }
           
             // rare purple tech
             if (tech.Flags.Contains(TechFlag.Rare))
@@ -197,8 +204,5 @@ namespace TechTree.Output {
             node.color = new VisColor { border = borderColour };
             node.borderWidth = 1;
         }
-
-        
-
     }
 }

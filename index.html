@@ -5,7 +5,7 @@
 
     <script type="text/javascript" src="graph.json"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
     <style type="text/css">
@@ -19,21 +19,25 @@
             align-items: center;
             justify-content: space-evenly;
         }
+		
+		.title {
+			font-family: 'Orbitron', sans-serif;
+		}
     </style>
 </head>
 <body>
+<h1 class="title">Stellaris Tech Tree</h1>
 <div class="topBar">
     <h1>Filter</h1>
-    <form onsubmit="return redraw()">
-        <label for="filterBox">Filter tree to:</label>
-        <select id="filterBox">
-            <option value="All">All</option>
-            <option value="Physics">Physics</option>
-            <option value="Society">Society</option>
-            <option value="Engineering">Engineering</option>
-        </select>
-        <button type="submit">Apply Filter</button>
-    </form>
+	<label for="filterBox">Filter tree to:</label>
+	<select id="filterBox" onchange="redraw()">
+		<option value="All">All</option>
+		<option value="Physics">Physics</option>
+		<option value="Society">Society</option>
+		<option value="Engineering">Engineering</option>
+	</select>
+	<label for="showImages">Use images instead of labels:</label>
+	<input type="checkbox" id="showImages" onclick="redraw()">
     <h1>Search</h1>
     <form onsubmit="return findNodesByText()">
         <label for="searchBox">Find tech by name:</label>
@@ -43,6 +47,8 @@
 </div>
 
 <div id="mynetwork"></div>
+
+To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> drop a msg to Draconas. 
 
 <script type="text/javascript">
 
@@ -54,6 +60,7 @@
     //import * as vis from "dist/vis";
     var rawData = GraphData;
     var allImages = {};
+	var allImages2 = {};
 
     var nodesDataset;
     var edgesDataset = new vis.DataSet(rawData.edges);
@@ -95,7 +102,8 @@
                 borderWidth: 0,
                 borderWidthSelected: 2,
                 shapeProperties: {
-                    useBorderWithImage: true
+                    useBorderWithImage: true,
+					borderRadius: 6
                 }
             },
             edges: {
@@ -145,53 +153,64 @@
             }
 
         };
+		
+		var checkBox = document.getElementById("showImages");
+		 if (checkBox.checked == true){
+			options.nodes.shape = 'image';
+			options.nodes.borderWidth = 2;
+			options.groups.Physics.color.border =  '#427df4';
+			options.groups.Society.color.border =  '#80d17d';
+			options.groups.Engineering.color.border =  '#e5a649';
+		 } 
+		
+		
+		
         network = new vis.Network(container, data, options);
 
         // get a JSON object
         allNodes = nodesDataset.get({returnType: "Object"});
         allEdges = edgesDataset.get({returnType: "Object"});
 
-        for (var nodeId in allNodes) {
-            var node = allNodes[nodeId];
-            if (node.hasOwnProperty("imagePath")) {
-                var newImg = new Image();
-                newImg.src = node.imagePath;
-                allImages[nodeId] = newImg;
-            }
-        }
+         
+		 network.on("click", neighbourhoodHighlight); 
+		 
+		 
+		 if (checkBox.checked == false){
+			for (let nodeId in allNodes) {
+				let node = allNodes[nodeId];
+				if (node.hasImage) {
+					allImages[nodeId] = new Promise((resolve, reject) => {
+						let img = new Image()
+						img.src = node.image
+						img.onload = resolve.bind(this, img)
+						img.onerror = img.onabort = reject
+					});
+					
+					let img = new Image()
+					img.src = node.image
+					allImages2[nodeId] = img;
+				}
+			}
 
-        let images = []
-        // for (var node of allNodes) {
-        //     if (node.imagePath) {
-        //         images.push(new Promise((resolve, reject) => {
-        //             let img = new Image()
-        //             img.src = node.imagePath
-        //             img.onload = resolve.bind(this, img)
-        //             img.onerror = img.onabort = reject
-        //         }))
-        //     }
-        // }
+		   
 
-        network.on("click", neighbourhoodHighlight);
-
-
-        // network.on("afterDrawing", function (ctx) {
-        //
-        //     for (var nodeId in allNodes) {
-        //         var node = allNodes[nodeId];
-        //         if (node.hasOwnProperty("imagePath")) {
-        //             try {
-        //                 let nodePosition = network.getPositions([nodeId]);
-        //                 let boundingbox = network.getBoundingBox([nodeId]);
-        //                 allImages[nodeId].then((img) => {
-        //                     ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
-        //                 });
-        //             } catch (err) {
-        //                 console.log("failed to load image: " + img.src + " : " + err.message);
-        //             }
-        //         }
-        //     }
-        // });
+		
+			network.on("afterDrawing", function (ctx) {
+				for (const nodeId in allNodes) {
+					let node = allNodes[nodeId];
+					if (node.hasImage) {                  
+						// allImages[nodeId].then((img) => {
+						// 	let boundingbox = network.getBoundingBox([nodeId]);
+						//	ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+						// });                    
+						
+						let boundingbox = network.getBoundingBox([nodeId]);
+						let img = allImages2[nodeId];
+						ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+					}
+				}
+			});
+		}
 
         return false;
     }
