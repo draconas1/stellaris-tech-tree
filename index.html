@@ -10,30 +10,37 @@
 
     <style type="text/css">
         #mynetwork {
-            width: 1524px;
-            height: 1024px;
+            width: 100%;
+            height: 80vh;
             border: 1px solid lightgray;
+        }
+        .topBar {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
         }
     </style>
 </head>
 <body>
-<h1>Filter</h1>
-<form onsubmit="return redraw()">
-    <label for="filterBox">Filter tree to:</label>
-    <select id="filterBox">
-        <option value="All">All</option>
-        <option value="Physics">Physics</option>
-        <option value="Society">Society</option>
-        <option value="Engineering">Engineering</option>
-    </select>
-    <button type="submit">Apply Filter</button>
-</form>
-<h1>Search</h1>
-<form onsubmit="return findNodesByText()">
-    <label for="searchBox">Find tech by name:</label>
-    <input id="searchBox" type="text"/>
-    <button type="submit">summit</button>
-</form>
+<div class="topBar">
+    <h1>Filter</h1>
+    <form onsubmit="return redraw()">
+        <label for="filterBox">Filter tree to:</label>
+        <select id="filterBox">
+            <option value="All">All</option>
+            <option value="Physics">Physics</option>
+            <option value="Society">Society</option>
+            <option value="Engineering">Engineering</option>
+        </select>
+        <button type="submit">Apply Filter</button>
+    </form>
+    <h1>Search</h1>
+    <form onsubmit="return findNodesByText()">
+        <label for="searchBox">Find tech by name:</label>
+        <input id="searchBox" type="text"/>
+        <button type="submit">summit</button>
+    </form>
+</div>
 
 <div id="mynetwork"></div>
 
@@ -58,9 +65,9 @@
             nodesDataset = new vis.DataSet(rawData.nodes);
         } else {
             let newNodes = [];
-            for (const nodeId in rawData.nodes) {
-                var node = rawData.nodes[nodeId];
-                if (node.group == techAreaFilter) {
+            for (const node of rawData.nodes) {
+                // var node = rawData.nodes[nodeId];
+                if (node.group === techAreaFilter) {
                     newNodes.push(node);
                 }
             }
@@ -144,12 +151,24 @@
         allNodes = nodesDataset.get({returnType: "Object"});
         allEdges = edgesDataset.get({returnType: "Object"});
 
-        // for (var nodeId in allNodes) {
-        //     var node = allNodes[nodeId];
-        //     if (node.hasOwnProperty("imagePath")) {
-        //         var newImg = new Image();
-        //         newImg.src = node.imagePath;
-        //         allImages[nodeId] = newImg;
+        for (var nodeId in allNodes) {
+            var node = allNodes[nodeId];
+            if (node.hasOwnProperty("imagePath")) {
+                var newImg = new Image();
+                newImg.src = node.imagePath;
+                allImages[nodeId] = newImg;
+            }
+        }
+
+        let images = []
+        // for (var node of allNodes) {
+        //     if (node.imagePath) {
+        //         images.push(new Promise((resolve, reject) => {
+        //             let img = new Image()
+        //             img.src = node.imagePath
+        //             img.onload = resolve.bind(this, img)
+        //             img.onerror = img.onabort = reject
+        //         }))
         //     }
         // }
 
@@ -162,10 +181,11 @@
         //         var node = allNodes[nodeId];
         //         if (node.hasOwnProperty("imagePath")) {
         //             try {
-        //                 var nodePosition = network.getPositions([nodeId]);
-        //                 var boundingbox = network.getBoundingBox([nodeId]);
-        //                 var img = allImages[nodeId];
-        //                 ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+        //                 let nodePosition = network.getPositions([nodeId]);
+        //                 let boundingbox = network.getBoundingBox([nodeId]);
+        //                 allImages[nodeId].then((img) => {
+        //                     ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+        //                 });
         //             } catch (err) {
         //                 console.log("failed to load image: " + img.src + " : " + err.message);
         //             }
