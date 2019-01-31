@@ -59,7 +59,6 @@ msg to Draconas.
     var allNodes;
     var allEdges;
     var rawData = GraphData;
-    var allImages = {};
 
     var nodesDataset;
     var edgesDataset = new vis.DataSet(rawData.edges);
@@ -69,17 +68,22 @@ msg to Draconas.
         if (toFind.length > 3) {
             toFind = toFind.toUpperCase();
             let found = [];
-            for (let nodeId in allNodes) {
-                let node = allNodes[nodeId];
+
+            Object.values(allNodes).forEach(node => {
                 if (node.label.toUpperCase().indexOf(toFind) > -1) {
-                    found.push(nodeId);
+                    found.push(node.id);
                 }
-            }
+            });
+
             if (found.length > 0) {
                 network.selectNodes(found);
                 network.fit({
                     nodes: found,
                     animation: true
+                });
+
+                neighbourhoodHighlight({
+                    nodes : found
                 });
             }
         }
@@ -92,13 +96,8 @@ msg to Draconas.
         if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
             nodesDataset = new vis.DataSet(rawData.nodes);
         } else {
-            let newNodes = [];
-            for (const node of rawData.nodes) {
-                // var node = rawData.nodes[nodeId];
-                if (node.group === techAreaFilter) {
-                    newNodes.push(node);
-                }
-            }
+            //lodash filter with a shorthand for propertyname matches value.
+            let newNodes = _.filter(rawData.nodes, ['group', techAreaFilter])
             nodesDataset = new vis.DataSet(newNodes);
         }
 
@@ -132,20 +131,20 @@ msg to Draconas.
 
         if (showImagesCheckbox.checked === false) {
             let promises = [];
-            for (let nodeId in allNodes) {
-                let node = allNodes[nodeId];
+            Object.entries(allNodes).forEach(([nodeId, node]) => {
                 if (node.hasImage) {
                     let promise = new Promise((resolve, reject) => {
                         let img = new Image();
                         img.src = node.image;
                         img.onload = resolve.bind(this, {img, nodeId});
-                        img.onerror = img.onabort = reject
+                        img.onerror = img.onabort = e =>  {
+                            console.log("Failed load load image " + node.image + " " + e);
+                            resolve.bind(this, {img: null, nodeId})
+                        }
                     });
-
-                    allImages[nodeId] = promise;
                     promises.push(promise)
                 }
-            }
+            });
 
             let allPromises = Promise.all(promises);
             let promiseResults = await allPromises;
@@ -159,19 +158,15 @@ msg to Draconas.
         // cannot do anything that is async here since this happens after draw but before scaling.
         // so async results in images being drawn afgter the rest of the view has been scaled.
         let downloadedImagesById = {};
-        for (let i = 0; i < allImagePromises.length; i++) {
-            let result = allImagePromises[i];
-            downloadedImagesById[result.nodeId] = result.img;
-        }
+        allImagePromises.forEach(result => downloadedImagesById[result.nodeId] = result.img);
 
-        for (const nodeId in allNodes) {
-            let node = allNodes[nodeId];
-            if (node.hasImage) {
+        Object.entries(allNodes).forEach(([nodeId, node]) => {
+            let img = downloadedImagesById[nodeId];
+            if (node.hasImage && img != null) {
                 let boundingbox = network.getBoundingBox([nodeId]);
-                let img = downloadedImagesById[nodeId];
                 ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
             }
-        }
+        });
     }
 
     // Always give a direction else it will stack overflow due to infinite loop.
@@ -180,13 +175,11 @@ msg to Draconas.
     function findAllConnections(node, direction) {
         let connectedNodes = network.getConnectedNodes(node, direction);
         if (connectedNodes.length > 0) {
-            let i;
             let allConnectedNodes = [].concat(connectedNodes);
-            for (i = 0; i < connectedNodes.length; i++) {
-                var connectedNode = connectedNodes[i];
-                var connections = findAllConnections(connectedNode, direction);
+            connectedNodes.forEach(connectedNode => {
+                let connections = findAllConnections(connectedNode, direction);
                 allConnectedNodes = allConnectedNodes.concat(connections);
-            }
+            });
 
             return allConnectedNodes;
         }
@@ -212,52 +205,43 @@ msg to Draconas.
     }
 
     function highlightEdges(nodePathIds) {
-        for (i = 0; i < nodePathIds.length; i++) {
-            // can only get all the edges connected to our node, which includes edges to irrelvant nodes
-            let edges = network.getConnectedEdges(nodePathIds[i]);
-            for (j = 0; j < edges.length; j++) {
-                let edge = allEdges[edges[j]];
+        nodePathIds.forEach(nodeId => {
+            // can only get all the edges connected to our node, which includes edges to irrelevant nodes
+            // //(e.g. other things that also have a pre-requisite of one of our prerequites)
+            let connectedEdgeIds = network.getConnectedEdges(nodeId);
+            connectedEdgeIds.forEach(edgeId => {
+                let edge = allEdges[edgeId];
                 // only highlight our edge if its from and to ends are on our path
                 if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
                     highlightEdge(edge);
                 }
-            }
-        }
+            });
+        });
     }
 
     function neighbourhoodHighlight(params) {
         //reset first
-        for (let edgeId in allEdges) {
-            let edge = allEdges[edgeId];
-            if (connectsToRoot(edge)) {
-            } else {
+        Object.values(allEdges).forEach(edge => {
+            if (!connectsToRoot(edge)) {
                 var color = {};
                 color.color = 'grey';
                 edge.color = color;
                 edge.width = 1;
                 edge.dashes = true;
             }
-        }
+        });
 
         // if something is selected:
-        if (params.nodes.length > 0) {
-            let selectedNode = params.nodes[0];
-
+        params.nodes.forEach(selectedNode => {
             // find and highlight the path
             let fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
             let toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
             highlightEdges(fromNodes);
             highlightEdges(toNodes);
-        }
+        });
 
         // transform the object into an array
-        let updateArray = [];
-        for (edgeId in allEdges) {
-            if (allEdges.hasOwnProperty(edgeId)) {
-                updateArray.push(allEdges[edgeId]);
-            }
-        }
-        edgesDataset.update(updateArray);
+        edgesDataset.update(Object.values(allEdges));
     }
 
     redraw();
