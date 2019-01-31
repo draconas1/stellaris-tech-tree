@@ -154,15 +154,40 @@ namespace TechTree.CWParser
                 techFlags.Add(TechFlag.Dangerous);
             }
             
+            if (node.Key == "tech_nanite_repair_system")
+            {
+                int i = 0;
+            }
+
             // tech that requires an acquisition - base weight is 0
             // this is not foolproof, look up some other things
             if ("0".Equals(node.GetKeyValue("weight"), StringComparison.InvariantCultureIgnoreCase))
             {
-                techFlags.Add(TechFlag.RequiresAcquisition);
+                techFlags.Add(TechFlag.NonTechDependency);
+            }
+            else
+            {
+                // for some reason some tech has a weighting of 1, then a weight modifier that just sets it to 0.
+                var weightNode = node.GetNode("weight_modifier");
+                if (weightNode != null)
+                {
+                    var weightFactor = weightNode.GetKeyValue("factor", scriptedVariables);
+                    if (weightFactor == "0" && !weightNode.Nodes.Any())
+                    {
+                        techFlags.Add(TechFlag.NonTechDependency);
+                    }
+                }
+            }
+
+            // fallen empire tech has a weight of 1 then a node that sets to 0 if you are not a fallen empire.
+            // imperfect method for finding fallen empire tech that needs acquisition.
+            if (node.GetKeyValue("tier") == "@fallentechtier" && node.GetKeyValue("cost") == "@fallentechcost")
+            {
+                techFlags.Add(TechFlag.NonTechDependency);
             }
 
             // tech that is repeatable
-            if (node.GetKeyValue("cost_per_level") != null)
+                if (node.GetKeyValue("cost_per_level") != null)
             {
                 techFlags.Add(TechFlag.Repeatable);
             }

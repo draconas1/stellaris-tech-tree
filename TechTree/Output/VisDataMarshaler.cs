@@ -172,7 +172,7 @@ namespace TechTree.Output {
             }
             
             // tech that requires an acquisition - base weight is 0
-            if (tech.Flags.Contains(TechFlag.RequiresAcquisition))
+            if (tech.Flags.Contains(TechFlag.NonTechDependency))
             {
                 setBorder(result, "#CE7C00");
             }

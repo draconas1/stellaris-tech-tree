@@ -12,7 +12,7 @@ namespace TechTree.DTO {
         Dangerous,
         Rare,
         Repeatable,
-        RequiresAcquisition
+        NonTechDependency
     }
     
     public class Tech : Entity {
