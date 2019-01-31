@@ -126,12 +126,13 @@ namespace TechTree.Output {
             {
                 id = tech.Id,
                 label = tech.Name,
-                title = "<i>" + tech.Description + "</i>",
+                title = "<b>" + tech.Name + "</b>",
                 group = tech.Area.ToString(),
                 image = imagesPath + "/" + tech.Id + ".png",
                 prerequisites = tech.PrerequisiteIds?.ToArray()                
             };
 
+            result.title = result.title + "<br/><i>" + tech.Description + "</i>";
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
 
             if (tech.Categories != null)
