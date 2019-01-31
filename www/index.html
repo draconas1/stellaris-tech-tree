@@ -5,6 +5,8 @@
 
     <script type="text/javascript" src="graph.js"></script>
     <script type="text/javascript" src="graphOptions.js"></script>
+    <script type="text/javascript" src="imagesFunctions.js"></script>
+    <script type="text/javascript" src="pathFunctions.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
@@ -58,10 +60,9 @@ msg to Draconas.
     var network;
     var allNodes;
     var allEdges;
-    var rawData = GraphData;
 
     var nodesDataset;
-    var edgesDataset = new vis.DataSet(rawData.edges);
+    var edgesDataset = new vis.DataSet(GraphData.edges);
 
     var onInputhandler = _.debounce(function(event) {
         let toFind = this.value;
@@ -94,10 +95,10 @@ msg to Draconas.
     async function redraw() {
         var techAreaFilter = document.getElementById("filterBox").value;
         if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-            nodesDataset = new vis.DataSet(rawData.nodes);
+            nodesDataset = new vis.DataSet(GraphData.nodes);
         } else {
             //lodash filter with a shorthand for propertyname matches value.
-            let newNodes = _.filter(rawData.nodes, ['group', techAreaFilter])
+            let newNodes = _.filter(GraphData.nodes, ['group', techAreaFilter]);
             nodesDataset = new vis.DataSet(newNodes);
         }
 
@@ -126,7 +127,7 @@ msg to Draconas.
         allNodes = nodesDataset.get({returnType: "Object"});
         allEdges = edgesDataset.get({returnType: "Object"});
 
-        network.on("click", neighbourhoodHighlight);
+        network.on("click", PathFunctions.highlightDependencyGraph);
 
 
         if (showImagesCheckbox.checked === false) {
@@ -148,101 +149,13 @@ msg to Draconas.
 
             let allPromises = Promise.all(promises);
             let promiseResults = await allPromises;
-            network.on("afterDrawing", ctx =>  addImagesToTextNodes(ctx, promiseResults));
+            network.on("afterDrawing", ctx =>  ImageFunctions.addImagesToTextNodes(ctx, promiseResults));
         }
 
         return false;
     }
 
-    function addImagesToTextNodes(ctx, allImagePromises) {
-        // cannot do anything that is async here since this happens after draw but before scaling.
-        // so async results in images being drawn afgter the rest of the view has been scaled.
-        let downloadedImagesById = {};
-        allImagePromises.forEach(result => downloadedImagesById[result.nodeId] = result.img);
 
-        Object.entries(allNodes).forEach(([nodeId, node]) => {
-            let img = downloadedImagesById[nodeId];
-            if (node.hasImage && img != null) {
-                let boundingbox = network.getBoundingBox([nodeId]);
-                ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
-            }
-        });
-    }
-
-    // Always give a direction else it will stack overflow due to infinite loop.
-    // due to not checking if its already visited, so forward and back expansion means it just keeps bouncing.
-    // fortunately a tech tree cannot contain loops
-    function findAllConnections(node, direction) {
-        let connectedNodes = network.getConnectedNodes(node, direction);
-        if (connectedNodes.length > 0) {
-            let allConnectedNodes = [].concat(connectedNodes);
-            connectedNodes.forEach(connectedNode => {
-                let connections = findAllConnections(connectedNode, direction);
-                allConnectedNodes = allConnectedNodes.concat(connections);
-            });
-
-            return allConnectedNodes;
-        }
-        return [];
-    }
-
-    // does the edge connect to one of the fake root nodes
-    function connectsToRoot(edge) {
-        return edge.from === 'Engineering-root' || edge.from === 'Society-root' || edge.from === 'Physics-root';
-    }
-
-    function highlightEdge(edge) {
-        if (connectsToRoot(edge)) {
-        } else {
-            let color = {};
-            color.color = '#000000';
-            color.highlight = '#000000';
-            edge.color = color;
-            edge.width = 3;
-            edge.dashes = false;
-        }
-
-    }
-
-    function highlightEdges(nodePathIds) {
-        nodePathIds.forEach(nodeId => {
-            // can only get all the edges connected to our node, which includes edges to irrelevant nodes
-            // //(e.g. other things that also have a pre-requisite of one of our prerequites)
-            let connectedEdgeIds = network.getConnectedEdges(nodeId);
-            connectedEdgeIds.forEach(edgeId => {
-                let edge = allEdges[edgeId];
-                // only highlight our edge if its from and to ends are on our path
-                if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
-                    highlightEdge(edge);
-                }
-            });
-        });
-    }
-
-    function neighbourhoodHighlight(params) {
-        //reset first
-        Object.values(allEdges).forEach(edge => {
-            if (!connectsToRoot(edge)) {
-                var color = {};
-                color.color = 'grey';
-                edge.color = color;
-                edge.width = 1;
-                edge.dashes = true;
-            }
-        });
-
-        // if something is selected:
-        params.nodes.forEach(selectedNode => {
-            // find and highlight the path
-            let fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
-            let toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
-            highlightEdges(fromNodes);
-            highlightEdges(toNodes);
-        });
-
-        // transform the object into an array
-        edgesDataset.update(Object.values(allEdges));
-    }
 
     redraw();
 </script>
