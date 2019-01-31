@@ -3,7 +3,8 @@
 <head>
     <title>Tech Tree</title>
 
-    <script type="text/javascript" src="graph.json"></script>
+    <script type="text/javascript" src="graph.js"></script>
+    <script type="text/javascript" src="graphOptions.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
@@ -41,10 +42,9 @@
     <label for="showImages">Use images instead of labels:</label>
     <input type="checkbox" id="showImages" onclick="redraw()">
     <h1>Search</h1>
-    <form onsubmit="return findNodesByText()">
+    <form>
         <label for="searchBox">Find tech by name:</label>
-        <input id="searchBox" type="text" oninput="debounceFind()"/>
-        <button type="submit">summit</button>
+        <input id="searchBox" type="text"/>
     </form>
 </div>
 
@@ -64,6 +64,28 @@ msg to Draconas.
     var nodesDataset;
     var edgesDataset = new vis.DataSet(rawData.edges);
 
+    var onInputhandler = _.debounce(function(event) {
+        let toFind = this.value;
+        if (toFind.length > 3) {
+            toFind = toFind.toUpperCase();
+            let found = [];
+            for (let nodeId in allNodes) {
+                let node = allNodes[nodeId];
+                if (node.label.toUpperCase().indexOf(toFind) > -1) {
+                    found.push(nodeId);
+                }
+            }
+            if (found.length > 0) {
+                network.selectNodes(found);
+                network.fit({
+                    nodes: found,
+                    animation: true
+                });
+            }
+        }
+        return false;
+    });
+    document.getElementById("searchBox").addEventListener("input", onInputhandler);
 
     async function redraw() {
         var techAreaFilter = document.getElementById("filterBox").value;
@@ -87,71 +109,7 @@ msg to Draconas.
             nodes: nodesDataset,
             edges: edgesDataset
         };
-        var options = {
-            nodes: {
-                shape: 'box',
-                font: {
-                    size: 26
-                },
-                color: {
-                    highlight: {
-                        background: 'red'
-                    }
-                },
-                borderWidth: 0,
-                borderWidthSelected: 2,
-                shapeProperties: {
-                    useBorderWithImage: true,
-                    borderRadius: 6
-                }
-            },
-            edges: {
-                smooth: {
-                    type: 'cubicBezier',
-                    forceDirection: 'horizontal',
-                    roundness: 0.4
-                },
-                dashes: true
-            },
-            layout: {
-                hierarchical: {
-                    direction: "LR",
-                    sortMethod: 'directed',
-                    levelSeparation: 600,
-                    nodeSpacing: 120,
-                    treeSpacing: 100,
-                    blockShifting: true,
-                    edgeMinimization: true,
-                    parentCentralization: true
-                }
-            },
-            groups: {
-                Physics: {
-                    color: {
-                        background: '#427df4'
-                    }
-                },
-                Society: {
-                    color: {
-                        background: '#80d17d'
-                    }
-                },
-                Engineering: {
-                    color: {
-                        background: '#e5a649'
-                    }
-                }
-            },
-            interaction: {
-                dragNodes: true,
-                navigationButtons: true,
-                keyboard: true
-            },
-            physics: {
-                enabled: false
-            }
-
-        };
+        let options = GraphOptions;
 
         var showImagesCheckbox = document.getElementById("showImages");
         if (showImagesCheckbox.checked === true) {
@@ -215,40 +173,6 @@ msg to Draconas.
             }
         }
     }
-
-    function findNodesByText() {
-        let toFind = document.getElementById("searchBox").value;
-        toFind = toFind.toUpperCase();
-        let found = [];
-        for (let nodeId in allNodes) {
-            let node = allNodes[nodeId];
-            if (node.label.toUpperCase().indexOf(toFind) > -1) {
-                found.push(nodeId);
-            }
-        }
-        if (found.length > 0) {
-            network.selectNodes(found);
-            network.fit({
-                nodes: found,
-                animation: true
-            });
-        }
-        return false;
-    }
-
-/*
-https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-so you could just replace modifyText with your _.debounce(modifyText, ...)
-
-Object.entries()
- */
-    function debounceFind() {
-        let toFind = document.getElementById("searchBox").value;
-        if (toFind.length > 3) {
-            _.debounce(findNodesByText, 150)();
-        }
-    }
-
 
     // Always give a direction else it will stack overflow due to infinite loop.
     // due to not checking if its already visited, so forward and back expansion means it just keeps bouncing.

@@ -25,7 +25,7 @@ namespace TechTree.DTO
         public void WriteVisData(string toDir, string nodesFile = "nodes.json", string edgesFile = "edges.json")
         {
 
-            JsonSerializer serializer = getSerializer();
+            JsonSerializer serializer = GetSerializer();
 
             using (JsonWriter writer = new JsonTextWriter(new StreamWriter(Path.Combine(toDir, nodesFile))))
             {
@@ -46,9 +46,9 @@ namespace TechTree.DTO
         /// </summary>
         /// <param name="toDir"></param>
         /// <param name="fileName"></param>
-        public void WriteVisDataToOneJSFile(string toDir, string fileName = "graph.json")
+        public void WriteVisDataToOneJSFile(string toDir, string fileName = "graph.js")
         {
-            JsonSerializer serializer = getSerializer();
+            JsonSerializer serializer = GetSerializer();
 
             var writer = new StringWriter();
             writer.Write("GraphData = ");
@@ -61,7 +61,7 @@ namespace TechTree.DTO
             }
         }
 
-        private static JsonSerializer getSerializer()
+        private static JsonSerializer GetSerializer()
         {
             JsonSerializer serializer = new JsonSerializer();
             serializer.Formatting = Formatting.Indented;
