@@ -4,8 +4,9 @@
     <title>Tech Tree</title>
 
     <script type="text/javascript" src="graph.json"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
     <style type="text/css">
@@ -14,61 +15,59 @@
             height: 80vh;
             border: 1px solid lightgray;
         }
+
         .topBar {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
         }
-		
-		.title {
-			font-family: 'Orbitron', sans-serif;
-		}
+
+        .title {
+            font-family: 'Orbitron', sans-serif;
+        }
     </style>
 </head>
 <body>
 <h1 class="title">Stellaris Tech Tree</h1>
 <div class="topBar">
     <h1>Filter</h1>
-	<label for="filterBox">Filter tree to:</label>
-	<select id="filterBox" onchange="redraw()">
-		<option value="All">All</option>
-		<option value="Physics">Physics</option>
-		<option value="Society">Society</option>
-		<option value="Engineering">Engineering</option>
-	</select>
-	<label for="showImages">Use images instead of labels:</label>
-	<input type="checkbox" id="showImages" onclick="redraw()">
+    <label for="filterBox">Filter tree to:</label>
+    <select id="filterBox" onchange="redraw()">
+        <option value="All">All</option>
+        <option value="Physics">Physics</option>
+        <option value="Society">Society</option>
+        <option value="Engineering">Engineering</option>
+    </select>
+    <label for="showImages">Use images instead of labels:</label>
+    <input type="checkbox" id="showImages" onclick="redraw()">
     <h1>Search</h1>
     <form onsubmit="return findNodesByText()">
         <label for="searchBox">Find tech by name:</label>
-        <input id="searchBox" type="text"/>
+        <input id="searchBox" type="text" oninput="debounceFind()"/>
         <button type="submit">summit</button>
     </form>
 </div>
 
 <div id="mynetwork"></div>
 
-To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> drop a msg to Draconas. 
+To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> drop a
+msg to Draconas.
 
 <script type="text/javascript">
 
     var network;
     var allNodes;
     var allEdges;
-    var highlightActive = false;
-    // create an array with nodes
-    //import * as vis from "dist/vis";
     var rawData = GraphData;
     var allImages = {};
-	var allImages2 = {};
 
     var nodesDataset;
     var edgesDataset = new vis.DataSet(rawData.edges);
 
 
-    function redraw() {
+    async function redraw() {
         var techAreaFilter = document.getElementById("filterBox").value;
-        if (techAreaFilter == undefined || techAreaFilter == '' || techAreaFilter == 'All') {
+        if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
             nodesDataset = new vis.DataSet(rawData.nodes);
         } else {
             let newNodes = [];
@@ -103,7 +102,7 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
                 borderWidthSelected: 2,
                 shapeProperties: {
                     useBorderWithImage: true,
-					borderRadius: 6
+                    borderRadius: 6
                 }
             },
             edges: {
@@ -153,74 +152,76 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
             }
 
         };
-		
-		var checkBox = document.getElementById("showImages");
-		 if (checkBox.checked == true){
-			options.nodes.shape = 'image';
-			options.nodes.borderWidth = 2;
-			options.groups.Physics.color.border =  '#427df4';
-			options.groups.Society.color.border =  '#80d17d';
-			options.groups.Engineering.color.border =  '#e5a649';
-		 } 
-		
-		
-		
+
+        var showImagesCheckbox = document.getElementById("showImages");
+        if (showImagesCheckbox.checked === true) {
+            options.nodes.shape = 'image';
+            options.nodes.borderWidth = 2;
+            options.groups.Physics.color.border = '#427df4';
+            options.groups.Society.color.border = '#80d17d';
+            options.groups.Engineering.color.border = '#e5a649';
+        }
+
+
         network = new vis.Network(container, data, options);
 
         // get a JSON object
         allNodes = nodesDataset.get({returnType: "Object"});
         allEdges = edgesDataset.get({returnType: "Object"});
 
-         
-		 network.on("click", neighbourhoodHighlight); 
-		 
-		 
-		 if (checkBox.checked == false){
-			for (let nodeId in allNodes) {
-				let node = allNodes[nodeId];
-				if (node.hasImage) {
-					allImages[nodeId] = new Promise((resolve, reject) => {
-						let img = new Image()
-						img.src = node.image
-						img.onload = resolve.bind(this, img)
-						img.onerror = img.onabort = reject
-					});
-					
-					let img = new Image()
-					img.src = node.image
-					allImages2[nodeId] = img;
-				}
-			}
+        network.on("click", neighbourhoodHighlight);
 
-		   
 
-		
-			network.on("afterDrawing", function (ctx) {
-				for (const nodeId in allNodes) {
-					let node = allNodes[nodeId];
-					if (node.hasImage) {                  
-						// allImages[nodeId].then((img) => {
-						// 	let boundingbox = network.getBoundingBox([nodeId]);
-						//	ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
-						// });                    
-						
-						let boundingbox = network.getBoundingBox([nodeId]);
-						let img = allImages2[nodeId];
-						ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
-					}
-				}
-			});
-		}
+        if (showImagesCheckbox.checked === false) {
+            let promises = [];
+            for (let nodeId in allNodes) {
+                let node = allNodes[nodeId];
+                if (node.hasImage) {
+                    let promise = new Promise((resolve, reject) => {
+                        let img = new Image();
+                        img.src = node.image;
+                        img.onload = resolve.bind(this, {img, nodeId});
+                        img.onerror = img.onabort = reject
+                    });
+
+                    allImages[nodeId] = promise;
+                    promises.push(promise)
+                }
+            }
+
+            let allPromises = Promise.all(promises);
+            let promiseResults = await allPromises;
+            network.on("afterDrawing", ctx =>  addImagesToTextNodes(ctx, promiseResults));
+        }
 
         return false;
     }
 
+    function addImagesToTextNodes(ctx, allImagePromises) {
+        // cannot do anything that is async here since this happens after draw but before scaling.
+        // so async results in images being drawn afgter the rest of the view has been scaled.
+        let downloadedImagesById = {};
+        for (let i = 0; i < allImagePromises.length; i++) {
+            let result = allImagePromises[i];
+            downloadedImagesById[result.nodeId] = result.img;
+        }
+
+        for (const nodeId in allNodes) {
+            let node = allNodes[nodeId];
+            if (node.hasImage) {
+                let boundingbox = network.getBoundingBox([nodeId]);
+                let img = downloadedImagesById[nodeId];
+                ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+            }
+        }
+    }
+
     function findNodesByText() {
-        var toFind = document.getElementById("searchBox").value;
+        let toFind = document.getElementById("searchBox").value;
         toFind = toFind.toUpperCase();
-        var found = [];
-        for (var nodeId in allNodes) {
-            var node = allNodes[nodeId];
+        let found = [];
+        for (let nodeId in allNodes) {
+            let node = allNodes[nodeId];
             if (node.label.toUpperCase().indexOf(toFind) > -1) {
                 found.push(nodeId);
             }
@@ -228,20 +229,35 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
         if (found.length > 0) {
             network.selectNodes(found);
             network.fit({
-                nodes: found
+                nodes: found,
+                animation: true
             });
         }
         return false;
     }
 
+/*
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+so you could just replace modifyText with your _.debounce(modifyText, ...)
+
+Object.entries()
+ */
+    function debounceFind() {
+        let toFind = document.getElementById("searchBox").value;
+        if (toFind.length > 3) {
+            _.debounce(findNodesByText, 150)();
+        }
+    }
+
+
     // Always give a direction else it will stack overflow due to infinite loop.
-    // due to not checking if its already visited.
+    // due to not checking if its already visited, so forward and back expansion means it just keeps bouncing.
     // fortunately a tech tree cannot contain loops
     function findAllConnections(node, direction) {
-        var connectedNodes = network.getConnectedNodes(node, direction);
+        let connectedNodes = network.getConnectedNodes(node, direction);
         if (connectedNodes.length > 0) {
-            var i;
-            var allConnectedNodes = [].concat(connectedNodes);
+            let i;
+            let allConnectedNodes = [].concat(connectedNodes);
             for (i = 0; i < connectedNodes.length; i++) {
                 var connectedNode = connectedNodes[i];
                 var connections = findAllConnections(connectedNode, direction);
@@ -255,13 +271,13 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
 
     // does the edge connect to one of the fake root nodes
     function connectsToRoot(edge) {
-        return edge.from == 'Engineering-root' || edge.from == 'Society-root' || edge.from == 'Physics-root';
+        return edge.from === 'Engineering-root' || edge.from === 'Society-root' || edge.from === 'Physics-root';
     }
 
     function highlightEdge(edge) {
         if (connectsToRoot(edge)) {
         } else {
-            var color = {};
+            let color = {};
             color.color = '#000000';
             color.highlight = '#000000';
             edge.color = color;
@@ -274,9 +290,9 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
     function highlightEdges(nodePathIds) {
         for (i = 0; i < nodePathIds.length; i++) {
             // can only get all the edges connected to our node, which includes edges to irrelvant nodes
-            var edges = network.getConnectedEdges(nodePathIds[i]);
+            let edges = network.getConnectedEdges(nodePathIds[i]);
             for (j = 0; j < edges.length; j++) {
-                var edge = allEdges[edges[j]];
+                let edge = allEdges[edges[j]];
                 // only highlight our edge if its from and to ends are on our path
                 if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
                     highlightEdge(edge);
@@ -287,8 +303,8 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
 
     function neighbourhoodHighlight(params) {
         //reset first
-        for (var edgeId in allEdges) {
-            var edge = allEdges[edgeId];
+        for (let edgeId in allEdges) {
+            let edge = allEdges[edgeId];
             if (connectsToRoot(edge)) {
             } else {
                 var color = {};
@@ -301,23 +317,17 @@ To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET
 
         // if something is selected:
         if (params.nodes.length > 0) {
-            highlightActive = true;
-            var i, j;
-            var selectedNode = params.nodes[0];
+            let selectedNode = params.nodes[0];
 
             // find and highlight the path
-            var fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
-            var toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
+            let fromNodes = findAllConnections(selectedNode, 'from').concat(selectedNode);
+            let toNodes = findAllConnections(selectedNode, 'to').concat(selectedNode);
             highlightEdges(fromNodes);
             highlightEdges(toNodes);
-
-
-        } else if (highlightActive == true) {
-            highlightActive = false
         }
 
         // transform the object into an array
-        var updateArray = [];
+        let updateArray = [];
         for (edgeId in allEdges) {
             if (allEdges.hasOwnProperty(edgeId)) {
                 updateArray.push(allEdges[edgeId]);
