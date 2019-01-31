@@ -19,8 +19,8 @@ namespace TechTree
         public const string ROOT_IN_USE = MAC ? STELLARIS_ROOT_MAC : STELLARIS_ROOT_WINDOWS;
         
         
-        public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree";
-        public const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree";
+        public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree/www";
+        public const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree/www";
         public const string OUTPUT_IN_USE = MAC ? OUTPUT_MAC : OUTPUT_WINDOWS;
         static void Main(string[] args)
         {
