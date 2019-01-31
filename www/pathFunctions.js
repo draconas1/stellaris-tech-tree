@@ -29,9 +29,9 @@ PathFunctions = {
         nodePathIds.forEach(nodeId => {
             // can only get all the edges connected to our node, which includes edges to irrelevant nodes
             // //(e.g. other things that also have a pre-requisite of one of our prerequites)
-            let connectedEdgeIds = network.getConnectedEdges(nodeId);
+            const connectedEdgeIds = network.getConnectedEdges(nodeId);
             connectedEdgeIds.forEach(edgeId => {
-                let edge = allEdges[edgeId];
+                const edge = allEdges[edgeId];
                 // only highlight our edge if its from and to ends are on our path
                 if (nodePathIds.indexOf(edge.from) > -1 && nodePathIds.indexOf(edge.to) > -1) {
                     PathFunctions.highlightEdge(edge);
@@ -42,7 +42,7 @@ PathFunctions = {
 
     highlightEdge: function (edge) {
         if (!PathFunctions.connectsToRoot(edge)) {
-            let color = {};
+            const color = {};
             color.color = '#000000';
             color.highlight = '#000000';
             edge.color = color;
@@ -55,11 +55,11 @@ PathFunctions = {
     // due to not checking if its already visited, so forward and back expansion means it just keeps bouncing.
     // fortunately a tech tree cannot contain loops
     findAllConnections: function (node, direction) {
-        let connectedNodes = network.getConnectedNodes(node, direction);
+        const connectedNodes = network.getConnectedNodes(node, direction);
         if (connectedNodes.length > 0) {
             let allConnectedNodes = [].concat(connectedNodes);
             connectedNodes.forEach(connectedNode => {
-                let connections = PathFunctions.findAllConnections(connectedNode, direction);
+                const connections = PathFunctions.findAllConnections(connectedNode, direction);
                 allConnectedNodes = allConnectedNodes.concat(connections);
             });
 

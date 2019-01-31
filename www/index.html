@@ -1,163 +1,75 @@
 <!doctype html>
-<html>
+<html lang="english">
 <head>
-    <title>Tech Tree</title>
+    <title>Stellaris Tech Tree</title>
 
     <script type="text/javascript" src="graph.js"></script>
     <script type="text/javascript" src="graphOptions.js"></script>
     <script type="text/javascript" src="imagesFunctions.js"></script>
+    <script type="text/javascript" src="techTree.js"></script>
     <script type="text/javascript" src="pathFunctions.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
-
-    <style type="text/css">
-        #mynetwork {
-            width: 100%;
-            height: 80vh;
-            border: 1px solid lightgray;
-        }
-
-        .topBar {
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-
-        .title {
-            font-family: 'Orbitron', sans-serif;
-        }
-    </style>
+    <link href="techTree.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
+<body onload="FocusOnInput()">
 <h1 class="title">Stellaris Tech Tree</h1>
-<div class="topBar">
-    <h1>Filter</h1>
-    <label for="filterBox">Filter tree to:</label>
-    <select id="filterBox" onchange="redraw()">
-        <option value="All">All</option>
-        <option value="Physics">Physics</option>
-        <option value="Society">Society</option>
-        <option value="Engineering">Engineering</option>
-    </select>
-    <label for="showImages">Use images instead of labels:</label>
-    <input type="checkbox" id="showImages" onclick="redraw()">
-    <h1>Search</h1>
-    <form>
-        <label for="searchBox">Find tech by name:</label>
-        <input id="searchBox" type="text"/>
-    </form>
+<p>
+    A complete dependency tree of all technologies in Stellaris by <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
+</p>
+<div id="topBar">
+    <div class="child" id="searchOpts">
+        <h2>Search</h2>
+        <form>
+            <label for="searchBox">Find tech by name:</label>
+            <input id="searchBox" type="text"/>
+        </form>
+    </div>
+    <div class="child" id="filterOpts">
+        <h2>Filters</h2>
+        <label for="filterBox">Filter tree to:</label>
+        <select id="filterBox" onchange="createNetwork()">
+            <option value="All">All</option>
+            <option value="Physics">Physics</option>
+            <option value="Society">Society</option>
+            <option value="Engineering">Engineering</option>
+        </select>
+    </div>
+    <div class="child" id="displayOpts">
+        <h2>Images</h2>
+        <label for="showImages">Use images instead of labels:</label>
+        <input type="checkbox" id="showImages" onclick="createNetwork()">
+    </div>
 </div>
 
-<div id="mynetwork"></div>
+<div id="network"></div>
 
-To contact me, is best on discord <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> drop a
-msg to Draconas.
-
+<p>
+    The sourcecode for creating the tree is on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>.
+    It uses the <a href="https://github.com/tboby/cwtools">CWTools</a> paradox file parser to transform the PDX files to
+    a format thast can be read and laid out using <a href="http://visjs.org/">Vis.js</a>.
+</p>
+<p>
+    To contact me look for Draconas on <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> or
+    the Paradox Forums
+</p>
 <script type="text/javascript">
-
+    // set up some global variables.
     var network;
     var allNodes;
     var allEdges;
-
     var nodesDataset;
     var edgesDataset = new vis.DataSet(GraphData.edges);
 
-    var onInputhandler = _.debounce(function(event) {
-        let toFind = this.value;
-        if (toFind.length > 3) {
-            toFind = toFind.toUpperCase();
-            let found = [];
+    document.getElementById("searchBox").addEventListener("input", _.debounce(searchForNode));
 
-            Object.values(allNodes).forEach(node => {
-                if (node.label.toUpperCase().indexOf(toFind) > -1) {
-                    found.push(node.id);
-                }
-            });
+    createNetwork();
 
-            if (found.length > 0) {
-                network.selectNodes(found);
-                network.fit({
-                    nodes: found,
-                    animation: true
-                });
-
-                neighbourhoodHighlight({
-                    nodes : found
-                });
-            }
-        }
-        return false;
-    });
-    document.getElementById("searchBox").addEventListener("input", onInputhandler);
-
-    async function redraw() {
-        var techAreaFilter = document.getElementById("filterBox").value;
-        if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-            nodesDataset = new vis.DataSet(GraphData.nodes);
-        } else {
-            //lodash filter with a shorthand for propertyname matches value.
-            let newNodes = _.filter(GraphData.nodes, ['group', techAreaFilter]);
-            nodesDataset = new vis.DataSet(newNodes);
-        }
-
-
-        // create a network
-        var container = document.getElementById('mynetwork');
-        var data = {
-            nodes: nodesDataset,
-            edges: edgesDataset
-        };
-        let options = GraphOptions;
-
-        var showImagesCheckbox = document.getElementById("showImages");
-        if (showImagesCheckbox.checked === true) {
-            options.nodes.shape = 'image';
-            options.nodes.borderWidth = 2;
-            options.groups.Physics.color.border = '#427df4';
-            options.groups.Society.color.border = '#80d17d';
-            options.groups.Engineering.color.border = '#e5a649';
-        }
-
-
-        network = new vis.Network(container, data, options);
-
-        // get a JSON object
-        allNodes = nodesDataset.get({returnType: "Object"});
-        allEdges = edgesDataset.get({returnType: "Object"});
-
-        network.on("click", PathFunctions.highlightDependencyGraph);
-
-
-        if (showImagesCheckbox.checked === false) {
-            let promises = [];
-            Object.entries(allNodes).forEach(([nodeId, node]) => {
-                if (node.hasImage) {
-                    let promise = new Promise((resolve, reject) => {
-                        let img = new Image();
-                        img.src = node.image;
-                        img.onload = resolve.bind(this, {img, nodeId});
-                        img.onerror = img.onabort = e =>  {
-                            console.log("Failed load load image " + node.image + " " + e);
-                            resolve.bind(this, {img: null, nodeId})
-                        }
-                    });
-                    promises.push(promise)
-                }
-            });
-
-            let allPromises = Promise.all(promises);
-            let promiseResults = await allPromises;
-            network.on("afterDrawing", ctx =>  ImageFunctions.addImagesToTextNodes(ctx, promiseResults));
-        }
-
-        return false;
+    function FocusOnInput() {
+        document.getElementById("searchBox").focus();
     }
-
-
-
-    redraw();
 </script>
 
 

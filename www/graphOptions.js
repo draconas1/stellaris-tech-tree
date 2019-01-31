@@ -13,8 +13,9 @@ GraphOptions = {
         borderWidthSelected: 2,
         shapeProperties: {
             useBorderWithImage: true,
-            borderRadius: 6
-        }
+            borderRadius: 0
+        },
+        heightConstraint: { minimum: 42 }
     },
     edges: {
         smooth: {

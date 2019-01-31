@@ -1,0 +1,25 @@
+#network {
+    width: 90%;
+    height: 80vh;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+#topBar {
+    display: flex;
+    align-items: center;
+}
+
+.child {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+* {
+    font-family: 'Orbitron', sans-serif;
+}
