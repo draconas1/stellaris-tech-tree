@@ -13,7 +13,7 @@ Currently using http://visjs.org for graphing.
 * Dependency highlight
 * Rare/Starter/Dangerous/Acquisition tech highlight
 
-Live version at http://www.draconas.co.uk/stellarisTech
+Live version at http://www.draconas.co.uk/stellaristech
 
 The live version uses the Stellaris interface icon gfx which are copyright to Paradox Interactive, these are not part of the git repository and to use them you will need your own copy of Stellaris and to run the parser.
 
@@ -32,4 +32,4 @@ The live version uses the Stellaris interface icon gfx which are copyright to Pa
 
 Note forking the Repo: I strongly recommend forking off a release, I am a one man band who works from several machines so the master branch is frequently broken as I use it to transfer or store code after a session.  
 
-Many thanks to https://github.com/tboby for all his help with using CWTools and parsing the PDS files.
+Many thanks to https://github.com/tboby for all his help with using CWTools and parsing the PDX files.
