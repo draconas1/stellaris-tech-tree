@@ -2,6 +2,9 @@
 <html lang="english">
 <head>
     <title>Stellaris Tech Tree</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="A graphical tree of all Stellaris Technologies"/>
+    <meta name="keywords" content="Stellaris, Paradox Interactive, Technology, Tech, Tech Tree"/>
 
     <script type="text/javascript" src="graph.js"></script>
     <script type="text/javascript" src="graphOptions.js"></script>
@@ -10,6 +13,9 @@
     <script type="text/javascript" src="pathFunctions.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101165963);</script>
+    <script async src="//static.getclicky.com/js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
     <link href="techTree.css" rel="stylesheet" type="text/css"/>
@@ -17,15 +23,14 @@
 <body onload="FocusOnInput()">
 <h1 class="title">Stellaris Tech Tree</h1>
 <p>
-    A complete dependency tree of all technologies in Stellaris 2.2.4 by <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
+    A complete dependency tree of all technologies in Stellaris 2.2.4 by
+    <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
 </p>
 <div id="topBar">
     <div class="child" id="searchOpts">
         <h2>Search</h2>
-        <form>
-            <label for="searchBox">Find tech by name:</label>
-            <input id="searchBox" type="text"/>
-        </form>
+        <label for="searchBox">Find tech by name:</label>
+        <input id="searchBox" type="text"/>
     </div>
     <div class="child" id="filterOpts">
         <h2>Filters</h2>
@@ -47,15 +52,16 @@
 <div id="network"></div>
 
 <p>
-    The sourcecode for creating the tree is on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>.
-    It uses the <a href="https://github.com/tboby/cwtools">CWTools</a> paradox file parser to transform the PDX files to
-    a format thast can be read and laid out using <a href="http://visjs.org/">Vis.js</a>. <br/>
-	<small>Thanks to Dayshine for the help with CWTools and MurphyBob for a lot of help with javascript</small>
+    The sourcecode for creating the tree is on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>. It uses the <a
+        href="https://github.com/tboby/cwtools">CWTools</a> paradox file parser to transform the PDX files to a format that can be read and laid out using <a
+        href="http://visjs.org/">Vis.js</a>. <br/>
+    <small>Thanks to Dayshine for the help with CWTools and MurphyBob for a lot of help with javascript</small>
 </p>
 
 <p>
-    To contact me look for Draconas on <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> or
-    the Paradox Forums
+    To contact me look for Draconas on <a href="https://discordapp.com/invite/CMjnnET">The Stellaris Modding Den</a> or the the <a
+        href="https://forum.paradoxplaza.com/forum/index.php?forums/stellaris.900/">Paradox Forums</a>. You can also see the future features plan and report bugs/feature requests
+    on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>.
 </p>
 <script type="text/javascript">
     // set up some global variables.
@@ -65,7 +71,7 @@
     var nodesDataset;
     var edgesDataset = new vis.DataSet(GraphData.edges);
 
-    document.getElementById("searchBox").addEventListener("input", _.debounce(searchForNode));
+    document.getElementById("searchBox").addEventListener("input", _.debounce(searchForNode, 300));
 
     createNetwork();
 
