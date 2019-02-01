@@ -2,7 +2,8 @@ GraphOptions = {
     nodes: {
         shape: 'box',
         font: {
-            size: 26
+            size: 26,
+			align : 'left'
         },
         color: {
             highlight: {
@@ -13,9 +14,12 @@ GraphOptions = {
         borderWidthSelected: 2,
         shapeProperties: {
             useBorderWithImage: true,
-            borderRadius: 0
+            borderRadius: 3
         },
-        heightConstraint: { minimum: 42 }
+        heightConstraint: { minimum: 46 },
+		margin: {
+			left: 58
+		}
     },
     edges: {
         smooth: {

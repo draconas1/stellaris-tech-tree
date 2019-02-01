@@ -9,7 +9,7 @@ ImageFunctions = {
             const img = downloadedImagesById[nodeId];
             if (node.hasImage && img != null) {
                 const boundingbox = network.getBoundingBox([nodeId]);
-                ctx.drawImage(img, boundingbox.right, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
+                ctx.drawImage(img, boundingbox.left + 5, boundingbox.top - ((img.height - (boundingbox.bottom - boundingbox.top)) / 2));
             }
         });
     },

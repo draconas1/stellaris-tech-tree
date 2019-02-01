@@ -5,6 +5,9 @@ function createOptions() {
     if (showImagesCheckbox.checked === true) {
         options.nodes.shape = 'image';
         options.nodes.borderWidth = 2;
+		options.nodes.font = {
+			vadjust : -15
+		};
         options.groups.Physics.color.border = '#427df4';
         options.groups.Society.color.border = '#80d17d';
         options.groups.Engineering.color.border = '#e5a649';
