@@ -16,7 +16,7 @@ function createOptions() {
     return options;
 }
 
-function searchForNode(event) {
+function findNodesByLabel(event) {
     let toFind = this.value;
     if (toFind.length > 3) {
         toFind = toFind.toUpperCase();
@@ -28,30 +28,73 @@ function searchForNode(event) {
             }
         });
 
-        if (found.length > 0) {
-            network.selectNodes(found);
-            network.fit({
-                nodes: found,
-                animation: true
-            });
-
-            PathFunctions.highlightDependencyGraph({
-                nodes : found
-            });
-        }
+        highlightFoundNodes(found);
     }
     return false;
 }
 
-async function createNetwork() {
-    const techAreaFilter = document.getElementById("filterBox").value;
+function highlightFoundNodes(found) {
+    if (found.length > 0) {
+        network.selectNodes(found);
+        network.fit({
+            nodes: found,
+            animation: true
+        });
+
+        PathFunctions.highlightDependencyGraph({
+            nodes : found
+        });
+    }
+}
+
+function highlightCategory() {
+    const toFind = document.getElementById("categorySelectBox").value;
+    let found = [];
+
+    Object.values(allNodes).forEach(node => {
+        if (node.categories.includes(toFind)) {
+            found.push(node.id);
+        }
+    });
+    highlightFoundNodes(found);
+
+    return false;
+}
+
+function setFilteredNodes() {
+    const techAreaFilter = document.getElementById("techAreaFilterBox").value;
+    let activeNodes;
     if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-        nodesDataset = new vis.DataSet(GraphData.nodes);
+        activeNodes = GraphData.nodes;
     } else {
         //lodash filter with a shorthand for propertyname matches value.
-        let newNodes = _.filter(GraphData.nodes, ['group', techAreaFilter]);
-        nodesDataset = new vis.DataSet(newNodes);
+        activeNodes = _.filter(GraphData.nodes, ['group', techAreaFilter]);
     }
+    const categoryFilter = document.getElementById("categoryFilterBox").value;
+    if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
+        // no op on active nodes
+    } else {
+        //lodash filter with a shorthand for propertyname matches value.
+        activeNodes = _.filter(activeNodes, function(node) { return node.categories.includes(categoryFilter)});
+    }
+
+    const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
+    if (includePrerequisites === true) {
+        let nodesAndDeps = _.keyBy(activeNodes, 'id');
+        PathFunctions.addAllDependencyNodes(_.transform(activeNodes, function(result, node) {
+                result.push(node.id);
+            }),
+            activeNodes,
+            _.keyBy(GraphData.nodes, 'id')
+        );
+        activeNodes = Object.values(nodesAndDeps);
+    }
+
+    nodesDataset = new vis.DataSet(activeNodes);
+}
+
+async function createNetwork() {
+    setFilteredNodes();
 
 
     // create a network

@@ -35,18 +35,52 @@
     </div>
     <div class="child" id="filterOpts">
         <h2>Filters</h2>
-        <label for="filterBox">Filter tree to:</label>
-        <select id="filterBox" onchange="createNetwork()">
+        <label for="techAreaFilterBox">Filter tree to:</label>
+        <select id="techAreaFilterBox" onchange="createNetwork()">
             <option value="All">All</option>
             <option value="Physics">Physics</option>
             <option value="Society">Society</option>
             <option value="Engineering">Engineering</option>
         </select>
+        <label for="categoryFilterBox">Filter categories to:</label>
+        <select id="categoryFilterBox" onchange="createNetwork()">
+            <option value="All">All</option>
+            <option value="All">Computing</option>
+            <option value="All">Field Manipulation</option>
+            <option value="All">Particles</option>
+            <option value="All">Biology</option>
+            <option value="All">Military Theory</option>
+            <option value="All">New Worlds</option>
+            <option value="All">Statecraft</option>
+            <option value="All">Psionics</option>
+            <option value="All">Industry</option>
+            <option value="All">Materials</option>
+            <option value="All">Propulsion</option>
+            <option value="All">Voidcraft</option>
+        </select>
+        <label for="includeDependenciesCheckbox">Include (filtered) dependencies:</label>
+        <input type="checkbox" id="includeDependenciesCheckbox" onclick="createNetwork()">
     </div>
     <div class="child" id="displayOpts">
-        <h2>Images</h2>
+        <h2>Display</h2>
         <label for="showImages">Use images instead of labels:</label>
         <input type="checkbox" id="showImages" onclick="createNetwork()">
+        <label for="categorySelectBox">Select Category:</label>
+        <select id="categorySelectBox" onchange="highlightCategory()">
+            <option value="All">All</option>
+            <option value="All">Computing</option>
+            <option value="All">Field Manipulation</option>
+            <option value="All">Particles</option>
+            <option value="All">Biology</option>
+            <option value="All">Military Theory</option>
+            <option value="All">New Worlds</option>
+            <option value="All">Statecraft</option>
+            <option value="All">Psionics</option>
+            <option value="All">Industry</option>
+            <option value="All">Materials</option>
+            <option value="All">Propulsion</option>
+            <option value="All">Voidcraft</option>
+        </select>
     </div>
 </div>
 
@@ -72,7 +106,7 @@
     var nodesDataset;
     var edgesDataset = new vis.DataSet(GraphData.edges);
 
-    document.getElementById("searchBox").addEventListener("input", _.debounce(searchForNode, 300));
+    document.getElementById("searchBox").addEventListener("input", _.debounce(findNodesByLabel, 300));
 
     createNetwork();
 
