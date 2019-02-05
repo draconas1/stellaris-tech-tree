@@ -154,11 +154,6 @@ namespace TechTree.CWParser
                 techFlags.Add(TechFlag.Dangerous);
             }
             
-            if (node.Key == "tech_nanite_repair_system")
-            {
-                int i = 0;
-            }
-
             // tech that requires an acquisition - base weight is 0
             // this is not foolproof, look up some other things
             if ("0".Equals(node.GetKeyValue("weight"), StringComparison.InvariantCultureIgnoreCase))

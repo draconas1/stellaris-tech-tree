@@ -52,7 +52,7 @@ function highlightCategory() {
     let found = [];
 
     Object.values(allNodes).forEach(node => {
-        if (node.categories.includes(toFind)) {
+        if (node.categories !== undefined && node.categories.includes(toFind)) {
             found.push(node.id);
         }
     });
@@ -75,7 +75,7 @@ function setFilteredNodes() {
         // no op on active nodes
     } else {
         //lodash filter with a shorthand for propertyname matches value.
-        activeNodes = _.filter(activeNodes, function(node) { return node.categories.includes(categoryFilter)});
+        activeNodes = _.filter(activeNodes, function(node) { return node.categories !== undefined && node.categories.includes(categoryFilter)});
     }
 
     const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
@@ -84,7 +84,7 @@ function setFilteredNodes() {
         PathFunctions.addAllDependencyNodes(_.transform(activeNodes, function(result, node) {
                 result.push(node.id);
             }),
-            activeNodes,
+            nodesAndDeps,
             _.keyBy(GraphData.nodes, 'id')
         );
         activeNodes = Object.values(nodesAndDeps);

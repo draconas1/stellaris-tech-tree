@@ -12,7 +12,7 @@ using TechTree.Output;
 namespace TechTree
 {
     class Program {
-        public const bool MAC = false;
+        public const bool MAC = true;
         
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";

@@ -4,14 +4,12 @@ PathFunctions = {
         // for all objects in our selection
         Object.values(idsToProcess).forEach(nodeId => {
             const node = allNodes[nodeId];
-            console.log("working on " + nodeId);
             if (node === undefined) {
                 console.log("Undefined node " + nodeId);
             }
             selectedNodes[nodeId] = node;
 
             if (node.prerequisites !== undefined && node.prerequisites.length > 0) {
-                console.log("working on " + nodeId + "prereqs: " + node.prerequisites);
                 // iterate the prerequisites
                 PathFunctions.addAllDependencyNodes(node.prerequisites, selectedNodes, allNodes);
             }

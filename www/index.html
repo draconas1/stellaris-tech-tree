@@ -35,51 +35,59 @@
     </div>
     <div class="child" id="filterOpts">
         <h2>Filters</h2>
-        <label for="techAreaFilterBox">Filter tree to:</label>
-        <select id="techAreaFilterBox" onchange="createNetwork()">
-            <option value="All">All</option>
-            <option value="Physics">Physics</option>
-            <option value="Society">Society</option>
-            <option value="Engineering">Engineering</option>
-        </select>
-        <label for="categoryFilterBox">Filter categories to:</label>
-        <select id="categoryFilterBox" onchange="createNetwork()">
-            <option value="All">All</option>
-            <option value="All">Computing</option>
-            <option value="All">Field Manipulation</option>
-            <option value="All">Particles</option>
-            <option value="All">Biology</option>
-            <option value="All">Military Theory</option>
-            <option value="All">New Worlds</option>
-            <option value="All">Statecraft</option>
-            <option value="All">Psionics</option>
-            <option value="All">Industry</option>
-            <option value="All">Materials</option>
-            <option value="All">Propulsion</option>
-            <option value="All">Voidcraft</option>
-        </select>
-        <label for="includeDependenciesCheckbox">Include (filtered) dependencies:</label>
-        <input type="checkbox" id="includeDependenciesCheckbox" onclick="createNetwork()">
+        <div id="filterOptsInner">
+            <div id="filterDropDowns">
+                <label for="techAreaFilterBox">Filter tree to:</label>
+                <select id="techAreaFilterBox" onchange="createNetwork()">
+                    <option value="All">All</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Society">Society</option>
+                    <option value="Engineering">Engineering</option>
+                </select>
+                <br/>
+                <label for="categoryFilterBox">Filter categories to:</label>
+                <select id="categoryFilterBox" onchange="createNetwork()">
+                    <option value="All">All</option>
+                    <option value="computing">Computing</option>
+                    <option value="field_manipulation">Field Manipulation</option>
+                    <option value="particles">Particles</option>
+                    <option value="biology">Biology</option>
+                    <option value="military_theory">Military Theory</option>
+                    <option value="new_worlds">New Worlds</option>
+                    <option value="statecraft">Statecraft</option>
+                    <option value="psionics">Psionics</option>
+                    <option value="industry">Industry</option>
+                    <option value="materials">Materials</option>
+                    <option value="propulsion">Propulsion</option>
+                    <option value="voidcraft">Voidcraft</option>
+                </select>
+            </div>
+            <div id="filterCheckBox">
+                <label for="includeDependenciesCheckbox">Include (filtered) dependencies:</label>
+                <input type="checkbox" id="includeDependenciesCheckbox" onclick="createNetwork()">
+            </div>
+        </div>
     </div>
     <div class="child" id="displayOpts">
         <h2>Display</h2>
         <label for="showImages">Use images instead of labels:</label>
         <input type="checkbox" id="showImages" onclick="createNetwork()">
+        <br/>
         <label for="categorySelectBox">Select Category:</label>
         <select id="categorySelectBox" onchange="highlightCategory()">
-            <option value="All">All</option>
-            <option value="All">Computing</option>
-            <option value="All">Field Manipulation</option>
-            <option value="All">Particles</option>
-            <option value="All">Biology</option>
-            <option value="All">Military Theory</option>
-            <option value="All">New Worlds</option>
-            <option value="All">Statecraft</option>
-            <option value="All">Psionics</option>
-            <option value="All">Industry</option>
-            <option value="All">Materials</option>
-            <option value="All">Propulsion</option>
-            <option value="All">Voidcraft</option>
+            <option value="All">None</option>
+            <option value="computing">Computing</option>
+            <option value="field_manipulation">Field Manipulation</option>
+            <option value="particles">Particles</option>
+            <option value="biology">Biology</option>
+            <option value="military_theory">Military Theory</option>
+            <option value="new_worlds">New Worlds</option>
+            <option value="statecraft">Statecraft</option>
+            <option value="psionics">Psionics</option>
+            <option value="industry">Industry</option>
+            <option value="materials">Materials</option>
+            <option value="propulsion">Propulsion</option>
+            <option value="voidcraft">Voidcraft</option>
         </select>
     </div>
 </div>

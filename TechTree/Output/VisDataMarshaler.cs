@@ -40,7 +40,7 @@ namespace TechTree.Output {
             
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
-        
+
             var result = new VisData() {
                 nodes = techsAndDependencies.Techs.Values.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
                 edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
@@ -48,13 +48,22 @@ namespace TechTree.Output {
             
             // add supernodes
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
+            var rootnodes = new Dictionary<TechArea, VisNode>();
             foreach (var techArea in techAreas) {
-                result.nodes.Add(BuildRootNode(techArea, imagesPath));
+                var rootNode = BuildRootNode(techArea, imagesPath);
+                result.nodes.Add(rootNode);
+                rootnodes[techArea] = rootNode;
             }
             
             // link to supernodes
+            var rootNodeCategories = new Dictionary<TechArea, HashSet<string>>();
             foreach (var tech in techsWithNoPrereqs) {
                 result.edges.Add(BuildRootLink(tech.Area, tech.Id));
+                rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
+            }
+
+            foreach (var (key, value) in rootnodes) {
+                value.categories = rootNodeCategories.ComputeIfAbsent(key, ignored => new HashSet<string>()).ToArray();
             }
 
             return result;
@@ -64,10 +73,10 @@ namespace TechTree.Output {
             var areaName = area.ToString();
             var result = new VisNode
             {
-                id = areaName + "-root",
+                id = buildRootNodeName(area),
                 label = localisationAPI.GetName(areaName.ToLower()),
                 group = areaName,
-                image = imagesPath + "/" + areaName + "-root" + ".png",
+                image = imagesPath + "/" + buildRootNodeName(area) + ".png",
                 hasImage = true,
                 level = 0
             };
@@ -76,12 +85,16 @@ namespace TechTree.Output {
 
         private VisEdge BuildRootLink(TechArea area, string to) {
             return new VisEdge() {
-                from = area.ToString() + "-root",
+                from = buildRootNodeName(area),
                 to = to,
                 color = new VisColor() {
                     opacity = 0
                 }
             };
+        }
+
+        private static string buildRootNodeName(TechArea techArea) {
+            return techArea + "-root";
         }
 
         private Dictionary<int, int> CalculateMinimumLevelForTier(Dictionary<int, int> maxPathsPerTier) {
@@ -120,7 +133,7 @@ namespace TechTree.Output {
         }
         
         
-        private VisNode MarshalTech(Tech tech,  Dictionary<int, int> startingLevelsByTier, string imagesPath)
+        private VisNode MarshalTech(Tech tech, Dictionary<int, int> startingLevelsByTier, string imagesPath)
         {
             var result = new VisNode
             {
@@ -129,7 +142,7 @@ namespace TechTree.Output {
                 title = "<b>" + tech.Name + "</b>",
                 group = tech.Area.ToString(),
                 image = imagesPath + "/" + tech.Id + ".png",
-                prerequisites = tech.PrerequisiteIds?.ToArray()                
+                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { buildRootNodeName(tech.Area)}               
             };
 
             result.title = result.title + "<br/><i>" + tech.Description + "</i>";
@@ -141,6 +154,8 @@ namespace TechTree.Output {
                 var categoriesLocalised = tech.Categories.Select(x => localisationAPI.GetName(x)).ToArray();
 
                 result.title = result.title + "<br/><b>" + catString + ": </b>" + string.Join(",", categoriesLocalised);
+
+                result.categories = tech.Categories.ToArray();
             }
 
             result.title = result.title + "<br/><b>Base cost: </b>" + (tech.BaseCost ?? 0);

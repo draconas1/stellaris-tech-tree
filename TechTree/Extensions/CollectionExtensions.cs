@@ -26,6 +26,18 @@ namespace TechTree.Extensions {
    
                return dictionary[key];
            }
+
+           /// <summary>
+           /// AddRange is on a list but not on a MFing set!
+           /// </summary>
+           /// <param name="set"></param>
+           /// <param name="toAdd"></param>
+           /// <typeparam name="T"></typeparam>
+           public static void AddRange<T>(this HashSet<T> set, IEnumerable<T> toAdd) {
+               foreach (var x1 in toAdd) {
+                   set.Add(x1);
+               }
+           }
            
        }
    }

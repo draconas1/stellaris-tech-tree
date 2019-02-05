@@ -85,6 +85,8 @@ namespace TechTree.DTO
         public string image { get; set; }
         public bool hasImage { get; set; }
         public string[] prerequisites { get; set; }
+        
+        public string[] categories { get; set; }
     }
 
     public class VisColor

@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+#filterOptsInner {
+    display: flex;
+}
+
 .child {
     margin-left: 20px;
     margin-right: 20px;

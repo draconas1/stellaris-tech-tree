@@ -1,6 +1,1676 @@
 GraphData = {
   "nodes": [
     {
+      "id": "tech_dark_matter_propulsion",
+      "label": "Dark Matter Propulsion",
+      "group": "Engineering",
+      "title": "<b>Dark Matter Propulsion</b><br/><i>These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_dark_matter_propulsion.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_thrusters_4"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_dark_matter_power_core",
+      "label": "Dark Matter Power",
+      "group": "Physics",
+      "title": "<b>Dark Matter Power</b><br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_dark_matter_power_core.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_zero_point_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_dark_matter_deflector",
+      "label": "Dark Matter Deflectors",
+      "group": "Physics",
+      "title": "<b>Dark Matter Deflectors</b><br/><i>These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_dark_matter_deflector.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_5"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_self_assembling_components",
+      "label": "Self-Assembling Components",
+      "group": "Engineering",
+      "title": "<b>Self-Assembling Components</b><br/><i>Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>12000",
+      "level": 11,
+      "image": "images/technologies/tech_self_assembling_components.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_micro_replicators"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_micro_replicators",
+      "label": "Micro-Replicators",
+      "group": "Engineering",
+      "title": "<b>Micro-Replicators</b><br/><i>Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_micro_replicators.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_biomechanics",
+      "label": "Biomechanics",
+      "group": "Society",
+      "title": "<b>Biomechanics</b><br/><i>Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 13,
+      "image": "images/technologies/tech_biomechanics.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_adaptive_combat_algorithms"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_adaptive_combat_algorithms",
+      "label": "Adaptive Combat Algorithms",
+      "group": "Society",
+      "title": "<b>Adaptive Combat Algorithms</b><br/><i>Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
+      "level": 9,
+      "image": "images/technologies/tech_adaptive_combat_algorithms.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_colonial_bureaucracy"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_nanite_assemblers",
+      "label": "Nanite Assemblers",
+      "group": "Engineering",
+      "title": "<b>Nanite Assemblers</b><br/><i>Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 13,
+      "image": "images/technologies/tech_nanite_assemblers.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_binary_motivators",
+        "tech_galactic_administration"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_binary_motivators",
+      "label": "Binary Motivators",
+      "group": "Engineering",
+      "title": "<b>Binary Motivators</b><br/><i>These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_binary_motivators.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_colonial_centralization",
+        "tech_robomodding_m"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_robomodding_points_2",
+      "label": "Fungible Circuitry",
+      "group": "Engineering",
+      "title": "<b>Fungible Circuitry</b><br/><i>Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_robomodding_points_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_robomodding_points_1",
+        "tech_synthetic_workers"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_robomodding_points_1",
+      "label": "Cross-Model Standardization",
+      "group": "Engineering",
+      "title": "<b>Cross-Model Standardization</b><br/><i>Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
+      "level": 10,
+      "image": "images/technologies/tech_robomodding_points_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_robomodding",
+        "tech_droid_workers"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_robomodding",
+      "label": "Machine Template System",
+      "group": "Engineering",
+      "title": "<b>Machine Template System</b><br/><i>Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
+      "level": 7,
+      "image": "images/technologies/tech_robomodding.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_robotic_workers"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_robomodding_m",
+      "label": "Machine Template System",
+      "group": "Engineering",
+      "title": "<b>Machine Template System</b><br/><i>Standardization of assembly templates allow for improved specialization of the drone population.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
+      "level": 6,
+      "image": "images/technologies/tech_robomodding_m.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_powered_exoskeletons"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
+      "id": "tech_bio_reactor",
+      "label": "Bio-Reactor",
+      "group": "Physics",
+      "title": "<b>Bio-Reactor</b><br/><i>A facility where organic matter is converted into energy at a highly efficient rate.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_bio_reactor.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_ftl_inhibitor",
+      "label": "FTL Inhibition",
+      "group": "Physics",
+      "title": "<b>FTL Inhibition</b><br/><i>Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
+      "level": 8,
+      "image": "images/technologies/tech_ftl_inhibitor.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_hyper_drive_1"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_jump_drive_1",
+      "label": "Jump Drive",
+      "group": "Physics",
+      "title": "<b>Jump Drive</b><br/><i>A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare, Dangerous",
+      "color": {
+        "border": "#D30000"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_jump_drive_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_zero_point_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_gateway_construction",
+      "label": "Gateway Construction",
+      "group": "Physics",
+      "title": "<b>Gateway Construction</b><br/><i>The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 17,
+      "image": "images/technologies/tech_gateway_construction.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_gateway_activation",
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_gateway_activation",
+      "label": "Gateway Activation",
+      "group": "Physics",
+      "title": "<b>Gateway Activation</b><br/><i>The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 13,
+      "image": "images/technologies/tech_gateway_activation.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_hyper_drive_3"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_wormhole_stabilization",
+      "label": "Wormhole Stabilization",
+      "group": "Physics",
+      "title": "<b>Wormhole Stabilization</b><br/><i>A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 11,
+      "image": "images/technologies/tech_wormhole_stabilization.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_hyper_drive_2"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_hyper_drive_3",
+      "label": "Hyperspace Slipstreams",
+      "group": "Physics",
+      "title": "<b>Hyperspace Slipstreams</b><br/><i>A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
+      "level": 11,
+      "image": "images/technologies/tech_hyper_drive_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_hyper_drive_2"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_hyper_drive_2",
+      "label": "Hyperlane Breach Points",
+      "group": "Physics",
+      "title": "<b>Hyperlane Breach Points</b><br/><i>We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_hyper_drive_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_hyper_drive_1"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_hyper_drive_1",
+      "label": "Hyperspace Travel",
+      "group": "Physics",
+      "title": "<b>Hyperspace Travel</b><br/><i>Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 2,
+      "image": "images/technologies/tech_hyper_drive_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_basic_science_lab_1"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_power_hub_2",
+      "label": "Planetary Power Grid",
+      "group": "Physics",
+      "title": "<b>Planetary Power Grid</b><br/><i>A re-engineered and unified grid further reduces energy losses over distance.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
+      "level": 9,
+      "image": "images/technologies/tech_power_hub_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_hub_1",
+        "tech_colonial_centralization"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_power_hub_1",
+      "label": "Global Energy Management",
+      "group": "Physics",
+      "title": "<b>Global Energy Management</b><br/><i>Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>2500",
+      "level": 5,
+      "image": "images/technologies/tech_power_hub_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_plant_1"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_power_plant_4",
+      "label": "Quantum Field Manipulation",
+      "group": "Physics",
+      "title": "<b>Quantum Field Manipulation</b><br/><i>Quantum superposition of energy coils, simultaneously drained and charged.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_power_plant_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_plant_3",
+        "tech_galactic_administration"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_power_plant_3",
+      "label": "Quantum Energy States",
+      "group": "Physics",
+      "title": "<b>Quantum Energy States</b><br/><i>Basic entanglement principles applied to energy generation provide a substantial increase in energy output.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
+      "level": 9,
+      "image": "images/technologies/tech_power_plant_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_plant_2",
+        "tech_colonial_centralization"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_power_plant_2",
+      "label": "Field Modulation",
+      "group": "Physics",
+      "title": "<b>Field Modulation</b><br/><i>Modulated fields allow for increased production and improved energy yield.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>2000",
+      "level": 5,
+      "image": "images/technologies/tech_power_plant_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_plant_1"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_power_plant_1",
+      "label": "High-Energy Capacitors",
+      "group": "Physics",
+      "title": "<b>High-Energy Capacitors</b><br/><i>Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_power_plant_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_sensors_4",
+      "label": "Tachyon Sensors",
+      "group": "Physics",
+      "title": "<b>Tachyon Sensors</b><br/><i>Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_sensors_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_sensors_3"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_sensors_3",
+      "label": "Subspace Sensors",
+      "group": "Physics",
+      "title": "<b>Subspace Sensors</b><br/><i>Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_sensors_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_sensors_2"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_sensors_2",
+      "label": "Gravitic Sensors",
+      "group": "Physics",
+      "title": "<b>Gravitic Sensors</b><br/><i>These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
+      "level": 8,
+      "image": "images/technologies/tech_sensors_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_planetary_shield_generator",
+      "label": "Planetary Shields",
+      "group": "Physics",
+      "title": "<b>Planetary Shields</b><br/><i>Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 11,
+      "image": "images/technologies/tech_planetary_shield_generator.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_3"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shield_rechargers_1",
+      "label": "Shield Capacitors",
+      "group": "Physics",
+      "title": "<b>Shield Capacitors</b><br/><i>These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
+      "level": 9,
+      "image": "images/technologies/tech_shield_rechargers_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_3"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shields_5",
+      "label": "Hyper Shields",
+      "group": "Physics",
+      "title": "<b>Hyper Shields</b><br/><i>These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>24000",
+      "level": 13,
+      "image": "images/technologies/tech_shields_5.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_4"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shields_4",
+      "label": "Advanced Shields",
+      "group": "Physics",
+      "title": "<b>Advanced Shields</b><br/><i>An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>12000",
+      "level": 11,
+      "image": "images/technologies/tech_shields_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_3"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shields_3",
+      "label": "Shields",
+      "group": "Physics",
+      "title": "<b>Shields</b><br/><i>These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
+      "level": 8,
+      "image": "images/technologies/tech_shields_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_2"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shields_2",
+      "label": "Improved Deflectors",
+      "group": "Physics",
+      "title": "<b>Improved Deflectors</b><br/><i>These updated deflector screens are capable of soaking up even more punishment before they overload.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>3000",
+      "level": 5,
+      "image": "images/technologies/tech_shields_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_1"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_shields_1",
+      "label": "Deflectors",
+      "group": "Physics",
+      "title": "<b>Deflectors</b><br/><i>Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 2,
+      "image": "images/technologies/tech_shields_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_basic_science_lab_1"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_reactor_boosters_3",
+      "label": "Advanced Reactor Boosters",
+      "group": "Physics",
+      "title": "<b>Advanced Reactor Boosters</b><br/><i>The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
+      "level": 7,
+      "image": "images/technologies/tech_reactor_boosters_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_antimatter_power",
+        "tech_reactor_boosters_2"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_reactor_boosters_2",
+      "label": "Improved Reactor Boosters",
+      "group": "Physics",
+      "title": "<b>Improved Reactor Boosters</b><br/><i>The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>3000",
+      "level": 6,
+      "image": "images/technologies/tech_reactor_boosters_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_fusion_power",
+        "tech_reactor_boosters_1"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_reactor_boosters_1",
+      "label": "Reactor Boosters",
+      "group": "Physics",
+      "title": "<b>Reactor Boosters</b><br/><i>Additional power generation systems increase the ship's reactor output.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 2,
+      "image": "images/technologies/tech_reactor_boosters_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_fission_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_zero_point_power",
+      "label": "Zero Point Power",
+      "group": "Physics",
+      "title": "<b>Zero Point Power</b><br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_zero_point_power.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_antimatter_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_antimatter_power",
+      "label": "Antimatter Power",
+      "group": "Physics",
+      "title": "<b>Antimatter Power</b><br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>10000",
+      "level": 11,
+      "image": "images/technologies/tech_antimatter_power.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_cold_fusion_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_cold_fusion_power",
+      "label": "Cold Fusion Power",
+      "group": "Physics",
+      "title": "<b>Cold Fusion Power</b><br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_cold_fusion_power.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_fusion_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_fusion_power",
+      "label": "Fusion Power",
+      "group": "Physics",
+      "title": "<b>Fusion Power</b><br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500",
+      "level": 5,
+      "image": "images/technologies/tech_fusion_power.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_fission_power"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_fission_power",
+      "label": "Fission Power",
+      "group": "Physics",
+      "title": "<b>Fission Power</b><br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_fission_power.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_synchronized_defences",
+      "label": "Synchronized Defenses",
+      "group": "Physics",
+      "title": "<b>Synchronized Defenses</b><br/><i>Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 13,
+      "image": "images/technologies/tech_synchronized_defences.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_self_aware_logic"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_auxiliary_fire_control",
+      "label": "Auxiliary Fire-control",
+      "group": "Physics",
+      "title": "<b>Auxiliary Fire-control</b><br/><i>By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
+      "level": 7,
+      "image": "images/technologies/tech_auxiliary_fire_control.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_combat_computers_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_combat_computers_autonomous",
+      "label": "Autonomous Ship Intellects",
+      "group": "Physics",
+      "title": "<b>Autonomous Ship Intellects</b><br/><i>Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 13,
+      "image": "images/technologies/tech_combat_computers_autonomous.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_combat_computers_2"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_combat_computers_3",
+      "label": "Sapient Combat Simulations",
+      "group": "Physics",
+      "title": "<b>Sapient Combat Simulations</b><br/><i>Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous",
+      "color": {
+        "border": "#D30000"
+      },
+      "borderWidth": 1,
+      "level": 14,
+      "image": "images/technologies/tech_combat_computers_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_combat_computers_2",
+        "tech_sapient_ai"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_combat_computers_2",
+      "label": "Extended Combat Algorithms",
+      "group": "Physics",
+      "title": "<b>Extended Combat Algorithms</b><br/><i>Further advances in predictive algorithms allow for augmented tactical decision-making in the field.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_combat_computers_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_combat_computers_1",
+        "tech_self_aware_logic"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_combat_computers_1",
+      "label": "Specialized Combat Computers",
+      "group": "Physics",
+      "title": "<b>Specialized Combat Computers</b><br/><i>Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
+      "level": 6,
+      "image": "images/technologies/tech_combat_computers_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_administrative_ai"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_positronic_implants",
+      "label": "Positronic Implants",
+      "group": "Physics",
+      "title": "<b>Positronic Implants</b><br/><i>Expanding possibilities through the application of limited cybernetics.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_positronic_implants.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_self_aware_logic"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_sapient_ai",
+      "label": "Positronic AI",
+      "group": "Physics",
+      "title": "<b>Positronic AI</b><br/><i>Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_sapient_ai.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_self_aware_logic"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_automated_exploration",
+      "label": "Automated Exploration Protocols",
+      "group": "Physics",
+      "title": "<b>Automated Exploration Protocols</b><br/><i>An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2500",
+      "level": 5,
+      "image": "images/technologies/tech_automated_exploration.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_self_aware_logic",
+      "label": "Self-Evolving Logic",
+      "group": "Physics",
+      "title": "<b>Self-Evolving Logic</b><br/><i>Introspective prioritization.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_self_aware_logic.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_administrative_ai"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_cryostasis_2",
+      "label": "Self-Aware Colony Ships",
+      "group": "Physics",
+      "title": "<b>Self-Aware Colony Ships</b><br/><i>Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
+      "level": 11,
+      "image": "images/technologies/tech_cryostasis_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_self_aware_logic",
+        "tech_cryostasis_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_cryostasis_1",
+      "label": "AI-Controlled Colony Ships",
+      "group": "Physics",
+      "title": "<b>AI-Controlled Colony Ships</b><br/><i>By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
+      "level": 6,
+      "image": "images/technologies/tech_cryostasis_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_administrative_ai",
+        "tech_colonization_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_administrative_ai",
+      "label": "Administrative AI",
+      "group": "Physics",
+      "title": "<b>Administrative AI</b><br/><i>Organizational circuitry rerouting academic fervor.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
+      "level": 5,
+      "image": "images/technologies/tech_administrative_ai.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_basic_science_lab_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_global_research_initiative",
+      "label": "Interplanetary Research Initiative",
+      "group": "Physics",
+      "title": "<b>Interplanetary Research Initiative</b><br/><i>A bid for interplanetary resource pools and more flexible research grants.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_global_research_initiative.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_physics_1",
+        "tech_colonial_centralization"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_physics_3",
+      "label": "Space-Time Theory",
+      "group": "Physics",
+      "title": "<b>Space-Time Theory</b><br/><i>Three dimensions, inextricable from the fourth.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_physics_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_physics_2"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_physics_2",
+      "label": "Applied Quantum Physics",
+      "group": "Physics",
+      "title": "<b>Applied Quantum Physics</b><br/><i>The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
+      "level": 8,
+      "image": "images/technologies/tech_physics_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_physics_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_physics_1",
+      "label": "Quantum Theory",
+      "group": "Physics",
+      "title": "<b>Quantum Theory</b><br/><i>Exploring the mediation of fundamental forces through subatomic particles.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
+      "level": 5,
+      "image": "images/technologies/tech_physics_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_space_science_5",
+      "label": "Multi-Dimensional Analysis",
+      "group": "Physics",
+      "title": "<b>Multi-Dimensional Analysis</b><br/><i>Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_space_science_5.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_space_science_4"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_space_science_4",
+      "label": "Autonomous Station Protocols",
+      "group": "Physics",
+      "title": "<b>Autonomous Station Protocols</b><br/><i>Increased automation of station functions will free up more staff for research duties.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
+      "level": 9,
+      "image": "images/technologies/tech_space_science_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_space_science_3"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_space_science_3",
+      "label": "Quantum Probes",
+      "group": "Physics",
+      "title": "<b>Quantum Probes</b><br/><i>Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
+      "level": 8,
+      "image": "images/technologies/tech_space_science_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_space_science_2"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_space_science_2",
+      "label": "Miniature Containment Fields",
+      "group": "Physics",
+      "title": "<b>Miniature Containment Fields</b><br/><i>Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
+      "level": 6,
+      "image": "images/technologies/tech_space_science_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_space_science_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_space_science_1",
+      "label": "Zero-G Laboratories",
+      "group": "Physics",
+      "title": "<b>Zero-G Laboratories</b><br/><i>A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
+      "level": 5,
+      "image": "images/technologies/tech_space_science_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_space_construction"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_archeology_lab",
+      "label": "Curator Archeology Lab",
+      "group": "Physics",
+      "title": "<b>Curator Archeology Lab</b><br/><i>A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 8,
+      "image": "images/technologies/tech_archeology_lab.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_curator_lab",
+      "label": "Curator Exploration Lab",
+      "group": "Physics",
+      "title": "<b>Curator Exploration Lab</b><br/><i>These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 8,
+      "image": "images/technologies/tech_curator_lab.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_basic_science_lab_3",
+      "label": "Multi-Dimensional Studies",
+      "group": "Physics",
+      "title": "<b>Multi-Dimensional Studies</b><br/><i>To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_basic_science_lab_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_basic_science_lab_2",
+        "tech_colonial_centralization"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_basic_science_lab_2",
+      "label": "Exotic Materials Labs",
+      "group": "Physics",
+      "title": "<b>Exotic Materials Labs</b><br/><i>As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
+      "level": 5,
+      "image": "images/technologies/tech_basic_science_lab_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_basic_science_lab_1"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_basic_science_lab_1",
+      "label": "Scientific Method",
+      "group": "Physics",
+      "title": "<b>Scientific Method</b><br/><i>Testable predictions of observable phenomena.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Computing<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_basic_science_lab_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_torpedoes_3",
+      "label": "Devastator Torpedoes",
+      "group": "Engineering",
+      "title": "<b>Devastator Torpedoes</b><br/><i>Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_torpedoes_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_torpedoes_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_torpedoes_2",
+      "label": "Armored Torpedoes",
+      "group": "Engineering",
+      "title": "<b>Armored Torpedoes</b><br/><i>Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>10000",
+      "level": 11,
+      "image": "images/technologies/tech_torpedoes_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_torpedoes_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_torpedoes_1",
+      "label": "Space Torpedoes",
+      "group": "Engineering",
+      "title": "<b>Space Torpedoes</b><br/><i>These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_torpedoes_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_swarmer_missiles_2",
+      "label": "Whirlwind Missiles",
+      "group": "Engineering",
+      "title": "<b>Whirlwind Missiles</b><br/><i>New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_swarmer_missiles_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_swarmer_missiles_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_swarmer_missiles_1",
+      "label": "Swarmer Missiles",
+      "group": "Engineering",
+      "title": "<b>Swarmer Missiles</b><br/><i>These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_swarmer_missiles_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_missiles_5",
+      "label": "Marauder Missiles",
+      "group": "Engineering",
+      "title": "<b>Marauder Missiles</b><br/><i>These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
+      "level": 13,
+      "image": "images/technologies/tech_missiles_5.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_4"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_missiles_4",
+      "label": "Quantum Missiles",
+      "group": "Engineering",
+      "title": "<b>Quantum Missiles</b><br/><i>The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_missiles_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_3"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_missiles_3",
+      "label": "Antimatter Missiles",
+      "group": "Engineering",
+      "title": "<b>Antimatter Missiles</b><br/><i>Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
+      "level": 8,
+      "image": "images/technologies/tech_missiles_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_missiles_2",
+      "label": "Fusion Missiles",
+      "group": "Engineering",
+      "title": "<b>Fusion Missiles</b><br/><i>These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
+      "level": 6,
+      "image": "images/technologies/tech_missiles_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_missiles_1",
+        "tech_fusion_power"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_missiles_1",
+      "label": "Nuclear Missiles",
+      "group": "Engineering",
+      "title": "<b>Nuclear Missiles</b><br/><i>Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_missiles_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_flak_batteries_3",
+      "label": "Flak Artillery",
+      "group": "Engineering",
+      "title": "<b>Flak Artillery</b><br/><i>Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_flak_batteries_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_flak_batteries_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_flak_batteries_2",
+      "label": "Flak Cannons",
+      "group": "Engineering",
+      "title": "<b>Flak Cannons</b><br/><i>Upgraded flak batteries with new, more powerful shrapnel rounds.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>6000",
+      "level": 11,
+      "image": "images/technologies/tech_flak_batteries_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_flak_batteries_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_flak_batteries_1",
+      "label": "Flak Battery",
+      "group": "Engineering",
+      "title": "<b>Flak Battery</b><br/><i>Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_flak_batteries_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_autocannons_3",
+      "label": "Stormfire Cannons",
+      "group": "Engineering",
+      "title": "<b>Stormfire Cannons</b><br/><i>Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_autocannons_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_autocannons_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_autocannons_2",
+      "label": "Ripper Cannons",
+      "group": "Engineering",
+      "title": "<b>Ripper Cannons</b><br/><i>These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_autocannons_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_autocannons_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_autocannons_1",
+      "label": "Autocannons",
+      "group": "Engineering",
+      "title": "<b>Autocannons</b><br/><i>Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
+      "level": 8,
+      "image": "images/technologies/tech_autocannons_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_accelerator_2",
+      "label": "Giga Cannon",
+      "group": "Engineering",
+      "title": "<b>Giga Cannon</b><br/><i>An even more powerful mass accelerator cannon that can rip through even the toughest shields.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>24000",
+      "level": 15,
+      "image": "images/technologies/tech_mass_accelerator_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_5",
+        "tech_mass_accelerator_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_accelerator_1",
+      "label": "Mega Cannon",
+      "group": "Engineering",
+      "title": "<b>Mega Cannon</b><br/><i>An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
+      "level": 14,
+      "image": "images/technologies/tech_mass_accelerator_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_4",
+        "tech_battleships"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_kinetic_artillery_2",
+      "label": "Kinetic Artillery",
+      "group": "Engineering",
+      "title": "<b>Kinetic Artillery</b><br/><i>An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
+      "level": 14,
+      "image": "images/technologies/tech_kinetic_artillery_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_5",
+        "tech_kinetic_artillery_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_kinetic_artillery_1",
+      "label": "Kinetic Battery",
+      "group": "Engineering",
+      "title": "<b>Kinetic Battery</b><br/><i>Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>12000",
+      "level": 12,
+      "image": "images/technologies/tech_kinetic_artillery_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_4"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_drivers_5",
+      "label": "Gauss Cannons",
+      "group": "Engineering",
+      "title": "<b>Gauss Cannons</b><br/><i>This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
+      "level": 13,
+      "image": "images/technologies/tech_mass_drivers_5.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_4"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_drivers_4",
+      "label": "Advanced Railguns",
+      "group": "Engineering",
+      "title": "<b>Advanced Railguns</b><br/><i>A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_mass_drivers_4.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_3"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_drivers_3",
+      "label": "Railguns",
+      "group": "Engineering",
+      "title": "<b>Railguns</b><br/><i>The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
+      "level": 8,
+      "image": "images/technologies/tech_mass_drivers_3.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_2"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_drivers_2",
+      "label": "Coilguns",
+      "group": "Engineering",
+      "title": "<b>Coilguns</b><br/><i>Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
+      "level": 5,
+      "image": "images/technologies/tech_mass_drivers_2.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_mass_drivers_1"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_mass_drivers_1",
+      "label": "Mass Drivers",
+      "group": "Engineering",
+      "title": "<b>Mass Drivers</b><br/><i>These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "color": {
+        "border": "#00CE56"
+      },
+      "borderWidth": 1,
+      "level": 1,
+      "image": "images/technologies/tech_mass_drivers_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_space_whale_weapon_1",
+      "label": "Frequency Tuning",
+      "group": "Society",
+      "title": "<b>Frequency Tuning</b><br/><i>Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>3000<br/><b>Attributes: </b>NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 5,
+      "image": "images/technologies/tech_space_whale_weapon_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_scourge_missile_1",
+      "label": "Scourge Missiles",
+      "group": "Society",
+      "title": "<b>Scourge Missiles</b><br/><i>By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_scourge_missile_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_swarm_strike_craft_1",
+      "label": "Swarm Spawning Pools",
+      "group": "Society",
+      "title": "<b>Swarm Spawning Pools</b><br/><i>Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_swarm_strike_craft_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_amoeba_strike_craft_1",
+      "label": "Amoeba Breeding Program",
+      "group": "Society",
+      "title": "<b>Amoeba Breeding Program</b><br/><i>By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 8,
+      "image": "images/technologies/tech_amoeba_strike_craft_1.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
       "id": "tech_pk_nanobots",
       "label": "Atmospheric Nanobot Dispersal",
       "group": "Engineering",
@@ -14,6 +1684,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -30,6 +1703,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colossus"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -46,6 +1722,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -62,6 +1741,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -78,6 +1760,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -94,88 +1779,105 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_titans"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
-      "id": "tech_nanite_repair_system",
-      "label": "Nanite Repair System",
-      "group": "Engineering",
-      "title": "<b>Nanite Repair System</b><br/><i>A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_nanite_repair_system.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_neuroregeneration",
-      "label": "Neural Tissue Engineering",
-      "group": "Society",
-      "title": "<b>Neural Tissue Engineering</b><br/><i>When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_neuroregeneration.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_experimental_subspace_navigation",
-      "label": "Speculative Hyperlane Breaching",
+      "id": "tech_repeatable_reduced_building_cost",
+      "label": "Gravitational Analysis",
       "group": "Physics",
-      "title": "<b>Speculative Hyperlane Breaching</b><br/><i>Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 9,
-      "image": "images/technologies/tech_experimental_subspace_navigation.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_sensors_2"
-      ]
-    },
-    {
-      "id": "tech_repeatable_lcluster_clue",
-      "label": "L-Gate Insight",
-      "group": "Engineering",
-      "title": "<b>L-Gate Insight</b><br/><i>Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new §YL-Gate Insight§! into the Disabled L-Gate mystery.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare, Repeatable",
+      "title": "<b>Gravitational Analysis</b><br/><i>Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
         "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 8,
-      "image": "images/technologies/tech_repeatable_lcluster_clue.png",
-      "hasImage": true
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_reduced_building_cost.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_physics_2"
+      ],
+      "categories": [
+        "computing"
+      ]
     },
     {
-      "id": "tech_lgate_activation",
-      "label": "L-Gate Activation",
+      "id": "tech_repeatable_weapon_type_energy_fire_rate",
+      "label": "Flash Coolant",
       "group": "Physics",
-      "title": "<b>L-Gate Activation</b><br/><i>The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Flash Coolant</b><br/><i>New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
-        "border": "#CE7C00"
+        "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 11,
-      "image": "images/technologies/tech_lgate_activation.png",
-      "hasImage": true
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_weapon_type_energy_fire_rate.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_lasers_2"
+      ],
+      "categories": [
+        "particles"
+      ]
     },
     {
-      "id": "tech_gargantuan_evolution",
-      "label": "Gargantuan Evolution",
-      "group": "Society",
-      "title": "<b>Gargantuan Evolution</b><br/><i>Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "id": "tech_repeatable_weapon_type_energy_damage",
+      "label": "Focusing Arrays",
+      "group": "Physics",
+      "title": "<b>Focusing Arrays</b><br/><i>Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
-        "border": "#CE7C00"
+        "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 5,
-      "image": "images/technologies/tech_gargantuan_evolution.png",
-      "hasImage": true
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_weapon_type_energy_damage.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_lasers_4"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_repeatable_improved_shield_output",
+      "label": "Shield Harmonics",
+      "group": "Physics",
+      "title": "<b>Shield Harmonics</b><br/><i>The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_shield_output.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_shields_4"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_repeatable_improved_tile_energy_output",
+      "label": "Applied Superconductivity",
+      "group": "Physics",
+      "title": "<b>Applied Superconductivity</b><br/><i>Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_tile_energy_output.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_power_plant_3"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
     },
     {
       "id": "tech_mega_engineering",
@@ -193,6 +1895,9 @@ GraphData = {
         "tech_starbase_5",
         "tech_battleships",
         "tech_zero_point_power"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -205,6 +1910,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_housing_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -214,7 +1922,13 @@ GraphData = {
       "title": "<b>Weather Control Systems</b><br/><i>The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
       "level": 8,
       "image": "images/technologies/tech_housing_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
     },
     {
       "id": "tech_construction_templates",
@@ -230,6 +1944,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_assembly_pattern"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -242,6 +1959,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_engineering_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -255,6 +1975,9 @@ GraphData = {
       "prerequisites": [
         "tech_afterburners_1",
         "tech_thrusters_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -267,6 +1990,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_thrusters_1"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -280,7 +2006,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_space_construction.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
     },
     {
       "id": "tech_synthetic_leaders",
@@ -292,6 +2024,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_synthetic_workers"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -310,6 +2045,9 @@ GraphData = {
         "tech_droid_workers",
         "tech_galactic_administration",
         "tech_sapient_ai"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -323,6 +2061,9 @@ GraphData = {
       "prerequisites": [
         "tech_robotic_workers",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -335,6 +2076,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_powered_exoskeletons"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -347,6 +2091,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_engineering_2"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -359,6 +2106,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_engineering_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -368,7 +2118,13 @@ GraphData = {
       "title": "<b>Nanomechanics</b><br/><i>Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 5,
       "image": "images/technologies/tech_engineering_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
     },
     {
       "id": "tech_luxuries_2",
@@ -381,6 +2137,9 @@ GraphData = {
       "prerequisites": [
         "tech_luxuries_1",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -393,6 +2152,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -406,6 +2168,9 @@ GraphData = {
       "prerequisites": [
         "tech_alloys_1",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -418,6 +2183,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -431,6 +2199,9 @@ GraphData = {
       "prerequisites": [
         "tech_mineral_purification_1",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -443,6 +2214,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mining_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -455,6 +2229,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mining_2"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -467,6 +2244,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mining_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -479,6 +2259,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -491,6 +2274,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_mining_4"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -503,6 +2289,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_mining_3"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -515,6 +2304,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_mining_2"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -527,6 +2319,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_mining_1"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -539,6 +2334,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -551,6 +2349,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -564,7 +2365,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_mechanized_mining.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
     },
     {
       "id": "tech_basic_industry",
@@ -577,7 +2384,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_basic_industry.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "industry"
+      ]
     },
     {
       "id": "tech_defense_platform_hull_1",
@@ -593,6 +2406,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_3"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -609,6 +2425,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -621,6 +2440,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_thrusters_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -633,6 +2455,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_thrusters_2"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -645,6 +2470,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_thrusters_1"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -658,7 +2486,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_thrusters_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "propulsion"
+      ]
     },
     {
       "id": "tech_crystal_armor_2",
@@ -671,7 +2505,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 13,
       "image": "images/technologies/tech_crystal_armor_2.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "materials"
+      ]
     },
     {
       "id": "tech_crystal_armor_1",
@@ -684,7 +2524,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 8,
       "image": "images/technologies/tech_crystal_armor_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "materials"
+      ]
     },
     {
       "id": "tech_ship_armor_5",
@@ -696,6 +2542,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ship_armor_4"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -708,6 +2557,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ship_armor_3"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -720,6 +2572,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ship_armor_2"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -732,6 +2587,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ship_armor_1"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -745,7 +2603,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_ship_armor_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "materials"
+      ]
     },
     {
       "id": "tech_assault_armies",
@@ -761,6 +2625,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_planetary_defenses"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -773,6 +2640,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_strike_craft_2"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -785,6 +2655,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_strike_craft_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -797,6 +2670,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_2"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -814,6 +2690,9 @@ GraphData = {
       "prerequisites": [
         "tech_starbase_4",
         "tech_modular_engineering"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -830,6 +2709,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_3"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -842,6 +2724,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_4"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -854,6 +2739,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_3"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -866,6 +2754,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_2"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -882,6 +2773,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -898,6 +2792,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -914,6 +2811,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_titan_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -930,6 +2830,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_titans"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -946,6 +2849,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_battleship_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -958,6 +2864,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_battleships"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -970,6 +2879,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_battleships"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -986,6 +2898,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cruiser_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -998,6 +2913,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cruisers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1010,6 +2928,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cruisers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1026,6 +2947,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_destroyer_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1038,6 +2962,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_destroyers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1050,6 +2977,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_destroyers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1066,6 +2996,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_corvette_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1078,6 +3011,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_corvettes"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1090,6 +3026,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_corvettes"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1102,6 +3041,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_battleships"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1114,6 +3056,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cruisers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1126,6 +3071,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_destroyers"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1138,6 +3086,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_corvettes"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1154,6 +3105,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_2"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1170,6 +3124,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_science_lab_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1186,6 +3143,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_starbase_2"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1202,6 +3162,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_construction_templates"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -1218,6 +3181,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_strike_craft_3"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1234,6 +3200,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_strike_craft_3"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1250,6 +3219,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mass_drivers_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -1266,6 +3238,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mass_drivers_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -1282,6 +3257,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_missiles_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -1298,6 +3276,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_missiles_3"
+      ],
+      "categories": [
+        "propulsion"
       ]
     },
     {
@@ -1314,6 +3295,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ship_armor_3"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -1330,6 +3314,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_defense_platform_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1346,6 +3333,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_defense_platform_hull_1"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -1362,361 +3352,123 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_mineral_purification_2"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
-      "id": "tech_torpedoes_3",
-      "label": "Devastator Torpedoes",
+      "id": "tech_nanite_repair_system",
+      "label": "Nanite Repair System",
       "group": "Engineering",
-      "title": "<b>Devastator Torpedoes</b><br/><i>Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_torpedoes_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_torpedoes_2"
-      ]
-    },
-    {
-      "id": "tech_torpedoes_2",
-      "label": "Armored Torpedoes",
-      "group": "Engineering",
-      "title": "<b>Armored Torpedoes</b><br/><i>Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>10000",
-      "level": 11,
-      "image": "images/technologies/tech_torpedoes_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_torpedoes_1"
-      ]
-    },
-    {
-      "id": "tech_torpedoes_1",
-      "label": "Space Torpedoes",
-      "group": "Engineering",
-      "title": "<b>Space Torpedoes</b><br/><i>These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_torpedoes_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_1"
-      ]
-    },
-    {
-      "id": "tech_swarmer_missiles_2",
-      "label": "Whirlwind Missiles",
-      "group": "Engineering",
-      "title": "<b>Whirlwind Missiles</b><br/><i>New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_swarmer_missiles_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_swarmer_missiles_1"
-      ]
-    },
-    {
-      "id": "tech_swarmer_missiles_1",
-      "label": "Swarmer Missiles",
-      "group": "Engineering",
-      "title": "<b>Swarmer Missiles</b><br/><i>These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_swarmer_missiles_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_2"
-      ]
-    },
-    {
-      "id": "tech_missiles_5",
-      "label": "Marauder Missiles",
-      "group": "Engineering",
-      "title": "<b>Marauder Missiles</b><br/><i>These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_missiles_5.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_4"
-      ]
-    },
-    {
-      "id": "tech_missiles_4",
-      "label": "Quantum Missiles",
-      "group": "Engineering",
-      "title": "<b>Quantum Missiles</b><br/><i>The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_missiles_4.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_3"
-      ]
-    },
-    {
-      "id": "tech_missiles_3",
-      "label": "Antimatter Missiles",
-      "group": "Engineering",
-      "title": "<b>Antimatter Missiles</b><br/><i>Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
-      "level": 8,
-      "image": "images/technologies/tech_missiles_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_2"
-      ]
-    },
-    {
-      "id": "tech_missiles_2",
-      "label": "Fusion Missiles",
-      "group": "Engineering",
-      "title": "<b>Fusion Missiles</b><br/><i>These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
-      "level": 6,
-      "image": "images/technologies/tech_missiles_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_missiles_1",
-        "tech_fusion_power"
-      ]
-    },
-    {
-      "id": "tech_missiles_1",
-      "label": "Nuclear Missiles",
-      "group": "Engineering",
-      "title": "<b>Nuclear Missiles</b><br/><i>Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Nanite Repair System</b><br/><i>A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
-        "border": "#00CE56"
+        "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_missiles_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_flak_batteries_3",
-      "label": "Flak Artillery",
-      "group": "Engineering",
-      "title": "<b>Flak Artillery</b><br/><i>Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
-      "level": 13,
-      "image": "images/technologies/tech_flak_batteries_3.png",
+      "level": 16,
+      "image": "images/technologies/tech_nanite_repair_system.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_flak_batteries_2"
+        "Engineering-root"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
-      "id": "tech_flak_batteries_2",
-      "label": "Flak Cannons",
-      "group": "Engineering",
-      "title": "<b>Flak Cannons</b><br/><i>Upgraded flak batteries with new, more powerful shrapnel rounds.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>6000",
-      "level": 11,
-      "image": "images/technologies/tech_flak_batteries_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_flak_batteries_1"
-      ]
-    },
-    {
-      "id": "tech_flak_batteries_1",
-      "label": "Flak Battery",
-      "group": "Engineering",
-      "title": "<b>Flak Battery</b><br/><i>Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "id": "tech_neuroregeneration",
+      "label": "Neural Tissue Engineering",
+      "group": "Society",
+      "title": "<b>Neural Tissue Engineering</b><br/><i>When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
-        "border": "#00CE56"
+        "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_flak_batteries_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_autocannons_3",
-      "label": "Stormfire Cannons",
-      "group": "Engineering",
-      "title": "<b>Stormfire Cannons</b><br/><i>Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 13,
-      "image": "images/technologies/tech_autocannons_3.png",
+      "image": "images/technologies/tech_neuroregeneration.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_autocannons_2"
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
-      "id": "tech_autocannons_2",
-      "label": "Ripper Cannons",
-      "group": "Engineering",
-      "title": "<b>Ripper Cannons</b><br/><i>These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_autocannons_2.png",
+      "id": "tech_experimental_subspace_navigation",
+      "label": "Speculative Hyperlane Breaching",
+      "group": "Physics",
+      "title": "<b>Speculative Hyperlane Breaching</b><br/><i>Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 9,
+      "image": "images/technologies/tech_experimental_subspace_navigation.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_autocannons_1"
+        "tech_sensors_2"
+      ],
+      "categories": [
+        "field_manipulation"
       ]
     },
     {
-      "id": "tech_autocannons_1",
-      "label": "Autocannons",
+      "id": "tech_repeatable_lcluster_clue",
+      "label": "L-Gate Insight",
       "group": "Engineering",
-      "title": "<b>Autocannons</b><br/><i>Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
+      "title": "<b>L-Gate Insight</b><br/><i>Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new §YL-Gate Insight§! into the Disabled L-Gate mystery.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare, Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
       "level": 8,
-      "image": "images/technologies/tech_autocannons_1.png",
+      "image": "images/technologies/tech_repeatable_lcluster_clue.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_mass_drivers_2"
+        "Engineering-root"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
-      "id": "tech_mass_accelerator_2",
-      "label": "Giga Cannon",
-      "group": "Engineering",
-      "title": "<b>Giga Cannon</b><br/><i>An even more powerful mass accelerator cannon that can rip through even the toughest shields.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>24000",
-      "level": 15,
-      "image": "images/technologies/tech_mass_accelerator_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_5",
-        "tech_mass_accelerator_1"
-      ]
-    },
-    {
-      "id": "tech_mass_accelerator_1",
-      "label": "Mega Cannon",
-      "group": "Engineering",
-      "title": "<b>Mega Cannon</b><br/><i>An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
-      "level": 14,
-      "image": "images/technologies/tech_mass_accelerator_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_4",
-        "tech_battleships"
-      ]
-    },
-    {
-      "id": "tech_kinetic_artillery_2",
-      "label": "Kinetic Artillery",
-      "group": "Engineering",
-      "title": "<b>Kinetic Artillery</b><br/><i>An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
-      "level": 14,
-      "image": "images/technologies/tech_kinetic_artillery_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_5",
-        "tech_kinetic_artillery_1"
-      ]
-    },
-    {
-      "id": "tech_kinetic_artillery_1",
-      "label": "Kinetic Battery",
-      "group": "Engineering",
-      "title": "<b>Kinetic Battery</b><br/><i>Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>12000",
-      "level": 12,
-      "image": "images/technologies/tech_kinetic_artillery_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_4"
-      ]
-    },
-    {
-      "id": "tech_mass_drivers_5",
-      "label": "Gauss Cannons",
-      "group": "Engineering",
-      "title": "<b>Gauss Cannons</b><br/><i>This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
-      "level": 13,
-      "image": "images/technologies/tech_mass_drivers_5.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_4"
-      ]
-    },
-    {
-      "id": "tech_mass_drivers_4",
-      "label": "Advanced Railguns",
-      "group": "Engineering",
-      "title": "<b>Advanced Railguns</b><br/><i>A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
+      "id": "tech_lgate_activation",
+      "label": "L-Gate Activation",
+      "group": "Physics",
+      "title": "<b>L-Gate Activation</b><br/><i>The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
       "level": 11,
-      "image": "images/technologies/tech_mass_drivers_4.png",
+      "image": "images/technologies/tech_lgate_activation.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_mass_drivers_3"
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
-      "id": "tech_mass_drivers_3",
-      "label": "Railguns",
-      "group": "Engineering",
-      "title": "<b>Railguns</b><br/><i>The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
-      "level": 8,
-      "image": "images/technologies/tech_mass_drivers_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_mass_drivers_2"
-      ]
-    },
-    {
-      "id": "tech_mass_drivers_2",
-      "label": "Coilguns",
-      "group": "Engineering",
-      "title": "<b>Coilguns</b><br/><i>Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
+      "id": "tech_gargantuan_evolution",
+      "label": "Gargantuan Evolution",
+      "group": "Society",
+      "title": "<b>Gargantuan Evolution</b><br/><i>Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
       "level": 5,
-      "image": "images/technologies/tech_mass_drivers_2.png",
+      "image": "images/technologies/tech_gargantuan_evolution.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_mass_drivers_1"
-      ]
-    },
-    {
-      "id": "tech_mass_drivers_1",
-      "label": "Mass Drivers",
-      "group": "Engineering",
-      "title": "<b>Mass Drivers</b><br/><i>These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_mass_drivers_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_dark_matter_propulsion",
-      "label": "Dark Matter Propulsion",
-      "group": "Engineering",
-      "title": "<b>Dark Matter Propulsion</b><br/><i>These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_dark_matter_propulsion.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_thrusters_4"
-      ]
-    },
-    {
-      "id": "tech_dark_matter_power_core",
-      "label": "Dark Matter Power",
-      "group": "Physics",
-      "title": "<b>Dark Matter Power</b><br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_dark_matter_power_core.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_zero_point_power"
-      ]
-    },
-    {
-      "id": "tech_dark_matter_deflector",
-      "label": "Dark Matter Deflectors",
-      "group": "Physics",
-      "title": "<b>Dark Matter Deflectors</b><br/><i>These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_dark_matter_deflector.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_5"
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -1734,6 +3486,9 @@ GraphData = {
       "prerequisites": [
         "tech_akx_worm_1",
         "tech_akx_worm_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -1748,7 +3503,10 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_akx_worm_2.png",
       "hasImage": true,
-      "prerequisites": []
+      "prerequisites": [],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_akx_worm_1",
@@ -1762,929 +3520,9 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_akx_worm_1.png",
       "hasImage": true,
-      "prerequisites": []
-    },
-    {
-      "id": "tech_enigmatic_decoder",
-      "label": "Enigmatic Decoder",
-      "group": "Physics",
-      "title": "<b>Enigmatic Decoder</b><br/><i>While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_enigmatic_decoder.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_enigmatic_encoder",
-      "label": "Enigmatic Encoder",
-      "group": "Physics",
-      "title": "<b>Enigmatic Encoder</b><br/><i>The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_enigmatic_encoder.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_dragon_armor",
-      "label": "Artificial Dragonscales",
-      "group": "Engineering",
-      "title": "<b>Artificial Dragonscales</b><br/><i>The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_dragon_armor.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_executive_retreat",
-      "label": "Executive Leisure Program",
-      "group": "Society",
-      "title": "<b>Executive Leisure Program</b><br/><i>A luxurious resort complex for high ranking corporate officers. Here they can sample the local planetary culture in a high security environment.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_executive_retreat.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_xeno_tourism_agency",
-      "label": "Xeno Outreach Agencies",
-      "group": "Society",
-      "title": "<b>Xeno Outreach Agencies</b><br/><i>This corporate agency promotes a wide variety of interstellar tourist attractions, as well as offering employment packages and signing bonuses to potential emigrants interested in relocating to corporate space.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_xeno_tourism_agency.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_orbital_trash_dispersal",
-      "label": "Orbital Trash Dispersal",
-      "group": "Engineering",
-      "title": "<b>Orbital Trash Dispersal</b><br/><i>This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 5,
-      "image": "images/technologies/tech_orbital_trash_dispersal.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_bio_reactor",
-      "label": "Bio-Reactor",
-      "group": "Physics",
-      "title": "<b>Bio-Reactor</b><br/><i>A facility where organic matter is converted into energy at a highly efficient rate.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_bio_reactor.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_ftl_inhibitor",
-      "label": "FTL Inhibition",
-      "group": "Physics",
-      "title": "<b>FTL Inhibition</b><br/><i>Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
-      "level": 8,
-      "image": "images/technologies/tech_ftl_inhibitor.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_hyper_drive_1"
-      ]
-    },
-    {
-      "id": "tech_jump_drive_1",
-      "label": "Jump Drive",
-      "group": "Physics",
-      "title": "<b>Jump Drive</b><br/><i>A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare, Dangerous",
-      "color": {
-        "border": "#D30000"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_jump_drive_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_zero_point_power"
-      ]
-    },
-    {
-      "id": "tech_gateway_construction",
-      "label": "Gateway Construction",
-      "group": "Physics",
-      "title": "<b>Gateway Construction</b><br/><i>The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 17,
-      "image": "images/technologies/tech_gateway_construction.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_gateway_activation",
-        "tech_mega_engineering"
-      ]
-    },
-    {
-      "id": "tech_gateway_activation",
-      "label": "Gateway Activation",
-      "group": "Physics",
-      "title": "<b>Gateway Activation</b><br/><i>The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_gateway_activation.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_hyper_drive_3"
-      ]
-    },
-    {
-      "id": "tech_wormhole_stabilization",
-      "label": "Wormhole Stabilization",
-      "group": "Physics",
-      "title": "<b>Wormhole Stabilization</b><br/><i>A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 11,
-      "image": "images/technologies/tech_wormhole_stabilization.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_hyper_drive_2"
-      ]
-    },
-    {
-      "id": "tech_hyper_drive_3",
-      "label": "Hyperspace Slipstreams",
-      "group": "Physics",
-      "title": "<b>Hyperspace Slipstreams</b><br/><i>A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
-      "level": 11,
-      "image": "images/technologies/tech_hyper_drive_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_hyper_drive_2"
-      ]
-    },
-    {
-      "id": "tech_hyper_drive_2",
-      "label": "Hyperlane Breach Points",
-      "group": "Physics",
-      "title": "<b>Hyperlane Breach Points</b><br/><i>We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_hyper_drive_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_hyper_drive_1"
-      ]
-    },
-    {
-      "id": "tech_hyper_drive_1",
-      "label": "Hyperspace Travel",
-      "group": "Physics",
-      "title": "<b>Hyperspace Travel</b><br/><i>Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 2,
-      "image": "images/technologies/tech_hyper_drive_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_basic_science_lab_1"
-      ]
-    },
-    {
-      "id": "tech_power_hub_2",
-      "label": "Planetary Power Grid",
-      "group": "Physics",
-      "title": "<b>Planetary Power Grid</b><br/><i>A re-engineered and unified grid further reduces energy losses over distance.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
-      "level": 9,
-      "image": "images/technologies/tech_power_hub_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_hub_1",
-        "tech_colonial_centralization"
-      ]
-    },
-    {
-      "id": "tech_power_hub_1",
-      "label": "Global Energy Management",
-      "group": "Physics",
-      "title": "<b>Global Energy Management</b><br/><i>Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>2500",
-      "level": 5,
-      "image": "images/technologies/tech_power_hub_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_plant_1"
-      ]
-    },
-    {
-      "id": "tech_power_plant_4",
-      "label": "Quantum Field Manipulation",
-      "group": "Physics",
-      "title": "<b>Quantum Field Manipulation</b><br/><i>Quantum superposition of energy coils, simultaneously drained and charged.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_power_plant_4.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_plant_3",
-        "tech_galactic_administration"
-      ]
-    },
-    {
-      "id": "tech_power_plant_3",
-      "label": "Quantum Energy States",
-      "group": "Physics",
-      "title": "<b>Quantum Energy States</b><br/><i>Basic entanglement principles applied to energy generation provide a substantial increase in energy output.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
-      "level": 9,
-      "image": "images/technologies/tech_power_plant_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_plant_2",
-        "tech_colonial_centralization"
-      ]
-    },
-    {
-      "id": "tech_power_plant_2",
-      "label": "Field Modulation",
-      "group": "Physics",
-      "title": "<b>Field Modulation</b><br/><i>Modulated fields allow for increased production and improved energy yield.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>2000",
-      "level": 5,
-      "image": "images/technologies/tech_power_plant_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_plant_1"
-      ]
-    },
-    {
-      "id": "tech_power_plant_1",
-      "label": "High-Energy Capacitors",
-      "group": "Physics",
-      "title": "<b>High-Energy Capacitors</b><br/><i>Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_power_plant_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_sensors_4",
-      "label": "Tachyon Sensors",
-      "group": "Physics",
-      "title": "<b>Tachyon Sensors</b><br/><i>Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
-      "level": 13,
-      "image": "images/technologies/tech_sensors_4.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_sensors_3"
-      ]
-    },
-    {
-      "id": "tech_sensors_3",
-      "label": "Subspace Sensors",
-      "group": "Physics",
-      "title": "<b>Subspace Sensors</b><br/><i>Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_sensors_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_sensors_2"
-      ]
-    },
-    {
-      "id": "tech_sensors_2",
-      "label": "Gravitic Sensors",
-      "group": "Physics",
-      "title": "<b>Gravitic Sensors</b><br/><i>These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
-      "level": 8,
-      "image": "images/technologies/tech_sensors_2.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_planetary_shield_generator",
-      "label": "Planetary Shields",
-      "group": "Physics",
-      "title": "<b>Planetary Shields</b><br/><i>Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 11,
-      "image": "images/technologies/tech_planetary_shield_generator.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_3"
-      ]
-    },
-    {
-      "id": "tech_shield_rechargers_1",
-      "label": "Shield Capacitors",
-      "group": "Physics",
-      "title": "<b>Shield Capacitors</b><br/><i>These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
-      "level": 9,
-      "image": "images/technologies/tech_shield_rechargers_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_3"
-      ]
-    },
-    {
-      "id": "tech_shields_5",
-      "label": "Hyper Shields",
-      "group": "Physics",
-      "title": "<b>Hyper Shields</b><br/><i>These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>24000",
-      "level": 13,
-      "image": "images/technologies/tech_shields_5.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_4"
-      ]
-    },
-    {
-      "id": "tech_shields_4",
-      "label": "Advanced Shields",
-      "group": "Physics",
-      "title": "<b>Advanced Shields</b><br/><i>An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>12000",
-      "level": 11,
-      "image": "images/technologies/tech_shields_4.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_3"
-      ]
-    },
-    {
-      "id": "tech_shields_3",
-      "label": "Shields",
-      "group": "Physics",
-      "title": "<b>Shields</b><br/><i>These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
-      "level": 8,
-      "image": "images/technologies/tech_shields_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_2"
-      ]
-    },
-    {
-      "id": "tech_shields_2",
-      "label": "Improved Deflectors",
-      "group": "Physics",
-      "title": "<b>Improved Deflectors</b><br/><i>These updated deflector screens are capable of soaking up even more punishment before they overload.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>3000",
-      "level": 5,
-      "image": "images/technologies/tech_shields_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_1"
-      ]
-    },
-    {
-      "id": "tech_shields_1",
-      "label": "Deflectors",
-      "group": "Physics",
-      "title": "<b>Deflectors</b><br/><i>Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 2,
-      "image": "images/technologies/tech_shields_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_basic_science_lab_1"
-      ]
-    },
-    {
-      "id": "tech_reactor_boosters_3",
-      "label": "Advanced Reactor Boosters",
-      "group": "Physics",
-      "title": "<b>Advanced Reactor Boosters</b><br/><i>The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
-      "level": 7,
-      "image": "images/technologies/tech_reactor_boosters_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_antimatter_power",
-        "tech_reactor_boosters_2"
-      ]
-    },
-    {
-      "id": "tech_reactor_boosters_2",
-      "label": "Improved Reactor Boosters",
-      "group": "Physics",
-      "title": "<b>Improved Reactor Boosters</b><br/><i>The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>3000",
-      "level": 6,
-      "image": "images/technologies/tech_reactor_boosters_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_fusion_power",
-        "tech_reactor_boosters_1"
-      ]
-    },
-    {
-      "id": "tech_reactor_boosters_1",
-      "label": "Reactor Boosters",
-      "group": "Physics",
-      "title": "<b>Reactor Boosters</b><br/><i>Additional power generation systems increase the ship's reactor output.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 2,
-      "image": "images/technologies/tech_reactor_boosters_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_fission_power"
-      ]
-    },
-    {
-      "id": "tech_zero_point_power",
-      "label": "Zero Point Power",
-      "group": "Physics",
-      "title": "<b>Zero Point Power</b><br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_zero_point_power.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_antimatter_power"
-      ]
-    },
-    {
-      "id": "tech_antimatter_power",
-      "label": "Antimatter Power",
-      "group": "Physics",
-      "title": "<b>Antimatter Power</b><br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>10000",
-      "level": 11,
-      "image": "images/technologies/tech_antimatter_power.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_cold_fusion_power"
-      ]
-    },
-    {
-      "id": "tech_cold_fusion_power",
-      "label": "Cold Fusion Power",
-      "group": "Physics",
-      "title": "<b>Cold Fusion Power</b><br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_cold_fusion_power.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_fusion_power"
-      ]
-    },
-    {
-      "id": "tech_fusion_power",
-      "label": "Fusion Power",
-      "group": "Physics",
-      "title": "<b>Fusion Power</b><br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500",
-      "level": 5,
-      "image": "images/technologies/tech_fusion_power.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_fission_power"
-      ]
-    },
-    {
-      "id": "tech_fission_power",
-      "label": "Fission Power",
-      "group": "Physics",
-      "title": "<b>Fission Power</b><br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_fission_power.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_synchronized_defences",
-      "label": "Synchronized Defenses",
-      "group": "Physics",
-      "title": "<b>Synchronized Defenses</b><br/><i>Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_synchronized_defences.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_self_aware_logic"
-      ]
-    },
-    {
-      "id": "tech_auxiliary_fire_control",
-      "label": "Auxiliary Fire-control",
-      "group": "Physics",
-      "title": "<b>Auxiliary Fire-control</b><br/><i>By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
-      "level": 7,
-      "image": "images/technologies/tech_auxiliary_fire_control.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_computers_1"
-      ]
-    },
-    {
-      "id": "tech_combat_computers_autonomous",
-      "label": "Autonomous Ship Intellects",
-      "group": "Physics",
-      "title": "<b>Autonomous Ship Intellects</b><br/><i>Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_combat_computers_autonomous.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_computers_2"
-      ]
-    },
-    {
-      "id": "tech_combat_computers_3",
-      "label": "Sapient Combat Simulations",
-      "group": "Physics",
-      "title": "<b>Sapient Combat Simulations</b><br/><i>Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous",
-      "color": {
-        "border": "#D30000"
-      },
-      "borderWidth": 1,
-      "level": 14,
-      "image": "images/technologies/tech_combat_computers_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_computers_2",
-        "tech_sapient_ai"
-      ]
-    },
-    {
-      "id": "tech_combat_computers_2",
-      "label": "Extended Combat Algorithms",
-      "group": "Physics",
-      "title": "<b>Extended Combat Algorithms</b><br/><i>Further advances in predictive algorithms allow for augmented tactical decision-making in the field.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_combat_computers_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_computers_1",
-        "tech_self_aware_logic"
-      ]
-    },
-    {
-      "id": "tech_combat_computers_1",
-      "label": "Specialized Combat Computers",
-      "group": "Physics",
-      "title": "<b>Specialized Combat Computers</b><br/><i>Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
-      "level": 6,
-      "image": "images/technologies/tech_combat_computers_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_administrative_ai"
-      ]
-    },
-    {
-      "id": "tech_positronic_implants",
-      "label": "Positronic Implants",
-      "group": "Physics",
-      "title": "<b>Positronic Implants</b><br/><i>Expanding possibilities through the application of limited cybernetics.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
-      "level": 13,
-      "image": "images/technologies/tech_positronic_implants.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_self_aware_logic"
-      ]
-    },
-    {
-      "id": "tech_sapient_ai",
-      "label": "Positronic AI",
-      "group": "Physics",
-      "title": "<b>Positronic AI</b><br/><i>Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
-      "level": 13,
-      "image": "images/technologies/tech_sapient_ai.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_self_aware_logic"
-      ]
-    },
-    {
-      "id": "tech_automated_exploration",
-      "label": "Automated Exploration Protocols",
-      "group": "Physics",
-      "title": "<b>Automated Exploration Protocols</b><br/><i>An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2500",
-      "level": 5,
-      "image": "images/technologies/tech_automated_exploration.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_self_aware_logic",
-      "label": "Self-Evolving Logic",
-      "group": "Physics",
-      "title": "<b>Self-Evolving Logic</b><br/><i>Introspective prioritization.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_self_aware_logic.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_administrative_ai"
-      ]
-    },
-    {
-      "id": "tech_cryostasis_2",
-      "label": "Self-Aware Colony Ships",
-      "group": "Physics",
-      "title": "<b>Self-Aware Colony Ships</b><br/><i>Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
-      "level": 11,
-      "image": "images/technologies/tech_cryostasis_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_self_aware_logic",
-        "tech_cryostasis_1"
-      ]
-    },
-    {
-      "id": "tech_cryostasis_1",
-      "label": "AI-Controlled Colony Ships",
-      "group": "Physics",
-      "title": "<b>AI-Controlled Colony Ships</b><br/><i>By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
-      "level": 6,
-      "image": "images/technologies/tech_cryostasis_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_administrative_ai",
-        "tech_colonization_1"
-      ]
-    },
-    {
-      "id": "tech_administrative_ai",
-      "label": "Administrative AI",
-      "group": "Physics",
-      "title": "<b>Administrative AI</b><br/><i>Organizational circuitry rerouting academic fervor.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
-      "level": 5,
-      "image": "images/technologies/tech_administrative_ai.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_basic_science_lab_1"
-      ]
-    },
-    {
-      "id": "tech_global_research_initiative",
-      "label": "Interplanetary Research Initiative",
-      "group": "Physics",
-      "title": "<b>Interplanetary Research Initiative</b><br/><i>A bid for interplanetary resource pools and more flexible research grants.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_global_research_initiative.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_physics_1",
-        "tech_colonial_centralization"
-      ]
-    },
-    {
-      "id": "tech_physics_3",
-      "label": "Space-Time Theory",
-      "group": "Physics",
-      "title": "<b>Space-Time Theory</b><br/><i>Three dimensions, inextricable from the fourth.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000",
-      "level": 13,
-      "image": "images/technologies/tech_physics_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_physics_2"
-      ]
-    },
-    {
-      "id": "tech_physics_2",
-      "label": "Applied Quantum Physics",
-      "group": "Physics",
-      "title": "<b>Applied Quantum Physics</b><br/><i>The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
-      "level": 8,
-      "image": "images/technologies/tech_physics_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_physics_1"
-      ]
-    },
-    {
-      "id": "tech_physics_1",
-      "label": "Quantum Theory",
-      "group": "Physics",
-      "title": "<b>Quantum Theory</b><br/><i>Exploring the mediation of fundamental forces through subatomic particles.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
-      "level": 5,
-      "image": "images/technologies/tech_physics_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_space_science_5",
-      "label": "Multi-Dimensional Analysis",
-      "group": "Physics",
-      "title": "<b>Multi-Dimensional Analysis</b><br/><i>Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_space_science_5.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_space_science_4"
-      ]
-    },
-    {
-      "id": "tech_space_science_4",
-      "label": "Autonomous Station Protocols",
-      "group": "Physics",
-      "title": "<b>Autonomous Station Protocols</b><br/><i>Increased automation of station functions will free up more staff for research duties.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
-      "level": 9,
-      "image": "images/technologies/tech_space_science_4.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_space_science_3"
-      ]
-    },
-    {
-      "id": "tech_space_science_3",
-      "label": "Quantum Probes",
-      "group": "Physics",
-      "title": "<b>Quantum Probes</b><br/><i>Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
-      "level": 8,
-      "image": "images/technologies/tech_space_science_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_space_science_2"
-      ]
-    },
-    {
-      "id": "tech_space_science_2",
-      "label": "Miniature Containment Fields",
-      "group": "Physics",
-      "title": "<b>Miniature Containment Fields</b><br/><i>Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
-      "level": 6,
-      "image": "images/technologies/tech_space_science_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_space_science_1"
-      ]
-    },
-    {
-      "id": "tech_space_science_1",
-      "label": "Zero-G Laboratories",
-      "group": "Physics",
-      "title": "<b>Zero-G Laboratories</b><br/><i>A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
-      "level": 5,
-      "image": "images/technologies/tech_space_science_1.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_space_construction"
-      ]
-    },
-    {
-      "id": "tech_archeology_lab",
-      "label": "Curator Archeology Lab",
-      "group": "Physics",
-      "title": "<b>Curator Archeology Lab</b><br/><i>A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 8,
-      "image": "images/technologies/tech_archeology_lab.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_curator_lab",
-      "label": "Curator Exploration Lab",
-      "group": "Physics",
-      "title": "<b>Curator Exploration Lab</b><br/><i>These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 8,
-      "image": "images/technologies/tech_curator_lab.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_basic_science_lab_3",
-      "label": "Multi-Dimensional Studies",
-      "group": "Physics",
-      "title": "<b>Multi-Dimensional Studies</b><br/><i>To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_basic_science_lab_3.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_basic_science_lab_2",
-        "tech_colonial_centralization"
-      ]
-    },
-    {
-      "id": "tech_basic_science_lab_2",
-      "label": "Exotic Materials Labs",
-      "group": "Physics",
-      "title": "<b>Exotic Materials Labs</b><br/><i>As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
-      "level": 5,
-      "image": "images/technologies/tech_basic_science_lab_2.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_basic_science_lab_1"
-      ]
-    },
-    {
-      "id": "tech_basic_science_lab_1",
-      "label": "Scientific Method",
-      "group": "Physics",
-      "title": "<b>Scientific Method</b><br/><i>Testable predictions of observable phenomena.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Computing<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
-      "color": {
-        "border": "#00CE56"
-      },
-      "borderWidth": 1,
-      "level": 1,
-      "image": "images/technologies/tech_basic_science_lab_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_repeatable_reduced_building_cost",
-      "label": "Gravitational Analysis",
-      "group": "Physics",
-      "title": "<b>Gravitational Analysis</b><br/><i>Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_reduced_building_cost.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_physics_2"
-      ]
-    },
-    {
-      "id": "tech_repeatable_weapon_type_energy_fire_rate",
-      "label": "Flash Coolant",
-      "group": "Physics",
-      "title": "<b>Flash Coolant</b><br/><i>New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_weapon_type_energy_fire_rate.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_lasers_2"
-      ]
-    },
-    {
-      "id": "tech_repeatable_weapon_type_energy_damage",
-      "label": "Focusing Arrays",
-      "group": "Physics",
-      "title": "<b>Focusing Arrays</b><br/><i>Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_weapon_type_energy_damage.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_lasers_4"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_shield_output",
-      "label": "Shield Harmonics",
-      "group": "Physics",
-      "title": "<b>Shield Harmonics</b><br/><i>The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_shield_output.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_shields_4"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_tile_energy_output",
-      "label": "Applied Superconductivity",
-      "group": "Physics",
-      "title": "<b>Applied Superconductivity</b><br/><i>Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_tile_energy_output.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_power_plant_3"
+      "prerequisites": [],
+      "categories": [
+        "field_manipulation"
       ]
     },
     {
@@ -2698,7 +3536,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 8,
       "image": "images/technologies/null_void_beam.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
     },
     {
       "id": "tech_space_cloud_weapon_1",
@@ -2711,7 +3555,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 8,
       "image": "images/technologies/tech_space_cloud_weapon_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
     },
     {
       "id": "tech_mining_drone_weapon_1",
@@ -2724,7 +3574,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 8,
       "image": "images/technologies/tech_mining_drone_weapon_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
     },
     {
       "id": "tech_extradimensional_weapon_1",
@@ -2737,7 +3593,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 16,
       "image": "images/technologies/tech_extradimensional_weapon_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
     },
     {
       "id": "tech_pd_tracking_3",
@@ -2749,6 +3611,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_pd_tracking_2"
+      ],
+      "categories": [
+        "computing"
       ]
     },
     {
@@ -2761,6 +3626,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_pd_tracking_1"
+      ],
+      "categories": [
+        "computing"
       ]
     },
     {
@@ -2774,7 +3642,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_pd_tracking_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
     },
     {
       "id": "tech_energy_torpedoes_2",
@@ -2786,6 +3660,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_energy_torpedoes_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2798,6 +3675,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_4"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2810,6 +3690,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_disruptors_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2822,6 +3705,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_disruptors_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2834,6 +3720,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2846,6 +3735,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_arc_emitter_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2859,6 +3751,9 @@ GraphData = {
       "prerequisites": [
         "tech_disruptors_3",
         "tech_battleships"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2871,6 +3766,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_plasma_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2883,6 +3781,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_plasma_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2895,6 +3796,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2908,6 +3812,9 @@ GraphData = {
       "prerequisites": [
         "tech_lasers_5",
         "tech_energy_lance_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2921,6 +3828,9 @@ GraphData = {
       "prerequisites": [
         "tech_lasers_4",
         "tech_battleships"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2933,6 +3843,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_4"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2945,6 +3858,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_3"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2957,6 +3873,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_2"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2969,6 +3888,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_lasers_1"
+      ],
+      "categories": [
+        "particles"
       ]
     },
     {
@@ -2982,7 +3904,119 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_lasers_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
+      "id": "tech_executive_retreat",
+      "label": "Executive Leisure Program",
+      "group": "Society",
+      "title": "<b>Executive Leisure Program</b><br/><i>A luxurious resort complex for high ranking corporate officers. Here they can sample the local planetary culture in a high security environment.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_executive_retreat.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_xeno_tourism_agency",
+      "label": "Xeno Outreach Agencies",
+      "group": "Society",
+      "title": "<b>Xeno Outreach Agencies</b><br/><i>This corporate agency promotes a wide variety of interstellar tourist attractions, as well as offering employment packages and signing bonuses to potential emigrants interested in relocating to corporate space.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
+      "level": 11,
+      "image": "images/technologies/tech_xeno_tourism_agency.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_orbital_trash_dispersal",
+      "label": "Orbital Trash Dispersal",
+      "group": "Engineering",
+      "title": "<b>Orbital Trash Dispersal</b><br/><i>This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 5,
+      "image": "images/technologies/tech_orbital_trash_dispersal.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "propulsion"
+      ]
+    },
+    {
+      "id": "tech_enigmatic_decoder",
+      "label": "Enigmatic Decoder",
+      "group": "Physics",
+      "title": "<b>Enigmatic Decoder</b><br/><i>While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_enigmatic_decoder.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_enigmatic_encoder",
+      "label": "Enigmatic Encoder",
+      "group": "Physics",
+      "title": "<b>Enigmatic Encoder</b><br/><i>The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_enigmatic_encoder.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Physics-root"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_dragon_armor",
+      "label": "Artificial Dragonscales",
+      "group": "Engineering",
+      "title": "<b>Artificial Dragonscales</b><br/><i>The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_dragon_armor.png",
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "materials"
+      ]
     },
     {
       "id": "tech_housing_agrarian_idyll",
@@ -2991,7 +4025,13 @@ GraphData = {
       "title": "<b>Agrarian Utopias</b><br/><i>Through the establishment of weather-controlled rural communes, we can support a larger population without disrupting our agrarian way of life.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 11,
       "image": "images/technologies/tech_housing_agrarian_idyll.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_slave_colonies",
@@ -3003,6 +4043,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_neural_implants"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3019,6 +4062,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_artificial_moral_codes"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3035,6 +4081,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_artificial_moral_codes"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3051,6 +4100,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_psionic_theory"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3067,6 +4119,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_psionic_theory"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3080,7 +4135,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 16,
       "image": "images/technologies/tech_ascension_theory.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_hive_confluence",
@@ -3093,6 +4154,9 @@ GraphData = {
       "prerequisites": [
         "tech_hive_cluster",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3105,6 +4169,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_hive_node"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3118,7 +4185,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_hive_node.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_transcendent_faith",
@@ -3131,6 +4204,9 @@ GraphData = {
       "prerequisites": [
         "tech_consecration_fields",
         "tech_galactic_administration"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3144,6 +4220,9 @@ GraphData = {
       "prerequisites": [
         "tech_holographic_rituals",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3156,6 +4235,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cultural_heritage"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3170,6 +4252,9 @@ GraphData = {
         "tech_hypercomms_forum",
         "tech_administrative_ai",
         "tech_galactic_administration"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3183,6 +4268,9 @@ GraphData = {
       "prerequisites": [
         "tech_heritage_site",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3195,6 +4283,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cultural_heritage"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3208,7 +4299,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_cultural_heritage.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_paradise_dome",
@@ -3220,6 +4317,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_housing_1"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3232,6 +4332,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_holo_entertainment"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3245,7 +4348,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_holo_entertainment.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_resource_processing_algorithms",
@@ -3257,6 +4366,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_unity_of_purpose"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3269,6 +4381,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_unity_of_purpose"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3278,7 +4393,13 @@ GraphData = {
       "title": "<b>Unity of Purpose</b><br/><i>The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 8,
       "image": "images/technologies/tech_unity_of_purpose.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_synthetic_thought_patterns",
@@ -3290,6 +4411,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_artificial_moral_codes"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3299,7 +4423,13 @@ GraphData = {
       "title": "<b>Artificial Moral Codes</b><br/><i>It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 8,
       "image": "images/technologies/tech_artificial_moral_codes.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_neural_implants",
@@ -3308,7 +4438,13 @@ GraphData = {
       "title": "<b>Neural Implants</b><br/><i>Cognition is little but the processing of sensory input. It can be altered.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
       "level": 5,
       "image": "images/technologies/tech_neural_implants.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_embodied_dynamism",
@@ -3320,6 +4456,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_autonomous_agents"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3332,6 +4471,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3344,6 +4486,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3356,6 +4501,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3368,6 +4516,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonial_bureaucracy"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3380,6 +4531,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_adaptive_bureaucracy"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3392,6 +4546,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_planetary_unification"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3406,6 +4563,9 @@ GraphData = {
         "tech_alloys_1",
         "tech_luxuries_1",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3422,6 +4582,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_genome_mapping"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3434,6 +4597,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3446,6 +4612,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_planetary_unification"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3458,6 +4627,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_planetary_government"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3471,7 +4643,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_planetary_government.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_galactic_campaigns",
@@ -3483,6 +4661,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_interstellar_campaigns"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3495,6 +4676,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_galactic_ambitions"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3507,6 +4691,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_galactic_ambitions"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3516,7 +4703,13 @@ GraphData = {
       "title": "<b>Stellar Expansion</b><br/><i>Our future lies in the sea of stars.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 8,
       "image": "images/technologies/tech_galactic_ambitions.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "new_worlds"
+      ]
     },
     {
       "id": "tech_psi_jump_drive_1",
@@ -3532,6 +4725,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_precognition_interface"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3548,6 +4744,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_telepathy"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3564,6 +4763,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_psionic_theory"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3577,7 +4779,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 11,
       "image": "images/technologies/tech_psionic_theory.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "psionics"
+      ]
     },
     {
       "id": "tech_global_defense_grid",
@@ -3589,6 +4797,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_ground_defense_planning"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3601,6 +4812,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_planetary_defenses"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3613,6 +4827,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_centralized_command"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3622,7 +4839,13 @@ GraphData = {
       "title": "<b>Centralized Command</b><br/><i>Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
       "level": 8,
       "image": "images/technologies/tech_centralized_command.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "military_theory"
+      ]
     },
     {
       "id": "tech_doctrine_navy_size_4",
@@ -3634,6 +4857,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_navy_size_3"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3646,6 +4872,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_navy_size_2"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3658,6 +4887,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_navy_size_1"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3668,7 +4900,10 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_doctrine_navy_size_1.png",
       "hasImage": true,
-      "prerequisites": []
+      "prerequisites": [],
+      "categories": [
+        "military_theory"
+      ]
     },
     {
       "id": "tech_command_matrix",
@@ -3680,6 +4915,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_refit_standards"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3692,6 +4930,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_interstellar_fleet_traditions"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3702,7 +4943,10 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_interstellar_fleet_traditions.png",
       "hasImage": true,
-      "prerequisites": []
+      "prerequisites": [],
+      "categories": [
+        "military_theory"
+      ]
     },
     {
       "id": "tech_doctrine_fleet_size_5",
@@ -3714,6 +4958,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_fleet_size_4"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3726,6 +4973,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_fleet_size_3"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3738,6 +4988,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_fleet_size_2"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3750,6 +5003,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_doctrine_fleet_size_1"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
@@ -3759,7 +5015,13 @@ GraphData = {
       "title": "<b>Doctrine: Space Combat</b><br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>4000",
       "level": 8,
       "image": "images/technologies/tech_doctrine_fleet_size_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "military_theory"
+      ]
     },
     {
       "id": "tech_regenerative_hull_tissue",
@@ -3772,7 +5034,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 11,
       "image": "images/technologies/tech_regenerative_hull_tissue.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_capacity_boosters",
@@ -3788,6 +5056,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_selected_lineages"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3804,6 +5075,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_vitality_boosters"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3820,6 +5094,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_gene_tailoring"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3833,7 +5110,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 16,
       "image": "images/technologies/tech_genetic_resequencing.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_glandular_acclimation",
@@ -3845,6 +5128,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_gene_tailoring"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3857,6 +5143,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_genome_mapping"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3873,6 +5162,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_epigenetic_triggers"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3889,6 +5181,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_gene_tailoring"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3905,6 +5200,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_cloning"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3917,6 +5215,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_genome_mapping"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3929,6 +5230,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_genome_mapping"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3941,6 +5245,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_genome_mapping"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -3950,7 +5257,13 @@ GraphData = {
       "title": "<b>Genome Mapping</b><br/><i>Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 5,
       "image": "images/technologies/tech_genome_mapping.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_climate_restoration",
@@ -3962,6 +5275,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_terrestrial_sculpting"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3974,6 +5290,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_terrestrial_sculpting"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3986,6 +5305,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -3998,6 +5320,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4010,6 +5335,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4022,6 +5350,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4034,6 +5365,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4046,6 +5380,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4058,6 +5395,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4070,6 +5410,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4082,6 +5425,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4094,6 +5440,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4107,6 +5456,9 @@ GraphData = {
       "prerequisites": [
         "tech_frontier_health",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4120,6 +5472,9 @@ GraphData = {
       "prerequisites": [
         "tech_genome_mapping",
         "tech_colonization_1"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4136,6 +5491,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_3"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4148,6 +5506,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_4"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4160,6 +5521,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_3"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4172,6 +5536,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_2"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4184,6 +5551,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_colonization_1"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4200,6 +5570,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_exploration"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
@@ -4209,7 +5582,13 @@ GraphData = {
       "title": "<b>Xenology</b><br/><i>Studying the fauna of other worlds gives insight into alien behaviors, allowing us to identify and domesticate docile entities.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500",
       "level": 5,
       "image": "images/technologies/tech_alien_life_studies.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_society_3",
@@ -4221,6 +5600,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_society_2"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4233,6 +5615,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_society_1"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4242,7 +5627,13 @@ GraphData = {
       "title": "<b>Biodiversity Studies</b><br/><i>Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 5,
       "image": "images/technologies/tech_society_1.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_food_processing_2",
@@ -4255,6 +5646,9 @@ GraphData = {
       "prerequisites": [
         "tech_food_processing_1",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4267,6 +5661,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_eco_simulation"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4279,6 +5676,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_industrial_farming"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4295,6 +5695,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_nano_vitality_crops"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4308,6 +5711,9 @@ GraphData = {
       "prerequisites": [
         "tech_gene_crops",
         "tech_galactic_administration"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4321,6 +5727,9 @@ GraphData = {
       "prerequisites": [
         "tech_eco_simulation",
         "tech_colonial_centralization"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4333,6 +5742,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_industrial_farming"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4346,7 +5758,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_industrial_farming.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "biology"
+      ]
     },
     {
       "id": "tech_prescient_data_modeling",
@@ -4359,7 +5777,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 11,
       "image": "images/technologies/tech_prescient_data_modeling.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_galactic_markets",
@@ -4376,6 +5800,9 @@ GraphData = {
       "prerequisites": [
         "tech_colonial_centralization",
         "tech_interstellar_economics"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -4388,6 +5815,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_trading"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -4400,6 +5830,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_interplanetary_commerce"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -4413,7 +5846,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_interplanetary_commerce.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Society-root"
+      ],
+      "categories": [
+        "statecraft"
+      ]
     },
     {
       "id": "tech_planetary_defenses",
@@ -4426,203 +5865,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 1,
       "image": "images/technologies/tech_planetary_defenses.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_repeatable_improved_starbase_capacity",
-      "label": "Interstellar Expansion",
-      "group": "Society",
-      "title": "<b>Interstellar Expansion</b><br/><i>The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations.</i><br/><b>Tier: </b>5<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_starbase_capacity.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_galactic_ambitions"
+        "Society-root"
+      ],
+      "categories": [
+        "military_theory"
       ]
-    },
-    {
-      "id": "tech_repeatable_command_limit",
-      "label": "Admiralty Support Staff",
-      "group": "Society",
-      "title": "<b>Admiralty Support Staff</b><br/><i>Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_command_limit.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_doctrine_fleet_size_5"
-      ]
-    },
-    {
-      "id": "tech_repeatable_naval_cap",
-      "label": "Fleet Management Procedures",
-      "group": "Society",
-      "title": "<b>Fleet Management Procedures</b><br/><i>Improved fleet management procedures will free up the resources needed to maintain a bigger fleet.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_naval_cap.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_doctrine_navy_size_4"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_leader_life_span",
-      "label": "Cell Revitalization",
-      "group": "Society",
-      "title": "<b>Cell Revitalization</b><br/><i>Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_leader_life_span.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_vitality_boosters"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_army_health",
-      "label": "Nerve Dampeners",
-      "group": "Society",
-      "title": "<b>Nerve Dampeners</b><br/><i>Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_army_health.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_training"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_army_damage",
-      "label": "Aggressive Conditioning",
-      "group": "Society",
-      "title": "<b>Aggressive Conditioning</b><br/><i>Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_army_damage.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_combat_training"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_edict_length",
-      "label": "Proclamation Broadcasts",
-      "group": "Society",
-      "title": "<b>Proclamation Broadcasts</b><br/><i>More aggressive information campaigns improve the populace's receptiveness to Edicts.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_edict_length.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_artificial_moral_codes"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_core_system_cap",
-      "label": "Administrative Efficiency",
-      "group": "Society",
-      "title": "<b>Administrative Efficiency</b><br/><i>Restructuring the managerial web linking core worlds to the capital can help alleviate the administrative stressors and information chokepoints that frequently arise within a budding empire.</i><br/><b>Tier: </b>5<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_core_system_cap.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_galactic_bureaucracy"
-      ]
-    },
-    {
-      "id": "tech_repeatable_improved_tile_food_output",
-      "label": "Transgenic Crops",
-      "group": "Society",
-      "title": "<b>Transgenic Crops</b><br/><i>Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
-      "color": {
-        "border": "#0078CE"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_repeatable_improved_tile_food_output.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_gene_crops"
-      ]
-    },
-    {
-      "id": "tech_space_whale_weapon_1",
-      "label": "Frequency Tuning",
-      "group": "Society",
-      "title": "<b>Frequency Tuning</b><br/><i>Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>3000<br/><b>Attributes: </b>NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 5,
-      "image": "images/technologies/tech_space_whale_weapon_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_scourge_missile_1",
-      "label": "Scourge Missiles",
-      "group": "Society",
-      "title": "<b>Scourge Missiles</b><br/><i>By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_scourge_missile_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_swarm_strike_craft_1",
-      "label": "Swarm Spawning Pools",
-      "group": "Society",
-      "title": "<b>Swarm Spawning Pools</b><br/><i>Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 16,
-      "image": "images/technologies/tech_swarm_strike_craft_1.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_amoeba_strike_craft_1",
-      "label": "Amoeba Breeding Program",
-      "group": "Society",
-      "title": "<b>Amoeba Breeding Program</b><br/><i>By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 8,
-      "image": "images/technologies/tech_amoeba_strike_craft_1.png",
-      "hasImage": true
     },
     {
       "id": "tech_nanite_transmutation",
@@ -4635,7 +5884,13 @@ GraphData = {
       "borderWidth": 1,
       "level": 8,
       "image": "images/technologies/tech_nanite_transmutation.png",
-      "hasImage": true
+      "hasImage": true,
+      "prerequisites": [
+        "Engineering-root"
+      ],
+      "categories": [
+        "materials"
+      ]
     },
     {
       "id": "tech_mine_dark_matter",
@@ -4647,6 +5902,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_sensors_4"
+      ],
+      "categories": [
+        "field_manipulation"
       ]
     },
     {
@@ -4664,6 +5922,9 @@ GraphData = {
       "prerequisites": [
         "tech_sensors_3",
         "tech_psionic_theory"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -4676,6 +5937,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4688,6 +5952,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4700,6 +5967,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4712,6 +5982,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4724,6 +5997,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_basic_industry"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4736,6 +6012,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4748,6 +6027,9 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
@@ -4764,139 +6046,180 @@ GraphData = {
       "hasImage": true,
       "prerequisites": [
         "tech_space_construction"
+      ],
+      "categories": [
+        "materials"
       ]
     },
     {
-      "id": "tech_self_assembling_components",
-      "label": "Self-Assembling Components",
-      "group": "Engineering",
-      "title": "<b>Self-Assembling Components</b><br/><i>Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>12000",
-      "level": 11,
-      "image": "images/technologies/tech_self_assembling_components.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_micro_replicators"
-      ]
-    },
-    {
-      "id": "tech_micro_replicators",
-      "label": "Micro-Replicators",
-      "group": "Engineering",
-      "title": "<b>Micro-Replicators</b><br/><i>Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
-      "level": 8,
-      "image": "images/technologies/tech_micro_replicators.png",
-      "hasImage": true
-    },
-    {
-      "id": "tech_biomechanics",
-      "label": "Biomechanics",
+      "id": "tech_repeatable_improved_starbase_capacity",
+      "label": "Interstellar Expansion",
       "group": "Society",
-      "title": "<b>Biomechanics</b><br/><i>Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Interstellar Expansion</b><br/><i>The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations.</i><br/><b>Tier: </b>5<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
-        "border": "#8900CE"
+        "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_biomechanics.png",
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_starbase_capacity.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_adaptive_combat_algorithms"
+        "tech_galactic_ambitions"
+      ],
+      "categories": [
+        "new_worlds"
       ]
     },
     {
-      "id": "tech_adaptive_combat_algorithms",
-      "label": "Adaptive Combat Algorithms",
+      "id": "tech_repeatable_command_limit",
+      "label": "Admiralty Support Staff",
       "group": "Society",
-      "title": "<b>Adaptive Combat Algorithms</b><br/><i>Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
-      "level": 9,
-      "image": "images/technologies/tech_adaptive_combat_algorithms.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_colonial_bureaucracy"
-      ]
-    },
-    {
-      "id": "tech_nanite_assemblers",
-      "label": "Nanite Assemblers",
-      "group": "Engineering",
-      "title": "<b>Nanite Assemblers</b><br/><i>Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Admiralty Support Staff</b><br/><i>Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
-        "border": "#8900CE"
+        "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 13,
-      "image": "images/technologies/tech_nanite_assemblers.png",
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_command_limit.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_binary_motivators",
-        "tech_galactic_administration"
+        "tech_doctrine_fleet_size_5"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
-      "id": "tech_binary_motivators",
-      "label": "Binary Motivators",
-      "group": "Engineering",
-      "title": "<b>Binary Motivators</b><br/><i>These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
-      "level": 11,
-      "image": "images/technologies/tech_binary_motivators.png",
-      "hasImage": true,
-      "prerequisites": [
-        "tech_colonial_centralization",
-        "tech_robomodding_m"
-      ]
-    },
-    {
-      "id": "tech_robomodding_points_2",
-      "label": "Fungible Circuitry",
-      "group": "Engineering",
-      "title": "<b>Fungible Circuitry</b><br/><i>Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "id": "tech_repeatable_naval_cap",
+      "label": "Fleet Management Procedures",
+      "group": "Society",
+      "title": "<b>Fleet Management Procedures</b><br/><i>Improved fleet management procedures will free up the resources needed to maintain a bigger fleet.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
       "color": {
-        "border": "#8900CE"
+        "border": "#0078CE"
       },
       "borderWidth": 1,
-      "level": 15,
-      "image": "images/technologies/tech_robomodding_points_2.png",
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_naval_cap.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_robomodding_points_1",
-        "tech_synthetic_workers"
+        "tech_doctrine_navy_size_4"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
-      "id": "tech_robomodding_points_1",
-      "label": "Cross-Model Standardization",
-      "group": "Engineering",
-      "title": "<b>Cross-Model Standardization</b><br/><i>Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
-      "level": 10,
-      "image": "images/technologies/tech_robomodding_points_1.png",
+      "id": "tech_repeatable_improved_leader_life_span",
+      "label": "Cell Revitalization",
+      "group": "Society",
+      "title": "<b>Cell Revitalization</b><br/><i>Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_leader_life_span.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_robomodding",
-        "tech_droid_workers"
+        "tech_vitality_boosters"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
-      "id": "tech_robomodding",
-      "label": "Machine Template System",
-      "group": "Engineering",
-      "title": "<b>Machine Template System</b><br/><i>Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
-      "level": 7,
-      "image": "images/technologies/tech_robomodding.png",
+      "id": "tech_repeatable_improved_army_health",
+      "label": "Nerve Dampeners",
+      "group": "Society",
+      "title": "<b>Nerve Dampeners</b><br/><i>Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_army_health.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_robotic_workers"
+        "tech_combat_training"
+      ],
+      "categories": [
+        "military_theory"
       ]
     },
     {
-      "id": "tech_robomodding_m",
-      "label": "Machine Template System",
-      "group": "Engineering",
-      "title": "<b>Machine Template System</b><br/><i>Standardization of assembly templates allow for improved specialization of the drone population.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
-      "level": 6,
-      "image": "images/technologies/tech_robomodding_m.png",
+      "id": "tech_repeatable_improved_army_damage",
+      "label": "Aggressive Conditioning",
+      "group": "Society",
+      "title": "<b>Aggressive Conditioning</b><br/><i>Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_army_damage.png",
       "hasImage": true,
       "prerequisites": [
-        "tech_powered_exoskeletons"
+        "tech_combat_training"
+      ],
+      "categories": [
+        "military_theory"
+      ]
+    },
+    {
+      "id": "tech_repeatable_improved_edict_length",
+      "label": "Proclamation Broadcasts",
+      "group": "Society",
+      "title": "<b>Proclamation Broadcasts</b><br/><i>More aggressive information campaigns improve the populace's receptiveness to Edicts.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_edict_length.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_artificial_moral_codes"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_repeatable_improved_core_system_cap",
+      "label": "Administrative Efficiency",
+      "group": "Society",
+      "title": "<b>Administrative Efficiency</b><br/><i>Restructuring the managerial web linking core worlds to the capital can help alleviate the administrative stressors and information chokepoints that frequently arise within a budding empire.</i><br/><b>Tier: </b>5<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_core_system_cap.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_galactic_bureaucracy"
+      ],
+      "categories": [
+        "new_worlds"
+      ]
+    },
+    {
+      "id": "tech_repeatable_improved_tile_food_output",
+      "label": "Transgenic Crops",
+      "group": "Society",
+      "title": "<b>Transgenic Crops</b><br/><i>Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Repeatable",
+      "color": {
+        "border": "#0078CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_repeatable_improved_tile_food_output.png",
+      "hasImage": true,
+      "prerequisites": [
+        "tech_gene_crops"
+      ],
+      "categories": [
+        "biology"
       ]
     },
     {
@@ -4905,7 +6228,12 @@ GraphData = {
       "group": "Physics",
       "level": 0,
       "image": "images/technologies/Physics-root.png",
-      "hasImage": true
+      "hasImage": true,
+      "categories": [
+        "particles",
+        "field_manipulation",
+        "computing"
+      ]
     },
     {
       "id": "Society-root",
@@ -4913,7 +6241,14 @@ GraphData = {
       "group": "Society",
       "level": 0,
       "image": "images/technologies/Society-root.png",
-      "hasImage": true
+      "hasImage": true,
+      "categories": [
+        "biology",
+        "statecraft",
+        "new_worlds",
+        "psionics",
+        "military_theory"
+      ]
     },
     {
       "id": "Engineering-root",
@@ -4921,10 +6256,961 @@ GraphData = {
       "group": "Engineering",
       "level": 0,
       "image": "images/technologies/Engineering-root.png",
-      "hasImage": true
+      "hasImage": true,
+      "categories": [
+        "industry",
+        "propulsion",
+        "materials",
+        "voidcraft"
+      ]
     }
   ],
   "edges": [
+    {
+      "from": "tech_thrusters_4",
+      "to": "tech_dark_matter_propulsion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_dark_matter_power_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_5",
+      "to": "tech_dark_matter_deflector",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_self_assembling_components",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_combat_algorithms",
+      "to": "tech_biomechanics",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_bureaucracy",
+      "to": "tech_adaptive_combat_algorithms",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_binary_motivators",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_binary_motivators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding_m",
+      "to": "tech_binary_motivators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding_points_1",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_synthetic_workers",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_robomodding",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robomodding_m",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_ftl_inhibitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_jump_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gateway_activation",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_3",
+      "to": "tech_gateway_activation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_wormhole_stabilization",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_hyper_drive_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_hyper_drive_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_hyper_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_hub_1",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_hub_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_power_plant_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_power_plant_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_2",
+      "to": "tech_power_plant_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_power_plant_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_plant_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_3",
+      "to": "tech_sensors_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_2",
+      "to": "tech_sensors_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_planetary_shield_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shield_rechargers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_shields_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shields_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_2",
+      "to": "tech_shields_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_1",
+      "to": "tech_shields_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_shields_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_2",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_1",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_reactor_boosters_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_zero_point_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cold_fusion_power",
+      "to": "tech_antimatter_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_cold_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_synchronized_defences",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_auxiliary_fire_control",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_autonomous",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_combat_computers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_positronic_implants",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_sapient_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_self_aware_logic",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cryostasis_1",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_1",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_administrative_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_2",
+      "to": "tech_physics_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_physics_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_4",
+      "to": "tech_space_science_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_3",
+      "to": "tech_space_science_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_2",
+      "to": "tech_space_science_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_1",
+      "to": "tech_space_science_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_space_science_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_basic_science_lab_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_2",
+      "to": "tech_torpedoes_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_1",
+      "to": "tech_torpedoes_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_torpedoes_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_swarmer_missiles_1",
+      "to": "tech_swarmer_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_swarmer_missiles_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_4",
+      "to": "tech_missiles_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_missiles_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_missiles_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_2",
+      "to": "tech_flak_batteries_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_1",
+      "to": "tech_flak_batteries_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_2",
+      "to": "tech_autocannons_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_1",
+      "to": "tech_autocannons_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_autocannons_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_accelerator_1",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_kinetic_artillery_1",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_kinetic_artillery_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_drivers_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_mass_drivers_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_mass_drivers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_1",
+      "to": "tech_mass_drivers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
     {
       "from": "tech_colossus",
       "to": "tech_pk_nanobots",
@@ -4980,8 +7266,44 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_sensors_2",
-      "to": "tech_experimental_subspace_navigation",
+      "from": "tech_physics_2",
+      "to": "tech_repeatable_reduced_building_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_2",
+      "to": "tech_repeatable_weapon_type_energy_fire_rate",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_4",
+      "to": "tech_repeatable_weapon_type_energy_damage",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_repeatable_improved_shield_output",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_repeatable_improved_tile_energy_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5790,260 +8112,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_torpedoes_2",
-      "to": "tech_torpedoes_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedoes_1",
-      "to": "tech_torpedoes_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_torpedoes_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_swarmer_missiles_1",
-      "to": "tech_swarmer_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_swarmer_missiles_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_4",
-      "to": "tech_missiles_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_3",
-      "to": "tech_missiles_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_missiles_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_2",
-      "to": "tech_flak_batteries_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_1",
-      "to": "tech_flak_batteries_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_2",
-      "to": "tech_autocannons_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_1",
-      "to": "tech_autocannons_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_autocannons_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_accelerator_1",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_kinetic_artillery_1",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_kinetic_artillery_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_drivers_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_3",
-      "to": "tech_mass_drivers_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_mass_drivers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_1",
-      "to": "tech_mass_drivers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_thrusters_4",
-      "to": "tech_dark_matter_propulsion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_dark_matter_power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_5",
-      "to": "tech_dark_matter_deflector",
+      "from": "tech_sensors_2",
+      "to": "tech_experimental_subspace_navigation",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6062,618 +8132,6 @@ GraphData = {
     {
       "from": "tech_akx_worm_2",
       "to": "tech_akx_worm_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_ftl_inhibitor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_jump_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gateway_activation",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_3",
-      "to": "tech_gateway_activation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_wormhole_stabilization",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_hyper_drive_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_hyper_drive_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_hyper_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_hub_1",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_hub_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_power_plant_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_power_plant_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_2",
-      "to": "tech_power_plant_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_power_plant_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_plant_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_3",
-      "to": "tech_sensors_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_2",
-      "to": "tech_sensors_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_planetary_shield_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shield_rechargers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_shields_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shields_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_2",
-      "to": "tech_shields_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_1",
-      "to": "tech_shields_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_shields_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_2",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_1",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_reactor_boosters_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_zero_point_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cold_fusion_power",
-      "to": "tech_antimatter_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_cold_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_synchronized_defences",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_auxiliary_fire_control",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_autonomous",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sapient_ai",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_combat_computers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_positronic_implants",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_sapient_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_self_aware_logic",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cryostasis_1",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_1",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_administrative_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_2",
-      "to": "tech_physics_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_physics_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_4",
-      "to": "tech_space_science_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_3",
-      "to": "tech_space_science_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_2",
-      "to": "tech_space_science_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_1",
-      "to": "tech_space_science_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_construction",
-      "to": "tech_space_science_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_basic_science_lab_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_2",
-      "to": "tech_repeatable_reduced_building_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_2",
-      "to": "tech_repeatable_weapon_type_energy_fire_rate",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_4",
-      "to": "tech_repeatable_weapon_type_energy_damage",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_repeatable_improved_shield_output",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_repeatable_improved_tile_energy_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7815,87 +9273,6 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_repeatable_improved_starbase_capacity",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_5",
-      "to": "tech_repeatable_command_limit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_4",
-      "to": "tech_repeatable_naval_cap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_vitality_boosters",
-      "to": "tech_repeatable_improved_leader_life_span",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_health",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_damage",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_repeatable_improved_edict_length",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_bureaucracy",
-      "to": "tech_repeatable_improved_core_system_cap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gene_crops",
-      "to": "tech_repeatable_improved_tile_food_output",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
       "from": "tech_sensors_4",
       "to": "tech_mine_dark_matter",
       "arrows": "to",
@@ -7995,8 +9372,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_micro_replicators",
-      "to": "tech_self_assembling_components",
+      "from": "tech_galactic_ambitions",
+      "to": "tech_repeatable_improved_starbase_capacity",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8004,8 +9381,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_adaptive_combat_algorithms",
-      "to": "tech_biomechanics",
+      "from": "tech_doctrine_fleet_size_5",
+      "to": "tech_repeatable_command_limit",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8013,8 +9390,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_colonial_bureaucracy",
-      "to": "tech_adaptive_combat_algorithms",
+      "from": "tech_doctrine_navy_size_4",
+      "to": "tech_repeatable_naval_cap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8022,8 +9399,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_binary_motivators",
-      "to": "tech_nanite_assemblers",
+      "from": "tech_vitality_boosters",
+      "to": "tech_repeatable_improved_leader_life_span",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8031,8 +9408,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_administration",
-      "to": "tech_nanite_assemblers",
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_health",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8040,8 +9417,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_colonial_centralization",
-      "to": "tech_binary_motivators",
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_damage",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8049,8 +9426,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_robomodding_m",
-      "to": "tech_binary_motivators",
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_repeatable_improved_edict_length",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8058,8 +9435,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_robomodding_points_1",
-      "to": "tech_robomodding_points_2",
+      "from": "tech_galactic_bureaucracy",
+      "to": "tech_repeatable_improved_core_system_cap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8067,44 +9444,8 @@ GraphData = {
       "dashes": true
     },
     {
-      "from": "tech_synthetic_workers",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robomodding",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_droid_workers",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_robomodding",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_powered_exoskeletons",
-      "to": "tech_robomodding_m",
+      "from": "tech_gene_crops",
+      "to": "tech_repeatable_improved_tile_food_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8113,23 +9454,7 @@ GraphData = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_nanite_repair_system",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_neuroregeneration",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_repeatable_lcluster_clue",
+      "to": "tech_micro_replicators",
       "color": {
         "opacity": 0.0
       },
@@ -8137,7 +9462,95 @@ GraphData = {
     },
     {
       "from": "Physics-root",
-      "to": "tech_lgate_activation",
+      "to": "tech_bio_reactor",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_power_plant_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_sensors_2",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_fission_power",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_automated_exploration",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_physics_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_archeology_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_curator_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_basic_science_lab_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_missiles_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_flak_batteries_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_mass_drivers_1",
       "color": {
         "opacity": 0.0
       },
@@ -8145,7 +9558,31 @@ GraphData = {
     },
     {
       "from": "Society-root",
-      "to": "tech_gargantuan_evolution",
+      "to": "tech_space_whale_weapon_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_scourge_missile_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_swarm_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_amoeba_strike_craft_1",
       "color": {
         "opacity": 0.0
       },
@@ -8225,7 +9662,15 @@ GraphData = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_missiles_1",
+      "to": "tech_nanite_repair_system",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_neuroregeneration",
       "color": {
         "opacity": 0.0
       },
@@ -8233,15 +9678,23 @@ GraphData = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_flak_batteries_1",
+      "to": "tech_repeatable_lcluster_clue",
       "color": {
         "opacity": 0.0
       },
       "dashes": false
     },
     {
-      "from": "Engineering-root",
-      "to": "tech_mass_drivers_1",
+      "from": "Physics-root",
+      "to": "tech_lgate_activation",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_gargantuan_evolution",
       "color": {
         "opacity": 0.0
       },
@@ -8258,126 +9711,6 @@ GraphData = {
     {
       "from": "Physics-root",
       "to": "tech_akx_worm_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_decoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_encoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_dragon_armor",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_executive_retreat",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_xeno_tourism_agency",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_orbital_trash_dispersal",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_bio_reactor",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_power_plant_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_sensors_2",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_fission_power",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_automated_exploration",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_physics_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_archeology_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_curator_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_basic_science_lab_1",
       "color": {
         "opacity": 0.0
       },
@@ -8426,6 +9759,54 @@ GraphData = {
     {
       "from": "Physics-root",
       "to": "tech_lasers_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_executive_retreat",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_xeno_tourism_agency",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_orbital_trash_dispersal",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_decoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_encoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_dragon_armor",
       "color": {
         "opacity": 0.0
       },
@@ -8624,48 +10005,8 @@ GraphData = {
       "dashes": false
     },
     {
-      "from": "Society-root",
-      "to": "tech_space_whale_weapon_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_scourge_missile_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_swarm_strike_craft_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_amoeba_strike_craft_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
       "from": "Engineering-root",
       "to": "tech_nanite_transmutation",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_micro_replicators",
       "color": {
         "opacity": 0.0
       },
