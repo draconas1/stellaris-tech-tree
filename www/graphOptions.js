@@ -61,7 +61,7 @@ GraphOptions = {
     interaction: {
         dragNodes: true,
         navigationButtons: true,
-        keyboard: true
+        keyboard: false
     },
     physics: {
         enabled: false
