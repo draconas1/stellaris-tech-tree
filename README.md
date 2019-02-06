@@ -15,13 +15,13 @@ Currently using http://visjs.org for graphing.
 
 Live version at http://www.draconas.co.uk/stellaristech
 
-The live version uses the Stellaris interface icon gfx which are copyright to Paradox Interactive, these are not part of the git repository and to use them you will need your own copy of Stellaris and to run the parser.
+The live version uses the Stellaris interface icon gfx which are copyright to Paradox Interactive (with permission), these are not part of the git repository and to use them you will need your own copy of Stellaris and to run the parser.
 
 
 ## Future work
 - [x] Category highlight / selection / filtering
 - [x] Area + Dependencies filtering 
-- [ ] Update description with DLC only techs
+- [x] Update description with DLC only techs
 - [ ] Unlocked buildings / ships / other stuff - either as additional nodes with clustering or a breakout status window
 - [ ] Refactor code base into logically separate modules: 
  - General C# extensions (make collections suck less) 
