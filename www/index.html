@@ -6,6 +6,16 @@
     <meta name="description" content="A graphical tree of all Stellaris Technologies"/>
     <meta name="keywords" content="Stellaris, Paradox Interactive, Technology, Tech, Tech Tree"/>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133958990-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133958990-1');
+    </script>
+
     <script type="text/javascript" src="graph.js"></script>
     <script type="text/javascript" src="graphOptions.js"></script>
     <script type="text/javascript" src="imagesFunctions.js"></script>
@@ -30,37 +40,42 @@
 <div id="topBar">
     <div class="child" id="searchOpts">
         <h2>Search</h2>
-        <label for="searchBox">Find tech by name:</label>
-        <input id="searchBox" type="text"/>
+        <div class="filterRow">
+            <label for="searchBox">Find tech by name:</label>
+            <input id="searchBox" type="text"/>
+        </div>
     </div>
     <div class="child" id="filterOpts">
         <h2>Filters</h2>
         <div id="filterOptsInner">
             <div id="filterDropDowns">
-                <label for="techAreaFilterBox">Filter tree to:</label>
-                <select id="techAreaFilterBox" onchange="createNetwork()">
-                    <option value="All">All</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Society">Society</option>
-                    <option value="Engineering">Engineering</option>
-                </select>
-                <br/>
-                <label for="categoryFilterBox">Filter categories to:</label>
-                <select id="categoryFilterBox" onchange="createNetwork()">
-                    <option value="All">All</option>
-                    <option value="computing">Computing</option>
-                    <option value="field_manipulation">Field Manipulation</option>
-                    <option value="particles">Particles</option>
-                    <option value="biology">Biology</option>
-                    <option value="military_theory">Military Theory</option>
-                    <option value="new_worlds">New Worlds</option>
-                    <option value="statecraft">Statecraft</option>
-                    <option value="psionics">Psionics</option>
-                    <option value="industry">Industry</option>
-                    <option value="materials">Materials</option>
-                    <option value="propulsion">Propulsion</option>
-                    <option value="voidcraft">Voidcraft</option>
-                </select>
+                <div class="filterRow">
+                    <label for="techAreaFilterBox">Filter tech area to:</label>
+                    <select id="techAreaFilterBox" class="dropdown" onchange="createNetwork()">
+                        <option value="All">All</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Society">Society</option>
+                        <option value="Engineering">Engineering</option>
+                    </select>
+                </div>
+                <div class="filterRow">
+                    <label for="categoryFilterBox">Filter categories to:</label>
+                    <select id="categoryFilterBox" class="dropdown" onchange="createNetwork()">
+                        <option value="All">All</option>
+                        <option value="computing">Computing</option>
+                        <option value="field_manipulation">Field Manipulation</option>
+                        <option value="particles">Particles</option>
+                        <option value="biology">Biology</option>
+                        <option value="military_theory">Military Theory</option>
+                        <option value="new_worlds">New Worlds</option>
+                        <option value="statecraft">Statecraft</option>
+                        <option value="psionics">Psionics</option>
+                        <option value="industry">Industry</option>
+                        <option value="materials">Materials</option>
+                        <option value="propulsion">Propulsion</option>
+                        <option value="voidcraft">Voidcraft</option>
+                    </select>
+                </div>
             </div>
             <div id="filterCheckBox">
                 <label for="includeDependenciesCheckbox">Include (filtered) dependencies:</label>
@@ -70,25 +85,28 @@
     </div>
     <div class="child" id="displayOpts">
         <h2>Display</h2>
-        <label for="showImages">Use images instead of labels:</label>
-        <input type="checkbox" id="showImages" onclick="createNetwork()">
-        <br/>
-        <label for="categorySelectBox">Select Category:</label>
-        <select id="categorySelectBox" onchange="highlightCategory()">
-            <option value="All">None</option>
-            <option value="computing">Computing</option>
-            <option value="field_manipulation">Field Manipulation</option>
-            <option value="particles">Particles</option>
-            <option value="biology">Biology</option>
-            <option value="military_theory">Military Theory</option>
-            <option value="new_worlds">New Worlds</option>
-            <option value="statecraft">Statecraft</option>
-            <option value="psionics">Psionics</option>
-            <option value="industry">Industry</option>
-            <option value="materials">Materials</option>
-            <option value="propulsion">Propulsion</option>
-            <option value="voidcraft">Voidcraft</option>
-        </select>
+        <div class="filterRow">
+            <label for="showImages">Use images instead of labels:</label>
+            <input type="checkbox" id="showImages" onclick="createNetwork()">
+        </div>
+        <div class="filterRow">
+            <label for="categorySelectBox">Highlight Category:</label>
+            <select id="categorySelectBox" class="dropdown" onchange="highlightCategory()">
+                <option value="All">None</option>
+                <option value="computing">Computing</option>
+                <option value="field_manipulation">Field Manipulation</option>
+                <option value="particles">Particles</option>
+                <option value="biology">Biology</option>
+                <option value="military_theory">Military Theory</option>
+                <option value="new_worlds">New Worlds</option>
+                <option value="statecraft">Statecraft</option>
+                <option value="psionics">Psionics</option>
+                <option value="industry">Industry</option>
+                <option value="materials">Materials</option>
+                <option value="propulsion">Propulsion</option>
+                <option value="voidcraft">Voidcraft</option>
+            </select>
+        </div>
     </div>
 </div>
 
