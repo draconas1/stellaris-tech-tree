@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -33,10 +34,9 @@ namespace TechTree
             // setup parser
             var dirHelper = new StellarisDirectoryHelper(ROOT_IN_USE);
             var scriptedVariablesHelper = new ScriptedVariableParser(dirHelper.ScriptedVariables);
+            
             var parser = new TechTreeParser(localisation, scriptedVariablesHelper.ParseScriptedVariables(), dirHelper.Technology);
             parser.IgnoreFiles.AddRange(new string[] { "00_tier.txt", "00_category.txt" });
-           // parser.Areas.Add("physics");
-            //parser.ParseFileMask = "00_eng_tech.txt";
            
             // get the results parsed into nice tech tree format
             var model = parser.ParseTechFiles();
@@ -48,12 +48,22 @@ namespace TechTree
             ImageOutput.transformAndOutputImages(Path.Combine(dirHelper.Icons, "technologies"), Path.Combine(OUTPUT_IN_USE, "images", "technologies"), model.Techs.Values);
 
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
-            foreach (var techArea in techAreas)
-            {
+            var areaDir = Path.Combine(OUTPUT_IN_USE, "images", "technologies", "areas");
+            Directory.CreateDirectory(areaDir);
+            foreach (var techArea in techAreas) {
+                var inputPath = Path.Combine(dirHelper.Icons, "resources", techArea.ToString().ToLowerInvariant() + "_research.dds");
                 ImageOutput.transformAndOutputImage(
-                    Path.Combine(dirHelper.Icons, "resources", techArea.ToString().ToLowerInvariant() + "_research.dds"), 
+                    inputPath, 
                     Path.Combine(OUTPUT_IN_USE, "images", "technologies", techArea + "-root.png"));
+                
+                ImageOutput.transformAndOutputImage(
+                    inputPath, 
+                    Path.Combine(OUTPUT_IN_USE, "images", "technologies", "areas", techArea.ToString().ToLowerInvariant() + ".png"));
             }
+
+            var categoryDir = Path.Combine(OUTPUT_IN_USE, "images", "technologies", "categories");
+            Directory.CreateDirectory(categoryDir);
+            TechCategoryImageOutput.OutputCategoryImages(dirHelper.Root, categoryDir);
 
             // update model with image status
             visResults.nodes.ForEach(node => {
@@ -65,6 +75,7 @@ namespace TechTree
             visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
 
             Console.WriteLine("done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
+            Debug.WriteLine("Done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
         }
     }
 }

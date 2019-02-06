@@ -37,6 +37,12 @@ h2 {
     margin-bottom: 0.4em;
 }
 
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 8px;
+    line-height: 1;
+}
+
 * {
     font-family: 'Orbitron', sans-serif;
 }

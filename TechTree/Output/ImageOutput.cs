@@ -78,14 +78,12 @@ namespace TechTree.Output
                 else
                 {
                     Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
-                    Console.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
                     return false;
                 }
             }
             else
             {
                 Debug.WriteLine("No file " + inputPath + " found");
-                Console.WriteLine("No file " + inputPath + " found");
                 return false;
             }
         }
