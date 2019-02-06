@@ -16,7 +16,7 @@ function createOptions() {
   return options;
 }
 
-function findNodesByLabel(event) {
+function findNodesByLabel() {
   let toFind = this.value;
   if (toFind.length > 3) {
     toFind = toFind.toUpperCase();
@@ -115,7 +115,7 @@ async function createNetwork() {
   allEdges = edgesDataset.get({returnType: "Object"});
 
   network.on("click", function (params) {
-    PathFunctions.highlightDependencyGraph;
+    PathFunctions.highlightDependencyGraph(params);
     unsetHighlightCategoryFilter()
   });
   if (document.getElementById("showImages").checked === false) {
