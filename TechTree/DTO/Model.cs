@@ -30,6 +30,8 @@ namespace TechTree.DTO {
         public IEnumerable<TechFlag> Flags { get; set; }
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
+        
+        public string DLC { get; set; }
 
         public Tech(string id) : base(id) {
         }

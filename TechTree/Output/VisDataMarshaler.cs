@@ -167,6 +167,10 @@ namespace TechTree.Output {
             {
                 result.title = result.title + "<br/><b>Attributes: </b>" + string.Join(", ", tech.Flags);
             }
+
+            if (tech.DLC != null) {
+                result.title = result.title + "<br/><i>Requires the " + tech.DLC + " DLC</i>";
+            }
           
             // rare purple tech
             if (tech.Flags.Contains(TechFlag.Rare))

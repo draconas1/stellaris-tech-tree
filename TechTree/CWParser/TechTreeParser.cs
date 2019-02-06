@@ -182,7 +182,7 @@ namespace TechTree.CWParser
             }
 
             // tech that is repeatable
-                if (node.GetKeyValue("cost_per_level") != null)
+            if (node.GetKeyValue("cost_per_level") != null)
             {
                 techFlags.Add(TechFlag.Repeatable);
             }
@@ -196,6 +196,11 @@ namespace TechTree.CWParser
             {
                 result.Icon = node.GetKeyValue("icon", scriptedVariables);
             }
+            
+            // if its a DLC tech
+            node.ActOnNode("potential", potentialNode => {
+                result.DLC = potentialNode.GetKeyValue("host_has_dlc", scriptedVariables);
+            });
 
             return result;
         }

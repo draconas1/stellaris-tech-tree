@@ -1674,7 +1674,7 @@ GraphData = {
       "id": "tech_pk_nanobots",
       "label": "Atmospheric Nanobot Dispersal",
       "group": "Engineering",
-      "title": "<b>Atmospheric Nanobot Dispersal</b><br/><i>Nanobot Diffuser</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Atmospheric Nanobot Dispersal</b><br/><i>Nanobot Diffuser</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#8900CE"
       },
@@ -1693,7 +1693,7 @@ GraphData = {
       "id": "tech_pk_godray",
       "label": "Divine Stimulus",
       "group": "Society",
-      "title": "<b>Divine Stimulus</b><br/><i>An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Divine Stimulus</b><br/><i>An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#8900CE"
       },
@@ -1712,7 +1712,7 @@ GraphData = {
       "id": "tech_pk_neutron",
       "label": "Neutron Sweeping",
       "group": "Physics",
-      "title": "<b>Neutron Sweeping</b><br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Neutron Sweeping</b><br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#8900CE"
       },
@@ -1731,7 +1731,7 @@ GraphData = {
       "id": "tech_pk_shielder",
       "label": "Global Pacification",
       "group": "Physics",
-      "title": "<b>Global Pacification</b><br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Global Pacification</b><br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#8900CE"
       },
@@ -1750,7 +1750,7 @@ GraphData = {
       "id": "tech_pk_cracker",
       "label": "Core Cracking",
       "group": "Engineering",
-      "title": "<b>Core Cracking</b><br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Core Cracking</b><br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#8900CE"
       },
@@ -1769,7 +1769,7 @@ GraphData = {
       "id": "tech_colossus",
       "label": "Colossi",
       "group": "Engineering",
-      "title": "<b>Colossi</b><br/><i>Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Colossi</b><br/><i>Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency<br/><i>Requires the Apocalypse DLC</i>",
       "color": {
         "border": "#CE7C00"
       },
@@ -3035,7 +3035,7 @@ GraphData = {
       "id": "tech_titans",
       "label": "Titans",
       "group": "Engineering",
-      "title": "<b>Titans</b><br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Titans</b><br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><i>Requires the Apocalypse DLC</i>",
       "level": 16,
       "image": "images/technologies/tech_titans.png",
       "hasImage": true,
@@ -5877,7 +5877,7 @@ GraphData = {
       "id": "tech_nanite_transmutation",
       "label": "Nanite Transmutation",
       "group": "Engineering",
-      "title": "<b>Nanite Transmutation</b><br/><i>The mass-production of these rare resources require particularly capable nanites.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Nanite Transmutation</b><br/><i>The mass-production of these rare resources require particularly capable nanites.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/><i>Requires the Distant Stars Story Pack DLC</i>",
       "color": {
         "border": "#8900CE"
       },
