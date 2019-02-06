@@ -19,8 +19,8 @@ The live version uses the Stellaris interface icon gfx which are copyright to Pa
 
 
 ## Future work
-- [ ] Category highlight / selection / filtering
-- [ ] Area + Dependencies filtering 
+- [x] Category highlight / selection / filtering
+- [x] Area + Dependencies filtering 
 - [ ] Update description with DLC only techs
 - [ ] Unlocked buildings / ships / other stuff - either as additional nodes with clustering or a breakout status window
 - [ ] Refactor code base into logically separate modules: 
