@@ -31,6 +31,7 @@ namespace TechTree.DTO {
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
         
+        // ReSharper disable once InconsistentNaming
         public string DLC { get; set; }
 
         public Tech(string id) : base(id) {

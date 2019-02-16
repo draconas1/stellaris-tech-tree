@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+// ReSharper disable All
 
 namespace TechTree.DTO
 {

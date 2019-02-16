@@ -1,19 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CWTools.Localisation;
 using CWToolsHelpers;
 using NetExtensions.Collection;
 using TechTree.DTO;
-using TechTree.Extensions;
 
 namespace TechTree.Output {
     public class VisDataMarshaler {
-        private readonly LocalisationApiHelper localisationAPI;
+        private readonly LocalisationApiHelper localisationApi;
 
-        public VisDataMarshaler(LocalisationApiHelper localisationAPI)
+        public VisDataMarshaler(LocalisationApiHelper localisationApi)
         {
-            this.localisationAPI = localisationAPI;
+            this.localisationApi = localisationApi;
         }
         
         public VisData CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
@@ -75,10 +73,10 @@ namespace TechTree.Output {
             var areaName = area.ToString();
             var result = new VisNode
             {
-                id = buildRootNodeName(area),
-                label = localisationAPI.GetName(areaName.ToLower()),
+                id = BuildRootNodeName(area),
+                label = localisationApi.GetName(areaName.ToLower()),
                 group = areaName,
-                image = imagesPath + "/" + buildRootNodeName(area) + ".png",
+                image = imagesPath + "/" + BuildRootNodeName(area) + ".png",
                 hasImage = true,
                 level = 0
             };
@@ -87,7 +85,7 @@ namespace TechTree.Output {
 
         private VisEdge BuildRootLink(TechArea area, string to) {
             return new VisEdge() {
-                from = buildRootNodeName(area),
+                from = BuildRootNodeName(area),
                 to = to,
                 color = new VisColor() {
                     opacity = 0
@@ -95,7 +93,7 @@ namespace TechTree.Output {
             };
         }
 
-        private static string buildRootNodeName(TechArea techArea) {
+        private static string BuildRootNodeName(TechArea techArea) {
             return techArea + "-root";
         }
 
@@ -144,7 +142,7 @@ namespace TechTree.Output {
                 title = "<b>" + tech.Name + "</b>",
                 group = tech.Area.ToString(),
                 image = imagesPath + "/" + tech.Id + ".png",
-                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { buildRootNodeName(tech.Area)}               
+                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { BuildRootNodeName(tech.Area)}               
             };
 
             result.title = result.title + "<br/><i>" + tech.Description + "</i>";
@@ -153,7 +151,7 @@ namespace TechTree.Output {
             if (tech.Categories != null)
             {
                 var catString = tech.Categories.Count() > 1 ? "Categories" : "Category";
-                var categoriesLocalised = tech.Categories.Select(x => localisationAPI.GetName(x)).ToArray();
+                var categoriesLocalised = tech.Categories.Select(x => localisationApi.GetName(x)).ToArray();
 
                 result.title = result.title + "<br/><b>" + catString + ": </b>" + string.Join(",", categoriesLocalised);
 

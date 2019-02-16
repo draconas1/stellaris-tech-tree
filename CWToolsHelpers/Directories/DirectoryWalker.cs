@@ -36,7 +36,7 @@ namespace CWToolsHelpers.Directories
         private static void FindFilesInDirectoryTree(DirectoryInfo root, List<FileInfo> fileInfos, string fileMask, IEnumerable<string> excludedFileNames)
         {
             FileInfo[] files = null;
-            DirectoryInfo[] subDirs = null;
+            DirectoryInfo[] subDirs;
 
             // First, process all the files directly under this folder
             try
@@ -68,6 +68,7 @@ namespace CWToolsHelpers.Directories
                 foreach (DirectoryInfo dirInfo in subDirs)
                 {
                     // Resursive call for each subdirectory.
+                    // ReSharper disable once PossibleMultipleEnumeration
                     FindFilesInDirectoryTree(dirInfo, fileInfos, fileMask, excludedFileNames);
                 }
             }

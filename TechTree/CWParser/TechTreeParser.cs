@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using CWTools.Localisation;
 using CWToolsHelpers;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
-using CWToolsHelpers.ScriptedVariables;
 using TechTree.DTO;
-using TechTree.Extensions;
 
 namespace TechTree.CWParser
 {
@@ -41,28 +38,14 @@ namespace TechTree.CWParser
             ParseFileMask = "*.txt";
         }
 
-        private void getTechsFromFile(Dictionary<string, Tech> techs, StellarisDirectoryHelper directoryHelper) {
-            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, ParseFileMask, IgnoreFiles);
-            var parsedTechFiles = cwParserHelper.ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
-            foreach(var file in parsedTechFiles)
-            {
-                // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
-                foreach (var node in file.Nodes)
-                {
-                    Tech tech = ProcessNodeModel(node);
-                    techs[tech.Id] = tech;
-                }
-            }
-        }
-        
         public TechsAndDependencies ParseTechFiles()
         {
             var techs = new Dictionary<string, Tech>();
             var links = new HashSet<Link>();
-            getTechsFromFile(techs, stellarisDirectoryHelper);
+            GetTechsFromFile(techs, stellarisDirectoryHelper);
             if (modDirectoryHelpers != null) {
                 foreach (var modDirectoryHelper in modDirectoryHelpers) {
-                    getTechsFromFile(techs, modDirectoryHelper);
+                    GetTechsFromFile(techs, modDirectoryHelper);
                 }
             }
 
@@ -90,6 +73,20 @@ namespace TechTree.CWParser
             return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
         }
 
+        private void GetTechsFromFile(Dictionary<string, Tech> techs, StellarisDirectoryHelper directoryHelper) {
+            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, ParseFileMask, IgnoreFiles);
+            var parsedTechFiles = cwParserHelper.ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
+            foreach(var file in parsedTechFiles)
+            {
+                // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
+                foreach (var node in file.Nodes)
+                {
+                    Tech tech = ProcessNodeModel(node);
+                    techs[tech.Id] = tech;
+                }
+            }
+        }
+        
         private Tech ProcessNodeModel(CWNode node) {
             var result = new Tech(node.Key) {
                 Name =  localisationApiHelper.GetName(node.Key),

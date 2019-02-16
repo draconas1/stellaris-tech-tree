@@ -1,6 +1,5 @@
 ﻿using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -64,20 +63,17 @@ namespace TechTree.Output
                 {
                     ddsImage.Decompress();
                 }
-                if (ddsImage.Format == Pfim.ImageFormat.Rgba32)
-                {
-                    Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
-                    return true;
+                switch (ddsImage.Format) {
+                    case Pfim.ImageFormat.Rgba32:
+                        Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
+                        return true;
+                    case Pfim.ImageFormat.Rgb24:
+                        Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
+                        return true;
+                    default:
+                        Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
+                        return false;
                 }
-
-                if (ddsImage.Format == Pfim.ImageFormat.Rgb24)
-                {
-                    Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
-                    return true;
-                }
-
-                Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
-                return false;
             }
 
             Debug.WriteLine("No file " + inputPath + " found");
