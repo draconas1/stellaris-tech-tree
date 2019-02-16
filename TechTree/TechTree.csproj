@@ -14,4 +14,8 @@
 		<PackageReference Include="cwtools" Version="0.3.0" />
 		<PackageReference Include="FSharp.Core" Version="4.5.4" />
 	  </ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\CWToolsHelpers\CWToolsHelpers.csproj" />
+	  <ProjectReference Include="..\NetExtensions\NetExtensions.csproj" />
+	</ItemGroup>
 </Project>

@@ -4,9 +4,9 @@ GraphData = {
       "id": "tech_dark_matter_propulsion",
       "label": "Dark Matter Propulsion",
       "group": "Engineering",
-      "title": "<b>Dark Matter Propulsion</b><br/><i>These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Matter Propulsion</b><br/><i>These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare",
       "color": {
-        "border": "#CE7C00"
+        "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 16,
@@ -23,9 +23,9 @@ GraphData = {
       "id": "tech_dark_matter_power_core",
       "label": "Dark Matter Power",
       "group": "Physics",
-      "title": "<b>Dark Matter Power</b><br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Matter Power</b><br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare",
       "color": {
-        "border": "#CE7C00"
+        "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 16,
@@ -42,9 +42,9 @@ GraphData = {
       "id": "tech_dark_matter_deflector",
       "label": "Dark Matter Deflectors",
       "group": "Physics",
-      "title": "<b>Dark Matter Deflectors</b><br/><i>These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Matter Deflectors</b><br/><i>These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare",
       "color": {
-        "border": "#CE7C00"
+        "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 16,

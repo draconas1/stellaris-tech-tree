@@ -2,14 +2,26 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
-namespace TechTree.FileIO
+namespace CWToolsHelpers.Directories
 {
-    class DirectoryWalker
+    /// <summary>
+    /// Helper for finding files in nested directory structures.
+    /// </summary>
+    public static class DirectoryWalker
     {
-        public const string TEXT_MASK = "*.txt";
+        public const string TextMask = "*.txt";
 
+        /// <summary>
+        /// Walks a directory tree and updates the list with  all the files found matching the specified mask.
+        /// </summary>
+        /// <remarks>
+        ///Taken from one of the .Net tutorials in walking file structures.
+        /// </remarks>
+        /// <param name="root">The path to the directory to start searching</param>
+        /// <param name="includeFileMask">A file mask to look for, e.g. *.txt</param>
+        /// <param name="excludedFileNames">File names (not mask) to exclude</param>
+        /// <returns>All files found anywhere in the directory tree of the <c>root</c> that match the mask and are not on the exclude list</returns>
         public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames = null)
         {
             if (excludedFileNames == null)
@@ -21,12 +33,6 @@ namespace TechTree.FileIO
             return result;
         }
 
-        /// <summary>
-        /// Walks a directory tree and updates the list with  all the files found matching the specified mask. Taken from one of the .Net tutorials in walking file structures.
-        /// </summary>
-        /// <param name="root"></param>
-        /// <param name="fileInfos"></param>
-        /// <param name="fileMask"></param>
         private static void FindFilesInDirectoryTree(DirectoryInfo root, List<FileInfo> fileInfos, string fileMask, IEnumerable<string> excludedFileNames)
         {
             FileInfo[] files = null;

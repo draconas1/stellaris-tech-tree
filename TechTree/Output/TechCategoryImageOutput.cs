@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using TechTree.CWParser;
-using TechTree.FileIO;
+using CWToolsHelpers.Directories;
+using CWToolsHelpers.FileParsing;
 
 namespace TechTree.Output {
     public static class TechCategoryImageOutput {
@@ -21,7 +21,7 @@ namespace TechTree.Output {
                 var catName = category.Key;
                 var imagePath = category.GetKeyValue("icon");
 
-                ImageOutput.transformAndOutputImage(Path.Combine(stellarisRootdirectory, imagePath),
+                ImageOutput.TransformAndOutputImage(Path.Combine(stellarisRootdirectory, imagePath),
                     Path.Combine(outputDir, catName + ".png"));
             }
         }

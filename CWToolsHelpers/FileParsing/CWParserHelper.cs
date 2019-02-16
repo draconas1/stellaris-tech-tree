@@ -1,16 +1,19 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using CWTools.CSharp;
 using CWTools.Parser;
 using CWTools.Process;
-using TechTree.DTO;
+using CWToolsHelpers.ScriptedVariables;
 
-namespace TechTree.CWParser
+namespace CWToolsHelpers.FileParsing
 {
     /// <summary>
     /// Main Helper class for using the CWTools library to parse general PDX files into a (raw) DTO.
     /// </summary>
-    class CWParserHelper
+    public class CWParserHelper
     {
+        public IScriptedVariablesAccessor ScriptedVariablesAccessor { get; set; }
+        
         /// <summary>
         /// Loops over collection of files and parses them using <see cref="ParseParadoxFile(System.String)"/>
         /// </summary>
@@ -33,22 +36,6 @@ namespace TechTree.CWParser
         /// <returns>A CWNode representing the contents of the file.</returns>
         public CWNode ParseParadoxFile(string filePath)
         {
-            //"Process" result into nicer format
-            CK2Process.EventRoot processed = ProcessParadoxFile(filePath);
-
-            // marshall this into a more c# fieldy type using the CWTools example
-            CWNode marshaled = CWParsedFileMapper.ToMyNode(processed);
-
-            return marshaled;
-        }
-
-        /// <summary>
-        /// Get the processed CWTools object for the file, primary used for debugging.
-        /// </summary>
-        /// <param name="filePath"></param>
-        /// <returns></returns>
-        public CK2Process.EventRoot ProcessParadoxFile(string filePath)
-        {
             // raw parsing
             var parsed = CKParser.parseEventFile(filePath);
 
@@ -56,9 +43,26 @@ namespace TechTree.CWParser
             var eventFile = parsed.GetResult();
 
             //"Process" result into nicer format
-            CK2Process.EventRoot processed = CK2Process.processEventFile(eventFile);         
+            CK2Process.EventRoot processed = CK2Process.processEventFile(eventFile);      
 
-            return processed;
+            // marshall this into a more c# fieldy type using the CWTools example
+            CWNode marshaled = ToMyNode(processed);
+
+            return marshaled;
+        }
+
+        
+        private CWNode ToMyNode(Node n)
+        {
+            var nodes = n.AllChildren.Where(x => x.IsNodeC).Select(x => ToMyNode(x.node)).ToList();
+            var leaves = n.AllChildren.Where(x => x.IsLeafC).Select(x => ToMyKeyValue(x.leaf)).ToList();
+            var values = n.AllChildren.Where(x => x.IsLeafValueC).Select(x => x.lefavalue.Key).ToList();
+            return new CWNode(n.Key) { Nodes = nodes, Values = values, KeyValues = leaves, ScriptedVariablesAccessor = ScriptedVariablesAccessor};
+        }
+
+        private static CWKeyValue ToMyKeyValue(Leaf l)
+        {
+            return new CWKeyValue { Key = l.Key, Value = l.Value.ToRawString() };
         }
     }
 }

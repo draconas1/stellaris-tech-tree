@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using CWTools.Localisation;
+using CWToolsHelpers;
+using CWToolsHelpers.Directories;
+using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.ScriptedVariables;
 using TechTree.DTO;
 using TechTree.Extensions;
-using TechTree.FileIO;
 
 namespace TechTree.CWParser
 {
     class TechTreeParser
     {
+        private readonly LocalisationApiHelper localisationApiHelper;
+        private readonly CWParserHelper cwParserHelper;
+        private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
+        private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
+
         /// <summary>
         /// List of file names (exact) that will be skipped when parsing.  Defaults to nont (all files)
         /// </summary>
@@ -19,57 +28,47 @@ namespace TechTree.CWParser
         /// </summary>
         public string ParseFileMask { get; set; }
 
-        public ISet<string> Areas { get; set; }
 
-        public ISet<string> Categories { get; set; }
-
-        private readonly ILocalisationAPI localisationAPI;
-        private readonly Dictionary<string, string> scriptedVariables;
-        private readonly string rootTechDir;
-
-        public TechTreeParser(ILocalisationAPI localisationAPI, Dictionary<string, string> scriptedVariables, string rootTechDir)
+        public TechTreeParser(LocalisationApiHelper localisationApiHelper, CWParserHelper cwParserHelper, 
+            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers)
         {
-            this.localisationAPI = localisationAPI;
-            this.scriptedVariables = scriptedVariables;
-            this.rootTechDir = rootTechDir;
+            this.localisationApiHelper = localisationApiHelper;
+            this.cwParserHelper = cwParserHelper;
+            this.stellarisDirectoryHelper = stellarisDirectoryHelper;
+            this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
+            IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
             ParseFileMask = "*.txt";
-            Areas = new HashSet<string>();
-            Categories = new HashSet<string>();
         }
 
-        public TechsAndDependencies ParseTechFiles()
-        {
-            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(rootTechDir, ParseFileMask, IgnoreFiles);
-            var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
-
-            var techs = new Dictionary<string, Tech>();
-            var links = new HashSet<Link>();
+        private void getTechsFromFile(Dictionary<string, Tech> techs, StellarisDirectoryHelper directoryHelper) {
+            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, ParseFileMask, IgnoreFiles);
+            var parsedTechFiles = cwParserHelper.ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
             foreach(var file in parsedTechFiles)
             {
-                // top level nodes are files, so we process the immiediate children of each file, which is the individual techs.
+                // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
                 foreach (var node in file.Nodes)
                 {
-                    // only process if we have no area filter, or this is a tech from that area
-                    bool process = !(Areas.Any() && !Areas.Contains(node.GetKeyValue("area")));
-                    
-                    // if there is a category filter, filter by tech category
-                    if (Categories.Any() && !(Categories.Intersect(getCategories(node)).Any()))
-                    {
-                        process = false;
-                    }
-
-                    if (process) {
-                        Tech tech = ProcessNodeModel(node);
-                        techs[tech.Id] = tech;
-                    }
+                    Tech tech = ProcessNodeModel(node);
+                    techs[tech.Id] = tech;
+                }
+            }
+        }
+        
+        public TechsAndDependencies ParseTechFiles()
+        {
+            var techs = new Dictionary<string, Tech>();
+            var links = new HashSet<Link>();
+            getTechsFromFile(techs, stellarisDirectoryHelper);
+            if (modDirectoryHelpers != null) {
+                foreach (var modDirectoryHelper in modDirectoryHelpers) {
+                    getTechsFromFile(techs, modDirectoryHelper);
                 }
             }
 
             // populate prerequisites
             foreach (var (id, tech) in techs) {
                 // it is possible that the pre-reqs for a technology do not exist
-                // e.g. they were not processed due to the filters above.
                 // in this we do not add them to the populated list, but leave them in the ids list
                 var prereqs = new List<Tech>();
                 if (tech.PrerequisiteIds != null) {
@@ -80,7 +79,7 @@ namespace TechTree.CWParser
                             links.Add(new Link() {From = prereq, To = tech});
                         }
                         else {
-                            Console.WriteLine("Could not find prerequisite {0} for tech {1}", prerequisiteId, id);
+                            Debug.WriteLine("Could not find prerequisite {0} for tech {1}", prerequisiteId, id);
                         }
                     }
                 }
@@ -91,21 +90,10 @@ namespace TechTree.CWParser
             return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
         }
 
-        private List<string> getCategories(CWNode node)
-        {
-            var cats = node.GetNode("category");
-            if (cats != null)
-            {
-                return cats.Values;
-            }
-            return new List<string>();
-        }
-
-
-        public Tech ProcessNodeModel(CWNode node) {
+        private Tech ProcessNodeModel(CWNode node) {
             var result = new Tech(node.Key) {
-                Name =  localisationAPI.GetName(node.Key),
-                Description = localisationAPI.GetDescription(node.Key)
+                Name =  localisationApiHelper.GetName(node.Key),
+                Description = localisationApiHelper.GetDescription(node.Key)
             };
 
             TechArea area;
@@ -124,8 +112,8 @@ namespace TechTree.CWParser
             }
 
             result.Area = area;
-            result.Tier = int.Parse(node.GetKeyValue("tier", scriptedVariables) ?? "0");
-            result.BaseCost = int.Parse(node.GetKeyValue("cost", scriptedVariables) ?? "0");
+            result.Tier = int.Parse(node.GetKeyValue("tier") ?? "0");
+            result.BaseCost = int.Parse(node.GetKeyValue("cost") ?? "0");
 
            
             //categories, usually only one, but can be more
@@ -166,7 +154,7 @@ namespace TechTree.CWParser
                 var weightNode = node.GetNode("weight_modifier");
                 if (weightNode != null)
                 {
-                    var weightFactor = weightNode.GetKeyValue("factor", scriptedVariables);
+                    var weightFactor = weightNode.GetKeyValue("factor");
                     if (weightFactor == "0" && !weightNode.Nodes.Any())
                     {
                         techFlags.Add(TechFlag.NonTechDependency);
@@ -176,7 +164,7 @@ namespace TechTree.CWParser
 
             // fallen empire tech has a weight of 1 then a node that sets to 0 if you are not a fallen empire.
             // imperfect method for finding fallen empire tech that needs acquisition.
-            if (node.GetKeyValue("tier") == "@fallentechtier" && node.GetKeyValue("cost") == "@fallentechcost")
+            if (node.GetKeyValue("tier") == "@fallentechtier" && node.GetRawKeyValue("cost") == "@fallentechcost")
             {
                 techFlags.Add(TechFlag.NonTechDependency);
             }
@@ -189,17 +177,17 @@ namespace TechTree.CWParser
 
             result.Flags = techFlags;
             
-            node.ActOnNode("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
+            node.ActOnNodes("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
 
             // if icon has been defined
             if (node.GetKeyValue("icon") != null)
             {
-                result.Icon = node.GetKeyValue("icon", scriptedVariables);
+                result.Icon = node.GetKeyValue("icon");
             }
             
             // if its a DLC tech
-            node.ActOnNode("potential", potentialNode => {
-                result.DLC = potentialNode.GetKeyValue("host_has_dlc", scriptedVariables);
+            node.ActOnNodes("potential", potentialNode => {
+                result.DLC = potentialNode.GetKeyValue("host_has_dlc");
             });
 
             return result;

@@ -2,14 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using CWTools.Localisation;
+using CWToolsHelpers;
+using NetExtensions.Collection;
 using TechTree.DTO;
 using TechTree.Extensions;
 
 namespace TechTree.Output {
     public class VisDataMarshaler {
-        private readonly ILocalisationAPI localisationAPI;
+        private readonly LocalisationApiHelper localisationAPI;
 
-        public VisDataMarshaler(ILocalisationAPI localisationAPI)
+        public VisDataMarshaler(LocalisationApiHelper localisationAPI)
         {
             this.localisationAPI = localisationAPI;
         }

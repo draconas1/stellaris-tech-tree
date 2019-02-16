@@ -17,7 +17,7 @@ namespace TechTree.Output
         /// <param name="ddsDir"></param>
         /// <param name="outputDir"></param>
         /// <param name="entities"></param>
-        public static void transformAndOutputImages(string ddsDir, string outputDir, IEnumerable<Entity> entities)
+        public static void TransformAndOutputImages(string ddsDir, string outputDir, IEnumerable<Entity> entities)
         {
             // make sure we can output
             Directory.CreateDirectory(outputDir);
@@ -45,17 +45,16 @@ namespace TechTree.Output
                         ddsImage.Decompress();
                     }
 
-                    entity.IconFound = transformAndOutputImage(filePath, outputFilePath);
+                    entity.IconFound = TransformAndOutputImage(filePath, outputFilePath);
                 }
                 else
                 {
                     Debug.WriteLine("No file " + filePath + " found");
-                    Console.WriteLine("No file " + filePath + " found");
                 }
             }
         }
 
-        public static bool transformAndOutputImage(string inputPath, string outputPath)
+        public static bool TransformAndOutputImage(string inputPath, string outputPath)
         {
             // make sure we can output
             if (File.Exists(inputPath))
@@ -70,22 +69,19 @@ namespace TechTree.Output
                     Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
                     return true;
                 }
-                else if (ddsImage.Format == Pfim.ImageFormat.Rgb24)
+
+                if (ddsImage.Format == Pfim.ImageFormat.Rgb24)
                 {
                     Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
                     return true;
                 }
-                else
-                {
-                    Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
-                    return false;
-                }
-            }
-            else
-            {
-                Debug.WriteLine("No file " + inputPath + " found");
+
+                Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
                 return false;
             }
+
+            Debug.WriteLine("No file " + inputPath + " found");
+            return false;
         }
     }
 }

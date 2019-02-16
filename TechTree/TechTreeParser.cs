@@ -4,39 +4,46 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using CWTools.Common;
-using CWTools.Localisation;
+using CWToolsHelpers;
+using CWToolsHelpers.Directories;
+using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.ScriptedVariables;
 using TechTree.CWParser;
 using TechTree.DTO;
-using TechTree.FileIO;
 using TechTree.Output;
 
 namespace TechTree
 {
     class Program {
-        public const bool MAC = true;
-        
         public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
         public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
-        public const string ROOT_IN_USE = MAC ? STELLARIS_ROOT_MAC : STELLARIS_ROOT_WINDOWS;
-        
         
         public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree/www";
         public const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree/www";
-        public const string OUTPUT_IN_USE = MAC ? OUTPUT_MAC : OUTPUT_WINDOWS;
         static void Main(string[] args)
         {
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            //setup localisation 
-            ILocalisationAPI localisation = Localisation.GetLocalisationAPI(ROOT_IN_USE, STLLang.English);
-
-            // setup parser
-            var dirHelper = new StellarisDirectoryHelper(ROOT_IN_USE);
-            var scriptedVariablesHelper = new ScriptedVariableParser(dirHelper.ScriptedVariables);
+            string rootDir = STELLARIS_ROOT_WINDOWS;
+            string outputDir = OUTPUT_WINDOWS;
+            if (args.Length > 0 && args[0].Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
+                rootDir = STELLARIS_ROOT_MAC;
+                outputDir = OUTPUT_MAC;
+            }
             
-            var parser = new TechTreeParser(localisation, scriptedVariablesHelper.ParseScriptedVariables(), dirHelper.Technology);
-            parser.IgnoreFiles.AddRange(new string[] { "00_tier.txt", "00_category.txt" });
+            // setup parser
+            var dirHelper = new StellarisDirectoryHelper(rootDir);
+            var scriptedVariablesHelper = new ScriptedVariableAccessor(dirHelper);
+
+            
+            //setup localisation 
+            // Include extra pie! Especially for Piebadger.
+            var localisation = new LocalisationApiHelper(dirHelper, STLLang.English);
+            var cwParser = new CWParserHelper() {ScriptedVariablesAccessor = scriptedVariablesHelper};
+            
+            
+            var parser = new TechTreeParser(localisation, cwParser, dirHelper, new StellarisDirectoryHelper[]{});
            
             // get the results parsed into nice tech tree format
             var model = parser.ParseTechFiles();
@@ -45,23 +52,23 @@ namespace TechTree
             var visResults = visDataMarshaler.CreateVisData(model, "images/technologies");
 
             //save
-            ImageOutput.transformAndOutputImages(Path.Combine(dirHelper.Icons, "technologies"), Path.Combine(OUTPUT_IN_USE, "images", "technologies"), model.Techs.Values);
+            ImageOutput.TransformAndOutputImages(Path.Combine(dirHelper.Icons, "technologies"), Path.Combine(outputDir, "images", "technologies"), model.Techs.Values);
 
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
-            var areaDir = Path.Combine(OUTPUT_IN_USE, "images", "technologies", "areas");
+            var areaDir = Path.Combine(outputDir, "images", "technologies", "areas");
             Directory.CreateDirectory(areaDir);
             foreach (var techArea in techAreas) {
                 var inputPath = Path.Combine(dirHelper.Icons, "resources", techArea.ToString().ToLowerInvariant() + "_research.dds");
-                ImageOutput.transformAndOutputImage(
+                ImageOutput.TransformAndOutputImage(
                     inputPath, 
-                    Path.Combine(OUTPUT_IN_USE, "images", "technologies", techArea + "-root.png"));
+                    Path.Combine(outputDir, "images", "technologies", techArea + "-root.png"));
                 
-                ImageOutput.transformAndOutputImage(
+                ImageOutput.TransformAndOutputImage(
                     inputPath, 
-                    Path.Combine(OUTPUT_IN_USE, "images", "technologies", "areas", techArea.ToString().ToLowerInvariant() + ".png"));
+                    Path.Combine(outputDir, "images", "technologies", "areas", techArea.ToString().ToLowerInvariant() + ".png"));
             }
 
-            var categoryDir = Path.Combine(OUTPUT_IN_USE, "images", "technologies", "categories");
+            var categoryDir = Path.Combine(outputDir, "images", "technologies", "categories");
             Directory.CreateDirectory(categoryDir);
             TechCategoryImageOutput.OutputCategoryImages(dirHelper.Root, categoryDir);
 
@@ -72,10 +79,9 @@ namespace TechTree
                         node.hasImage = model.Techs[node.id].IconFound;
                     }
                 });
-            visResults.WriteVisDataToOneJSFile(OUTPUT_IN_USE);
+            visResults.WriteVisDataToOneJSFile(outputDir);
 
-            Console.WriteLine("done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
-            Debug.WriteLine("Done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
+            Console.WriteLine("Done.  Nodes: " + visResults.nodes.Count() + " Edges: " + visResults.edges.Count());
         }
     }
 }
