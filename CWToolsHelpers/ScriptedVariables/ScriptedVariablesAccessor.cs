@@ -41,9 +41,9 @@ namespace CWToolsHelpers.ScriptedVariables {
             var techFiles = DirectoryWalker.FindFilesInDirectoryTree(scriptedVariableDir, DirectoryWalker.TextMask);
             var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
             var result = new Dictionary<string, string>();
-            foreach(var file in parsedTechFiles)
+            foreach(var file in parsedTechFiles.Values)
             {
-                // top level nodes are files, so we process the immiediate children of each file, which is the individual variables.
+                // top level nodes are files, so we process the immediate children of each file, which is the individual variables.
                 foreach (var keyValue in file.KeyValues)
                 {
                     result[keyValue.Key] = keyValue.Value;

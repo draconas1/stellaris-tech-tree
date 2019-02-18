@@ -17,7 +17,7 @@ namespace TechTree.CWParser
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
 
         /// <summary>
-        /// List of file names (exact) that will be skipped when parsing.  Defaults to nont (all files)
+        /// List of file names (exact) that will be skipped when parsing.  Defaults to  "00_tier.txt", "00_category.txt" 
         /// </summary>
         public List<string> IgnoreFiles { get; set; }
         /// <summary>
@@ -56,8 +56,7 @@ namespace TechTree.CWParser
                 var prereqs = new List<Tech>();
                 if (tech.PrerequisiteIds != null) {
                     foreach (var prerequisiteId in tech.PrerequisiteIds) {
-                        Tech prereq;
-                        if (techs.TryGetValue(prerequisiteId, out prereq)) {
+                        if (techs.TryGetValue(prerequisiteId, out var prereq)) {
                             prereqs.Add(prereq);
                             links.Add(new Link() {From = prereq, To = tech});
                         }
@@ -79,7 +78,7 @@ namespace TechTree.CWParser
             foreach(var file in parsedTechFiles)
             {
                 // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
-                foreach (var node in file.Nodes)
+                foreach (var node in file.Value.Nodes)
                 {
                     Tech tech = ProcessNodeModel(node);
                     techs[tech.Id] = tech;
@@ -161,7 +160,7 @@ namespace TechTree.CWParser
 
             // fallen empire tech has a weight of 1 then a node that sets to 0 if you are not a fallen empire.
             // imperfect method for finding fallen empire tech that needs acquisition.
-            if (node.GetKeyValue("tier") == "@fallentechtier" && node.GetRawKeyValue("cost") == "@fallentechcost")
+            if (node.GetRawKeyValue("tier") == "@fallentechtier" && node.GetRawKeyValue("cost") == "@fallentechcost")
             {
                 techFlags.Add(TechFlag.NonTechDependency);
             }

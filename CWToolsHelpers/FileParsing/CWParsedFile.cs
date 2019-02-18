@@ -31,7 +31,7 @@ namespace CWToolsHelpers.FileParsing
         /// All key value pairs.
         /// </summary>
         /// <remarks>
-        /// Would really like to use a dictionary here, but duplicate node keys are entirely possible, as keys are often things like logical operators
+        /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
         public List<CWKeyValue> KeyValues { get; set; }
 

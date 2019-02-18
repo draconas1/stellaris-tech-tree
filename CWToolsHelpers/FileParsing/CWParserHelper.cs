@@ -19,12 +19,12 @@ namespace CWToolsHelpers.FileParsing
         /// </summary>
         /// <param name="filePaths"></param>
         /// <returns></returns>
-        public List<CWNode> ParseParadoxFile(IEnumerable<string> filePaths)
+        public Dictionary<string, CWNode> ParseParadoxFile(IEnumerable<string> filePaths)
         {
-            var result = new List<CWNode>();
+            var result = new Dictionary<string, CWNode>();
             foreach (string paradoxFile in filePaths)
             {
-                result.Add(ParseParadoxFile(paradoxFile));
+                result[paradoxFile] = (ParseParadoxFile(paradoxFile));
             }
             return result;
         }

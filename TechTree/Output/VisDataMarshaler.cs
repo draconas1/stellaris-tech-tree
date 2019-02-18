@@ -41,8 +41,11 @@ namespace TechTree.Output {
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
 
+            //sort the input by area as it produces a nicer graph.
+            var techList = techsAndDependencies.Techs.Values.ToList();
+            techList.Sort((tech1, tech2) => tech1.Area - tech2.Area);
             var result = new VisData() {
-                nodes = techsAndDependencies.Techs.Values.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
+                nodes = techList.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
                 edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
             };
             

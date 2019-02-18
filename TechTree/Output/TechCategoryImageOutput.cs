@@ -6,8 +6,8 @@ using CWToolsHelpers.FileParsing;
 
 namespace TechTree.Output {
     public static class TechCategoryImageOutput {
-        public static void OutputCategoryImages(string stellarisRootdirectory, string outputDir) {
-            var categoryFile = DirectoryWalker.FindFilesInDirectoryTree(StellarisDirectoryHelper.GetTechnologyDirectory(stellarisRootdirectory), "00_category.txt");
+        public static void OutputCategoryImages(string stellarisRootDirectory, string outputDir) {
+            var categoryFile = DirectoryWalker.FindFilesInDirectoryTree(StellarisDirectoryHelper.GetTechnologyDirectory(stellarisRootDirectory), "00_category.txt");
             var catcatFile = new CWParserHelper().ParseParadoxFile(categoryFile.Select(x => x.FullName).ToList());
 
             if (!catcatFile.Any()) {
@@ -17,11 +17,11 @@ namespace TechTree.Output {
 
             var catNode = catcatFile.First();
 
-            foreach (var category in catNode.Nodes) {
+            foreach (var category in catNode.Value.Nodes) {
                 var catName = category.Key;
                 var imagePath = category.GetKeyValue("icon");
 
-                ImageOutput.TransformAndOutputImage(Path.Combine(stellarisRootdirectory, imagePath),
+                ImageOutput.TransformAndOutputImage(Path.Combine(stellarisRootDirectory, imagePath),
                     Path.Combine(outputDir, catName + ".png"));
             }
         }
