@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using NetExtensions.Collection;
 
 namespace CWToolsHelpers.Directories
 {
     /// <summary>
     /// Helper for finding files in nested directory structures.
     /// </summary>
-    public static class DirectoryWalker
+    public class DirectoryWalker : IDirectoryWalker
     {
-        public const string TextMask = "*.txt";
-
         /// <summary>
         /// Walks a directory tree and updates the list with  all the files found matching the specified mask.
         /// </summary>
@@ -22,12 +21,8 @@ namespace CWToolsHelpers.Directories
         /// <param name="includeFileMask">A file mask to look for, e.g. *.txt</param>
         /// <param name="excludedFileNames">File names (not mask) to exclude</param>
         /// <returns>All files found anywhere in the directory tree of the <c>root</c> that match the mask and are not on the exclude list</returns>
-        public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames = null)
-        {
-            if (excludedFileNames == null)
-            {
-                excludedFileNames = new string[0];
-            }
+        public static List<FileInfo> FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames = null) {
+            excludedFileNames = excludedFileNames.NullToEmpty();
             var result = new List<FileInfo>();
             FindFilesInDirectoryTree(new DirectoryInfo(root), result, includeFileMask, excludedFileNames);
             return result;
@@ -72,6 +67,10 @@ namespace CWToolsHelpers.Directories
                     FindFilesInDirectoryTree(dirInfo, fileInfos, fileMask, excludedFileNames);
                 }
             }
+        }
+
+        List<string> IDirectoryWalker.FindFilesInDirectoryTree(string root, string includeFileMask, IEnumerable<string> excludedFileNames) {
+            return FindFilesInDirectoryTree(root, includeFileMask, excludedFileNames).Select(x => x.FullName).ToList();
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Linq;
 using CWTools.Common;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Localisation;
 using CWToolsHelpers.ScriptedVariables;
 using NetExtensions.Collection;
 
@@ -48,7 +49,7 @@ namespace CWToolsHelpers {
 
             // Create the main parser helper
             // You do not need to assign a scripted variables helper if you don't want to resolve variables.
-            var cwParserHelper = new CWParserHelper() {ScriptedVariablesAccessor = scriptedVariableAccessor};
+            var cwParserHelper = new CWParserHelper(scriptedVariableAccessor);
 
             // parse over all the tech files and convert each teach into a basic descriptive string
             // am storing each tech in a dictionary to allow the mods (which process after main) to override values in the core game.
@@ -58,10 +59,10 @@ namespace CWToolsHelpers {
             foreach (var directoryHelper in allDirectoryHelpers) {
                 
                 // use DirectoryWalker to find all tech files to process.  Do not want to process the tier or category files.
-                List<FileInfo> techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, "*.txt", new [] { "00_tier.txt", "00_category.txt" });
+                List<FileInfo> techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, StellarisDirectoryHelper.TextMask, new [] { "00_tier.txt", "00_category.txt" });
                 
                 // each node is the contents of an individual file, keyed by file name
-                Dictionary<string,CWNode> parsedTechFiles = cwParserHelper.ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
+                IDictionary<string,CWNode> parsedTechFiles = cwParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList());
                 foreach(var fileAndContents in parsedTechFiles)
                 {
                     // top level nodes are files, so we process the immediate children of each file, which is the individual techs.

@@ -8,7 +8,7 @@ namespace TechTree.Output {
     public static class TechCategoryImageOutput {
         public static void OutputCategoryImages(string stellarisRootDirectory, string outputDir) {
             var categoryFile = DirectoryWalker.FindFilesInDirectoryTree(StellarisDirectoryHelper.GetTechnologyDirectory(stellarisRootDirectory), "00_category.txt");
-            var catcatFile = new CWParserHelper().ParseParadoxFile(categoryFile.Select(x => x.FullName).ToList());
+            var catcatFile = new CWParserHelper().ParseParadoxFiles(categoryFile.Select(x => x.FullName).ToList());
 
             if (!catcatFile.Any()) {
                 Debug.WriteLine("Could not find 00_category.txt to get all the category icons");

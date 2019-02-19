@@ -7,6 +7,7 @@ using CWTools.Common;
 using CWToolsHelpers;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Localisation;
 using CWToolsHelpers.ScriptedVariables;
 using TechTree.CWParser;
 using TechTree.DTO;
@@ -14,12 +15,12 @@ using TechTree.Output;
 
 namespace TechTree
 {
-    class Program {
-        public const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
-        public const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
+    internal static class Program {
+        private const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
+        private const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";
         
-        public const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree/www";
-        public const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree/www";
+        private const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree/www";
+        private const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree/www";
         static void Main(string[] args)
         {
             //Support UTF-8
@@ -40,7 +41,7 @@ namespace TechTree
             //setup localisation 
             // Include extra pie! Especially for Piebadger.
             var localisation = new LocalisationApiHelper(dirHelper, STLLang.English);
-            var cwParser = new CWParserHelper() {ScriptedVariablesAccessor = scriptedVariablesHelper};
+            var cwParser = new CWParserHelper(scriptedVariablesHelper);
             
             
             var parser = new TechTreeParser(localisation, cwParser, dirHelper, new StellarisDirectoryHelper[]{});

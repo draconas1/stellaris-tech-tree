@@ -10,16 +10,24 @@ namespace CWToolsHelpers.FileParsing
     /// <summary>
     /// Main Helper class for using the CWTools library to parse general PDX files into a (raw) DTO.
     /// </summary>
-    public class CWParserHelper
-    {
-        public IScriptedVariablesAccessor ScriptedVariablesAccessor { get; set; }
+    public class CWParserHelper : ICWParserHelper {
+        private readonly IScriptedVariablesAccessor scriptedVariablesAccessor;
+
+        /// <summary>
+        /// Create a CWParserHelper that will not attempt to resolve in files.
+        /// </summary>
+        public CWParserHelper() : this(new DummyScriptedVariablesAccessor()) {
+        }
         
         /// <summary>
-        /// Loops over collection of files and parses them using <see cref="ParseParadoxFile(System.String)"/>
+        /// Create a CWParserHelper where the nodes will attempt to resolve variables using the specified <see cref="IScriptedVariablesAccessor"/>.
         /// </summary>
-        /// <param name="filePaths"></param>
-        /// <returns></returns>
-        public Dictionary<string, CWNode> ParseParadoxFile(IEnumerable<string> filePaths)
+        public CWParserHelper(IScriptedVariablesAccessor scriptedVariablesAccessor) {
+            this.scriptedVariablesAccessor = scriptedVariablesAccessor;
+        }
+        
+        /// <inheritdoc />
+        public IDictionary<string, CWNode> ParseParadoxFiles(IEnumerable<string> filePaths)
         {
             var result = new Dictionary<string, CWNode>();
             foreach (string paradoxFile in filePaths)
@@ -29,11 +37,7 @@ namespace CWToolsHelpers.FileParsing
             return result;
         }
 
-        /// <summary>
-        /// Main method for using the CWTools library to parse an individual file.
-        /// </summary>
-        /// <param name="filePath"></param>
-        /// <returns>A CWNode representing the contents of the file.</returns>
+        /// <inheritdoc />
         public CWNode ParseParadoxFile(string filePath)
         {
             // raw parsing
@@ -57,7 +61,7 @@ namespace CWToolsHelpers.FileParsing
             var nodes = n.AllChildren.Where(x => x.IsNodeC).Select(x => ToMyNode(x.node)).ToList();
             var leaves = n.AllChildren.Where(x => x.IsLeafC).Select(x => ToMyKeyValue(x.leaf)).ToList();
             var values = n.AllChildren.Where(x => x.IsLeafValueC).Select(x => x.lefavalue.Key).ToList();
-            return new CWNode(n.Key) { Nodes = nodes, Values = values, KeyValues = leaves, ScriptedVariablesAccessor = ScriptedVariablesAccessor};
+            return new CWNode(n.Key) { Nodes = nodes, Values = values, KeyValues = leaves, ScriptedVariablesAccessor = scriptedVariablesAccessor};
         }
 
         private static CWKeyValue ToMyKeyValue(Leaf l)

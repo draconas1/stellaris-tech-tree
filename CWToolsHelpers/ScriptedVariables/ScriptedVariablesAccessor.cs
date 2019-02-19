@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using NetExtensions.Collection;
@@ -10,14 +9,27 @@ namespace CWToolsHelpers.ScriptedVariables {
     /// Manages scripted variables from the core game and mods.
     /// </summary>
     public class ScriptedVariableAccessor : IScriptedVariablesAccessor{
+        private IDirectoryWalker DirectoryWalker { get; }
+        private ICWParserHelper CWParserHelper { get; }
+
         private readonly IDictionary<string, string> variables;
 
-        public ScriptedVariableAccessor(StellarisDirectoryHelper stellarisDirectoryHelper) : this(
-            stellarisDirectoryHelper, new StellarisDirectoryHelper[] { }) {
+        public ScriptedVariableAccessor(StellarisDirectoryHelper stellarisDirectoryHelper) : 
+            this(stellarisDirectoryHelper, new StellarisDirectoryHelper[] { }) {
         }
-        
+
         public ScriptedVariableAccessor(StellarisDirectoryHelper stellarisDirectoryHelper,
-            IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) {
+            IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) :
+            this(stellarisDirectoryHelper, modDirectoryHelpers, new DirectoryWalker(), new CWParserHelper()) {
+        }
+
+        internal ScriptedVariableAccessor(StellarisDirectoryHelper stellarisDirectoryHelper,
+            IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers,
+            IDirectoryWalker directoryWalker,
+            ICWParserHelper cwParserHelper) {
+            DirectoryWalker = directoryWalker;
+            CWParserHelper = cwParserHelper;
+
             var scriptedVars = ParseScriptedVariables(stellarisDirectoryHelper.ScriptedVariables);
             foreach (var directoryHelper in modDirectoryHelpers) {
                 var modVariables = ParseScriptedVariables(directoryHelper.ScriptedVariables);
@@ -25,8 +37,9 @@ namespace CWToolsHelpers.ScriptedVariables {
             }
 
             variables = scriptedVars;
-        }
+        } 
         
+        /// <inheritdoc />
         public string GetPotentialValue(string rawValue) {
             if (rawValue != null && rawValue.StartsWith("@") && variables.ContainsKey(rawValue))
             {
@@ -38,8 +51,8 @@ namespace CWToolsHelpers.ScriptedVariables {
         
         private Dictionary<string, string> ParseScriptedVariables(string scriptedVariableDir)
         {
-            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(scriptedVariableDir, DirectoryWalker.TextMask);
-            var parsedTechFiles = new CWParserHelper().ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
+            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(scriptedVariableDir, StellarisDirectoryHelper.TextMask);
+            var parsedTechFiles = CWParserHelper.ParseParadoxFiles(techFiles);
             var result = new Dictionary<string, string>();
             foreach(var file in parsedTechFiles.Values)
             {
@@ -57,6 +70,9 @@ namespace CWToolsHelpers.ScriptedVariables {
     /// Implementation of <see cref="IScriptedVariablesAccessor"/> that always returns the <c>rawValue</c>
     /// </summary>
     public class DummyScriptedVariablesAccessor : IScriptedVariablesAccessor {
+        /// <summary>
+        /// Always returns the passed in value.
+        /// </summary>
         public string GetPotentialValue(string rawValue) {
             return rawValue;
         }

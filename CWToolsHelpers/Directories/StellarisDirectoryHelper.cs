@@ -5,6 +5,8 @@ namespace CWToolsHelpers.Directories {
     /// Set of helpers for navigating to specific stellaris/mod directories.
     /// </summary>
     public class StellarisDirectoryHelper {
+        public const string TextMask = "*.txt";
+        
         public string Root { get; }
 
         public string Common => GetCommonDirectory(Root);

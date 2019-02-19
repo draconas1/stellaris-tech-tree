@@ -5,14 +5,15 @@ using System.Linq;
 using CWToolsHelpers;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Localisation;
 using TechTree.DTO;
 
 namespace TechTree.CWParser
 {
     class TechTreeParser
     {
-        private readonly LocalisationApiHelper localisationApiHelper;
-        private readonly CWParserHelper cwParserHelper;
+        private readonly ILocalisationApiHelper localisationApiHelper;
+        private readonly ICWParserHelper cwParserHelper;
         private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
 
@@ -26,7 +27,7 @@ namespace TechTree.CWParser
         public string ParseFileMask { get; set; }
 
 
-        public TechTreeParser(LocalisationApiHelper localisationApiHelper, CWParserHelper cwParserHelper, 
+        public TechTreeParser(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
             StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers)
         {
             this.localisationApiHelper = localisationApiHelper;
@@ -35,7 +36,7 @@ namespace TechTree.CWParser
             this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
-            ParseFileMask = "*.txt";
+            ParseFileMask = StellarisDirectoryHelper.TextMask;
         }
 
         public TechsAndDependencies ParseTechFiles()
@@ -74,7 +75,7 @@ namespace TechTree.CWParser
 
         private void GetTechsFromFile(Dictionary<string, Tech> techs, StellarisDirectoryHelper directoryHelper) {
             var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, ParseFileMask, IgnoreFiles);
-            var parsedTechFiles = cwParserHelper.ParseParadoxFile(techFiles.Select(x => x.FullName).ToList());
+            var parsedTechFiles = cwParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList());
             foreach(var file in parsedTechFiles)
             {
                 // top level nodes are files, so we process the immediate children of each file, which is the individual techs.

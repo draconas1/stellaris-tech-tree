@@ -9,12 +9,21 @@ namespace NetExtensions.Collection {
         /// </summary>
         /// <param name="enumerable">The enumerable</param>
         /// <param name="action">The action</param>
-        /// <typeparam name="T">The action type</typeparam>
-        /// <typeparam name="TU">The enumerable type, which must extend <c>T</c></typeparam>
+        /// <typeparam name="T">The enumerable type</typeparam>
         public static void ForEach<T> (this IEnumerable<T> enumerable, Action<T> action) {
             foreach (var x1 in enumerable) {
                 action(x1);
             }
+        }
+
+        /// <summary>
+        /// Returns the the <see cref="IEnumerable{T}"/> or a new empty <see cref="IEnumerable{T}"/> if it is <c>null</c>.
+        /// </summary>
+        /// <param name="enumerable">The enumerable</param>
+        /// <typeparam name="T">The enumerable type</typeparam>
+        /// <returns>See above.</returns>
+        public static IEnumerable<T> NullToEmpty<T>(this IEnumerable<T> enumerable) {
+            return enumerable ?? new T[]{};
         }
 
     }

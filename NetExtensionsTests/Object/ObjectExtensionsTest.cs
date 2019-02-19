@@ -1,11 +1,9 @@
-using System;
 using System.Collections.Generic;
-using NetExtensions.Collection;
 using NetExtensions.Object;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace NetExtensionsTests {
+namespace NetExtensionsTests.Object {
     public class ToSensibleStringTests {
         private readonly ITestOutputHelper testOutputHelper;
 

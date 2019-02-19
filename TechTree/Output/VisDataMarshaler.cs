@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using CWToolsHelpers;
+using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
 using TechTree.DTO;
 
@@ -43,7 +44,10 @@ namespace TechTree.Output {
 
             //sort the input by area as it produces a nicer graph.
             var techList = techsAndDependencies.Techs.Values.ToList();
-            techList.Sort((tech1, tech2) => tech1.Area - tech2.Area);
+            techList.Sort((tech1, tech2) => {
+                var primary = tech1.Area - tech2.Area;
+                return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
+            });
             var result = new VisData() {
                 nodes = techList.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
                 edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
@@ -51,11 +55,11 @@ namespace TechTree.Output {
             
             // add supernodes
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
-            var rootnodes = new Dictionary<TechArea, VisNode>();
+            var rootNodes = new Dictionary<TechArea, VisNode>();
             foreach (var techArea in techAreas) {
                 var rootNode = BuildRootNode(techArea, imagesPath);
                 result.nodes.Add(rootNode);
-                rootnodes[techArea] = rootNode;
+                rootNodes[techArea] = rootNode;
             }
             
             // link to supernodes
@@ -65,7 +69,7 @@ namespace TechTree.Output {
                 rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
             }
 
-            foreach (var (key, value) in rootnodes) {
+            foreach (var (key, value) in rootNodes) {
                 value.categories = rootNodeCategories.ComputeIfAbsent(key, ignored => new HashSet<string>()).ToArray();
             }
 

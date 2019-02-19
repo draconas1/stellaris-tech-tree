@@ -6,11 +6,11 @@ using CWTools.Localisation;
 using CWToolsHelpers.Directories;
 using NetExtensions.Collection;
 
-namespace CWToolsHelpers {
+namespace CWToolsHelpers.Localisation {
     /// <summary>
     /// Helper for the most common operations working with <see cref="ILocalisationAPI"/> with potentially mods involved.
     /// </summary>
-    public class LocalisationApiHelper {
+    public class LocalisationApiHelper : ILocalisationApiHelper {
         private static readonly Regex VariableRegex = new Regex(@"(?<var>\$(?<varname>.+?)\$)");
         
         private readonly IDictionary<string, string> localisation;
@@ -37,23 +37,13 @@ namespace CWToolsHelpers {
             localisation = coreLocalisation;
         }
         
-        /// <summary>
-        /// Get the primary text for a key, it's main name. 
-        /// </summary>
-        /// <remarks>
-        /// This can also be used to get an arbitrary value by adjusting the key.
-        /// </remarks>
+        /// <inheritdoc />
         public string GetName(string key)
         {
             return GetValue(key);
         }
 
-        /// <summary>
-        /// Get the long description for a key - explanation text, popup info etc...  
-        /// </summary>
-        /// <remarks>
-        /// Gets <c>key + "_desc"</c>
-        /// </remarks>
+        /// <inheritdoc />
         public string GetDescription(string key)
         {
             return GetValue(key + "_desc");
