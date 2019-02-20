@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="english">
+<head>
+    <title>Test</title>
+    <meta charset="UTF-8"/>
+    <link type="text/css" href="techTree.css?v=2" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+    <script type="text/javascript" src="dist/vis.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"/>
+    <link href="dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
+	<link href='favicon.ico' rel='shortcut icon' type='image/x-icon'  />
+
+
+    <style type="text/css">
+        #mynetwork {
+            width: 1200px;
+            height: 400px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+    Clustering Test
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet([
+    {id: 1, label: 'Tech 1', level: 1},
+    {id: 2, label: 'Tech 2', level: 3},
+    {id: 3, label: 'Building 1', building: true, level : 2},
+    {id: 4, label: 'Building 2', building: true, level : 4},
+    {id: 5, label: 'Building 3', building: true, level : 5}
+  ]);
+
+  // create an array with edges
+  var edges = new vis.DataSet([
+    {from: 1, to: 3},
+    {from: 1, to: 2},
+    {from: 2, to: 4},
+    {from: 2, to: 5},
+  ]);
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    layout: {
+      hierarchical: {
+        direction: "LR",
+        sortMethod: 'directed',
+        blockShifting: true,
+        edgeMinimization: true,
+        parentCentralization: true
+      }
+    }
+
+
+  };
+  var network = new vis.Network(container, data, options);
+
+  var joinOptions = {
+    joinCondition:function(nodeOptions, childNodeOptions) {
+      var result = childNodeOptions.building === true;
+      return result;
+    },
+    processProperties: function(clusterOptions, childNodes) {
+      var tech = childNodes.filter(node => !node.building)
+      var clusterNode = { ...tech[0]}
+      clusterNode.id = 'cluster-' + tech[0].id;
+      return clusterNode;
+    },
+  }
+
+  network.clusterByConnection(1, joinOptions);
+  network.clusterByConnection(2, joinOptions);
+
+  network.on("selectNode", function(params) {
+    if (params.nodes.length == 1) {
+      if (network.isCluster(params.nodes[0]) == true) {
+        network.openCluster(params.nodes[0]);
+      }
+    }
+  });
+</script>
+
+
+</body>
+</html>
