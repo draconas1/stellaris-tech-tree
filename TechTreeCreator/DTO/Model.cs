@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TechTree.DTO {
+namespace TechTreeCreator.DTO {
     public enum TechArea {
         Physics,
         Society,

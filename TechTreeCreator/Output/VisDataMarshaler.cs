@@ -1,16 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CWToolsHelpers;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
-using TechTree.DTO;
+using TechTreeCreator.DTO;
 
-namespace TechTree.Output {
+namespace TechTreeCreator.Output {
     public class VisDataMarshaler {
-        private readonly LocalisationApiHelper localisationApi;
+        private readonly ILocalisationApiHelper localisationApi;
 
-        public VisDataMarshaler(LocalisationApiHelper localisationApi)
+        public VisDataMarshaler(ILocalisationApiHelper localisationApi)
         {
             this.localisationApi = localisationApi;
         }
@@ -82,7 +81,7 @@ namespace TechTree.Output {
             {
                 id = BuildRootNodeName(area),
                 label = localisationApi.GetName(areaName.ToLower()),
-                group = areaName,
+                @group = areaName,
                 image = imagesPath + "/" + BuildRootNodeName(area) + ".png",
                 hasImage = true,
                 level = 0
@@ -92,7 +91,7 @@ namespace TechTree.Output {
 
         private VisEdge BuildRootLink(TechArea area, string to) {
             return new VisEdge() {
-                from = BuildRootNodeName(area),
+                @from = BuildRootNodeName(area),
                 to = to,
                 color = new VisColor() {
                     opacity = 0
@@ -147,9 +146,10 @@ namespace TechTree.Output {
                 id = tech.Id,
                 label = tech.Name,
                 title = "<b>" + tech.Name + "</b>",
-                group = tech.Area.ToString(),
+                @group = tech.Area.ToString(),
                 image = imagesPath + "/" + tech.Id + ".png",
-                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { BuildRootNodeName(tech.Area)}               
+                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { BuildRootNodeName(tech.Area)},
+                hasImage = tech.IconFound
             };
 
             result.title = result.title + "<br/><i>" + tech.Description + "</i>";
@@ -215,7 +215,7 @@ namespace TechTree.Output {
         {
             return new VisEdge
             {
-                from = node.From.Id,
+                @from = node.From.Id,
                 to = node.To.Id,
                 arrows = "to",
                 dashes = true,

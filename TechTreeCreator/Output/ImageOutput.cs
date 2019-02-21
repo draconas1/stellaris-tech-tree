@@ -1,11 +1,12 @@
-﻿using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.PixelFormats;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using TechTree.DTO;
+using System.Linq;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using TechTreeCreator.DTO;
 
-namespace TechTree.Output
+namespace TechTreeCreator.Output
 {
     class ImageOutput
     {
@@ -16,11 +17,21 @@ namespace TechTree.Output
         /// <param name="ddsDir"></param>
         /// <param name="outputDir"></param>
         /// <param name="entities"></param>
-        public static void TransformAndOutputImages(string ddsDir, string outputDir, IEnumerable<Entity> entities)
+        public static void TransformAndOutputImages(string ddsDir, string outputDir, IEnumerable<Entity> entities) {
+            TransformAndOutputImages(new[] {ddsDir}, outputDir, entities);
+        }
+        
+        /// <summary>
+        /// Transforms the stellaris DDS images into pngs.
+        /// </summary>
+        /// <param name="ddsDirs">A list of posible locations for the image, that will be checked in order</param>
+        /// <param name="outputDir"></param>
+        /// <param name="entities"></param>
+        public static void TransformAndOutputImages(IEnumerable<string> ddsDirs, string outputDir, IEnumerable<Entity> entities)
         {
             // make sure we can output
             Directory.CreateDirectory(outputDir);
-
+            var inputDirRoots = ddsDirs.ToList();
             foreach (var entity in entities)
             {
                 var outputFilePath = Path.Combine(outputDir, entity.Id + ".png");
@@ -30,13 +41,26 @@ namespace TechTree.Output
                     continue;
                 }
 
-                var filePath = Path.Combine(ddsDir, entity.Icon + ".dds");
-                if (!File.Exists(filePath))
-                {
-                    filePath = Path.Combine(ddsDir, entity.Id + ".dds");
+                string filePath = null;
+                // loop voer the possible directories for the file
+                foreach (var inputDirRoot in inputDirRoots) {
+                    filePath = Path.Combine(inputDirRoot, entity.Icon + ".dds");
+                    // happy days, found it based on icon
+                    if (File.Exists(filePath)) {
+                        break;
+                    }
+                    else {
+                        // sometimes the icon lies!
+                        filePath = Path.Combine(inputDirRoot, entity.Id + ".dds");
+                        // if we find it break out immideately
+                        if (File.Exists(filePath)) {
+                            break;
+                        }
+                    }
                 }
+               
 
-                if (File.Exists(filePath))
+                if (filePath != null && File.Exists(filePath))
                 {
                     var ddsImage = Pfim.Pfim.FromFile(filePath);
                     if (ddsImage.Compressed)

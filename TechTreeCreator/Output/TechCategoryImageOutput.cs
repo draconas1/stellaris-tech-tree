@@ -4,7 +4,7 @@ using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 
-namespace TechTree.Output {
+namespace TechTreeCreator.Output {
     public static class TechCategoryImageOutput {
         public static void OutputCategoryImages(string stellarisRootDirectory, string outputDir) {
             var categoryFile = DirectoryWalker.FindFilesInDirectoryTree(StellarisDirectoryHelper.GetTechnologyDirectory(stellarisRootDirectory), "00_category.txt");

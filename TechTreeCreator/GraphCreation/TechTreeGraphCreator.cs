@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using CWToolsHelpers;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
-using TechTree.DTO;
+using TechTreeCreator.DTO;
 
-namespace TechTree.CWParser
+namespace TechTreeCreator.GraphCreation
 {
-    class TechTreeParser
+    class TechTreeGraphCreator
     {
         private readonly ILocalisationApiHelper localisationApiHelper;
         private readonly ICWParserHelper cwParserHelper;
@@ -27,7 +26,7 @@ namespace TechTree.CWParser
         public string ParseFileMask { get; set; }
 
 
-        public TechTreeParser(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
+        public TechTreeGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
             StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers)
         {
             this.localisationApiHelper = localisationApiHelper;
@@ -39,7 +38,7 @@ namespace TechTree.CWParser
             ParseFileMask = StellarisDirectoryHelper.TextMask;
         }
 
-        public TechsAndDependencies ParseTechFiles()
+        public TechsAndDependencies CreateTechnologyGraph()
         {
             var techs = new Dictionary<string, Tech>();
             var links = new HashSet<Link>();

@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>TechTreeCreator</AssemblyName>
+    <RootNamespace>TechTreeCreator</RootNamespace>
+    <PackageId>TechTreeCreator</PackageId>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.1" />

@@ -3,7 +3,7 @@ using System.IO;
 using Newtonsoft.Json;
 // ReSharper disable All
 
-namespace TechTree.DTO
+namespace TechTreeCreator.DTO
 {
 #pragma warning disable IDE1006 // Naming Styles - must match json properties
     public class VisData
