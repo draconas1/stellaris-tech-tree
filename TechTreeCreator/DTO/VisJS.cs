@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Security.Policy;
 using Newtonsoft.Json;
 // ReSharper disable All
 
@@ -85,6 +86,9 @@ namespace TechTreeCreator.DTO
         public int? level { get; set; }
         public string image { get; set; }
         public bool hasImage { get; set; }
+        public string shape { get; set; }
+
+        public string nodeType { get; set; }
         public string[] prerequisites { get; set; }
         
         public string[] categories { get; set; }

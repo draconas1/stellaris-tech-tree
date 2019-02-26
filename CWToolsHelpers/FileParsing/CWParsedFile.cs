@@ -75,9 +75,24 @@ namespace CWToolsHelpers.FileParsing
         /// <param name="key">The key of the child nodes</param>
         /// <param name="perform">The Action to perform if any are found</param>
         public void ActOnNodes(string key, Action<CWNode> perform) {
+            ActOnNodes(key, perform, () => { });
+        }
+        
+        /// <summary>
+        /// If there are any child nodes with the given key, performs the specified Action on them, otherwise perform the no match action.
+        /// </summary>
+        /// <param name="key">The key of the child nodes</param>
+        /// <param name="perform">The Action to perform if any are found</param>
+        /// <param name="performIfNoMatch">The Action to perform if there is no nodes with the specified key</param>
+        public void ActOnNodes(string key, Action<CWNode> perform, Action performIfNoMatch) {
             var nodes = GetNodes(key);
-            foreach (var cwNode in nodes) {
-                perform(cwNode);
+            if (nodes.Any()) {
+                foreach (var cwNode in nodes) {
+                    perform(cwNode);
+                }
+            }
+            else {
+                performIfNoMatch();
             }
         }
 

@@ -5,6 +5,7 @@ using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
+using NetExtensions.Collection;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
@@ -32,7 +33,7 @@ namespace TechTreeCreator.GraphCreation
             this.localisationApiHelper = localisationApiHelper;
             this.cwParserHelper = cwParserHelper;
             this.stellarisDirectoryHelper = stellarisDirectoryHelper;
-            this.modDirectoryHelpers = modDirectoryHelpers;
+            this.modDirectoryHelpers = modDirectoryHelpers.NullToEmpty();
             IgnoreFiles = new List<string>();
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
             ParseFileMask = StellarisDirectoryHelper.TextMask;
@@ -42,11 +43,8 @@ namespace TechTreeCreator.GraphCreation
         {
             var techs = new Dictionary<string, Tech>();
             var links = new HashSet<Link>();
-            GetTechsFromFile(techs, stellarisDirectoryHelper);
-            if (modDirectoryHelpers != null) {
-                foreach (var modDirectoryHelper in modDirectoryHelpers) {
-                    GetTechsFromFile(techs, modDirectoryHelper);
-                }
+            foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
+                GetTechsFromFile(techs, modDirectoryHelper);
             }
 
             // populate prerequisites

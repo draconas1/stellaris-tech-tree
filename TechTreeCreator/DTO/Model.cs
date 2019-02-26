@@ -28,15 +28,17 @@ namespace TechTreeCreator.DTO {
         
         public IEnumerable<string> Categories { get; set; }
         public IEnumerable<TechFlag> Flags { get; set; }
-        public IEnumerable<Tech> Prerequisites { get; set; }
-        public IEnumerable<string> PrerequisiteIds { get; set; }
-        
-        // ReSharper disable once InconsistentNaming
-        public string DLC { get; set; }
 
         public Tech(string id) : base(id) {
         }
     }
+
+    public class Building : Entity {
+        public int? BaseBuildTime { get; set; }
+        public string Category { get; set; }
+        public Building(string id) : base(id) {
+        }
+    } 
 
     public abstract class Entity {
         public string Id { get; private set; }
@@ -44,11 +46,19 @@ namespace TechTreeCreator.DTO {
         public string Description { get; set; }
 
         private string icon;
-        public string Icon { get { return icon ?? Id; } set { icon = value; } }
+        public string Icon { get => icon ?? Id;
+            set => icon = value;
+        }
+        
+        public IEnumerable<Tech> Prerequisites { get; set; }
+        public IEnumerable<string> PrerequisiteIds { get; set; }
+        
+        // ReSharper disable once InconsistentNaming
+        public string DLC { get; set; }
 
         public bool IconFound { get; set; }
 
-        public Entity(string id) {
+        protected Entity(string id) {
             Id = id;
         }
     }
@@ -73,6 +83,11 @@ namespace TechTreeCreator.DTO {
 
     public class TechsAndDependencies {
         public Dictionary<string, Tech> Techs { get; set; }
+        public ISet<Link> Prerequisites { get; set; }
+    }
+
+    public class ObjectsDependantOnTechs {
+        public Dictionary<string, Building> Buildings { get; set; }
         public ISet<Link> Prerequisites { get; set; }
     }
     

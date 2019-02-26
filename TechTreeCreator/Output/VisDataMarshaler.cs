@@ -13,6 +13,18 @@ namespace TechTreeCreator.Output {
         {
             this.localisationApi = localisationApi;
         }
+
+        public VisData CreateVisData(VisData techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath) {
+            Dictionary<string,VisNode> nodeLookup = techData.nodes.ToDictionary(x => x.id);
+
+            var result = new VisData() {
+                nodes = objectsDependantOnTechs.Buildings.Values.Select(x => MarshalBuilding(x, nodeLookup, imagesPath)).ToList(),
+                edges = objectsDependantOnTechs.Prerequisites.Select(MarshalLink).ToList()
+            };
+
+            return result;
+
+        }
         
         public VisData CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
 
@@ -81,10 +93,11 @@ namespace TechTreeCreator.Output {
             {
                 id = BuildRootNodeName(area),
                 label = localisationApi.GetName(areaName.ToLower()),
-                @group = areaName,
+                group = areaName,
                 image = imagesPath + "/" + BuildRootNodeName(area) + ".png",
                 hasImage = true,
-                level = 0
+                level = 0,
+                nodeType = "tech"
             };
             return result;
         }
@@ -137,22 +150,36 @@ namespace TechTreeCreator.Output {
             
             return maxPreqs;
         }
-        
-        
+
+        private VisNode MarshalBuilding(Building building, Dictionary<string,VisNode> nodeLookup, string imagesPath) {
+            var result = CreateNode(building, imagesPath, "building"); 
+            result.prerequisites = building.PrerequisiteIds != null
+                ? building.PrerequisiteIds.ToArray()
+                : new string[] { };
+    
+            result.title = result.title + "<br/><b>Build Time: </b>" + building.BaseBuildTime;
+            result.shape = "image";
+            
+            if (building.Category != null) {
+                result.title = result.title + "<br/><b>Category: </b>" + localisationApi.GetName(building.Category);
+            }
+
+            // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
+            var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => nodeLookup[x.Id].level).Max();
+            result.level = highestLevelOfPrerequisiteTechs + 1;
+
+
+            return result;
+        }
+
         private VisNode MarshalTech(Tech tech, Dictionary<int, int> startingLevelsByTier, string imagesPath)
         {
-            var result = new VisNode
-            {
-                id = tech.Id,
-                label = tech.Name,
-                title = "<b>" + tech.Name + "</b>",
-                @group = tech.Area.ToString(),
-                image = imagesPath + "/" + tech.Id + ".png",
-                prerequisites = tech.PrerequisiteIds != null ? tech.PrerequisiteIds.ToArray() : new [] { BuildRootNodeName(tech.Area)},
-                hasImage = tech.IconFound
-            };
-
-            result.title = result.title + "<br/><i>" + tech.Description + "</i>";
+            var result = CreateNode(tech, imagesPath, "tech");
+            result.prerequisites = tech.PrerequisiteIds != null
+                ? tech.PrerequisiteIds.ToArray()
+                : new[] {BuildRootNodeName(tech.Area)};
+            result.group = tech.Area.ToString();
+          
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
 
             if (tech.Categories != null)
@@ -175,10 +202,6 @@ namespace TechTreeCreator.Output {
                 result.title = result.title + "<br/><b>Attributes: </b>" + string.Join(", ", tech.Flags);
             }
 
-            if (tech.DLC != null) {
-                result.title = result.title + "<br/><i>Requires the " + tech.DLC + " DLC</i>";
-            }
-          
             // rare purple tech
             if (tech.Flags.Contains(TechFlag.Rare))
             {
@@ -208,6 +231,24 @@ namespace TechTreeCreator.Output {
             {
                 setBorder(result, "#0078CE");
             }
+            return result;
+        }
+        
+        private VisNode CreateNode(Entity entity, string imagesPath, string nodeType) {
+            var result = new VisNode {
+                id = entity.Id,
+                label = entity.Name,
+                title = "<b>" + entity.Name + "</b>",
+                image = imagesPath + "/" + entity.Id + ".png",
+                hasImage = entity.IconFound,
+                nodeType = "building"
+            };
+            result.title = result.title + "<br/><i>" + entity.Description + "</i>";
+            
+            if (entity.DLC != null) {
+                result.title = result.title + "<br/><i>Requires the " + entity.DLC + " DLC</i>";
+            }
+
             return result;
         }
         

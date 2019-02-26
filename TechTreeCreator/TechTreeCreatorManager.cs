@@ -12,6 +12,7 @@ using NetExtensions.Collection;
 using TechTreeCreator.DTO;
 using TechTreeCreator.GraphCreation;
 using TechTreeCreator.Output;
+using static CWToolsHelpers.Directories.StellarisDirectoryHelper.StellarisDirectoryPositionModList;
 
 namespace TechTreeCreator
 {
@@ -50,13 +51,7 @@ namespace TechTreeCreator
         }
 
         public void CopyImages(TechsAndDependencies techsAndDependencies) {
-            
-            //build the mod input list
-            var inputList = modDirectoryHelpers.Select(x => x.Icons).ToList();
-            inputList.Add(stellarisDirectoryHelper.Icons);
-
-            // tech images
-            ImageOutput.TransformAndOutputImages(inputList, Path.Combine(outputRoot, "images", "technologies"), techsAndDependencies.Techs.Values);
+            CopyMainImages(techsAndDependencies.Techs.Values, "technologies", Path.Combine("images", "technologies"));
 
             // the 3 tech area icons no mod support here
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
@@ -81,10 +76,31 @@ namespace TechTreeCreator
 
         public VisData GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
             var visDataMarshaler = new VisDataMarshaler(localisation);
-            var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, "images/technologies");
+            var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
             visResults.WriteVisDataToOneJSFile(outputRoot);
 
             return visResults;
+        }
+        
+        public VisData ParseObjectsDependantOnTechs(TechsAndDependencies techsAndDependencies, VisData techVisData) {
+            var parser = new DependantsGraphCreator(localisation, cwParser, stellarisDirectoryHelper, modDirectoryHelpers);
+            var dependantGraph = parser.CreateDependantGraph(techsAndDependencies);
+            CopyMainImages(dependantGraph.Buildings.Values, "buildings", Path.Combine("images", "buildings"));
+            var visDataMarshaler = new VisDataMarshaler(localisation);
+            var visResults = visDataMarshaler.CreateVisData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
+            visResults.WriteVisDataToOneJSFile(outputRoot, "buildingGraph.js");
+
+            return visResults;
+        }
+
+        public void CopyMainImages(IEnumerable<Entity> entities, string inputPath, string outputPath) {
+            //build the mod input list
+            var inputDirectories = StellarisDirectoryHelper
+                .CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers, Last)
+                .Select(x => Path.Combine(x.Icons, inputPath)).ToList();
+
+            // tech images
+            ImageOutput.TransformAndOutputImages(inputDirectories, Path.Combine(outputRoot, outputPath), entities);
         }
         
     }
