@@ -241,7 +241,7 @@ namespace TechTreeCreator.Output {
                 title = "<b>" + entity.Name + "</b>",
                 image = imagesPath + "/" + entity.Id + ".png",
                 hasImage = entity.IconFound,
-                nodeType = "building"
+                nodeType = nodeType
             };
             result.title = result.title + "<br/><i>" + entity.Description + "</i>";
             

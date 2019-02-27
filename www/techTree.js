@@ -71,10 +71,10 @@ async function createNetwork() {
   const techAreaFilter = document.getElementById("techAreaFilterBox").value;
   let activeNodes;
   if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-    activeNodes = GraphData.nodes;
+    activeNodes = GraphDataTech.nodes;
   } else {
     //lodash filter with a shorthand for propertyname matches value.
-    activeNodes = _.filter(GraphData.nodes, ['group', techAreaFilter]);
+    activeNodes = _.filter(GraphDataTech.nodes, ['group', techAreaFilter]);
   }
   const categoryFilter = document.getElementById("categoryFilterBox").value;
   if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
@@ -93,12 +93,12 @@ async function createNetwork() {
         result.push(node.id);
       }),
       nodesAndDeps,
-      _.keyBy(GraphData.nodes, 'id')
+      _.keyBy(GraphDataTech.nodes, 'id')
     );
     activeNodes = Object.values(nodesAndDeps);
   }
   unsetHighlightCategoryFilter();
-  nodesDataset = new vis.DataSet(activeNodes);
+  nodesDataset = new vis.DataSet(activeNodes.concat(GraphDataBuildings.nodes));
 
   // create a network
   const container = document.getElementById('network');
@@ -123,5 +123,25 @@ async function createNetwork() {
     network.on("afterDrawing", ctx => ImageFunctions.addImagesToTextNodes(ctx, promiseResults));
   }
 
+
+  const joinOptions = {
+    joinCondition:function(nodeOptions, childNodeOptions) {
+      return childNodeOptions.nodeType === 'tech';
+    },
+    processProperties: function(clusterOptions, childNodes) {
+      const tech = childNodes.filter(node => node.nodeType === 'tech');
+      const clusterNode = { ...tech[0]};
+      clusterNode.id = 'cluster-' + tech[0].id;
+      return clusterNode;
+    },
+  };
+
+  // Object.entries(allNodes).forEach(([nodeId, node]) => {
+  //   if (node.nodeType === 'building') {
+  //     network.clusterByConnection(nodeId, joinOptions);
+  //   }
+  // });
+
   return false;
 }
+

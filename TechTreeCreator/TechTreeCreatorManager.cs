@@ -77,7 +77,7 @@ namespace TechTreeCreator
         public VisData GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
-            visResults.WriteVisDataToOneJSFile(outputRoot);
+            visResults.WriteVisDataToOneJSFile(outputRoot, "graphDataTech.js", "GraphDataTech");
 
             return visResults;
         }
@@ -88,7 +88,7 @@ namespace TechTreeCreator
             CopyMainImages(dependantGraph.Buildings.Values, "buildings", Path.Combine("images", "buildings"));
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
-            visResults.WriteVisDataToOneJSFile(outputRoot, "buildingGraph.js");
+            visResults.WriteVisDataToOneJSFile(outputRoot, "graphDataBuildings.js", "GraphDataBuildings");
 
             return visResults;
         }

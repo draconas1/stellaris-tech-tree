@@ -69,7 +69,8 @@ namespace TechTreeCreator.GraphCreation
             }
 
             return new ObjectsDependantOnTechs() {
-                Buildings = buildings
+                Buildings = buildings,
+                Prerequisites = links
             };
         }
 
@@ -81,7 +82,7 @@ namespace TechTreeCreator.GraphCreation
                 // top level nodes are files, so we process the immediate children of each file, which is the individual items.
                 foreach (var node in file.Value.Nodes) {
                     var building = CreateBuilding(node);
-                    if (!building.PrerequisiteIds.Any()) {
+                    if (building.PrerequisiteIds.Any()) {
                         buildings[building.Id] = building;
                     }
                 }

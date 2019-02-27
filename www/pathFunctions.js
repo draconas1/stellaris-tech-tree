@@ -88,5 +88,8 @@ PathFunctions = {
   connectsToRoot: function (edge) {
     return edge.from === 'Engineering-root' || edge.from === 'Society-root' || edge.from === 'Physics-root';
   }
+
+
+
 };
 

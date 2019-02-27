@@ -1,4 +1,4 @@
-GraphData = {
+GraphDataTech = {
   "nodes": [
     {
       "id": "null_void_beam",
@@ -12,6 +12,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/null_void_beam.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -27,6 +28,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_administrative_ai.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_1"
       ],
@@ -46,6 +48,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_akx_worm_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [],
       "categories": [
         "field_manipulation"
@@ -63,6 +66,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_akx_worm_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_akx_worm_1",
         "tech_akx_worm_2"
@@ -79,6 +83,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_antimatter_power.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cold_fusion_power"
       ],
@@ -94,6 +99,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_arc_emitter_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_disruptors_3",
         "tech_battleships"
@@ -110,6 +116,7 @@ GraphData = {
       "level": 15,
       "image": "images/technologies/tech_arc_emitter_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_arc_emitter_1"
       ],
@@ -129,6 +136,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_archeology_lab.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -144,6 +152,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_automated_exploration.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -159,6 +168,7 @@ GraphData = {
       "level": 7,
       "image": "images/technologies/tech_auxiliary_fire_control.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_computers_1"
       ],
@@ -178,6 +188,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_basic_science_lab_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -193,6 +204,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_basic_science_lab_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_1"
       ],
@@ -208,6 +220,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_basic_science_lab_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_2",
         "tech_colonial_centralization"
@@ -228,6 +241,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_bio_reactor.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -243,6 +257,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_cold_fusion_power.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_fusion_power"
       ],
@@ -258,6 +273,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_combat_computers_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_administrative_ai"
       ],
@@ -273,6 +289,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_combat_computers_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_computers_1",
         "tech_self_aware_logic"
@@ -293,6 +310,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_combat_computers_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_computers_2",
         "tech_sapient_ai"
@@ -313,6 +331,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_combat_computers_autonomous.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_computers_2"
       ],
@@ -328,6 +347,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_cryostasis_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_administrative_ai",
         "tech_colonization_1"
@@ -344,6 +364,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_cryostasis_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_self_aware_logic",
         "tech_cryostasis_1"
@@ -364,6 +385,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_curator_lab.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -383,6 +405,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_dark_matter_deflector.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_5"
       ],
@@ -402,6 +425,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_dark_matter_power_core.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_zero_point_power"
       ],
@@ -417,6 +441,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_disruptors_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_2"
       ],
@@ -432,6 +457,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_disruptors_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_disruptors_1"
       ],
@@ -447,6 +473,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_disruptors_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_disruptors_2"
       ],
@@ -462,6 +489,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_energy_lance_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_4",
         "tech_battleships"
@@ -478,6 +506,7 @@ GraphData = {
       "level": 15,
       "image": "images/technologies/tech_energy_lance_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_5",
         "tech_energy_lance_1"
@@ -494,6 +523,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_energy_torpedoes_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_4"
       ],
@@ -509,6 +539,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_energy_torpedoes_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_energy_torpedoes_1"
       ],
@@ -528,6 +559,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_enigmatic_decoder.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -547,6 +579,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_enigmatic_encoder.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -566,6 +599,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_experimental_subspace_navigation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_2"
       ],
@@ -585,6 +619,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_extradimensional_weapon_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -604,6 +639,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_fission_power.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -619,6 +655,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_ftl_inhibitor.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hyper_drive_1"
       ],
@@ -634,6 +671,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_fusion_power.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_fission_power"
       ],
@@ -653,6 +691,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_gateway_activation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hyper_drive_3"
       ],
@@ -672,6 +711,7 @@ GraphData = {
       "level": 17,
       "image": "images/technologies/tech_gateway_construction.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gateway_activation",
         "tech_mega_engineering"
@@ -688,6 +728,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_global_research_initiative.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_physics_1",
         "tech_colonial_centralization"
@@ -708,6 +749,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_hyper_drive_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_1"
       ],
@@ -723,6 +765,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_hyper_drive_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hyper_drive_1"
       ],
@@ -738,6 +781,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_hyper_drive_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hyper_drive_2"
       ],
@@ -757,6 +801,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_jump_drive_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_zero_point_power"
       ],
@@ -776,6 +821,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_lasers_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -791,6 +837,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_lasers_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_1"
       ],
@@ -806,6 +853,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_lasers_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_2"
       ],
@@ -821,6 +869,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_lasers_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_3"
       ],
@@ -836,6 +885,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_lasers_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_4"
       ],
@@ -855,6 +905,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_lgate_activation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -870,6 +921,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_mine_dark_matter.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_4"
       ],
@@ -885,6 +937,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mine_volatile_motes.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -904,6 +957,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mining_drone_weapon_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -923,6 +977,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_pd_tracking_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -938,6 +993,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_pd_tracking_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_pd_tracking_1"
       ],
@@ -953,6 +1009,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_pd_tracking_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_pd_tracking_2"
       ],
@@ -968,6 +1025,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_physics_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -983,6 +1041,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_physics_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_physics_1"
       ],
@@ -998,6 +1057,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_physics_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_physics_2"
       ],
@@ -1009,7 +1069,7 @@ GraphData = {
       "id": "tech_pk_neutron",
       "label": "Neutron Sweeping",
       "group": "Physics",
-      "title": "<b>Neutron Sweeping</b><br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Neutron Sweeping</b><br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1017,6 +1077,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_pk_neutron.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colossus"
       ],
@@ -1028,7 +1089,7 @@ GraphData = {
       "id": "tech_pk_shielder",
       "label": "Global Pacification",
       "group": "Physics",
-      "title": "<b>Global Pacification</b><br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Global Pacification</b><br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1036,6 +1097,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_pk_shielder.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colossus"
       ],
@@ -1055,6 +1117,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_planetary_shield_generator.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_3"
       ],
@@ -1070,6 +1133,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_plasma_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_2"
       ],
@@ -1085,6 +1149,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_plasma_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_plasma_1"
       ],
@@ -1100,6 +1165,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_plasma_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_plasma_2"
       ],
@@ -1115,6 +1181,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_positronic_implants.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_self_aware_logic"
       ],
@@ -1130,6 +1197,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_power_hub_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_plant_1"
       ],
@@ -1145,6 +1213,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_power_hub_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_hub_1",
         "tech_colonial_centralization"
@@ -1165,6 +1234,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_power_plant_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -1180,6 +1250,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_power_plant_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_plant_1"
       ],
@@ -1195,6 +1266,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_power_plant_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_plant_2"
       ],
@@ -1210,6 +1282,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_power_plant_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_plant_3"
       ],
@@ -1229,6 +1302,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_reactor_boosters_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_fission_power"
       ],
@@ -1244,6 +1318,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_reactor_boosters_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_fusion_power",
         "tech_reactor_boosters_1"
@@ -1260,6 +1335,7 @@ GraphData = {
       "level": 7,
       "image": "images/technologies/tech_reactor_boosters_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_antimatter_power",
         "tech_reactor_boosters_2"
@@ -1280,6 +1356,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_shield_output.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_4"
       ],
@@ -1299,6 +1376,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_tile_energy_output.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_power_plant_3"
       ],
@@ -1318,6 +1396,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_reduced_building_cost.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_physics_2"
       ],
@@ -1337,6 +1416,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_energy_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_4"
       ],
@@ -1356,6 +1436,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_energy_fire_rate.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_lasers_2"
       ],
@@ -1371,6 +1452,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_sapient_ai.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_self_aware_logic"
       ],
@@ -1386,6 +1468,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_self_aware_logic.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_administrative_ai"
       ],
@@ -1401,6 +1484,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_sensors_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -1416,6 +1500,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_sensors_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_2"
       ],
@@ -1431,6 +1516,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_sensors_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_3"
       ],
@@ -1446,6 +1532,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_shield_rechargers_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_3"
       ],
@@ -1465,6 +1552,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_shields_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_1"
       ],
@@ -1480,6 +1568,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_shields_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_1"
       ],
@@ -1495,6 +1584,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_shields_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_2"
       ],
@@ -1510,6 +1600,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_shields_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_3"
       ],
@@ -1525,6 +1616,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_shields_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_shields_4"
       ],
@@ -1544,6 +1636,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_space_cloud_weapon_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Physics-root"
       ],
@@ -1559,6 +1652,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_space_science_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -1574,6 +1668,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_space_science_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_science_1"
       ],
@@ -1589,6 +1684,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_space_science_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_science_2"
       ],
@@ -1604,6 +1700,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_space_science_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_science_3"
       ],
@@ -1619,6 +1716,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_space_science_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_science_4"
       ],
@@ -1638,6 +1736,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_synchronized_defences.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_self_aware_logic"
       ],
@@ -1653,6 +1752,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_volatile_motes.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -1672,6 +1772,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_wormhole_stabilization.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hyper_drive_2"
       ],
@@ -1687,6 +1788,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_zero_point_power.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_antimatter_power"
       ],
@@ -1702,6 +1804,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_adaptive_bureaucracy.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_planetary_unification"
       ],
@@ -1717,6 +1820,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_adaptive_combat_algorithms.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_bureaucracy"
       ],
@@ -1736,6 +1840,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_akx_worm_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [],
       "categories": [
         "statecraft"
@@ -1749,6 +1854,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_alien_life_studies.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -1768,6 +1874,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_amoeba_strike_craft_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -1783,6 +1890,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_artificial_moral_codes.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -1802,6 +1910,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_ascension_theory.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -1817,6 +1926,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_autocurating_vault.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hypercomms_forum",
         "tech_administrative_ai",
@@ -1834,6 +1944,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_autonomous_agents.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization"
       ],
@@ -1853,6 +1964,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_biomechanics.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_adaptive_combat_algorithms"
       ],
@@ -1872,6 +1984,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_capacity_boosters.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_selected_lineages"
       ],
@@ -1887,6 +2000,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_centralized_command.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -1902,6 +2016,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_climate_restoration.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_terrestrial_sculpting"
       ],
@@ -1917,6 +2032,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_cloning.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping"
       ],
@@ -1932,6 +2048,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_collective_production_methods.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_unity_of_purpose"
       ],
@@ -1947,6 +2064,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_collective_self.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization"
       ],
@@ -1962,6 +2080,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_colonial_bureaucracy.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_adaptive_bureaucracy"
       ],
@@ -1977,6 +2096,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_colonial_centralization.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_planetary_unification"
       ],
@@ -1996,6 +2116,7 @@ GraphData = {
       "level": 3,
       "image": "images/technologies/tech_colonization_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_exploration"
       ],
@@ -2011,6 +2132,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_colonization_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -2026,6 +2148,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_colonization_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_2"
       ],
@@ -2041,6 +2164,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_colonization_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_3"
       ],
@@ -2056,6 +2180,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_colonization_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_4"
       ],
@@ -2071,6 +2196,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_combat_training.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_centralized_command"
       ],
@@ -2086,6 +2212,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_command_matrix.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_refit_standards"
       ],
@@ -2101,6 +2228,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_consecration_fields.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_holographic_rituals",
         "tech_colonial_centralization"
@@ -2121,6 +2249,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_cultural_heritage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2136,6 +2265,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_dangerous_wildlife.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -2151,6 +2281,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_deep_sinkhole.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -2166,6 +2297,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_dense_jungle.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -2181,6 +2313,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_doctrine_fleet_size_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2196,6 +2329,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_doctrine_fleet_size_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_fleet_size_1"
       ],
@@ -2211,6 +2345,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_doctrine_fleet_size_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_fleet_size_2"
       ],
@@ -2226,6 +2361,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_doctrine_fleet_size_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_fleet_size_3"
       ],
@@ -2241,6 +2377,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_doctrine_fleet_size_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_fleet_size_4"
       ],
@@ -2256,6 +2393,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_doctrine_navy_size_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [],
       "categories": [
         "military_theory"
@@ -2269,6 +2407,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_doctrine_navy_size_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_navy_size_1"
       ],
@@ -2284,6 +2423,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_doctrine_navy_size_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_navy_size_2"
       ],
@@ -2299,6 +2439,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_doctrine_navy_size_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_navy_size_3"
       ],
@@ -2314,6 +2455,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_eco_simulation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_industrial_farming"
       ],
@@ -2329,6 +2471,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_ecological_adaptation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_terrestrial_sculpting"
       ],
@@ -2344,6 +2487,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_embodied_dynamism.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_autonomous_agents"
       ],
@@ -2359,6 +2503,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_epigenetic_triggers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping"
       ],
@@ -2374,6 +2519,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_executive_retreat.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2389,6 +2535,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_food_processing_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_eco_simulation"
       ],
@@ -2404,6 +2551,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_food_processing_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_food_processing_1"
       ],
@@ -2419,6 +2567,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_frontier_health.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping",
         "tech_colonization_1"
@@ -2435,6 +2584,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_frontier_hospital.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_frontier_health",
         "tech_colonial_centralization"
@@ -2451,6 +2601,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_galactic_administration.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization"
       ],
@@ -2466,6 +2617,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_galactic_ambitions.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2481,6 +2633,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_galactic_bureaucracy.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_bureaucracy"
       ],
@@ -2496,6 +2649,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_galactic_campaigns.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_interstellar_campaigns"
       ],
@@ -2515,6 +2669,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_galactic_markets.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization",
         "tech_interstellar_economics"
@@ -2535,6 +2690,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_gargantuan_evolution.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2554,6 +2710,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_gene_banks.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cloning"
       ],
@@ -2569,6 +2726,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_gene_crops.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_eco_simulation"
       ],
@@ -2588,6 +2746,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_gene_expressions.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gene_tailoring"
       ],
@@ -2607,6 +2766,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_gene_seed_purification.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gene_tailoring"
       ],
@@ -2622,6 +2782,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_gene_tailoring.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping"
       ],
@@ -2641,6 +2802,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_genetic_resequencing.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2656,6 +2818,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_genome_mapping.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2671,6 +2834,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_glandular_acclimation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gene_tailoring"
       ],
@@ -2686,6 +2850,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_global_defense_grid.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ground_defense_planning"
       ],
@@ -2701,6 +2866,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_global_production_strategy.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_alloys_1",
         "tech_luxuries_1",
@@ -2718,6 +2884,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_ground_defense_planning.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_planetary_defenses"
       ],
@@ -2733,6 +2900,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_heritage_site.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cultural_heritage"
       ],
@@ -2748,6 +2916,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_hive_cluster.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hive_node"
       ],
@@ -2763,6 +2932,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_hive_confluence.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_hive_cluster",
         "tech_colonial_centralization"
@@ -2783,6 +2953,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_hive_node.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2802,6 +2973,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_holo_entertainment.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2817,6 +2989,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_holographic_rituals.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cultural_heritage"
       ],
@@ -2832,6 +3005,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_housing_agrarian_idyll.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2847,6 +3021,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_hydroponics.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_industrial_farming"
       ],
@@ -2862,6 +3037,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_hyper_entertainment_forum.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_holo_entertainment"
       ],
@@ -2877,6 +3053,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_hypercomms_forum.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_heritage_site",
         "tech_colonial_centralization"
@@ -2897,6 +3074,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_industrial_farming.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2916,6 +3094,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_interplanetary_commerce.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -2931,6 +3110,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_interstellar_campaigns.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_galactic_ambitions"
       ],
@@ -2946,6 +3126,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_interstellar_economics.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_trading"
       ],
@@ -2961,6 +3142,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_interstellar_fleet_traditions.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [],
       "categories": [
         "military_theory"
@@ -2974,6 +3156,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_living_state.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization"
       ],
@@ -2989,6 +3172,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_manifest_destiny.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_galactic_ambitions"
       ],
@@ -3004,6 +3188,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_massive_glacier.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3023,6 +3208,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_mine_zro.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_3",
         "tech_psionic_theory"
@@ -3043,6 +3229,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_morphogenetic_field_mastery.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_epigenetic_triggers"
       ],
@@ -3058,6 +3245,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mountain_range.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3073,6 +3261,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_nano_vitality_crops.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gene_crops"
       ],
@@ -3088,6 +3277,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_neural_implants.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3107,6 +3297,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_neuroregeneration.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3122,6 +3313,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_noxious_swamp.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3141,6 +3333,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_nutrient_replication.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_nano_vitality_crops"
       ],
@@ -3156,6 +3349,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_paradise_dome.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_housing_1"
       ],
@@ -3175,6 +3369,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_penal_colonies.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_artificial_moral_codes"
       ],
@@ -3186,7 +3381,7 @@ GraphData = {
       "id": "tech_pk_godray",
       "label": "Divine Stimulus",
       "group": "Society",
-      "title": "<b>Divine Stimulus</b><br/><i>An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Divine Stimulus</b><br/><i>An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -3194,6 +3389,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_pk_godray.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colossus"
       ],
@@ -3213,6 +3409,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_planetary_defenses.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3232,6 +3429,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_planetary_government.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3247,6 +3445,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_planetary_unification.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_planetary_government"
       ],
@@ -3266,6 +3465,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_precognition_interface.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_telepathy"
       ],
@@ -3285,6 +3485,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_prescient_data_modeling.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3304,6 +3505,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_psi_jump_drive_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_precognition_interface"
       ],
@@ -3323,6 +3525,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_psionic_barrier.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_psionic_theory"
       ],
@@ -3342,6 +3545,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_psionic_shield.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_psionic_theory"
       ],
@@ -3361,6 +3565,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_psionic_theory.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3376,6 +3581,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_quicksand_basin.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3391,6 +3597,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_refit_standards.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_interstellar_fleet_traditions"
       ],
@@ -3410,6 +3617,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_regenerative_hull_tissue.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3429,6 +3637,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_command_limit.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_fleet_size_5"
       ],
@@ -3448,6 +3657,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_army_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_training"
       ],
@@ -3467,6 +3677,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_army_health.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_combat_training"
       ],
@@ -3486,6 +3697,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_core_system_cap.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_galactic_bureaucracy"
       ],
@@ -3505,6 +3717,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_edict_length.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_artificial_moral_codes"
       ],
@@ -3524,6 +3737,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_leader_life_span.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_vitality_boosters"
       ],
@@ -3543,6 +3757,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_starbase_capacity.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_galactic_ambitions"
       ],
@@ -3562,6 +3777,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_tile_food_output.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_gene_crops"
       ],
@@ -3581,6 +3797,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_naval_cap.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_doctrine_navy_size_4"
       ],
@@ -3600,6 +3817,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_resort_colonies.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_artificial_moral_codes"
       ],
@@ -3615,6 +3833,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_resource_processing_algorithms.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_unity_of_purpose"
       ],
@@ -3634,6 +3853,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_scourge_missile_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3653,6 +3873,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_selected_lineages.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_vitality_boosters"
       ],
@@ -3668,6 +3889,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_slave_colonies.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_neural_implants"
       ],
@@ -3683,6 +3905,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_society_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3698,6 +3921,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_society_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_society_1"
       ],
@@ -3713,6 +3937,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_society_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_society_2"
       ],
@@ -3728,6 +3953,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_space_trading.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_interplanetary_commerce"
       ],
@@ -3747,6 +3973,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_space_whale_weapon_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3766,6 +3993,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_subdermal_stimulation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping"
       ],
@@ -3785,6 +4013,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_swarm_strike_craft_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3800,6 +4029,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_synthetic_thought_patterns.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_artificial_moral_codes"
       ],
@@ -3819,6 +4049,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_telepathy.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_psionic_theory"
       ],
@@ -3834,6 +4065,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_terrestrial_sculpting.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3853,6 +4085,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_tomb_world_adaption.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_3"
       ],
@@ -3868,6 +4101,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_toxic_kelp.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3883,6 +4117,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_transcendent_faith.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_consecration_fields",
         "tech_galactic_administration"
@@ -3899,6 +4134,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_unity_of_purpose.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3914,6 +4150,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_vitality_boosters.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_genome_mapping"
       ],
@@ -3929,6 +4166,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_volcano.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonization_1"
       ],
@@ -3944,6 +4182,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_xeno_tourism_agency.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Society-root"
       ],
@@ -3959,6 +4198,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_afterburners_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_thrusters_1"
       ],
@@ -3974,6 +4214,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_afterburners_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_afterburners_1",
         "tech_thrusters_3"
@@ -3990,6 +4231,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_alloys_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -4005,6 +4247,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_alloys_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_alloys_1",
         "tech_colonial_centralization"
@@ -4025,6 +4268,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_assault_armies.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_planetary_defenses"
       ],
@@ -4040,6 +4284,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_assembly_pattern.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_engineering_1"
       ],
@@ -4055,6 +4300,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_autocannons_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_2"
       ],
@@ -4070,6 +4316,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_autocannons_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_autocannons_1"
       ],
@@ -4085,6 +4332,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_autocannons_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_autocannons_2"
       ],
@@ -4104,6 +4352,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_basic_industry.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4119,6 +4368,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_battleship_build_speed.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_battleships"
       ],
@@ -4134,6 +4384,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_battleship_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_battleships"
       ],
@@ -4153,6 +4404,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_battleship_hull_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_battleship_hull_1"
       ],
@@ -4168,6 +4420,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_battleships.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cruisers"
       ],
@@ -4183,6 +4436,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_binary_motivators.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colonial_centralization",
         "tech_robomodding_m"
@@ -4195,7 +4449,7 @@ GraphData = {
       "id": "tech_colossus",
       "label": "Colossi",
       "group": "Engineering",
-      "title": "<b>Colossi</b><br/><i>Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Colossi</b><br/><i>Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -4203,6 +4457,7 @@ GraphData = {
       "level": 17,
       "image": "images/technologies/tech_colossus.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_titans"
       ],
@@ -4222,6 +4477,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_construction_templates.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_assembly_pattern"
       ],
@@ -4237,6 +4493,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_corvette_build_speed.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_corvettes"
       ],
@@ -4252,6 +4509,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_corvette_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_corvettes"
       ],
@@ -4271,6 +4529,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_corvette_hull_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_corvette_hull_1"
       ],
@@ -4290,6 +4549,7 @@ GraphData = {
       "level": 4,
       "image": "images/technologies/tech_corvettes.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_2"
       ],
@@ -4305,6 +4565,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_cruiser_build_speed.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cruisers"
       ],
@@ -4320,6 +4581,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_cruiser_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cruisers"
       ],
@@ -4339,6 +4601,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_cruiser_hull_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_cruiser_hull_1"
       ],
@@ -4354,6 +4617,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_cruisers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_destroyers"
       ],
@@ -4373,6 +4637,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_crystal_armor_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4392,6 +4657,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_crystal_armor_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4411,6 +4677,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_dark_matter_propulsion.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_thrusters_4"
       ],
@@ -4430,6 +4697,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_defense_platform_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_3"
       ],
@@ -4445,6 +4713,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_destroyer_build_speed.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_destroyers"
       ],
@@ -4460,6 +4729,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_destroyer_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_destroyers"
       ],
@@ -4479,6 +4749,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_destroyer_hull_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_destroyer_hull_1"
       ],
@@ -4494,6 +4765,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_destroyers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_corvettes"
       ],
@@ -4513,6 +4785,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_dragon_armor.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4528,6 +4801,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_droid_workers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_robotic_workers",
         "tech_colonial_centralization"
@@ -4544,6 +4818,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_engineering_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4559,6 +4834,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_engineering_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_engineering_1"
       ],
@@ -4574,6 +4850,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_engineering_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_engineering_2"
       ],
@@ -4589,6 +4866,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_exotic_gases.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -4608,6 +4886,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_flak_batteries_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4623,6 +4902,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_flak_batteries_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_flak_batteries_1"
       ],
@@ -4638,6 +4918,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_flak_batteries_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_flak_batteries_2"
       ],
@@ -4653,6 +4934,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_housing_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4668,6 +4950,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_housing_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_housing_1"
       ],
@@ -4683,6 +4966,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_kinetic_artillery_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_4"
       ],
@@ -4698,6 +4982,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_kinetic_artillery_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_5",
         "tech_kinetic_artillery_1"
@@ -4714,6 +4999,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_luxuries_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -4729,6 +5015,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_luxuries_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_luxuries_1",
         "tech_colonial_centralization"
@@ -4745,6 +5032,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_mass_accelerator_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_4",
         "tech_battleships"
@@ -4761,6 +5049,7 @@ GraphData = {
       "level": 15,
       "image": "images/technologies/tech_mass_accelerator_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_5",
         "tech_mass_accelerator_1"
@@ -4781,6 +5070,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_mass_drivers_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4796,6 +5086,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_mass_drivers_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_1"
       ],
@@ -4811,6 +5102,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mass_drivers_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_2"
       ],
@@ -4826,6 +5118,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_mass_drivers_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_3"
       ],
@@ -4841,6 +5134,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_mass_drivers_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_4"
       ],
@@ -4860,6 +5154,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_mechanized_mining.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4879,6 +5174,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_mega_engineering.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_5",
         "tech_battleships",
@@ -4896,6 +5192,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_micro_replicators.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -4911,6 +5208,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mine_betharian.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -4926,6 +5224,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mine_exotic_gases.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -4945,6 +5244,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_mine_living_metal.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -4960,6 +5260,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mine_rare_crystals.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -4975,6 +5276,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_mineral_purification_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mining_1"
       ],
@@ -4990,6 +5292,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_mineral_purification_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mineral_purification_1",
         "tech_colonial_centralization"
@@ -5006,6 +5309,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_mining_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -5021,6 +5325,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_mining_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mining_1"
       ],
@@ -5036,6 +5341,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_mining_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mining_2"
       ],
@@ -5055,6 +5361,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_missiles_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5070,6 +5377,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_missiles_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_1",
         "tech_fusion_power"
@@ -5086,6 +5394,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_missiles_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_2"
       ],
@@ -5101,6 +5410,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_missiles_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_3"
       ],
@@ -5116,6 +5426,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_missiles_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_4"
       ],
@@ -5135,6 +5446,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_modular_engineering.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_3"
       ],
@@ -5154,6 +5466,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_nanite_assemblers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_binary_motivators",
         "tech_galactic_administration"
@@ -5174,6 +5487,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_nanite_repair_system.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5185,7 +5499,7 @@ GraphData = {
       "id": "tech_nanite_transmutation",
       "label": "Nanite Transmutation",
       "group": "Engineering",
-      "title": "<b>Nanite Transmutation</b><br/><i>The mass-production of these rare resources require particularly capable nanites.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/><i>Requires the Distant Stars Story Pack DLC</i>",
+      "title": "<b>Nanite Transmutation</b><br/><i>The mass-production of these rare resources require particularly capable nanites.</i><br/><i>Requires the Distant Stars Story Pack DLC</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -5193,6 +5507,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_nanite_transmutation.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5212,6 +5527,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_orbital_trash_dispersal.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5223,7 +5539,7 @@ GraphData = {
       "id": "tech_pk_cracker",
       "label": "Core Cracking",
       "group": "Engineering",
-      "title": "<b>Core Cracking</b><br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Core Cracking</b><br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -5231,6 +5547,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_pk_cracker.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colossus"
       ],
@@ -5242,7 +5559,7 @@ GraphData = {
       "id": "tech_pk_nanobots",
       "label": "Atmospheric Nanobot Dispersal",
       "group": "Engineering",
-      "title": "<b>Atmospheric Nanobot Dispersal</b><br/><i>Nanobot Diffuser</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Atmospheric Nanobot Dispersal</b><br/><i>Nanobot Diffuser</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -5250,6 +5567,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_pk_nanobots.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_colossus"
       ],
@@ -5265,6 +5583,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_powered_exoskeletons.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -5280,6 +5599,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_rare_crystals.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_industry"
       ],
@@ -5299,6 +5619,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_armor_output.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ship_armor_3"
       ],
@@ -5318,6 +5639,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_military_station_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_defense_platform_hull_1"
       ],
@@ -5337,6 +5659,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_military_station_health.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_defense_platform_hull_1"
       ],
@@ -5356,6 +5679,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_improved_tile_mineral_output.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mineral_purification_2"
       ],
@@ -5375,6 +5699,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_repeatable_lcluster_clue.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5394,6 +5719,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_reduced_building_time.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_construction_templates"
       ],
@@ -5413,6 +5739,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_explosive_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_3"
       ],
@@ -5432,6 +5759,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_explosive_fire_rate.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_3"
       ],
@@ -5451,6 +5779,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_kinetic_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_3"
       ],
@@ -5470,6 +5799,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_kinetic_fire_rate.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_mass_drivers_3"
       ],
@@ -5489,6 +5819,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_strike_craft_fire_damage.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_strike_craft_3"
       ],
@@ -5508,6 +5839,7 @@ GraphData = {
       "level": 16,
       "image": "images/technologies/tech_repeatable_weapon_type_strike_craft_fire_rate.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_strike_craft_3"
       ],
@@ -5523,6 +5855,7 @@ GraphData = {
       "level": 7,
       "image": "images/technologies/tech_robomodding.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_robotic_workers"
       ],
@@ -5538,6 +5871,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_robomodding_m.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_powered_exoskeletons"
       ],
@@ -5553,6 +5887,7 @@ GraphData = {
       "level": 10,
       "image": "images/technologies/tech_robomodding_points_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_robomodding",
         "tech_droid_workers"
@@ -5573,6 +5908,7 @@ GraphData = {
       "level": 15,
       "image": "images/technologies/tech_robomodding_points_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_robomodding_points_1",
         "tech_synthetic_workers"
@@ -5589,6 +5925,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_robotic_workers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_powered_exoskeletons"
       ],
@@ -5604,6 +5941,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_self_assembling_components.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_micro_replicators"
       ],
@@ -5623,6 +5961,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_ship_armor_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5638,6 +5977,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_ship_armor_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ship_armor_1"
       ],
@@ -5653,6 +5993,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_ship_armor_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ship_armor_2"
       ],
@@ -5668,6 +6009,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_ship_armor_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ship_armor_3"
       ],
@@ -5683,6 +6025,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_ship_armor_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_ship_armor_4"
       ],
@@ -5702,6 +6045,7 @@ GraphData = {
       "level": 4,
       "image": "images/technologies/tech_solar_panel_network.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_2"
       ],
@@ -5721,6 +6065,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_space_construction.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -5740,6 +6085,7 @@ GraphData = {
       "level": 3,
       "image": "images/technologies/tech_space_defense_station_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_1"
       ],
@@ -5759,6 +6105,7 @@ GraphData = {
       "level": 12,
       "image": "images/technologies/tech_space_defense_station_improvement.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_4",
         "tech_modular_engineering"
@@ -5779,6 +6126,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_space_exploration.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_basic_science_lab_1"
       ],
@@ -5794,6 +6142,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_space_mining_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -5809,6 +6158,7 @@ GraphData = {
       "level": 6,
       "image": "images/technologies/tech_space_mining_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_mining_1"
       ],
@@ -5824,6 +6174,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_space_mining_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_mining_2"
       ],
@@ -5839,6 +6190,7 @@ GraphData = {
       "level": 9,
       "image": "images/technologies/tech_space_mining_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_mining_3"
       ],
@@ -5854,6 +6206,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_space_mining_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_mining_4"
       ],
@@ -5873,6 +6226,7 @@ GraphData = {
       "level": 2,
       "image": "images/technologies/tech_starbase_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_space_construction"
       ],
@@ -5892,6 +6246,7 @@ GraphData = {
       "level": 3,
       "image": "images/technologies/tech_starbase_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_1"
       ],
@@ -5907,6 +6262,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_starbase_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_2"
       ],
@@ -5922,6 +6278,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_starbase_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_3"
       ],
@@ -5937,6 +6294,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_starbase_5.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_4"
       ],
@@ -5952,6 +6310,7 @@ GraphData = {
       "level": 5,
       "image": "images/technologies/tech_strike_craft_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_starbase_2"
       ],
@@ -5967,6 +6326,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_strike_craft_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_strike_craft_1"
       ],
@@ -5982,6 +6342,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_strike_craft_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_strike_craft_2"
       ],
@@ -5997,6 +6358,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_swarmer_missiles_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_2"
       ],
@@ -6012,6 +6374,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_swarmer_missiles_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_swarmer_missiles_1"
       ],
@@ -6027,6 +6390,7 @@ GraphData = {
       "level": 15,
       "image": "images/technologies/tech_synthetic_leaders.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_synthetic_workers"
       ],
@@ -6046,6 +6410,7 @@ GraphData = {
       "level": 14,
       "image": "images/technologies/tech_synthetic_workers.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_droid_workers",
         "tech_galactic_administration",
@@ -6067,6 +6432,7 @@ GraphData = {
       "level": 1,
       "image": "images/technologies/tech_thrusters_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "Engineering-root"
       ],
@@ -6082,6 +6448,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_thrusters_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_thrusters_1"
       ],
@@ -6097,6 +6464,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_thrusters_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_thrusters_2"
       ],
@@ -6112,6 +6480,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_thrusters_4.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_thrusters_3"
       ],
@@ -6131,6 +6500,7 @@ GraphData = {
       "level": 17,
       "image": "images/technologies/tech_titan_hull_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_titans"
       ],
@@ -6150,6 +6520,7 @@ GraphData = {
       "level": 18,
       "image": "images/technologies/tech_titan_hull_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_titan_hull_1"
       ],
@@ -6161,10 +6532,11 @@ GraphData = {
       "id": "tech_titans",
       "label": "Titans",
       "group": "Engineering",
-      "title": "<b>Titans</b><br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><i>Requires the Apocalypse DLC</i>",
+      "title": "<b>Titans</b><br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 16,
       "image": "images/technologies/tech_titans.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_battleships"
       ],
@@ -6180,6 +6552,7 @@ GraphData = {
       "level": 8,
       "image": "images/technologies/tech_torpedoes_1.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_missiles_1"
       ],
@@ -6195,6 +6568,7 @@ GraphData = {
       "level": 11,
       "image": "images/technologies/tech_torpedoes_2.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_torpedoes_1"
       ],
@@ -6210,6 +6584,7 @@ GraphData = {
       "level": 13,
       "image": "images/technologies/tech_torpedoes_3.png",
       "hasImage": true,
+      "nodeType": "tech",
       "prerequisites": [
         "tech_torpedoes_2"
       ],
@@ -6224,6 +6599,7 @@ GraphData = {
       "level": 0,
       "image": "images/technologies/Physics-root.png",
       "hasImage": true,
+      "nodeType": "tech",
       "categories": [
         "particles",
         "field_manipulation",
@@ -6237,6 +6613,7 @@ GraphData = {
       "level": 0,
       "image": "images/technologies/Society-root.png",
       "hasImage": true,
+      "nodeType": "tech",
       "categories": [
         "biology",
         "statecraft",
@@ -6252,6 +6629,7 @@ GraphData = {
       "level": 0,
       "image": "images/technologies/Engineering-root.png",
       "hasImage": true,
+      "nodeType": "tech",
       "categories": [
         "industry",
         "propulsion",

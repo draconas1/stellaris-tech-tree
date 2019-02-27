@@ -6,28 +6,30 @@ ImageFunctions = {
     allImagePromises.forEach(result => downloadedImagesById[result.nodeId] = result.img);
 
     Object.entries(allNodes).forEach(([nodeId, node]) => {
-      const nodeImage = downloadedImagesById[nodeId];
-      if (node.hasImage && nodeImage != null) {
-        const boundingbox = network.getBoundingBox([nodeId]);
-        ctx.drawImage(nodeImage, boundingbox.left + 5, boundingbox.top - ((nodeImage.height - (boundingbox.bottom - boundingbox.top)) / 2));
-      }
-
-      // draw categories
-      if (node.categories !== undefined) {
-        for (let i = 0; i< node.categories.length; i++) {
-          const category = node.categories[i];
-          const categoryImage = downloadedImagesById[category];
+      if (node.shape !== 'image') {
+        const nodeImage = downloadedImagesById[nodeId];
+        if (node.hasImage && nodeImage != null) {
           const boundingbox = network.getBoundingBox([nodeId]);
+          ctx.drawImage(nodeImage, boundingbox.left + 5, boundingbox.top - ((nodeImage.height - (boundingbox.bottom - boundingbox.top)) / 2));
+        }
 
-          // special case for single category - centralise the category
-          if (node.categories.length === 1) {
-            ctx.drawImage(categoryImage, boundingbox.right - 34, boundingbox.top - ((categoryImage.height - (boundingbox.bottom - boundingbox.top)) / 2));
-          }
-          // else draw them stacked, they will slightly overlap the box and start going outside if there is more than 2.
-          else {
-            const x = (boundingbox.right - 34) + (Math.floor(i / 2) * 32);
-            const y = boundingbox.top + ((i % 2) * 32);
-            ctx.drawImage(categoryImage, x, y);
+        // draw categories
+        if (node.categories !== undefined) {
+          for (let i = 0; i < node.categories.length; i++) {
+            const category = node.categories[i];
+            const categoryImage = downloadedImagesById[category];
+            const boundingbox = network.getBoundingBox([nodeId]);
+
+            // special case for single category - centralise the category
+            if (node.categories.length === 1) {
+              ctx.drawImage(categoryImage, boundingbox.right - 34, boundingbox.top - ((categoryImage.height - (boundingbox.bottom - boundingbox.top)) / 2));
+            }
+            // else draw them stacked, they will slightly overlap the box and start going outside if there is more than 2.
+            else {
+              const x = (boundingbox.right - 34) + (Math.floor(i / 2) * 32);
+              const y = boundingbox.top + ((i % 2) * 32);
+              ctx.drawImage(categoryImage, x, y);
+            }
           }
         }
       }

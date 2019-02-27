@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using FParsec;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using TechTreeCreator.DTO;
@@ -62,12 +64,6 @@ namespace TechTreeCreator.Output
 
                 if (filePath != null && File.Exists(filePath))
                 {
-                    var ddsImage = Pfim.Pfim.FromFile(filePath);
-                    if (ddsImage.Compressed)
-                    {
-                        ddsImage.Decompress();
-                    }
-
                     entity.IconFound = TransformAndOutputImage(filePath, outputFilePath);
                 }
                 else
@@ -82,21 +78,27 @@ namespace TechTreeCreator.Output
             // make sure we can output
             if (File.Exists(inputPath))
             {
-                var ddsImage = Pfim.Pfim.FromFile(inputPath);
-                if (ddsImage.Compressed)
-                {
-                    ddsImage.Decompress();
+                try {
+                    var ddsImage = Pfim.Pfim.FromFile(inputPath);
+                    if (ddsImage.Compressed) {
+                        ddsImage.Decompress();
+                    }
+
+                    switch (ddsImage.Format) {
+                        case Pfim.ImageFormat.Rgba32:
+                            Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height)
+                                .Save(outputPath);
+                            return true;
+                        case Pfim.ImageFormat.Rgb24:
+                            Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
+                            return true;
+                        default:
+                            Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
+                            return false;
+                    }
                 }
-                switch (ddsImage.Format) {
-                    case Pfim.ImageFormat.Rgba32:
-                        Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
-                        return true;
-                    case Pfim.ImageFormat.Rgb24:
-                        Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
-                        return true;
-                    default:
-                        Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
-                        return false;
+                catch (Exception e) {
+                    Console.WriteLine("Error processing file: " + inputPath + " to: " + outputPath + ": " + e.Message);
                 }
             }
 

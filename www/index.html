@@ -15,7 +15,8 @@
 
       gtag('config', 'UA-133958990-1');
     </script>
-    <script type="text/javascript" src="graph.js?v=2"></script>
+    <script type="text/javascript" src="graphDataTech.js?v=2"></script>
+    <script type="text/javascript" src="graphDataBuildings.js?v=2"></script>
     <script type="text/javascript" src="graphOptions.js?v=2"></script>
     <script type="text/javascript" src="imagesFunctions.js?v=2"></script>
     <script type="text/javascript" src="techTree.js?v=2"></script>
@@ -131,7 +132,7 @@
     var allNodes;
     var allEdges;
     var nodesDataset;
-    var edgesDataset = new vis.DataSet(GraphData.edges);
+    var edgesDataset = new vis.DataSet(GraphDataTech.edges.concat(GraphDataBuildings.edges));
 
     document.getElementById("searchBox").addEventListener("input", _.debounce(findNodesByLabel, 300));
 

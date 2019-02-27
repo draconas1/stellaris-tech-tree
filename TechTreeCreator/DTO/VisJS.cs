@@ -48,12 +48,12 @@ namespace TechTreeCreator.DTO
         /// </summary>
         /// <param name="toDir"></param>
         /// <param name="fileName"></param>
-        public void WriteVisDataToOneJSFile(string toDir, string fileName = "graph.js")
+        public void WriteVisDataToOneJSFile(string toDir, string fileName, string jSVariableName)
         {
             JsonSerializer serializer = GetSerializer();
 
             var writer = new StringWriter();
-            writer.Write("GraphData = ");
+            writer.Write(jSVariableName + " = ");
 
             serializer.Serialize(new JsonTextWriter(writer), this);
             
