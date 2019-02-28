@@ -158,7 +158,7 @@ namespace TechTreeCreator.Output {
                 : new string[] { };
     
             result.title = result.title + "<br/><b>Build Time: </b>" + building.BaseBuildTime;
-            result.shape = "image";
+            result.group = "Building";
             
             if (building.Category != null) {
                 result.title = result.title + "<br/><b>Category: </b>" + localisationApi.GetName(building.Category);

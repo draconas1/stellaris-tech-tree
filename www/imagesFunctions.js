@@ -6,7 +6,8 @@ ImageFunctions = {
     allImagePromises.forEach(result => downloadedImagesById[result.nodeId] = result.img);
 
     Object.entries(allNodes).forEach(([nodeId, node]) => {
-      if (node.shape !== 'image') {
+      // do not try to add images if the node itself is an image or the node is part of a cluster
+      if (node.shape !== 'image' && node.group !== 'Building' && network.findNode(nodeId).length < 2) {
         const nodeImage = downloadedImagesById[nodeId];
         if (node.hasImage && nodeImage != null) {
           const boundingbox = network.getBoundingBox([nodeId]);

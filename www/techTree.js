@@ -122,26 +122,6 @@ async function createNetwork() {
     let promiseResults = await ImageFunctions.loadAllImages();
     network.on("afterDrawing", ctx => ImageFunctions.addImagesToTextNodes(ctx, promiseResults));
   }
-
-
-  const joinOptions = {
-    joinCondition:function(nodeOptions, childNodeOptions) {
-      return childNodeOptions.nodeType === 'tech';
-    },
-    processProperties: function(clusterOptions, childNodes) {
-      const tech = childNodes.filter(node => node.nodeType === 'tech');
-      const clusterNode = { ...tech[0]};
-      clusterNode.id = 'cluster-' + tech[0].id;
-      return clusterNode;
-    },
-  };
-
-  // Object.entries(allNodes).forEach(([nodeId, node]) => {
-  //   if (node.nodeType === 'building') {
-  //     network.clusterByConnection(nodeId, joinOptions);
-  //   }
-  // });
-
   return false;
 }
 

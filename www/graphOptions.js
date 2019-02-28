@@ -1,6 +1,10 @@
 GraphOptions = {
   nodes: {
     shape: 'box',
+    shapeProperties: {
+      useBorderWithImage: true,
+      borderRadius: 3
+    },
     font: {
       size: 26,
       align: 'left'
@@ -12,10 +16,6 @@ GraphOptions = {
     },
     borderWidth: 0,
     borderWidthSelected: 2,
-    shapeProperties: {
-      useBorderWithImage: true,
-      borderRadius: 3
-    },
     heightConstraint: {minimum: 46},
     margin: {
       left: 58,
@@ -57,6 +57,14 @@ GraphOptions = {
       color: {
         background: '#e5a649'
       }
+    },
+    Building: {
+      shape: 'image',
+      shapeProperties: {
+        useBorderWithImage: false,
+        useImageSize: true,
+        borderRadius: 0
+      },
     }
   },
   interaction: {

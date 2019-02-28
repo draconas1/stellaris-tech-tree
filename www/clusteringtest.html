@@ -30,11 +30,11 @@
 <script type="text/javascript">
   // create an array with nodes
   var nodes = new vis.DataSet([
-    {id: 1, label: 'Tech 1', level: 1},
-    {id: 2, label: 'Tech 2', level: 3},
-    {id: 3, label: 'Building 1', building: true, level : 2},
-    {id: 4, label: 'Building 2', building: true, level : 4},
-    {id: 5, label: 'Building 3', building: true, level : 5}
+    {id: 1, label: 'Tech 1'},
+    {id: 2, label: 'Tech 2'},
+    {id: 3, label: 'Building 1', building: true},
+    {id: 4, label: 'Building 2', building: true},
+    {id: 5, label: 'Building 3', building: true,  image: "images/buildings/building_citadel_of_faith.png", shape: "image"}
   ]);
 
   // create an array with edges
@@ -68,7 +68,8 @@
 
   var joinOptions = {
     joinCondition:function(nodeOptions, childNodeOptions) {
-      var result = childNodeOptions.building === true;
+      var result = nodeOptions.building === true;
+      //var result = childNodeOptions.building === true;
       return result;
     },
     processProperties: function(clusterOptions, childNodes) {
@@ -78,9 +79,9 @@
       return clusterNode;
     },
   }
-
-  network.clusterByConnection(1, joinOptions);
-  network.clusterByConnection(2, joinOptions);
+  network.clusterOutliers(joinOptions);
+  //network.clusterByConnection(1, joinOptions);
+  //network.clusterByConnection(2, joinOptions);
 
   network.on("selectNode", function(params) {
     if (params.nodes.length == 1) {
@@ -89,6 +90,11 @@
       }
     }
   });
+  console.log(network.isCluster(1));
+  console.log(network.isCluster(5));
+  console.log(network.isCluster('cluster-1'));
+  console.log(network.findNode(1))
+  console.log(network.findNode(5))
 </script>
 
 
