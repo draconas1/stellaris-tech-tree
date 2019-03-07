@@ -104,6 +104,12 @@ namespace TechTreeCreator.GraphCreation
             }
             
             node.ActOnNodes("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values, () => result.PrerequisiteIds = new string[]{});
+            
+            node.ActOnNodes("resources", cwNode => {
+                cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => result.Cost[value.Key] = Int32.Parse(value.Value)));
+                cwNode.ActOnNodes("upkeep", costNode => costNode.KeyValues.ForEach(value => result.Upkeep[value.Key] = Int32.Parse(value.Value)));
+                cwNode.ActOnNodes("produces", costNode => costNode.KeyValues.ForEach(value => result.Produces[value.Key] = Int32.Parse(value.Value)));
+            });
 
             return result;
         }

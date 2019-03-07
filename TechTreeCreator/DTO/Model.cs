@@ -36,7 +36,14 @@ namespace TechTreeCreator.DTO {
     public class Building : Entity {
         public int? BaseBuildTime { get; set; }
         public string Category { get; set; }
+
+        public Dictionary<string, int> Cost { get; }
+        public Dictionary<string, int> Upkeep { get; }
+        public Dictionary<string, int> Produces { get; }
         public Building(string id) : base(id) {
+            Cost = new Dictionary<string, int>();
+            Upkeep = new Dictionary<string, int>();
+            Produces = new Dictionary<string, int>();
         }
     } 
 

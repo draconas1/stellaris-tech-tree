@@ -164,12 +164,30 @@ namespace TechTreeCreator.Output {
                 result.title = result.title + "<br/><b>Category: </b>" + localisationApi.GetName(building.Category);
             }
 
+            result.title = result.title + AddBuildingResources("Cost", building.Cost);
+            result.title = result.title + AddBuildingResources("Upkeep", building.Upkeep);
+            result.title = result.title + AddBuildingResources("Produces", building.Produces);
+
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => nodeLookup[x.Id].level).Max();
             result.level = highestLevelOfPrerequisiteTechs + 1;
 
 
             return result;
+        }
+
+        private string AddBuildingResources(string resourceType, Dictionary<string, int> costs) {
+            if (costs.Any()) {
+                string costString = "<br/><b>" + resourceType + ":</b>";
+                foreach (var (key, value) in costs) {
+                    costString = costString + " " + value + " " + localisationApi.GetName(key) + ",";
+                }
+                
+                return costString.Remove(costString.Length - 1);;
+            }
+            else {
+                return "";
+            }
         }
 
         private VisNode MarshalTech(Tech tech, Dictionary<int, int> startingLevelsByTier, string imagesPath)
