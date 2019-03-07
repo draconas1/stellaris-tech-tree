@@ -1,0 +1,7 @@
+web graphing is difficult (who knew?), as I am pushing against Vis.js now.
+
+https://www.nwoods.com/products/gojs/ - commenerical but could live with the watermark.  
+
+http://js.cytoscape.org/
+
+https://stackoverflow.com/questions/7034/graph-visualization-library-in-javascript

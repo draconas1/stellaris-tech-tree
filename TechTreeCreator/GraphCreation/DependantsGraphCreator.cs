@@ -93,9 +93,15 @@ namespace TechTreeCreator.GraphCreation
             var result = new Building(node.Key) {
                 Name =  localisationApiHelper.GetName(node.Key),
                 Description = localisationApiHelper.GetDescription(node.Key),
-                BaseBuildTime = int.Parse(node.GetKeyValue("cost") ?? "0"),
+                BaseBuildTime = int.Parse(node.GetKeyValue("base_buildtime") ?? "0"),
                 Category = node.GetKeyValue("category"),
             };
+            
+            // if icon has been defined
+            if (node.GetKeyValue("icon") != null)
+            {
+                result.Icon = node.GetKeyValue("icon");
+            }
             
             node.ActOnNodes("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values, () => result.PrerequisiteIds = new string[]{});
 

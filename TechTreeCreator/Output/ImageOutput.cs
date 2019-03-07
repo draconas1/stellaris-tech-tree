@@ -49,6 +49,7 @@ namespace TechTreeCreator.Output
                     filePath = Path.Combine(inputDirRoot, entity.Icon + ".dds");
                     // happy days, found it based on icon
                     if (File.Exists(filePath)) {
+                        entity.IconFound = true;
                         break;
                     }
                     else {
@@ -56,6 +57,7 @@ namespace TechTreeCreator.Output
                         filePath = Path.Combine(inputDirRoot, entity.Id + ".dds");
                         // if we find it break out immideately
                         if (File.Exists(filePath)) {
+                            entity.IconFound = true;
                             break;
                         }
                     }
