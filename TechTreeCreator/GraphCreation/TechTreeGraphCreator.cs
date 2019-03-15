@@ -10,9 +10,8 @@ using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
 {
-    class TechTreeGraphCreator
+    class TechTreeGraphCreator : EntityCreator
     {
-        private readonly ILocalisationApiHelper localisationApiHelper;
         private readonly ICWParserHelper cwParserHelper;
         private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
@@ -28,12 +27,11 @@ namespace TechTreeCreator.GraphCreation
 
 
         public TechTreeGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
-            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers)
+            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) : base(localisationApiHelper)
         {
-            this.localisationApiHelper = localisationApiHelper;
             this.cwParserHelper = cwParserHelper;
             this.stellarisDirectoryHelper = stellarisDirectoryHelper;
-            this.modDirectoryHelpers = modDirectoryHelpers.NullToEmpty();
+            this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
             ParseFileMask = StellarisDirectoryHelper.TextMask;
@@ -42,31 +40,10 @@ namespace TechTreeCreator.GraphCreation
         public TechsAndDependencies CreateTechnologyGraph()
         {
             var techs = new Dictionary<string, Tech>();
-            var links = new HashSet<Link>();
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 GetTechsFromFile(techs, modDirectoryHelper);
             }
-
-            // populate prerequisites
-            foreach (var (id, tech) in techs) {
-                // it is possible that the pre-reqs for a technology do not exist
-                // in this we do not add them to the populated list, but leave them in the ids list
-                var prereqs = new List<Tech>();
-                if (tech.PrerequisiteIds != null) {
-                    foreach (var prerequisiteId in tech.PrerequisiteIds) {
-                        if (techs.TryGetValue(prerequisiteId, out var prereq)) {
-                            prereqs.Add(prereq);
-                            links.Add(new Link() {From = prereq, To = tech});
-                        }
-                        else {
-                            Debug.WriteLine("Could not find prerequisite {0} for tech {1}", prerequisiteId, id);
-                        }
-                    }
-                }
-
-                tech.Prerequisites = prereqs;
-            }
-
+            var links = PopulateTechDependenciesAndReturnLinks(techs.Values, techs);
             return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
         }
 
@@ -78,17 +55,15 @@ namespace TechTreeCreator.GraphCreation
                 // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
                 foreach (var node in file.Value.Nodes)
                 {
-                    Tech tech = ProcessNodeModel(node);
+                    Tech tech = ProcessNodeModel(file.Key, node);
                     techs[tech.Id] = tech;
                 }
             }
         }
         
-        private Tech ProcessNodeModel(CWNode node) {
-            var result = new Tech(node.Key) {
-                Name =  localisationApiHelper.GetName(node.Key),
-                Description = localisationApiHelper.GetDescription(node.Key)
-            };
+        private Tech ProcessNodeModel(string filePath, CWNode node) {
+            var result = new Tech(node.Key);
+            Initialise(result, filePath, node);
 
             TechArea area;
             string areaKeyValue = node.GetKeyValue("area");
@@ -171,19 +146,6 @@ namespace TechTreeCreator.GraphCreation
 
             result.Flags = techFlags;
             
-            node.ActOnNodes("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values);
-
-            // if icon has been defined
-            if (node.GetKeyValue("icon") != null)
-            {
-                result.Icon = node.GetKeyValue("icon");
-            }
-            
-            // if its a DLC tech
-            node.ActOnNodes("potential", potentialNode => {
-                result.DLC = potentialNode.GetKeyValue("host_has_dlc");
-            });
-
             return result;
         }
     }

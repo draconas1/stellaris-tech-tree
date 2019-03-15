@@ -37,9 +37,9 @@ namespace TechTreeCreator.DTO {
         public int? BaseBuildTime { get; set; }
         public string Category { get; set; }
 
-        public Dictionary<string, int> Cost { get; }
-        public Dictionary<string, int> Upkeep { get; }
-        public Dictionary<string, int> Produces { get; }
+        public IDictionary<string, int> Cost { get; }
+        public IDictionary<string, int> Upkeep { get; }
+        public IDictionary<string, int> Produces { get; }
         public Building(string id) : base(id) {
             Cost = new Dictionary<string, int>();
             Upkeep = new Dictionary<string, int>();
@@ -56,6 +56,8 @@ namespace TechTreeCreator.DTO {
         public string Icon { get => icon ?? Id;
             set => icon = value;
         }
+        
+        public string FilePath { get; set; }
         
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
@@ -89,12 +91,12 @@ namespace TechTreeCreator.DTO {
     }
 
     public class TechsAndDependencies {
-        public Dictionary<string, Tech> Techs { get; set; }
+        public IDictionary<string, Tech> Techs { get; set; }
         public ISet<Link> Prerequisites { get; set; }
     }
 
     public class ObjectsDependantOnTechs {
-        public Dictionary<string, Building> Buildings { get; set; }
+        public IDictionary<string, Building> Buildings { get; set; }
         public ISet<Link> Prerequisites { get; set; }
     }
     

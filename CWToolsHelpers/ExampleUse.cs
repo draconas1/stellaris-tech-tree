@@ -19,7 +19,7 @@ namespace CWToolsHelpers {
         /// Example of using the helpers to parse tech files.
         /// </summary>
         /// <param name="stellarisRoot">The root directory to Stellaris</param>
-        /// <param name="modRoots">The root directory of any mods you also wish to use.  The mods will be loaded in order, with later mods overriding earlier ones (as per Stellaris), thus suggest you use an ordered collection!</param>
+        /// <param name="modRoots">The root directory of any mods you also wish to use.  The mod list will be processed in the same way Stellaris would, with earlier mods in the list overriding later ones.  (Conflict resolution: first-in wins), thus suggest you use an ordered collection!</param>
         public static void Example(string stellarisRoot, IEnumerable<string> modRoots) {
             // First create DirectoryHelpers for stellaris and all the mods.
             // While at the moment I could get away with changing the API to simply take an IEnumerable that includes the main stellaris directory
@@ -53,8 +53,7 @@ namespace CWToolsHelpers {
 
             // parse over all the tech files and convert each teach into a basic descriptive string
             // am storing each tech in a dictionary to allow the mods (which process after main) to override values in the core game.
-            var allDirectoryHelpers = new List<StellarisDirectoryHelper> {stellarisDirectoryHelper};
-            allDirectoryHelpers.AddRange(modDirectoryHelpers);
+            var allDirectoryHelpers = StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers);
             var result = new Dictionary<string, string>();
             foreach (var directoryHelper in allDirectoryHelpers) {
                 

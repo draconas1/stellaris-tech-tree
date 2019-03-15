@@ -11,9 +11,8 @@ using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
 {
-    class DependantsGraphCreator
+    class DependantsGraphCreator : EntityCreator
     {
-        private readonly ILocalisationApiHelper localisationApiHelper;
         private readonly ICWParserHelper cwParserHelper;
         private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
@@ -29,12 +28,11 @@ namespace TechTreeCreator.GraphCreation
 
 
         public DependantsGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
-            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers)
+            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) : base(localisationApiHelper) 
         {
-            this.localisationApiHelper = localisationApiHelper;
             this.cwParserHelper = cwParserHelper;
             this.stellarisDirectoryHelper = stellarisDirectoryHelper;
-            this.modDirectoryHelpers = modDirectoryHelpers.NullToEmpty();
+            this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
             ParseFileMask = StellarisDirectoryHelper.TextMask;
@@ -43,30 +41,12 @@ namespace TechTreeCreator.GraphCreation
         public ObjectsDependantOnTechs CreateDependantGraph(TechsAndDependencies techsAndDependencies)
         {
             var buildings = new Dictionary<string, Building>();
-            var links = new HashSet<Link>();
+           
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 GetBuildingsFromFile(buildings, modDirectoryHelper);
             }
-            
-            // populate prerequisites
-            foreach (var (id, building) in buildings) {
-                // it is possible that the pre-reqs for a technology do not exist
-                // in this we do not add them to the populated list, but leave them in the ids list
-                var prereqs = new List<Tech>();
-                if (building.PrerequisiteIds != null) {
-                    foreach (var prerequisiteId in building.PrerequisiteIds) {
-                        if (techsAndDependencies.Techs.TryGetValue(prerequisiteId, out var prereq)) {
-                            prereqs.Add(prereq);
-                            links.Add(new Link() {From = prereq, To = building});
-                        }
-                        else {
-                            Debug.WriteLine("Could not find prerequisite {0} for building {1}", prerequisiteId, id);
-                        }
-                    }
-                }
 
-                building.Prerequisites = prereqs;
-            }
+            var links = PopulateTechDependenciesAndReturnLinks(buildings.Values, techsAndDependencies.Techs);
 
             return new ObjectsDependantOnTechs() {
                 Buildings = buildings,
@@ -81,7 +61,7 @@ namespace TechTreeCreator.GraphCreation
             {
                 // top level nodes are files, so we process the immediate children of each file, which is the individual items.
                 foreach (var node in file.Value.Nodes) {
-                    var building = CreateBuilding(node);
+                    var building = CreateBuilding(file.Key, node);
                     if (building.PrerequisiteIds.Any()) {
                         buildings[building.Id] = building;
                     }
@@ -89,21 +69,13 @@ namespace TechTreeCreator.GraphCreation
             }
         }
 
-        private Building CreateBuilding(CWNode node) {
+        private Building CreateBuilding(string filePath, CWNode node) {
             var result = new Building(node.Key) {
-                Name =  localisationApiHelper.GetName(node.Key),
-                Description = localisationApiHelper.GetDescription(node.Key),
                 BaseBuildTime = int.Parse(node.GetKeyValue("base_buildtime") ?? "0"),
                 Category = node.GetKeyValue("category"),
+                FilePath = filePath
             };
-            
-            // if icon has been defined
-            if (node.GetKeyValue("icon") != null)
-            {
-                result.Icon = node.GetKeyValue("icon");
-            }
-            
-            node.ActOnNodes("prerequisites", cwNode => result.PrerequisiteIds = cwNode.Values, () => result.PrerequisiteIds = new string[]{});
+            Initialise(result, filePath, node);
             
             node.ActOnNodes("resources", cwNode => {
                 cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => result.Cost[value.Key] = Int32.Parse(value.Value)));

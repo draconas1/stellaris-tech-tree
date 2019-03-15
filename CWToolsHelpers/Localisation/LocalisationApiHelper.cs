@@ -24,17 +24,13 @@ namespace CWToolsHelpers.Localisation {
             STLLang language) {
             //When using the ILocalisationAp for a specific language, the key thing being used is the Values property,
             //which is a raw dictionary of keys to text values.
-            var coreLocalisationService =
-                new STLLocalisation.STLLocalisationService(new LocalisationSettings(stellarisDirectoryHelper.Localisation));
-            var coreLocalisation = coreLocalisationService.Api(Lang.NewSTL(language)).Values;
-            foreach (var modDirectoryHelper in modDirectoryHelpers) {
-                var modLocalisationService =
-                    new STLLocalisation.STLLocalisationService(new LocalisationSettings(modDirectoryHelper.Localisation));
-                var modLocalisation = modLocalisationService.Api(Lang.NewSTL(language)).Values;
-                coreLocalisation.PutAll(modLocalisation);
+            localisation = new Dictionary<string, string>();
+            foreach (var directoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
+                var localisationService =
+                    new STLLocalisation.STLLocalisationService(new LocalisationSettings(directoryHelper.Localisation));
+                var values = localisationService.Api(Lang.NewSTL(language)).Values;
+                localisation.PutAll(values);
             }
-
-            localisation = coreLocalisation;
         }
         
         /// <inheritdoc />

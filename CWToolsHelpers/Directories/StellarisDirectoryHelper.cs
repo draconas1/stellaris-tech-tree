@@ -58,14 +58,14 @@ namespace CWToolsHelpers.Directories {
         /// Helper as a lot of the API's want the main game directory and mod directories as separate items, but will process them the same, just with the order changing depending on what is to be overrriden.
         /// </summary>
         /// <param name="stellarisDirectoryHelper">The main game directoryHelper</param>
-        /// <param name="modDirectoryHelpers">Directory helpers for the game mod, may be <c>null</c></param>
-        /// <param name="position">Where the main game helper should be inserted into the list, defaults to the first position, as the most often scenario is for it to be processed first then overriden by mods</param>
-        /// <returns>A list contianing the game directory and the mod directories, witht he game inserted in the specified location</returns>
+        /// <param name="modDirectoryHelpers">Directory helpers for the game mod, may be <c>null</c>.  This should be in the order they appear in the game loader (usually alphabetal) where conflicts will be resolved by a "first in wins" strategy.  E.g. Mods that are earlier on this list will overwrite mods that are later in this list.</param>
+        /// <param name="position">Where the main game helper should be inserted into the result list, defaults to the first position, as the most often scenario is for it to be processed first then overriden by mods</param>
+        /// <returns>A list contianing the game directory and the mod directories, with the game inserted in the specified location</returns>
         public static IList<StellarisDirectoryHelper> CreateCombinedList(
             StellarisDirectoryHelper stellarisDirectoryHelper,
             IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers,
             StellarisDirectoryPositionModList position = StellarisDirectoryPositionModList.First) {
-            var stellarisDirectoryHelpers = modDirectoryHelpers.NullToEmpty().ToList();
+            var stellarisDirectoryHelpers = modDirectoryHelpers.NullToEmpty().Reverse().ToList();
             switch (position) {
                 case StellarisDirectoryPositionModList.First:
                     stellarisDirectoryHelpers.Insert(0, stellarisDirectoryHelper);

@@ -30,13 +30,11 @@ namespace CWToolsHelpers.ScriptedVariables {
             DirectoryWalker = directoryWalker;
             CWParserHelper = cwParserHelper;
 
-            var scriptedVars = ParseScriptedVariables(stellarisDirectoryHelper.ScriptedVariables);
-            foreach (var directoryHelper in modDirectoryHelpers) {
+            variables = new Dictionary<string, string>();
+            foreach (var directoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 var modVariables = ParseScriptedVariables(directoryHelper.ScriptedVariables);
-                scriptedVars.PutAll(modVariables);
+                variables.PutAll(modVariables);
             }
-
-            variables = scriptedVars;
         } 
         
         /// <inheritdoc />
