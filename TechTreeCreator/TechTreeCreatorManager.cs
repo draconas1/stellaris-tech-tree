@@ -83,8 +83,8 @@ namespace TechTreeCreator
         }
         
         public VisData ParseObjectsDependantOnTechs(TechsAndDependencies techsAndDependencies, VisData techVisData) {
-            var parser = new DependantsGraphCreator(localisation, cwParser, stellarisDirectoryHelper, modDirectoryHelpers);
-            var dependantGraph = parser.CreateDependantGraph(techsAndDependencies);
+            var parser = new DependantsGraphCreator(localisation, cwParser, stellarisDirectoryHelper, modDirectoryHelpers, techsAndDependencies);
+            var dependantGraph = parser.CreateDependantGraph();
             CopyMainImages(dependantGraph.Buildings.Values, "buildings", Path.Combine("images", "buildings"));
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techVisData, dependantGraph, Path.Combine("images", "buildings"));

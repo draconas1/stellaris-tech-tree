@@ -10,61 +10,34 @@ using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
 {
-    class TechTreeGraphCreator : EntityCreator
-    {
-        private readonly ICWParserHelper cwParserHelper;
+    class TechTreeGraphCreator : EntityCreator<Tech> {
         private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
 
-        /// <summary>
-        /// List of file names (exact) that will be skipped when parsing.  Defaults to  "00_tier.txt", "00_category.txt" 
-        /// </summary>
-        public List<string> IgnoreFiles { get; set; }
-        /// <summary>
-        /// File mask used for finding files.  defaults to "*.txt"
-        /// </summary>
-        public string ParseFileMask { get; set; }
-
-
         public TechTreeGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
-            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) : base(localisationApiHelper)
+            StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers) : base(localisationApiHelper, cwParserHelper)
         {
-            this.cwParserHelper = cwParserHelper;
             this.stellarisDirectoryHelper = stellarisDirectoryHelper;
             this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
-            ParseFileMask = StellarisDirectoryHelper.TextMask;
         }
 
         public TechsAndDependencies CreateTechnologyGraph()
         {
             var techs = new Dictionary<string, Tech>();
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                GetTechsFromFile(techs, modDirectoryHelper);
+                ProcessDirectoryHelper(techs, modDirectoryHelper);
             }
             var links = PopulateTechDependenciesAndReturnLinks(techs.Values, techs);
             return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
         }
-
-        private void GetTechsFromFile(Dictionary<string, Tech> techs, StellarisDirectoryHelper directoryHelper) {
-            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryHelper.Technology, ParseFileMask, IgnoreFiles);
-            var parsedTechFiles = cwParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList());
-            foreach(var file in parsedTechFiles)
-            {
-                // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
-                foreach (var node in file.Value.Nodes)
-                {
-                    Tech tech = ProcessNodeModel(file.Key, node);
-                    techs[tech.Id] = tech;
-                }
-            }
-        }
         
-        private Tech ProcessNodeModel(string filePath, CWNode node) {
-            var result = new Tech(node.Key);
-            Initialise(result, filePath, node);
+        protected override Tech Construct(CWNode node) {
+            return new Tech(node.Key);
+        }
 
+        protected override void SetVariables(Tech result, CWNode node) {
             TechArea area;
             string areaKeyValue = node.GetKeyValue("area");
             if ("physics".Equals(areaKeyValue, StringComparison.OrdinalIgnoreCase)) {
@@ -145,8 +118,10 @@ namespace TechTreeCreator.GraphCreation
             }
 
             result.Flags = techFlags;
-            
-            return result;
+        }
+
+        protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {
+            return directoryHelper.Technology;
         }
     }
 }

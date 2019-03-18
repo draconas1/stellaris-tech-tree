@@ -12,6 +12,8 @@ namespace CWToolsHelpers.Directories {
     public class StellarisDirectoryHelper {
         public const string TextMask = "*.txt";
         
+        public string ModName { get; }
+        
         public string Root { get; }
 
         public string Common => GetCommonDirectory(Root);
@@ -27,6 +29,7 @@ namespace CWToolsHelpers.Directories {
 
         public StellarisDirectoryHelper(string rootDirectory) {
             Root = rootDirectory;
+            ModName = new DirectoryInfo(rootDirectory).Name;
         }
 
 

@@ -59,6 +59,8 @@ namespace TechTreeCreator.DTO {
         
         public string FilePath { get; set; }
         
+        public string Mod { get; set; }
+        
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
         
