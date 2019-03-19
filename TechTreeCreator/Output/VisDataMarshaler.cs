@@ -1,32 +1,60 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
+using CWToolsHelpers.Directories;
 using CWToolsHelpers.Localisation;
+using FSharpx.Collections;
 using NetExtensions.Collection;
+using NetExtensions.Object;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output {
     public class VisDataMarshaler {
         private readonly ILocalisationApiHelper localisationApi;
 
-        public VisDataMarshaler(ILocalisationApiHelper localisationApi)
-        {
+        public VisDataMarshaler(ILocalisationApiHelper localisationApi) {
             this.localisationApi = localisationApi;
         }
 
-        public VisData CreateVisData(VisData techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath) {
+        public static VisData CreateCombined(IDictionary<string, VisData> datas) {
+            var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparatorExtensions.Create<VisNode>(x => x.id)).ToList();
+            visNodes.Sort((node1, node2) => {
+                var primary = String.Compare(node1.group, node2.@group, StringComparison.Ordinal);
+                return primary != 0 ? primary : string.Compare(node1.id, node2.id, StringComparison.Ordinal);
+            });
+            var visEdges = datas.Values.Select(x => x.edges).SelectMany(x => x).ToList();
+            return new VisData() {
+                nodes = visNodes,
+                edges = visEdges
+            };
+        }
+        
+        public IDictionary<string, VisData> CreateGroupedVisDependantData(IDictionary<string, VisData> techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath) {
+            var allTechData = CreateCombined(techData);
+            var result = new Dictionary<string, VisData>();
+            var modGroups = objectsDependantOnTechs.Prerequisites.Select(x => x.To.ModGroup).Distinct().ToList();
+            modGroups.ForEach(x => result[x] = CreateVisData(allTechData, objectsDependantOnTechs, imagesPath, x));
+            return result;
+        }
+        
+        public VisData CreateVisData(VisData techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath, string filter = null) {
             Dictionary<string,VisNode> nodeLookup = techData.nodes.ToDictionary(x => x.id);
 
             var result = new VisData() {
-                nodes = objectsDependantOnTechs.Buildings.Values.Select(x => MarshalBuilding(x, nodeLookup, imagesPath)).ToList(),
-                edges = objectsDependantOnTechs.Prerequisites.Select(MarshalLink).ToList()
+                ModGroup = filter,
+                nodes = objectsDependantOnTechs.Buildings.Values.Where(x => Filter(x, filter)).Select(x => MarshalBuilding(x, nodeLookup, imagesPath)).ToList(),
+                edges = objectsDependantOnTechs.Prerequisites.Where(x => Filter(x.To, filter)).Select(MarshalLink).ToList()
             };
 
             return result;
-
         }
         
-        public VisData CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
+        private bool Filter<T>(T entity, string modGroup) where T : Entity {
+            return modGroup == null || entity.ModGroup == modGroup;
+        }
+        
+        public IDictionary<string, VisData> CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
 
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
@@ -59,32 +87,39 @@ namespace TechTreeCreator.Output {
                 var primary = tech1.Area - tech2.Area;
                 return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
             });
-            var result = new VisData() {
-                nodes = techList.Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
-                edges = techsAndDependencies.Prerequisites.Select(MarshalLink).ToList()
-            };
             
-            // add supernodes
+            var modGroups = techsAndDependencies.Prerequisites.Select(x => x.To.ModGroup).Distinct().ToList();
+       
+            // link to supernodes
+            // build supernodes
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
             var rootNodes = new Dictionary<TechArea, VisNode>();
             foreach (var techArea in techAreas) {
                 var rootNode = BuildRootNode(techArea, imagesPath);
-                result.nodes.Add(rootNode);
                 rootNodes[techArea] = rootNode;
             }
-            
-            // link to supernodes
+            var results = new Dictionary<string, VisData>();
             var rootNodeCategories = new Dictionary<TechArea, HashSet<string>>();
-            foreach (var tech in techsWithNoPrereqs) {
-                result.edges.Add(BuildRootLink(tech.Area, tech.Id));
-                rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
+            foreach (var modGroup in modGroups) {
+                var result = new VisData() {
+                    nodes = techList.Where(x => Filter(x, modGroup)).Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
+                    edges = techsAndDependencies.Prerequisites.Where(x => Filter(x.To, modGroup)).Select(MarshalLink).ToList()
+                };
+                result.nodes.AddRange(rootNodes.Values);
+
+                foreach (var tech in techsWithNoPrereqs.Where(x => Filter(x, modGroup))) {
+                    result.edges.Add(BuildRootLink(tech.Area, tech.Id));
+                    rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
+                }
+
+                foreach (var (key, value) in rootNodes) {
+                    value.categories = rootNodeCategories.ComputeIfAbsent(key, ignored => new HashSet<string>()).ToArray();
+                }
+
+                results[modGroup] = result;
             }
 
-            foreach (var (key, value) in rootNodes) {
-                value.categories = rootNodeCategories.ComputeIfAbsent(key, ignored => new HashSet<string>()).ToArray();
-            }
-
-            return result;
+            return results;
         }
 
         private VisNode BuildRootNode(TechArea area, string imagesPath) {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Security.Policy;
+using CWTools.Parser;
 using Newtonsoft.Json;
 // ReSharper disable All
 
@@ -9,6 +10,7 @@ namespace TechTreeCreator.DTO
 #pragma warning disable IDE1006 // Naming Styles - must match json properties
     public class VisData
     {
+        public string ModGroup { get; set; }
         public List<VisNode> nodes { get; set; }
         public List<VisEdge> edges { get; set; }
 

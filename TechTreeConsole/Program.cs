@@ -21,12 +21,17 @@ namespace TechTreeConsole {
             var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
             var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
             techTreeCreatorManager.CopyImages(techsAndDependencies);
-            var visData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
+            var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
 
-            var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, visData);
+            var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, techsData);
 
-            Console.WriteLine("Done.  Nodes: " + visData.nodes.Count + " Edges: " + visData.edges.Count);
-            Console.WriteLine("Done.  Buildings: " + objectsDependantOnTechs.nodes.Count + " Edges: " + objectsDependantOnTechs.edges.Count);
+            foreach (var (modGoup, visData) in techsData) {
+                Console.WriteLine(modGoup + " Techs: " + visData.nodes.Count + " Edges: " + visData.edges.Count);
+            }
+            
+            foreach (var (modGoup, visData) in objectsDependantOnTechs) {
+                Console.WriteLine(modGoup + " Buildings: " + visData.nodes.Count + " Edges: " + visData.edges.Count);
+            }
         }
     }
 }

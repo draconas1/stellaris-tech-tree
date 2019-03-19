@@ -40,7 +40,7 @@ namespace TechTreeCreator.GraphCreation {
                 // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
                 foreach (var node in file.Value.Nodes) {
                     var entity = Construct(node);
-                    Initialise(entity, file.Key, directoryHelper.ModName, node);
+                    Initialise(entity, file.Key, directoryHelper.ModName, directoryHelper.ModGroup, node);
                     SetVariables(entity, node);
                     entities[entity.Id] = entity;
                 }
@@ -70,11 +70,12 @@ namespace TechTreeCreator.GraphCreation {
             return links;
         }
         
-        private void Initialise(Entity entity, string filePath, string modName, CWNode node) {
+        private void Initialise(Entity entity, string filePath, string modName, string modGroup, CWNode node) {
             entity.Name = LocalisationApiHelper.GetName(node.Key);
             entity.Description = LocalisationApiHelper.GetDescription(node.Key);
             entity.FilePath = filePath;
             entity.Mod = modName;
+            entity.ModGroup = modGroup;
             
             // if icon has been defined
             if (node.GetKeyValue("icon") != null)

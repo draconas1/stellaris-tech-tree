@@ -61,6 +61,8 @@ namespace TechTreeCreator.DTO {
         
         public string Mod { get; set; }
         
+        public string ModGroup { get; set; }
+        
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
         

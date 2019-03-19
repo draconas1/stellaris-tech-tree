@@ -26,7 +26,13 @@ namespace TechTreeCreator
         private readonly ICWParserHelper cwParser;
         private readonly IList<StellarisDirectoryHelper> modDirectoryHelpers;
         
-        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, IEnumerable<string> modRoots = null) {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="stellarisRoot"></param>
+        /// <param name="outputRoot"></param>
+        /// <param name="modRoots">Dictionary of ModPath -> Modgrouping</param>
+        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, IDictionary<string, string> modRoots = null) {
             this.outputRoot = outputRoot;
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
@@ -34,7 +40,7 @@ namespace TechTreeCreator
             
             // setup parser
             stellarisDirectoryHelper = new StellarisDirectoryHelper(stellarisRoot);
-            modDirectoryHelpers = modRoots.NullToEmpty().Select(x => new StellarisDirectoryHelper(x)).ToList();
+            modDirectoryHelpers = modRoots.NullToEmpty().Select(x => new StellarisDirectoryHelper(x.Key, x.Value)).ToList();
             
             //setup localisation 
             // Include extra pie! Especially for Piebadger.
@@ -74,21 +80,24 @@ namespace TechTreeCreator
             TechCategoryImageOutput.OutputCategoryImages(stellarisDirectoryHelper.Root, categoryDir);
         }
 
-        public VisData GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
+        public IDictionary<string, VisData> GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
-            visResults.WriteVisDataToOneJSFile(outputRoot, "graphDataTech.js", "GraphDataTech");
-
+            foreach (var (modGroup, visResult) in visResults) {
+                visResult.WriteVisDataToOneJSFile(outputRoot, modGroup + "-tech.js", modGroup + "-GraphDataTech");
+            } 
             return visResults;
         }
         
-        public VisData ParseObjectsDependantOnTechs(TechsAndDependencies techsAndDependencies, VisData techVisData) {
+        public IDictionary<string, VisData> ParseObjectsDependantOnTechs(TechsAndDependencies techsAndDependencies, IDictionary<string, VisData> techVisData) {
             var parser = new DependantsGraphCreator(localisation, cwParser, stellarisDirectoryHelper, modDirectoryHelpers, techsAndDependencies);
             var dependantGraph = parser.CreateDependantGraph();
             CopyMainImages(dependantGraph.Buildings.Values, "buildings", Path.Combine("images", "buildings"));
             var visDataMarshaler = new VisDataMarshaler(localisation);
-            var visResults = visDataMarshaler.CreateVisData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
-            visResults.WriteVisDataToOneJSFile(outputRoot, "graphDataBuildings.js", "GraphDataBuildings");
+            var visResults = visDataMarshaler.CreateGroupedVisDependantData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
+            foreach (var (modGroup, visResult) in visResults) {
+                visResult.WriteVisDataToOneJSFile(outputRoot, modGroup + "-dependants.js", modGroup + "-GraphDataDependants");
+            } 
 
             return visResults;
         }
