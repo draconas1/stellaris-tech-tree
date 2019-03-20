@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using FParsec;
+using Serilog;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using TechTreeCreator.DTO;
@@ -70,7 +71,7 @@ namespace TechTreeCreator.Output
                 }
                 else
                 {
-                    Debug.WriteLine("No file " + filePath + " found");
+                    Log.Logger.Warning("No file {filePath} found", filePath);
                 }
             }
         }
@@ -95,17 +96,19 @@ namespace TechTreeCreator.Output
                             Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
                             return true;
                         default:
-                            Debug.WriteLine("Image " + inputPath + " had unknown format " + ddsImage.Format);
+                            Log.Logger.Warning("Image {inputPath} had unknown format {format}", inputPath, ddsImage.Format);
                             return false;
                     }
                 }
                 catch (Exception e) {
-                    Console.WriteLine("Error processing file: " + inputPath + " to: " + outputPath + ": " + e.Message);
+                    Log.Logger.Warning( "Error processing file: {inputPath} to: {outputPath}.  {message}", inputPath, outputPath, e.Message);
+                    return false;
                 }
             }
-
-            Debug.WriteLine("No file " + inputPath + " found");
-            return false;
+            else {
+                Log.Logger.Warning("No file {filePath} found", inputPath);
+                return false;
+            }
         }
     }
 }

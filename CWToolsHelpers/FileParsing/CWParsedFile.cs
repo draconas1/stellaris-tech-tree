@@ -25,7 +25,7 @@ namespace CWToolsHelpers.FileParsing
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate node keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
-        public List<CWNode> Nodes { get; set; }
+        public IList<CWNode> Nodes { get; set; }
         
         /// <summary>
         /// All key value pairs.
@@ -33,12 +33,12 @@ namespace CWToolsHelpers.FileParsing
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
-        public List<CWKeyValue> KeyValues { get; set; }
+        public IList<CWKeyValue> KeyValues { get; set; }
 
         /// <summary>
         /// Straight values within the node, these are almost always comments.
         /// </summary>
-        public List<string> Values { get; set; }
+        public IList<string> Values { get; set; }
 
         private IScriptedVariablesAccessor scriptedVariablesAccessor;
 
@@ -66,7 +66,7 @@ namespace CWToolsHelpers.FileParsing
         /// <param name="key">The key</param>
         /// <returns></returns>
         public IEnumerable<CWNode> GetNodes(string key) {
-            return Nodes.FindAll(x => x.Key == key);
+            return Nodes.Where(x => x.Key == key);
         }
         
         /// <summary>

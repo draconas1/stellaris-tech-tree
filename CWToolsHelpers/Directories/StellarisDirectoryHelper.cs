@@ -22,7 +22,7 @@ namespace CWToolsHelpers.Directories {
         /// <summary>
         /// A free text name to allow directories for multiple different mods to be grouped.  E.g. EAC, Dadinator, Ascended Fallen Empire
         /// </summary>
-        public string ModGroup { get; }
+        public string ModGroup { get; set; }
         
         /// <summary>
         /// The path to the root of the mod directory

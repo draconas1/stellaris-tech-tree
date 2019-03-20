@@ -40,7 +40,7 @@ namespace TechTreeCreator
             
             // setup parser
             stellarisDirectoryHelper = new StellarisDirectoryHelper(stellarisRoot);
-            modDirectoryHelpers = modRoots.NullToEmpty().Select(x => new StellarisDirectoryHelper(x.Key, x.Value)).ToList();
+            modDirectoryHelpers = modRoots.NullToEmpty().Select(x => ModDirectoryHelper.CreateDirectoryHelper(x.Key, x.Value)).ToList();
             
             //setup localisation 
             // Include extra pie! Especially for Piebadger.

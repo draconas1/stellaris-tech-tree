@@ -7,6 +7,7 @@ using CWToolsHelpers.Localisation;
 using FSharpx.Collections;
 using NetExtensions.Collection;
 using NetExtensions.Object;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output {
@@ -20,14 +21,17 @@ namespace TechTreeCreator.Output {
         public static VisData CreateCombined(IDictionary<string, VisData> datas) {
             var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparatorExtensions.Create<VisNode>(x => x.id)).ToList();
             visNodes.Sort((node1, node2) => {
-                var primary = String.Compare(node1.group, node2.@group, StringComparison.Ordinal);
+                var primary = String.Compare(node1.group, node2.group, StringComparison.Ordinal);
                 return primary != 0 ? primary : string.Compare(node1.id, node2.id, StringComparison.Ordinal);
             });
             var visEdges = datas.Values.Select(x => x.edges).SelectMany(x => x).ToList();
-            return new VisData() {
+            
+            var result = new VisData() {
                 nodes = visNodes,
                 edges = visEdges
             };
+            Log.Logger.Debug("Combined VisData {@visData}", result);
+            return result;
         }
         
         public IDictionary<string, VisData> CreateGroupedVisDependantData(IDictionary<string, VisData> techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath) {
@@ -77,9 +81,11 @@ namespace TechTreeCreator.Output {
                     techsWithNoPrereqs.Add(tech);
                 }
             }
+            Log.Logger.Debug("Max path per tier {@maxPaths", maxPathPerTier);
             
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
+            Log.Logger.Debug("Minimum level per tier {@minLevels", minimumLevelForTier);
 
             //sort the input by area as it produces a nicer graph.
             var techList = techsAndDependencies.Techs.Values.ToList();

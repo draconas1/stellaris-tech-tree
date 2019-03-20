@@ -2,6 +2,7 @@ using System;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
+using NetExtensions.Collection;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation {

@@ -4,6 +4,7 @@ using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation {
@@ -34,14 +35,19 @@ namespace TechTreeCreator.GraphCreation {
 
         public void ProcessDirectoryHelper(Dictionary<string, T> entities, StellarisDirectoryHelper directoryHelper) {
             var techFiles = DirectoryWalker.FindFilesInDirectoryTree(GetDirectory(directoryHelper), ParseFileMask, IgnoreFiles);
+            Log.Logger.Debug("Directory {directory} produced files {files}", GetDirectory(directoryHelper), techFiles);
             var parsedTechFiles = CWParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList());
-            foreach(var file in parsedTechFiles)
+            foreach(var (file, cwNode) in parsedTechFiles)
             {
+                Log.Logger.Debug("Processing file {file}", file);
                 // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
-                foreach (var node in file.Value.Nodes) {
+                foreach (var node in cwNode.Nodes) {
                     var entity = Construct(node);
-                    Initialise(entity, file.Key, directoryHelper.ModName, directoryHelper.ModGroup, node);
+                    Initialise(entity, file, directoryHelper.ModName, directoryHelper.ModGroup, node);
                     SetVariables(entity, node);
+                    if (entities.ContainsKey(entity.Id)) {
+                        Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
+                    }
                     entities[entity.Id] = entity;
                 }
             }
@@ -60,7 +66,7 @@ namespace TechTreeCreator.GraphCreation {
                         links.Add(new Link() {From = prereq, To = entity});
                     }
                     else {
-                        Debug.WriteLine("Could not find prerequisite {0} for {1} {2}", prerequisiteId, entity.GetType().Name, entity.Id);
+                        Log.Logger.Warning("Could not find prerequisite {prerequisite} for {entityType} {entityId}", prerequisiteId, entity.GetType().Name, entity.Id);
                     }
                 }
 
