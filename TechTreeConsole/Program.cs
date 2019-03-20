@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using CWToolsHelpers.Directories;
 using Serilog;
@@ -39,7 +40,11 @@ namespace TechTreeConsole {
                 Log.Logger.Information("Mod {name} is defined in {modFile} with data located in {location}", modFile.Name, modFile.ModDefinitionFilePath, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
                 
             }
+            
+            //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
 
+            
+            
 
 //            var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
 //            var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();

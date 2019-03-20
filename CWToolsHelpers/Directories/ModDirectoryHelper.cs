@@ -4,6 +4,9 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using CWToolsHelpers.FileParsing;
+using NetExtensions.Collection;
+using NetExtensions.Object;
+using Newtonsoft.Json;
 
 namespace CWToolsHelpers.Directories {
     public static class ModDirectoryHelper {
@@ -69,20 +72,53 @@ namespace CWToolsHelpers.Directories {
 //                }
 //            }
         }
-        
-        
-        
 
-        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modGroup = null, bool forceOverride = false) {
-            if (!isArchiveFile(path) && isSteamWorkshopModDirectory(path)) {
+        public class Mod {
+            public string Name { get; set; }
+            public string NameRaw { get; set; }
+            public string ModGroup { get; set; }
+            public string ArchiveFilePath { get; set; }
+            public string ModDirectoryPath { get; set; }
+
+            public bool Include { get; set; }
+        }
+        
+        public static void WriteModListFile(string filePath, IEnumerable<ModFile> modFiles) {
+            var list = modFiles.Select(x => new Mod() {
+                Name = string.Join("_", x.Name.Split(Path.GetInvalidFileNameChars())),
+                NameRaw = x.Name,
+                ArchiveFilePath = x.ArchiveFilePath,
+                ModDirectoryPath = x.ModDirectoryPath
+            }).ToList();
+            list.Sort(IComparerExtensions.Create<Mod>(x => x.Name));
+            JsonSerializer serializer = new JsonSerializer();
+            serializer.Formatting = Formatting.Indented;
+            using (JsonWriter writer = new JsonTextWriter(new StreamWriter(filePath)))
+            {
+                serializer.Serialize(writer, list);
+            }
+        }
+
+        public static List<Mod> LoadModListFromFile(string filePath) {
+            JsonSerializer serializer = new JsonSerializer();
+            using (StreamReader file = File.OpenText(filePath))
+            {
+                return (List<Mod>)serializer.Deserialize(file, typeof(List<Mod>));
+            }
+        }
+
+        public static List<StellarisDirectoryHelper> CreateDirectoryHelpers(IEnumerable<Mod> mods, bool forceOverride = false) {
+            return mods.Where(x => x.Include).Select(x => CreateDirectoryHelper(x.ArchiveFilePath ?? x.ModDirectoryPath, x.Name, x.ModGroup ?? x.Name, forceOverride)).ToList();
+        }
+
+        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = false) {
+            if (!isArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
                 return new StellarisDirectoryHelper(path, modGroup);
             }
 
-            string tempDirectoryName;
             FileInfo zipInfo;
             if (isArchiveFile(path)) {
                 zipInfo = new FileInfo(path);
-                tempDirectoryName = zipInfo.Directory.Name;
             }
             else {
                 var directoryInfo = new DirectoryInfo(path);
@@ -92,10 +128,9 @@ namespace CWToolsHelpers.Directories {
                 }
 
                 zipInfo = zipFiles.First();
-                tempDirectoryName = directoryInfo.Name;
             }
            
-            var tempFolder = Path.Combine(Path.GetTempPath(), tempDirectoryName, zipInfo.Name);
+            var tempFolder = Path.Combine(Path.GetTempPath(), modName, zipInfo.Name);
             if (forceOverride && Directory.Exists(tempFolder)) {
                 Directory.Delete(tempFolder, true);
             }

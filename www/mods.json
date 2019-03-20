@@ -1,0 +1,452 @@
+[
+  {
+    "Name": "!At War: Planetary Cannons STAR WARS Edition",
+    "NameRaw": "!At War: Planetary Cannons STAR WARS Edition",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1647273693/eac_aw_pc_sw.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "!At War: Planetary Defense Force Downscaled Patch",
+    "NameRaw": "!At War: Planetary Defense Force Downscaled Patch",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1654814283/eac_aw_pdf_ds.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "!At War: Ship Sections Balance",
+    "NameRaw": "!At War: Ship Sections Balance",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1655876705/z_atwar_ss_balance.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "!Gigastructures - Real Space Patch",
+    "NameRaw": "!Gigastructures - Real Space Patch",
+    "ModGroup": "Gigastructures",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1299739260/gigarealspace.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "!Mod Menu",
+    "NameRaw": "!Mod Menu",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1087781345/modmenu.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "*Remastered Human Portraits",
+    "NameRaw": "*Remastered Human Portraits",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1591647610/zrhp.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "*Remastered Human Portraits Expanded",
+    "NameRaw": "*Remastered Human Portraits Expanded",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1635059883/RHPE.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "~Glavius's Ultimate AI for 2.2.5",
+    "NameRaw": "~Glavius's Ultimate AI for 2.2.5",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1584133829/gai.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "A True Synthetic Age",
+    "NameRaw": "A True Synthetic Age",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1616134111/truesynthage.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Ancient Cache of Technologies",
+    "NameRaw": "Ancient Cache of Technologies",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1419304439/zotfeenigtech.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Advanced Ship Sections",
+    "NameRaw": "At War: Advanced Ship Sections",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1612679489/EAC_AW_SHIPS.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Better Admiral Experience",
+    "NameRaw": "At War: Better Admiral Experience",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1630977779/EAC_BAE.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Carrier Enhancements",
+    "NameRaw": "At War: Carrier Enhancements",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1660235095/EAC_AW_CARRIER.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Defense Platform Longevity",
+    "NameRaw": "At War: Defense Platform Longevity",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1633386532/EAC_AW_DPL.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Planetary Cannons",
+    "NameRaw": "At War: Planetary Cannons",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1609801017/EAC_AW_PC.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Planetary Defense Force",
+    "NameRaw": "At War: Planetary Defense Force",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1653043481/EAC_AW_PDF.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "At War: Starbase Improvements",
+    "NameRaw": "At War: Starbase Improvements",
+    "ModGroup": "At War",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1613766846/EAC_AW_STATIONS.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Automatic Pop Migration",
+    "NameRaw": "Automatic Pop Migration",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1617534169/eac_apm.zip",
+    "ModDirectoryPath": null,
+    "Include" : false
+  },
+  {
+    "Name": "Back to the Drawing Board",
+    "NameRaw": "Back to the Drawing Board",
+    "ModGroup": "Dadinator",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1609723873/eac_bttdb.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Better Galaxy Icon Overview",
+    "NameRaw": "Better Galaxy Icon Overview",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1607355392/better_galaxy_icon_overview.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Corporate Name List",
+    "NameRaw": "Corporate Name List",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1641915991/eac_names.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Cybrxkhan's Assortment of Namelists for Stellaris",
+    "NameRaw": "Cybrxkhan's Assortment of Namelists for Stellaris",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/682691478/CANS.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Diverse Namelists",
+    "NameRaw": "Diverse Namelists",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1403228534/diverse_namelists.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Dune 2000 Empires (Achievement compatible)",
+    "NameRaw": "Dune 2000 Empires (Achievement compatible)",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1601100088/d2k-empires.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Empire University",
+    "NameRaw": "Empire University",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1621881802/EAC_EU.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Encourage Growth Permanently",
+    "NameRaw": "Encourage Growth Permanently",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1593221761/BetterFoodBoost.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "EUTAB - Ethos Unique Techs and Buildings",
+    "NameRaw": "EUTAB - Ethos Unique Techs and Buildings",
+    "ModGroup": "EUTAB",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/804732593/eutab.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "EUTAB - Unique Buildings (Achievements Enabled)",
+    "NameRaw": "EUTAB - Unique Buildings (Achievements Enabled)",
+    "ModGroup": "EUTAB",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1399770323/eutabuniquebuildings.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Extended Vanilla Clothes",
+    "NameRaw": "Extended Vanilla Clothes",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/873063455/extended_vanilla_clothes.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Extended Vanilla Palette (2.2.*)",
+    "NameRaw": "Extended Vanilla Palette (2.2.*)",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1588853224/evp.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Fallen Empire Building Artwork Dedesigned - ACOT",
+    "NameRaw": "Fallen Empire Building Artwork Dedesigned - ACOT",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1596756334/acotredesign.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Galactic Market Location",
+    "NameRaw": "Galactic Market Location",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1667052422/EAC_GML.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Gigastructural Engineering & More (2.2)",
+    "NameRaw": "Gigastructural Engineering & More (2.2)",
+    "ModGroup": "Gigastructures",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1121692237/gigastructuresandmore.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "GUILLI's PM + Planetary Diversity Patch",
+    "NameRaw": "GUILLI's PM + Planetary Diversity Patch",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1680336144/planetary_diversity-nw-gpm.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Hab Revamp 2",
+    "NameRaw": "Hab Revamp 2",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "/Users/christian/Documents/Paradox Interactive/Stellaris/mod/habrevamp2"
+  },
+  {
+    "Name": "Human Variety",
+    "NameRaw": "Human Variety",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1074841707/humanvariety.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Job Descriptions (Achievement OK)",
+    "NameRaw": "Job Descriptions (Achievement OK)",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1585106954/job_desc.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "New Additions: Edicts & Decisions",
+    "NameRaw": "New Additions: Edicts & Decisions",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1660238390/EAC_NA_ACE.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Nod Virtual Assistant",
+    "NameRaw": "Nod Virtual Assistant",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1535597838/nodvoiceadvisor.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Patch NA: Edicts & Decisions for Cultural Overhaul",
+    "NameRaw": "Patch NA: Edicts & Decisions for Cultural Overhaul",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1660243928/EAC_NA_ACE_CO.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Planetary Diversity",
+    "NameRaw": "Planetary Diversity",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/819148835/planetary_diversity.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Real Space 3.2",
+    "NameRaw": "Real Space 3.2",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/937289339/real_space.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Species Discrimination on Job",
+    "NameRaw": "Species Discrimination on Job",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1621194834/SpeciesDiscriminationOnJob.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "SuperMan",
+    "NameRaw": "SuperMan",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "/Users/christian/Documents/Paradox Interactive/Stellaris/mod/superman"
+  },
+  {
+    "Name": "Superstructures",
+    "NameRaw": "Superstructures",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1603029229/superstructures.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Technology Guided",
+    "NameRaw": "Technology Guided",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1612811589/technology_guided.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "The Quintessential British Name List",
+    "NameRaw": "The Quintessential British Name List",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/681545718/tearsdalebritishnamelist.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "The Zenith of Fallen Empires 2.0",
+    "NameRaw": "The Zenith of Fallen Empires 2.0",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1317022177/the_zenith_of_fallen_empires_2.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Ascended Society",
+    "NameRaw": "The Zenith of Fallen Empires: Ascended Society",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1324095331/the_zenith_of_fallen_empires_ascended_society.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Fallen Empire Ships Names",
+    "NameRaw": "The Zenith of Fallen Empires: Fallen Empire Ships Names",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1329763864/the_zenith_of_fallen_empires_fe_ships_names.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Fallen Empire Ships Start",
+    "NameRaw": "The Zenith of Fallen Empires: Fallen Empire Ships Start",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1322151384/the_zenith_of_fallen_empires_fe_ships_start.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Fallen Weaponry",
+    "NameRaw": "The Zenith of Fallen Empires: Fallen Weaponry",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1339484937/the_zenith_of_fallen_empires_fe_weaponry.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Goliath Awakened",
+    "NameRaw": "The Zenith of Fallen Empires: Goliath Awakened",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1345559783/the_zenith_of_fallen_empires_goliath.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Paradise Lost",
+    "NameRaw": "The Zenith of Fallen Empires: Paradise Lost",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1353101239/the_zenith_of_fallen_empires_paradise_lost.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Ringworld Empires",
+    "NameRaw": "The Zenith of Fallen Empires: Ringworld Empires",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1332475211/the_zenith_of_fallen_empires_ringworld_empires.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "The Zenith of Fallen Empires: Utopian Paradise",
+    "NameRaw": "The Zenith of Fallen Empires: Utopian Paradise",
+    "ModGroup": "Zenith of Fallen Empires",
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1604391033/the_zenith_of_fallen_empires_utopian_paradise.zip",
+    "ModDirectoryPath": null,
+    "Include" : true
+  },
+  {
+    "Name": "Tiny Outliner v2",
+    "NameRaw": "Tiny Outliner v2",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1610578060/ivam_tiny_outliner.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "UI Overhaul 1080p Plus",
+    "NameRaw": "UI Overhaul 1080p Plus",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/684509615/ui_overhaul_1080.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Utopia Expanded 2.0+",
+    "NameRaw": "Utopia Expanded 2.0+",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1403318190/utopia_expanded_2.zip",
+    "ModDirectoryPath": null
+  },
+  {
+    "Name": "Visible Cyborgs",
+    "NameRaw": "Visible Cyborgs",
+    "ModGroup": null,
+    "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1618459811/visiblecyborgs.zip",
+    "ModDirectoryPath": null
+  }
+]

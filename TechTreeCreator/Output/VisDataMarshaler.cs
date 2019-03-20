@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
+using System.Xml.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.Localisation;
 using FSharpx.Collections;
@@ -20,10 +21,7 @@ namespace TechTreeCreator.Output {
 
         public static VisData CreateCombined(IDictionary<string, VisData> datas) {
             var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparatorExtensions.Create<VisNode>(x => x.id)).ToList();
-            visNodes.Sort((node1, node2) => {
-                var primary = String.Compare(node1.group, node2.group, StringComparison.Ordinal);
-                return primary != 0 ? primary : string.Compare(node1.id, node2.id, StringComparison.Ordinal);
-            });
+            visNodes.Sort(IComparerExtensions.Create<VisNode>(x => x.group, x => x.id));
             var visEdges = datas.Values.Select(x => x.edges).SelectMany(x => x).ToList();
             
             var result = new VisData() {
