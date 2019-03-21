@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using NetExtensions.Collection;
+using Serilog;
 
 namespace CWToolsHelpers.Directories
 {
@@ -38,18 +39,9 @@ namespace CWToolsHelpers.Directories
             {
                 files = root.GetFiles(fileMask);
             }
-            // This is thrown if even one of the files requires permissions greater
-            // than the application provides.
-            catch (UnauthorizedAccessException e)
-            {
-                // This code just writes out the message and continues to recurse.
-                // You may decide to do something different here. For example, you
-                // can try to elevate your privileges and access the file again.
-                Console.WriteLine(e.Message);
-            }
             catch (DirectoryNotFoundException e)
             {
-                Console.WriteLine(e.Message);
+                Log.Logger.Error(e.Message);
             }
 
             if (files != null)

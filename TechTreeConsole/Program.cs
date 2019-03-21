@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using CWToolsHelpers.Directories;
 using Serilog;
@@ -19,47 +20,55 @@ namespace TechTreeConsole {
         
         
         static void Main(string[] args) {
-            string rootDir = STELLARIS_ROOT_WINDOWS;
-            string outputDir = OUTPUT_WINDOWS;
-            if (args.Length > 0 && args[0].Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
-                rootDir = STELLARIS_ROOT_MAC;
-                outputDir = OUTPUT_MAC;
+            try {
+                string rootDir = STELLARIS_ROOT_WINDOWS;
+                string outputDir = OUTPUT_WINDOWS;
+                string modFileSuffix = "-windows";
+                if (args.Length > 0 && args[0].Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
+                    rootDir = STELLARIS_ROOT_MAC;
+                    outputDir = OUTPUT_MAC;
+                    modFileSuffix = "-mac";
+                }
+
+                string modsFilePath = Path.Combine(outputDir, "mods" + modFileSuffix + ".json");
+
+                var outputTemplate = "[{Timestamp:HH:mm:ss} {Level}]{ShortCaller}: {Message}{NewLine}{Exception}";
+                Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+                Log.Logger = new LoggerConfiguration()
+                    .MinimumLevel.Information()
+                    .Enrich.FromLogContext()
+                    .Enrich.WithCaller()
+                    .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
+                    .CreateLogger();
+
+                // IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(@"/Users/christian/Documents/Paradox Interactive/Stellaris/");
+
+                //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
+
+                var modList = ModDirectoryHelper.ReadModListFromFile(modsFilePath);
+                foreach (var modFile in modList.Where(x => x.Include)) {
+                    Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
+                }
+
+                var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir, modList);
+                var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
+                techTreeCreatorManager.CopyImages(techsAndDependencies);
+                var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
+
+                var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, techsData);
+
+                foreach (var (modGoup, visData) in techsData) {
+                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+                }
+
+                foreach (var (modGoup, visData) in objectsDependantOnTechs) {
+                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+                }
             }
-            
-            var outputTemplate = "[{Timestamp:HH:mm:ss} {Level}]{ShortCaller}: {Message}{NewLine}{Exception}"; 
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Information()
-                .Enrich.FromLogContext()
-                .Enrich.WithCaller()
-                .WriteTo.Console(LogEventLevel.Information, outputTemplate, theme: AnsiConsoleTheme.Literate)
-                .CreateLogger();
-
-            IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(@"/Users/christian/Documents/Paradox Interactive/Stellaris/");
-            foreach (var modFile in modFiles) {
-                Log.Logger.Information("Mod {name} is defined in {modFile} with data located in {location}", modFile.Name, modFile.ModDefinitionFilePath, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
-                
+            catch (Exception e) {
+                Log.Logger.Fatal(e, "Fatal Error");
             }
-            
-            //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
-
-            
-            
-
-//            var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
-//            var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
-//            techTreeCreatorManager.CopyImages(techsAndDependencies);
-//            var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
-//
-//            var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, techsData);
-//
-//            foreach (var (modGoup, visData) in techsData) {
-//                Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}",modGoup, visData.nodes.Count, visData.edges.Count);
-//            }
-//            
-//            foreach (var (modGoup, visData) in objectsDependantOnTechs) {
-//                Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}",modGoup, visData.nodes.Count, visData.edges.Count);
-//            }
+            finally{Log.CloseAndFlush();}
         }
     }
 }

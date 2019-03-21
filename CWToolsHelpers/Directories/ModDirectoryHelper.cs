@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.IO.Compression;
 using System.Linq;
 using CWToolsHelpers.FileParsing;
-using NetExtensions.Collection;
+using Ionic.Zip;
 using NetExtensions.Object;
 using Newtonsoft.Json;
 
@@ -99,7 +98,7 @@ namespace CWToolsHelpers.Directories {
             }
         }
 
-        public static List<Mod> LoadModListFromFile(string filePath) {
+        public static List<Mod> ReadModListFromFile(string filePath) {
             JsonSerializer serializer = new JsonSerializer();
             using (StreamReader file = File.OpenText(filePath))
             {
@@ -111,14 +110,16 @@ namespace CWToolsHelpers.Directories {
             return mods.Where(x => x.Include).Select(x => CreateDirectoryHelper(x.ArchiveFilePath ?? x.ModDirectoryPath, x.Name, x.ModGroup ?? x.Name, forceOverride)).ToList();
         }
 
-        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = false) {
+        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = true) {
             if (!isArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
                 return new StellarisDirectoryHelper(path, modGroup);
             }
 
             FileInfo zipInfo;
+            string workshopNumber;
             if (isArchiveFile(path)) {
                 zipInfo = new FileInfo(path);
+                workshopNumber = zipInfo.Directory.Name;
             }
             else {
                 var directoryInfo = new DirectoryInfo(path);
@@ -128,17 +129,25 @@ namespace CWToolsHelpers.Directories {
                 }
 
                 zipInfo = zipFiles.First();
+                workshopNumber = directoryInfo.Name;
             }
            
-            var tempFolder = Path.Combine(Path.GetTempPath(), modName, zipInfo.Name);
+            var tempFolder = Path.Combine(Path.GetTempPath(), workshopNumber, modName);
             if (forceOverride && Directory.Exists(tempFolder)) {
                 Directory.Delete(tempFolder, true);
             }
             
             Directory.CreateDirectory(tempFolder);
-            ZipFile.ExtractToDirectory(zipInfo.FullName, tempFolder);                
-            
+
+            try {
+                Ionic.Zip.ZipFile.Read(zipInfo.FullName).ExtractAll(tempFolder, ExtractExistingFileAction.OverwriteSilently);
+            }
+            catch (Exception e) {
+                throw new Exception("Unable to process: " + zipInfo.FullName, e);
+            }
+
             return new StellarisDirectoryHelper(tempFolder);
         }
+        
     }
 }

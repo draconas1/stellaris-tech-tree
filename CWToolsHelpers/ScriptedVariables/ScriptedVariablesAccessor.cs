@@ -1,7 +1,9 @@
 using System.Collections.Generic;
+using System.IO;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using NetExtensions.Collection;
+using Serilog;
 
 namespace CWToolsHelpers.ScriptedVariables {
     
@@ -32,8 +34,14 @@ namespace CWToolsHelpers.ScriptedVariables {
 
             variables = new Dictionary<string, string>();
             foreach (var directoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                var modVariables = ParseScriptedVariables(directoryHelper.ScriptedVariables);
-                variables.PutAll(modVariables);
+                if (Directory.Exists(directoryHelper.ScriptedVariables)) {
+                    var modVariables = ParseScriptedVariables(directoryHelper.ScriptedVariables);
+                    variables.PutAll(modVariables);
+                }
+                else {
+                    Log.Logger.Debug("{0} does not contain scripted variables", directoryHelper.ModName);
+                }
+                
             }
         } 
         

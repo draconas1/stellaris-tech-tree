@@ -31,8 +31,8 @@ namespace TechTreeCreator
         /// </summary>
         /// <param name="stellarisRoot"></param>
         /// <param name="outputRoot"></param>
-        /// <param name="modRoots">Dictionary of ModPath -> Modgrouping</param>
-        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, IDictionary<string, string> modRoots = null) {
+        /// <param name="mods">mods</param>
+        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, List<ModDirectoryHelper.Mod> mods) {
             this.outputRoot = outputRoot;
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
@@ -40,7 +40,7 @@ namespace TechTreeCreator
             
             // setup parser
             stellarisDirectoryHelper = new StellarisDirectoryHelper(stellarisRoot);
-            modDirectoryHelpers = modRoots.NullToEmpty().Select(x => ModDirectoryHelper.CreateDirectoryHelper(x.Key, x.Value)).ToList();
+            modDirectoryHelpers = ModDirectoryHelper.CreateDirectoryHelpers(mods.NullToEmpty());
             
             //setup localisation 
             // Include extra pie! Especially for Piebadger.

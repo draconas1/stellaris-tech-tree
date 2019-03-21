@@ -5,7 +5,7 @@
     "ModGroup": "At War",
     "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1647273693/eac_aw_pc_sw.zip",
     "ModDirectoryPath": null,
-    "Include" : true
+    "Include" : false
   },
   {
     "Name": "!At War: Planetary Defense Force Downscaled Patch",
@@ -13,7 +13,7 @@
     "ModGroup": "At War",
     "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1654814283/eac_aw_pdf_ds.zip",
     "ModDirectoryPath": null,
-    "Include" : true
+    "Include" : false
   },
   {
     "Name": "!At War: Ship Sections Balance",
@@ -21,7 +21,7 @@
     "ModGroup": "At War",
     "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1655876705/z_atwar_ss_balance.zip",
     "ModDirectoryPath": null,
-    "Include" : true
+    "Include" : false
   },
   {
     "Name": "!Gigastructures - Real Space Patch",
@@ -29,7 +29,7 @@
     "ModGroup": "Gigastructures",
     "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1299739260/gigarealspace.zip",
     "ModDirectoryPath": null,
-    "Include" : true
+    "Include" : false
   },
   {
     "Name": "!Mod Menu",
@@ -37,7 +37,7 @@
     "ModGroup": null,
     "ArchiveFilePath": "/Users/christian/Library/Application Support/Steam/steamapps/workshop/content/281990/1087781345/modmenu.zip",
     "ModDirectoryPath": null,
-    "Include" : true
+    "Include" : false
   },
   {
     "Name": "*Remastered Human Portraits",

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
 using CWTools.Common;
 using CWTools.Localisation;
 using CWToolsHelpers.Directories;
 using NetExtensions.Collection;
+using Serilog;
 
 namespace CWToolsHelpers.Localisation {
     /// <summary>
@@ -26,10 +28,15 @@ namespace CWToolsHelpers.Localisation {
             //which is a raw dictionary of keys to text values.
             localisation = new Dictionary<string, string>();
             foreach (var directoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                var localisationService =
-                    new STLLocalisation.STLLocalisationService(new LocalisationSettings(directoryHelper.Localisation));
-                var values = localisationService.Api(Lang.NewSTL(language)).Values;
-                localisation.PutAll(values);
+                if (Directory.Exists(directoryHelper.Localisation)) {
+                    var localisationService =
+                        new STLLocalisation.STLLocalisationService(new LocalisationSettings(directoryHelper.Localisation));
+                    var values = localisationService.Api(Lang.NewSTL(language)).Values;
+                    localisation.PutAll(values);
+                }
+                else {
+                    Log.Logger.Debug("{name} has no localisation files", directoryHelper.ModName);
+                }
             }
         }
         
