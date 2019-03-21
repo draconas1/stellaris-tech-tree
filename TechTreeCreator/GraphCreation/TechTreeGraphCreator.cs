@@ -6,6 +6,7 @@ using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
+using NetExtensions.Object;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
@@ -20,7 +21,7 @@ namespace TechTreeCreator.GraphCreation
             this.stellarisDirectoryHelper = stellarisDirectoryHelper;
             this.modDirectoryHelpers = modDirectoryHelpers;
             IgnoreFiles = new List<string>();
-            IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt" });
+            IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt", "eac_category.txt" });
         }
 
         public TechsAndDependencies CreateTechnologyGraph()
@@ -54,8 +55,8 @@ namespace TechTreeCreator.GraphCreation
             }
 
             result.Area = area;
-            result.Tier = int.Parse(node.GetKeyValue("tier") ?? "0");
-            result.BaseCost = int.Parse(node.GetKeyValue("cost") ?? "0");
+            result.Tier = (node.GetKeyValue("tier") ?? "0").ToInt();
+            result.BaseCost = (node.GetKeyValue("cost") ?? "0").ToInt();
 
            
             //categories, usually only one, but can be more

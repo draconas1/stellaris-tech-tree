@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Runtime.ExceptionServices;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using NetExtensions.Collection;
@@ -43,16 +46,66 @@ namespace CWToolsHelpers.ScriptedVariables {
                 }
                 
             }
-        } 
+        }
+
+        private ScriptedVariableAccessor(IEnumerable<CWKeyValue> keyValues, ICWParserHelper cwParserHelper) {
+            DirectoryWalker = null;
+            CWParserHelper = cwParserHelper;
+            variables = new Dictionary<string, string>();
+            keyValues.Where(kv => IsVariable(kv.Key)).ForEach(kv => variables[kv.Key] = kv.Value);
+        }
         
         /// <inheritdoc />
         public string GetPotentialValue(string rawValue) {
-            if (rawValue != null && rawValue.StartsWith("@") && variables.ContainsKey(rawValue))
+            if (rawValue != null && IsVariable(rawValue) && variables.ContainsKey(rawValue))
             {
-                return variables[rawValue];
+                var value = variables[rawValue];
+                return IsVariable(value) ? GetPotentialValue(value) : value;
             }
 
             return rawValue;
+        }
+
+        private bool Contains(string key) {
+            return variables.ContainsKey(key);
+        }
+
+        public static bool IsVariable(string key) {
+            return key.StartsWith('@');
+        }
+        
+        public void AddAdditionalFileVariables(CWNode node) {
+            node.KeyValues.Where(kv => IsVariable(kv.Key)).ForEach(kv => variables[kv.Key] = kv.Value);
+        }
+
+        public IScriptedVariablesAccessor CreateNew(IEnumerable<CWKeyValue> keyValues) {
+            return new DelegatingScriptedVariablesAccessor(new ScriptedVariableAccessor(keyValues, CWParserHelper), this);
+        }
+
+
+        private class DelegatingScriptedVariablesAccessor : IScriptedVariablesAccessor {
+            private readonly IScriptedVariablesAccessor primary;
+            private readonly IScriptedVariablesAccessor fallback;
+
+            internal DelegatingScriptedVariablesAccessor(IScriptedVariablesAccessor primary, IScriptedVariablesAccessor fallback) {
+                this.primary = primary;
+                this.fallback = fallback;
+            }
+            public void Dispose() {
+            }
+
+            public string GetPotentialValue(string rawValue) {
+                var potentialValue = primary.GetPotentialValue(rawValue);
+                return potentialValue == rawValue ? fallback.GetPotentialValue(rawValue) : potentialValue;
+            }
+
+            public IScriptedVariablesAccessor CreateNew(IEnumerable<CWKeyValue> node) {
+                return new DelegatingScriptedVariablesAccessor(primary.CreateNew(node), fallback);
+            }
+
+            public void AddAdditionalFileVariables(CWNode node) {
+                primary.AddAdditionalFileVariables(node);
+            }
         }
         
         private Dictionary<string, string> ParseScriptedVariables(string scriptedVariableDir)
@@ -63,12 +116,12 @@ namespace CWToolsHelpers.ScriptedVariables {
             foreach(var file in parsedTechFiles.Values)
             {
                 // top level nodes are files, so we process the immediate children of each file, which is the individual variables.
-                foreach (var keyValue in file.KeyValues)
-                {
-                    result[keyValue.Key] = keyValue.Value;
-                }
+                AddAdditionalFileVariables(file);
             }
             return result;
+        }
+
+        public void Dispose() {
         }
     }
 
@@ -81,6 +134,16 @@ namespace CWToolsHelpers.ScriptedVariables {
         /// </summary>
         public string GetPotentialValue(string rawValue) {
             return rawValue;
+        }
+
+        public IScriptedVariablesAccessor CreateNew(IEnumerable<CWKeyValue> node) {
+            return this;
+        }
+
+        public void AddAdditionalFileVariables(CWNode node) {
+        }
+
+        public void Dispose() {
         }
     }
 }

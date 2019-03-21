@@ -125,10 +125,12 @@ namespace CWToolsHelpers.FileParsing
     /// <summary>
     /// A straight key = value entry in the file/node: e.g: tier = 1
     /// </summary>
-    public class CWKeyValue
+    public class CWKeyValue 
     {
         public string Key { get; set; }
         public string Value { get; set; }
+        
+        public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
     }
 
     

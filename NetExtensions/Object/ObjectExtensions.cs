@@ -52,6 +52,17 @@ namespace NetExtensions.Object {
             }
        }
 
+       public static class StringExtensions {
+           public static int ToInt(this string str) {
+               try {
+                   return Int32.Parse(str);
+               }
+               catch (FormatException e) {
+                   throw new FormatException("Failed to parse '" + str + "' " + e.Message);
+               }
+           }
+       }
+
 
        public static class IEqualityComparatorExtensions {
            public static IEqualityComparer<T> Create<T>(Func<T, object> keyFunction) {

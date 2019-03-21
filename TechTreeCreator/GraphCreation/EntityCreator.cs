@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -21,10 +23,13 @@ namespace TechTreeCreator.GraphCreation {
         /// </summary>
         public string ParseFileMask { get; set; }
         
+        public bool AbortOnFailure { get; set; }
+        
         protected EntityCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper) {
             LocalisationApiHelper = localisationApiHelper;
             CWParserHelper = cwParserHelper;
             ParseFileMask = StellarisDirectoryHelper.TextMask;
+            AbortOnFailure = false;
         }
 
         protected abstract T Construct(CWNode node);
@@ -34,22 +39,33 @@ namespace TechTreeCreator.GraphCreation {
         protected abstract string GetDirectory(StellarisDirectoryHelper directoryHelper);
 
         public void ProcessDirectoryHelper(Dictionary<string, T> entities, StellarisDirectoryHelper directoryHelper) {
-            var techFiles = DirectoryWalker.FindFilesInDirectoryTree(GetDirectory(directoryHelper), ParseFileMask, IgnoreFiles);
-            Log.Logger.Debug("Directory {directory} produced files {files}", GetDirectory(directoryHelper), techFiles);
-            var parsedTechFiles = CWParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList());
-            foreach(var (file, cwNode) in parsedTechFiles)
-            {
-                Log.Logger.Debug("Processing file {file}", file);
-                // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
-                foreach (var node in cwNode.Nodes) {
-                    var entity = Construct(node);
-                    Initialise(entity, file, directoryHelper.ModName, directoryHelper.ModGroup, node);
-                    SetVariables(entity, node);
-                    if (entities.ContainsKey(entity.Id)) {
-                        Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
+            var directoryPath = GetDirectory(directoryHelper);
+            if (Directory.Exists(directoryPath)) {
+                var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryPath, ParseFileMask, IgnoreFiles);
+                Log.Logger.Debug("Directory {directory} produced files {files}", directoryPath, techFiles);
+                var parsedTechFiles = CWParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList(), true);
+                foreach (var (file, cwNode) in parsedTechFiles) {
+                    Log.Logger.Debug("Processing file {file}", file);
+                    // top level nodes are files, so we process the immediate children of each file, which is the individual techs.
+                    foreach (var node in cwNode.Nodes) {
+                        try {
+                            var entity = Construct(node);
+                            Initialise(entity, file, directoryHelper.ModName, directoryHelper.ModGroup, node);
+                            SetVariables(entity, node);
+                            if (entities.ContainsKey(entity.Id)) {
+                                Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
+                            }
+
+                            entities[entity.Id] = entity;
+                        }
+                        catch (Exception e) {
+                            throw new Exception("Error Processing node " +node.Key + "  in file: " + file, e);
+                        }
                     }
-                    entities[entity.Id] = entity;
                 }
+            }
+            else {
+                Log.Logger.Debug("{mod} did not have {directory}", directoryHelper.ModName, directoryPath.Replace(directoryHelper.Root, ""));
             }
         }
 

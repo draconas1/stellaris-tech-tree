@@ -6,6 +6,7 @@ using CWToolsHelpers.FileParsing;
 using Ionic.Zip;
 using NetExtensions.Object;
 using Newtonsoft.Json;
+using Serilog;
 
 namespace CWToolsHelpers.Directories {
     public static class ModDirectoryHelper {
@@ -110,7 +111,7 @@ namespace CWToolsHelpers.Directories {
             return mods.Where(x => x.Include).Select(x => CreateDirectoryHelper(x.ArchiveFilePath ?? x.ModDirectoryPath, x.Name, x.ModGroup ?? x.Name, forceOverride)).ToList();
         }
 
-        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = true) {
+        public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = false) {
             if (!isArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
                 return new StellarisDirectoryHelper(path, modGroup);
             }
@@ -135,6 +136,11 @@ namespace CWToolsHelpers.Directories {
             var tempFolder = Path.Combine(Path.GetTempPath(), workshopNumber, modName);
             if (forceOverride && Directory.Exists(tempFolder)) {
                 Directory.Delete(tempFolder, true);
+            }
+            else {
+                if (Directory.Exists(tempFolder)) {
+                    Log.Logger.Debug("Directory {dir} exists, skipping zip extraction as overwrite is off", tempFolder);
+                }
             }
             
             Directory.CreateDirectory(tempFolder);

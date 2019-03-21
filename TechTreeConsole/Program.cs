@@ -35,7 +35,7 @@ namespace TechTreeConsole {
                 var outputTemplate = "[{Timestamp:HH:mm:ss} {Level}]{ShortCaller}: {Message}{NewLine}{Exception}";
                 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
                 Log.Logger = new LoggerConfiguration()
-                    .MinimumLevel.Information()
+                    .MinimumLevel.Debug()
                     .Enrich.FromLogContext()
                     .Enrich.WithCaller()
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
