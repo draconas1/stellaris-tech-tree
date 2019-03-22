@@ -28,7 +28,7 @@ namespace TechTreeCreator.Output {
                 nodes = visNodes,
                 edges = visEdges
             };
-            Log.Logger.Debug("Combined VisData {@visData}", result);
+            Log.Logger.Verbose("Combined VisData {@visData}", result);
             return result;
         }
         
