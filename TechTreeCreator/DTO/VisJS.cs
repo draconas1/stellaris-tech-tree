@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Security.Policy;
+using System.Text.RegularExpressions;
 using CWTools.Parser;
 using Newtonsoft.Json;
 // ReSharper disable All
@@ -55,11 +56,11 @@ namespace TechTreeCreator.DTO
             JsonSerializer serializer = GetSerializer();
 
             var writer = new StringWriter();
-            writer.Write(jSVariableName + " = ");
+            writer.Write(SanitiseNameForJsVar(jSVariableName) + " = ");
 
             serializer.Serialize(new JsonTextWriter(writer), this);
             
-            using (var streamWriter = new StreamWriter(Path.Combine(toDir, fileName)))
+            using (var streamWriter = new StreamWriter(Path.Combine(toDir, SanitiseNameForJsFile(fileName))))
             {
                 streamWriter.WriteLine(writer.ToString());
             }
@@ -72,6 +73,17 @@ namespace TechTreeCreator.DTO
             serializer.NullValueHandling = NullValueHandling.Ignore;
             return serializer;
         }
+        
+        private string SanitiseNameForJsFile(string name) {
+            Regex rgx = new Regex(@"[^a-zA-Z0-9\. _-]");
+            return rgx.Replace(name, "").Replace(" " , "_");
+        }
+
+        private string SanitiseNameForJsVar(string name) {
+            Regex rgx = new Regex("[^a-zA-Z0-9_-]");
+            return rgx.Replace(name, "");
+        }
+
     }
 
     public class VisNode
