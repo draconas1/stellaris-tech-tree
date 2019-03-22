@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using CWTools.Common;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -80,11 +81,16 @@ namespace TechTreeCreator
             TechCategoryImageOutput.OutputCategoryImages(stellarisDirectoryHelper.Root, categoryDir);
         }
 
+        private string SanitiseNameForJs(string name) {
+            Regex rgx = new Regex("[^a-zA-Z0-9 _-]");
+            return rgx.Replace(name, "").Replace(" " , "_");
+        }
+
         public IDictionary<string, VisData> GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
             foreach (var (modGroup, visResult) in visResults) {
-                visResult.WriteVisDataToOneJSFile(outputRoot, modGroup + "-tech.js", modGroup + "-GraphDataTech");
+                visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), SanitiseNameForJs(modGroup) + "-tech.js", modGroup + "-GraphDataTech");
             } 
             return visResults;
         }
@@ -96,7 +102,7 @@ namespace TechTreeCreator
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateGroupedVisDependantData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
             foreach (var (modGroup, visResult) in visResults) {
-                visResult.WriteVisDataToOneJSFile(outputRoot, modGroup + "-dependants.js", modGroup + "-GraphDataDependants");
+                visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), SanitiseNameForJs(modGroup) + "-dependants.js", modGroup + "-GraphDataDependants");
             } 
 
             return visResults;

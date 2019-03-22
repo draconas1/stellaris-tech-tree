@@ -61,6 +61,15 @@ namespace NetExtensions.Object {
                    throw new FormatException("Failed to parse '" + str + "' " + e.Message);
                }
            }
+           
+           public static double ToDouble(this string str) {
+               try {
+                   return Double.Parse(str);
+               }
+               catch (FormatException e) {
+                   throw new FormatException("Failed to parse '" + str + "' " + e.Message);
+               }
+           }
        }
 
 

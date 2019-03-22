@@ -215,7 +215,7 @@ namespace TechTreeCreator.Output {
             return result;
         }
 
-        private string AddBuildingResources(string resourceType, IDictionary<string, int> costs) {
+        private string AddBuildingResources<T>(string resourceType, IDictionary<string, T> costs) {
             if (costs.Any()) {
                 string costString = "<br/><b>" + resourceType + ":</b>";
                 foreach (var (key, value) in costs) {

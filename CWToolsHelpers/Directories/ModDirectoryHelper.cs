@@ -28,7 +28,7 @@ namespace CWToolsHelpers.Directories {
             return false;
         }
         
-        public static bool isArchiveFile(string path) {
+        public static bool IsArchiveFile(string path) {
             if (File.GetAttributes(path).HasFlag(FileAttributes.Directory)) {
                 return false;
             }
@@ -112,13 +112,13 @@ namespace CWToolsHelpers.Directories {
         }
 
         public static StellarisDirectoryHelper CreateDirectoryHelper(string path, string modName, string modGroup = null, bool forceOverride = false) {
-            if (!isArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
+            if (!IsArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
                 return new StellarisDirectoryHelper(path, modGroup);
             }
 
             FileInfo zipInfo;
             string workshopNumber;
-            if (isArchiveFile(path)) {
+            if (IsArchiveFile(path)) {
                 zipInfo = new FileInfo(path);
                 workshopNumber = zipInfo.Directory.Name;
             }
@@ -152,7 +152,7 @@ namespace CWToolsHelpers.Directories {
                 throw new Exception("Unable to process: " + zipInfo.FullName, e);
             }
 
-            return new StellarisDirectoryHelper(tempFolder);
+            return new StellarisDirectoryHelper(tempFolder, modGroup);
         }
         
     }

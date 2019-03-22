@@ -37,13 +37,13 @@ namespace TechTreeCreator.DTO {
         public int? BaseBuildTime { get; set; }
         public string Category { get; set; }
 
-        public IDictionary<string, int> Cost { get; }
-        public IDictionary<string, int> Upkeep { get; }
-        public IDictionary<string, int> Produces { get; }
+        public IDictionary<string, double> Cost { get; }
+        public IDictionary<string, double> Upkeep { get; }
+        public IDictionary<string, double> Produces { get; }
         public Building(string id) : base(id) {
-            Cost = new Dictionary<string, int>();
-            Upkeep = new Dictionary<string, int>();
-            Produces = new Dictionary<string, int>();
+            Cost = new Dictionary<string, double>();
+            Upkeep = new Dictionary<string, double>();
+            Produces = new Dictionary<string, double>();
         }
     } 
 
