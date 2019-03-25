@@ -209,6 +209,9 @@ namespace TechTreeCreator.Output {
 
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => nodeLookup[x.Id].level).Max();
+            if (!highestLevelOfPrerequisiteTechs.HasValue) {
+                throw new Exception(building.Name + " Had no prerequiste levels: " + building.FilePath);
+            }
             result.level = highestLevelOfPrerequisiteTechs + 1;
 
 
@@ -301,10 +304,15 @@ namespace TechTreeCreator.Output {
                 nodeType = nodeType
             };
             result.title = result.title + "<br/><i>" + entity.Description + "</i>";
+
+            if (entity.Mod != "Stellaris") {
+                result.title = result.title + "<br/><b>Mod: </b><i>" + entity.Mod + "</i>";
+            } 
             
             if (entity.DLC != null) {
                 result.title = result.title + "<br/><i>Requires the " + entity.DLC + " DLC</i>";
             }
+            
 
             return result;
         }

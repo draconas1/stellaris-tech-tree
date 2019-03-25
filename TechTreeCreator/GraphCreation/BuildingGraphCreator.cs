@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
@@ -28,6 +29,10 @@ namespace TechTreeCreator.GraphCreation {
 
         protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {
             return directoryHelper.Buildings;
+        }
+
+        protected override bool ShouldInclude(Building building) {
+            return building.PrerequisiteIds.Any();
         }
     }
 }

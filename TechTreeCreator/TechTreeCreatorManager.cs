@@ -84,21 +84,37 @@ namespace TechTreeCreator
         public IDictionary<string, VisData> GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
+            List<JSModInfo> modInfos = new List<JSModInfo>();
             foreach (var (modGroup, visResult) in visResults) {
-                visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-tech.js", modGroup + "-GraphDataTech");
-            } 
+                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-tech.js", modGroup + "GraphDataTech");
+                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
+            }
+
+            VisData.WriteJavascriptObject(modInfos, Path.Combine(outputRoot, "data"), "TechFiles.js", "techDataFiles");
+            
+            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
+            File.WriteAllLines(Path.Combine(outputRoot, "data", "JS-Tech-Imports.txt"), importListing);
+            
             return visResults;
         }
-        
+
+  
         public IDictionary<string, VisData> ParseObjectsDependantOnTechs(TechsAndDependencies techsAndDependencies, IDictionary<string, VisData> techVisData) {
             var parser = new DependantsGraphCreator(localisation, cwParser, stellarisDirectoryHelper, modDirectoryHelpers, techsAndDependencies);
             var dependantGraph = parser.CreateDependantGraph();
             CopyMainImages(dependantGraph.Buildings.Values, "buildings", Path.Combine("images", "buildings"));
             var visDataMarshaler = new VisDataMarshaler(localisation);
             var visResults = visDataMarshaler.CreateGroupedVisDependantData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
+            List<JSModInfo> modInfos = new List<JSModInfo>();
             foreach (var (modGroup, visResult) in visResults) {
-                visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-dependants.js", modGroup + "-GraphDataDependants");
+                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-dependants.js", modGroup + "GraphDataDependants");
+                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
             } 
+
+            VisData.WriteJavascriptObject(modInfos, Path.Combine(outputRoot, "data"), "DependantFiles.js", "dependantDataFiles");
+
+            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
+            File.WriteAllLines(Path.Combine(outputRoot, "data", "JS-Dependants-Imports.txt"), importListing);
 
             return visResults;
         }

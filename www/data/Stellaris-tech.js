@@ -1,4 +1,4 @@
-Stellaris-GraphDataTech = {
+StellarisGraphDataTech = {
   "nodes": [
     {
       "id": "null_void_beam",

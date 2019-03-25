@@ -68,13 +68,37 @@ function highlightCategory() {
 
 
 async function createNetwork() {
+  // determine what files we are loading
+  const modSelectors = document.getElementsByName("modSelector");
+
+
+  const nodeBuilder = [];
+  const allNodesBuilder = [];
+  const edgeListing = [];
+
+  modSelectors.forEach(x => {
+
+    const variables = modToVariables[x.value];
+    if (x.checked) {
+      variables.forEach(varName =>  {
+        nodeBuilder.push(...(window[varName].nodes));
+        edgeListing.push(...(window[varName].edges));
+      })
+    }
+    variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
+  });
+
+  const nodeListing = _.uniqBy(nodeBuilder, 'id');
+  const allNodeListing = _.uniqBy(allNodesBuilder, 'id');
+
+  // initalise
   const techAreaFilter = document.getElementById("techAreaFilterBox").value;
   let activeNodes;
   if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-    activeNodes = GraphDataTech.nodes;
+    activeNodes = nodeListing;
   } else {
     //lodash filter with a shorthand for propertyname matches value.
-    activeNodes = _.filter(GraphDataTech.nodes, ['group', techAreaFilter]);
+    activeNodes = _.filter(nodeListing, ['group', techAreaFilter]);
   }
   const categoryFilter = document.getElementById("categoryFilterBox").value;
   if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
@@ -93,12 +117,13 @@ async function createNetwork() {
         result.push(node.id);
       }),
       nodesAndDeps,
-      _.keyBy(GraphDataTech.nodes, 'id')
+      _.keyBy(allNodeListing, 'id')
     );
     activeNodes = Object.values(nodesAndDeps);
   }
   unsetHighlightCategoryFilter();
-  nodesDataset = new vis.DataSet(activeNodes.concat(GraphDataBuildings.nodes));
+  nodesDataset = new vis.DataSet(activeNodes);
+  edgesDataset = new vis.DataSet(edgeListing);
 
   // create a network
   const container = document.getElementById('network');

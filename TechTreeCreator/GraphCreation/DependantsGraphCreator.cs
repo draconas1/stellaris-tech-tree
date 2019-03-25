@@ -7,6 +7,7 @@ using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
@@ -33,14 +34,14 @@ namespace TechTreeCreator.GraphCreation
         public ObjectsDependantOnTechs CreateDependantGraph() {
             var result = new ObjectsDependantOnTechs() { Prerequisites = new HashSet<Link>()};
             var buildingGraphCreator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
-            var (buildings, buildingLinks) = processDependant(buildingGraphCreator);
+            var (buildings, buildingLinks) = ProcessDependant(buildingGraphCreator);
             result.Buildings = buildings;
             result.Prerequisites.AddRange(buildingLinks);
             return result;
         }
 
 
-        private Tuple<IDictionary<string, T>, ISet<Link>> processDependant<T>(EntityCreator<T> creator) where T : Entity {
+        private Tuple<IDictionary<string, T>, ISet<Link>> ProcessDependant<T>(EntityCreator<T> creator) where T : Entity {
             var entities = new Dictionary<string, T>();
            
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
@@ -48,6 +49,14 @@ namespace TechTreeCreator.GraphCreation
             }
 
             var links = creator.PopulateTechDependenciesAndReturnLinks(entities.Values, techsAndDependencies.Techs);
+
+            var invalidEntities = entities.Where(x => !x.Value.Prerequisites.Any()).Select(x => x.Key).ToList();
+            foreach (var invalidEntityKey in invalidEntities) {
+                Log.Logger.Warning("Removing {0} from dependant entities as we were unable to locate its specified pre-requisite techs", invalidEntityKey);
+                entities.Remove(invalidEntityKey);
+                var invalidLinks = links.Where(x => x.To.Id == invalidEntityKey).ToList();
+                links.RemoveAll(invalidLinks);
+            }
 
             return new Tuple<IDictionary<string, T>, ISet<Link>>(entities, links);
         }

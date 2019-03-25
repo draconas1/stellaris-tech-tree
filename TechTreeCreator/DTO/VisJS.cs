@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Security.Policy;
 using System.Text.RegularExpressions;
@@ -51,19 +52,26 @@ namespace TechTreeCreator.DTO
         /// </summary>
         /// <param name="toDir"></param>
         /// <param name="fileName"></param>
-        public void WriteVisDataToOneJSFile(string toDir, string fileName, string jSVariableName)
-        {
+        public Tuple<string, string> WriteVisDataToOneJSFile(string toDir, string fileName, string jSVariableName) {
+            return WriteJavascriptObject(this, toDir, fileName, jSVariableName);
+        }
+
+        public static Tuple<string, string> WriteJavascriptObject(object jObject, string toDir, string fileName, string jSVariableName) {
             JsonSerializer serializer = GetSerializer();
 
             var writer = new StringWriter();
-            writer.Write(SanitiseNameForJsVar(jSVariableName) + " = ");
+            var sanitisedVariableName = SanitiseNameForJsVar(jSVariableName);
+            writer.Write(sanitisedVariableName + " = ");
 
-            serializer.Serialize(new JsonTextWriter(writer), this);
-            
-            using (var streamWriter = new StreamWriter(Path.Combine(toDir, SanitiseNameForJsFile(fileName))))
+            serializer.Serialize(new JsonTextWriter(writer), jObject);
+
+            var sanitisedFileName = SanitiseNameForJsFile(fileName);
+            using (var streamWriter = new StreamWriter(Path.Combine(toDir, sanitisedFileName)))
             {
                 streamWriter.WriteLine(writer.ToString());
             }
+            
+            return new Tuple<string, string>(sanitisedFileName, sanitisedVariableName);
         }
 
         private static JsonSerializer GetSerializer()
@@ -74,12 +82,12 @@ namespace TechTreeCreator.DTO
             return serializer;
         }
         
-        private string SanitiseNameForJsFile(string name) {
+        private static string SanitiseNameForJsFile(string name) {
             Regex rgx = new Regex(@"[^a-zA-Z0-9\. _-]");
             return rgx.Replace(name, "").Replace(" " , "_");
         }
 
-        private string SanitiseNameForJsVar(string name) {
+        private static string SanitiseNameForJsVar(string name) {
             Regex rgx = new Regex("[^a-zA-Z0-9_-]");
             return rgx.Replace(name, "");
         }
@@ -127,6 +135,12 @@ namespace TechTreeCreator.DTO
         public string arrows { get; set; }
         public VisColor color { get; set; }
         public bool dashes { get; set; }
+    }
+
+    public class JSModInfo {
+        public string name { get; set; }
+        public string jsVarable { get; set; }
+        public string fileName { get; set; }
     }
 #pragma warning restore IDE1006 // Naming Styles
 }

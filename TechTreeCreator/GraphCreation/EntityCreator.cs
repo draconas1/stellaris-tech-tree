@@ -6,6 +6,7 @@ using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
+using FSharpx.Collections;
 using Serilog;
 using TechTreeCreator.DTO;
 
@@ -38,6 +39,10 @@ namespace TechTreeCreator.GraphCreation {
 
         protected abstract string GetDirectory(StellarisDirectoryHelper directoryHelper);
 
+        protected virtual bool ShouldInclude(T entity) {
+            return true;
+        }
+
         public void ProcessDirectoryHelper(Dictionary<string, T> entities, StellarisDirectoryHelper directoryHelper) {
             var directoryPath = GetDirectory(directoryHelper);
             if (Directory.Exists(directoryPath)) {
@@ -52,11 +57,16 @@ namespace TechTreeCreator.GraphCreation {
                             var entity = Construct(node);
                             Initialise(entity, file, directoryHelper.ModName, directoryHelper.ModGroup, node);
                             SetVariables(entity, node);
-                            if (entities.ContainsKey(entity.Id)) {
-                                Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
-                            }
+                            if (ShouldInclude(entity)) {
+                                if (entities.ContainsKey(entity.Id)) {
+                                    Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
+                                }
 
-                            entities[entity.Id] = entity;
+                                entities[entity.Id] = entity;
+                            }
+                            else {
+                                Log.Logger.Debug("File {file} contained node {key} was processed, but failed the include filter so is discarded", file, entity.Id);
+                            }
                         }
                         catch (Exception e) {
                             throw new Exception("Error Processing node " +node.Key + "  in file: " + file, e);

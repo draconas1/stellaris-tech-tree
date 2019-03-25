@@ -6,6 +6,7 @@ PathFunctions = {
       const node = allNodes[nodeId];
       if (node === undefined) {
         console.log("Undefined node " + nodeId);
+        return;
       }
       selectedNodes[nodeId] = node;
 

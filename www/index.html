@@ -28,6 +28,10 @@
     <script type="text/javascript" src="dist/vis.js"></script>
 
     <!-- Mods -->
+
+    <script type="text/javascript" src="data/TechFiles.js?v=2"></script>
+    <script type="text/javascript" src="data/DependantFiles.js?v=2"></script>
+
     <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-dependants.js?v=2"></script>
 
@@ -54,7 +58,7 @@
 <body onload="FocusOnInput()">
 <h1 class="title">Stellaris Tech Tree</h1>
 <p>
-    A complete dependency tree of all technologies in Stellaris 2.2.4 by
+    A complete dependency tree of all technologies in Stellaris 2.2.6 by
     <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
 </p>
 <div id="topBar">
@@ -130,6 +134,21 @@
             </select>
         </div>
     </div>
+    <div class="child" id="modOpts">
+        <h2>Include From</h2>
+        <div id="modOptsInner">
+            <div id="modList">
+                <div id="modListRow" class="filterRow">
+                </div>
+            </div>
+            <div id="modListOptions">
+                <div class="filterRow">
+                    <label for="selectAllModsCheckbox">Select All Mods</label>
+                    <input type="checkbox" id="selectAllModsCheckbox" onclick="SelectAll()">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="network"></div>
@@ -147,12 +166,42 @@
     on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>.
 </p>
 <script type="text/javascript">
+    // Set up the data
+    var modToVariables = {};
+    techDataFiles.forEach(data => modToVariables[data.name] = [data.jsVarable]);
+    dependantDataFiles.forEach(data => modToVariables[data.name].push(data.jsVarable));
+
+    var modlist = document.getElementById("modListRow");
+    Object.keys(modToVariables).forEach(modName => {
+      var checkbox = document.createElement('input');
+      checkbox.type = "checkbox";
+      checkbox.name = "modSelector";
+      checkbox.value = modName;
+      checkbox.id = modName + "Selector";
+      checkbox.onclick = createNetwork;
+
+      var label = document.createElement('label');
+      label.htmlFor = modName + "Selector";
+      label.appendChild(document.createTextNode(modName));
+
+      var div = document.createElement('div');
+      div.className = 'filterRow';
+      div.appendChild(label);
+      div.appendChild(checkbox);
+
+      modlist.appendChild(div);
+
+      if (modName === "Stellaris") {
+        checkbox.checked = true;
+      }
+    });
+
     // set up some global variables.
     var network;
     var allNodes;
     var allEdges;
     var nodesDataset;
-    var edgesDataset = new vis.DataSet(GraphDataTech.edges.concat(GraphDataBuildings.edges));
+    var edgesDataset;
 
     document.getElementById("searchBox").addEventListener("input", _.debounce(findNodesByLabel, 300));
 
@@ -160,6 +209,12 @@
 
     function FocusOnInput() {
         document.getElementById("searchBox").focus();
+    }
+
+    function SelectAll() {
+      const checked = document.getElementById("selectAllModsCheckbox").checked;
+      document.getElementsByName("modSelector").forEach(x => x.checked = checked);
+      createNetwork();
     }
 </script>
 
