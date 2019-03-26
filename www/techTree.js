@@ -70,26 +70,38 @@ function highlightCategory() {
 async function createNetwork() {
   // determine what files we are loading
   const modSelectors = document.getElementsByName("modSelector");
-
+  const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
 
   const nodeBuilder = [];
   const allNodesBuilder = [];
   const edgeListing = [];
 
+  // get nodes and edges from files
   modSelectors.forEach(x => {
-
-    const variables = modToVariables[x.value];
+  const variables = modToVariables[x.value];
     if (x.checked) {
       variables.forEach(varName =>  {
         nodeBuilder.push(...(window[varName].nodes));
         edgeListing.push(...(window[varName].edges));
       })
     }
-    variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
+    else {
+      // push the edges in anyway if include pre-requistes is true
+      if (includePrerequisites) {
+        variables.forEach(varName =>  {
+          edgeListing.push(...(window[varName].edges));
+        })
+      }
+    }
+    // if not including prerequistes then don't want to lose a massive array of everything
+    // so only populate this if including pre-reqs
+    if (includePrerequisites) {
+      variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
+    }
   });
 
   const nodeListing = _.uniqBy(nodeBuilder, 'id');
-  const allNodeListing = _.uniqBy(allNodesBuilder, 'id');
+  const allNodeListing = includePrerequisites ? _.uniqBy(allNodesBuilder, 'id') : nodeListing;
 
   // initalise
   const techAreaFilter = document.getElementById("techAreaFilterBox").value;
@@ -98,7 +110,9 @@ async function createNetwork() {
     activeNodes = nodeListing;
   } else {
     //lodash filter with a shorthand for propertyname matches value.
-    activeNodes = _.filter(nodeListing, ['group', techAreaFilter]);
+    activeNodes = _.filter(nodeListing, function (node) {
+      return node.group === techAreaFilter || node.group === "Mod" + techAreaFilter;
+    });
   }
   const categoryFilter = document.getElementById("categoryFilterBox").value;
   if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
@@ -110,8 +124,7 @@ async function createNetwork() {
     });
   }
 
-  const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
-  if (includePrerequisites === true) {
+  if (includePrerequisites) {
     let nodesAndDeps = _.keyBy(activeNodes, 'id');
     PathFunctions.addAllDependencyNodes(_.transform(activeNodes, function (result, node) {
         result.push(node.id);

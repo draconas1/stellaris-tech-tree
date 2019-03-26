@@ -48,14 +48,29 @@ GraphOptions = {
         background: '#427df4'
       }
     },
+    ModPhysics: {
+      color: {
+        background: '#97aef4'
+      }
+    },
     Society: {
       color: {
-        background: '#80d17d'
+        background: '#6bd169'
+      }
+    },
+    ModSociety: {
+      color: {
+        background: '#acd1b9'
       }
     },
     Engineering: {
       color: {
         background: '#e5a649'
+      }
+    },
+    ModEngineering: {
+      color: {
+        background: '#e5dda1'
       }
     },
     Building: {

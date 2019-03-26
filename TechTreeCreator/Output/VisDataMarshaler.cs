@@ -238,8 +238,9 @@ namespace TechTreeCreator.Output {
             result.prerequisites = tech.PrerequisiteIds != null
                 ? tech.PrerequisiteIds.ToArray()
                 : new[] {BuildRootNodeName(tech.Area)};
-            result.group = tech.Area.ToString();
-          
+            
+           
+            result.group = (tech.Mod == "Stellaris" ? "" : "Mod") + tech.Area;
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
 
             if (tech.Categories != null)
@@ -306,7 +307,7 @@ namespace TechTreeCreator.Output {
             result.title = result.title + "<br/><i>" + entity.Description + "</i>";
 
             if (entity.Mod != "Stellaris") {
-                result.title = result.title + "<br/><b>Mod: </b><i>" + entity.Mod + "</i>";
+                result.title = result.title + "<br/><b>Mod: </b>" + entity.Mod + "";
             } 
             
             if (entity.DLC != null) {
