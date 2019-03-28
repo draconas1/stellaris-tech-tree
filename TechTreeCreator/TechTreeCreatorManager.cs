@@ -33,7 +33,7 @@ namespace TechTreeCreator
         /// <param name="stellarisRoot"></param>
         /// <param name="outputRoot"></param>
         /// <param name="mods">mods</param>
-        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, List<ModDirectoryHelper.Mod> mods) {
+        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, List<ModInfo> mods) {
             this.outputRoot = outputRoot;
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);

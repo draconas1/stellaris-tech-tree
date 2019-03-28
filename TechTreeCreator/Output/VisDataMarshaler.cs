@@ -20,7 +20,7 @@ namespace TechTreeCreator.Output {
         }
 
         public static VisData CreateCombined(IDictionary<string, VisData> datas) {
-            var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparatorExtensions.Create<VisNode>(x => x.id)).ToList();
+            var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparerExtensions.Create<VisNode>(x => x.id)).ToList();
             visNodes.Sort(IComparerExtensions.Create<VisNode>(x => x.group, x => x.id));
             var visEdges = datas.Values.Select(x => x.edges).SelectMany(x => x).ToList();
             

@@ -49,7 +49,7 @@ namespace TechTreeConsole {
 
                 //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
 
-                var modList = ModDirectoryHelper.ReadModListFromFile(modsFilePath);
+                var modList = ModDirectoryHelper.ReadModInfoFile(modsFilePath);
                 foreach (var modFile in modList.Where(x => x.Include)) {
                     Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
                 }
