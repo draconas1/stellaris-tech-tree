@@ -2,6 +2,13 @@ using System;
 using System.Collections.Generic;
 
 namespace NetExtensions.Object {
+    
+    /// <summary>
+    /// Extension and helper methods for <see cref="IComparer{T}"/>
+    /// </summary>
+    /// <remarks>
+    /// As well as extension methods there are also factory methods designed to be accessed directly.
+    /// </remarks>
     public static class IComparerExtensions {
         /// <summary>
         /// Generates an IComparer where the objects will be compared by extracting a single property using the first supplied function, if that returns equal (0) then the next property will be extracted and compared etc.    
@@ -10,7 +17,7 @@ namespace NetExtensions.Object {
         /// Based off javas Comparator.comparing(Function).  Why does this not exist in c#?
         /// </remarks>
         public static IComparer<T> Create<T>(params Func<T, IComparable>[] keyFunctions) {
-            IComparer<T> comparer = new Comparer<T>(keyFunctions[0]);
+            IComparer<T> comparer = new FunctionComparer<T>(keyFunctions[0]);
             if (keyFunctions.Length == 1) {
                 return comparer;
             }
@@ -27,11 +34,11 @@ namespace NetExtensions.Object {
         /// </summary>
         /// <param name="comparator">The first comparator</param>
         /// <param name="thenComparing">A function to extract the field that will then be compared upon</param>
-        ///  /// <remarks>
+        /// <remarks>
         /// Based off javas Comparator.thenComparing(Function).  Why does this not exist in c#?
         /// </remarks>
         public static IComparer<T> ThenComparing<T>(this IComparer<T> comparator, Func<T, IComparable> thenComparing) {
-            return new ChainedComparer<T>(comparator, new Comparer<T>(thenComparing));
+            return new ChainedComparer<T>(comparator, new FunctionComparer<T>(thenComparing));
         }
 
         private class ChainedComparer<T> : IComparer<T> {
@@ -48,10 +55,10 @@ namespace NetExtensions.Object {
             }
         } 
 
-        private class Comparer<T> : IComparer<T> {
+        private class FunctionComparer<T> : IComparer<T> {
             private readonly Func<T, IComparable> func;
 
-            internal Comparer(Func<T, IComparable> func) {
+            internal FunctionComparer(Func<T, IComparable> func) {
                 this.func = func;
             }
             public int Compare(T x, T y) {
