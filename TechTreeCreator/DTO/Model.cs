@@ -1,4 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using NetExtensions.Collection;
+using Newtonsoft.Json.Serialization;
 
 namespace TechTreeCreator.DTO {
     public enum TechArea {
@@ -14,18 +18,17 @@ namespace TechTreeCreator.DTO {
         Repeatable,
         NonTechDependency
     }
-    
+
     public class Tech : Entity {
-        
         public TechArea Area { get; set; }
-      
+
         public int? Tier { get; set; }
 
         // ReSharper disable once PossibleInvalidOperationException
         public int TierValue => Tier.Value;
 
         public int? BaseCost { get; set; }
-        
+
         public IEnumerable<string> Categories { get; set; }
         public IEnumerable<TechFlag> Flags { get; set; }
 
@@ -40,12 +43,13 @@ namespace TechTreeCreator.DTO {
         public IDictionary<string, double> Cost { get; }
         public IDictionary<string, double> Upkeep { get; }
         public IDictionary<string, double> Produces { get; }
+
         public Building(string id) : base(id) {
             Cost = new Dictionary<string, double>();
             Upkeep = new Dictionary<string, double>();
             Produces = new Dictionary<string, double>();
         }
-    } 
+    }
 
     public abstract class Entity {
         public string Id { get; private set; }
@@ -53,19 +57,21 @@ namespace TechTreeCreator.DTO {
         public string Description { get; set; }
 
         private string icon;
-        public string Icon { get => icon ?? Id;
+
+        public string Icon {
+            get => icon ?? Id;
             set => icon = value;
         }
-        
+
         public string FilePath { get; set; }
-        
+
         public string Mod { get; set; }
-        
+
         public string ModGroup { get; set; }
-        
+
         public IEnumerable<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
-        
+
         // ReSharper disable once InconsistentNaming
         public string DLC { get; set; }
 
@@ -78,6 +84,7 @@ namespace TechTreeCreator.DTO {
 
     public class Link {
         private string id;
+
         public string Id {
             get {
                 if (id == null) {
@@ -100,8 +107,26 @@ namespace TechTreeCreator.DTO {
     }
 
     public class ObjectsDependantOnTechs {
-        public IDictionary<string, Building> Buildings { get; set; }
-        public ISet<Link> Prerequisites { get; set; }
+        private ModEntityData<Building> buildings;
+        private ISet<string> modGroups = new HashSet<string>();
+
+        public ModEntityData<Building> Buildings {
+            get => buildings;
+            set {
+                buildings = value; 
+                modGroups.AddRange(buildings.Links.Select(x => x.To.ModGroup));
+            }
+        }
+
+        public ISet<string> ModGroups => modGroups;
+
+
+        public ModEntityData<Entity> Get(ParseTarget parseTarget){
+            switch (parseTarget) {
+                case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
+                case ParseTarget.Buildings: return (ModEntityData<Entity>)(object)Buildings;
+                default: throw new InvalidOperationException("Unknown type: " + parseTarget);
+            }
+        }
     }
-    
 }

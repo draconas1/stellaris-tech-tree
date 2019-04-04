@@ -43,9 +43,10 @@ namespace TechTreeCreator.GraphCreation {
             return true;
         }
 
-        public void ProcessDirectoryHelper(Dictionary<string, T> entities, StellarisDirectoryHelper directoryHelper) {
+        public ModEntityData<T> ProcessDirectoryHelper(ModEntityData<T> previous, StellarisDirectoryHelper directoryHelper, ModEntityData<Tech> techs) {
             var directoryPath = GetDirectory(directoryHelper);
             if (Directory.Exists(directoryPath)) {
+                var result = new ModEntityData<T>(directoryHelper, previous);
                 var techFiles = DirectoryWalker.FindFilesInDirectoryTree(directoryPath, ParseFileMask, IgnoreFiles);
                 Log.Logger.Debug("Directory {directory} produced files {files}", directoryPath, techFiles);
                 var parsedTechFiles = CWParserHelper.ParseParadoxFiles(techFiles.Select(x => x.FullName).ToList(), true);
@@ -58,11 +59,7 @@ namespace TechTreeCreator.GraphCreation {
                             Initialise(entity, file, directoryHelper.ModName, directoryHelper.ModGroup, node);
                             SetVariables(entity, node);
                             if (ShouldInclude(entity)) {
-                                if (entities.ContainsKey(entity.Id)) {
-                                    Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", file, entity.Id, entities[entity.Id].FilePath);
-                                }
-
-                                entities[entity.Id] = entity;
+                                result[entity.Id] = entity;
                             }
                             else {
                                 Log.Logger.Debug("File {file} contained node {key} was processed, but failed the include filter so is discarded", file, entity.Id);
@@ -73,34 +70,43 @@ namespace TechTreeCreator.GraphCreation {
                         }
                     }
                 }
-            }
-            else {
-                Log.Logger.Debug("{mod} did not have {directory}", directoryHelper.ModName, directoryPath.Replace(directoryHelper.Root, ""));
-            }
-        }
-
-        public ISet<Link> PopulateTechDependenciesAndReturnLinks(IEnumerable<Entity> entities, IDictionary<string, Tech> techs) {
-            var links = new HashSet<Link>();
-            // populate prerequisites
-            foreach (var entity in entities) {
-                // it is possible that the pre-reqs for a something do not exist
-                // in this we do not add them to the populated list, but leave them in the ids list
-                var prereqs = new List<Tech>();
-                foreach (var prerequisiteId in entity.PrerequisiteIds) {
-                    if (techs.TryGetValue(prerequisiteId, out var prereq)) {
-                        prereqs.Add(prereq);
-                        links.Add(new Link() {From = prereq, To = entity});
-                    }
-                    else {
-                        Log.Logger.Warning("Could not find prerequisite {prerequisite} for {entityType} {entityId}", prerequisiteId, entity.GetType().Name, entity.Id);
-                    }
+                
+                // special case for managing techs
+                // techs are their own tech lookup.
+                var latestTechData = result as ModEntityData<Tech>;
+                if (latestTechData != null) {
+                    AddLinks(result, latestTechData);
+                }
+                else {
+                    AddLinks(result, techs);
                 }
 
-                entity.Prerequisites = prereqs;
+                return result;
             }
+            Log.Logger.Debug("{mod} did not have {directory}", directoryHelper.ModName, directoryPath.Replace(directoryHelper.Root, ""));
+            return previous;
+         }
 
-            return links;
-        }
+
+         private void AddLinks(ModEntityData<T> data, ModEntityData<Tech> techs) {
+             foreach (var entity in data.Entities) {
+                 // it is possible that the pre-reqs for a something do not exist
+                 // in this we do not add them to the populated list, but leave them in the ids list
+                 var prereqs = new List<Tech>();
+                 foreach (var prerequisiteId in entity.PrerequisiteIds) {
+                     if (techs.ContainsEntityInTree(prerequisiteId)) {
+                         var prereq = techs[prerequisiteId];
+                         prereqs.Add(prereq);
+                         data.Links.Add(new Link() {From = prereq, To = entity});
+                     }
+                     else {
+                         Log.Logger.Warning("Could not find prerequisite {prerequisite} for {entityType} {entityId}", prerequisiteId, entity.GetType().Name, entity.Id);
+                     }
+                 }
+
+                 entity.Prerequisites = prereqs;
+             }
+         }
         
         private void Initialise(Entity entity, string filePath, string modName, string modGroup, CWNode node) {
             entity.Name = LocalisationApiHelper.GetName(node.Key);

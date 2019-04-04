@@ -8,6 +8,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 using TechTreeCreator;
+using TechTreeCreator.DTO;
 using TechTreeCreator.Logger;
 
 namespace TechTreeConsole {
@@ -55,7 +56,7 @@ namespace TechTreeConsole {
                 }
 
                 var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir, modList);
-                var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
+                ModEntityData<Tech> techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
                 techTreeCreatorManager.CopyImages(techsAndDependencies);
                 var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
 

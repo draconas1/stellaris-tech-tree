@@ -24,14 +24,12 @@ namespace TechTreeCreator.GraphCreation
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt", "eac_category.txt" });
         }
 
-        public TechsAndDependencies CreateTechnologyGraph()
-        {
-            var techs = new Dictionary<string, Tech>();
+        public ModEntityData<Tech> CreateTechnologyGraph() {
+            ModEntityData<Tech> techs = null;
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                ProcessDirectoryHelper(techs, modDirectoryHelper);
+                techs = ProcessDirectoryHelper(techs, modDirectoryHelper, null);
             }
-            var links = PopulateTechDependenciesAndReturnLinks(techs.Values, techs);
-            return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
+            return techs;
         }
         
         protected override Tech Construct(CWNode node) {

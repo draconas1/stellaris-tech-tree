@@ -1,11 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Linq;
-using System.Xml.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.Localisation;
-using FSharpx.Collections;
 using NetExtensions.Collection;
 using NetExtensions.Object;
 using Serilog;
@@ -14,55 +11,44 @@ using TechTreeCreator.DTO;
 namespace TechTreeCreator.Output {
     public class VisDataMarshaler {
         private readonly ILocalisationApiHelper localisationApi;
+        private readonly OutputDirectoryHelper outputDirectoryHelper;
 
-        public VisDataMarshaler(ILocalisationApiHelper localisationApi) {
+        public VisDataMarshaler(ILocalisationApiHelper localisationApi, OutputDirectoryHelper outputDirectoryHelper) {
             this.localisationApi = localisationApi;
+            this.outputDirectoryHelper = outputDirectoryHelper;
         }
 
-        public static VisData CreateCombined(IDictionary<string, VisData> datas) {
-            var visNodes = datas.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparerExtensions.Create<VisNode>(x => x.id)).ToList();
-            visNodes.Sort(IComparerExtensions.Create<VisNode>(x => x.group, x => x.id));
-            var visEdges = datas.Values.Select(x => x.edges).SelectMany(x => x).ToList();
-            
-            var result = new VisData() {
-                nodes = visNodes,
-                edges = visEdges
-            };
-            Log.Logger.Verbose("Combined VisData {@visData}", result);
-            return result;
-        }
-        
-        public IDictionary<string, VisData> CreateGroupedVisDependantData(IDictionary<string, VisData> techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath) {
-            var allTechData = CreateCombined(techData);
+        public IDictionary<string, VisData> CreateGroupedVisDependantData(IDictionary<string, VisData> techData, ObjectsDependantOnTechs objectsDependantOnTechs, IEnumerable<ParseTarget> parseTargets) {
+            Dictionary<string,VisNode> prereqTechNodeLookup = techData.Values.Select(x => x.nodes).SelectMany(x => x).Distinct(IEqualityComparerExtensions.Create<VisNode>(x => x.id)).ToDictionary(x => x.id);    
             var result = new Dictionary<string, VisData>();
-            var modGroups = objectsDependantOnTechs.Prerequisites.Select(x => x.To.ModGroup).Distinct().ToList();
-            modGroups.ForEach(x => result[x] = CreateVisData(allTechData, objectsDependantOnTechs, imagesPath, x));
+            objectsDependantOnTechs.ModGroups.ForEach(x => result[x] = CreateDependantDataForModGroup(x, prereqTechNodeLookup, objectsDependantOnTechs, parseTargets));
+            return result;
+        }
+        public VisData CreateRootNotes(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
+            var result = new VisData() {ModGroup = StellarisDirectoryHelper.StellarisCoreRootDirectory};
+            var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
+            var rootNodes = new Dictionary<TechArea, VisNode>();
+            var rootNodeCategories = new Dictionary<TechArea, HashSet<string>>();
+            foreach (var tech in techsAndDependencies.AllEntities) {
+                rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
+            }
+            foreach (var techArea in techAreas) {
+                var rootNode = BuildRootNode(techArea, imagesPath);
+                rootNode.categories = rootNodeCategories.ComputeIfAbsent(techArea, ignored => new HashSet<string>()).ToArray();
+                rootNodes[techArea] = rootNode;
+            }
+            result.nodes.AddRange(rootNodes.Values);
             return result;
         }
         
-        public VisData CreateVisData(VisData techData, ObjectsDependantOnTechs objectsDependantOnTechs, string imagesPath, string filter = null) {
-            Dictionary<string,VisNode> nodeLookup = techData.nodes.ToDictionary(x => x.id);
-
-            var result = new VisData() {
-                ModGroup = filter,
-                nodes = objectsDependantOnTechs.Buildings.Values.Where(x => Filter(x, filter)).Select(x => MarshalBuilding(x, nodeLookup, imagesPath)).ToList(),
-                edges = objectsDependantOnTechs.Prerequisites.Where(x => Filter(x.To, filter)).Select(MarshalLink).ToList()
-            };
-
-            return result;
-        }
         
-        private bool Filter<T>(T entity, string modGroup) where T : Entity {
-            return modGroup == null || entity.ModGroup == modGroup;
-        }
-        
-        public IDictionary<string, VisData> CreateVisData(TechsAndDependencies techsAndDependencies, string imagesPath) {
+        public IDictionary<string, VisData> CreateVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
 
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
             
             List<Tech> techsWithNoPrereqs = new List<Tech>();
-            foreach (var tech in techsAndDependencies.Techs.Values) {
+            foreach (var tech in techsAndDependencies.AllEntities) {
                 if (!tech.Tier.HasValue) {
                     throw new InvalidOperationException("All Techs must have Tiers to create vis data.  " + tech.Id);
                 }
@@ -79,51 +65,62 @@ namespace TechTreeCreator.Output {
                     techsWithNoPrereqs.Add(tech);
                 }
             }
-            Log.Logger.Debug("Max path per tier {@maxPaths", maxPathPerTier);
+            Log.Logger.Debug("Max path per tier {@maxPaths} Number of techs with no pre-requiste {noPreqCount}", maxPathPerTier, techsWithNoPrereqs.Count);
+            
             
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
             Log.Logger.Debug("Minimum level per tier {@minLevels", minimumLevelForTier);
 
             //sort the input by area as it produces a nicer graph.
-            var techList = techsAndDependencies.Techs.Values.ToList();
+            var techList = techsAndDependencies.AllEntities.ToList();
             techList.Sort((tech1, tech2) => {
                 var primary = tech1.Area - tech2.Area;
                 return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
             });
             
-            var modGroups = techsAndDependencies.Prerequisites.Select(x => x.To.ModGroup).Distinct().ToList();
+            var modGroups = techsAndDependencies.AllLinks.Select(x => x.To.ModGroup).Distinct().ToList();
        
             // link to supernodes
-            // build supernodes
-            var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
-            var rootNodes = new Dictionary<TechArea, VisNode>();
-            foreach (var techArea in techAreas) {
-                var rootNode = BuildRootNode(techArea, imagesPath);
-                rootNodes[techArea] = rootNode;
-            }
             var results = new Dictionary<string, VisData>();
-            var rootNodeCategories = new Dictionary<TechArea, HashSet<string>>();
             foreach (var modGroup in modGroups) {
                 var result = new VisData() {
                     nodes = techList.Where(x => Filter(x, modGroup)).Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
-                    edges = techsAndDependencies.Prerequisites.Where(x => Filter(x.To, modGroup)).Select(MarshalLink).ToList()
+                    edges = techsAndDependencies.AllLinks.Where(x => Filter(x.To, modGroup)).Select(MarshalLink).ToList()
                 };
-                result.nodes.AddRange(rootNodes.Values);
 
                 foreach (var tech in techsWithNoPrereqs.Where(x => Filter(x, modGroup))) {
                     result.edges.Add(BuildRootLink(tech.Area, tech.Id));
-                    rootNodeCategories.ComputeIfAbsent(tech.Area, ignored => new HashSet<string>()).AddRange(tech.Categories);
-                }
-
-                foreach (var (key, value) in rootNodes) {
-                    value.categories = rootNodeCategories.ComputeIfAbsent(key, ignored => new HashSet<string>()).ToArray();
                 }
 
                 results[modGroup] = result;
             }
 
             return results;
+        }
+        
+        private VisData CreateDependantDataForModGroup(string modGroup, IDictionary<string, VisNode> prereqTechNodeLookup, ObjectsDependantOnTechs objectsDependantOnTechs, IEnumerable<ParseTarget> parseTargets) {
+            var result = new VisData() {
+                ModGroup = modGroup,
+            };
+
+            foreach (var parseTarget in parseTargets.WithoutTechs()) {
+
+                switch (parseTarget) {
+                    case ParseTarget.Buildings:
+                        result.nodes.AddRange(objectsDependantOnTechs.Buildings.AllEntitiesForModGroup(modGroup).Select(x => MarshalBuilding(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
+                        result.edges.AddRange(objectsDependantOnTechs.Buildings.AllLinksForModGroup(modGroup).Select(MarshalLink));
+                        break;
+                    default:
+                        throw new Exception(parseTarget.ToString());
+                }
+            }
+
+            return result;
+        }
+        
+        private bool Filter<T>(T entity, string modGroup) where T : Entity {
+            return modGroup == null || entity.ModGroup == modGroup;
         }
 
         private VisNode BuildRootNode(TechArea area, string imagesPath) {
@@ -190,7 +187,7 @@ namespace TechTreeCreator.Output {
             return maxPreqs;
         }
 
-        private VisNode MarshalBuilding(Building building, Dictionary<string,VisNode> nodeLookup, string imagesPath) {
+        private VisNode MarshalBuilding(Building building, IDictionary<string,VisNode> prereqTechNodeLookup, string imagesPath) {
             var result = CreateNode(building, imagesPath, "building"); 
             result.prerequisites = building.PrerequisiteIds != null
                 ? building.PrerequisiteIds.ToArray()
@@ -208,7 +205,7 @@ namespace TechTreeCreator.Output {
             result.title = result.title + AddBuildingResources("Produces", building.Produces);
 
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
-            var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => nodeLookup[x.Id].level).Max();
+            var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
             if (!highestLevelOfPrerequisiteTechs.HasValue) {
                 throw new Exception(building.Name + " Had no prerequiste levels: " + building.FilePath);
             }

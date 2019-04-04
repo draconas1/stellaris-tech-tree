@@ -14,7 +14,12 @@ namespace CWToolsHelpers.Directories {
         /// Default for the file extension we are usually interested in.
         /// </summary>
         public const string TextMask = "*.txt";
-        
+
+        /// <summary>
+        /// The name of the Stellaris root directory for locating the helper that is for the core game.
+        /// </summary>
+        public const string StellarisCoreRootDirectory = "stellaris";
+
         /// <summary>
         /// The name of the root directory for this helper (will be the stellaris directory for the main game, or the mods directory for a mod)
         /// </summary>
@@ -23,6 +28,11 @@ namespace CWToolsHelpers.Directories {
         /// A free text name to allow directories for multiple different mods to be grouped.  E.g. EAC, Dadinator, Ascended Fallen Empire
         /// </summary>
         public string ModGroup { get; set; }
+        
+        /// <summary>
+        /// <c>true</c> if this helper is for the core game, <c>false</c> if its for a mod.
+        /// </summary>
+        public bool IsCoreGameHelper => Root == StellarisCoreRootDirectory;
         
         /// <summary>
         /// The path to the root of the mod directory

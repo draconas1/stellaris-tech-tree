@@ -18,11 +18,11 @@ namespace TechTreeCreator.GraphCreation
         private readonly ICWParserHelper cwParserHelper;
         private readonly StellarisDirectoryHelper stellarisDirectoryHelper;
         private readonly IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers;
-        private readonly TechsAndDependencies techsAndDependencies;
+        private readonly ModEntityData<Tech> techsAndDependencies;
 
         public DependantsGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper, 
             StellarisDirectoryHelper stellarisDirectoryHelper, IEnumerable<StellarisDirectoryHelper> modDirectoryHelpers,
-            TechsAndDependencies techsAndDependencies)
+            ModEntityData<Tech> techsAndDependencies)
         {
             this.localisationApiHelper = localisationApiHelper;
             this.cwParserHelper = cwParserHelper;
@@ -32,36 +32,32 @@ namespace TechTreeCreator.GraphCreation
         }
 
         public ObjectsDependantOnTechs CreateDependantGraph() {
-            var result = new ObjectsDependantOnTechs() { Prerequisites = new HashSet<Link>()};
+            var result = new ObjectsDependantOnTechs();
             var buildingGraphCreator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
-            var (buildings, buildingLinks) = ProcessDependant(buildingGraphCreator);
+            var buildings = ProcessDependant(buildingGraphCreator);
             result.Buildings = buildings;
-            result.Prerequisites.AddRange(buildingLinks);
             return result;
         }
 
 
-        private Tuple<IDictionary<string, T>, ISet<Link>> ProcessDependant<T>(EntityCreator<T> creator) where T : Entity {
-            var entities = new Dictionary<string, T>();
-           
+        private ModEntityData<T> ProcessDependant<T>(EntityCreator<T> creator) where T : Entity {
+            ModEntityData<T> entities = null;
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                creator.ProcessDirectoryHelper(entities, modDirectoryHelper);
+                entities = creator.ProcessDirectoryHelper(entities, modDirectoryHelper, techsAndDependencies);
             }
+            
+            entities.ApplyToChain((ents, links) => {
+                var invalidEntities = ents.Where(x => !x.Value.Prerequisites.Any()).Select(x => x.Value).ToList();
+                foreach (var invalidEntity in invalidEntities) {
+                    Log.Logger.Warning("Removing {entityId} from {file} dependant entities as we were unable to locate its specified pre-requisite techs", invalidEntity.Id, invalidEntity.FilePath);
+                    ents.Remove(invalidEntity.Id);
+                    var invalidLinks = links.Where(x => x.To.Id == invalidEntity.Id).ToList();
+                    links.RemoveAll(invalidLinks);
+                }
+            });
 
-            var links = creator.PopulateTechDependenciesAndReturnLinks(entities.Values, techsAndDependencies.Techs);
-
-            var invalidEntities = entities.Where(x => !x.Value.Prerequisites.Any()).Select(x => x.Key).ToList();
-            foreach (var invalidEntityKey in invalidEntities) {
-                Log.Logger.Warning("Removing {0} from dependant entities as we were unable to locate its specified pre-requisite techs", invalidEntityKey);
-                entities.Remove(invalidEntityKey);
-                var invalidLinks = links.Where(x => x.To.Id == invalidEntityKey).ToList();
-                links.RemoveAll(invalidLinks);
-            }
-
-            return new Tuple<IDictionary<string, T>, ISet<Link>>(entities, links);
+            return entities;
         }
-
-
 
     }
 }
