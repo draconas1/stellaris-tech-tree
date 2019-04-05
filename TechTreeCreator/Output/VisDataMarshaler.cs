@@ -124,13 +124,14 @@ namespace TechTreeCreator.Output {
         }
 
         private VisNode BuildRootNode(TechArea area, string imagesPath) {
+            var relativePath = CreateRelativePath(imagesPath);
             var areaName = area.ToString();
             var result = new VisNode
             {
                 id = BuildRootNodeName(area),
                 label = localisationApi.GetName(areaName.ToLower()),
                 group = areaName,
-                image = imagesPath + "/" + BuildRootNodeName(area) + ".png",
+                image = relativePath + "/" + BuildRootNodeName(area) + ".png",
                 hasImage = true,
                 level = 0,
                 nodeType = "tech"
@@ -293,11 +294,12 @@ namespace TechTreeCreator.Output {
         }
         
         private VisNode CreateNode(Entity entity, string imagesPath, string nodeType) {
+            var relativePath = CreateRelativePath(imagesPath);
             var result = new VisNode {
                 id = entity.Id,
                 label = entity.Name,
                 title = "<b>" + entity.Name + "</b>",
-                image = imagesPath + "/" + entity.Id + ".png",
+                image = relativePath + "/" + entity.Id + ".png",
                 hasImage = entity.IconFound,
                 nodeType = nodeType
             };
@@ -314,7 +316,16 @@ namespace TechTreeCreator.Output {
 
             return result;
         }
-        
+
+        private string CreateRelativePath(string imagesPath) {
+            var relativePath = imagesPath.Replace(outputDirectoryHelper.Root, "");
+            if (relativePath.StartsWith("/")) {
+                relativePath = relativePath.Remove(0, 1);
+            }
+
+            return relativePath;
+        }
+
         private VisEdge MarshalLink(Link node)
         {
             return new VisEdge

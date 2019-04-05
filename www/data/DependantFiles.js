@@ -28,5 +28,10 @@ dependantDataFiles = [
     "name": "Ancient Cache of Technologies",
     "jsVarable": "AncientCacheofTechnologiesGraphDataDependants",
     "fileName": "Ancient_Cache_of_Technologies-dependants.js"
+  },
+  {
+    "name": "Stellaris-No-Mods",
+    "jsVarable": "StellarisNoModsGraphDataDependants",
+    "fileName": "Stellaris-No-Mods-dependants.js"
   }
 ]

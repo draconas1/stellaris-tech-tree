@@ -1,4 +1,4 @@
-StellarisGraphDataDependants = {
+StellarisNoModsGraphDataDependants = {
   "ModGroup": "Stellaris",
   "nodes": [
     {
@@ -535,6 +535,19 @@ StellarisGraphDataDependants = {
       ]
     },
     {
+      "id": "building_military_academy",
+      "label": "Military Academy",
+      "group": "Building",
+      "title": "<b>Military Academy</b><br/><i>Military Academies improve local recruitment rates and offer a higher standard of training.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals<br/><b>Upkeep:</b> 2 Energy Credits",
+      "level": 10,
+      "image": "images/buildings/building_military_academy.png",
+      "hasImage": false,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_centralized_command"
+      ]
+    },
+    {
       "id": "building_xeno_zoo",
       "label": "Alien Zoo",
       "group": "Building",
@@ -782,6 +795,32 @@ StellarisGraphDataDependants = {
       ]
     },
     {
+      "id": "building_hydroponics_farm",
+      "label": "Hydroponics Farms",
+      "group": "Building",
+      "title": "<b>Hydroponics Farms</b><br/><i>Hydroponics Farms produce nutrient-rich vegetable matter tailored for consumption by local Pops.</i><br/><b>Build Time: </b>360<br/><b>Category: </b>Resource<br/><b>Cost:</b> 300 Minerals<br/><b>Upkeep:</b> 2 Energy Credits",
+      "level": 7,
+      "image": "images/buildings/building_hydroponics_farm.png",
+      "hasImage": false,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_hydroponics"
+      ]
+    },
+    {
+      "id": "building_maintenance_depot",
+      "label": "Maintenance Depots",
+      "group": "Building",
+      "title": "<b>Maintenance Depots</b><br/><i>Workshops where maintenance of machinery and structures is planned, managed, and executed.</i><br/><b>Build Time: </b>240<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 200 Minerals<br/><b>Upkeep:</b> 1 Energy Credits",
+      "level": 2,
+      "image": "images/buildings/building_maintenance_depot.png",
+      "hasImage": false,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_planetary_government"
+      ]
+    },
+    {
       "id": "building_hospital",
       "label": "Cyto-Revitalization Centers",
       "group": "Building",
@@ -867,6 +906,19 @@ StellarisGraphDataDependants = {
       "level": 13,
       "image": "images/buildings/building_communal_housing_large.png",
       "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_paradise_dome"
+      ]
+    },
+    {
+      "id": "building_paradise_dome",
+      "label": "Paradise Dome",
+      "group": "Building",
+      "title": "<b>Paradise Dome</b><br/><i>A fully enclosed habitation dome with a self-contained ecosystem, a veritable private paradise for those rich or fortunate enough to live there.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 500 Minerals, 50 Rare Crystals<br/><b>Upkeep:</b> 2 Energy Credits, 1 Rare Crystals",
+      "level": 13,
+      "image": "images/buildings/building_paradise_dome.png",
+      "hasImage": false,
       "nodeType": "building",
       "prerequisites": [
         "tech_paradise_dome"

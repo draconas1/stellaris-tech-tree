@@ -27,25 +27,27 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script type="text/javascript" src="dist/vis.js"></script>
 
-    <!-- Mods -->
-
     <script type="text/javascript" src="data/TechFiles.js?v=2"></script>
     <script type="text/javascript" src="data/DependantFiles.js?v=2"></script>
 
-    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-dependants.js?v=2"></script>
+    <!-- Data -->
 
-    <script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/At_War-dependants.js?v=2"></script>
-
-    <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/EUTAB-dependants.js?v=2"></script>
-
-    <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/Gigastructures-dependants.js?v=2"></script>
-
+    <script type="text/javascript" src="data/Stellaris-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=2"></script>
+
+    <script type="text/javascript" src="data/Stellaris-dependants.js?v=2"></script>
+    <script type="text/javascript" src="data/EUTAB-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-dependants.js?v=2"></script>
+    <script type="text/javascript" src="data/Gigastructures-dependants.js?v=2"></script>
+    <script type="text/javascript" src="data/At_War-dependants.js?v=2"></script>
+    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-dependants.js?v=2"></script>
+    <script type="text/javascript" src="data/Stellaris-No-Mods-dependants.js?v=2"></script>
 
     <!--
         <script type="text/javascript" src="data/?v=2"></script>
@@ -58,7 +60,7 @@
 <body onload="FocusOnInput()">
 <h1 class="title">Stellaris Tech Tree</h1>
 <p>
-    A complete dependency tree of all technologies in Stellaris 2.2.6 by
+    A complete dependency tree of all technologies in Stellaris 2.2.7 by
     <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
 </p>
 <div id="topBar">
@@ -169,26 +171,31 @@
 
     var modlist = document.getElementById("modListRow");
     Object.keys(modToVariables).forEach(modName => {
-      var checkbox = document.createElement('input');
-      checkbox.type = "checkbox";
-      checkbox.name = "modSelector";
-      checkbox.value = modName;
-      checkbox.id = modName + "Selector";
-      checkbox.onclick = createNetwork;
+      if (modName === "Stellaris-No-Mods" || modName === "Tech-Root-Nodes") {
+        // ignore.
+      }
+      else {
+        var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.name = "modSelector";
+        checkbox.value = modName;
+        checkbox.id = modName + "Selector";
+        checkbox.onclick = createNetwork;
 
-      var label = document.createElement('label');
-      label.htmlFor = modName + "Selector";
-      label.appendChild(document.createTextNode(modName));
+        var label = document.createElement('label');
+        label.htmlFor = modName + "Selector";
+        label.appendChild(document.createTextNode(modName));
 
-      var div = document.createElement('div');
-      div.className = 'filterRow';
-      div.appendChild(label);
-      div.appendChild(checkbox);
+        var div = document.createElement('div');
+        div.className = 'filterRow';
+        div.appendChild(label);
+        div.appendChild(checkbox);
 
-      modlist.appendChild(div);
+        modlist.appendChild(div);
 
-      if (modName === "Stellaris") {
-        checkbox.checked = true;
+        if (modName === "Stellaris") {
+          checkbox.checked = true;
+        }
       }
     });
 

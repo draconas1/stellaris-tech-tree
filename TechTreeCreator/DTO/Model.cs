@@ -114,7 +114,7 @@ namespace TechTreeCreator.DTO {
             get => buildings;
             set {
                 buildings = value; 
-                modGroups.AddRange(buildings.Links.Select(x => x.To.ModGroup));
+                modGroups.AddRange(buildings.AllEntities.Select(x => x.ModGroup));
             }
         }
 

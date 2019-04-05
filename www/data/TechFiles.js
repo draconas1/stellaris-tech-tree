@@ -28,5 +28,15 @@ techDataFiles = [
     "name": "Ancient Cache of Technologies",
     "jsVarable": "AncientCacheofTechnologiesGraphDataTech",
     "fileName": "Ancient_Cache_of_Technologies-tech.js"
+  },
+  {
+    "name": "Stellaris-No-Mods",
+    "jsVarable": "StellarisNoModsGraphDataTech",
+    "fileName": "Stellaris-No-Mods-tech.js"
+  },
+  {
+    "name": "Tech-Root-Nodes",
+    "jsVarable": "TechRootNodesGraphDataTech",
+    "fileName": "Tech-Root-Nodes-tech.js"
   }
 ]

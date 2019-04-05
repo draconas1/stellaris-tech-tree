@@ -76,32 +76,79 @@ async function createNetwork() {
   const allNodesBuilder = [];
   const edgeListing = [];
 
-  // get nodes and edges from files
-  modSelectors.forEach(x => {
-  const variables = modToVariables[x.value];
-    if (x.checked) {
-      variables.forEach(varName =>  {
-        nodeBuilder.push(...(window[varName].nodes));
-        edgeListing.push(...(window[varName].edges));
-      })
+  // want to see if only core game is checked
+  // if so we load the special "core game with no mods" datafiles
+  // otherwise we load with mod files.
+  let isOnlyStellarisChecked = false;
+  for (let i = 0; i< modSelectors.length; i++) {
+    const selectElement = modSelectors[i];
+    // if it is the main game element
+    // then if it is checked there is a chance that we are using the special files
+    // (which may be disproved by a later mod)
+    // if it is not checked we are definately not using the special files.
+    if (selectElement.value === "Stellaris") {
+      if (selectElement.checked) {
+        isOnlyStellarisChecked = true;
+      }
+      else {
+        break;
+      }
     }
+      // if the element is not the main game element
+      // and it is checked, then we are not loading the special files
+      // and should abort immidiately
     else {
-      // push the edges in anyway if include pre-requistes is true
-      if (includePrerequisites) {
+      if (selectElement.checked) {
+        isOnlyStellarisChecked = false;
+        break;
+      }
+    }
+  }
+
+  if (isOnlyStellarisChecked) {
+    const variables = modToVariables["Stellaris-No-Mods"];
+    variables.forEach(varName =>  {
+      nodeBuilder.push(...(window[varName].nodes));
+      edgeListing.push(...(window[varName].edges));
+      allNodesBuilder.push(...(window[varName].nodes));
+
+      // window[varName].nodes.forEach(node => {
+      //   if(!node.level) {
+      //     console.log("Node " + node.id + " in variable " + varName + " has no group");
+      //   }
+      // })
+    })
+  }
+  else {
+    // get nodes and edges from files
+    modSelectors.forEach(selectElement => {
+      const variables = modToVariables[selectElement.value];
+      if (selectElement.checked) {
         variables.forEach(varName =>  {
+          nodeBuilder.push(...(window[varName].nodes));
           edgeListing.push(...(window[varName].edges));
         })
       }
-    }
-    // if not including prerequistes then don't want to lose a massive array of everything
-    // so only populate this if including pre-reqs
-    if (includePrerequisites) {
-      variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
-    }
-  });
+      else {
+        // push the edges in anyway if include pre-requistes is true
+        if (includePrerequisites) {
+          variables.forEach(varName =>  {
+            edgeListing.push(...(window[varName].edges));
+          })
+        }
+      }
+      // if not including prerequistes then don't want to create a massive array of everything
+      // so only populate this if including pre-reqs
+      if (includePrerequisites) {
+        variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
+      }
+    });
+  }
+  // add the tech root nodes.
+  nodeBuilder.push(...(TechRootNodesGraphDataTech.nodes));
+  allNodesBuilder.push(...(TechRootNodesGraphDataTech.nodes));
 
   const nodeListing = _.uniqBy(nodeBuilder, 'id');
-  const allNodeListing = includePrerequisites ? _.uniqBy(allNodesBuilder, 'id') : nodeListing;
 
   // initalise
   const techAreaFilter = document.getElementById("techAreaFilterBox").value;
@@ -125,6 +172,8 @@ async function createNetwork() {
   }
 
   if (includePrerequisites) {
+    // if including prereqs then when building the graph we may need to use the massive array of everything
+    const allNodeListing = includePrerequisites ? _.uniqBy(allNodesBuilder, 'id') : nodeListing;
     let nodesAndDeps = _.keyBy(activeNodes, 'id');
     PathFunctions.addAllDependencyNodes(_.transform(activeNodes, function (result, node) {
         result.push(node.id);

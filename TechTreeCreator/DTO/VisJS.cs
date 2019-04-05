@@ -88,7 +88,7 @@ namespace TechTreeCreator.DTO
         }
 
         private static string SanitiseNameForJsVar(string name) {
-            Regex rgx = new Regex("[^a-zA-Z0-9_-]");
+            Regex rgx = new Regex(@"[^a-zA-Z0-9_]");
             return rgx.Replace(name, "");
         }
 
