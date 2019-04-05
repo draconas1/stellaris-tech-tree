@@ -7,11 +7,18 @@ using NetExtensions.Collection;
 using Serilog;
 
 namespace TechTreeCreator.DTO {
-    public class ModEntityData<T> : IEnumerable<KeyValuePair<string, T>> where T : Entity {
+    
+    public class ModEntityData<T> where T : Entity {
         private readonly Dictionary<string, T> entities;
         private readonly StellarisDirectoryHelper directoryHelper;
         private readonly ModEntityData<T> previous;
-
+        internal ModEntityData() {
+            directoryHelper = new StellarisDirectoryHelper("null");
+            previous = null;
+            entities = new Dictionary<string, T>();
+            Links = new HashSet<Link>();
+        }
+        
         public ModEntityData(StellarisDirectoryHelper directoryHelper, ModEntityData<T> previous = null) {
             this.directoryHelper = directoryHelper;
             this.previous = previous;
@@ -33,7 +40,7 @@ namespace TechTreeCreator.DTO {
         }
 
         public ModEntityData<T> FindCoreGameData() {
-            return directoryHelper.ModName == StellarisDirectoryHelper.StellarisCoreRootDirectory ? this : previous?.FindByModName(StellarisDirectoryHelper.StellarisCoreRootDirectory);
+            return directoryHelper.IsCoreGameHelper ? this : previous?.FindCoreGameData();
         }
 
         public ModEntityData<T> FindByModName(string name) {
@@ -69,6 +76,10 @@ namespace TechTreeCreator.DTO {
         public IEnumerable<T> AllEntities => AllEntitiesByKey.Values;
 
         public ISet<Link> Links { get; }
+        
+        public int EntityCount => entities.Count + (previous?.EntityCount ?? 0);
+        
+        public int LinkCount => Links.Count + (previous?.LinkCount ?? 0);
 
         public ISet<Link> AllLinks {
             get {
@@ -89,15 +100,14 @@ namespace TechTreeCreator.DTO {
 
         public Dictionary<string, T> AllEntitiesByKey {
             get {
-                var list = GetAllEntities();
-                list.Reverse();
+                List<IEnumerable<KeyValuePair<string, T>>> list = GetAllEntities();
                 var result = new Dictionary<string, T>();
                 foreach (var entitiesByKey in list) {
                     foreach (var (_, entity) in entitiesByKey) {
-                        if (entities.ContainsKey(entity.Id)) {
-                            Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", entity.FilePath, entity.Id, entities[entity.Id].FilePath);
-                            entities[entity.Id] = entity;
+                        if (result.ContainsKey(entity.Id)) {
+                            Log.Logger.Debug("File {file} contained node {key} which overwrites previous node from {previousFile}", entity.FilePath, entity.Id, result[entity.Id].FilePath);
                         }
+                        result[entity.Id] = entity;
                     }
                 }
 
@@ -124,8 +134,5 @@ namespace TechTreeCreator.DTO {
             return entities.GetEnumerator();
         }
 
-        IEnumerator IEnumerable.GetEnumerator() {
-            return GetEnumerator();
-        }
     }
 }

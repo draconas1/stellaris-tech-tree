@@ -31,11 +31,29 @@ namespace TechTreeCreator.GraphCreation
             this.techsAndDependencies = techsAndDependencies;
         }
 
-        public ObjectsDependantOnTechs CreateDependantGraph() {
+        public ObjectsDependantOnTechs CreateDependantGraph(IList<ParseTarget> parseTargetsWithoutTechs) {
             var result = new ObjectsDependantOnTechs();
-            var buildingGraphCreator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
-            var buildings = ProcessDependant(buildingGraphCreator);
-            result.Buildings = buildings;
+
+            foreach (var target in parseTargetsWithoutTechs) {
+                switch (target) {
+                    case ParseTarget.Buildings: {
+                        var buildingGraphCreator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
+                        var processed = ProcessDependant(buildingGraphCreator);
+                        result.Buildings = ProcessDependant(buildingGraphCreator);
+                        if (processed != null) {
+                            Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", processed.EntityCount, target, processed.LinkCount);                            
+                        }
+                        else {
+                            Log.Logger.Warning("{parseTarget} had no items in any of the sources");     
+                        }
+                        
+                        break;
+                    }
+                    
+                    default: throw new Exception("unknown target: " + target);
+                }
+            }
+
             return result;
         }
 
@@ -45,11 +63,12 @@ namespace TechTreeCreator.GraphCreation
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 entities = creator.ProcessDirectoryHelper(entities, modDirectoryHelper, techsAndDependencies);
             }
-            
-            entities.ApplyToChain((ents, links) => {
+
+            entities?.ApplyToChain((ents, links) => {
                 var invalidEntities = ents.Where(x => !x.Value.Prerequisites.Any()).Select(x => x.Value).ToList();
                 foreach (var invalidEntity in invalidEntities) {
-                    Log.Logger.Warning("Removing {entityId} from {file} dependant entities as we were unable to locate its specified pre-requisite techs", invalidEntity.Id, invalidEntity.FilePath);
+                    Log.Logger.Warning("Removing {entityId} from {file} dependant entities as we were unable to locate its specified pre-requisite techs", invalidEntity.Id,
+                        invalidEntity.FilePath);
                     ents.Remove(invalidEntity.Id);
                     var invalidLinks = links.Where(x => x.To.Id == invalidEntity.Id).ToList();
                     links.RemoveAll(invalidLinks);

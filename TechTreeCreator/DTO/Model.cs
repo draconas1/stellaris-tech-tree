@@ -120,13 +120,19 @@ namespace TechTreeCreator.DTO {
 
         public ISet<string> ModGroups => modGroups;
 
-
-        public ModEntityData<Entity> Get(ParseTarget parseTarget){
+        public IEnumerable<Entity> Get(ParseTarget parseTarget){
             switch (parseTarget) {
                 case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
-                case ParseTarget.Buildings: return (ModEntityData<Entity>)(object)Buildings;
+                case ParseTarget.Buildings: return Buildings.AllEntities;
                 default: throw new InvalidOperationException("Unknown type: " + parseTarget);
             }
+        }
+
+        public ObjectsDependantOnTechs CopyOnlyCore() {
+            return new ObjectsDependantOnTechs() {
+                Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>()
+            };
+            
         }
     }
 }

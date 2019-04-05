@@ -18,7 +18,7 @@ namespace CWToolsHelpers.Directories {
         /// <summary>
         /// The name of the Stellaris root directory for locating the helper that is for the core game.
         /// </summary>
-        public const string StellarisCoreRootDirectory = "stellaris";
+        public const string StellarisCoreRootDirectory = "Stellaris";
 
         /// <summary>
         /// The name of the root directory for this helper (will be the stellaris directory for the main game, or the mods directory for a mod)
@@ -32,7 +32,7 @@ namespace CWToolsHelpers.Directories {
         /// <summary>
         /// <c>true</c> if this helper is for the core game, <c>false</c> if its for a mod.
         /// </summary>
-        public bool IsCoreGameHelper => Root == StellarisCoreRootDirectory;
+        public bool IsCoreGameHelper => ModName == StellarisCoreRootDirectory && Root.EndsWith(StellarisCoreRootDirectory);
         
         /// <summary>
         /// The path to the root of the mod directory

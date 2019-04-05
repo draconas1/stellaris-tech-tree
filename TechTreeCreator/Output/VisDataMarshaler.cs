@@ -42,7 +42,7 @@ namespace TechTreeCreator.Output {
         }
         
         
-        public IDictionary<string, VisData> CreateVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
+        public IDictionary<string, VisData> CreateTechVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
 
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
@@ -70,7 +70,7 @@ namespace TechTreeCreator.Output {
             
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
-            Log.Logger.Debug("Minimum level per tier {@minLevels", minimumLevelForTier);
+            Log.Logger.Debug("Minimum level per tier {@minLevels}", minimumLevelForTier);
 
             //sort the input by area as it produces a nicer graph.
             var techList = techsAndDependencies.AllEntities.ToList();

@@ -55,20 +55,20 @@ namespace TechTreeConsole {
                     Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
                 }
 
-                var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir, modList);
-                ModEntityData<Tech> techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
-                techTreeCreatorManager.CopyImages(techsAndDependencies);
-                var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
-
-                var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, techsData);
-
-                foreach (var (modGoup, visData) in techsData) {
-                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
-                }
-
-                foreach (var (modGoup, visData) in objectsDependantOnTechs) {
-                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
-                }
+                var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
+                techTreeCreatorManager.Mods = modList;
+                techTreeCreatorManager.ForceModOverwriting = true;
+                
+                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings});
+                
+//
+//                foreach (var (modGoup, visData) in techsData) {
+//                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+//                }
+//
+//                foreach (var (modGoup, visData) in objectsDependantOnTechs) {
+//                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+//                }
             }
             catch (Exception e) {
                 Log.Logger.Fatal(e, "Fatal Error");

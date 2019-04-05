@@ -28,9 +28,12 @@ namespace TechTreeCreator
         
         public List<ModInfo> Mods { get; set; }
         public STLLang Language { get; set; }
+        public bool ForceModOverwriting { get; set; }
+
+        public bool CopyImages { get; set; }
 
         private IList<StellarisDirectoryHelper> modDirectoryHelpers;
-        private IList<StellarisDirectoryHelper> ModDirectoryHelpers => modDirectoryHelpers ?? (modDirectoryHelpers = ModDirectoryHelper.CreateDirectoryHelpers(Mods.NullToEmpty()));
+        private IList<StellarisDirectoryHelper> ModDirectoryHelpers => modDirectoryHelpers ?? (modDirectoryHelpers = ModDirectoryHelper.CreateDirectoryHelpers(Mods.NullToEmpty(), ForceModOverwriting));
 
 
         private ILocalisationApiHelper localisation;
@@ -41,80 +44,33 @@ namespace TechTreeCreator
 
 
         /// <summary>
-        /// 
+        /// Will initalise optional values to sensible defaults.
         /// </summary>
         /// <param name="stellarisRoot"></param>
         /// <param name="outputRoot"></param>
-        /// <param name="mods">mods</param>
-        public TechTreeCreatorManager(string stellarisRoot, string outputRoot, List<ModInfo> mods) {
+        public TechTreeCreatorManager(string stellarisRoot, string outputRoot) {
             this.outputRoot = outputRoot;
             //Support UTF-8
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-
             Language = STLLang.English;
             
             OutputDirectoryHelper = new OutputDirectoryHelper(outputRoot);
-
             
             // setup parser
-            StellarisDirectoryHelper = new StellarisDirectoryHelper(stellarisRoot);
-            modDirectoryHelpers = ModDirectoryHelper.CreateDirectoryHelpers(mods.NullToEmpty());
-            
-            //setup localisation 
             // Include extra pie! Especially for Piebadger.
-            localisation = new LocalisationApiHelper(StellarisDirectoryHelper, modDirectoryHelpers, STLLang.English);
-            
-            // setup parser
-            IScriptedVariablesAccessor scriptedVariablesHelper = new ScriptedVariableAccessor(StellarisDirectoryHelper, modDirectoryHelpers);
-            cwParser = new CWParserHelper(scriptedVariablesHelper);
+            StellarisDirectoryHelper = new StellarisDirectoryHelper(stellarisRoot);
+
+            CopyImages = true;
         }
         
-        public void CopyMainImages(IEnumerable<Entity> entities, string inputPath, string outputPath) {
-            //build the mod input list
-            var inputDirectories = StellarisDirectoryHelper
-                .CreateCombinedList(StellarisDirectoryHelper, modDirectoryHelpers, Last)
-                .Select(x => Path.Combine(x.Icons, inputPath)).ToList();
-
-            // tech images
-            ImageOutput.TransformAndOutputImages(inputDirectories, Path.Combine(outputRoot, outputPath), entities);
-        }
-
-
-        private void CopyCategoryImages(string techOutputDir) {
-            // tech category images no mod support here
-            var categoryDir = Path.Combine(techOutputDir, "categories");
-            Directory.CreateDirectory(categoryDir);
-            
-            var helpers = StellarisDirectoryHelper
-                .CreateCombinedList(StellarisDirectoryHelper, modDirectoryHelpers);
-
-            foreach (var helper in helpers) {
-                var categoryFiles =  new[] {helper}.Select(x => Path.Combine(x.Technology, "categories"))
-                    .Where(Directory.Exists)
-                    .Select(x => DirectoryWalker.FindFilesInDirectoryTree(x, StellarisDirectoryHelper.TextMask))
-                    .SelectMany(x => x)
-                    .ToList();
-                
-                var categoryFileNodes = new CWParserHelper().ParseParadoxFiles(categoryFiles.Select(x => x.FullName).ToList());
-                foreach (CWNode fileNode in categoryFileNodes.Values) {
-                    foreach (var category in fileNode.Nodes) {
-                        var catName = category.Key;
-                        var imagePath = category.GetKeyValue("icon");
-
-                        ImageOutput.TransformAndOutputImage(Path.Combine(helper.Root, imagePath),
-                            Path.Combine(categoryDir, catName + ".png"));
-                    };
-               
-                }
-            }
-        }
-
         public void Parse(IEnumerable<ParseTarget> parseTargets) {
             var techTreeGraphCreator = new TechTreeGraphCreator(Localisation, CWParser, StellarisDirectoryHelper, ModDirectoryHelpers);
             ModEntityData<Tech> techData = techTreeGraphCreator.CreateTechnologyGraph();
 
+            Log.Logger.Debug("Processed {entityCount} techs with {linkCount}", techData.EntityCount, techData.LinkCount);
+            // process technolgoies first
             var techImageOutputDir = OutputDirectoryHelper.GetImagesPath(ParseTarget.Technologies.ImagesDirectory());
-            if (true) {
+            if (CopyImages) {
                 CopyMainImages(techData.AllEntities, ParseTarget.Technologies.ImagesDirectory(),
                     techImageOutputDir);
 
@@ -141,140 +97,107 @@ namespace TechTreeCreator
                 CopyCategoryImages(techImageOutputDir);
             }
 
+            // process dependant objects
             ObjectsDependantOnTechs dependants = null;
-            if (parseTargets.Any()) {
+            var parseTargetsWithoutTechs = parseTargets.WithoutTechs().ToList();
+            if (parseTargetsWithoutTechs.Any()) {
                 var dependantsGraphCreator = new DependantsGraphCreator(Localisation, CWParser, StellarisDirectoryHelper, ModDirectoryHelpers, techData);
-                dependants = dependantsGraphCreator.CreateDependantGraph();
+                dependants = dependantsGraphCreator.CreateDependantGraph(parseTargetsWithoutTechs);
 
-                if (true) {
-                    foreach (var parseTarget in parseTargets) {
-                        var imageOutputDir = OutputDirectoryHelper.GetImagesPath(ParseTarget.Technologies.ImagesDirectory());
-                        ModEntityData<Entity> entityData = dependants.Get(parseTarget);
-                        CopyMainImages(entityData.AllEntities, ParseTarget.Technologies.ImagesDirectory(),
-                            imageOutputDir);
+                if (CopyImages) {
+                    foreach (var parseTarget in parseTargetsWithoutTechs) {
+                        var imageOutputDir = OutputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory());
+                        var entityData = dependants.Get(parseTarget);
+                        CopyMainImages(entityData, parseTarget.ImagesDirectory(), imageOutputDir);
                     }
                 }
             }
             
-            
-            
             var visDataMarshaler = new VisDataMarshaler(localisation, OutputDirectoryHelper);
-            var techVisResults = visDataMarshaler.CreateVisData(techData, techImageOutputDir);
-            List<JSModInfo> modInfos = new List<JSModInfo>();
-            foreach (var (modGroup, visResult) in techVisResults) {
-                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(OutputDirectoryHelper.Data, modGroup + "-tech.js", modGroup + "GraphDataTech");
-                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
+            IDictionary<string, VisData> techVisResults = visDataMarshaler.CreateTechVisData(techData, techImageOutputDir);
+            ModEntityData<Tech> coreGameTech = techData.FindCoreGameData();
+            if (coreGameTech != null) {
+                IDictionary<string,VisData> techVisData = visDataMarshaler.CreateTechVisData(coreGameTech, techImageOutputDir);
+                techVisResults["Stellaris-No-Mods"] = techVisData[StellarisDirectoryHelper.StellarisCoreRootDirectory];
             }
-
-            VisData.WriteJavascriptObject(modInfos, OutputDirectoryHelper.Data, "TechFiles.js", "techDataFiles");
-            
-            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
-            File.WriteAllLines(Path.Combine(OutputDirectoryHelper.Data, "JS-Tech-Imports.txt"), importListing);
-
+            else {
+                Log.Logger.Warning("Could not find core game tech files to generate vanilla tree");
+            }
+   
+            VisData rootNotes = visDataMarshaler.CreateRootNotes(techData, techImageOutputDir);
+            techVisResults["Tech-Root-Nodes"] = rootNotes;
+            WriteVisData(techVisResults, true);
 
             if (dependants != null) {
-                var dependantVisResults = visDataMarshaler.CreateGroupedVisDependantData(techVisResults, dependants, parseTargets);
-                List<JSModInfo> modInfos = new List<JSModInfo>();
-                foreach (var (modGroup, visResult) in dependantVisResults) {
-                    var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-dependants.js", modGroup + "GraphDataDependants");
-                    modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
-                } 
+                var dependantVisResults = visDataMarshaler.CreateGroupedVisDependantData(techVisResults, dependants, parseTargetsWithoutTechs);
+                var coreDependantsOnly = dependants.CopyOnlyCore();
+                var coreDependantData = visDataMarshaler.CreateGroupedVisDependantData(techVisResults, coreDependantsOnly, parseTargetsWithoutTechs);
+                if (coreDependantData.ContainsKey(StellarisDirectoryHelper.StellarisCoreRootDirectory)) {
+                    dependantVisResults["Stellaris-No-Mods"] = coreDependantData[StellarisDirectoryHelper.StellarisCoreRootDirectory];
+                }
+                else {
+                    Log.Logger.Warning("Could not find core game dependant files to generate vanilla tree");
+                }
 
-                VisData.WriteJavascriptObject(modInfos, Path.Combine(outputRoot, "data"), "DependantFiles.js", "dependantDataFiles");
-
-                var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
-                File.WriteAllLines(Path.Combine(outputRoot, "data", "JS-Dependants-Imports.txt"), importListing);
+                WriteVisData(dependantVisResults, false);
             }
+        }
+
+        private void WriteVisData(IDictionary<string, VisData> visResults, bool isTech) {
+            string jsFileNameSuffix = isTech ? "-tech.js" : "-dependants.js";
+            string jsVariableSuffix = isTech ? "GraphDataTech" : "GraphDataDependants";
+            string jsModMappingFileName = isTech ? "TechFiles.js" : "DependantFiles.js";
+            string jsModMappingFileVariable = isTech ? "techDataFiles" : "dependantDataFiles";
+            string jsImportFileName =  isTech ? "JS-Tech-Imports.txt" : "JS-Dependants-Imports.txt";
             
+            List<JSModInfo> modInfos = new List<JSModInfo>();
+            foreach (var (modGroup, visResult) in visResults) {
+                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(OutputDirectoryHelper.Data, modGroup + jsFileNameSuffix, modGroup + jsVariableSuffix);
+                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
+            }
+
+            VisData.WriteJavascriptObject(modInfos, OutputDirectoryHelper.Data, jsModMappingFileName, jsModMappingFileVariable);
+
+            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToList();
+            File.WriteAllLines(Path.Combine(OutputDirectoryHelper.Data, jsImportFileName), importListing);
         }
         
-        
-        
-        
-        
-        public ModEntityData<Tech> ParseStellarisFiles() {
-            var parser = new TechTreeGraphCreator(localisation, cwParser, StellarisDirectoryHelper, modDirectoryHelpers);
-            return parser.CreateTechnologyGraph();
+        private void CopyMainImages(IEnumerable<Entity> entities, string inputPath, string outputPath) {
+            //build the mod input list
+            var inputDirectories = StellarisDirectoryHelper
+                .CreateCombinedList(StellarisDirectoryHelper, modDirectoryHelpers, Last)
+                .Select(x => Path.Combine(x.Icons, inputPath)).ToList();
+
+            // tech images
+            ImageOutput.TransformAndOutputImages(inputDirectories, Path.Combine(outputRoot, outputPath), entities);
         }
 
-        public void CopyImages(ModEntityData<Tech> techsAndDependencies) {
-            CopyMainImages(techsAndDependencies.AllEntities, "technologies", Path.Combine("images", "technologies"));
-
-         
-
+        private void CopyCategoryImages(string techOutputDir) {
             // tech category images no mod support here
-            var categoryDir = Path.Combine(outputRoot, "images", "technologies", "categories");
+            var categoryDir = Path.Combine(techOutputDir, "categories");
             Directory.CreateDirectory(categoryDir);
             
-            
-            
-            
-            var categoryFile = DirectoryWalker.FindFilesInDirectoryTree(StellarisDirectoryHelper.GetTechnologyDirectory(stellarisRootDirectory), "00_category.txt");
-            var catcatFile = new CWParserHelper().ParseParadoxFiles(categoryFile.Select(x => x.FullName).ToList());
+            var helpers = StellarisDirectoryHelper
+                .CreateCombinedList(StellarisDirectoryHelper, modDirectoryHelpers);
 
-            if (!catcatFile.Any()) {
-                Log.Logger.Warning("Could not find 00_category.txt to get all the category icons");
-                return;
+            foreach (var helper in helpers) {
+                var categoryFiles =  new[] {helper}.Select(x => Path.Combine(x.Technology, "categories"))
+                    .Where(Directory.Exists)
+                    .Select(x => DirectoryWalker.FindFilesInDirectoryTree(x, StellarisDirectoryHelper.TextMask))
+                    .SelectMany(x => x)
+                    .ToList();
+                
+                var categoryFileNodes = new CWParserHelper().ParseParadoxFiles(categoryFiles.Select(x => x.FullName).ToList());
+                foreach (CWNode fileNode in categoryFileNodes.Values) {
+                    foreach (var category in fileNode.Nodes) {
+                        var catName = category.Key;
+                        var imagePath = category.GetKeyValue("icon");
+
+                        ImageOutput.TransformAndOutputImage(Path.Combine(helper.Root, imagePath),
+                            Path.Combine(categoryDir, catName + ".png"));
+                    };
+                }
             }
-
-            var catNode = catcatFile.First();
-
-            foreach (var category in catNode.Value.Nodes) {
-                var catName = category.Key;
-                var imagePath = category.GetKeyValue("icon");
-
-                ImageOutput.TransformAndOutputImage(Path.Combine(stellarisRootDirectory, imagePath),
-                    Path.Combine(outputDir, catName + ".png"));
-            }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            TechCategoryImageOutput.OutputCategoryImages(StellarisDirectoryHelper.Root, categoryDir);
         }
-
-        public IDictionary<string, VisData> GenerateJsGraph(TechsAndDependencies techsAndDependencies) {
-            var visDataMarshaler = new VisDataMarshaler(localisation);
-            var visResults = visDataMarshaler.CreateVisData(techsAndDependencies, Path.Combine("images", "technologies"));
-            List<JSModInfo> modInfos = new List<JSModInfo>();
-            foreach (var (modGroup, visResult) in visResults) {
-                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-tech.js", modGroup + "GraphDataTech");
-                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
-            }
-
-            VisData.WriteJavascriptObject(modInfos, Path.Combine(outputRoot, "data"), "TechFiles.js", "techDataFiles");
-            
-            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
-            File.WriteAllLines(Path.Combine(outputRoot, "data", "JS-Tech-Imports.txt"), importListing);
-            
-            return visResults;
-        }
-
-  
-        public IDictionary<string, VisData> ParseObjectsDependantOnTechs(ModEntityData<Tech> techsAndDependencies, IDictionary<string, VisData> techVisData) {
-            var parser = new DependantsGraphCreator(localisation, cwParser, StellarisDirectoryHelper, modDirectoryHelpers, techsAndDependencies);
-            var dependantGraph = parser.CreateDependantGraph();
-            CopyMainImages(dependantGraph.Buildings.AllEntities, "buildings", Path.Combine("images", "buildings"));
-            var visDataMarshaler = new VisDataMarshaler(localisation);
-            var visResults = visDataMarshaler.CreateGroupedVisDependantData(techVisData, dependantGraph, Path.Combine("images", "buildings"));
-            List<JSModInfo> modInfos = new List<JSModInfo>();
-            foreach (var (modGroup, visResult) in visResults) {
-                var (jsFileName, jsVariable) = visResult.WriteVisDataToOneJSFile(Path.Combine(outputRoot, "data"), modGroup + "-dependants.js", modGroup + "GraphDataDependants");
-                modInfos.Add(new JSModInfo() {name = modGroup, jsVarable = jsVariable, fileName = jsFileName});
-            } 
-
-            VisData.WriteJavascriptObject(modInfos, Path.Combine(outputRoot, "data"), "DependantFiles.js", "dependantDataFiles");
-
-            var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToArray();
-            File.WriteAllLines(Path.Combine(outputRoot, "data", "JS-Dependants-Imports.txt"), importListing);
-
-            return visResults;
-        }
-        
     }
 }
