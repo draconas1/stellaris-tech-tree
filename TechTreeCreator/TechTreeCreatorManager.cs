@@ -181,17 +181,22 @@ namespace TechTreeCreator
                 .CreateCombinedList(StellarisDirectoryHelper, modDirectoryHelpers);
 
             foreach (var helper in helpers) {
-                var categoryFiles =  new[] {helper}.Select(x => Path.Combine(x.Technology, "categories"))
-                    .Where(Directory.Exists)
-                    .Select(x => DirectoryWalker.FindFilesInDirectoryTree(x, StellarisDirectoryHelper.TextMask))
-                    .SelectMany(x => x)
-                    .ToList();
-                
+                List<FileInfo> categoryFiles = new List<FileInfo>();
+                var catPath = Path.Combine(helper.Technology, "category");
+                if (Directory.Exists(catPath)) {
+                    List<FileInfo> findFilesInDirectoryTree = DirectoryWalker.FindFilesInDirectoryTree(catPath, StellarisDirectoryHelper.TextMask);
+                    Log.Logger.Debug("{helper} has categories files: {modFiles}", helper.ModName, findFilesInDirectoryTree.Select(x => x.Name));
+                    categoryFiles.AddRange(findFilesInDirectoryTree);
+                }
+                else {
+                    Log.Logger.Debug("{helper} has no tech categories folder", helper.ModName);
+                }
+
                 var categoryFileNodes = new CWParserHelper().ParseParadoxFiles(categoryFiles.Select(x => x.FullName).ToList());
                 foreach (CWNode fileNode in categoryFileNodes.Values) {
                     foreach (var category in fileNode.Nodes) {
                         var catName = category.Key;
-                        var imagePath = category.GetKeyValue("icon");
+                        var imagePath = category.GetKeyValue("icon") ?? category.Key;
 
                         ImageOutput.TransformAndOutputImage(Path.Combine(helper.Root, imagePath),
                             Path.Combine(categoryDir, catName + ".png"));

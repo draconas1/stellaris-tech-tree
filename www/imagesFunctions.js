@@ -60,8 +60,7 @@ ImageFunctions = {
             seenCategories[category] = category;
             const promise = new Promise((resolve, reject) => {
               const img = new Image();
-              const src = "images/technologies/categories/" + category + ".png";
-              img.src = src;
+              img.src =  "images/technologies/categories/" + category + ".png";
               img.onload = resolve.bind(this, {img, nodeId: category});
               img.onerror = img.onabort = resolve.bind(this, {img: null, nodeId: category})
             });

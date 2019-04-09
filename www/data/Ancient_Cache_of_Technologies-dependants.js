@@ -2,6 +2,32 @@ AncientCacheofTechnologiesGraphDataDependants = {
   "ModGroup": "Ancient Cache of Technologies",
   "nodes": [
     {
+      "id": "building_ae_factory",
+      "label": "Advanced Hard-Light Materials Constructor",
+      "group": "Building",
+      "title": "<b>Advanced Hard-Light Materials Constructor</b><br/><i>We can always allocate more resources to increase our workshop space. It is time to say goodbye to the moonmen. Goood byee~ Moonmen~</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 800 Minerals, 100 Dark Matter, 100 Dark Energy<br/><b>Upkeep:</b> 4 Energy Credits, 2 Dark Matter, 2 Dark Energy",
+      "level": 20,
+      "image": "images/buildings/building_ae_factory.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_fe_factory"
+      ]
+    },
+    {
+      "id": "building_fe_factory",
+      "label": "Hard-Light Materials Printer",
+      "group": "Building",
+      "title": "<b>Hard-Light Materials Printer</b><br/><i>It is time to eliminate the notion of having to combat against rivals who make excessive amount of duplicated products with much lesser qualities. The new technology allows us to create goods at rates that will put all pirated stuffs to shame.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>450<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 800 Minerals, 100 Dark Matter<br/><b>Upkeep:</b> 4 Energy Credits, 2 Dark Matter",
+      "level": 20,
+      "image": "images/buildings/building_fe_factory.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_fe_factory"
+      ]
+    },
+    {
       "id": "building_stellarite_generator",
       "label": "Stellarite Generator",
       "group": "Building",
@@ -18,13 +44,39 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_stellarite_nexus",
       "label": "Stellarite Energy Conduit",
       "group": "Building",
-      "title": "<b>Stellarite Energy Conduit</b><br/><i>Increasing the intensity of the fields to Class-10 is still tecnically within acceptable parameters. It's still 20 levels before the Nuclear Option.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>650<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 2500 Minerals, 1000 Dark Matter, 1000 Dark Energy<br/><b>Upkeep:</b> 100 Dark Energy, 100 Dark Matter, 50 Energy Credits<br/><b>Produces:</b> 100 Stellarite Energy",
+      "title": "<b>Stellarite Energy Conduit</b><br/><i>Increasing the intensity of the fields to Class-10 is still tecnically within acceptable parameters. It's still 20 levels before the Nuclear Option.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>650<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 2500 Minerals, 1000 Dark Matter, 1000 Dark Energy<br/><b>Upkeep:</b> 100 Dark Energy, 100 Dark Matter, 50 Energy Credits<br/><b>Produces:</b> 25 Stellarite Energy",
       "level": 22,
       "image": "images/buildings/building_stellarite_nexus.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
         "tech_stellarite_nexus"
+      ]
+    },
+    {
+      "id": "building_ae_mansion",
+      "label": "Enigmatic Penthouse",
+      "group": "Building",
+      "title": "<b>Enigmatic Penthouse</b><br/><i>From this massive towering mansion, one can see a distant explosion of a dumb city whose inhabitants worshipped a photon bomb. Excellent!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 500 Minerals, 75 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 2 Dark Matter",
+      "level": 21,
+      "image": "images/buildings/building_ae_mansion.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_dark_mansion"
+      ]
+    },
+    {
+      "id": "building_fe_mansion",
+      "label": "Dark Mansion",
+      "group": "Building",
+      "title": "<b>Dark Mansion</b><br/><i>Domes are nice, but nothing beats massive skyscrapers where you can get an awesome view of the scenary.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 450 Minerals, 25 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter",
+      "level": 21,
+      "image": "images/buildings/building_fe_mansion.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_dark_mansion"
       ]
     },
     {
@@ -119,6 +171,32 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
+      "id": "building_ae_hospital",
+      "label": "Alpha Nano-Reconstitution Complex",
+      "group": "Building",
+      "title": "<b>Alpha Nano-Reconstitution Complex</b><br/><i>The improvements in our new equipments, allow us to make sixteen times better quality of lifes. We have all sorts of help from all of our shareholders. Again, all of this just works.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 400 Minerals, 100 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 2 Dark Matter",
+      "level": 21,
+      "image": "images/buildings/building_ae_hospital.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_fe_hospital"
+      ]
+    },
+    {
+      "id": "building_fe_hospital",
+      "label": "Delta Revitalization Center",
+      "group": "Building",
+      "title": "<b>Delta Revitalization Center</b><br/><i>Improvements in technologies allow us to allocate more space for equipments and operating rooms for our doctors. Patients are exlected to wait for only an hour before they transcend the meaning of physical pain.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>480<br/><b>Category: </b>Amenities<br/><b>Cost:</b> 450 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter",
+      "level": 21,
+      "image": "images/buildings/building_fe_hospital.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_fe_hospital"
+      ]
+    },
+    {
       "id": "building_ae_institute",
       "label": "Alpha Master Research Complex",
       "group": "Building",
@@ -161,7 +239,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_enigmatic_lab",
       "label": "Enigmatic Lab",
       "group": "Building",
-      "title": "<b>Enigmatic Lab</b><br/><i>Scientists from all sorts of field mingle within this building to study enigmatic technologies and their potential applications in all fields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>680<br/><b>Category: </b>Research<br/><b>Cost:</b> 1500 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 20 Energy Credits, 3 Dark Matter",
+      "title": "<b>Enigmatic Lab</b><br/><i>Scientists from all sorts of field mingle within this building to study enigmatic technologies and their potential applications in all fields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>680<br/><b>Category: </b>Research<br/><b>Cost:</b> 1500 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 20 Energy Credits, 3 Dark Matter<br/><b>Produces:</b> 10 Consumer Goods",
       "level": 16,
       "image": "images/buildings/building_enigmatic_lab.png",
       "hasImage": true,
@@ -174,7 +252,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_dark_matter_generator",
       "label": "Dark Matter Mass Converter",
       "group": "Building",
-      "title": "<b>Dark Matter Mass Converter</b><br/><i>The needs of the many must be met, and many of us need more dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1150 Minerals<br/><b>Upkeep:</b> 6 Energy Credits",
+      "title": "<b>Dark Matter Mass Converter</b><br/><i>The needs of the many must be met, and many of us need more dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1150 Minerals<br/><b>Upkeep:</b> 6 Energy Credits<br/><b>Produces:</b> 25 Dark Matter",
       "level": 23,
       "image": "images/buildings/building_ae_dark_matter_generator.png",
       "hasImage": true,
@@ -187,7 +265,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_dark_matter_generator",
       "label": "Dark Matter Foundry",
       "group": "Building",
-      "title": "<b>Dark Matter Foundry</b><br/><i>Dark Matter Foundry provides necessary tools for the alchemists to convert raw minerals into dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 850 Minerals<br/><b>Upkeep:</b> 1 Energy Credits",
+      "title": "<b>Dark Matter Foundry</b><br/><i>Dark Matter Foundry provides necessary tools for the alchemists to convert raw minerals into dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 850 Minerals<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Produces:</b> 10 Dark Matter",
       "level": 21,
       "image": "images/buildings/building_dark_matter_generator.png",
       "hasImage": true,
@@ -200,8 +278,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_dark_energy_pylon",
       "label": "Dark Energy Spire",
       "group": "Building",
-      "title": "<b>Dark Energy Spire</b><br/><i>This great spire contains various ports that the artificers can siphon dark energy into powerful energy sources for the empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1150 Minerals<br/><b>Upkeep:</b> 6 Energy Credits",
-      "level": 16,
+      "title": "<b>Dark Energy Spire</b><br/><i>This great spire contains various ports that the artificers can siphon dark energy into powerful energy sources for the empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1150 Minerals<br/><b>Upkeep:</b> 6 Energy Credits<br/><b>Produces:</b> 25 Dark Energy",
+      "level": 23,
       "image": "images/buildings/building_ae_dark_energy_pylon.png",
       "hasImage": true,
       "nodeType": "building",
@@ -213,7 +291,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_dark_energy_pylon",
       "label": "Dark Energy Pylon",
       "group": "Building",
-      "title": "<b>Dark Energy Pylon</b><br/><i>A pylon of dark energy created out of crystalised dark matter. It is here that the artificers convert dark energy into a powerful energy source for our empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 850 Minerals<br/><b>Upkeep:</b> 1 Energy Credits",
+      "title": "<b>Dark Energy Pylon</b><br/><i>A pylon of dark energy created out of crystalised dark matter. It is here that the artificers convert dark energy into a powerful energy source for our empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 850 Minerals<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Produces:</b> 10 Dark Energy",
       "level": 13,
       "image": "images/buildings/building_dark_energy_pylon.png",
       "hasImage": true,
@@ -227,7 +305,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "label": "Dark Portal Nexus",
       "group": "Building",
       "title": "<b>Dark Portal Nexus</b><br/><i>In many dimensions, there's always more dark matter and dark energy to be harvested.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>400<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 3500 Minerals, 3500 Energy Credits<br/><b>Upkeep:</b> 50 Minerals, 50 Energy Credits<br/><b>Produces:</b> 30 Dark Matter, 30 Dark Energy",
-      "level": 22,
+      "level": 24,
       "image": "images/buildings/building_ae_dark_matter_synthersizer.png",
       "hasImage": true,
       "nodeType": "building",
@@ -330,7 +408,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_transmutor",
       "label": "Mega-Transmutator Sphere",
       "group": "Building",
-      "title": "<b>Mega-Transmutator Sphere</b><br/><i>Gases, crystals or motes. These mundane resources still have some niche applications within our empires. We will produce them all from one single building dedicated to this task.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>450<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 300 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 2 Dark Matter<br/><b>Produces:</b> 2 Volatile Motes, 2 Exotic Gases, 2 Rare Crystals",
+      "title": "<b>Mega-Transmutator Sphere</b><br/><i>Gases, crystals or motes. These mundane resources still have some niche applications within our empires. We will produce them all from one single building dedicated to this task.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>450<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 300 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 2 Dark Matter<br/><b>Produces:</b> 4 Volatile Motes, 4 Exotic Gases, 4 Rare Crystals",
       "level": 21,
       "image": "images/buildings/building_ae_transmutor.png",
       "hasImage": true,
@@ -343,7 +421,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_fe_transmutor",
       "label": "Enigmatic Transmutator Dome",
       "group": "Building",
-      "title": "<b>Enigmatic Transmutator Dome</b><br/><i>It is foolish to waste so much building spaces for such simple resources, a weakness that will now be corrected with the advent of the dome.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>400<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 1 Energy Credits, 1 Dark Matter<br/><b>Produces:</b> 1 Volatile Motes, 1 Exotic Gases, 1 Rare Crystals",
+      "title": "<b>Enigmatic Transmutator Dome</b><br/><i>It is foolish to waste so much building spaces for such simple resources, a weakness that will now be corrected with the advent of the dome.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>400<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 1 Energy Credits, 1 Dark Matter<br/><b>Produces:</b> 2 Volatile Motes, 2 Exotic Gases, 2 Rare Crystals",
       "level": 21,
       "image": "images/buildings/building_fe_transmutor.png",
       "hasImage": true,
@@ -356,7 +434,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_alloy_forge",
       "label": "Mega-Alloy Foundry",
       "group": "Building",
-      "title": "<b>Mega-Alloy Foundry</b><br/><i>Efficiency is key to victory. Alloys today, Weapons of Victory tomorrow!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>450<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 650 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 3 Energy Credits, 2 Dark Matter<br/><b>Produces:</b> 6 Alloys",
+      "title": "<b>Mega-Alloy Foundry</b><br/><i>Efficiency is key to victory. Alloys today, Weapons of Victory tomorrow!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>450<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 650 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 3 Energy Credits, 2 Dark Matter<br/><b>Produces:</b> 10 Alloys",
       "level": 22,
       "image": "images/buildings/building_ae_alloy_forge.png",
       "hasImage": true,
@@ -369,7 +447,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_fe_alloy_forge",
       "label": "Dark Foundry",
       "group": "Building",
-      "title": "<b>Dark Foundry</b><br/><i>Through process of eliminations, we have removed all the redundant spaces within the old foundries to make room for more fabricator machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>400<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 650 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 5 Energy Credits, 1 Dark Matter<br/><b>Produces:</b> 2 Alloys",
+      "title": "<b>Dark Foundry</b><br/><i>Through process of eliminations, we have removed all the redundant spaces within the old foundries to make room for more fabricator machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>400<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 650 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 5 Energy Credits, 1 Dark Matter<br/><b>Produces:</b> 5 Alloys",
       "level": 22,
       "image": "images/buildings/building_fe_alloy_forge.png",
       "hasImage": true,
@@ -431,6 +509,32 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
+      "id": "building_ae_clone_vats",
+      "label": "Revatilization Chambers",
+      "group": "Building",
+      "title": "<b>Revatilization Chambers</b><br/><i>Why waste resources building up leaders for the future, when you can make more of the current one?\\n\\nThis building unlocks a new planetary decision to access the revtilization chamber terminal.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>360<br/><b>Category: </b>Government<br/><b>Cost:</b> 200 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Upkeep:</b> 2.5 Energy Credits, 6 Dark Matter, 6 Dark Energy",
+      "level": 23,
+      "image": "images/buildings/building_ae_clone_vats.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_ae_clone_vats"
+      ]
+    },
+    {
+      "id": "building_fe_clone_vats",
+      "label": "Advanced Cloning Vats\"",
+      "group": "Building",
+      "title": "<b>Advanced Cloning Vats\"</b><br/><i>Our enemies have disturbed our regeneration processes. We are many, they are but one. We will destroy them.\\n\\nErmac Wins, Flawless Victory.\"</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>360<br/><b>Category: </b>Government<br/><b>Cost:</b> 250 Minerals, 100 Dark Matter, 100 Dark Energy<br/><b>Upkeep:</b> 5 Energy Credits, 3 Dark Matter, 3 Dark Energy",
+      "level": 22,
+      "image": "images/buildings/building_fe_clone_vats.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_elite_clone"
+      ]
+    },
+    {
       "id": "building_ae_ancient_hive_cluster",
       "label": "Dark Cluster",
       "group": "Building",
@@ -473,7 +577,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_micro_black_hole",
       "label": "Dark Matter Extractor",
       "group": "Building",
-      "title": "<b>Dark Matter Extractor</b><br/><i>This large building generates a micro-black hole, allowing us to extract Dark Matter from it. Due to the dangerous nature of the black hole, the process is done via automated machines. It requires immense energy and minerals upkeep to maintain however.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1500 Minerals, 500 Energy Credits<br/><b>Upkeep:</b> 5 Minerals, 10 Energy Credits<br/><b>Produces:</b> 1 Dark Matter",
+      "title": "<b>Dark Matter Extractor</b><br/><i>This large building generates a micro-black hole, allowing us to extract Dark Matter from it. Due to the dangerous nature of the black hole, the process is done via automated machines. It requires immense energy and minerals upkeep to maintain however.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>600<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1500 Minerals, 500 Energy Credits<br/><b>Upkeep:</b> 5 Minerals, 5 Energy Credits<br/><b>Produces:</b> 1 Dark Matter",
       "level": 20,
       "image": "images/buildings/building_micro_black_hole.png",
       "hasImage": true,
@@ -484,6 +588,24 @@ AncientCacheofTechnologiesGraphDataDependants = {
     }
   ],
   "edges": [
+    {
+      "from": "tech_fe_factory",
+      "to": "building_ae_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_factory",
+      "to": "building_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
     {
       "from": "tech_stellarite_reactor",
       "to": "building_stellarite_generator",
@@ -496,6 +618,24 @@ AncientCacheofTechnologiesGraphDataDependants = {
     {
       "from": "tech_stellarite_nexus",
       "to": "building_stellarite_nexus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_mansion",
+      "to": "building_ae_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_mansion",
+      "to": "building_fe_mansion",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -559,6 +699,24 @@ AncientCacheofTechnologiesGraphDataDependants = {
     {
       "from": "tech_dark_energy_psg",
       "to": "building_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_hospital",
+      "to": "building_ae_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_hospital",
+      "to": "building_fe_hospital",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -775,6 +933,24 @@ AncientCacheofTechnologiesGraphDataDependants = {
     {
       "from": "tech_super_assembly",
       "to": "building_super_assembly",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ae_clone_vats",
+      "to": "building_ae_clone_vats",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_elite_clone",
+      "to": "building_fe_clone_vats",
       "arrows": "to",
       "color": {
         "color": "grey"

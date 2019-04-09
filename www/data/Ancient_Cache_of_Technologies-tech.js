@@ -45,8 +45,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_ae_dark_energy_pylon",
       "label": "Dark Energy Spire",
       "group": "ModPhysics",
-      "title": "<b>Dark Energy Spire</b><br/><i>We now have the proper understandings of the entire process of crystalizing dark matter as an agent to channel dark energy. We can now look to form an even larger agent a Dark Energy Spire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
-      "level": 15,
+      "title": "<b>Dark Energy Spire</b><br/><i>We now have the proper understandings of the entire process of crystalizing dark matter as an agent to channel dark energy. We can now look to form an even larger agent a Dark Energy Spire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
+      "level": 22,
       "image": "images/technologies/tech_ae_dark_energy_pylon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -235,11 +235,11 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_dark_matter_power_core_ae",
-      "label": "Dark Energy Reactor",
+      "label": "Alpha-class Enigmatic Power",
       "group": "ModPhysics",
-      "title": "<b>Dark Energy Reactor</b><br/><i>Dark Energy Reactor improves upon the basic Dark Matter Reactor, converting Dark Matter into a pure energy form.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Alpha-class Enigmatic Power</b><br/><i>Now that we understand the concept of both Dark Matter and Dark Energy, it may yet be possible to create a much more powerful power source that surpasses that of even what the fallen one used. This new enigmatic reactor code-named §H\"Alpha\"§! will make us the envy of the stars.\\n\\n§RResearching this technology may agitate the fallen empires, as we are basically going to out-tech them.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare, Dangerous",
       "color": {
-        "border": "#8900CE"
+        "border": "#D30000"
       },
       "borderWidth": 1,
       "level": 21,
@@ -278,7 +278,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "label": "The Four Pillars of Darkness",
       "group": "ModPhysics",
       "title": "<b>The Four Pillars of Darkness</b><br/><i>Based upon the same principle as the dimensional fabricator, the Dark Portal Nexus; held steady by four dark energy pillars, can extract huge amount of dark matter and dark energy from other dimensions. The process, while complicated, is much safetier and thus takes less toll upon our maintenance bills.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
-      "level": 21,
+      "level": 23,
       "image": "images/technologies/tech_dark_matter_synthersizer_ae.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -591,7 +591,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "nodeType": "tech",
       "prerequisites": [
         "tech_power_hub_2",
-        "tech_dark_matter_power_core"
+        "tech_dark_matter_power_core",
+        "tech_mine_dark_energy"
       ],
       "categories": [
         "field_manipulation"
@@ -1478,9 +1479,9 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_stellarite_reactor",
       "label": "Stellarite Energy Application",
       "group": "ModPhysics",
-      "title": "<b>Stellarite Energy Application</b><br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>60000<br/><b>Attributes: </b>Rare, Dangerous, NonTechDependency",
+      "title": "<b>Stellarite Energy Application</b><br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>100000<br/><b>Attributes: </b>Rare, Dangerous",
       "color": {
-        "border": "#CE7C00"
+        "border": "#D30000"
       },
       "borderWidth": 1,
       "level": 19,
@@ -1921,6 +1922,23 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_dark_mansion",
+      "label": "Civilized Age",
+      "group": "ModSociety",
+      "title": "<b>Civilized Age</b><br/><i>With new technology comes new lifestyles. What kings in the past used to live like, now even the poorest of poor will bask in this civilized lifestyle, where buildings can reach into space.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>32000",
+      "level": 20,
+      "image": "images/technologies/tech_dark_mansion.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_paradise_dome",
+        "tech_dark_matter_power_core"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_dark_matter_army",
       "label": "Ground Combat Dark Matter Implementation",
       "group": "ModSociety",
@@ -2153,6 +2171,23 @@ AncientCacheofTechnologiesGraphDataTech = {
       "nodeType": "tech",
       "prerequisites": [
         "tech_food_processing_2",
+        "tech_dark_matter_power_core"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
+      "id": "tech_fe_hospital",
+      "label": "Cell Reconstitution and Reconstruction",
+      "group": "ModSociety",
+      "title": "<b>Cell Reconstitution and Reconstruction</b><br/><i>With the new enigmatic technologies, come new inventions across all scientific approaches. Quality of life for our people will gradually only get better and better as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "level": 20,
+      "image": "images/technologies/tech_fe_hospital.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_frontier_hospital",
         "tech_dark_matter_power_core"
       ],
       "categories": [
@@ -2557,9 +2592,9 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_shadow_sniper",
-      "label": "tech_shadow_sniper",
+      "label": "Civilized weapons for a more civilized age",
       "group": "ModSociety",
-      "title": "<b>tech_shadow_sniper</b><br/><i>tech_shadow_sniper_desc</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Civilized weapons for a more civilized age</b><br/><i>We value all life, even those of the enemies. They must be allowed to see the errors of their ways but we cannot perform such daring task with our current destructive weapons. To this end, we must develop and train armies specifically equipped to take down only hostile targets with extreme efficiency. It's over, xenophobes - We have the high grounds.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -2589,7 +2624,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_missile_dm"
+        "tech_strike_craft_bomber_dm"
       ],
       "categories": [
         "psionics"
@@ -2645,11 +2680,13 @@ AncientCacheofTechnologiesGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 25,
       "image": "images/technologies/tech_shroud_storm.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_perdition_beam_dm"
+      ],
       "categories": [
         "psionics"
       ]
@@ -2980,6 +3017,23 @@ AncientCacheofTechnologiesGraphDataTech = {
       "prerequisites": [
         "tech_alloys_2",
         "tech_fe_mineral_processing_plant"
+      ],
+      "categories": [
+        "materials"
+      ]
+    },
+    {
+      "id": "tech_fe_factory",
+      "label": "Hard-Light Material Generation",
+      "group": "ModEngineering",
+      "title": "<b>Hard-Light Material Generation</b><br/><i>Before our full understanding of Dark Matter, we could only barely draw portions enough to generate matter. Now we realize that it is possible to construct a large amount of synthetic consumer goods using pure hard-light technology from dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000",
+      "level": 19,
+      "image": "images/technologies/tech_fe_factory.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_luxuries_2",
+        "tech_colonial_centralization"
       ],
       "categories": [
         "materials"
@@ -5146,7 +5200,16 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_missile_dm",
+      "from": "tech_perdition_beam_dm",
+      "to": "tech_shroud_storm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
       "to": "tech_shroud_hanger",
       "arrows": "to",
       "color": {
@@ -6514,6 +6577,60 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_luxuries_2",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_frontier_hospital",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_volatile_motes",
       "to": "tech_fe_transmutor",
       "arrows": "to",
@@ -6623,6 +6740,15 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
       "to": "tech_fe_power_hub",
       "arrows": "to",
       "color": {
@@ -7176,14 +7302,6 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_lightmatter_flak",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_shroud_storm",
       "color": {
         "opacity": 0.0
       },
