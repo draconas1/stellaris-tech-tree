@@ -131,7 +131,13 @@ namespace TechTreeCreator
             if (dependants != null) {
                 var dependantVisResults = visDataMarshaler.CreateGroupedVisDependantData(techVisResults, dependants, parseTargetsWithoutTechs);
                 var coreDependantsOnly = dependants.CopyOnlyCore();
-                var coreDependantData = visDataMarshaler.CreateGroupedVisDependantData(techVisResults, coreDependantsOnly, parseTargetsWithoutTechs);
+
+                // also do a no-mods lookup
+                var stellarisNoModsTechVisResult = techVisResults["Stellaris-No-Mods"];
+                IDictionary<string, VisData> visLookupData =
+                    stellarisNoModsTechVisResult != null ? new Dictionary<string, VisData>() {{"Stellaris-No-Mods", stellarisNoModsTechVisResult}} : techVisResults;
+                var coreDependantData = visDataMarshaler.CreateGroupedVisDependantData(visLookupData, coreDependantsOnly, parseTargetsWithoutTechs);
+                
                 if (coreDependantData.ContainsKey(StellarisDirectoryHelper.StellarisCoreRootDirectory)) {
                     dependantVisResults["Stellaris-No-Mods"] = coreDependantData[StellarisDirectoryHelper.StellarisCoreRootDirectory];
                 }
