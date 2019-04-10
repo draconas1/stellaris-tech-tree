@@ -71,6 +71,7 @@ async function createNetwork() {
   // determine what files we are loading
   const modSelectors = document.getElementsByName("modSelector");
   const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
+  const includeDependants = document.getElementById("showDependantItems").checked;
 
   const nodeBuilder = [];
   const allNodesBuilder = [];
@@ -106,41 +107,41 @@ async function createNetwork() {
   }
 
   if (isOnlyStellarisChecked) {
-    const variables = modToVariables["Stellaris-No-Mods"];
-    variables.forEach(varName =>  {
-      nodeBuilder.push(...(window[varName].nodes));
-      edgeListing.push(...(window[varName].edges));
-      allNodesBuilder.push(...(window[varName].nodes));
-
-      // window[varName].nodes.forEach(node => {
-      //   if(!node.level) {
-      //     console.log("Node " + node.id + " in variable " + varName + " has no group");
-      //   }
-      // })
-    })
+    const coreGameVariables = modToVariables["Stellaris-No-Mods"];
+    nodeBuilder.push(...(window[coreGameVariables.techs].nodes));
+    edgeListing.push(...(window[coreGameVariables.techs].edges));
+    allNodesBuilder.push(...(window[coreGameVariables.techs].nodes));
+    if (includeDependants) {
+      coreGameVariables.dependants.forEach(varName => {
+        nodeBuilder.push(...(window[varName].nodes));
+        edgeListing.push(...(window[varName].edges));
+      })
+    }
   }
   else {
     // get nodes and edges from files
     modSelectors.forEach(selectElement => {
-      const variables = modToVariables[selectElement.value];
+      const modVariables = modToVariables[selectElement.value];
       if (selectElement.checked) {
-        variables.forEach(varName =>  {
-          nodeBuilder.push(...(window[varName].nodes));
-          edgeListing.push(...(window[varName].edges));
-        })
-      }
-      else {
-        // push the edges in anyway if include pre-requistes is true
-        if (includePrerequisites) {
-          variables.forEach(varName =>  {
+        nodeBuilder.push(...(window[modVariables.techs].nodes));
+        edgeListing.push(...(window[modVariables.techs].edges));
+        if (includeDependants) {
+          modVariables.dependants.forEach(varName =>  {
+            nodeBuilder.push(...(window[varName].nodes));
             edgeListing.push(...(window[varName].edges));
           })
+        }
+      }
+      else {
+        // push the tech edges in anyway if include pre-requistes is true
+        if (includePrerequisites) {
+          edgeListing.push(...(window[modVariables.techs].edges));
         }
       }
       // if not including prerequistes then don't want to create a massive array of everything
       // so only populate this if including pre-reqs
       if (includePrerequisites) {
-        variables.forEach(varName => allNodesBuilder.push(...(window[varName].nodes)));
+        allNodesBuilder.push(...(window[modVariables.techs].nodes));
       }
     });
   }

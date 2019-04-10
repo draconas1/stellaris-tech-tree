@@ -129,6 +129,10 @@
             <input type="checkbox" id="showImages" onclick="createNetwork()">
         </div>
         <div class="filterRow">
+            <label for="showImages">Show objects that unlock with techs:</label>
+            <input type="checkbox" id="showDependantItems" onclick="createNetwork()" checked>
+        </div>
+        <div class="filterRow">
             <label for="categorySelectBox">Highlight Category:</label>
             <select id="categorySelectBox" class="dropdown" onchange="highlightCategory()">
                 <option value="All">None</option>
@@ -166,8 +170,11 @@
 <script type="text/javascript">
     // Set up the data
     var modToVariables = {};
-    techDataFiles.forEach(data => modToVariables[data.name] = [data.jsVarable]);
-    dependantDataFiles.forEach(data => modToVariables[data.name].push(data.jsVarable));
+    techDataFiles.forEach(data => modToVariables[data.name] = {
+      techs: data.jsVarable,
+      dependants: []
+    });
+    dependantDataFiles.forEach(data => modToVariables[data.name].dependants.push(data.jsVarable));
 
     var modlist = document.getElementById("modListRow");
     Object.keys(modToVariables).forEach(modName => {
