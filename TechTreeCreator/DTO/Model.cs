@@ -69,7 +69,7 @@ namespace TechTreeCreator.DTO {
 
         public string ModGroup { get; set; }
 
-        public IEnumerable<Tech> Prerequisites { get; set; }
+        public IList<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
 
         // ReSharper disable once InconsistentNaming

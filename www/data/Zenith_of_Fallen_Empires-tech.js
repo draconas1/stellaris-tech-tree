@@ -9,7 +9,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 21,
       "image": "images/technologies/tech_compact_omni_emitter.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -30,7 +30,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 21,
       "image": "images/technologies/tech_compact_omni_lance.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -166,7 +166,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 22,
       "image": "images/technologies/tech_fe_dark_matter_power_plant.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -243,7 +243,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_matter_generator.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -331,7 +331,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Arc Emitters",
       "group": "ModPhysics",
       "title": "<b>Large Arc Emitters</b><br/><i>Improvements in weapon manufacturing enable us to make a smaller Arc Emitter.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_resized_arc_emitter_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -348,7 +348,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Tachyon Lance",
       "group": "ModPhysics",
       "title": "<b>Large Tachyon Lance</b><br/><i>Improvements in weapon manufacturing enable us to make a smaller Tachyon Lance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_resized_energy_lance_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -387,7 +387,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_synthetic_dark_matter.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -429,7 +429,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_synthetic_zro.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -450,7 +450,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 16,
+      "level": 17,
       "image": "images/technologies/tech_ascended_society_1.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -470,7 +470,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_ascended_society_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -491,7 +491,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 21,
       "image": "images/technologies/tech_ascended_society_3.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -511,7 +511,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 15,
+      "level": 16,
       "image": "images/technologies/tech_central_square.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -551,7 +551,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 22,
       "image": "images/technologies/tech_fe_agri_processing_complex.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -674,7 +674,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 21,
       "image": "images/technologies/tech_paradise_creation.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -695,7 +695,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 21,
       "image": "images/technologies/tech_compact_omni_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -775,7 +775,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 22,
       "image": "images/technologies/tech_fe_ancient_factory.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1043,7 +1043,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Giga Cannon",
       "group": "ModEngineering",
       "title": "<b>Large Giga Cannon</b><br/><i>Improvements in weapon manufacturing enable us to make a smaller Giga Cannon.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>15000",
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_resized_mass_accelerator_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1166,6 +1166,15 @@ ZenithofFallenEmpiresGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_fallen_technologies_3",
+      "to": "tech_paradise_creation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_mass_accelerator_2",
       "to": "tech_resized_mass_accelerator_2",
       "arrows": "to",
@@ -1256,6 +1265,33 @@ ZenithofFallenEmpiresGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_resized_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_resized_arc_emitter_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_resized_energy_lance_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_mine_zro",
       "to": "tech_synthetic_zro",
       "arrows": "to",
@@ -1303,6 +1339,60 @@ ZenithofFallenEmpiresGraphDataTech = {
     {
       "from": "tech_central_square",
       "to": "tech_ascended_society_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_synthetic_zro",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_synthetic_living_metal",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_synthetic_dark_matter",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_2",
+      "to": "tech_ascended_society_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fallen_technologies_1",
+      "to": "tech_central_square",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -1716,22 +1806,6 @@ ZenithofFallenEmpiresGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_psi_missile_system",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_matter_generator",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_central_square",
       "color": {
         "opacity": 0.0
       },

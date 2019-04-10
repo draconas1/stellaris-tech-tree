@@ -3078,6 +3078,24 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_fe_tower_offense",
+      "label": "Precursor Sentinel Schematics",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Sentinel Schematics</b><br/><i>A variation of the Precursor Defense Platform, specifically built for anti-capital ship roles, as well as extremely durable hull.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 19,
+      "image": "images/technologies/tech_fe_tower_offense.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_fighter_core",
       "label": "Bionic Interface Strike Craft Network",
       "group": "ModEngineering",
@@ -7310,6 +7328,14 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_liberty_gunship",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_fe_tower_offense",
       "color": {
         "opacity": 0.0
       },

@@ -7,6 +7,7 @@ using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
 using NetExtensions.Object;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
@@ -29,6 +30,36 @@ namespace TechTreeCreator.GraphCreation
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 techs = ProcessDirectoryHelper(techs, modDirectoryHelper, null);
             }
+            
+            // post process because while most things work on the principle of:
+            // later mod override core
+            // later mod override core
+            // core
+            // some have the core first, then additional features that depend on it (Zenith, I am looking at you)
+            // so need to post process
+
+            techs?.ApplyToChain((modTechs, modLinks) => {
+                foreach (var (key, tech) in modTechs) {
+                    if (tech.Prerequisites.Count() == tech.PrerequisiteIds.Count()) {
+                        continue;
+                    }
+
+                    Log.Logger.Debug("Tech {id} had missing pre-requisite, trying to find it in the complete listing", key);
+                    var populatedPreReqs = tech.Prerequisites.Select(preReq => preReq.Id).ToHashSet();
+                    foreach (var missingPreReq in tech.PrerequisiteIds.Where(x => !populatedPreReqs.Contains(x))) {
+                        Tech attemptToFindPreq = techs[missingPreReq];
+                        if (attemptToFindPreq != null) {
+                            tech.Prerequisites.Add(attemptToFindPreq);
+                            modLinks.Add(new Link() {From = attemptToFindPreq, To = tech});
+                            Log.Logger.Debug("Found prereq {key} in file {file}", attemptToFindPreq.Id, attemptToFindPreq.FilePath);
+                        }
+                        else {
+                            Log.Logger.Debug("Still unable to find {prereqId} for Tech {id}", missingPreReq, key);
+                        }
+                    }
+                }
+            });
+
             return techs;
         }
         

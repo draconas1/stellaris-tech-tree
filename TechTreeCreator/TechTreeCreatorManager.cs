@@ -67,7 +67,7 @@ namespace TechTreeCreator
             var techTreeGraphCreator = new TechTreeGraphCreator(Localisation, CWParser, StellarisDirectoryHelper, ModDirectoryHelpers);
             ModEntityData<Tech> techData = techTreeGraphCreator.CreateTechnologyGraph();
 
-            Log.Logger.Debug("Processed {entityCount} techs with {linkCount}", techData.EntityCount, techData.LinkCount);
+            Log.Logger.Debug("Processed {entityCount} techs with {linkCount} Links", techData.EntityCount, techData.LinkCount);
             // process technolgoies first
             var techImageOutputDir = OutputDirectoryHelper.GetImagesPath(ParseTarget.Technologies.ImagesDirectory());
             if (CopyImages) {
