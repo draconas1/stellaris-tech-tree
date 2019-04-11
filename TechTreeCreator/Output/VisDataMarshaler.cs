@@ -111,6 +111,10 @@ namespace TechTreeCreator.Output {
                         result.nodes.AddRange(objectsDependantOnTechs.Buildings.AllEntitiesForModGroup(modGroup).Select(x => MarshalBuilding(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
                         result.edges.AddRange(objectsDependantOnTechs.Buildings.AllLinksForModGroup(modGroup).Select(MarshalLink));
                         break;
+                    case ParseTarget.ShipComponents:
+                        result.nodes.AddRange(objectsDependantOnTechs.ShipComponents.AllEntitiesForModGroup(modGroup).Select(x => MarshallShipComponent(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
+                        result.edges.AddRange(objectsDependantOnTechs.ShipComponents.AllLinksForModGroup(modGroup).Select(MarshalLink));
+                        break;
                     default:
                         throw new Exception(parseTarget.ToString());
                 }
@@ -212,6 +216,25 @@ namespace TechTreeCreator.Output {
             }
             result.level = highestLevelOfPrerequisiteTechs + 1;
 
+
+            return result;
+        }
+        
+        private VisNode MarshallShipComponent(ShipComponent shipComponent, IDictionary<string,VisNode> prereqTechNodeLookup, string imagesPath) {
+            var result = CreateNode(shipComponent, imagesPath, "building"); 
+            result.prerequisites = shipComponent.PrerequisiteIds != null
+                ? shipComponent.PrerequisiteIds.ToArray()
+                : new string[] { };
+    
+            result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
+            result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
+
+            // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
+            var highestLevelOfPrerequisiteTechs = shipComponent.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
+            if (!highestLevelOfPrerequisiteTechs.HasValue) {
+                throw new Exception(shipComponent.Name + " Had no prerequiste levels: " + shipComponent.FilePath);
+            }
+            result.level = highestLevelOfPrerequisiteTechs + 1;
 
             return result;
         }

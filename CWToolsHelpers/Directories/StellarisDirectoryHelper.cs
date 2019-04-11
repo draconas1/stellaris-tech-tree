@@ -50,6 +50,8 @@ namespace CWToolsHelpers.Directories {
         public string Localisation => GetLocalisationDirectory(Root);
         public string Buildings => GetBuildingsDirectory(Root);
 
+        public string ComponentTemplates => GetComponentTemplatesDirectory(Root);
+
         public StellarisDirectoryHelper(string rootDirectory, string grouping = null) {
             Root = rootDirectory;
             ModName = new DirectoryInfo(rootDirectory).Name;
@@ -80,6 +82,10 @@ namespace CWToolsHelpers.Directories {
             return Path.Combine(rootDirectory, "gfx", "interface", "icons");
         }
 
+        public static string GetComponentTemplatesDirectory(string rootDirectory) {
+            return Path.Combine(GetCommonDirectory(rootDirectory), "component_templates");
+        }
+        
         /// <summary>
         /// Helper as a lot of the API's want the main game directory and mod directories as separate items, but will process them the same, just with the order changing depending on what is to be overrriden.
         /// </summary>

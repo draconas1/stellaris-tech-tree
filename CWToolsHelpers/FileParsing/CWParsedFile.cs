@@ -119,6 +119,21 @@ namespace CWToolsHelpers.FileParsing
             var value = GetRawKeyValue(key);
             return ScriptedVariablesAccessor.GetPotentialValue(value);
         }
+        
+        /// <summary>
+        /// If there is a child key-value with the specified key, returns it, otherwise uses the supplied default value.  Attempting to convert any variables using <see cref="ScriptedVariablesAccessor"/>
+        /// </summary>
+        /// <remarks>
+        /// Use with caution, will get the first keyvalue if there are multiple with the same key in the same context!
+        /// </remarks>
+        /// <param name="key">The Key of the Keyvalue item within the node</param>
+        /// <param name="defaultValue">The value to use (and supplied to the <see cref="ScriptedVariablesAccessor"/>) if the keyvalue does not exist in the node</param>
+        /// <returns>See above.</returns>
+        public string GetKeyValueOrDefault(string key, object defaultValue) {
+            var value = GetRawKeyValue(key);
+            return ScriptedVariablesAccessor.GetPotentialValue(value ?? defaultValue.ToString());
+        }
+
 
         /// <summary>
         /// If there is a child key-value with the specified key, returns it. Does not perform variable conversion.

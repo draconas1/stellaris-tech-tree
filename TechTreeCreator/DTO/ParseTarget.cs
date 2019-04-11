@@ -4,7 +4,8 @@ using System.Linq;
 namespace TechTreeCreator {
     public enum ParseTarget {
         Technologies,
-        Buildings
+        Buildings,
+        ShipComponents
     }
 
 
@@ -18,6 +19,7 @@ namespace TechTreeCreator {
             switch (target) {
                 case ParseTarget.Technologies: return "technologies";
                 case ParseTarget.Buildings: return "buildings";
+                case ParseTarget.ShipComponents: return "shipComponents";
             }
 
             return null;

@@ -37,16 +37,14 @@ namespace TechTreeCreator.GraphCreation
             foreach (var target in parseTargetsWithoutTechs) {
                 switch (target) {
                     case ParseTarget.Buildings: {
-                        var buildingGraphCreator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
-                        var processed = ProcessDependant(buildingGraphCreator);
-                        result.Buildings = ProcessDependant(buildingGraphCreator);
-                        if (processed != null) {
-                            Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", processed.EntityCount, target, processed.LinkCount);                            
-                        }
-                        else {
-                            Log.Logger.Warning("{parseTarget} had no items in any of the sources");     
-                        }
-                        
+                        var creator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
+                        result.Buildings = ProcessDependant(creator);
+                        break;
+                    }
+                    
+                    case ParseTarget.ShipComponents: {
+                        var creator = new ShipComponentGraphCreator(localisationApiHelper, cwParserHelper);
+                        result.ShipComponents = ProcessDependant(creator);
                         break;
                     }
                     
@@ -74,6 +72,13 @@ namespace TechTreeCreator.GraphCreation
                     links.RemoveAll(invalidLinks);
                 }
             });
+            
+            if (entities != null) {
+                Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", entities.EntityCount, creator.GetType().DeclaringType, entities.LinkCount);                            
+            }
+            else {
+                Log.Logger.Warning("{parseTarget} had no items in any of the sources");     
+            }
 
             return entities;
         }

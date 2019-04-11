@@ -84,8 +84,8 @@ namespace TechTreeCreator.GraphCreation
             }
 
             result.Area = area;
-            result.Tier = (node.GetKeyValue("tier") ?? "0").ToInt();
-            result.BaseCost = (node.GetKeyValue("cost") ?? "0").ToInt();
+            result.Tier = node.GetKeyValueOrDefault("tier", "0").ToInt();
+            result.BaseCost = node.GetKeyValueOrDefault("cost", "0").ToInt();
 
            
             //categories, usually only one, but can be more

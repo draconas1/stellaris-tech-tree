@@ -107,24 +107,32 @@ namespace CWToolsHelpers.Directories {
             }
            
             var tempFolder = Path.Combine(Path.GetTempPath(), workshopNumber, modName);
-            if (forceOverride && Directory.Exists(tempFolder)) {
-                Directory.Delete(tempFolder, true);
-            }
-            else {
-                if (Directory.Exists(tempFolder)) {
+
+            if (Directory.Exists(tempFolder)) {
+                if (forceOverride) {
+                    Directory.Delete(tempFolder, true);
+                    Directory.CreateDirectory(tempFolder);
+                    try {
+                        Ionic.Zip.ZipFile.Read(zipInfo.FullName).ExtractAll(tempFolder, ExtractExistingFileAction.OverwriteSilently);
+                    }
+                    catch (Exception e) {
+                        throw new Exception("Unable to process: " + zipInfo.FullName, e);
+                    }
+                }
+                else {
                     Log.Logger.Debug("Directory {dir} exists, skipping zip extraction as overwrite is off", tempFolder);
                 }
             }
+            else {
+                Directory.CreateDirectory(tempFolder);
+                try {
+                    Ionic.Zip.ZipFile.Read(zipInfo.FullName).ExtractAll(tempFolder, ExtractExistingFileAction.OverwriteSilently);
+                }
+                catch (Exception e) {
+                    throw new Exception("Unable to process: " + zipInfo.FullName, e);
+                }
+            }
             
-            Directory.CreateDirectory(tempFolder);
-
-            try {
-                Ionic.Zip.ZipFile.Read(zipInfo.FullName).ExtractAll(tempFolder, ExtractExistingFileAction.OverwriteSilently);
-            }
-            catch (Exception e) {
-                throw new Exception("Unable to process: " + zipInfo.FullName, e);
-            }
-
             return new StellarisDirectoryHelper(tempFolder, modGroup);
         }
         

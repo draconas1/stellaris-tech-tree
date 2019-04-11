@@ -51,6 +51,20 @@ namespace TechTreeCreator.DTO {
         }
     }
 
+    public class ShipComponent : Entity {
+        public string Size { get; set; }
+        public string ComponentSet { get; set; }
+        public int Power { get; set; }
+        
+        public IDictionary<string, double> Cost { get; }
+        public IDictionary<string, double> Upkeep { get; }
+        
+        public ShipComponent(string id) : base(id) {
+            Cost = new Dictionary<string, double>();
+            Upkeep = new Dictionary<string, double>();
+        }
+    }
+
     public abstract class Entity {
         public string Id { get; private set; }
         public string Name { get; set; }
@@ -108,13 +122,22 @@ namespace TechTreeCreator.DTO {
 
     public class ObjectsDependantOnTechs {
         private ModEntityData<Building> buildings;
+        private ModEntityData<ShipComponent> shipComponents;
         private ISet<string> modGroups = new HashSet<string>();
 
         public ModEntityData<Building> Buildings {
             get => buildings;
             set {
                 buildings = value; 
-                modGroups.AddRange(buildings.AllEntities.Select(x => x.ModGroup));
+                modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
+            }
+        }
+        
+        public ModEntityData<ShipComponent> ShipComponents {
+            get => shipComponents;
+            set {
+                shipComponents = value; 
+                modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
             }
         }
 
@@ -124,13 +147,15 @@ namespace TechTreeCreator.DTO {
             switch (parseTarget) {
                 case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
                 case ParseTarget.Buildings: return Buildings.AllEntities;
+                case ParseTarget.ShipComponents: return ShipComponents.AllEntities;
                 default: throw new InvalidOperationException("Unknown type: " + parseTarget);
             }
         }
 
         public ObjectsDependantOnTechs CopyOnlyCore() {
             return new ObjectsDependantOnTechs() {
-                Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>()
+                Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>(),
+                ShipComponents = this.ShipComponents.FindCoreGameData() ?? new ModEntityData<ShipComponent>()
             };
             
         }
