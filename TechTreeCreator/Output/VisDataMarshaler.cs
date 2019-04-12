@@ -221,14 +221,15 @@ namespace TechTreeCreator.Output {
         }
         
         private VisNode MarshallShipComponent(ShipComponent shipComponent, IDictionary<string,VisNode> prereqTechNodeLookup, string imagesPath) {
-            var result = CreateNode(shipComponent, imagesPath, "building"); 
+            var result = CreateNode(shipComponent, imagesPath, "shipComponent"); 
             result.prerequisites = shipComponent.PrerequisiteIds != null
                 ? shipComponent.PrerequisiteIds.ToArray()
                 : new string[] { };
     
             result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
             result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
-
+            result.group = "Dependant";
+            
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = shipComponent.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
             if (!highestLevelOfPrerequisiteTechs.HasValue) {

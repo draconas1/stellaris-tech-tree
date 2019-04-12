@@ -109,8 +109,9 @@ namespace TechTreeCreator.GraphCreation {
          }
         
         private void Initialise(Entity entity, string filePath, string modName, string modGroup, CWNode node) {
-            entity.Name = LocalisationApiHelper.GetName(node.Key);
-            entity.Description = LocalisationApiHelper.GetDescription(node.Key);
+            // not always using the node key, so use the id that was specified for the entity and trust that I got that right
+            entity.Name = LocalisationApiHelper.GetName(entity.Id);
+            entity.Description = LocalisationApiHelper.GetDescription(entity.Id);
             entity.FilePath = filePath;
             entity.Mod = modName;
             entity.ModGroup = modGroup;

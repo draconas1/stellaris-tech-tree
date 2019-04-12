@@ -19,7 +19,7 @@ namespace TechTreeCreator {
             switch (target) {
                 case ParseTarget.Technologies: return "technologies";
                 case ParseTarget.Buildings: return "buildings";
-                case ParseTarget.ShipComponents: return "shipComponents";
+                case ParseTarget.ShipComponents: return "ship_parts";
             }
 
             return null;

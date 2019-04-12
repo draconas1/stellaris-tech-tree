@@ -17,10 +17,6 @@ namespace TechTreeCreator.GraphCreation {
         }
 
         protected override void SetVariables(Building result, CWNode node) {
-            if (result.Icon.StartsWith("GFX_")) {
-                result.Icon = result.Icon.Replace("GFX_", "");
-            }
-            
             result.BaseBuildTime = node.GetKeyValueOrDefault("base_buildtime", "0").ToInt();
             result.Category = node.GetKeyValue("category");
             

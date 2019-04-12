@@ -85,6 +85,19 @@ GraphOptions = {
         align: 'left',
         vadjust: -50
       },
+    },
+    Dependant: {
+      shape: 'image',
+      shapeProperties: {
+        useBorderWithImage: false,
+        useImageSize: true,
+        borderRadius: 0
+      },
+      font: {
+        size: 26,
+        align: 'left',
+        vadjust: -30
+      }
     }
   },
   interaction: {

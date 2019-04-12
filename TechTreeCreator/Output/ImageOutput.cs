@@ -71,7 +71,7 @@ namespace TechTreeCreator.Output
                 }
                 else
                 {
-                    Log.Logger.Warning("No file {filePath} found", filePath);
+                    Log.Logger.Warning("No file {filePath} found for id {id} with icon {icon}", filePath, entity.Id, entity.Icon);
                 }
             }
         }
