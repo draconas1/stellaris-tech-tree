@@ -10,7 +10,7 @@ namespace NetExtensions.Object {
     /// As well as extension methods there are also factory methods designed to be accessed directly.
     /// </remarks>
     public static class IEqualityComparerExtensions {
-        public static IEqualityComparer<T> Create<T>(Func<T, object> keyFunction) {
+        public static IEqualityComparer<T> Create<T>(params Func<T, object>[] keyFunction) {
             return new FunctionEqualityComparer<T>(keyFunction);
         }
 
@@ -18,18 +18,31 @@ namespace NetExtensions.Object {
         /// Generates an IEqualityComparer where equality is tested using a simple key of the object.
         /// </summary>
         private class FunctionEqualityComparer<T> : IEqualityComparer<T> {
-            private readonly Func<T, object> func;
+            private readonly Func<T, object>[] funcs;
 
-            public FunctionEqualityComparer(Func<T, object> func) {
-                this.func = func;
+            public FunctionEqualityComparer(Func<T, object>[] funcs) {
+                this.funcs = funcs;
             }
                
             public bool Equals(T x, T y) {
-                return Equals(func(x), func(y));
+                
+                foreach (var func in funcs) {
+                    bool @equals = Equals(func(x), func(y));
+                    if (!equals) {
+                        return false;
+                    }
+                }
+
+                return true;
             }
 
             public int GetHashCode(T obj) {
-                return func(obj).GetHashCode();
+                int hash = 1;
+                foreach (var func in funcs) {
+                    hash = hash * func(obj).GetHashCode();
+                }
+
+                return hash;
             }
         }
     }

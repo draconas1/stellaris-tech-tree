@@ -28,6 +28,11 @@ namespace TechTreeCreator.GraphCreation {
             result.Power = node.GetKeyValueOrDefault("power", "0").ToInt();
             result.ComponentSet = node.GetKeyValue("component_set");
 
+            if (result.ComponentSet != null) {
+                result.ComponentSetName = LocalisationApiHelper.GetName(result.ComponentSet);
+                result.ComponentSetDescription = LocalisationApiHelper.GetDescription(result.ComponentSet);
+            }
+
             if (result.Icon.StartsWith("GFX_")) {
                 result.Icon = result.Icon.Replace("GFX_", "");
             }

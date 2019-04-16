@@ -54,6 +54,9 @@ namespace TechTreeCreator.DTO {
     public class ShipComponent : Entity {
         public string Size { get; set; }
         public string ComponentSet { get; set; }
+        
+        public string ComponentSetName { get; set; }
+        public string ComponentSetDescription { get; set; }
         public int Power { get; set; }
         
         public IDictionary<string, double> Cost { get; }
@@ -64,9 +67,24 @@ namespace TechTreeCreator.DTO {
             Upkeep = new Dictionary<string, double>();
         }
     }
+    
+    public class ShipComponentSet : Entity {
+        public IList<ShipComponent> ShipComponents { get; }
+        
+        public ShipComponentSet(string id) : base(id) {
+            ShipComponents = new List<ShipComponent>();
+        }
+
+        public ShipComponentSet(string id, ShipComponent component) : base(component) {
+            Id = id;
+            Name = component.ComponentSetName ?? component.Name;
+            Description = component.ComponentSetDescription ?? component.Description;
+            ShipComponents = new List<ShipComponent>();
+        }
+    }
 
     public abstract class Entity {
-        public string Id { get; private set; }
+        public string Id { get; protected set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
@@ -93,6 +111,18 @@ namespace TechTreeCreator.DTO {
 
         protected Entity(string id) {
             Id = id;
+        }
+        
+        protected Entity(Entity other) {
+            Id = other.Id;
+            Name = other.Name;
+            Description = other.Description;
+            icon = other.icon;
+            FilePath = other.FilePath;
+            Mod = other.Mod;
+            Prerequisites = new List<Tech>(other.Prerequisites);
+            PrerequisiteIds = new List<string>(other.PrerequisiteIds);
+            IconFound = other.IconFound;
         }
     }
 
