@@ -49,7 +49,10 @@ namespace CWToolsHelpers.Localisation {
         /// <inheritdoc />
         public string GetDescription(string key)
         {
-            return GetValue(key + "_desc");
+            var realKey = key + "_desc";
+            var result = GetValue(realKey);
+            // some ahve allcaps DESC
+            return result == realKey ? GetValue(key + "_DESC") : result;
         }
 
         private string GetValue(string key)

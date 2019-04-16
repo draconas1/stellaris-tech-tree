@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NetExtensions.Collection;
+using NetExtensions.Object;
 using Newtonsoft.Json.Serialization;
 
 namespace TechTreeCreator.DTO {
@@ -120,6 +121,7 @@ namespace TechTreeCreator.DTO {
             icon = other.icon;
             FilePath = other.FilePath;
             Mod = other.Mod;
+            ModGroup = other.ModGroup;
             Prerequisites = new List<Tech>(other.Prerequisites);
             PrerequisiteIds = new List<string>(other.PrerequisiteIds);
             IconFound = other.IconFound;
@@ -168,7 +170,28 @@ namespace TechTreeCreator.DTO {
             set {
                 shipComponents = value; 
                 modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
+                ShipComponentsSets = shipComponents.Transform<ShipComponentSet>(MergeComponents);
             }
+        }
+        
+        public ModEntityData<ShipComponentSet> ShipComponentsSets {
+            get;
+            private set;
+        }
+        
+        private Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>> MergeComponents(IDictionary<string, ShipComponent> shipComponents, ISet<Link> links) {
+            Dictionary<string, ShipComponentSet> result = new Dictionary<string, ShipComponentSet>();
+            Dictionary<string, ShipComponentSet> nodeIdToComponentIdLookup = new Dictionary<string, ShipComponentSet>();
+            foreach (var shipComponent in shipComponents.Values) {
+                var componentId = shipComponent.ComponentSet ?? shipComponent.Id;
+                ShipComponentSet shipComponentSet = result.ComputeIfAbsent(componentId, id => new ShipComponentSet(id, shipComponent));
+                shipComponentSet.ShipComponents.Add(shipComponent);
+                nodeIdToComponentIdLookup[shipComponent.Id] = shipComponentSet;
+            }
+            
+            //now need to remake links
+            HashSet<Link> newLinks = links.Select(x => new Link() {From = x.From, To = nodeIdToComponentIdLookup[x.To.Id]}).ToHashSet(IEqualityComparerExtensions.Create<Link>(x => x.From.Id, x => x.To.Id));
+            return new Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>>(result, newLinks);
         }
 
         public ISet<string> ModGroups => modGroups;
@@ -177,7 +200,7 @@ namespace TechTreeCreator.DTO {
             switch (parseTarget) {
                 case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
                 case ParseTarget.Buildings: return Buildings.AllEntities;
-                case ParseTarget.ShipComponents: return ShipComponents.AllEntities;
+                case ParseTarget.ShipComponents: return ShipComponentsSets.AllEntities;
                 default: throw new InvalidOperationException("Unknown type: " + parseTarget);
             }
         }

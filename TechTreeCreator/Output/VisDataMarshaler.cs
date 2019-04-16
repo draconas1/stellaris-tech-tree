@@ -53,10 +53,11 @@ namespace TechTreeCreator.Output {
                         result.edges.AddRange(objectsDependantOnTechs.Buildings.AllLinksForModGroup(modGroup).Select(VisHelpers.MarshalLink));
                         break;
                     case ParseTarget.ShipComponents:
-                        var (shipComponentSets, links) = MergeComponents(objectsDependantOnTechs.ShipComponents.AllEntitiesForModGroup(modGroup), objectsDependantOnTechs.ShipComponents.AllLinksForModGroup(modGroup));
                         
-                        result.nodes.AddRange(shipComponentSets.Values.Select(x => MarshallShipComponentSet(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
-                        result.edges.AddRange(links.Select(VisHelpers.MarshalLink));
+                        result.nodes.AddRange(objectsDependantOnTechs.ShipComponentsSets.AllEntitiesForModGroup(modGroup)
+                            .Select(x => MarshallShipComponentSet(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
+                        ISet<Link> allLinksForModGroup = objectsDependantOnTechs.ShipComponentsSets.AllLinksForModGroup(modGroup);
+                        result.edges.AddRange(allLinksForModGroup.Select(VisHelpers.MarshalLink));
                         break;
                     default:
                         throw new Exception(parseTarget.ToString());
@@ -66,21 +67,6 @@ namespace TechTreeCreator.Output {
             return result;
         }
 
-
-        public Tuple<Dictionary<string, ShipComponentSet>, HashSet<Link>> MergeComponents(IEnumerable<ShipComponent> shipComponents, ISet<Link> links) {
-            Dictionary<string, ShipComponentSet> result = new Dictionary<string, ShipComponentSet>();
-            Dictionary<string, ShipComponentSet> nodeIdToComponentIdLookup = new Dictionary<string, ShipComponentSet>();
-            foreach (var shipComponent in shipComponents) {
-                var componentId = shipComponent.ComponentSet ?? shipComponent.Id;
-                ShipComponentSet shipComponentSet = result.ComputeIfAbsent(componentId, id => new ShipComponentSet(id, shipComponent));
-                shipComponentSet.ShipComponents.Add(shipComponent);
-                nodeIdToComponentIdLookup[shipComponent.Id] = shipComponentSet;
-            }
-            
-            //now need to remake links
-            HashSet<Link> newLinks = links.Select(x => new Link() {From = x.From, To = nodeIdToComponentIdLookup[x.To.Id]}).ToHashSet(IEqualityComparerExtensions.Create<Link>(x => x.From.Id, x => x.To.Id));
-            return new Tuple<Dictionary<string, ShipComponentSet>, HashSet<Link>>(result, newLinks);
-        }
 
         private VisNode MarshalBuilding(Building building, IDictionary<string, VisNode> prereqTechNodeLookup, string imagesPath) {
             var result = VisHelpers.CreateNode(building, CreateRelativePath(imagesPath), "building");
@@ -120,8 +106,8 @@ namespace TechTreeCreator.Output {
 
             foreach (var shipComponent in shipComponentSet.ShipComponents) {
                 result.title = result.title + "<br/><br/><b>" + shipComponent.Name + "</b>";
-                result.title = result.title + "<br/>" + AddBuildingResources("Cost", shipComponent.Cost);
-                result.title = result.title + "<br/>" + AddBuildingResources("Upkeep", shipComponent.Upkeep);
+                result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
+                result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
             }
 
             result.group = "Dependant";
