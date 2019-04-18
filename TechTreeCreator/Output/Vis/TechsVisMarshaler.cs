@@ -140,7 +140,7 @@ namespace TechTreeCreator.Output.Vis {
             dictionary[0] = 1;
             for (int i = 1; i <= maxTier; i++) {
                 var previousLevel = i - 1;
-                dictionary[i] = 1 + dictionary[previousLevel] + maxPathsPerTier[previousLevel] * 2;
+                dictionary[i] = 2 + dictionary[previousLevel] + maxPathsPerTier[previousLevel] * 2;
             }
 
             return dictionary;
