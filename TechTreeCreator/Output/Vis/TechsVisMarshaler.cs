@@ -140,7 +140,7 @@ namespace TechTreeCreator.Output.Vis {
             dictionary[0] = 1;
             for (int i = 1; i <= maxTier; i++) {
                 var previousLevel = i - 1;
-                dictionary[i] = 1 + dictionary[previousLevel] + maxPathsPerTier[previousLevel];
+                dictionary[i] = 1 + dictionary[previousLevel] + maxPathsPerTier[previousLevel] * 2;
             }
 
             return dictionary;
@@ -148,7 +148,7 @@ namespace TechTreeCreator.Output.Vis {
 
         private int CalculateLevel(Tech tech, Dictionary<int, int> tierStartingLengths) {
             // number of techs in the same tier that are pre-requistes, so must be on lower levels, this may be 0.
-            var levelInTier = NumberOfPrereqsInSameTier(tech);
+            var levelInTier = NumberOfPrereqsInSameTier(tech) * 2;
             return tierStartingLengths[tech.TierValue] + levelInTier;
         }
 

@@ -12,19 +12,19 @@ namespace TechTreeCreator.Output.Vis {
             var result = new VisNode {
                 id = entity.Id,
                 label = entity.Name,
-                title = "<b>" + entity.Name + "</b>",
-                image = imagesRelativePath + "/" + entity.Id + ".png",
+                title = $"<b>{entity.Name}</b> ({entity.Id})",
+                image = $"{imagesRelativePath}/{entity.Id}.png",
                 hasImage = entity.IconFound,
                 nodeType = nodeType
             };
-            result.title = result.title + "<br/><i>" + entity.Description + "</i>";
+            result.title = result.title + $"<br/><i>{entity.Description}</i>";
 
             if (entity.Mod != "Stellaris") {
-                result.title = result.title + "<br/><b>Mod: </b>" + entity.Mod + "";
+                result.title = result.title + $"<br/><b>Mod: </b>{entity.Mod}";
             } 
             
             if (entity.DLC != null) {
-                result.title = result.title + "<br/><i>Requires the " + entity.DLC + " DLC</i>";
+                result.title = result.title + $"<br/><i>Requires the {entity.DLC} DLC</i>";
             }
             
 

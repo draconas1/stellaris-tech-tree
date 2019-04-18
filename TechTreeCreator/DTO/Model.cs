@@ -188,7 +188,18 @@ namespace TechTreeCreator.DTO {
                 shipComponentSet.ShipComponents.Add(shipComponent);
                 nodeIdToComponentIdLookup[shipComponent.Id] = shipComponentSet;
             }
-            
+
+            if (result.TryGetValue("combat_computers", out var combatComputers)) {
+                foreach (var computersShipComponent in combatComputers.ShipComponents) {
+                    int lastUnderscoreIndex = computersShipComponent.Id.LastIndexOf("_", StringComparison.Ordinal);
+                    var computerLevel = computersShipComponent.Id.Substring(lastUnderscoreIndex);
+                    string key = combatComputers.Id + computerLevel;
+                    ShipComponentSet shipComponentSet = result.ComputeIfAbsent(key, id => new ShipComponentSet(id, computersShipComponent));
+                    shipComponentSet.ShipComponents.Add(computersShipComponent);
+                    nodeIdToComponentIdLookup[computersShipComponent.Id] = shipComponentSet;
+                }
+            }
+
             //now need to remake links
             HashSet<Link> newLinks = links.Select(x => new Link() {From = x.From, To = nodeIdToComponentIdLookup[x.To.Id]}).ToHashSet(IEqualityComparerExtensions.Create<Link>(x => x.From.Id, x => x.To.Id));
             return new Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>>(result, newLinks);

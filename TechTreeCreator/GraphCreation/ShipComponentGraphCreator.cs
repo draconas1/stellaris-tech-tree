@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -9,7 +10,12 @@ using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation {
     public class ShipComponentGraphCreator : EntityCreator<ShipComponent> {
+        
+        private HashSet<string> excludes = new HashSet<string>();
         public ShipComponentGraphCreator(ILocalisationApiHelper localisationApiHelper, ICWParserHelper cwParserHelper) : base(localisationApiHelper, cwParserHelper) {
+            excludes.Add("STARBASE_COMBAT_COMPUTER_1");
+            excludes.Add("STARBASE_COMBAT_COMPUTER_2");
+            excludes.Add("STARBASE_COMBAT_COMPUTER_3");
         }
 
         protected override ShipComponent Construct(CWNode node) {
@@ -44,7 +50,7 @@ namespace TechTreeCreator.GraphCreation {
 
             // because computer icons have "_role_" for shits and giggles
             if (result.Icon.Contains("ship_part_computer_")) {
-                result.Icon = "computers/" + (!result.Icon.Contains("ship_part_computer_default") ? result.Icon.Replace("ship_part_computer_", "ship_part_computer_role_") : "");
+                result.Icon = "computers/" + (!result.Icon.Contains("ship_part_computer_default") ? result.Icon.Replace("ship_part_computer_", "ship_part_computer_role_") : result.Icon);
             }
             
             node.ActOnNodes("resources", cwNode => {
@@ -57,8 +63,8 @@ namespace TechTreeCreator.GraphCreation {
             return directoryHelper.ComponentTemplates;
         }
 
-        protected override bool ShouldInclude(ShipComponent building) {
-            return building.PrerequisiteIds.Any();
+        protected override bool ShouldInclude(ShipComponent component) {
+            return component.PrerequisiteIds.Any() && !excludes.Contains(component.Id ) ;
         }
     }
 }

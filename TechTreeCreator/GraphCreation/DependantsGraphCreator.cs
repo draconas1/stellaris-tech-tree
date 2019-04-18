@@ -38,13 +38,13 @@ namespace TechTreeCreator.GraphCreation
                 switch (target) {
                     case ParseTarget.Buildings: {
                         var creator = new BuildingGraphCreator(localisationApiHelper, cwParserHelper);
-                        result.Buildings = ProcessDependant(creator);
+                        result.Buildings = ProcessDependant(creator, target);
                         break;
                     }
                     
                     case ParseTarget.ShipComponents: {
                         var creator = new ShipComponentGraphCreator(localisationApiHelper, cwParserHelper);
-                        result.ShipComponents = ProcessDependant(creator);
+                        result.ShipComponents = ProcessDependant(creator, target);
                         
                         
                         
@@ -59,7 +59,7 @@ namespace TechTreeCreator.GraphCreation
         }
 
 
-        private ModEntityData<T> ProcessDependant<T>(EntityCreator<T> creator) where T : Entity {
+        private ModEntityData<T> ProcessDependant<T>(EntityCreator<T> creator, ParseTarget parseTarget) where T : Entity {
             ModEntityData<T> entities = null;
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 entities = creator.ProcessDirectoryHelper(entities, modDirectoryHelper, techsAndDependencies);
@@ -77,7 +77,7 @@ namespace TechTreeCreator.GraphCreation
             });
             
             if (entities != null) {
-                Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", entities.EntityCount, creator.GetType().DeclaringType, entities.LinkCount);                            
+                Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", entities.EntityCount, parseTarget, entities.LinkCount);                            
             }
             else {
                 Log.Logger.Warning("{parseTarget} had no items in any of the sources");     
