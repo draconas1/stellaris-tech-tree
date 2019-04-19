@@ -27,11 +27,18 @@ namespace TechTreeConsole {
                 string outputDir = OUTPUT_WINDOWS;
                 string modFileSuffix = "-windows";
                 string stellarisUserDir = STELLARIS_USER_WINDOWS;
-                if (args.Length > 0 && args[0].Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
-                    rootDir = STELLARIS_ROOT_MAC;
-                    outputDir = OUTPUT_MAC;
-                    stellarisUserDir = STELLARIS_USER_MAC;
-                    modFileSuffix = "-mac";
+                bool sortModfile = false;
+                foreach (var arg in args) {
+                    if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
+                        rootDir = STELLARIS_ROOT_MAC;
+                        outputDir = OUTPUT_MAC;
+                        stellarisUserDir = STELLARIS_USER_MAC;
+                        modFileSuffix = "-mac";
+                    }
+
+                    if (arg.Equals("modfile", StringComparison.InvariantCultureIgnoreCase)) {
+                        sortModfile = true;
+                    }
                 }
 
                 string modsFilePath = Path.Combine(outputDir, "mods" + modFileSuffix + ".json");
@@ -45,9 +52,11 @@ namespace TechTreeConsole {
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
                     .CreateLogger();
 
-                //IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(stellarisUserDir);
-
-                //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
+                if (sortModfile) {
+                    IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(stellarisUserDir);
+                    ModDirectoryHelper.WriteModListFile(modsFilePath, modFiles);
+                    Environment.Exit(0);
+                }
 
                 var modList = ModDirectoryHelper.ReadModListFromFile(modsFilePath);
                 foreach (var modFile in modList.Where(x => x.Include)) {

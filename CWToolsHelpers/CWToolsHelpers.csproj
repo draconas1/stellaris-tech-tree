@@ -15,14 +15,12 @@
       <Reference Include="FParsec, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\..\..\..\.nuget\packages\fparsec\1.0.4-rc3\lib\netstandard1.6\FParsec.dll</HintPath>
       </Reference>
-      <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
-        <HintPath>..\..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll</HintPath>
-      </Reference>
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="DotNetZip" Version="1.13.3" />
       <PackageReference Include="FSharp.Core" Version="4.5.4" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
       <PackageReference Include="Serilog" Version="2.8.0" />
     </ItemGroup>
 
