@@ -66,15 +66,110 @@ function highlightCategory() {
   return false;
 }
 
+function isRootNode(node) {
+  return node.id === 'Engineering-root' || node.id === 'Society-root' || node.id === 'Physics-root';
+}
+
 
 async function createNetwork() {
+  // determine what files we are loading
+  const modSelectors = document.getElementsByName("modSelector");
+  const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
+  const includeDependants = document.getElementById("showDependantItems").checked;
+
+  const nodeBuilder = [];
+  const allNodesBuilder = [];
+  const edgeListing = [];
+
+  // want to see if only core game is checked
+  // if so we load the special "core game with no mods" datafiles
+  // otherwise we load with mod files.
+  let isOnlyStellarisChecked = false;
+  for (let i = 0; i< modSelectors.length; i++) {
+    const selectElement = modSelectors[i];
+    // if it is the main game element
+    // then if it is checked there is a chance that we are using the special files
+    // (which may be disproved by a later mod)
+    // if it is not checked we are definately not using the special files.
+    if (selectElement.value === "Stellaris") {
+      if (selectElement.checked) {
+        isOnlyStellarisChecked = true;
+      }
+      else {
+        break;
+      }
+    }
+      // if the element is not the main game element
+      // and it is checked, then we are not loading the special files
+      // and should abort immidiately
+    else {
+      if (selectElement.checked) {
+        isOnlyStellarisChecked = false;
+        break;
+      }
+    }
+  }
+
+  if (isOnlyStellarisChecked) {
+    const coreGameVariables = modToVariables["Stellaris-No-Mods"];
+    nodeBuilder.push(...(window[coreGameVariables.techs].nodes));
+    edgeListing.push(...(window[coreGameVariables.techs].edges));
+    allNodesBuilder.push(...(window[coreGameVariables.techs].nodes));
+    if (includeDependants) {
+      coreGameVariables.dependants.forEach(varName => {
+        nodeBuilder.push(...(window[varName].nodes));
+        edgeListing.push(...(window[varName].edges));
+      })
+    }
+  }
+  else {
+    // get nodes and edges from files
+    modSelectors.forEach(selectElement => {
+      const modVariables = modToVariables[selectElement.value];
+      if (selectElement.checked) {
+        nodeBuilder.push(...(window[modVariables.techs].nodes));
+        edgeListing.push(...(window[modVariables.techs].edges));
+        if (includeDependants) {
+          modVariables.dependants.forEach(varName =>  {
+            nodeBuilder.push(...(window[varName].nodes));
+            edgeListing.push(...(window[varName].edges));
+          })
+        }
+      }
+      else {
+        // push the tech edges in anyway if include pre-requistes is true
+        if (includePrerequisites) {
+          edgeListing.push(...(window[modVariables.techs].edges));
+        }
+      }
+      // if not including prerequistes then don't want to create a massive array of everything
+      // so only populate this if including pre-reqs
+      if (includePrerequisites) {
+        allNodesBuilder.push(...(window[modVariables.techs].nodes));
+      }
+    });
+  }
+  // add the tech root nodes.
+  nodeBuilder.push(...(TechRootNodesGraphDataTech.nodes));
+  allNodesBuilder.push(...(TechRootNodesGraphDataTech.nodes));
+
+  const nodeListing = _.uniqBy(nodeBuilder, 'id');
+
+  // initalise
   const techAreaFilter = document.getElementById("techAreaFilterBox").value;
   let activeNodes;
   if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {
-    activeNodes = GraphDataTech.nodes;
+    activeNodes = nodeListing;
   } else {
     //lodash filter with a shorthand for propertyname matches value.
-    activeNodes = _.filter(GraphDataTech.nodes, ['group', techAreaFilter]);
+    activeNodes = _.filter(nodeListing, function (node) {
+      if (node.nodeType === "tech") {
+        return isRootNode(node) || node.group === techAreaFilter || node.group === "Mod" + techAreaFilter;
+      }
+      else {
+       return true;
+      }
+    });
   }
   const categoryFilter = document.getElementById("categoryFilterBox").value;
   if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
@@ -82,23 +177,75 @@ async function createNetwork() {
   } else {
     //lodash filter with a shorthand for propertyname matches value.
     activeNodes = _.filter(activeNodes, function (node) {
-      return node.categories !== undefined && node.categories.includes(categoryFilter)
+      if (node.nodeType === "tech") {
+        return isRootNode(node) || node.categories !== undefined && node.categories.includes(categoryFilter)
+      }
+      else {
+        return true;
+      }
     });
   }
 
-  const includePrerequisites = document.getElementById("includeDependenciesCheckbox").checked;
-  if (includePrerequisites === true) {
+  if (includePrerequisites) {
+    // if including prereqs then when building the graph we may need to use the massive array of everything
+    const allNodeListing = includePrerequisites ? _.uniqBy(allNodesBuilder, 'id') : nodeListing;
     let nodesAndDeps = _.keyBy(activeNodes, 'id');
     PathFunctions.addAllDependencyNodes(_.transform(activeNodes, function (result, node) {
         result.push(node.id);
       }),
       nodesAndDeps,
-      _.keyBy(GraphDataTech.nodes, 'id')
+      _.keyBy(allNodeListing, 'id')
     );
     activeNodes = Object.values(nodesAndDeps);
   }
+  
+  // filter again to remove dependant items that were included
+  if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {  
+  } else {
+    const nodeLookup = _.keyBy(activeNodes, 'id');
+    activeNodes = _.filter(activeNodes, function (node) {
+      if (node.nodeType === "tech") {
+        return true
+      }
+      else {
+        // actual loop because i need to not be in another closure
+        for (let i = 0; i<node.prerequisites.length; i++) {
+          const dependantId = node.prerequisites[i]
+          const tech = nodeLookup[dependantId];
+          if (tech) {
+            return true;
+          }
+        }
+        return false;
+      }
+    });
+  }
+  if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
+    // no op on active nodes
+  } else {
+    const nodeLookup = _.keyBy(activeNodes, 'id');
+    //lodash filter with a shorthand for propertyname matches value.
+    activeNodes = _.filter(activeNodes, function (node) {
+      if (node.nodeType === "tech") {
+        return true
+      }
+      else {
+          // actual loop because i need to not be in another closure
+          for (let i = 0; i<node.prerequisites.length; i++) {
+            const dependantId = node.prerequisites[i]
+            const tech = nodeLookup[dependantId];
+            if (tech) {
+              return true;
+            }
+          }
+          return false;
+      }
+    })
+  } 
+  
   unsetHighlightCategoryFilter();
-  nodesDataset = new vis.DataSet(activeNodes.concat(GraphDataBuildings.nodes));
+  nodesDataset = new vis.DataSet(activeNodes);
+  edgesDataset = new vis.DataSet(edgeListing);
 
   // create a network
   const container = document.getElementById('network');

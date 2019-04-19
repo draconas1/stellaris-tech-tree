@@ -7,6 +7,7 @@ using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
 using NetExtensions.Object;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.GraphCreation
@@ -24,14 +25,42 @@ namespace TechTreeCreator.GraphCreation
             IgnoreFiles.AddRange(new [] { "00_tier.txt", "00_category.txt", "eac_category.txt" });
         }
 
-        public TechsAndDependencies CreateTechnologyGraph()
-        {
-            var techs = new Dictionary<string, Tech>();
+        public ModEntityData<Tech> CreateTechnologyGraph() {
+            ModEntityData<Tech> techs = null;
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
-                ProcessDirectoryHelper(techs, modDirectoryHelper);
+                techs = ProcessDirectoryHelper(techs, modDirectoryHelper, null);
             }
-            var links = PopulateTechDependenciesAndReturnLinks(techs.Values, techs);
-            return new TechsAndDependencies() {Techs = techs, Prerequisites = links};
+            
+            // post process because while most things work on the principle of:
+            // later mod override core
+            // later mod override core
+            // core
+            // some have the core first, then additional features that depend on it (Zenith, I am looking at you)
+            // so need to post process
+
+            techs?.ApplyToChain((modTechs, modLinks) => {
+                foreach (var (key, tech) in modTechs) {
+                    if (tech.Prerequisites.Count() == tech.PrerequisiteIds.Count()) {
+                        continue;
+                    }
+
+                    Log.Logger.Debug("Tech {id} had missing pre-requisite, trying to find it in the complete listing", key);
+                    var populatedPreReqs = tech.Prerequisites.Select(preReq => preReq.Id).ToHashSet();
+                    foreach (var missingPreReq in tech.PrerequisiteIds.Where(x => !populatedPreReqs.Contains(x))) {
+                        Tech attemptToFindPreq = techs[missingPreReq];
+                        if (attemptToFindPreq != null) {
+                            tech.Prerequisites.Add(attemptToFindPreq);
+                            modLinks.Add(new Link() {From = attemptToFindPreq, To = tech});
+                            Log.Logger.Debug("Found prereq {key} in file {file}", attemptToFindPreq.Id, attemptToFindPreq.FilePath);
+                        }
+                        else {
+                            Log.Logger.Debug("Still unable to find {prereqId} for Tech {id}", missingPreReq, key);
+                        }
+                    }
+                }
+            });
+
+            return techs;
         }
         
         protected override Tech Construct(CWNode node) {
@@ -55,8 +84,8 @@ namespace TechTreeCreator.GraphCreation
             }
 
             result.Area = area;
-            result.Tier = (node.GetKeyValue("tier") ?? "0").ToInt();
-            result.BaseCost = (node.GetKeyValue("cost") ?? "0").ToInt();
+            result.Tier = node.GetKeyValueOrDefault("tier", "0").ToInt();
+            result.BaseCost = node.GetKeyValueOrDefault("cost", "0").ToInt();
 
            
             //categories, usually only one, but can be more

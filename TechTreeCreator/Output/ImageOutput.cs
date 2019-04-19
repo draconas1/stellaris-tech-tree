@@ -8,6 +8,7 @@ using Serilog;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using TechTreeCreator.DTO;
+using Buffer = System.Buffer;
 
 namespace TechTreeCreator.Output
 {
@@ -71,7 +72,7 @@ namespace TechTreeCreator.Output
                 }
                 else
                 {
-                    Log.Logger.Warning("No file {filePath} found", filePath);
+                    Log.Logger.Warning("No file {filePath} found for id {id} with icon {icon}", filePath, entity.Id, entity.Icon);
                 }
             }
         }
@@ -86,14 +87,38 @@ namespace TechTreeCreator.Output
                     if (ddsImage.Compressed) {
                         ddsImage.Decompress();
                     }
+                    
+                    
+                    /*
+                     * Huge thanks to Nick Babcock of Pfim for helping me determine what was wrong with weird images coming out from ImageMagic.
+                     */
+                    
+                    byte[] newData;
+
+                    // Since image sharp can't handle data with line padding in a stride
+                    // we create an stripped down array if any padding is detected
+                    var tightStride = (ddsImage.Width * ddsImage.BitsPerPixel + 7) / 8;
+                    if (ddsImage.Stride != tightStride)
+                    {
+                        newData = new byte[ddsImage.Height * tightStride];
+                        for (int i = 0; i < ddsImage.Height; i++)
+                        {
+                            Buffer.BlockCopy(ddsImage.Data, i * ddsImage.Stride, newData, i * tightStride, tightStride);
+                        }
+                    }
+                    else
+                    {
+                        newData = ddsImage.Data;
+                    }
+
 
                     switch (ddsImage.Format) {
                         case Pfim.ImageFormat.Rgba32:
-                            Image.LoadPixelData<Bgra32>(ddsImage.Data, ddsImage.Width, ddsImage.Height)
+                            Image.LoadPixelData<Bgra32>(newData, ddsImage.Width, ddsImage.Height)
                                 .Save(outputPath);
                             return true;
                         case Pfim.ImageFormat.Rgb24:
-                            Image.LoadPixelData<Bgr24>(ddsImage.Data, ddsImage.Width, ddsImage.Height).Save(outputPath);
+                            Image.LoadPixelData<Bgr24>(newData, ddsImage.Width, ddsImage.Height).Save(outputPath);
                             return true;
                         default:
                             Log.Logger.Warning("Image {inputPath} had unknown format {format}", inputPath, ddsImage.Format);

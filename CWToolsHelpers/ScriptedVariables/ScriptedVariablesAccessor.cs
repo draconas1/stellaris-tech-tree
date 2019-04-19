@@ -75,7 +75,7 @@ namespace CWToolsHelpers.ScriptedVariables {
         }
         
         public void AddAdditionalFileVariables(CWNode node) {
-            node.KeyValues.Where(kv => IsVariable(kv.Key)).ForEach(kv => variables[kv.Key] = kv.Value);
+            node.RawKeyValues.Where(kv => IsVariable(kv.Key)).ForEach(kv => variables[kv.Key] = kv.Value);
         }
 
         public IScriptedVariablesAccessor CreateNew(IEnumerable<CWKeyValue> keyValues) {

@@ -13,6 +13,16 @@
     display: flex;
 }
 
+#modOptsInner {
+    display: flex;
+}
+
+#modListRow {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .filterRow {
     display: flex;
     justify-content: space-between;

@@ -13,5 +13,22 @@ namespace NetExtensions.Collection {
                 set.Add(x1);
             }
         }
+        
+        /// <summary>
+        /// Removes the elements of the specified collection from the <see cref="ISet{T}"/>
+        /// </summary>
+        /// <param name="set">The Set</param>
+        /// <param name="toRemove">The collection whose elements should be removed from the <see cref="ISet{T}"/></param>
+        /// <typeparam name="T">The Type of the Set</typeparam>
+        public static int RemoveAll<T>(this ISet<T> set, IEnumerable<T> toRemove) {
+            int removed = 0;
+            foreach (var x1 in toRemove) {
+                if (set.Remove(x1)) {
+                    removed++;
+                }
+            }
+
+            return removed;
+        }
     }
 }

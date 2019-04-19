@@ -71,7 +71,6 @@ namespace CWToolsHelpers.FileParsing
                 throw new Exception(parsed.GetError());
             }
         }
-
         
         private CWNode ToMyNode(Node n)
         {
@@ -79,7 +78,7 @@ namespace CWToolsHelpers.FileParsing
             var tempAccessor = scriptedVariablesAccessor.CreateNew(leaves);
             var nodes = n.AllChildren.Where(x => x.IsNodeC).Select(x => ToMyNode(x.node, tempAccessor)).ToList();
             var values = n.AllChildren.Where(x => x.IsLeafValueC).Select(x => x.lefavalue.Key).ToList();
-            return new CWNode(n.Key) { Nodes = nodes, Values = values, KeyValues = leaves, ScriptedVariablesAccessor = tempAccessor};
+            return new CWNode(n.Key) { Nodes = nodes, Values = values, RawKeyValues = leaves, ScriptedVariablesAccessor = tempAccessor};
         }
         
         private CWNode ToMyNode(Node n, IScriptedVariablesAccessor sa)
@@ -87,7 +86,7 @@ namespace CWToolsHelpers.FileParsing
             var nodes = n.AllChildren.Where(x => x.IsNodeC).Select(x => ToMyNode(x.node, sa)).ToList();
             var leaves = n.AllChildren.Where(x => x.IsLeafC).Select(x => ToMyKeyValue(x.leaf)).ToList();
             var values = n.AllChildren.Where(x => x.IsLeafValueC).Select(x => x.lefavalue.Key).ToList();
-            return new CWNode(n.Key) { Nodes = nodes, Values = values, KeyValues = leaves, ScriptedVariablesAccessor = sa};
+            return new CWNode(n.Key) { Nodes = nodes, Values = values, RawKeyValues = leaves, ScriptedVariablesAccessor = sa};
         }
 
 

@@ -28,12 +28,23 @@ namespace CWToolsHelpers.FileParsing
         public IList<CWNode> Nodes { get; set; }
         
         /// <summary>
-        /// All key value pairs.
+        /// All key value pairs with their raw values (e.g. no scripted variables substituted)
         /// </summary>
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
-        public IList<CWKeyValue> KeyValues { get; set; }
+        public IList<CWKeyValue> RawKeyValues { get; set; }
+
+        private IList<ICWKeyValue> keyValues;
+        /// <summary>
+        /// All key value pairs with their raw values (e.g. no scripted variables substituted)
+        /// </summary>
+        /// <remarks>
+        /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
+        /// </remarks>
+        public IList<ICWKeyValue> KeyValues {
+            get { return keyValues ?? (keyValues = RawKeyValues.Select(x => (ICWKeyValue) new CWNodeContextedKeyValue(x, ScriptedVariablesAccessor)).ToList()); }
+        }
 
         /// <summary>
         /// Straight values within the node, these are almost always comments.
@@ -108,6 +119,21 @@ namespace CWToolsHelpers.FileParsing
             var value = GetRawKeyValue(key);
             return ScriptedVariablesAccessor.GetPotentialValue(value);
         }
+        
+        /// <summary>
+        /// If there is a child key-value with the specified key, returns it, otherwise uses the supplied default value.  Attempting to convert any variables using <see cref="ScriptedVariablesAccessor"/>
+        /// </summary>
+        /// <remarks>
+        /// Use with caution, will get the first keyvalue if there are multiple with the same key in the same context!
+        /// </remarks>
+        /// <param name="key">The Key of the Keyvalue item within the node</param>
+        /// <param name="defaultValue">The value to use (and supplied to the <see cref="ScriptedVariablesAccessor"/>) if the keyvalue does not exist in the node</param>
+        /// <returns>See above.</returns>
+        public string GetKeyValueOrDefault(string key, object defaultValue) {
+            var value = GetRawKeyValue(key);
+            return ScriptedVariablesAccessor.GetPotentialValue(value ?? defaultValue.ToString());
+        }
+
 
         /// <summary>
         /// If there is a child key-value with the specified key, returns it. Does not perform variable conversion.
@@ -118,20 +144,40 @@ namespace CWToolsHelpers.FileParsing
         /// <param name="key">The Key of the Keyvalue item within the node</param>
         /// <returns>See above.</returns>
         public string GetRawKeyValue(string key) {
-            return KeyValues.FirstOrDefault(x => x.Key == key)?.Value;
+            return RawKeyValues.FirstOrDefault(x => x.Key == key)?.Value;
         }
+    }
+
+    public interface ICWKeyValue {
+        string Key { get; }
+        string Value { get; }
+
+        KeyValuePair<string, string> ToKeyValue();
     }
     
     /// <summary>
     /// A straight key = value entry in the file/node: e.g: tier = 1
     /// </summary>
-    public class CWKeyValue 
+    public class CWKeyValue : ICWKeyValue 
     {
         public string Key { get; set; }
         public string Value { get; set; }
         
         public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
     }
-
     
+    internal class CWNodeContextedKeyValue : ICWKeyValue 
+    {
+        private readonly ICWKeyValue raw;
+        private readonly IScriptedVariablesAccessor accessor;
+
+        internal CWNodeContextedKeyValue(ICWKeyValue raw, IScriptedVariablesAccessor accessor) {
+            this.raw = raw;
+            this.accessor = accessor;
+        }
+        public string Key => raw.Key;
+        public string Value => accessor.GetPotentialValue(raw.Value);
+
+        public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
+    }
 }

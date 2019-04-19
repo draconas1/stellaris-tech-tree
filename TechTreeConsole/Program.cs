@@ -8,6 +8,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 using TechTreeCreator;
+using TechTreeCreator.DTO;
 using TechTreeCreator.Logger;
 
 namespace TechTreeConsole {
@@ -46,37 +47,37 @@ namespace TechTreeConsole {
                 var outputTemplate = "[{Timestamp:HH:mm:ss} {Level}]{ShortCaller}: {Message}{NewLine}{Exception}";
                 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
                 Log.Logger = new LoggerConfiguration()
-                    .MinimumLevel.Debug()
+                    .MinimumLevel.Information()
                     .Enrich.FromLogContext()
                     .Enrich.WithCaller()
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
                     .CreateLogger();
 
                 if (sortModfile) {
-                    IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(stellarisUserDir);
-                    ModDirectoryHelper.WriteModListFile(modsFilePath, modFiles);
+                    IList<ModDefinitionFile> modFiles = ModDirectoryHelper.LoadModDefinitions(stellarisUserDir);
+                    ModDirectoryHelper.WriteModInfoFile(modsFilePath, modFiles);
                     Environment.Exit(0);
                 }
 
-                var modList = ModDirectoryHelper.ReadModListFromFile(modsFilePath);
+                var modList = ModDirectoryHelper.ReadModInfoFile(modsFilePath);
                 foreach (var modFile in modList.Where(x => x.Include)) {
                     Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
                 }
 
-                var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir, modList);
-                var techsAndDependencies = techTreeCreatorManager.ParseStellarisFiles();
-                techTreeCreatorManager.CopyImages(techsAndDependencies);
-                var techsData = techTreeCreatorManager.GenerateJsGraph(techsAndDependencies);
-
-                var objectsDependantOnTechs = techTreeCreatorManager.ParseObjectsDependantOnTechs(techsAndDependencies, techsData);
-
-                foreach (var (modGoup, visData) in techsData) {
-                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
-                }
-
-                foreach (var (modGoup, visData) in objectsDependantOnTechs) {
-                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
-                }
+                var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
+                techTreeCreatorManager.Mods = modList;
+                techTreeCreatorManager.ForceModOverwriting = false;
+                
+                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents});
+                
+//
+//                foreach (var (modGoup, visData) in techsData) {
+//                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+//                }
+//
+//                foreach (var (modGoup, visData) in objectsDependantOnTechs) {
+//                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
+//                }
             }
             catch (Exception e) {
                 Log.Logger.Fatal(e, "Fatal Error");
