@@ -66,6 +66,10 @@ function highlightCategory() {
   return false;
 }
 
+function isRootNode(node) {
+  return node.id === 'Engineering-root' || node.id === 'Society-root' || node.id === 'Physics-root';
+}
+
 
 async function createNetwork() {
   // determine what files we are loading
@@ -159,7 +163,12 @@ async function createNetwork() {
   } else {
     //lodash filter with a shorthand for propertyname matches value.
     activeNodes = _.filter(nodeListing, function (node) {
-      return node.group === techAreaFilter || node.group === "Mod" + techAreaFilter;
+      if (node.nodeType === "tech") {
+        return isRootNode(node) || node.group === techAreaFilter || node.group === "Mod" + techAreaFilter;
+      }
+      else {
+       return true;
+      }
     });
   }
   const categoryFilter = document.getElementById("categoryFilterBox").value;
@@ -168,7 +177,12 @@ async function createNetwork() {
   } else {
     //lodash filter with a shorthand for propertyname matches value.
     activeNodes = _.filter(activeNodes, function (node) {
-      return node.categories !== undefined && node.categories.includes(categoryFilter)
+      if (node.nodeType === "tech") {
+        return isRootNode(node) || node.categories !== undefined && node.categories.includes(categoryFilter)
+      }
+      else {
+        return true;
+      }
     });
   }
 
@@ -184,6 +198,51 @@ async function createNetwork() {
     );
     activeNodes = Object.values(nodesAndDeps);
   }
+  
+  // filter again to remove dependant items that were included
+  if (techAreaFilter === undefined || techAreaFilter === '' || techAreaFilter === 'All') {  
+  } else {
+    const nodeLookup = _.keyBy(activeNodes, 'id');
+    activeNodes = _.filter(activeNodes, function (node) {
+      if (node.nodeType === "tech") {
+        return true
+      }
+      else {
+        // actual loop because i need to not be in another closure
+        for (let i = 0; i<node.prerequisites.length; i++) {
+          const dependantId = node.prerequisites[i]
+          const tech = nodeLookup[dependantId];
+          if (tech) {
+            return true;
+          }
+        }
+        return false;
+      }
+    });
+  }
+  if (categoryFilter === undefined || categoryFilter === '' || categoryFilter === 'All') {
+    // no op on active nodes
+  } else {
+    const nodeLookup = _.keyBy(activeNodes, 'id');
+    //lodash filter with a shorthand for propertyname matches value.
+    activeNodes = _.filter(activeNodes, function (node) {
+      if (node.nodeType === "tech") {
+        return true
+      }
+      else {
+          // actual loop because i need to not be in another closure
+          for (let i = 0; i<node.prerequisites.length; i++) {
+            const dependantId = node.prerequisites[i]
+            const tech = nodeLookup[dependantId];
+            if (tech) {
+              return true;
+            }
+          }
+          return false;
+      }
+    })
+  } 
+  
   unsetHighlightCategoryFilter();
   nodesDataset = new vis.DataSet(activeNodes);
   edgesDataset = new vis.DataSet(edgeListing);

@@ -1,8 +1,9 @@
 <script type="text/javascript" src="data/Stellaris-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-tech.js?v=2"></script>
+<script type="text/javascript" src="data/Starborn-tech.js?v=2"></script>
+<script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
 <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
-<script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=2"></script>

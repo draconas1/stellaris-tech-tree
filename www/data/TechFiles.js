@@ -10,6 +10,16 @@ techDataFiles = [
     "fileName": "Zenith_of_Fallen_Empires-tech.js"
   },
   {
+    "name": "Starborn",
+    "jsVarable": "StarbornGraphDataTech",
+    "fileName": "Starborn-tech.js"
+  },
+  {
+    "name": "At War",
+    "jsVarable": "AtWarGraphDataTech",
+    "fileName": "At_War-tech.js"
+  },
+  {
     "name": "Gigastructures",
     "jsVarable": "GigastructuresGraphDataTech",
     "fileName": "Gigastructures-tech.js"
@@ -18,11 +28,6 @@ techDataFiles = [
     "name": "EUTAB",
     "jsVarable": "EUTABGraphDataTech",
     "fileName": "EUTAB-tech.js"
-  },
-  {
-    "name": "At War",
-    "jsVarable": "AtWarGraphDataTech",
-    "fileName": "At_War-tech.js"
   },
   {
     "name": "Ancient Cache of Technologies",

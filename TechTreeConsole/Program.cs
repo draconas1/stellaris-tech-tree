@@ -28,11 +28,18 @@ namespace TechTreeConsole {
                 string outputDir = OUTPUT_WINDOWS;
                 string modFileSuffix = "-windows";
                 string stellarisUserDir = STELLARIS_USER_WINDOWS;
-                if (args.Length > 0 && args[0].Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
-                    rootDir = STELLARIS_ROOT_MAC;
-                    outputDir = OUTPUT_MAC;
-                    stellarisUserDir = STELLARIS_USER_MAC;
-                    modFileSuffix = "-mac";
+                bool sortModfile = false;
+                foreach (var arg in args) {
+                    if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
+                        rootDir = STELLARIS_ROOT_MAC;
+                        outputDir = OUTPUT_MAC;
+                        stellarisUserDir = STELLARIS_USER_MAC;
+                        modFileSuffix = "-mac";
+                    }
+
+                    if (arg.Equals("modfile", StringComparison.InvariantCultureIgnoreCase)) {
+                        sortModfile = true;
+                    }
                 }
 
                 string modsFilePath = Path.Combine(outputDir, "mods" + modFileSuffix + ".json");
@@ -40,15 +47,17 @@ namespace TechTreeConsole {
                 var outputTemplate = "[{Timestamp:HH:mm:ss} {Level}]{ShortCaller}: {Message}{NewLine}{Exception}";
                 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
                 Log.Logger = new LoggerConfiguration()
-                    .MinimumLevel.Debug()
+                    .MinimumLevel.Information()
                     .Enrich.FromLogContext()
                     .Enrich.WithCaller()
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
                     .CreateLogger();
 
-                //IList<ModDirectoryHelper.ModFile> modFiles = ModDirectoryHelper.GetMods(stellarisUserDir);
-
-                //ModDirectoryHelper.WriteModListFile(Path.Combine(outputDir, "mods.json"), modFiles);
+                if (sortModfile) {
+                    IList<ModDefinitionFile> modFiles = ModDirectoryHelper.LoadModDefinitions(stellarisUserDir);
+                    ModDirectoryHelper.WriteModInfoFile(modsFilePath, modFiles);
+                    Environment.Exit(0);
+                }
 
                 var modList = ModDirectoryHelper.ReadModInfoFile(modsFilePath);
                 foreach (var modFile in modList.Where(x => x.Include)) {

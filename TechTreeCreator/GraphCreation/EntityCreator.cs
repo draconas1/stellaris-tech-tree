@@ -66,7 +66,10 @@ namespace TechTreeCreator.GraphCreation {
                             }
                         }
                         catch (Exception e) {
-                            throw new Exception("Error Processing node " +node.Key + "  in file: " + file, e);
+                            if (AbortOnFailure) {
+                                throw new Exception($"Error Processing node {node.Key} in file: {file}", e);
+                            }
+                            Log.Logger.Error(e, "Error Processing node {node} in file: {file}", node.Key, file);
                         }
                     }
                 }

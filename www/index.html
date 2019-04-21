@@ -16,8 +16,6 @@
       gtag('config', 'UA-133958990-1');
     </script>
 
-    <script type="text/javascript" src="data/Stellaris-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Stellaris-dependants.js?v=3"></script>
     <script type="text/javascript" src="graphOptions.js?v=3"></script>
     <script type="text/javascript" src="imagesFunctions.js?v=3"></script>
     <script type="text/javascript" src="techTree.js?v=3"></script>
@@ -32,14 +30,16 @@
 
     <!-- Data -->
 
-    <script type="text/javascript" src="data/Stellaris-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Gigastructures-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/EUTAB-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/At_War-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=3"></script>
-    <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=3"></script>
+    <script type="text/javascript" src="data/Stellaris-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Starborn-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=2"></script>
+
 
     <script type="text/javascript" src="data/Stellaris-dependants.js?v=3"></script>
     <script type="text/javascript" src="data/EUTAB-dependants.js?v=3"></script>
@@ -90,13 +90,13 @@
                 </div>
                 <div class="filterRow">
                     <label for="includeDependenciesCheckbox">Include (filtered) dependencies:</label>
-                    <input type="checkbox" id="includeDependenciesCheckbox" onclick="createNetwork()">
+                    <input type="checkbox" id="includeDependenciesCheckbox" checked onclick="createNetwork()">
                 </div>
                 <div class="filterRow">
                     <label for="techAreaFilterBox">Filter tech area to:</label>
                     <select id="techAreaFilterBox" class="dropdown" onchange="createNetwork()">
                         <option value="All">All</option>
-                        <option value="Physics">Physics</option>
+                        <option value="Physics" selected>Physics</option>
                         <option value="Society">Society</option>
                         <option value="Engineering">Engineering</option>
                     </select>
@@ -159,7 +159,7 @@
     The sourcecode for creating the tree is on <a href="https://github.com/draconas1/stellaris-tech-tree">github</a>. It uses the <a
         href="https://github.com/tboby/cwtools">CWTools</a> paradox file parser to transform the PDX files to a format that can be read and laid out using <a
         href="http://visjs.org/">Vis.js</a>. <br/>
-    <small>Thanks to Dayshine for the help with CWTools and MurphyBob for a lot of help with javascript</small>
+    <small>Thanks to Dayshine for the help with CWTools, MurphyBob for a lot of help with javascript and Nick Babcock for his help with <a href="https://github.com/nickbabcock/Pfim">Pfim</a></small>
 </p>
 
 <p>
