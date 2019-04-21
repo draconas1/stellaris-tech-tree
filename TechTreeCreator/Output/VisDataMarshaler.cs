@@ -47,18 +47,29 @@ namespace TechTreeCreator.Output {
             foreach (var parseTarget in parseTargets.WithoutTechs()) {
 
                 switch (parseTarget) {
-                    case ParseTarget.Buildings:
+                    case ParseTarget.Buildings: {
                         result.nodes.AddRange(objectsDependantOnTechs.Buildings.AllEntitiesForModGroup(modGroup)
                             .Select(x => MarshalBuilding(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
                         result.edges.AddRange(objectsDependantOnTechs.Buildings.AllLinksForModGroup(modGroup).Select(VisHelpers.MarshalLink));
                         break;
-                    case ParseTarget.ShipComponents:
-                        
+                    }
+
+                    case ParseTarget.ShipComponents: {
+
                         result.nodes.AddRange(objectsDependantOnTechs.ShipComponentsSets.AllEntitiesForModGroup(modGroup)
                             .Select(x => MarshallShipComponentSet(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
                         ISet<Link> allLinksForModGroup = objectsDependantOnTechs.ShipComponentsSets.AllLinksForModGroup(modGroup);
                         result.edges.AddRange(allLinksForModGroup.Select(VisHelpers.MarshalLink));
                         break;
+                    }
+                    
+                    case ParseTarget.Decisions: {
+                        result.nodes.AddRange(objectsDependantOnTechs.Decisions.AllEntitiesForModGroup(modGroup)
+                            .Select(x => MarshalDecision(x, prereqTechNodeLookup, outputDirectoryHelper.GetImagesPath(parseTarget.ImagesDirectory()))));
+                        ISet<Link> allLinksForModGroup = objectsDependantOnTechs.Decisions.AllLinksForModGroup(modGroup);
+                        result.edges.AddRange(allLinksForModGroup.Select(VisHelpers.MarshalLink));
+                        break;
+                    }
                     default:
                         throw new Exception(parseTarget.ToString());
                 }
@@ -97,6 +108,24 @@ namespace TechTreeCreator.Output {
             return result;
         }
 
+        private VisNode MarshalDecision(Decision decision, IDictionary<string, VisNode> prereqTechNodeLookup, string imagesPath) {
+            var result = VisHelpers.CreateNode(decision, CreateRelativePath(imagesPath), "decision");
+            result.prerequisites = decision.PrerequisiteIds != null
+                ? decision.PrerequisiteIds.ToArray()
+                : new string[] { };
+
+            result.group = "Dependant";
+
+            if (decision.CustomTooltip != null) {
+                result.title = result.title + "<br/>" + decision.CustomTooltip;
+            }
+
+            result.title = result.title + AddBuildingResources("Cost", decision.Cost);
+
+            VisHelpers.SetLevel(result, decision, prereqTechNodeLookup);
+
+            return result;
+        }
         
         private VisNode MarshallShipComponentSet(ShipComponentSet shipComponentSet, IDictionary<string, VisNode> prereqTechNodeLookup, string imagesPath) {
             var result = VisHelpers.CreateNode(shipComponentSet, CreateRelativePath(imagesPath), "shipComponent");

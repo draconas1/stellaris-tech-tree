@@ -86,6 +86,8 @@ namespace TechTreeCreator.DTO {
 
     public class Decision : Entity {
         public IDictionary<string, double> Cost { get; }
+        
+        public String CustomTooltip { get; set; }
         public Decision(string id) : base(id) {
             Cost = new Dictionary<string, double>();
         }
@@ -160,6 +162,7 @@ namespace TechTreeCreator.DTO {
     }
 
     public class ObjectsDependantOnTechs {
+        //also add to the clone method at the bottom!
         private ModEntityData<Building> buildings;
         private ModEntityData<ShipComponent> shipComponents;
         private ModEntityData<Decision> decisions;
@@ -223,19 +226,14 @@ namespace TechTreeCreator.DTO {
 
         public ISet<string> ModGroups => modGroups;
 
-        public IEnumerable<Entity> Get(ParseTarget parseTarget){
-            switch (parseTarget) {
-                case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
-                case ParseTarget.Buildings: return Buildings.AllEntities;
-                case ParseTarget.ShipComponents: return ShipComponentsSets.AllEntities;
-                default: throw new InvalidOperationException("Unknown type: " + parseTarget);
-            }
-        }
+        
 
         public ObjectsDependantOnTechs CopyOnlyCore() {
             return new ObjectsDependantOnTechs() {
                 Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>(),
-                ShipComponents = this.ShipComponents.FindCoreGameData() ?? new ModEntityData<ShipComponent>()
+                ShipComponents = this.ShipComponents.FindCoreGameData() ?? new ModEntityData<ShipComponent>(),
+                Decisions = this.Decisions.FindCoreGameData() ?? new ModEntityData<Decision>(),
+                                 
             };
             
         }

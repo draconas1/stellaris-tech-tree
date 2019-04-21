@@ -10,7 +10,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/null_void_beam.png",
+      "image": "images/technologies/null_void_beam.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -24,7 +24,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Administrative AI</b> (tech_administrative_ai)<br/><i>Organizational circuitry rerouting academic fervor.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_administrative_ai.png",
+      "image": "images/technologies/tech_administrative_ai.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -44,7 +44,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_akx_worm_1.png",
+      "image": "images/technologies/tech_akx_worm_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -62,7 +62,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_akx_worm_3.png",
+      "image": "images/technologies/tech_akx_worm_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -79,7 +79,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Antimatter Power</b> (tech_antimatter_power)<br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_antimatter_power.png",
+      "image": "images/technologies/tech_antimatter_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -95,7 +95,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Arc Emitters</b> (tech_arc_emitter_1)<br/><i>Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
       "level": 20,
-      "image": "\\images\\technologies/tech_arc_emitter_1.png",
+      "image": "images/technologies/tech_arc_emitter_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -112,7 +112,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Focused Arc Emitters</b> (tech_arc_emitter_2)<br/><i>These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000",
       "level": 21,
-      "image": "\\images\\technologies/tech_arc_emitter_2.png",
+      "image": "images/technologies/tech_arc_emitter_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -132,7 +132,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_archeology_lab.png",
+      "image": "images/technologies/tech_archeology_lab.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -146,7 +146,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Automated Exploration Protocols</b> (tech_automated_exploration)<br/><i>An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_automated_exploration.png",
+      "image": "images/technologies/tech_automated_exploration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -160,7 +160,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Auxiliary Fire-control</b> (tech_auxiliary_fire_control)<br/><i>By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
       "level": 9,
-      "image": "\\images\\technologies/tech_auxiliary_fire_control.png",
+      "image": "images/technologies/tech_auxiliary_fire_control.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -180,7 +180,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_basic_science_lab_1.png",
+      "image": "images/technologies/tech_basic_science_lab_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -194,7 +194,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Exotic Materials Labs</b> (tech_basic_science_lab_2)<br/><i>As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_basic_science_lab_2.png",
+      "image": "images/technologies/tech_basic_science_lab_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -210,7 +210,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Multi-Dimensional Studies</b> (tech_basic_science_lab_3)<br/><i>To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_basic_science_lab_3.png",
+      "image": "images/technologies/tech_basic_science_lab_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -231,7 +231,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_bio_reactor.png",
+      "image": "images/technologies/tech_bio_reactor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -245,7 +245,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Cold Fusion Power</b> (tech_cold_fusion_power)<br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_cold_fusion_power.png",
+      "image": "images/technologies/tech_cold_fusion_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -261,7 +261,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Specialized Combat Computers</b> (tech_combat_computers_1)<br/><i>Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_combat_computers_1.png",
+      "image": "images/technologies/tech_combat_computers_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -277,7 +277,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Extended Combat Algorithms</b> (tech_combat_computers_2)<br/><i>Further advances in predictive algorithms allow for augmented tactical decision-making in the field.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_combat_computers_2.png",
+      "image": "images/technologies/tech_combat_computers_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -298,7 +298,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_combat_computers_3.png",
+      "image": "images/technologies/tech_combat_computers_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -319,7 +319,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_combat_computers_autonomous.png",
+      "image": "images/technologies/tech_combat_computers_autonomous.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -335,7 +335,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>AI-Controlled Colony Ships</b> (tech_cryostasis_1)<br/><i>By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_cryostasis_1.png",
+      "image": "images/technologies/tech_cryostasis_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -352,7 +352,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Self-Aware Colony Ships</b> (tech_cryostasis_2)<br/><i>Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
       "level": 15,
-      "image": "\\images\\technologies/tech_cryostasis_2.png",
+      "image": "images/technologies/tech_cryostasis_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -373,7 +373,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_curator_lab.png",
+      "image": "images/technologies/tech_curator_lab.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -391,7 +391,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_dark_matter_deflector.png",
+      "image": "images/technologies/tech_dark_matter_deflector.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -411,7 +411,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_dark_matter_power_core.png",
+      "image": "images/technologies/tech_dark_matter_power_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -427,7 +427,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Disruptors</b> (tech_disruptors_1)<br/><i>Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_disruptors_1.png",
+      "image": "images/technologies/tech_disruptors_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -443,7 +443,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Ion Disruptors</b> (tech_disruptors_2)<br/><i>These upgraded disruptors fire bolts of more destructive ion particles at targets.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_disruptors_2.png",
+      "image": "images/technologies/tech_disruptors_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -459,7 +459,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Phase Disruptors</b> (tech_disruptors_3)<br/><i>Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_disruptors_3.png",
+      "image": "images/technologies/tech_disruptors_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -475,7 +475,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Particle Lances</b> (tech_energy_lance_1)<br/><i>These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
       "level": 20,
-      "image": "\\images\\technologies/tech_energy_lance_1.png",
+      "image": "images/technologies/tech_energy_lance_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -492,7 +492,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Tachyon Lances</b> (tech_energy_lance_2)<br/><i>A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000",
       "level": 21,
-      "image": "\\images\\technologies/tech_energy_lance_2.png",
+      "image": "images/technologies/tech_energy_lance_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -509,7 +509,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Proton Launchers</b> (tech_energy_torpedoes_1)<br/><i>These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
       "level": 16,
-      "image": "\\images\\technologies/tech_energy_torpedoes_1.png",
+      "image": "images/technologies/tech_energy_torpedoes_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -525,7 +525,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Neutron Launchers</b> (tech_energy_torpedoes_2)<br/><i>Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_energy_torpedoes_2.png",
+      "image": "images/technologies/tech_energy_torpedoes_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -545,7 +545,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_enigmatic_decoder.png",
+      "image": "images/technologies/tech_enigmatic_decoder.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -563,7 +563,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_enigmatic_encoder.png",
+      "image": "images/technologies/tech_enigmatic_encoder.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -581,7 +581,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_experimental_subspace_navigation.png",
+      "image": "images/technologies/tech_experimental_subspace_navigation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -601,7 +601,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_extradimensional_weapon_1.png",
+      "image": "images/technologies/tech_extradimensional_weapon_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -619,7 +619,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_fission_power.png",
+      "image": "images/technologies/tech_fission_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -633,7 +633,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>FTL Inhibition</b> (tech_ftl_inhibitor)<br/><i>Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_ftl_inhibitor.png",
+      "image": "images/technologies/tech_ftl_inhibitor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -649,7 +649,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Fusion Power</b> (tech_fusion_power)<br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_fusion_power.png",
+      "image": "images/technologies/tech_fusion_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -669,7 +669,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_gateway_activation.png",
+      "image": "images/technologies/tech_gateway_activation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -689,7 +689,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_gateway_construction.png",
+      "image": "images/technologies/tech_gateway_construction.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -706,7 +706,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Interplanetary Research Initiative</b> (tech_global_research_initiative)<br/><i>A bid for interplanetary resource pools and more flexible research grants.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_global_research_initiative.png",
+      "image": "images/technologies/tech_global_research_initiative.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -727,7 +727,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_hyper_drive_1.png",
+      "image": "images/technologies/tech_hyper_drive_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -743,7 +743,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Hyperlane Breach Points</b> (tech_hyper_drive_2)<br/><i>We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_hyper_drive_2.png",
+      "image": "images/technologies/tech_hyper_drive_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -759,7 +759,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Hyperspace Slipstreams</b> (tech_hyper_drive_3)<br/><i>A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_hyper_drive_3.png",
+      "image": "images/technologies/tech_hyper_drive_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -779,7 +779,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_jump_drive_1.png",
+      "image": "images/technologies/tech_jump_drive_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -799,7 +799,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_lasers_1.png",
+      "image": "images/technologies/tech_lasers_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -813,7 +813,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Blue Lasers</b> (tech_lasers_2)<br/><i>More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_lasers_2.png",
+      "image": "images/technologies/tech_lasers_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -829,7 +829,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>UV Lasers</b> (tech_lasers_3)<br/><i>Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_lasers_3.png",
+      "image": "images/technologies/tech_lasers_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -845,7 +845,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>X-Ray Lasers</b> (tech_lasers_4)<br/><i>These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_lasers_4.png",
+      "image": "images/technologies/tech_lasers_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -861,7 +861,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Gamma Lasers</b> (tech_lasers_5)<br/><i>The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_lasers_5.png",
+      "image": "images/technologies/tech_lasers_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -881,7 +881,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_lgate_activation.png",
+      "image": "images/technologies/tech_lgate_activation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -895,7 +895,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Dark Matter Drawing</b> (tech_mine_dark_matter)<br/><i>This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_mine_dark_matter.png",
+      "image": "images/technologies/tech_mine_dark_matter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -911,7 +911,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Mote Stabilization</b> (tech_mine_volatile_motes)<br/><i>Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mine_volatile_motes.png",
+      "image": "images/technologies/tech_mine_volatile_motes.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -931,7 +931,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_mining_drone_weapon_1.png",
+      "image": "images/technologies/tech_mining_drone_weapon_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -949,7 +949,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_pd_tracking_1.png",
+      "image": "images/technologies/tech_pd_tracking_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -963,7 +963,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Interlinked Support Systems</b> (tech_pd_tracking_2)<br/><i>Arrays of defensive armaments prove much more effective than independent countermeasures.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_pd_tracking_2.png",
+      "image": "images/technologies/tech_pd_tracking_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -979,7 +979,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Predictive Algorithms</b> (tech_pd_tracking_3)<br/><i>Advanced prediction greatly increases the accuracy of active countermeasure systems.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_pd_tracking_3.png",
+      "image": "images/technologies/tech_pd_tracking_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -995,7 +995,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Quantum Theory</b> (tech_physics_1)<br/><i>Exploring the mediation of fundamental forces through subatomic particles.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_physics_1.png",
+      "image": "images/technologies/tech_physics_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1009,7 +1009,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Applied Quantum Physics</b> (tech_physics_2)<br/><i>The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_physics_2.png",
+      "image": "images/technologies/tech_physics_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1025,7 +1025,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Space-Time Theory</b> (tech_physics_3)<br/><i>Three dimensions, inextricable from the fourth.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_physics_3.png",
+      "image": "images/technologies/tech_physics_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1045,7 +1045,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_pk_neutron.png",
+      "image": "images/technologies/tech_pk_neutron.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1065,7 +1065,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_pk_shielder.png",
+      "image": "images/technologies/tech_pk_shielder.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1085,7 +1085,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_planetary_shield_generator.png",
+      "image": "images/technologies/tech_planetary_shield_generator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1101,7 +1101,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Plasma Throwers</b> (tech_plasma_1)<br/><i>Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_plasma_1.png",
+      "image": "images/technologies/tech_plasma_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1117,7 +1117,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Plasma Accelerators</b> (tech_plasma_2)<br/><i>These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Particles<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_plasma_2.png",
+      "image": "images/technologies/tech_plasma_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1133,7 +1133,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Plasma Cannons</b> (tech_plasma_3)<br/><i>The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_plasma_3.png",
+      "image": "images/technologies/tech_plasma_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1149,7 +1149,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Positronic Implants</b> (tech_positronic_implants)<br/><i>Expanding possibilities through the application of limited cybernetics.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_positronic_implants.png",
+      "image": "images/technologies/tech_positronic_implants.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1165,7 +1165,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Global Energy Management</b> (tech_power_hub_1)<br/><i>Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_power_hub_1.png",
+      "image": "images/technologies/tech_power_hub_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1181,7 +1181,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Planetary Power Grid</b> (tech_power_hub_2)<br/><i>A re-engineered and unified grid further reduces energy losses over distance.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_power_hub_2.png",
+      "image": "images/technologies/tech_power_hub_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1202,7 +1202,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_power_plant_1.png",
+      "image": "images/technologies/tech_power_plant_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1216,7 +1216,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Field Modulation</b> (tech_power_plant_2)<br/><i>Modulated fields allow for increased production and improved energy yield.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_power_plant_2.png",
+      "image": "images/technologies/tech_power_plant_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1232,7 +1232,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Quantum Energy States</b> (tech_power_plant_3)<br/><i>Basic entanglement principles applied to energy generation provide a substantial increase in energy output.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_power_plant_3.png",
+      "image": "images/technologies/tech_power_plant_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1248,7 +1248,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Quantum Field Manipulation</b> (tech_power_plant_4)<br/><i>Quantum superposition of energy coils, simultaneously drained and charged.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_power_plant_4.png",
+      "image": "images/technologies/tech_power_plant_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1268,7 +1268,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_reactor_boosters_1.png",
+      "image": "images/technologies/tech_reactor_boosters_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1284,7 +1284,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Improved Reactor Boosters</b> (tech_reactor_boosters_2)<br/><i>The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_reactor_boosters_2.png",
+      "image": "images/technologies/tech_reactor_boosters_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1301,7 +1301,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Advanced Reactor Boosters</b> (tech_reactor_boosters_3)<br/><i>The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Particles<br/><b>Base cost: </b>12000",
       "level": 9,
-      "image": "\\images\\technologies/tech_reactor_boosters_3.png",
+      "image": "images/technologies/tech_reactor_boosters_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1322,7 +1322,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_shield_output.png",
+      "image": "images/technologies/tech_repeatable_improved_shield_output.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1342,7 +1342,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_tile_energy_output.png",
+      "image": "images/technologies/tech_repeatable_improved_tile_energy_output.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1362,7 +1362,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_reduced_building_cost.png",
+      "image": "images/technologies/tech_repeatable_reduced_building_cost.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1382,7 +1382,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_energy_damage.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_energy_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1402,7 +1402,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_energy_fire_rate.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_energy_fire_rate.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1418,7 +1418,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Positronic AI</b> (tech_sapient_ai)<br/><i>Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_sapient_ai.png",
+      "image": "images/technologies/tech_sapient_ai.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1434,7 +1434,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Self-Evolving Logic</b> (tech_self_aware_logic)<br/><i>Introspective prioritization.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_self_aware_logic.png",
+      "image": "images/technologies/tech_self_aware_logic.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1450,7 +1450,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Gravitic Sensors</b> (tech_sensors_2)<br/><i>These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_sensors_2.png",
+      "image": "images/technologies/tech_sensors_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1464,7 +1464,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Subspace Sensors</b> (tech_sensors_3)<br/><i>Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_sensors_3.png",
+      "image": "images/technologies/tech_sensors_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1480,7 +1480,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Tachyon Sensors</b> (tech_sensors_4)<br/><i>Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_sensors_4.png",
+      "image": "images/technologies/tech_sensors_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1496,7 +1496,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Shield Capacitors</b> (tech_shield_rechargers_1)<br/><i>These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_shield_rechargers_1.png",
+      "image": "images/technologies/tech_shield_rechargers_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1516,7 +1516,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_shields_1.png",
+      "image": "images/technologies/tech_shields_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1532,7 +1532,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Improved Deflectors</b> (tech_shields_2)<br/><i>These updated deflector screens are capable of soaking up even more punishment before they overload.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_shields_2.png",
+      "image": "images/technologies/tech_shields_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1548,7 +1548,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Shields</b> (tech_shields_3)<br/><i>These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_shields_3.png",
+      "image": "images/technologies/tech_shields_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1564,7 +1564,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Advanced Shields</b> (tech_shields_4)<br/><i>An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_shields_4.png",
+      "image": "images/technologies/tech_shields_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1580,7 +1580,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Hyper Shields</b> (tech_shields_5)<br/><i>These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>24000",
       "level": 19,
-      "image": "\\images\\technologies/tech_shields_5.png",
+      "image": "images/technologies/tech_shields_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1600,7 +1600,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_space_cloud_weapon_1.png",
+      "image": "images/technologies/tech_space_cloud_weapon_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1614,7 +1614,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Zero-G Laboratories</b> (tech_space_science_1)<br/><i>A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_space_science_1.png",
+      "image": "images/technologies/tech_space_science_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1630,7 +1630,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Miniature Containment Fields</b> (tech_space_science_2)<br/><i>Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_space_science_2.png",
+      "image": "images/technologies/tech_space_science_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1646,7 +1646,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Quantum Probes</b> (tech_space_science_3)<br/><i>Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_space_science_3.png",
+      "image": "images/technologies/tech_space_science_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1662,7 +1662,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Autonomous Station Protocols</b> (tech_space_science_4)<br/><i>Increased automation of station functions will free up more staff for research duties.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_space_science_4.png",
+      "image": "images/technologies/tech_space_science_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1678,7 +1678,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Multi-Dimensional Analysis</b> (tech_space_science_5)<br/><i>Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_space_science_5.png",
+      "image": "images/technologies/tech_space_science_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1698,7 +1698,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_synchronized_defences.png",
+      "image": "images/technologies/tech_synchronized_defences.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1714,7 +1714,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Volatile Material Plants</b> (tech_volatile_motes)<br/><i>Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_volatile_motes.png",
+      "image": "images/technologies/tech_volatile_motes.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1734,7 +1734,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_wormhole_stabilization.png",
+      "image": "images/technologies/tech_wormhole_stabilization.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1750,7 +1750,7 @@ StellarisGraphDataTech = {
       "group": "Physics",
       "title": "<b>Zero Point Power</b> (tech_zero_point_power)<br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_zero_point_power.png",
+      "image": "images/technologies/tech_zero_point_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1766,7 +1766,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Adaptive Bureaucracy</b> (tech_adaptive_bureaucracy)<br/><i>The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2500",
       "level": 8,
-      "image": "\\images\\technologies/tech_adaptive_bureaucracy.png",
+      "image": "images/technologies/tech_adaptive_bureaucracy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1782,7 +1782,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Adaptive Combat Algorithms</b> (tech_adaptive_combat_algorithms)<br/><i>Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 12,
-      "image": "\\images\\technologies/tech_adaptive_combat_algorithms.png",
+      "image": "images/technologies/tech_adaptive_combat_algorithms.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1802,7 +1802,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_akx_worm_2.png",
+      "image": "images/technologies/tech_akx_worm_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1816,7 +1816,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Xenology</b> (tech_alien_life_studies)<br/><i>Studying the fauna of other worlds gives insight into alien behaviors, allowing us to identify and domesticate docile entities.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_alien_life_studies.png",
+      "image": "images/technologies/tech_alien_life_studies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1834,7 +1834,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_amoeba_strike_craft_1.png",
+      "image": "images/technologies/tech_amoeba_strike_craft_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1848,7 +1848,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Artificial Moral Codes</b> (tech_artificial_moral_codes)<br/><i>It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_artificial_moral_codes.png",
+      "image": "images/technologies/tech_artificial_moral_codes.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1866,7 +1866,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_ascension_theory.png",
+      "image": "images/technologies/tech_ascension_theory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1880,7 +1880,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Automated Curation Algorithms</b> (tech_autocurating_vault)<br/><i>Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_autocurating_vault.png",
+      "image": "images/technologies/tech_autocurating_vault.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1898,7 +1898,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Autonomous Agents</b> (tech_autonomous_agents)<br/><i>Semi-independent units have proved critical to the success of the greater whole.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_autonomous_agents.png",
+      "image": "images/technologies/tech_autonomous_agents.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1918,7 +1918,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_biomechanics.png",
+      "image": "images/technologies/tech_biomechanics.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1938,7 +1938,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_capacity_boosters.png",
+      "image": "images/technologies/tech_capacity_boosters.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1954,7 +1954,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Centralized Command</b> (tech_centralized_command)<br/><i>Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_centralized_command.png",
+      "image": "images/technologies/tech_centralized_command.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1968,7 +1968,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Climate Restoration</b> (tech_climate_restoration)<br/><i>By advancing our understanding of atmospheric transformation, we will be able to terraform even the most ecologically devastated worlds.</i><br/><b>Tier: </b>4<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_climate_restoration.png",
+      "image": "images/technologies/tech_climate_restoration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1984,7 +1984,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Cloning</b> (tech_cloning)<br/><i>Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_cloning.png",
+      "image": "images/technologies/tech_cloning.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2000,7 +2000,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Collective Production Methods</b> (tech_collective_production_methods)<br/><i>Together, we build the future.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_collective_production_methods.png",
+      "image": "images/technologies/tech_collective_production_methods.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2016,7 +2016,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>The Collective Self</b> (tech_collective_self)<br/><i>Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_collective_self.png",
+      "image": "images/technologies/tech_collective_self.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2032,7 +2032,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Colonial Bureaucracy</b> (tech_colonial_bureaucracy)<br/><i>Local administrative developments allow for closer supervision of colonial affairs without excessively burdening central decision-making.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_colonial_bureaucracy.png",
+      "image": "images/technologies/tech_colonial_bureaucracy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2048,7 +2048,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Colonial Centralization</b> (tech_colonial_centralization)<br/><i>Robust frameworks for local governance created on a per-case basis, to meet each colony's needs.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_colonial_centralization.png",
+      "image": "images/technologies/tech_colonial_centralization.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2068,7 +2068,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 3,
-      "image": "\\images\\technologies/tech_colonization_1.png",
+      "image": "images/technologies/tech_colonization_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2084,7 +2084,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Atmospheric Filtering</b> (tech_colonization_2)<br/><i>By adjusting atmospheric filtering on a per-site basis to better filter out undesirable elements, colonial living conditions may be improved.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>3000",
       "level": 11,
-      "image": "\\images\\technologies/tech_colonization_2.png",
+      "image": "images/technologies/tech_colonization_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2100,7 +2100,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Hostile Environment Adaptation</b> (tech_colonization_3)<br/><i>Further study into the hazardous environments found on other planets help alleviate the difficulties that colonizers encounter in their day-to-day lives on foreign worlds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_colonization_3.png",
+      "image": "images/technologies/tech_colonization_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2116,7 +2116,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Foreign Soil Enrichment</b> (tech_colonization_4)<br/><i>Extensive study into different soil types and their ability to support crops will help improve the living conditions of our settlers on foreign worlds.</i><br/><b>Tier: </b>3<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_colonization_4.png",
+      "image": "images/technologies/tech_colonization_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2132,7 +2132,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Eco-Integration Studies</b> (tech_colonization_5)<br/><i>Additional study into different planetary climates will allow us to settle our population on worlds previously thought too hostile to support them.</i><br/><b>Tier: </b>4<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>24000",
       "level": 19,
-      "image": "\\images\\technologies/tech_colonization_5.png",
+      "image": "images/technologies/tech_colonization_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2148,7 +2148,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Combat Training</b> (tech_combat_training)<br/><i>A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_combat_training.png",
+      "image": "images/technologies/tech_combat_training.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2164,7 +2164,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Command Matrix</b> (tech_command_matrix)<br/><i>Restructuring the chain of command and deciding what interdependencies are set between officers, make fleets more responsive and effective.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>12000",
       "level": 16,
-      "image": "\\images\\technologies/tech_command_matrix.png",
+      "image": "images/technologies/tech_command_matrix.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2180,7 +2180,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Consecration Fields</b> (tech_consecration_fields)<br/><i>Through our understanding of physics and field manipulation, our holy places shall we seen and felt by all.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_consecration_fields.png",
+      "image": "images/technologies/tech_consecration_fields.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2201,7 +2201,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_cultural_heritage.png",
+      "image": "images/technologies/tech_cultural_heritage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2215,7 +2215,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Dangerous Wildlife Removal</b> (tech_dangerous_wildlife)<br/><i>Tactical disruption of natural habitats combined with converging search-and-destroy patterns can effectively eliminate hostile wildlife in a very short span of time.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_dangerous_wildlife.png",
+      "image": "images/technologies/tech_dangerous_wildlife.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2231,7 +2231,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Subterranean Colonization</b> (tech_deep_sinkhole)<br/><i>Many planets exhibit extensive subsurface voids. Subterranean exploration, exploitation, and construction techniques can greatly increase the habitable area of some worlds.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_deep_sinkhole.png",
+      "image": "images/technologies/tech_deep_sinkhole.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2247,7 +2247,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Selective Defoliants</b> (tech_dense_jungle)<br/><i>Thorough cataloging, gene sequencing, and computer modeling of exobotanical ecosystems, coupled with gene editing and dispersal mechanisms, will allow us to reshape alien plant communities to our liking.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_dense_jungle.png",
+      "image": "images/technologies/tech_dense_jungle.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2263,7 +2263,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Space Combat</b> (tech_doctrine_fleet_size_1)<br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_doctrine_fleet_size_1.png",
+      "image": "images/technologies/tech_doctrine_fleet_size_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2277,7 +2277,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Reactive Formations</b> (tech_doctrine_fleet_size_2)<br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_doctrine_fleet_size_2.png",
+      "image": "images/technologies/tech_doctrine_fleet_size_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2293,7 +2293,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Interstellar Warfare</b> (tech_doctrine_fleet_size_3)<br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_doctrine_fleet_size_3.png",
+      "image": "images/technologies/tech_doctrine_fleet_size_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2309,7 +2309,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Fluid Fleet Templates</b> (tech_doctrine_fleet_size_4)<br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_doctrine_fleet_size_4.png",
+      "image": "images/technologies/tech_doctrine_fleet_size_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2325,7 +2325,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Armada Battle Formation</b> (tech_doctrine_fleet_size_5)<br/><i>Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>24000",
       "level": 20,
-      "image": "\\images\\technologies/tech_doctrine_fleet_size_5.png",
+      "image": "images/technologies/tech_doctrine_fleet_size_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2341,7 +2341,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Fleet Support</b> (tech_doctrine_navy_size_1)<br/><i>As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_doctrine_navy_size_1.png",
+      "image": "images/technologies/tech_doctrine_navy_size_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2355,7 +2355,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Support Vessels</b> (tech_doctrine_navy_size_2)<br/><i>A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_doctrine_navy_size_2.png",
+      "image": "images/technologies/tech_doctrine_navy_size_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2371,7 +2371,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Interstellar Logistics</b> (tech_doctrine_navy_size_3)<br/><i>Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_doctrine_navy_size_3.png",
+      "image": "images/technologies/tech_doctrine_navy_size_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2387,7 +2387,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Doctrine: Fleet Liasions</b> (tech_doctrine_navy_size_4)<br/><i>By maintaining a professional corps of fleet liasions, we can improve communications and the flow of orders throughout the chain of command.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>24000",
       "level": 20,
-      "image": "\\images\\technologies/tech_doctrine_navy_size_4.png",
+      "image": "images/technologies/tech_doctrine_navy_size_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2403,7 +2403,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Eco Simulation</b> (tech_eco_simulation)<br/><i>Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_eco_simulation.png",
+      "image": "images/technologies/tech_eco_simulation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2419,7 +2419,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Ecological Adaptation</b> (tech_ecological_adaptation)<br/><i>By adapting planetary ecosystems to large-scale environmental changes we can turn terraformation into a less disruptive process.</i><br/><b>Tier: </b>3<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_ecological_adaptation.png",
+      "image": "images/technologies/tech_ecological_adaptation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2435,7 +2435,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Embodied Dynamism</b> (tech_embodied_dynamism)<br/><i>Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_embodied_dynamism.png",
+      "image": "images/technologies/tech_embodied_dynamism.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2451,7 +2451,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Epigenetic Triggers</b> (tech_epigenetic_triggers)<br/><i>Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_epigenetic_triggers.png",
+      "image": "images/technologies/tech_epigenetic_triggers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2467,7 +2467,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Executive Leisure Program</b> (tech_executive_retreat)<br/><i>A luxurious resort complex for high ranking corporate officers. Here they can sample the local planetary culture in a high security environment.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_executive_retreat.png",
+      "image": "images/technologies/tech_executive_retreat.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2481,7 +2481,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Food Processing</b> (tech_food_processing_1)<br/><i>Improved food processing techniques will lead to better preservation methods and less spoilage.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500",
       "level": 8,
-      "image": "\\images\\technologies/tech_food_processing_1.png",
+      "image": "images/technologies/tech_food_processing_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2497,7 +2497,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Advanced Food Processing</b> (tech_food_processing_2)<br/><i>New cryopreservation and protein resequencing methods will make food processing much more efficient.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_food_processing_2.png",
+      "image": "images/technologies/tech_food_processing_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2513,7 +2513,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Genetic Healthcare</b> (tech_frontier_health)<br/><i>The colonization of alien worlds has opened up an entirely new field of biomedical research.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500",
       "level": 8,
-      "image": "\\images\\technologies/tech_frontier_health.png",
+      "image": "images/technologies/tech_frontier_health.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2530,7 +2530,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Cyto-Revitalization</b> (tech_frontier_hospital)<br/><i>As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_frontier_hospital.png",
+      "image": "images/technologies/tech_frontier_hospital.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2547,7 +2547,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Galactic Administration</b> (tech_galactic_administration)<br/><i>The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_galactic_administration.png",
+      "image": "images/technologies/tech_galactic_administration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2563,7 +2563,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Stellar Expansion</b> (tech_galactic_ambitions)<br/><i>Our future lies in the sea of stars.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_galactic_ambitions.png",
+      "image": "images/technologies/tech_galactic_ambitions.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2577,7 +2577,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Galactic Bureaucracy</b> (tech_galactic_bureaucracy)<br/><i>Multiple administrative strata efficiently surface only the most vital information to the upper levels of government.</i><br/><b>Tier: </b>3<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_galactic_bureaucracy.png",
+      "image": "images/technologies/tech_galactic_bureaucracy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2593,7 +2593,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Galactic Campaigns</b> (tech_galactic_campaigns)<br/><i>Further improvements to administration grant an extended power projection across the stars, and the military clout needed to enforce our demands.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_galactic_campaigns.png",
+      "image": "images/technologies/tech_galactic_campaigns.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2613,7 +2613,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_galactic_markets.png",
+      "image": "images/technologies/tech_galactic_markets.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2634,7 +2634,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 7,
-      "image": "\\images\\technologies/tech_gargantuan_evolution.png",
+      "image": "images/technologies/tech_gargantuan_evolution.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2652,7 +2652,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_gene_banks.png",
+      "image": "images/technologies/tech_gene_banks.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2668,7 +2668,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Gene Crops</b> (tech_gene_crops)<br/><i>Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_gene_crops.png",
+      "image": "images/technologies/tech_gene_crops.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2688,7 +2688,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_gene_expressions.png",
+      "image": "images/technologies/tech_gene_expressions.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2708,7 +2708,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_gene_seed_purification.png",
+      "image": "images/technologies/tech_gene_seed_purification.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2724,7 +2724,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Gene Tailoring</b> (tech_gene_tailoring)<br/><i>Making gene-editing tools widely available is sure to have a positive impact on our development as a species.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_gene_tailoring.png",
+      "image": "images/technologies/tech_gene_tailoring.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2744,7 +2744,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_genetic_resequencing.png",
+      "image": "images/technologies/tech_genetic_resequencing.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2758,7 +2758,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Genome Mapping</b> (tech_genome_mapping)<br/><i>Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_genome_mapping.png",
+      "image": "images/technologies/tech_genome_mapping.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2772,7 +2772,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Glandular Acclimation</b> (tech_glandular_acclimation)<br/><i>Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>12000",
       "level": 16,
-      "image": "\\images\\technologies/tech_glandular_acclimation.png",
+      "image": "images/technologies/tech_glandular_acclimation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2788,7 +2788,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Global Defense Grid</b> (tech_global_defense_grid)<br/><i>The strategic value of a good defense remains as relevant today as it was to our predecessors in the far distant past. Technology does not render fortifications obsolete - it merely changes their requirements.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_global_defense_grid.png",
+      "image": "images/technologies/tech_global_defense_grid.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2804,7 +2804,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Global Production Strategy</b> (tech_global_production_strategy)<br/><i>Planets are big and production sites are often separated by vast distances. A coherent strategy for making certain that everyone is pulling in the same direction is often needed.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_global_production_strategy.png",
+      "image": "images/technologies/tech_global_production_strategy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2822,7 +2822,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Ground Defense Planning</b> (tech_ground_defense_planning)<br/><i>There are many alien empires who would gladly seize our worlds for themselves. We must be prepared for them, should the worst come to pass.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_ground_defense_planning.png",
+      "image": "images/technologies/tech_ground_defense_planning.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2838,7 +2838,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Heritage Sites</b> (tech_heritage_site)<br/><i>Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_heritage_site.png",
+      "image": "images/technologies/tech_heritage_site.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2854,7 +2854,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Clustered Synapses</b> (tech_hive_cluster)<br/><i>By clustering networks of macroscopic synaptic nodes, maximum meganeuron transmission per available surface area can be attained.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_hive_cluster.png",
+      "image": "images/technologies/tech_hive_cluster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2870,7 +2870,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Confluence of Thought</b> (tech_hive_confluence)<br/><i>The will of the Hive will be further strengthened and coordinated with the expansion and development of a massive nervous center of meganeurons.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_hive_confluence.png",
+      "image": "images/technologies/tech_hive_confluence.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2891,7 +2891,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_hive_node.png",
+      "image": "images/technologies/tech_hive_node.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2909,7 +2909,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_holo_entertainment.png",
+      "image": "images/technologies/tech_holo_entertainment.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2923,7 +2923,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Holographic Rituals</b> (tech_holographic_rituals)<br/><i>Seeing is believing, and belief begets reality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_holographic_rituals.png",
+      "image": "images/technologies/tech_holographic_rituals.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2939,7 +2939,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Agrarian Utopias</b> (tech_housing_agrarian_idyll)<br/><i>Through the establishment of weather-controlled rural communes, we can support a larger population without disrupting our agrarian way of life.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_housing_agrarian_idyll.png",
+      "image": "images/technologies/tech_housing_agrarian_idyll.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2953,7 +2953,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Hydroponics Farming</b> (tech_hydroponics)<br/><i>Hydroponics Farming in a controlled environment allows for crops to be grown in climates where farming would normally be impossible.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_hydroponics.png",
+      "image": "images/technologies/tech_hydroponics.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2969,7 +2969,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Hyper-Entertainment Forum</b> (tech_hyper_entertainment_forum)<br/><i>These massive entertainment complexes is where dreams come true. Shopping malls, restaurants, amusement parks, virtual arcades, and more. You dream it - we are it!</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_hyper_entertainment_forum.png",
+      "image": "images/technologies/tech_hyper_entertainment_forum.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2985,7 +2985,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Local Hypercommunication</b> (tech_hypercomms_forum)<br/><i>Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_hypercomms_forum.png",
+      "image": "images/technologies/tech_hypercomms_forum.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3006,7 +3006,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_industrial_farming.png",
+      "image": "images/technologies/tech_industrial_farming.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3024,7 +3024,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_interplanetary_commerce.png",
+      "image": "images/technologies/tech_interplanetary_commerce.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3038,7 +3038,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Interstellar Campaigns</b> (tech_interstellar_campaigns)<br/><i>A well-oiled war machine is the key to exerting influence on a galactic scale. Backed by the might of our military, we can lay claim to almost anything we want.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_interstellar_campaigns.png",
+      "image": "images/technologies/tech_interstellar_campaigns.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3054,7 +3054,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Interstellar Economics</b> (tech_interstellar_economics)<br/><i>As we journeyed into the cosmos and ventured beyond our home system, we also entered a new era of economics. New markets are appearing a startling rate, and economic theorists are struggling to keep up.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_interstellar_economics.png",
+      "image": "images/technologies/tech_interstellar_economics.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3070,7 +3070,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Interstellar Fleet Traditions</b> (tech_interstellar_fleet_traditions)<br/><i>A body of knowledge regarding combat behaviors is useless without a strong code governing its use.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_interstellar_fleet_traditions.png",
+      "image": "images/technologies/tech_interstellar_fleet_traditions.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3084,7 +3084,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>The Living State</b> (tech_living_state)<br/><i>The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_living_state.png",
+      "image": "images/technologies/tech_living_state.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3100,7 +3100,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Manifest Destiny</b> (tech_manifest_destiny)<br/><i>We must have to courage to seize our fate and make true what was always meant to be.</i><br/><b>Tier: </b>4<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_manifest_destiny.png",
+      "image": "images/technologies/tech_manifest_destiny.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3116,7 +3116,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Climate Control Network</b> (tech_massive_glacier)<br/><i>Orbital systems of mirrors and shades can effect dramatic changes in planetary climates, when managed properly.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_massive_glacier.png",
+      "image": "images/technologies/tech_massive_glacier.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3136,7 +3136,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_mine_zro.png",
+      "image": "images/technologies/tech_mine_zro.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3157,7 +3157,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_morphogenetic_field_mastery.png",
+      "image": "images/technologies/tech_morphogenetic_field_mastery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3173,7 +3173,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Planetary Resurfacing</b> (tech_mountain_range)<br/><i>With the advent of clean fusion, automation, and matter compression technologies, it was only a matter of time before mountain top removal became mountain range removal.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mountain_range.png",
+      "image": "images/technologies/tech_mountain_range.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3189,7 +3189,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Nano-Vitality Crops</b> (tech_nano_vitality_crops)<br/><i>Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_nano_vitality_crops.png",
+      "image": "images/technologies/tech_nano_vitality_crops.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3205,7 +3205,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Neural Implants</b> (tech_neural_implants)<br/><i>Cognition is little but the processing of sensory input. It can be altered.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_neural_implants.png",
+      "image": "images/technologies/tech_neural_implants.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3223,7 +3223,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_neuroregeneration.png",
+      "image": "images/technologies/tech_neuroregeneration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3237,7 +3237,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Xeno-Hydraulic Mastery</b> (tech_noxious_swamp)<br/><i>Sapient races have been reclaiming swampland for thousands of years. A coordinated system of modular aquaducts, pump stations, chemical remediation crawlers and automated soil compactors can reclaim land at unprecedented speeds.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_noxious_swamp.png",
+      "image": "images/technologies/tech_noxious_swamp.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3257,7 +3257,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_nutrient_replication.png",
+      "image": "images/technologies/tech_nutrient_replication.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3273,7 +3273,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Idyllic Architecture</b> (tech_paradise_dome)<br/><i>With the latest advances in architecture, landscaping and holographic technology, we shall build the homes of the future.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_paradise_dome.png",
+      "image": "images/technologies/tech_paradise_dome.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3293,7 +3293,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_penal_colonies.png",
+      "image": "images/technologies/tech_penal_colonies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3313,7 +3313,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_pk_godray.png",
+      "image": "images/technologies/tech_pk_godray.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3333,7 +3333,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_planetary_defenses.png",
+      "image": "images/technologies/tech_planetary_defenses.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3351,7 +3351,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_planetary_government.png",
+      "image": "images/technologies/tech_planetary_government.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3365,7 +3365,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Planetary Unification</b> (tech_planetary_unification)<br/><i>Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_planetary_unification.png",
+      "image": "images/technologies/tech_planetary_unification.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3385,7 +3385,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_precognition_interface.png",
+      "image": "images/technologies/tech_precognition_interface.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3405,7 +3405,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_prescient_data_modeling.png",
+      "image": "images/technologies/tech_prescient_data_modeling.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3423,7 +3423,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_psi_jump_drive_1.png",
+      "image": "images/technologies/tech_psi_jump_drive_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3443,7 +3443,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_psionic_barrier.png",
+      "image": "images/technologies/tech_psionic_barrier.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3463,7 +3463,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_psionic_shield.png",
+      "image": "images/technologies/tech_psionic_shield.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3483,7 +3483,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_psionic_theory.png",
+      "image": "images/technologies/tech_psionic_theory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3497,7 +3497,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Soil Remediation</b> (tech_quicksand_basin)<br/><i>The process of soil deposition normally takes millions of years. With advanced fracking, chemical engineering, and hydraulic management technologies even the poorest substrate can be turned into fertile topsoil.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_quicksand_basin.png",
+      "image": "images/technologies/tech_quicksand_basin.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3513,7 +3513,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Refit Standards</b> (tech_refit_standards)<br/><i>Standardizing workflows for upgrading and retrofitting ship components can lead to massive efficiency gains.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_refit_standards.png",
+      "image": "images/technologies/tech_refit_standards.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3533,7 +3533,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_regenerative_hull_tissue.png",
+      "image": "images/technologies/tech_regenerative_hull_tissue.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3551,7 +3551,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_command_limit.png",
+      "image": "images/technologies/tech_repeatable_command_limit.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3571,7 +3571,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_army_damage.png",
+      "image": "images/technologies/tech_repeatable_improved_army_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3591,7 +3591,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_army_health.png",
+      "image": "images/technologies/tech_repeatable_improved_army_health.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3611,7 +3611,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_core_system_cap.png",
+      "image": "images/technologies/tech_repeatable_improved_core_system_cap.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3631,7 +3631,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_edict_length.png",
+      "image": "images/technologies/tech_repeatable_improved_edict_length.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3651,7 +3651,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_leader_life_span.png",
+      "image": "images/technologies/tech_repeatable_improved_leader_life_span.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3671,7 +3671,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_starbase_capacity.png",
+      "image": "images/technologies/tech_repeatable_improved_starbase_capacity.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3691,7 +3691,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_tile_food_output.png",
+      "image": "images/technologies/tech_repeatable_improved_tile_food_output.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3711,7 +3711,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_naval_cap.png",
+      "image": "images/technologies/tech_repeatable_naval_cap.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3731,7 +3731,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_resort_colonies.png",
+      "image": "images/technologies/tech_resort_colonies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3747,7 +3747,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Resource Processing Algorithms</b> (tech_resource_processing_algorithms)<br/><i>Efficiency in all things.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_resource_processing_algorithms.png",
+      "image": "images/technologies/tech_resource_processing_algorithms.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3767,7 +3767,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_scourge_missile_1.png",
+      "image": "images/technologies/tech_scourge_missile_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3785,7 +3785,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_selected_lineages.png",
+      "image": "images/technologies/tech_selected_lineages.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3801,7 +3801,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Thrall-Worlds</b> (tech_slave_colonies)<br/><i>Through the creation of special slave-breeding worlds, we can ensure that we will always have a steady supply of disposable laborers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_slave_colonies.png",
+      "image": "images/technologies/tech_slave_colonies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3817,7 +3817,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Biodiversity Studies</b> (tech_society_1)<br/><i>Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_society_1.png",
+      "image": "images/technologies/tech_society_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3831,7 +3831,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Xenobiology</b> (tech_society_2)<br/><i>Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_society_2.png",
+      "image": "images/technologies/tech_society_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3847,7 +3847,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Secrets of Life</b> (tech_society_3)<br/><i>Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_society_3.png",
+      "image": "images/technologies/tech_society_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3863,7 +3863,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Offworld Trade Companies</b> (tech_space_trading)<br/><i>Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_space_trading.png",
+      "image": "images/technologies/tech_space_trading.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3883,7 +3883,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 7,
-      "image": "\\images\\technologies/tech_space_whale_weapon_1.png",
+      "image": "images/technologies/tech_space_whale_weapon_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3901,7 +3901,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_subdermal_stimulation.png",
+      "image": "images/technologies/tech_subdermal_stimulation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3921,7 +3921,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_swarm_strike_craft_1.png",
+      "image": "images/technologies/tech_swarm_strike_craft_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3935,7 +3935,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Synthetic Thought Patterns</b> (tech_synthetic_thought_patterns)<br/><i>Thinking outside the box merely places you in another, somewhat larger box.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_synthetic_thought_patterns.png",
+      "image": "images/technologies/tech_synthetic_thought_patterns.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3955,7 +3955,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_telepathy.png",
+      "image": "images/technologies/tech_telepathy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3971,7 +3971,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Terrestrial Sculpting</b> (tech_terrestrial_sculpting)<br/><i>There is no simple solution to the problem of macro-scale reshaping of planetary crusts - only bigger trowels and orbitally-deployed drills.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_terrestrial_sculpting.png",
+      "image": "images/technologies/tech_terrestrial_sculpting.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3991,7 +3991,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_tomb_world_adaption.png",
+      "image": "images/technologies/tech_tomb_world_adaption.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4007,7 +4007,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Ocean Ecology Management</b> (tech_toxic_kelp)<br/><i>Given enough processing power, networked sensors and distributed stations, even the ocean currents can be managed to a fine level of control.</i><br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_toxic_kelp.png",
+      "image": "images/technologies/tech_toxic_kelp.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4023,7 +4023,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Metacognitive Faith</b> (tech_transcendent_faith)<br/><i>Leaving our planetary cradle has opened us up to a new understanding of faith, and its place in a wider context.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_transcendent_faith.png",
+      "image": "images/technologies/tech_transcendent_faith.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4040,7 +4040,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Unity of Purpose</b> (tech_unity_of_purpose)<br/><i>The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_unity_of_purpose.png",
+      "image": "images/technologies/tech_unity_of_purpose.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4054,7 +4054,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Vitality Boosters</b> (tech_vitality_boosters)<br/><i>Where the body fails, science intervenes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_vitality_boosters.png",
+      "image": "images/technologies/tech_vitality_boosters.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4070,7 +4070,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Deep Crust Engineering</b> (tech_volcano)<br/><i>Advances in material technology and deep-shaft mining techniques allow geo-engineering at previously unthinkable depths and temperatures. Magma hotspots can now be exploited, suppressed, or even relocated.</i><br/><b>Tier: </b>2<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_volcano.png",
+      "image": "images/technologies/tech_volcano.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4086,7 +4086,7 @@ StellarisGraphDataTech = {
       "group": "Society",
       "title": "<b>Xeno Outreach Agencies</b> (tech_xeno_tourism_agency)<br/><i>This corporate agency promotes a wide variety of interstellar tourist attractions, as well as offering employment packages and signing bonuses to potential emigrants interested in relocating to corporate space.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_xeno_tourism_agency.png",
+      "image": "images/technologies/tech_xeno_tourism_agency.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4100,7 +4100,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Afterburners</b> (tech_afterburners_1)<br/><i>These powerful thrusters provide additional combat speed but consume a great deal of power.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_afterburners_1.png",
+      "image": "images/technologies/tech_afterburners_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4116,7 +4116,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Advanced Afterburners</b> (tech_afterburners_2)<br/><i>This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>10000",
       "level": 16,
-      "image": "\\images\\technologies/tech_afterburners_2.png",
+      "image": "images/technologies/tech_afterburners_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4133,7 +4133,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Holographic Casts</b> (tech_alloys_1)<br/><i>Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_alloys_1.png",
+      "image": "images/technologies/tech_alloys_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4149,7 +4149,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Nano-Separators</b> (tech_alloys_2)<br/><i>Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_alloys_2.png",
+      "image": "images/technologies/tech_alloys_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4170,7 +4170,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_assault_armies.png",
+      "image": "images/technologies/tech_assault_armies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4186,7 +4186,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Assembly Patterns</b> (tech_assembly_pattern)<br/><i>Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_assembly_pattern.png",
+      "image": "images/technologies/tech_assembly_pattern.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4202,7 +4202,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Autocannons</b> (tech_autocannons_1)<br/><i>Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_autocannons_1.png",
+      "image": "images/technologies/tech_autocannons_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4218,7 +4218,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Ripper Cannons</b> (tech_autocannons_2)<br/><i>These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_autocannons_2.png",
+      "image": "images/technologies/tech_autocannons_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4234,7 +4234,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Stormfire Cannons</b> (tech_autocannons_3)<br/><i>Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_autocannons_3.png",
+      "image": "images/technologies/tech_autocannons_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4254,7 +4254,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_basic_industry.png",
+      "image": "images/technologies/tech_basic_industry.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4268,7 +4268,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Standardized Battleship Patterns</b> (tech_battleship_build_speed)<br/><i>Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 20,
-      "image": "\\images\\technologies/tech_battleship_build_speed.png",
+      "image": "images/technologies/tech_battleship_build_speed.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4284,7 +4284,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Improved Battleship Hulls</b> (tech_battleship_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable battleships.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 20,
-      "image": "\\images\\technologies/tech_battleship_hull_1.png",
+      "image": "images/technologies/tech_battleship_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4304,7 +4304,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_battleship_hull_2.png",
+      "image": "images/technologies/tech_battleship_hull_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4320,7 +4320,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Battleships</b> (tech_battleships)<br/><i>The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_battleships.png",
+      "image": "images/technologies/tech_battleships.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4336,7 +4336,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Binary Motivators</b> (tech_binary_motivators)<br/><i>These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_binary_motivators.png",
+      "image": "images/technologies/tech_binary_motivators.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4357,7 +4357,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_colossus.png",
+      "image": "images/technologies/tech_colossus.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4377,7 +4377,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_construction_templates.png",
+      "image": "images/technologies/tech_construction_templates.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4393,7 +4393,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Standardized Corvette Patterns</b> (tech_corvette_build_speed)<br/><i>Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_corvette_build_speed.png",
+      "image": "images/technologies/tech_corvette_build_speed.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4409,7 +4409,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Improved Corvette Hulls</b> (tech_corvette_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable corvettes.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_corvette_hull_1.png",
+      "image": "images/technologies/tech_corvette_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4429,7 +4429,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_corvette_hull_2.png",
+      "image": "images/technologies/tech_corvette_hull_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4449,7 +4449,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 4,
-      "image": "\\images\\technologies/tech_corvettes.png",
+      "image": "images/technologies/tech_corvettes.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4465,7 +4465,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Standardized Cruiser Patterns</b> (tech_cruiser_build_speed)<br/><i>Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 16,
-      "image": "\\images\\technologies/tech_cruiser_build_speed.png",
+      "image": "images/technologies/tech_cruiser_build_speed.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4481,7 +4481,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Improved Cruiser Hulls</b> (tech_cruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable cruisers.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 16,
-      "image": "\\images\\technologies/tech_cruiser_hull_1.png",
+      "image": "images/technologies/tech_cruiser_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4501,7 +4501,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_cruiser_hull_2.png",
+      "image": "images/technologies/tech_cruiser_hull_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4517,7 +4517,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Cruisers</b> (tech_cruisers)<br/><i>Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_cruisers.png",
+      "image": "images/technologies/tech_cruisers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4537,7 +4537,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_crystal_armor_1.png",
+      "image": "images/technologies/tech_crystal_armor_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4555,7 +4555,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_crystal_armor_2.png",
+      "image": "images/technologies/tech_crystal_armor_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4573,7 +4573,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_dark_matter_propulsion.png",
+      "image": "images/technologies/tech_dark_matter_propulsion.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4593,7 +4593,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_defense_platform_hull_1.png",
+      "image": "images/technologies/tech_defense_platform_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4609,7 +4609,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Standardized Destroyer Patterns</b> (tech_destroyer_build_speed)<br/><i>Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
       "level": 12,
-      "image": "\\images\\technologies/tech_destroyer_build_speed.png",
+      "image": "images/technologies/tech_destroyer_build_speed.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4625,7 +4625,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Improved Destroyer Hulls</b> (tech_destroyer_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable destroyers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_destroyer_hull_1.png",
+      "image": "images/technologies/tech_destroyer_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4645,7 +4645,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_destroyer_hull_2.png",
+      "image": "images/technologies/tech_destroyer_hull_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4661,7 +4661,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Destroyers</b> (tech_destroyers)<br/><i>While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_destroyers.png",
+      "image": "images/technologies/tech_destroyers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4681,7 +4681,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_dragon_armor.png",
+      "image": "images/technologies/tech_dragon_armor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4695,7 +4695,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Droids</b> (tech_droid_workers)<br/><i>Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_droid_workers.png",
+      "image": "images/technologies/tech_droid_workers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4712,7 +4712,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Nanomechanics</b> (tech_engineering_1)<br/><i>Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_engineering_1.png",
+      "image": "images/technologies/tech_engineering_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4726,7 +4726,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Supersolid Materials</b> (tech_engineering_2)<br/><i>The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_engineering_2.png",
+      "image": "images/technologies/tech_engineering_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4742,7 +4742,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Superfluid Materials</b> (tech_engineering_3)<br/><i>The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_engineering_3.png",
+      "image": "images/technologies/tech_engineering_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4758,7 +4758,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Exotic Gas Refining</b> (tech_exotic_gases)<br/><i>Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_exotic_gases.png",
+      "image": "images/technologies/tech_exotic_gases.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4778,7 +4778,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_flak_batteries_1.png",
+      "image": "images/technologies/tech_flak_batteries_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4792,7 +4792,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Flak Cannons</b> (tech_flak_batteries_2)<br/><i>Upgraded flak batteries with new, more powerful shrapnel rounds.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>6000",
       "level": 15,
-      "image": "\\images\\technologies/tech_flak_batteries_2.png",
+      "image": "images/technologies/tech_flak_batteries_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4808,7 +4808,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Flak Artillery</b> (tech_flak_batteries_3)<br/><i>Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_flak_batteries_3.png",
+      "image": "images/technologies/tech_flak_batteries_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4824,7 +4824,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Weather Control Systems</b> (tech_housing_1)<br/><i>The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_housing_1.png",
+      "image": "images/technologies/tech_housing_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4838,7 +4838,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Anti-Gravity Engineering</b> (tech_housing_2)<br/><i>With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_housing_2.png",
+      "image": "images/technologies/tech_housing_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4854,7 +4854,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Kinetic Battery</b> (tech_kinetic_artillery_1)<br/><i>Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>12000",
       "level": 16,
-      "image": "\\images\\technologies/tech_kinetic_artillery_1.png",
+      "image": "images/technologies/tech_kinetic_artillery_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4870,7 +4870,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Kinetic Artillery</b> (tech_kinetic_artillery_2)<br/><i>An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
       "level": 20,
-      "image": "\\images\\technologies/tech_kinetic_artillery_2.png",
+      "image": "images/technologies/tech_kinetic_artillery_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4887,7 +4887,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Nano-Circuit Assembly</b> (tech_luxuries_1)<br/><i>With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_luxuries_1.png",
+      "image": "images/technologies/tech_luxuries_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4903,7 +4903,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Replicator Kiosks</b> (tech_luxuries_2)<br/><i>These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_luxuries_2.png",
+      "image": "images/technologies/tech_luxuries_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4920,7 +4920,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Mega Cannon</b> (tech_mass_accelerator_1)<br/><i>An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
       "level": 20,
-      "image": "\\images\\technologies/tech_mass_accelerator_1.png",
+      "image": "images/technologies/tech_mass_accelerator_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4937,7 +4937,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Giga Cannon</b> (tech_mass_accelerator_2)<br/><i>An even more powerful mass accelerator cannon that can rip through even the toughest shields.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>24000",
       "level": 21,
-      "image": "\\images\\technologies/tech_mass_accelerator_2.png",
+      "image": "images/technologies/tech_mass_accelerator_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4958,7 +4958,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_mass_drivers_1.png",
+      "image": "images/technologies/tech_mass_drivers_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4972,7 +4972,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Coilguns</b> (tech_mass_drivers_2)<br/><i>Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_mass_drivers_2.png",
+      "image": "images/technologies/tech_mass_drivers_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4988,7 +4988,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Railguns</b> (tech_mass_drivers_3)<br/><i>The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mass_drivers_3.png",
+      "image": "images/technologies/tech_mass_drivers_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5004,7 +5004,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Advanced Railguns</b> (tech_mass_drivers_4)<br/><i>A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_mass_drivers_4.png",
+      "image": "images/technologies/tech_mass_drivers_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5020,7 +5020,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Gauss Cannons</b> (tech_mass_drivers_5)<br/><i>This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_mass_drivers_5.png",
+      "image": "images/technologies/tech_mass_drivers_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5040,7 +5040,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_mechanized_mining.png",
+      "image": "images/technologies/tech_mechanized_mining.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5058,7 +5058,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_mega_engineering.png",
+      "image": "images/technologies/tech_mega_engineering.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5076,7 +5076,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Micro-Replicators</b> (tech_micro_replicators)<br/><i>Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_micro_replicators.png",
+      "image": "images/technologies/tech_micro_replicators.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5090,7 +5090,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Betharian Refining</b> (tech_mine_betharian)<br/><i>The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>2500",
       "level": 11,
-      "image": "\\images\\technologies/tech_mine_betharian.png",
+      "image": "images/technologies/tech_mine_betharian.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5106,7 +5106,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Exotic Gas Extraction</b> (tech_mine_exotic_gases)<br/><i>Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mine_exotic_gases.png",
+      "image": "images/technologies/tech_mine_exotic_gases.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5126,7 +5126,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_mine_living_metal.png",
+      "image": "images/technologies/tech_mine_living_metal.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5142,7 +5142,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Rare Crystal Mining</b> (tech_mine_rare_crystals)<br/><i>Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mine_rare_crystals.png",
+      "image": "images/technologies/tech_mine_rare_crystals.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5158,7 +5158,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Mineral Purification</b> (tech_mineral_purification_1)<br/><i>Optimal processing of mined materials have allowed us to reach new levels of efficiency.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_mineral_purification_1.png",
+      "image": "images/technologies/tech_mineral_purification_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5174,7 +5174,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Advanced Mineral Purification</b> (tech_mineral_purification_2)<br/><i>Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_mineral_purification_2.png",
+      "image": "images/technologies/tech_mineral_purification_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5191,7 +5191,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Geothermal Fracking</b> (tech_mining_1)<br/><i>New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_mining_1.png",
+      "image": "images/technologies/tech_mining_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5207,7 +5207,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Deep Core Mining</b> (tech_mining_2)<br/><i>These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_mining_2.png",
+      "image": "images/technologies/tech_mining_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5223,7 +5223,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Mineral Isolation</b> (tech_mining_3)<br/><i>Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_mining_3.png",
+      "image": "images/technologies/tech_mining_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5243,7 +5243,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_missiles_1.png",
+      "image": "images/technologies/tech_missiles_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5257,7 +5257,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Fusion Missiles</b> (tech_missiles_2)<br/><i>These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
       "level": 8,
-      "image": "\\images\\technologies/tech_missiles_2.png",
+      "image": "images/technologies/tech_missiles_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5274,7 +5274,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Antimatter Missiles</b> (tech_missiles_3)<br/><i>Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_missiles_3.png",
+      "image": "images/technologies/tech_missiles_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5290,7 +5290,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Quantum Missiles</b> (tech_missiles_4)<br/><i>The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_missiles_4.png",
+      "image": "images/technologies/tech_missiles_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5306,7 +5306,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Marauder Missiles</b> (tech_missiles_5)<br/><i>These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_missiles_5.png",
+      "image": "images/technologies/tech_missiles_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5326,7 +5326,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_modular_engineering.png",
+      "image": "images/technologies/tech_modular_engineering.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5346,7 +5346,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_nanite_assemblers.png",
+      "image": "images/technologies/tech_nanite_assemblers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5367,7 +5367,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_nanite_repair_system.png",
+      "image": "images/technologies/tech_nanite_repair_system.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5385,7 +5385,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_nanite_transmutation.png",
+      "image": "images/technologies/tech_nanite_transmutation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5403,7 +5403,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 7,
-      "image": "\\images\\technologies/tech_orbital_trash_dispersal.png",
+      "image": "images/technologies/tech_orbital_trash_dispersal.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5421,7 +5421,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_pk_cracker.png",
+      "image": "images/technologies/tech_pk_cracker.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5441,7 +5441,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_pk_nanobots.png",
+      "image": "images/technologies/tech_pk_nanobots.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5457,7 +5457,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Powered Exoskeletons</b> (tech_powered_exoskeletons)<br/><i>Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_powered_exoskeletons.png",
+      "image": "images/technologies/tech_powered_exoskeletons.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5473,7 +5473,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Rare Crystal Manufacturing</b> (tech_rare_crystals)<br/><i>The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_rare_crystals.png",
+      "image": "images/technologies/tech_rare_crystals.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5493,7 +5493,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_armor_output.png",
+      "image": "images/technologies/tech_repeatable_improved_armor_output.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5513,7 +5513,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_military_station_damage.png",
+      "image": "images/technologies/tech_repeatable_improved_military_station_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5533,7 +5533,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_military_station_health.png",
+      "image": "images/technologies/tech_repeatable_improved_military_station_health.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5553,7 +5553,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_improved_tile_mineral_output.png",
+      "image": "images/technologies/tech_repeatable_improved_tile_mineral_output.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5573,7 +5573,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_repeatable_lcluster_clue.png",
+      "image": "images/technologies/tech_repeatable_lcluster_clue.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5591,7 +5591,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_reduced_building_time.png",
+      "image": "images/technologies/tech_repeatable_reduced_building_time.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5611,7 +5611,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_explosive_damage.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_explosive_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5631,7 +5631,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_explosive_fire_rate.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_explosive_fire_rate.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5651,7 +5651,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_kinetic_damage.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_kinetic_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5671,7 +5671,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_kinetic_fire_rate.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_kinetic_fire_rate.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5691,7 +5691,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_strike_craft_fire_damage.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_strike_craft_fire_damage.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5711,7 +5711,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_repeatable_weapon_type_strike_craft_fire_rate.png",
+      "image": "images/technologies/tech_repeatable_weapon_type_strike_craft_fire_rate.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5727,7 +5727,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Machine Template System</b> (tech_robomodding)<br/><i>Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 9,
-      "image": "\\images\\technologies/tech_robomodding.png",
+      "image": "images/technologies/tech_robomodding.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5743,7 +5743,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Machine Template System</b> (tech_robomodding_m)<br/><i>Standardization of assembly templates allow for improved specialization of the drone population.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 8,
-      "image": "\\images\\technologies/tech_robomodding_m.png",
+      "image": "images/technologies/tech_robomodding_m.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5759,7 +5759,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Cross-Model Standardization</b> (tech_robomodding_points_1)<br/><i>Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 13,
-      "image": "\\images\\technologies/tech_robomodding_points_1.png",
+      "image": "images/technologies/tech_robomodding_points_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5780,7 +5780,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 21,
-      "image": "\\images\\technologies/tech_robomodding_points_2.png",
+      "image": "images/technologies/tech_robomodding_points_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5797,7 +5797,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Robotic Workers</b> (tech_robotic_workers)<br/><i>These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_robotic_workers.png",
+      "image": "images/technologies/tech_robotic_workers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5813,7 +5813,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Self-Assembling Components</b> (tech_self_assembling_components)<br/><i>Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_self_assembling_components.png",
+      "image": "images/technologies/tech_self_assembling_components.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5833,7 +5833,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_ship_armor_1.png",
+      "image": "images/technologies/tech_ship_armor_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5847,7 +5847,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Ceramo-Metal Materials</b> (tech_ship_armor_2)<br/><i>A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>2500",
       "level": 7,
-      "image": "\\images\\technologies/tech_ship_armor_2.png",
+      "image": "images/technologies/tech_ship_armor_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5863,7 +5863,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Plasteel Materials</b> (tech_ship_armor_3)<br/><i>Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_ship_armor_3.png",
+      "image": "images/technologies/tech_ship_armor_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5879,7 +5879,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Durasteel Materials</b> (tech_ship_armor_4)<br/><i>This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_ship_armor_4.png",
+      "image": "images/technologies/tech_ship_armor_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5895,7 +5895,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Neutronium Materials</b> (tech_ship_armor_5)<br/><i>This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_ship_armor_5.png",
+      "image": "images/technologies/tech_ship_armor_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5915,7 +5915,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 4,
-      "image": "\\images\\technologies/tech_solar_panel_network.png",
+      "image": "images/technologies/tech_solar_panel_network.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5935,7 +5935,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_space_construction.png",
+      "image": "images/technologies/tech_space_construction.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -5953,7 +5953,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 3,
-      "image": "\\images\\technologies/tech_space_defense_station_1.png",
+      "image": "images/technologies/tech_space_defense_station_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5973,7 +5973,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_space_defense_station_improvement.png",
+      "image": "images/technologies/tech_space_defense_station_improvement.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -5994,7 +5994,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_space_exploration.png",
+      "image": "images/technologies/tech_space_exploration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6010,7 +6010,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Zero-G Refineries</b> (tech_space_mining_1)<br/><i>The addition of internal refineries on mining stations will substantially increase mineral production.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 7,
-      "image": "\\images\\technologies/tech_space_mining_1.png",
+      "image": "images/technologies/tech_space_mining_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6026,7 +6026,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Long-Range Mineral Scanners</b> (tech_space_mining_2)<br/><i>Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 8,
-      "image": "\\images\\technologies/tech_space_mining_2.png",
+      "image": "images/technologies/tech_space_mining_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6042,7 +6042,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Mineral Cutting Beams</b> (tech_space_mining_3)<br/><i>These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_space_mining_3.png",
+      "image": "images/technologies/tech_space_mining_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6058,7 +6058,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Autonomous Mining Drones</b> (tech_space_mining_4)<br/><i>Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 12,
-      "image": "\\images\\technologies/tech_space_mining_4.png",
+      "image": "images/technologies/tech_space_mining_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6074,7 +6074,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Nanite Mineral Probes</b> (tech_space_mining_5)<br/><i>These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_space_mining_5.png",
+      "image": "images/technologies/tech_space_mining_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6094,7 +6094,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 2,
-      "image": "\\images\\technologies/tech_starbase_1.png",
+      "image": "images/technologies/tech_starbase_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6114,7 +6114,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 3,
-      "image": "\\images\\technologies/tech_starbase_2.png",
+      "image": "images/technologies/tech_starbase_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6130,7 +6130,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Starhold</b> (tech_starbase_3)<br/><i>As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_starbase_3.png",
+      "image": "images/technologies/tech_starbase_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6146,7 +6146,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Star Fortress</b> (tech_starbase_4)<br/><i>These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_starbase_4.png",
+      "image": "images/technologies/tech_starbase_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6162,7 +6162,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Citadel</b> (tech_starbase_5)<br/><i>Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_starbase_5.png",
+      "image": "images/technologies/tech_starbase_5.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6178,7 +6178,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Carrier Operations</b> (tech_strike_craft_1)<br/><i>These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3000",
       "level": 7,
-      "image": "\\images\\technologies/tech_strike_craft_1.png",
+      "image": "images/technologies/tech_strike_craft_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6194,7 +6194,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Improved Strike Craft</b> (tech_strike_craft_2)<br/><i>The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
       "level": 11,
-      "image": "\\images\\technologies/tech_strike_craft_2.png",
+      "image": "images/technologies/tech_strike_craft_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6210,7 +6210,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Advanced Strike Craft</b> (tech_strike_craft_3)<br/><i>A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 15,
-      "image": "\\images\\technologies/tech_strike_craft_3.png",
+      "image": "images/technologies/tech_strike_craft_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6226,7 +6226,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Swarmer Missiles</b> (tech_swarmer_missiles_1)<br/><i>These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_swarmer_missiles_1.png",
+      "image": "images/technologies/tech_swarmer_missiles_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6242,7 +6242,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Whirlwind Missiles</b> (tech_swarmer_missiles_2)<br/><i>New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_swarmer_missiles_2.png",
+      "image": "images/technologies/tech_swarmer_missiles_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6258,7 +6258,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Synthetic Personality Matrix</b> (tech_synthetic_leaders)<br/><i>Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>24000",
       "level": 21,
-      "image": "\\images\\technologies/tech_synthetic_leaders.png",
+      "image": "images/technologies/tech_synthetic_leaders.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6278,7 +6278,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_synthetic_workers.png",
+      "image": "images/technologies/tech_synthetic_workers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6300,7 +6300,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 1,
-      "image": "\\images\\technologies/tech_thrusters_1.png",
+      "image": "images/technologies/tech_thrusters_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -6314,7 +6314,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Ion Thrusters</b> (tech_thrusters_2)<br/><i>These electric thrusters use beams of ions to generate thrust without the need for propellant.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
       "level": 11,
-      "image": "\\images\\technologies/tech_thrusters_2.png",
+      "image": "images/technologies/tech_thrusters_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6330,7 +6330,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Plasma Thrusters</b> (tech_thrusters_3)<br/><i>An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
       "level": 15,
-      "image": "\\images\\technologies/tech_thrusters_3.png",
+      "image": "images/technologies/tech_thrusters_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6346,7 +6346,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Impulse Thrusters</b> (tech_thrusters_4)<br/><i>These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 19,
-      "image": "\\images\\technologies/tech_thrusters_4.png",
+      "image": "images/technologies/tech_thrusters_4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6366,7 +6366,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_titan_hull_1.png",
+      "image": "images/technologies/tech_titan_hull_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6386,7 +6386,7 @@ StellarisGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_titan_hull_2.png",
+      "image": "images/technologies/tech_titan_hull_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6402,7 +6402,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Titans</b> (tech_titans)<br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 24,
-      "image": "\\images\\technologies/tech_titans.png",
+      "image": "images/technologies/tech_titans.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6418,7 +6418,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Space Torpedoes</b> (tech_torpedoes_1)<br/><i>These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>5000",
       "level": 11,
-      "image": "\\images\\technologies/tech_torpedoes_1.png",
+      "image": "images/technologies/tech_torpedoes_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6434,7 +6434,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Armored Torpedoes</b> (tech_torpedoes_2)<br/><i>Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>10000",
       "level": 15,
-      "image": "\\images\\technologies/tech_torpedoes_2.png",
+      "image": "images/technologies/tech_torpedoes_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6450,7 +6450,7 @@ StellarisGraphDataTech = {
       "group": "Engineering",
       "title": "<b>Devastator Torpedoes</b> (tech_torpedoes_3)<br/><i>Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>20000",
       "level": 19,
-      "image": "\\images\\technologies/tech_torpedoes_3.png",
+      "image": "images/technologies/tech_torpedoes_3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -6462,6 +6462,933 @@ StellarisGraphDataTech = {
     }
   ],
   "edges": [
+    {
+      "from": "tech_thrusters_4",
+      "to": "tech_dark_matter_propulsion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_dark_matter_power_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_5",
+      "to": "tech_dark_matter_deflector",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_self_assembling_components",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_combat_algorithms",
+      "to": "tech_biomechanics",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_bureaucracy",
+      "to": "tech_adaptive_combat_algorithms",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_binary_motivators",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_nanite_assemblers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_binary_motivators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding_m",
+      "to": "tech_binary_motivators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding_points_1",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_synthetic_workers",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_robomodding",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robomodding_m",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_ftl_inhibitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_jump_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gateway_activation",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_3",
+      "to": "tech_gateway_activation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_wormhole_stabilization",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_hyper_drive_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_hyper_drive_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_hyper_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_hub_1",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_hub_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_power_plant_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_2",
+      "to": "tech_power_plant_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_plant_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_3",
+      "to": "tech_sensors_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_2",
+      "to": "tech_sensors_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_planetary_shield_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shield_rechargers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_shields_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shields_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_2",
+      "to": "tech_shields_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_1",
+      "to": "tech_shields_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_shields_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_2",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_1",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_reactor_boosters_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_zero_point_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cold_fusion_power",
+      "to": "tech_antimatter_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_cold_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_synchronized_defences",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_auxiliary_fire_control",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_autonomous",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_combat_computers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_positronic_implants",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_sapient_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_self_aware_logic",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cryostasis_1",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_1",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_administrative_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_2",
+      "to": "tech_physics_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_physics_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_4",
+      "to": "tech_space_science_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_3",
+      "to": "tech_space_science_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_2",
+      "to": "tech_space_science_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_1",
+      "to": "tech_space_science_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_space_science_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_basic_science_lab_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_2",
+      "to": "tech_torpedoes_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_1",
+      "to": "tech_torpedoes_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_torpedoes_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_swarmer_missiles_1",
+      "to": "tech_swarmer_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_swarmer_missiles_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_4",
+      "to": "tech_missiles_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_missiles_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_missiles_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_2",
+      "to": "tech_flak_batteries_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_1",
+      "to": "tech_flak_batteries_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_2",
+      "to": "tech_autocannons_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_1",
+      "to": "tech_autocannons_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_autocannons_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_accelerator_1",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_kinetic_artillery_1",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_kinetic_artillery_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_drivers_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_mass_drivers_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_mass_drivers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_1",
+      "to": "tech_mass_drivers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
     {
       "from": "tech_colossus",
       "to": "tech_pk_nanobots",
@@ -6517,8 +7444,44 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_sensors_2",
-      "to": "tech_experimental_subspace_navigation",
+      "from": "tech_physics_2",
+      "to": "tech_repeatable_reduced_building_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_2",
+      "to": "tech_repeatable_weapon_type_energy_fire_rate",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_4",
+      "to": "tech_repeatable_weapon_type_energy_damage",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_repeatable_improved_shield_output",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_repeatable_improved_tile_energy_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7327,260 +8290,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_torpedoes_2",
-      "to": "tech_torpedoes_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedoes_1",
-      "to": "tech_torpedoes_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_torpedoes_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_swarmer_missiles_1",
-      "to": "tech_swarmer_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_swarmer_missiles_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_4",
-      "to": "tech_missiles_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_3",
-      "to": "tech_missiles_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_missiles_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_2",
-      "to": "tech_flak_batteries_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_1",
-      "to": "tech_flak_batteries_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_2",
-      "to": "tech_autocannons_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_1",
-      "to": "tech_autocannons_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_autocannons_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_accelerator_1",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_kinetic_artillery_1",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_kinetic_artillery_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_drivers_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_3",
-      "to": "tech_mass_drivers_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_mass_drivers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_1",
-      "to": "tech_mass_drivers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_thrusters_4",
-      "to": "tech_dark_matter_propulsion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_dark_matter_power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_5",
-      "to": "tech_dark_matter_deflector",
+      "from": "tech_sensors_2",
+      "to": "tech_experimental_subspace_navigation",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7599,600 +8310,6 @@ StellarisGraphDataTech = {
     {
       "from": "tech_akx_worm_2",
       "to": "tech_akx_worm_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_ftl_inhibitor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_jump_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gateway_activation",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_3",
-      "to": "tech_gateway_activation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_wormhole_stabilization",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_hyper_drive_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_hyper_drive_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_hyper_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_hub_1",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_hub_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_power_plant_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_2",
-      "to": "tech_power_plant_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_plant_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_3",
-      "to": "tech_sensors_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_2",
-      "to": "tech_sensors_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_planetary_shield_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shield_rechargers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_shields_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shields_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_2",
-      "to": "tech_shields_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_1",
-      "to": "tech_shields_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_shields_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_2",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_1",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_reactor_boosters_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_zero_point_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cold_fusion_power",
-      "to": "tech_antimatter_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_cold_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_synchronized_defences",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_auxiliary_fire_control",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_autonomous",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sapient_ai",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_combat_computers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_positronic_implants",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_sapient_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_self_aware_logic",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cryostasis_1",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_1",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_administrative_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_2",
-      "to": "tech_physics_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_physics_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_4",
-      "to": "tech_space_science_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_3",
-      "to": "tech_space_science_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_2",
-      "to": "tech_space_science_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_1",
-      "to": "tech_space_science_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_construction",
-      "to": "tech_space_science_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_basic_science_lab_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_2",
-      "to": "tech_repeatable_reduced_building_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_2",
-      "to": "tech_repeatable_weapon_type_energy_fire_rate",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_4",
-      "to": "tech_repeatable_weapon_type_energy_damage",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_repeatable_improved_shield_output",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_repeatable_improved_tile_energy_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9307,87 +9424,6 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_repeatable_improved_starbase_capacity",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_5",
-      "to": "tech_repeatable_command_limit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_4",
-      "to": "tech_repeatable_naval_cap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_vitality_boosters",
-      "to": "tech_repeatable_improved_leader_life_span",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_health",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_damage",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_repeatable_improved_edict_length",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_bureaucracy",
-      "to": "tech_repeatable_improved_core_system_cap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gene_crops",
-      "to": "tech_repeatable_improved_tile_food_output",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
       "from": "tech_sensors_4",
       "to": "tech_mine_dark_matter",
       "arrows": "to",
@@ -9487,8 +9523,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_micro_replicators",
-      "to": "tech_self_assembling_components",
+      "from": "tech_galactic_ambitions",
+      "to": "tech_repeatable_improved_starbase_capacity",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9496,8 +9532,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_adaptive_combat_algorithms",
-      "to": "tech_biomechanics",
+      "from": "tech_doctrine_fleet_size_5",
+      "to": "tech_repeatable_command_limit",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9505,8 +9541,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_colonial_bureaucracy",
-      "to": "tech_adaptive_combat_algorithms",
+      "from": "tech_doctrine_navy_size_4",
+      "to": "tech_repeatable_naval_cap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9514,8 +9550,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_binary_motivators",
-      "to": "tech_nanite_assemblers",
+      "from": "tech_vitality_boosters",
+      "to": "tech_repeatable_improved_leader_life_span",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9523,8 +9559,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_administration",
-      "to": "tech_nanite_assemblers",
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_health",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9532,8 +9568,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_colonial_centralization",
-      "to": "tech_binary_motivators",
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_damage",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9541,8 +9577,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_robomodding_m",
-      "to": "tech_binary_motivators",
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_repeatable_improved_edict_length",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9550,8 +9586,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_robomodding_points_1",
-      "to": "tech_robomodding_points_2",
+      "from": "tech_galactic_bureaucracy",
+      "to": "tech_repeatable_improved_core_system_cap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9559,44 +9595,8 @@ StellarisGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_synthetic_workers",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robomodding",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_droid_workers",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_robomodding",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_powered_exoskeletons",
-      "to": "tech_robomodding_m",
+      "from": "tech_gene_crops",
+      "to": "tech_repeatable_improved_tile_food_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9605,23 +9605,7 @@ StellarisGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_nanite_repair_system",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_neuroregeneration",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_repeatable_lcluster_clue",
+      "to": "tech_micro_replicators",
       "color": {
         "opacity": 0.0
       },
@@ -9629,7 +9613,95 @@ StellarisGraphDataTech = {
     },
     {
       "from": "Physics-root",
-      "to": "tech_lgate_activation",
+      "to": "tech_bio_reactor",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_power_plant_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_sensors_2",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_fission_power",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_automated_exploration",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_physics_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_archeology_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_curator_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_basic_science_lab_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_missiles_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_flak_batteries_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_mass_drivers_1",
       "color": {
         "opacity": 0.0
       },
@@ -9637,7 +9709,31 @@ StellarisGraphDataTech = {
     },
     {
       "from": "Society-root",
-      "to": "tech_gargantuan_evolution",
+      "to": "tech_space_whale_weapon_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_scourge_missile_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_swarm_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_amoeba_strike_craft_1",
       "color": {
         "opacity": 0.0
       },
@@ -9717,7 +9813,15 @@ StellarisGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_missiles_1",
+      "to": "tech_nanite_repair_system",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_neuroregeneration",
       "color": {
         "opacity": 0.0
       },
@@ -9725,15 +9829,23 @@ StellarisGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_flak_batteries_1",
+      "to": "tech_repeatable_lcluster_clue",
       "color": {
         "opacity": 0.0
       },
       "dashes": false
     },
     {
-      "from": "Engineering-root",
-      "to": "tech_mass_drivers_1",
+      "from": "Physics-root",
+      "to": "tech_lgate_activation",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_gargantuan_evolution",
       "color": {
         "opacity": 0.0
       },
@@ -9750,126 +9862,6 @@ StellarisGraphDataTech = {
     {
       "from": "Physics-root",
       "to": "tech_akx_worm_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_decoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_encoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_dragon_armor",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_executive_retreat",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_xeno_tourism_agency",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_orbital_trash_dispersal",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_bio_reactor",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_power_plant_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_sensors_2",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_fission_power",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_automated_exploration",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_physics_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_archeology_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_curator_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_basic_science_lab_1",
       "color": {
         "opacity": 0.0
       },
@@ -9918,6 +9910,54 @@ StellarisGraphDataTech = {
     {
       "from": "Physics-root",
       "to": "tech_lasers_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_executive_retreat",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_xeno_tourism_agency",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_orbital_trash_dispersal",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_decoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_encoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_dragon_armor",
       "color": {
         "opacity": 0.0
       },
@@ -10116,48 +10156,8 @@ StellarisGraphDataTech = {
       "dashes": false
     },
     {
-      "from": "Society-root",
-      "to": "tech_space_whale_weapon_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_scourge_missile_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_swarm_strike_craft_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_amoeba_strike_craft_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
       "from": "Engineering-root",
       "to": "tech_nanite_transmutation",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_micro_replicators",
       "color": {
         "opacity": 0.0
       },

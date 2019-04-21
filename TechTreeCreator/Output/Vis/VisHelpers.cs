@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output.Vis {
@@ -29,6 +32,16 @@ namespace TechTreeCreator.Output.Vis {
             
 
             return result;
+        }
+
+        public static void SetLevel(VisNode node, Entity entity, IDictionary<string, VisNode> prereqTechNodeLookup) {
+            // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
+            var highestLevelOfPrerequisiteTechs = entity.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
+            if (!highestLevelOfPrerequisiteTechs.HasValue) {
+                throw new Exception(entity.Name + " Had no prerequiste levels: " + entity.FilePath);
+            }
+
+            node.level = highestLevelOfPrerequisiteTechs + 1;
         }
 
         public static string CreateRelativePath(string fullPath, string relativeTo) {

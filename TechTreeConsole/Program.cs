@@ -68,7 +68,7 @@ namespace TechTreeConsole {
                 techTreeCreatorManager.Mods = modList;
                 techTreeCreatorManager.ForceModOverwriting = false;
                 
-                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents});
+                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents, ParseTarget.Decisions});
                 
 //
 //                foreach (var (modGoup, visData) in techsData) {
@@ -81,6 +81,7 @@ namespace TechTreeConsole {
             }
             catch (Exception e) {
                 Log.Logger.Fatal(e, "Fatal Error");
+                Environment.Exit(1);
             }
             finally{Log.CloseAndFlush();}
         }

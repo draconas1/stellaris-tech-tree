@@ -17,6 +17,13 @@ namespace TechTreeCreator.GraphCreation {
         }
 
         protected override void SetVariables(Decision result, CWNode node) {
+            node.ActOnNodes("effect", cWNode => {
+                var tooltip = cWNode.GetKeyValue("custom_tooltip");
+                if (tooltip != null) {
+                    result.CustomTooltip = tooltip;
+                }
+            });
+            
             node.ActOnNodes("resources", cwNode => {
                 cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => result.Cost[value.Key] = value.Value.ToDouble()));
             });
