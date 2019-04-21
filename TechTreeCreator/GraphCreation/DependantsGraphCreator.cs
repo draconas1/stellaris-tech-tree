@@ -45,9 +45,12 @@ namespace TechTreeCreator.GraphCreation
                     case ParseTarget.ShipComponents: {
                         var creator = new ShipComponentGraphCreator(localisationApiHelper, cwParserHelper);
                         result.ShipComponents = ProcessDependant(creator, target);
-                        
-                        
-                        
+                        break;
+                    }
+
+                    case ParseTarget.Decisions: {
+                        var creator = new DecisionGraphCreator(localisationApiHelper, cwParserHelper);
+                        result.Decisions = ProcessDependant(creator, target);
                         break;
                     }
                     

@@ -5,7 +5,8 @@ namespace TechTreeCreator {
     public enum ParseTarget {
         Technologies,
         Buildings,
-        ShipComponents
+        ShipComponents,
+        Decisions
     }
 
 
@@ -20,6 +21,7 @@ namespace TechTreeCreator {
                 case ParseTarget.Technologies: return "technologies";
                 case ParseTarget.Buildings: return "buildings";
                 case ParseTarget.ShipComponents: return "ship_parts";
+                case ParseTarget.Decisions: return "decisions";
             }
 
             return null;

@@ -84,6 +84,13 @@ namespace TechTreeCreator.DTO {
         }
     }
 
+    public class Decision : Entity {
+        public IDictionary<string, double> Cost { get; }
+        public Decision(string id) : base(id) {
+            Cost = new Dictionary<string, double>();
+        }
+    }
+
     public abstract class Entity {
         public string Id { get; protected set; }
         public string Name { get; set; }
@@ -155,12 +162,21 @@ namespace TechTreeCreator.DTO {
     public class ObjectsDependantOnTechs {
         private ModEntityData<Building> buildings;
         private ModEntityData<ShipComponent> shipComponents;
+        private ModEntityData<Decision> decisions;
         private ISet<string> modGroups = new HashSet<string>();
 
         public ModEntityData<Building> Buildings {
             get => buildings;
             set {
                 buildings = value; 
+                modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
+            }
+        }
+        
+        public ModEntityData<Decision> Decisions {
+            get => decisions;
+            set {
+                decisions = value; 
                 modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
             }
         }
