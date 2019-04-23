@@ -97,6 +97,9 @@ namespace TechTreeCreator.DTO {
         public string Id { get; protected set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        
+        public String ExtraName { get; set; }
+        public String ExtraDesc { get; set; }
 
         private string icon;
 
@@ -201,13 +204,21 @@ namespace TechTreeCreator.DTO {
         private Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>> MergeComponents(IDictionary<string, ShipComponent> shipComponents, ISet<Link> links) {
             Dictionary<string, ShipComponentSet> result = new Dictionary<string, ShipComponentSet>();
             Dictionary<string, ShipComponentSet> nodeIdToComponentIdLookup = new Dictionary<string, ShipComponentSet>();
+            var nonMergedComponents = new HashSet<string>() {"ftl_components", "sensor_components"};
+
             foreach (var shipComponent in shipComponents.Values) {
                 var componentId = shipComponent.ComponentSet ?? shipComponent.Id;
+                // do not merge certain utilities
+                if (nonMergedComponents.Contains(componentId)) {
+                    componentId = shipComponent.Id;
+                }
+                
                 ShipComponentSet shipComponentSet = result.ComputeIfAbsent(componentId, id => new ShipComponentSet(id, shipComponent));
                 shipComponentSet.ShipComponents.Add(shipComponent);
                 nodeIdToComponentIdLookup[shipComponent.Id] = shipComponentSet;
             }
 
+            // combat comptuers handled separately
             if (result.TryGetValue("combat_computers", out var combatComputers)) {
                 foreach (var computersShipComponent in combatComputers.ShipComponents) {
                     int lastUnderscoreIndex = computersShipComponent.Id.LastIndexOf("_", StringComparison.Ordinal);
@@ -217,6 +228,38 @@ namespace TechTreeCreator.DTO {
                     shipComponentSet.ShipComponents.Add(computersShipComponent);
                     nodeIdToComponentIdLookup[computersShipComponent.Id] = shipComponentSet;
                 }
+
+                result.Remove("combat_computers");
+            }
+            
+            // reactors handled separately
+            if (result.TryGetValue("power_core", out var powerCores)) {
+                foreach (var powerCoresShipComponent in powerCores.ShipComponents) {
+                    int firstUnderScoreIndex = powerCoresShipComponent.Id.IndexOf("_", StringComparison.Ordinal);
+                    var computerLevel = powerCoresShipComponent.Id.Substring(firstUnderScoreIndex);
+                    if (powerCoresShipComponent.Id.StartsWith("ION_CANNON")) {
+                        int firstUnderScoreIndex2 = computerLevel.IndexOf("_", 1, StringComparison.Ordinal);
+                        computerLevel = computerLevel.Substring(firstUnderScoreIndex2);
+                    }
+                    string key = powerCores.Id + computerLevel;
+                    ShipComponentSet shipComponentSet = result.ComputeIfAbsent(key, id => new ShipComponentSet(id, powerCoresShipComponent));
+                    shipComponentSet.ShipComponents.Add(powerCoresShipComponent);
+                    nodeIdToComponentIdLookup[powerCoresShipComponent.Id] = shipComponentSet;
+                }
+                result.Remove("power_core");
+            }
+            
+            // thrusters handled separately
+            if (result.TryGetValue("thruster_components", out var thrusters)) {
+                foreach (var computersShipComponent in thrusters.ShipComponents) {
+                    int lastUnderscoreIndex = computersShipComponent.Id.LastIndexOf("_", StringComparison.Ordinal);
+                    var computerLevel = computersShipComponent.Id.Substring(lastUnderscoreIndex);
+                    string key = thrusters.Id + computerLevel;
+                    ShipComponentSet shipComponentSet = result.ComputeIfAbsent(key, id => new ShipComponentSet(id, computersShipComponent));
+                    shipComponentSet.ShipComponents.Add(computersShipComponent);
+                    nodeIdToComponentIdLookup[computersShipComponent.Id] = shipComponentSet;
+                }
+                result.Remove("thruster_components");
             }
 
             //now need to remake links
@@ -230,9 +273,9 @@ namespace TechTreeCreator.DTO {
 
         public ObjectsDependantOnTechs CopyOnlyCore() {
             return new ObjectsDependantOnTechs() {
-                Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>(),
-                ShipComponents = this.ShipComponents.FindCoreGameData() ?? new ModEntityData<ShipComponent>(),
-                Decisions = this.Decisions.FindCoreGameData() ?? new ModEntityData<Decision>(),
+                Buildings = this.Buildings?.FindCoreGameData() ?? new ModEntityData<Building>(),
+                ShipComponents = this.ShipComponents?.FindCoreGameData() ?? new ModEntityData<ShipComponent>(),
+                Decisions = this.Decisions?.FindCoreGameData() ?? new ModEntityData<Decision>(),
                                  
             };
             

@@ -78,7 +78,15 @@ namespace TechTreeCreator.GraphCreation
             });
             
             if (entities != null) {
-                Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", entities.EntityCount, parseTarget, entities.LinkCount);                            
+                foreach (var entity in entities.AllEntities) {
+                    foreach (var prerequisite in entity.Prerequisites) {
+                        if (prerequisite.ExtraDesc != null) {
+                            entity.ExtraDesc = prerequisite.ExtraDesc;
+                        }
+                    }
+                }
+
+                Log.Logger.Debug("Processed {entityCount} {parseTarget} with {linkCount} links", entities.EntityCount, parseTarget, entities.LinkCount);
             }
             else {
                 Log.Logger.Warning("{parseTarget} had no items in any of the sources");     

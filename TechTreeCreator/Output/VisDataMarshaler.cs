@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
@@ -133,8 +134,30 @@ namespace TechTreeCreator.Output {
                 ? shipComponentSet.PrerequisiteIds.ToArray()
                 : new string[] { };
 
+            // so for utility slot components, the component description is the generic description of the slot
+            // the description of the tech level component item is held by the tech in the unlock_desc field.
+            // the description also begins with squggle formatted name which we try to format out
+            foreach (var prerequisite in shipComponentSet.Prerequisites) {
+                if (prerequisite.ExtraDesc != null) {
+                    var parts = prerequisite.ExtraDesc.Split(@"\n");
+                    if (parts.Length == 1) {
+                        result.title = result.title + $"<br/><i>{prerequisite.ExtraDesc}</i>";
+                    }
+                    else {
+                        result.title = result.title + $"<br/><i>{parts[1]}</i>";
+                        // removes most of the squiggle formatting
+                        Regex rgx = new Regex("[^a-zA-Z0-9 ]");
+                        result.label = rgx.Replace(parts[0], "");
+                        // squggleH is a common format, so remove a starting H
+                        if (result.label.StartsWith("H")) {
+                            result.label = result.label.Substring(1);
+                        }
+                    }
+                }
+            }
+
             foreach (var shipComponent in shipComponentSet.ShipComponents) {
-                result.title = result.title + "<br/><br/><b>" + shipComponent.Name + "</b>";
+                result.title = result.title + $"<br/><br/><b>{shipComponent.Name}</b>";
                 result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
                 result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
             }
