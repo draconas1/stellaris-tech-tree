@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -29,9 +30,33 @@ namespace TechTreeCreator.GraphCreation {
             return new ShipComponent(key);
         }
 
+        private void ModifierNode(ShipComponent result, CWNode node) {
+            foreach (var modifierNodeKeyValue in node.KeyValues) {
+                var key = LocalisationApiHelper.GetName("MOD_" + modifierNodeKeyValue.Key.ToUpperInvariant());
+                string prefix = "";
+                string suffix = "";
+                string value = modifierNodeKeyValue.Value;
+                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
+                    prefix = "+";
+                }
+                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
+                    prefix = "+";
+                    suffix = "%";
+                    value = ((int)(value.ToDouble() * 100)).ToString(CultureInfo.InvariantCulture);
+                }
+                    
+                result.Properties[key] = prefix + value + suffix;
+            }
+        }
+        
         protected override void SetVariables(ShipComponent result, CWNode node) {
             result.Size = node.GetKeyValue("size");
-            result.Power = node.GetKeyValueOrDefault("power", "0").ToInt();
+            node.ActOnKeyValues("power", power => result.Properties["Power"] = power);
+            node.ActOnKeyValues("sensor_range", power => result.Properties["Sensor Range"] = power);
+            node.ActOnKeyValues("hyperlane_range", power => result.Properties["Hyperlane Detection Range"] = power);
+            node.ActOnNodes("ship_modifier", modifierNode =>  ModifierNode(result, modifierNode));
+            node.ActOnNodes("modifier", modifierNode => ModifierNode(result, modifierNode));
+            
             result.ComponentSet = node.GetKeyValue("component_set");
 
             if (result.ComponentSet != null) {
@@ -51,6 +76,20 @@ namespace TechTreeCreator.GraphCreation {
             // because computer icons have "_role_" for shits and giggles
             if (result.Icon.Contains("ship_part_computer_")) {
                 result.Icon = "computers/" + (!result.Icon.Contains("ship_part_computer_default") ? result.Icon.Replace("ship_part_computer_", "ship_part_computer_role_") : result.Icon);
+            }
+
+            CWNode classRestriction = node.GetNode("class_restriction");
+            // most power cores restricted by ship class
+            if (classRestriction != null) {
+                var classesThatUsePowerCore = classRestriction.Values.Select(x => LocalisationApiHelper.GetName(x)).StringJoin(" & ");
+                result.Name = classesThatUsePowerCore + " " + result.Name;
+            }
+            else {
+                // ion cannon by size
+                node.ActOnNodes("size_restriction", sizeNode => {
+                    var sizesThatUsePowerCore = sizeNode.Values.Select(x => LocalisationApiHelper.GetName(x)).StringJoin(" & ");
+                    result.Name = sizesThatUsePowerCore + " " + result.Name;
+                });
             }
             
             node.ActOnNodes("resources", cwNode => {

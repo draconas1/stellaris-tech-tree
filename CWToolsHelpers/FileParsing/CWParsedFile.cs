@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using CWToolsHelpers.ScriptedVariables;
+using NetExtensions.Collection;
 
 namespace CWToolsHelpers.FileParsing
 {
@@ -132,6 +133,19 @@ namespace CWToolsHelpers.FileParsing
         public string GetKeyValueOrDefault(string key, object defaultValue) {
             var value = GetRawKeyValue(key);
             return ScriptedVariablesAccessor.GetPotentialValue(value ?? defaultValue.ToString());
+        }
+        
+        /// <summary>
+        /// If there are children key-value with the specified key, performs the specified action on them.  Attempting to convert any variables using <see cref="ScriptedVariablesAccessor"/>
+        /// </summary>
+        /// <remarks>
+        /// Use with caution, will get the first keyvalue if there are multiple with the same key in the same context!
+        /// </remarks>
+        /// <param name="key">The Key of the Keyvalue item within the node</param>
+        /// <param name="perform">The action to perform if the value exists.</param>
+        /// <returns>See above.</returns>
+        public void ActOnKeyValues(string key, Action<string> perform) {
+            KeyValues.Where(x => x.Key == key).Select(x => ScriptedVariablesAccessor.GetPotentialValue(x.Value)).ForEach(perform);
         }
 
 

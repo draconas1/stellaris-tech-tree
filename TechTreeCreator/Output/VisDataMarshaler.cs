@@ -134,10 +134,16 @@ namespace TechTreeCreator.Output {
                 ? shipComponentSet.PrerequisiteIds.ToArray()
                 : new string[] { };
 
+            
             // so for utility slot components, the component description is the generic description of the slot
             // the description of the tech level component item is held by the tech in the unlock_desc field.
             // the description also begins with squggle formatted name which we try to format out
             foreach (var prerequisite in shipComponentSet.Prerequisites) {
+                // Titan cannon unlocks with titan so gets titan tech description
+                if (shipComponentSet.Id == "PERDITION_BEAM") {
+                    continue;
+                }
+                
                 if (prerequisite.ExtraDesc != null) {
                     var parts = prerequisite.ExtraDesc.Split(@"\n");
                     if (parts.Length == 1) {
@@ -160,6 +166,9 @@ namespace TechTreeCreator.Output {
                 result.title = result.title + $"<br/><br/><b>{shipComponent.Name}</b>";
                 result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
                 result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
+                foreach (var (key, value) in shipComponent.Properties) {
+                    result.title = result.title + $"<br/><b>{key}:</b> {value}";
+                }
             }
 
             result.group = "Dependant";
@@ -201,9 +210,9 @@ namespace TechTreeCreator.Output {
 
         private string AddBuildingResources<T>(string resourceType, IDictionary<string, T> costs) {
             if (costs.Any()) {
-                string costString = "<br/><b>" + resourceType + ":</b>";
+                string costString = $"<br/><b>{resourceType}:</b>";
                 foreach (var (key, value) in costs) {
-                    costString = costString + " " + value + " " + localisationApi.GetName(key) + ",";
+                    costString = $"{costString} {value} {localisationApi.GetName(key)},";
                 }
 
                 return costString.Remove(costString.Length - 1);

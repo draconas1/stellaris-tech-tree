@@ -25,6 +25,17 @@ namespace NetExtensions.Collection {
         public static IEnumerable<T> NullToEmpty<T>(this IEnumerable<T> enumerable) {
             return enumerable ?? new T[]{};
         }
+        
+        /// <summary>
+        /// Apply String join to a stream.  Odd name to avoid conflict with regular Join.
+        /// </summary>
+        /// <param name="enumerable">The enumerable</param>
+        /// <param name="separator">The separator, defaults to ", "</param>
+        /// <returns>A string</returns>
+        public static string StringJoin(this IEnumerable<object> enumerable, string separator = ", ")
+        {
+            return string.Join(separator, enumerable);
+        }
 
     }
 }

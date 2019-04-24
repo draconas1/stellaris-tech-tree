@@ -58,7 +58,8 @@ namespace TechTreeCreator.DTO {
         
         public string ComponentSetName { get; set; }
         public string ComponentSetDescription { get; set; }
-        public int Power { get; set; }
+        
+        public Dictionary<string, string> Properties { get; }
         
         public IDictionary<string, double> Cost { get; }
         public IDictionary<string, double> Upkeep { get; }
@@ -66,6 +67,7 @@ namespace TechTreeCreator.DTO {
         public ShipComponent(string id) : base(id) {
             Cost = new Dictionary<string, double>();
             Upkeep = new Dictionary<string, double>();
+            Properties = new Dictionary<string, string>();
         }
     }
     
