@@ -41,8 +41,11 @@ namespace TechTreeCreator.GraphCreation
                     }
                     
                     case ParseTarget.ShipComponents: {
-                        var creator = new ShipComponentGraphCreator(localisationApiHelper, cwParserHelper);
-                        result.ShipComponents = ProcessDependant(creator, target);
+                        var shipComponentSetGraphCreator = new ShipComponentSetGraphCreator(localisationApiHelper, cwParserHelper);
+                        var shipComponentGraphCreator = new ShipComponentGraphCreator(localisationApiHelper, cwParserHelper);
+                        var shipComponentSets = CreateDependant(shipComponentSetGraphCreator, target);
+                        var shipComponents = ProcessDependant(shipComponentGraphCreator, target);
+                        result.SetShipComponents(shipComponents, shipComponentSets);
                         break;
                     }
 
@@ -60,11 +63,17 @@ namespace TechTreeCreator.GraphCreation
         }
 
 
-        private ModEntityData<T> ProcessDependant<T>(EntityCreator<T> creator, ParseTarget parseTarget) where T : Entity {
+        private ModEntityData<T> CreateDependant<T>(EntityCreator<T> creator, ParseTarget parseTarget) where T : Entity {
             ModEntityData<T> entities = null;
             foreach (var modDirectoryHelper in StellarisDirectoryHelper.CreateCombinedList(stellarisDirectoryHelper, modDirectoryHelpers)) {
                 entities = creator.ProcessDirectoryHelper(entities, modDirectoryHelper, techsAndDependencies);
             }
+
+            return entities;
+        }
+
+        private ModEntityData<T> ProcessDependant<T>(EntityCreator<T> creator, ParseTarget parseTarget) where T : Entity {
+            ModEntityData<T> entities = CreateDependant(creator, parseTarget);
 
             entities?.ApplyToChain((ents, links) => {
                 var invalidEntities = ents.Where(x => !x.Value.Prerequisites.Any()).Select(x => x.Value).ToList();

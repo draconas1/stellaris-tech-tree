@@ -71,10 +71,10 @@ namespace TechTreeCreator.DTO {
             previous?.ApplyToChain(action);
         }
 
-        public ModEntityData<T2> Transform<T2>(Func<IDictionary<string, T>, ISet<Link>, Tuple<IDictionary<string, T2>, ISet<Link>>> transformAll) where T2 : Entity {
+        public ModEntityData<T2> Transform<T2>(Func<string, IDictionary<string, T>, ISet<Link>, Tuple<IDictionary<string, T2>, ISet<Link>>> transformAll) where T2 : Entity {
             ModEntityData<T2> previousTransforms = previous?.Transform(transformAll);
             var result = new ModEntityData<T2>(directoryHelper, previousTransforms);
-            var (newEntities, newLinks) = transformAll(entities, Links);
+            var (newEntities, newLinks) = transformAll(directoryHelper.ModName, entities, Links);
             result.entities.PutAll(newEntities);
             result.Links.AddRange(newLinks);
             return result;
