@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -30,32 +29,12 @@ namespace TechTreeCreator.GraphCreation {
             return new ShipComponent(key);
         }
 
-        private void ModifierNode(ShipComponent result, CWNode node) {
-            foreach (var modifierNodeKeyValue in node.KeyValues) {
-                var key = LocalisationApiHelper.GetName("MOD_" + modifierNodeKeyValue.Key.ToUpperInvariant());
-                string prefix = "";
-                string suffix = "";
-                string value = modifierNodeKeyValue.Value;
-                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
-                    prefix = "+";
-                }
-                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
-                    prefix = "+";
-                    suffix = "%";
-                    value = ((int)(value.ToDouble() * 100)).ToString(CultureInfo.InvariantCulture);
-                }
-                    
-                result.Properties[key] = prefix + value + suffix;
-            }
-        }
-        
         protected override void SetVariables(ShipComponent result, CWNode node) {
             result.Size = node.GetKeyValue("size");
             node.ActOnKeyValues("power", power => result.Properties["Power"] = power);
             node.ActOnKeyValues("sensor_range", power => result.Properties["Sensor Range"] = power);
             node.ActOnKeyValues("hyperlane_range", power => result.Properties["Hyperlane Detection Range"] = power);
-            node.ActOnNodes("ship_modifier", modifierNode =>  ModifierNode(result, modifierNode));
-            node.ActOnNodes("modifier", modifierNode => ModifierNode(result, modifierNode));
+            node.ActOnNodes("ship_modifier", modifierNode =>  AddModifiers(result, modifierNode));
             
             result.ComponentSet = node.GetKeyValue("component_set");
 

@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
@@ -25,6 +24,9 @@ namespace TechTreeCreator.GraphCreation {
                 cwNode.ActOnNodes("upkeep", costNode => costNode.KeyValues.ForEach(value => result.Upkeep[value.Key] = value.Value.ToDouble()));
                 cwNode.ActOnNodes("produces", costNode => costNode.KeyValues.ForEach(value => result.Produces[value.Key] = value.Value.ToDouble()));
             });
+            
+            node.ActOnNodes("triggered_planet_modifier", triggeredNode => AddModifiers(result, triggeredNode.GetNode("modifier")));
+            node.ActOnNodes("planet_modifier", triggeredNode => AddModifiers(result, triggeredNode));
         }
 
         protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {

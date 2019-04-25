@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using CWToolsHelpers.Localisation;
+using NetExtensions.Object;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output.Vis {
@@ -34,6 +37,59 @@ namespace TechTreeCreator.Output.Vis {
             return result;
         }
 
+        // fucking capitalisation
+        private static string GetPotentialLocalisationKeys(ILocalisationApiHelper localisation, string rootKey) {
+            var result = new List<string>();
+            result.Add(rootKey);
+            result.Add(rootKey.ToUpperInvariant());
+            result.Add("mod_" + rootKey);
+            result.Add("MOD_" + rootKey.ToUpperInvariant());
+
+            foreach (var key in result) {
+                if (localisation.HasValueForKey(key)) {
+                    return localisation.GetName(key);
+                }
+            }
+
+            return rootKey;
+        }
+        
+        public static void AddModifiersToNode(ILocalisationApiHelper localisation, VisNode node, IDictionary<string, string> modifiers, bool localiseKeys = true) {
+            foreach (var modifierNodeKeyValue in modifiers) {
+                string key = localiseKeys ? GetPotentialLocalisationKeys(localisation, modifierNodeKeyValue.Key) : modifierNodeKeyValue.Key;
+                string prefix = "";
+                string suffix = "";
+                string value = modifierNodeKeyValue.Value;
+                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
+                    int intValue = value.ToInt();
+                    prefix = intValue >= 0 ? "+" : "";
+                }
+                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
+                    int percentageValue = (int) (value.ToDouble() * 100);
+                    prefix = percentageValue >= 0 ? "+" : "";
+                    suffix = "%";
+                    value = percentageValue.ToString(CultureInfo.InvariantCulture);
+                }
+
+                node.title = $"{node.title}<br/><b>{key}:</b> {prefix}{value}{suffix}";
+            }
+        }
+        
+        public static string CreateCostString<T>(ILocalisationApiHelper localisation, string resourceType, IDictionary<string, T> costs) {
+            if (costs.Any()) {
+                string costString = $"<br/><b>{resourceType}:</b>";
+                foreach (var (key, value) in costs) {
+                    costString = $"{costString} {value} {localisation.GetName(key)},";
+                }
+
+                return costString.Remove(costString.Length - 1);
+                ;
+            }
+            else {
+                return "";
+            }
+        }
+
         public static void SetLevel(VisNode node, Entity entity, IDictionary<string, VisNode> prereqTechNodeLookup) {
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = entity.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
@@ -57,7 +113,7 @@ namespace TechTreeCreator.Output.Vis {
         {
             return new VisEdge
             {
-                @from = node.From.Id,
+                from = node.From.Id,
                 to = node.To.Id,
                 arrows = "to",
                 dashes = true,

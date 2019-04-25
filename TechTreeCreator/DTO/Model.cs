@@ -118,6 +118,8 @@ namespace TechTreeCreator.DTO {
 
         public IList<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
+        
+        public IDictionary<string, string> Modifiers { get; }
 
         // ReSharper disable once InconsistentNaming
         public string DLC { get; set; }
@@ -126,6 +128,7 @@ namespace TechTreeCreator.DTO {
 
         protected Entity(string id) {
             Id = id;
+            Modifiers = new Dictionary<string, string>();
         }
         
         protected Entity(Entity other) {
@@ -139,6 +142,7 @@ namespace TechTreeCreator.DTO {
             Prerequisites = new List<Tech>(other.Prerequisites);
             PrerequisiteIds = new List<string>(other.PrerequisiteIds);
             IconFound = other.IconFound;
+            Modifiers = other.Modifiers;
         }
     }
 

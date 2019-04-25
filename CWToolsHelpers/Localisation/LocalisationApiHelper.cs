@@ -47,18 +47,23 @@ namespace CWToolsHelpers.Localisation {
         }
 
         /// <inheritdoc />
+        public bool HasValueForKey(string key) {
+            return localisation.ContainsKey(key);
+        }
+
+        /// <inheritdoc />
         public string GetDescription(string key)
         {
             var realKey = key + "_desc";
             var result = GetValue(realKey);
-            // some ahve allcaps DESC
+            // some have allcaps DESC
             return result == realKey ? GetValue(key + "_DESC") : result;
         }
 
         private string GetValue(string key)
         {
             // if no localised text, return the key
-            if (!localisation.ContainsKey(key))
+            if (!HasValueForKey(key))
             {
                 return key;
             }

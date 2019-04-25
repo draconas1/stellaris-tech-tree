@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
 using CWToolsHelpers.Localisation;
-using FSharpx.Collections;
+using NetExtensions.Collection;
 using Serilog;
 using TechTreeCreator.DTO;
 
@@ -131,6 +130,16 @@ namespace TechTreeCreator.GraphCreation {
             });
             
             node.ActOnNodes("prerequisites", cwNode => entity.PrerequisiteIds = cwNode.Values, () => entity.PrerequisiteIds = new string[]{});
+            
+            node.ActOnNodes("modifier", modifierNode => AddModifiers(entity, modifierNode));
+        }
+        
+        
+        protected void AddModifiers(Entity result, CWNode modifierNode) {
+            if (modifierNode == null) {
+                return;
+            }
+            result.Modifiers.PutAll(modifierNode.KeyValues.Select(x => x.ToKeyValue()));
         }
     }
 }

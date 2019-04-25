@@ -96,6 +96,8 @@ namespace TechTreeCreator.Output {
             result.title = result.title + AddBuildingResources("Cost", building.Cost);
             result.title = result.title + AddBuildingResources("Upkeep", building.Upkeep);
             result.title = result.title + AddBuildingResources("Produces", building.Produces);
+            
+            VisHelpers.AddModifiersToNode(localisationApi, result, building.Modifiers);
 
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
@@ -122,6 +124,7 @@ namespace TechTreeCreator.Output {
             }
 
             result.title = result.title + AddBuildingResources("Cost", decision.Cost);
+            VisHelpers.AddModifiersToNode(localisationApi, result, decision.Modifiers);
 
             VisHelpers.SetLevel(result, decision, prereqTechNodeLookup);
 
@@ -154,7 +157,7 @@ namespace TechTreeCreator.Output {
                         // removes most of the squiggle formatting
                         Regex rgx = new Regex("[^a-zA-Z0-9 ]");
                         result.label = rgx.Replace(parts[0], "");
-                        // squggleH is a common format, so remove a starting H
+                        // sqiggleH is a common format, so remove a starting H
                         if (result.label.StartsWith("H")) {
                             result.label = result.label.Substring(1);
                         }
@@ -166,9 +169,8 @@ namespace TechTreeCreator.Output {
                 result.title = result.title + $"<br/><br/><b>{shipComponent.Name}</b>";
                 result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
                 result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
-                foreach (var (key, value) in shipComponent.Properties) {
-                    result.title = result.title + $"<br/><b>{key}:</b> {value}";
-                }
+                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Properties, false);
+                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Modifiers);
             }
 
             result.group = "Dependant";
@@ -183,44 +185,13 @@ namespace TechTreeCreator.Output {
 
             return result;
         }
-        private VisNode MarshallShipComponent(ShipComponent shipComponent, IDictionary<string, VisNode> prereqTechNodeLookup, string imagesPath) {
-            var result = VisHelpers.CreateNode(shipComponent, CreateRelativePath(imagesPath), "shipComponent");
-            result.prerequisites = shipComponent.PrerequisiteIds != null
-                ? shipComponent.PrerequisiteIds.ToArray()
-                : new string[] { };
-
-            result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
-            result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
-            result.group = "Dependant";
-
-            // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
-            var highestLevelOfPrerequisiteTechs = shipComponent.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
-            if (!highestLevelOfPrerequisiteTechs.HasValue) {
-                throw new Exception(shipComponent.Name + " Had no prerequiste levels: " + shipComponent.FilePath);
-            }
-
-            result.level = highestLevelOfPrerequisiteTechs + 1;
-
-            return result;
-        }
-        
+   
         private string CreateRelativePath(string imagesPath) {
             return VisHelpers.CreateRelativePath(imagesPath, outputDirectoryHelper.Root);
         }
 
         private string AddBuildingResources<T>(string resourceType, IDictionary<string, T> costs) {
-            if (costs.Any()) {
-                string costString = $"<br/><b>{resourceType}:</b>";
-                foreach (var (key, value) in costs) {
-                    costString = $"{costString} {value} {localisationApi.GetName(key)},";
-                }
-
-                return costString.Remove(costString.Length - 1);
-                ;
-            }
-            else {
-                return "";
-            }
+            return VisHelpers.CreateCostString(localisationApi, resourceType, costs);
         }
     }
 }

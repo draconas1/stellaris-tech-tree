@@ -69,6 +69,7 @@ namespace TechTreeConsole {
                 techTreeCreatorManager.ForceModOverwriting = false;
                 
                 techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents, ParseTarget.Decisions});
+                //techTreeCreatorManager.Parse(new [] { ParseTarget.ShipComponents});
                 
 //
 //                foreach (var (modGoup, visData) in techsData) {
