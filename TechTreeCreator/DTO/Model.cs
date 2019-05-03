@@ -32,6 +32,10 @@ namespace TechTreeCreator.DTO {
 
         public IEnumerable<string> Categories { get; set; }
         public IEnumerable<TechFlag> Flags { get; set; }
+        
+        public bool? Machines { get; set; }
+        
+        public bool? Gestalt { get; set; }
 
         public Tech(string id) : base(id) {
         }

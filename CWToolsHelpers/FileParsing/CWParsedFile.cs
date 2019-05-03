@@ -21,24 +21,44 @@ namespace CWToolsHelpers.FileParsing
         public string Key { get; }
         
         /// <summary>
+        /// The CWNode that is the parent of this CWNode - e.g. the CWNode that contains this CWNode. 
+        /// </summary>
+        /// <remarks>
+        /// This will be <c>null</c> for the CWNode that represents a file.  
+        /// </remarks>
+        public CWNode Parent { get; private set; }
+
+        /// <summary>
         /// All child nodes of this one.
         /// </summary>
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate node keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
-        public IList<CWNode> Nodes { get; set; }
-        
+        public IList<CWNode> Nodes {
+            get => nodes;
+            set {
+                nodes = value;
+                nodes.ForEach(node => node.Parent = this);
+            } 
+        }
+
         /// <summary>
         /// All key value pairs with their raw values (e.g. no scripted variables substituted)
         /// </summary>
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
         /// </remarks>
-        public IList<CWKeyValue> RawKeyValues { get; set; }
+        public IList<CWKeyValue> RawKeyValues {
+            get => rawKeyValues;
+            set {
+                rawKeyValues = value;
+                rawKeyValues.ForEach(cwKeyValue => cwKeyValue.ParentNode = this);
+            } 
+        }
 
         private IList<ICWKeyValue> keyValues;
         /// <summary>
-        /// All key value pairs with their raw values (e.g. no scripted variables substituted)
+        /// All key value pairs with their resolved values (e.g. scripted variables processed)
         /// </summary>
         /// <remarks>
         /// Would really like to use a dictionary here, but duplicate keys are entirely possible, as keys are often things like logical operators
@@ -53,6 +73,8 @@ namespace CWToolsHelpers.FileParsing
         public IList<string> Values { get; set; }
 
         private IScriptedVariablesAccessor scriptedVariablesAccessor;
+        private IList<CWNode> nodes;
+        private IList<CWKeyValue> rawKeyValues;
 
         public IScriptedVariablesAccessor ScriptedVariablesAccessor {
             get => scriptedVariablesAccessor ?? (scriptedVariablesAccessor = new DummyScriptedVariablesAccessor());
@@ -165,6 +187,7 @@ namespace CWToolsHelpers.FileParsing
     public interface ICWKeyValue {
         string Key { get; }
         string Value { get; }
+        CWNode ParentNode { get; }
 
         KeyValuePair<string, string> ToKeyValue();
     }
@@ -176,8 +199,14 @@ namespace CWToolsHelpers.FileParsing
     {
         public string Key { get; set; }
         public string Value { get; set; }
-        
+        public CWNode ParentNode { get; set; }
+
         public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
+        
+        public bool Equals(KeyValuePair<string, string> obj) {
+            var keyValuePair = ToKeyValue();
+            return keyValuePair.Key.Equals(obj.Key) && keyValuePair.Value.Equals(obj.Value);
+        }
     }
     
     internal class CWNodeContextedKeyValue : ICWKeyValue 
@@ -191,7 +220,15 @@ namespace CWToolsHelpers.FileParsing
         }
         public string Key => raw.Key;
         public string Value => accessor.GetPotentialValue(raw.Value);
+        public CWNode ParentNode => raw.ParentNode;
 
-        public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
+        public KeyValuePair<string, string> ToKeyValue() {
+            return raw.ToKeyValue();
+        }
+
+        public bool Equals(KeyValuePair<string, string> obj) {
+            var keyValuePair = ToKeyValue();
+            return keyValuePair.Key.Equals(obj.Key) && keyValuePair.Value.Equals(obj.Value);
+        }
     }
 }
