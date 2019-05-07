@@ -223,7 +223,7 @@ namespace CWToolsHelpers.FileParsing
         public CWNode ParentNode => raw.ParentNode;
 
         public KeyValuePair<string, string> ToKeyValue() {
-            return raw.ToKeyValue();
+            return new KeyValuePair<string, string>(Key, Value);
         }
 
         public bool Equals(KeyValuePair<string, string> obj) {
