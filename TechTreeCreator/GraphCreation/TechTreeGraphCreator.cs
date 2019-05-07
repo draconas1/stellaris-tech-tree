@@ -70,8 +70,8 @@ namespace TechTreeCreator.GraphCreation
 
         private CWNode DepthFirstSearchNodes(IEnumerable<CWNode> nodes, KeyValuePair<string, string> kv) {
             foreach (var cwNode in nodes) {
-                var found = cwNode.RawKeyValues.Where(x => x.Equals(kv)).FirstOrDefault(null);
-                if (found != null) {
+                var found = cwNode.RawKeyValues.FirstOrDefault(x => x.Equals(kv));
+                if (found == null) {
                     return DepthFirstSearchNodes(cwNode.Nodes, kv);
                 }
                 else {

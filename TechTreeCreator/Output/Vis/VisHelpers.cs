@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Object;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output.Vis {
@@ -54,21 +55,30 @@ namespace TechTreeCreator.Output.Vis {
             return rootKey;
         }
         
-        public static void AddModifiersToNode(ILocalisationApiHelper localisation, VisNode node, IDictionary<string, string> modifiers, bool localiseKeys = true) {
+        public static void AddModifiersToNode(ILocalisationApiHelper localisation, VisNode node, 
+            IDictionary<string, string> modifiers, 
+            Entity source,
+            bool localiseKeys = true) {
             foreach (var modifierNodeKeyValue in modifiers) {
                 string key = localiseKeys ? GetPotentialLocalisationKeys(localisation, modifierNodeKeyValue.Key) : modifierNodeKeyValue.Key;
                 string prefix = "";
                 string suffix = "";
                 string value = modifierNodeKeyValue.Value;
-                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
-                    int intValue = value.ToInt();
-                    prefix = intValue >= 0 ? "+" : "";
+                try {
+                    if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
+                        int intValue = value.ToInt();
+                        prefix = intValue >= 0 ? "+" : "";
+                    }
+
+                    if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
+                        int percentageValue = (int) (value.ToDouble() * 100);
+                        prefix = percentageValue >= 0 ? "+" : "";
+                        suffix = "%";
+                        value = percentageValue.ToString(CultureInfo.InvariantCulture);
+                    }
                 }
-                if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
-                    int percentageValue = (int) (value.ToDouble() * 100);
-                    prefix = percentageValue >= 0 ? "+" : "";
-                    suffix = "%";
-                    value = percentageValue.ToString(CultureInfo.InvariantCulture);
+                catch (FormatException e) {
+                    Log.Logger.Error(e, "Error parsing {nodeId} from {filePath}", node.id, source.FilePath);
                 }
 
                 node.title = $"{node.title}<br/><b>{key}:</b> {prefix}{value}{suffix}";

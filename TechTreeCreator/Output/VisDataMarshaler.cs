@@ -97,7 +97,7 @@ namespace TechTreeCreator.Output {
             result.title = result.title + AddBuildingResources("Upkeep", building.Upkeep);
             result.title = result.title + AddBuildingResources("Produces", building.Produces);
             
-            VisHelpers.AddModifiersToNode(localisationApi, result, building.Modifiers);
+            VisHelpers.AddModifiersToNode(localisationApi, result, building.Modifiers, building);
 
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
@@ -124,7 +124,7 @@ namespace TechTreeCreator.Output {
             }
 
             result.title = result.title + AddBuildingResources("Cost", decision.Cost);
-            VisHelpers.AddModifiersToNode(localisationApi, result, decision.Modifiers);
+            VisHelpers.AddModifiersToNode(localisationApi, result, decision.Modifiers, decision);
 
             VisHelpers.SetLevel(result, decision, prereqTechNodeLookup);
 
@@ -169,8 +169,8 @@ namespace TechTreeCreator.Output {
                 result.title = result.title + $"<br/><br/><b>{shipComponent.Name}</b>";
                 result.title = result.title + AddBuildingResources("Cost", shipComponent.Cost);
                 result.title = result.title + AddBuildingResources("Upkeep", shipComponent.Upkeep);
-                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Properties, false);
-                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Modifiers);
+                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Properties, shipComponent, false);
+                VisHelpers.AddModifiersToNode(localisationApi, result, shipComponent.Modifiers, shipComponent);
             }
 
             result.group = "Dependant";

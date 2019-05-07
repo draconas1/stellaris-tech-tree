@@ -198,8 +198,8 @@ namespace TechTreeCreator.Output.Vis {
                 result.title = result.title + "<br/>" + (!tech.Machines.Value ? "Not for machine intelligence" : "Machine intelligence");
             }
             
-            if (tech.Machines.HasValue) {
-                result.title = result.title + "<br/>" + (!tech.Machines.Value ? "Not for machine intelligence" : "Machine intelligence");
+            if (tech.Gestalt.HasValue) {
+                result.title = result.title + "<br/>" + (!tech.Gestalt.Value ? "Not for gestalt consciousness" : "Gestalt consciousness");
             }
 
             // rare purple tech
