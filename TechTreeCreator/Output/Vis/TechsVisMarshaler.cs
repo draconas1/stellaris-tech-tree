@@ -193,14 +193,8 @@ namespace TechTreeCreator.Output.Vis {
             if (tech.Flags.Any()) {
                 result.title = result.title + "<br/><b>Attributes: </b>" + string.Join(", ", tech.Flags);
             }
-
-            if (tech.Machines.HasValue) {
-                result.title = result.title + "<br/>" + (!tech.Machines.Value ? "Not for machine intelligence" : "Machine intelligence");
-            }
             
-            if (tech.Gestalt.HasValue) {
-                result.title = result.title + "<br/>" + (!tech.Gestalt.Value ? "Not for gestalt consciousness" : "Gestalt consciousness");
-            }
+            VisHelpers.SetGestaltAvailability(result, tech);
 
             // rare purple tech
             if (tech.Flags.Contains(TechFlag.Rare)) {

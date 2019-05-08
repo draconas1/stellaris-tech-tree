@@ -20,7 +20,18 @@ namespace TechTreeCreator.DTO {
         NonTechDependency
     }
 
-    public class Tech : Entity {
+    public interface IHasCost {
+        IDictionary<string, double> Cost { get; }
+        IDictionary<string, double> Upkeep { get; }
+    }
+    
+    public interface IGestaltAvailability {
+        bool? Machines { get; set; }
+        
+        bool? Gestalt { get; set; }
+    }
+
+    public class Tech : Entity, IGestaltAvailability {
         public TechArea Area { get; set; }
 
         public int? Tier { get; set; }
@@ -41,13 +52,17 @@ namespace TechTreeCreator.DTO {
         }
     }
 
-    public class Building : Entity {
+    public class Building : Entity, IHasCost, IGestaltAvailability {
         public int? BaseBuildTime { get; set; }
         public string Category { get; set; }
 
         public IDictionary<string, double> Cost { get; }
         public IDictionary<string, double> Upkeep { get; }
         public IDictionary<string, double> Produces { get; }
+        
+        public bool? Machines { get; set; }
+        
+        public bool? Gestalt { get; set; }
 
         public Building(string id) : base(id) {
             Cost = new Dictionary<string, double>();
@@ -56,7 +71,7 @@ namespace TechTreeCreator.DTO {
         }
     }
 
-    public class ShipComponent : Entity {
+    public class ShipComponent : Entity, IHasCost {
         public string Size { get; set; }
         public string ComponentSet { get; set; }
         

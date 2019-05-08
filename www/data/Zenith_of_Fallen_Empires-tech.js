@@ -161,7 +161,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_dark_matter_power_plant",
       "label": "Dark Matter Power Plant",
       "group": "ModPhysics",
-      "title": "<b>Dark Matter Power Plant</b> (tech_fe_dark_matter_power_plant)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Matter Power Plant</b> (tech_fe_dark_matter_power_plant)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -445,7 +445,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_ascended_society_1",
       "label": "Societal Buildings",
       "group": "ModSociety",
-      "title": "<b>Societal Buildings</b> (tech_ascended_society_1)<br/><i>Societal buildings cater for the needs of our citizens while promoting certain ideologies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Societal Buildings</b> (tech_ascended_society_1)<br/><i>Societal buildings cater for the needs of our citizens while promoting certain ideologies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -506,7 +506,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_central_square",
       "label": "Central Square",
       "group": "ModSociety",
-      "title": "<b>Central Square</b> (tech_central_square)<br/><i>The Central Square and its surrounding buildings help shape a planet's cultural identity. Here, citizens and visitors alike can meet for local festivities and celebrations.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Central Square</b> (tech_central_square)<br/><i>The Central Square and its surrounding buildings help shape a planet's cultural identity. Here, citizens and visitors alike can meet for local festivities and celebrations.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -546,7 +546,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_agri_processing_complex",
       "label": "Agri-Processing Complex",
       "group": "ModSociety",
-      "title": "<b>Agri-Processing Complex</b> (tech_fe_agri_processing_complex)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Agri-Processing Complex</b> (tech_fe_agri_processing_complex)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -628,7 +628,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_sky_dome",
       "label": "Sky-Dome",
       "group": "ModSociety",
-      "title": "<b>Sky-Dome</b> (tech_fe_sky_dome)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! A floating utopia maintained with extremely advanced anti-gravity technology.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Sky-Dome</b> (tech_fe_sky_dome)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! A floating utopia maintained with extremely advanced anti-gravity technology.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -669,7 +669,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_paradise_creation",
       "label": "Utopian Worlds",
       "group": "ModSociety",
-      "title": "<b>Utopian Worlds</b> (tech_paradise_creation)<br/><i>Combining our mastery in terraforming, landscaping and engineering, we can create a true wonder in the universe and a Utopian world for our citizens to live.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Utopian Worlds</b> (tech_paradise_creation)<br/><i>Combining our mastery in terraforming, landscaping and engineering, we can create a true wonder in the universe and a Utopian world for our citizens to live.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -749,7 +749,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_affluence_center",
       "label": "Affluence Center",
       "group": "ModEngineering",
-      "title": "<b>Affluence Center</b> (tech_fe_affluence_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Any material desire can be met here, no matter how outlandish.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Affluence Center</b> (tech_fe_affluence_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Any material desire can be met here, no matter how outlandish.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -770,7 +770,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_ancient_factory",
       "label": "Autonomous Fabricators",
       "group": "ModEngineering",
-      "title": "<b>Autonomous Fabricators</b> (tech_fe_ancient_factory)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Autonomous Fabricators</b> (tech_fe_ancient_factory)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },

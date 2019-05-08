@@ -66,7 +66,7 @@ namespace TechTreeCreator.Output.Vis {
                 string value = modifierNodeKeyValue.Value;
                 try {
                     if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
-                        int intValue = value.ToInt();
+                        double intValue = value.ToDouble();
                         prefix = intValue >= 0 ? "+" : "";
                     }
 
@@ -108,6 +108,18 @@ namespace TechTreeCreator.Output.Vis {
             }
 
             node.level = highestLevelOfPrerequisiteTechs + 1;
+        }
+
+        public static void SetGestaltAvailability(VisNode node, Entity entity) {
+            if (entity is IGestaltAvailability iga) {
+                if (iga.Machines.HasValue) {
+                    node.title = node.title + "<br/>" + (!iga.Machines.Value ? "Not for machine intelligence" : "Machine intelligence");
+                }
+            
+                if (iga.Gestalt.HasValue) {
+                    node.title = node.title + "<br/>" + (!iga.Gestalt.Value ? "Not for gestalt consciousness" : "Gestalt consciousness");
+                }
+            }
         }
 
         public static string CreateRelativePath(string fullPath, string relativeTo) {

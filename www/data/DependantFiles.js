@@ -15,6 +15,11 @@ dependantDataFiles = [
     "fileName": "Zenith_of_Fallen_Empires-dependants.js"
   },
   {
+    "name": "Ancient Cache of Technologies",
+    "jsVarable": "AncientCacheofTechnologiesGraphDataDependants",
+    "fileName": "Ancient_Cache_of_Technologies-dependants.js"
+  },
+  {
     "name": "Gigastructures",
     "jsVarable": "GigastructuresGraphDataDependants",
     "fileName": "Gigastructures-dependants.js"
@@ -23,11 +28,6 @@ dependantDataFiles = [
     "name": "At War",
     "jsVarable": "AtWarGraphDataDependants",
     "fileName": "At_War-dependants.js"
-  },
-  {
-    "name": "Ancient Cache of Technologies",
-    "jsVarable": "AncientCacheofTechnologiesGraphDataDependants",
-    "fileName": "Ancient_Cache_of_Technologies-dependants.js"
   },
   {
     "name": "Stellaris-No-Mods",

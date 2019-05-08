@@ -4,8 +4,10 @@ using System.IO;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Helpers;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
+using NetExtensions.Object;
 using Serilog;
 using TechTreeCreator.DTO;
 
@@ -132,8 +134,36 @@ namespace TechTreeCreator.GraphCreation {
             node.ActOnNodes("prerequisites", cwNode => entity.PrerequisiteIds = cwNode.Values, () => entity.PrerequisiteIds = new string[]{});
             
             node.ActOnNodes("modifier", modifierNode => AddModifiers(entity, modifierNode));
+
+            if (entity is IGestaltAvailability iga) {
+                var potentialNodes = node.GetNodes("potential").ToList();
+                CWNode machineNode = potentialNodes.SearchNodes(new NodeSearchCriteria() {KeyValue = new KeyValuePair<string, string>("has_authority", "auth_machine_intelligence")});
+                if (machineNode != null) {
+                    iga.Machines = CWNodeHelpers.ResolveBoolean(true, machineNode);
+                }
+                CWNode gestaltNode = potentialNodes.SearchNodes(new NodeSearchCriteria() {KeyValue = new KeyValuePair<string, string>("has_ethic", "ethic_gestalt_consciousness")});
+                if (gestaltNode != null) {
+                    iga.Gestalt = CWNodeHelpers.ResolveBoolean(true, gestaltNode);
+                }
+                else {
+                    CWNode gestaltNode2 = potentialNodes.SearchNodes(new NodeSearchCriteria() {KeyValue = new KeyValuePair<string, string>("is_gestalt", null)});
+                    if (gestaltNode2 != null) {
+                        var keyValue = gestaltNode2.GetKeyValue("is_gestalt");
+                        var boolValue = CWNodeHelpers.ResolveBooleanValue(keyValue);
+                        if (boolValue.HasValue) {
+                            iga.Gestalt = CWNodeHelpers.ResolveBoolean(boolValue.Value, gestaltNode2);
+                        }
+                    }   
+                }
+            }
+
+            if (entity is IHasCost ihc) {
+                node.ActOnNodes("resources", cwNode => {
+                    cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => ihc.Cost[value.Key] = value.Value.ToDouble()));
+                    cwNode.ActOnNodes("upkeep", costNode => costNode.KeyValues.ForEach(value => ihc.Upkeep[value.Key] = value.Value.ToDouble()));
+                });
+            }
         }
-        
         
         protected void AddModifiers(Entity result, CWNode modifierNode) {
             if (modifierNode == null) {

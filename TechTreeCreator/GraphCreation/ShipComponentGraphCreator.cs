@@ -70,11 +70,6 @@ namespace TechTreeCreator.GraphCreation {
                     result.Name = sizesThatUsePowerCore + " " + result.Name;
                 });
             }
-            
-            node.ActOnNodes("resources", cwNode => {
-                cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => result.Cost[value.Key] = value.Value.ToDouble()));
-                cwNode.ActOnNodes("upkeep", costNode => costNode.KeyValues.ForEach(value => result.Upkeep[value.Key] = value.Value.ToDouble()));
-            });
         }
 
         protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {

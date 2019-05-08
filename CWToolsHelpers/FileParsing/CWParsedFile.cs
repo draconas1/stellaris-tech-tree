@@ -184,6 +184,7 @@ namespace CWToolsHelpers.FileParsing
         }
     }
 
+    
     public interface ICWKeyValue {
         string Key { get; }
         string Value { get; }
@@ -203,9 +204,9 @@ namespace CWToolsHelpers.FileParsing
 
         public KeyValuePair<string, string> ToKeyValue() { return new KeyValuePair<string, string>(Key, Value);}
         
-        public bool Equals(KeyValuePair<string, string> obj) {
+        public bool Equals(KeyValuePair<string, string> obj, StringComparison comparison = StringComparison.Ordinal) {
             var keyValuePair = ToKeyValue();
-            return keyValuePair.Key.Equals(obj.Key) && keyValuePair.Value.Equals(obj.Value);
+            return keyValuePair.Key.Equals(obj.Key, comparison) && keyValuePair.Value.Equals(obj.Value, comparison);
         }
     }
     
@@ -226,9 +227,9 @@ namespace CWToolsHelpers.FileParsing
             return new KeyValuePair<string, string>(Key, Value);
         }
 
-        public bool Equals(KeyValuePair<string, string> obj) {
+        public bool Equals(KeyValuePair<string, string> obj, StringComparison comparison = StringComparison.Ordinal) {
             var keyValuePair = ToKeyValue();
-            return keyValuePair.Key.Equals(obj.Key) && keyValuePair.Value.Equals(obj.Value);
+            return keyValuePair.Key.Equals(obj.Key, comparison) && keyValuePair.Value.Equals(obj.Value, comparison);
         }
     }
 }

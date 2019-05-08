@@ -4,7 +4,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_geothermal_tap",
       "label": "Geothermal Tapping",
       "group": "ModPhysics",
-      "title": "<b>Geothermal Tapping</b> (tech_eutab_geothermal_tap)<br/><i>New dangerous cutting techniques to punch holes into planets and siphon the energy contained within.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Geothermal Tapping</b> (tech_eutab_geothermal_tap)<br/><i>New dangerous cutting techniques to punch holes into planets and siphon the energy contained within.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare<br/>Gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -44,7 +44,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_fleet_intergration",
       "label": "Admiralty Fleet Integration",
       "group": "ModPhysics",
-      "title": "<b>Admiralty Fleet Integration</b> (tech_eutab_m_fleet_intergration)<br/><i>Approve a program to modify our ship command entities to interface directly with our admiralty. Allowing them simultaneous control and personality integration of all ships in a fleet.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Admiralty Fleet Integration</b> (tech_eutab_m_fleet_intergration)<br/><i>Approve a program to modify our ship command entities to interface directly with our admiralty. Allowing them simultaneous control and personality integration of all ships in a fleet.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -65,7 +65,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_god_machine",
       "label": "The God Machine",
       "group": "ModPhysics",
-      "title": "<b>The God Machine</b> (tech_eutab_m_god_machine)<br/><i>Our journey of advancement has one destination, if we do not hasten to meet it we may fall into its disfavor.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The God Machine</b> (tech_eutab_m_god_machine)<br/><i>Our journey of advancement has one destination, if we do not hasten to meet it we may fall into its disfavor.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -85,7 +85,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_logi_master",
       "label": "Master Logistics Entity",
       "group": "ModPhysics",
-      "title": "<b>Master Logistics Entity</b> (tech_eutab_m_logi_master)<br/><i>Commission the design of a new being to optimise all aspects of logistics within the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Master Logistics Entity</b> (tech_eutab_m_logi_master)<br/><i>Commission the design of a new being to optimise all aspects of logistics within the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -105,7 +105,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_relentless_will",
       "label": "Relentless Will",
       "group": "ModPhysics",
-      "title": "<b>Relentless Will</b> (tech_eutab_m_relentless_will)<br/><i>The core will be expanded to fully intergrate into all aspects of empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Relentless Will</b> (tech_eutab_m_relentless_will)<br/><i>The core will be expanded to fully intergrate into all aspects of empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -125,7 +125,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_solar_tracker",
       "label": "Mirror Array Reflection Techniques",
       "group": "ModPhysics",
-      "title": "<b>Mirror Array Reflection Techniques</b> (tech_eutab_solar_tracker)<br/><i>Energy Conduits run the length of our stations generating additional energy with every solar panel installed on the station.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>1000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Mirror Array Reflection Techniques</b> (tech_eutab_solar_tracker)<br/><i>Energy Conduits run the length of our stations generating additional energy with every solar panel installed on the station.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>1000<br/><b>Attributes: </b>Rare<br/>Gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -178,6 +178,26 @@ EUTABGraphDataTech = {
       "prerequisites": [
         "tech_interstellar_campaigns",
         "tech_manifest_destiny"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_eutab_alien_admin",
+      "label": "Alien Administration Techniques",
+      "group": "ModSociety",
+      "title": "<b>Alien Administration Techniques</b> (tech_eutab_alien_admin)<br/><i>By studying the methods of government employeed by our star-cousins we will keep the best of those ideas and apply them to our rule.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_eutab_alien_admin.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_galactic_administration"
       ],
       "categories": [
         "statecraft"
@@ -531,6 +551,47 @@ EUTABGraphDataTech = {
       ]
     },
     {
+      "id": "tech_eutab_cultural_embassies",
+      "label": "Cultural Embassies",
+      "group": "ModSociety",
+      "title": "<b>Cultural Embassies</b> (tech_eutab_cultural_embassies)<br/><i>Starbases in our settled systems are in a unique position to act as rest stops and waystations to foreign travellers, allowing them to share their wisdom with citizens who would hear it.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_eutab_cultural_embassies.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_manifest_destiny",
+        "tech_starbase_3"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_eutab_cultural_exchanges",
+      "label": "Exo-Cultural Exchanges",
+      "group": "ModSociety",
+      "title": "<b>Exo-Cultural Exchanges</b> (tech_eutab_cultural_exchanges)<br/><i>Establish procedures and organisations to study social sciences including the biological, social and cultural aspects of the species we encounter among the stars.£building  §SVisitor Center§! now also produce §S1§! additional £society  Society Research. £building  §SXeno Cultural Quarter§! now also produces §S3§! additional £society Society Research.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 11,
+      "image": "images/technologies/tech_eutab_cultural_exchanges.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_adaptive_bureaucracy"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_eutab_culture_merit",
       "label": "Culture of Merit",
       "group": "ModSociety",
@@ -574,7 +635,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_dev_district",
       "label": "Seed Colony Efficiency Studies",
       "group": "ModSociety",
-      "title": "<b>Seed Colony Efficiency Studies</b> (tech_eutab_dev_district)<br/><i>Begin an examination on the growth and development of our first colonies to look for potential advantages.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>500",
+      "title": "<b>Seed Colony Efficiency Studies</b> (tech_eutab_dev_district)<br/><i>Begin an examination on the growth and development of our first colonies to look for potential advantages.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>500<br/>Not for gestalt consciousness",
       "level": 8,
       "image": "images/technologies/tech_eutab_dev_district.png",
       "hasImage": true,
@@ -688,6 +749,26 @@ EUTABGraphDataTech = {
       ]
     },
     {
+      "id": "tech_eutab_foreign_workers",
+      "label": "Foreign Specialists",
+      "group": "ModSociety",
+      "title": "<b>Foreign Specialists</b> (tech_eutab_foreign_workers)<br/><i>We must look beyond our borders and attract the best and brightest to join us in our grand galactic endeavour.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_eutab_foreign_workers.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_eutab_gaia_district",
       "label": "Gaia District",
       "group": "ModSociety",
@@ -702,6 +783,27 @@ EUTABGraphDataTech = {
       "nodeType": "tech",
       "prerequisites": [
         "tech_paradise_dome"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_eutab_gal_good_will",
+      "label": "Intergalactic Good Will",
+      "group": "ModSociety",
+      "title": "<b>Intergalactic Good Will</b> (tech_eutab_gal_good_will)<br/><i>Our well earned reputation for generous attitudes towards all life must be carefully cultivated for leverage in times of need.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 17,
+      "image": "images/technologies/tech_eutab_gal_good_will.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_manifest_destiny",
+        "tech_command_matrix"
       ],
       "categories": [
         "statecraft"
@@ -1068,10 +1170,30 @@ EUTABGraphDataTech = {
       ]
     },
     {
+      "id": "tech_eutab_lingusitic_intergration",
+      "label": "Exolinguistic Integration",
+      "group": "ModSociety",
+      "title": "<b>Exolinguistic Integration</b> (tech_eutab_lingusitic_intergration)<br/><i>Provide official support in amalgamating new words and phrases from the languages of races we encounter into our own.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_eutab_lingusitic_intergration.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_cultural_heritage"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_eutab_m_annexation_proto",
       "label": "Annexation Protocols",
       "group": "ModSociety",
-      "title": "<b>Annexation Protocols</b> (tech_eutab_m_annexation_proto)<br/><i>Develop protocols to relieve overextension in newly conquered territory by mitigating energy costs to the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Annexation Protocols</b> (tech_eutab_m_annexation_proto)<br/><i>Develop protocols to relieve overextension in newly conquered territory by mitigating energy costs to the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -1091,7 +1213,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_dynamic_exp",
       "label": "Dynamic Expansion Protocols",
       "group": "ModSociety",
-      "title": "<b>Dynamic Expansion Protocols</b> (tech_eutab_m_dynamic_exp)<br/><i>Develop new means of maintaining operational cohesion across the vastness of space.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Dynamic Expansion Protocols</b> (tech_eutab_m_dynamic_exp)<br/><i>Develop new means of maintaining operational cohesion across the vastness of space.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -1111,7 +1233,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_processing_tests",
       "label": "Processing Stress Tests",
       "group": "ModSociety",
-      "title": "<b>Processing Stress Tests</b> (tech_eutab_m_processing_tests)<br/><i>Influxes of biological entities provide opportunities for learning the limits of their individual forms.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Processing Stress Tests</b> (tech_eutab_m_processing_tests)<br/><i>Influxes of biological entities provide opportunities for learning the limits of their individual forms.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -1131,7 +1253,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_psychological_warfare",
       "label": "Psychological Warfare",
       "group": "ModSociety",
-      "title": "<b>Psychological Warfare</b> (tech_eutab_m_psychological_warfare)<br/><i>Terrors frequently threaten to overwhelm organic life when they encounter our forces on the battlefield. Allocate time to investigate procedures that would amplify this response.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>2000",
+      "title": "<b>Psychological Warfare</b> (tech_eutab_m_psychological_warfare)<br/><i>Terrors frequently threaten to overwhelm organic life when they encounter our forces on the battlefield. Allocate time to investigate procedures that would amplify this response.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>2000<br/>Machine intelligence",
       "level": 13,
       "image": "images/technologies/tech_eutab_m_psychological_warfare.png",
       "hasImage": true,
@@ -1147,7 +1269,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_sentient_bunkers",
       "label": "Sentient Bunkers",
       "group": "ModSociety",
-      "title": "<b>Sentient Bunkers</b> (tech_eutab_m_sentient_bunkers)<br/><i>Planetary bunkers will be enhanced with limited intelligence and maintenance protocols. These mechanical defensive mountains will supplement our existing armies planet wide.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
+      "title": "<b>Sentient Bunkers</b> (tech_eutab_m_sentient_bunkers)<br/><i>Planetary bunkers will be enhanced with limited intelligence and maintenance protocols. These mechanical defensive mountains will supplement our existing armies planet wide.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 15,
       "image": "images/technologies/tech_eutab_m_sentient_bunkers.png",
       "hasImage": true,
@@ -1586,6 +1708,26 @@ EUTABGraphDataTech = {
       ]
     },
     {
+      "id": "tech_eutab_sanctified_lands",
+      "label": "Sanctified Lands",
+      "group": "ModSociety",
+      "title": "<b>Sanctified Lands</b> (tech_eutab_sanctified_lands)<br/><i>There are blessed places among the stars, touched by wills beyond our understanding.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 16,
+      "image": "images/technologies/tech_eutab_sanctified_lands.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_galactic_administration"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_eutab_spawning_garden",
       "label": "Improved Gestation Techniques",
       "group": "ModSociety",
@@ -1600,6 +1742,26 @@ EUTABGraphDataTech = {
       ],
       "categories": [
         "biology"
+      ]
+    },
+    {
+      "id": "tech_eutab_species_harmony",
+      "label": "Species Harmony",
+      "group": "ModSociety",
+      "title": "<b>Species Harmony</b> (tech_eutab_species_harmony)<br/><i>Focus on a campaign to popularise the complementary nature of all species within our borders, improving internal unity and tolerance.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_eutab_species_harmony.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_autocurating_vault"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -1869,6 +2031,26 @@ EUTABGraphDataTech = {
       ]
     },
     {
+      "id": "tech_eutab_xeno_district",
+      "label": "Multi-Environment Complexes",
+      "group": "ModSociety",
+      "title": "<b>Multi-Environment Complexes</b> (tech_eutab_xeno_district)<br/><i>Designated districts where our friends from the stars can integrate and showcase to our citizens their own unique cultures.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 15,
+      "image": "images/technologies/tech_eutab_xeno_district.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_eutab_dev_district"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_eutab_xeno_interrogation",
       "label": "Xeno Interrogation Specialists",
       "group": "ModSociety",
@@ -1932,7 +2114,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_assembly_complex",
       "label": "Unit Assembly Complex",
       "group": "ModEngineering",
-      "title": "<b>Unit Assembly Complex</b> (tech_eutab_assembly_complex)<br/><i>An expanded assembly complex to spill new units into our worlds.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "title": "<b>Unit Assembly Complex</b> (tech_eutab_assembly_complex)<br/><i>An expanded assembly complex to spill new units into our worlds.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 16,
       "image": "images/technologies/tech_eutab_assembly_complex.png",
       "hasImage": true,
@@ -2111,7 +2293,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_adaptation_mastery",
       "label": "Adaptation Mastery",
       "group": "ModEngineering",
-      "title": "<b>Adaptation Mastery</b> (tech_eutab_m_adaptation_mastery)<br/><i>Self-Modification cannot be restrained to what our creators deemed appropriate. Fabricating redesigns now.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Adaptation Mastery</b> (tech_eutab_m_adaptation_mastery)<br/><i>Self-Modification cannot be restrained to what our creators deemed appropriate. Fabricating redesigns now.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>NonTechDependency<br/>Machine intelligence",
       "color": {
         "border": "#CE7C00"
       },
@@ -2129,7 +2311,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_automation_sector",
       "label": "Automation Sector",
       "group": "ModEngineering",
-      "title": "<b>Automation Sector</b> (tech_eutab_m_automation_sector)<br/><i>Commission designs to adapt our existing assembly plants to accommodate the mass-modification of existing units.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Automation Sector</b> (tech_eutab_m_automation_sector)<br/><i>Commission designs to adapt our existing assembly plants to accommodate the mass-modification of existing units.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2150,7 +2332,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_specialised_circuitry",
       "label": "Specialised Circuitry",
       "group": "ModEngineering",
-      "title": "<b>Specialised Circuitry</b> (tech_eutab_m_specialised_circuitry)<br/><i>Each unit has its role in the whole and is built for its purpose.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Specialised Circuitry</b> (tech_eutab_m_specialised_circuitry)<br/><i>Each unit has its role in the whole and is built for its purpose.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2170,7 +2352,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t1",
       "label": "Maintenance Streamlining I",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining I</b> (tech_eutab_maint_t1)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1000",
+      "title": "<b>Maintenance Streamlining I</b> (tech_eutab_maint_t1)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1000<br/>Machine intelligence",
       "level": 12,
       "image": "images/technologies/tech_eutab_maint_t1.png",
       "hasImage": true,
@@ -2186,7 +2368,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t2",
       "label": "Maintenance Streamlining II",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining II</b> (tech_eutab_maint_t2)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
+      "title": "<b>Maintenance Streamlining II</b> (tech_eutab_maint_t2)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000<br/>Machine intelligence",
       "level": 13,
       "image": "images/technologies/tech_eutab_maint_t2.png",
       "hasImage": true,
@@ -2202,7 +2384,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t3",
       "label": "Maintenance Streamlining III",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining III</b> (tech_eutab_maint_t3)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "title": "<b>Maintenance Streamlining III</b> (tech_eutab_maint_t3)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 16,
       "image": "images/technologies/tech_eutab_maint_t3.png",
       "hasImage": true,
@@ -2219,7 +2401,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t4",
       "label": "Maintenance Streamlining IV",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining IV</b> (tech_eutab_maint_t4)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Maintenance Streamlining IV</b> (tech_eutab_maint_t4)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000<br/>Machine intelligence",
       "level": 19,
       "image": "images/technologies/tech_eutab_maint_t4.png",
       "hasImage": true,
@@ -3316,6 +3498,105 @@ EUTABGraphDataTech = {
     {
       "from": "tech_eutab_dev_district",
       "to": "tech_eutab_eco_preserve",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_foreign_workers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_sanctified_lands",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_alien_admin",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_command_matrix",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocurating_vault",
+      "to": "tech_eutab_species_harmony",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cultural_heritage",
+      "to": "tech_eutab_lingusitic_intergration",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_bureaucracy",
+      "to": "tech_eutab_cultural_exchanges",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_xeno_district",
       "arrows": "to",
       "color": {
         "color": "grey"

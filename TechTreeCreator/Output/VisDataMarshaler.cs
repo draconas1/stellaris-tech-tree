@@ -98,6 +98,8 @@ namespace TechTreeCreator.Output {
             result.title = result.title + AddBuildingResources("Produces", building.Produces);
             
             VisHelpers.AddModifiersToNode(localisationApi, result, building.Modifiers, building);
+            
+            VisHelpers.SetGestaltAvailability(result, building);
 
             // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
             var highestLevelOfPrerequisiteTechs = building.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
@@ -128,6 +130,7 @@ namespace TechTreeCreator.Output {
 
             VisHelpers.SetLevel(result, decision, prereqTechNodeLookup);
 
+            VisHelpers.SetGestaltAvailability(result, decision);
             return result;
         }
         

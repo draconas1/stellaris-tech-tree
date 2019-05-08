@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Helpers;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
 using NetExtensions.Object;
@@ -67,43 +68,6 @@ namespace TechTreeCreator.GraphCreation
             return new Tech(node.Key);
         }
 
-
-        private CWNode DepthFirstSearchNodes(IEnumerable<CWNode> nodes, KeyValuePair<string, string> kv) {
-            foreach (var cwNode in nodes) {
-                var found = cwNode.RawKeyValues.FirstOrDefault(x => x.Equals(kv));
-                if (found == null) {
-                    return DepthFirstSearchNodes(cwNode.Nodes, kv);
-                }
-                else {
-                    return cwNode;
-                }
-            }
-
-            return null;
-        }
-
-        private bool ResolveBoolean(bool startingValue, CWNode node) {
-            bool endingValue;
-            switch (node.Key.ToLowerInvariant()) {
-                case "and":
-                case "or":
-                    endingValue = startingValue;
-                    break;
-                case "nor":
-                case "not":
-                    endingValue = !startingValue;
-                    break;
-                default: endingValue = startingValue;
-                    break;
-            }
-
-            if (node.Parent != null) {
-                return ResolveBoolean(endingValue, node.Parent);
-            }
-
-            return endingValue;
-        }
-        
         protected override void SetVariables(Tech result, CWNode node) {
             TechArea area;
             string areaKeyValue = node.GetKeyValue("area");
@@ -123,16 +87,6 @@ namespace TechTreeCreator.GraphCreation
             result.Area = area;
             result.Tier = node.GetKeyValueOrDefault("tier", "0").ToInt();
             result.BaseCost = node.GetKeyValueOrDefault("cost", "0").ToInt();
-
-            var potentialNodes = node.GetNodes("potential").ToList();
-            CWNode machineNode = DepthFirstSearchNodes(potentialNodes, new KeyValuePair<string, string>("has_authority", "auth_machine_intelligence"));
-            if (machineNode != null) {
-                result.Machines = ResolveBoolean(true, machineNode);
-            }
-            CWNode gestaltNode = DepthFirstSearchNodes(potentialNodes, new KeyValuePair<string, string>("has_ethic", "ethic_gestalt_consciousness"));
-            if (gestaltNode != null) {
-                result.Gestalt = ResolveBoolean(true, gestaltNode);
-            }
 
             //categories, usually only one, but can be more
             if (node.GetNode("category") != null)

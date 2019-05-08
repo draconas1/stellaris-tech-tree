@@ -292,7 +292,7 @@ StellarisGraphDataTech = {
       "id": "tech_combat_computers_3",
       "label": "Sapient Combat Simulations",
       "group": "Physics",
-      "title": "<b>Sapient Combat Simulations</b> (tech_combat_computers_3)<br/><i>Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous",
+      "title": "<b>Sapient Combat Simulations</b> (tech_combat_computers_3)<br/><i>Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous<br/>Not for gestalt consciousness",
       "color": {
         "border": "#D30000"
       },
@@ -313,7 +313,7 @@ StellarisGraphDataTech = {
       "id": "tech_combat_computers_autonomous",
       "label": "Autonomous Ship Intellects",
       "group": "Physics",
-      "title": "<b>Autonomous Ship Intellects</b> (tech_combat_computers_autonomous)<br/><i>Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Autonomous Ship Intellects</b> (tech_combat_computers_autonomous)<br/><i>Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare<br/>Gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -1147,7 +1147,7 @@ StellarisGraphDataTech = {
       "id": "tech_positronic_implants",
       "label": "Positronic Implants",
       "group": "Physics",
-      "title": "<b>Positronic Implants</b> (tech_positronic_implants)<br/><i>Expanding possibilities through the application of limited cybernetics.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
+      "title": "<b>Positronic Implants</b> (tech_positronic_implants)<br/><i>Expanding possibilities through the application of limited cybernetics.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000<br/>Gestalt consciousness",
       "level": 19,
       "image": "images/technologies/tech_positronic_implants.png",
       "hasImage": true,
@@ -1416,7 +1416,7 @@ StellarisGraphDataTech = {
       "id": "tech_sapient_ai",
       "label": "Positronic AI",
       "group": "Physics",
-      "title": "<b>Positronic AI</b> (tech_sapient_ai)<br/><i>Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000",
+      "title": "<b>Positronic AI</b> (tech_sapient_ai)<br/><i>Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>16000<br/>Not for gestalt consciousness",
       "level": 19,
       "image": "images/technologies/tech_sapient_ai.png",
       "hasImage": true,
@@ -1780,7 +1780,7 @@ StellarisGraphDataTech = {
       "id": "tech_adaptive_combat_algorithms",
       "label": "Adaptive Combat Algorithms",
       "group": "Society",
-      "title": "<b>Adaptive Combat Algorithms</b> (tech_adaptive_combat_algorithms)<br/><i>Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
+      "title": "<b>Adaptive Combat Algorithms</b> (tech_adaptive_combat_algorithms)<br/><i>Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 12,
       "image": "images/technologies/tech_adaptive_combat_algorithms.png",
       "hasImage": true,
@@ -1846,7 +1846,7 @@ StellarisGraphDataTech = {
       "id": "tech_artificial_moral_codes",
       "label": "Artificial Moral Codes",
       "group": "Society",
-      "title": "<b>Artificial Moral Codes</b> (tech_artificial_moral_codes)<br/><i>It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Artificial Moral Codes</b> (tech_artificial_moral_codes)<br/><i>It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 11,
       "image": "images/technologies/tech_artificial_moral_codes.png",
       "hasImage": true,
@@ -1896,7 +1896,7 @@ StellarisGraphDataTech = {
       "id": "tech_autonomous_agents",
       "label": "Autonomous Agents",
       "group": "Society",
-      "title": "<b>Autonomous Agents</b> (tech_autonomous_agents)<br/><i>Semi-independent units have proved critical to the success of the greater whole.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Autonomous Agents</b> (tech_autonomous_agents)<br/><i>Semi-independent units have proved critical to the success of the greater whole.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/>Gestalt consciousness",
       "level": 12,
       "image": "images/technologies/tech_autonomous_agents.png",
       "hasImage": true,
@@ -1912,7 +1912,7 @@ StellarisGraphDataTech = {
       "id": "tech_biomechanics",
       "label": "Biomechanics",
       "group": "Society",
-      "title": "<b>Biomechanics</b> (tech_biomechanics)<br/><i>Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Biomechanics</b> (tech_biomechanics)<br/><i>Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -1932,7 +1932,7 @@ StellarisGraphDataTech = {
       "id": "tech_capacity_boosters",
       "label": "Capacity Boosters",
       "group": "Society",
-      "title": "<b>Capacity Boosters</b> (tech_capacity_boosters)<br/><i>We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Capacity Boosters</b> (tech_capacity_boosters)<br/><i>We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -1982,7 +1982,7 @@ StellarisGraphDataTech = {
       "id": "tech_cloning",
       "label": "Cloning",
       "group": "Society",
-      "title": "<b>Cloning</b> (tech_cloning)<br/><i>Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
+      "title": "<b>Cloning</b> (tech_cloning)<br/><i>Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/>Not for machine intelligence",
       "level": 11,
       "image": "images/technologies/tech_cloning.png",
       "hasImage": true,
@@ -2014,7 +2014,7 @@ StellarisGraphDataTech = {
       "id": "tech_collective_self",
       "label": "The Collective Self",
       "group": "Society",
-      "title": "<b>The Collective Self</b> (tech_collective_self)<br/><i>Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
+      "title": "<b>The Collective Self</b> (tech_collective_self)<br/><i>Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000<br/>Not for gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_collective_self.png",
       "hasImage": true,
@@ -2433,7 +2433,7 @@ StellarisGraphDataTech = {
       "id": "tech_embodied_dynamism",
       "label": "Embodied Dynamism",
       "group": "Society",
-      "title": "<b>Embodied Dynamism</b> (tech_embodied_dynamism)<br/><i>Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Embodied Dynamism</b> (tech_embodied_dynamism)<br/><i>Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000<br/>Gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_embodied_dynamism.png",
       "hasImage": true,
@@ -2449,7 +2449,7 @@ StellarisGraphDataTech = {
       "id": "tech_epigenetic_triggers",
       "label": "Epigenetic Triggers",
       "group": "Society",
-      "title": "<b>Epigenetic Triggers</b> (tech_epigenetic_triggers)<br/><i>Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
+      "title": "<b>Epigenetic Triggers</b> (tech_epigenetic_triggers)<br/><i>Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/>Not for machine intelligence",
       "level": 11,
       "image": "images/technologies/tech_epigenetic_triggers.png",
       "hasImage": true,
@@ -2511,7 +2511,7 @@ StellarisGraphDataTech = {
       "id": "tech_frontier_health",
       "label": "Genetic Healthcare",
       "group": "Society",
-      "title": "<b>Genetic Healthcare</b> (tech_frontier_health)<br/><i>The colonization of alien worlds has opened up an entirely new field of biomedical research.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500",
+      "title": "<b>Genetic Healthcare</b> (tech_frontier_health)<br/><i>The colonization of alien worlds has opened up an entirely new field of biomedical research.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2500<br/>Not for gestalt consciousness",
       "level": 8,
       "image": "images/technologies/tech_frontier_health.png",
       "hasImage": true,
@@ -2528,7 +2528,7 @@ StellarisGraphDataTech = {
       "id": "tech_frontier_hospital",
       "label": "Cyto-Revitalization",
       "group": "Society",
-      "title": "<b>Cyto-Revitalization</b> (tech_frontier_hospital)<br/><i>As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000",
+      "title": "<b>Cyto-Revitalization</b> (tech_frontier_hospital)<br/><i>As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 12,
       "image": "images/technologies/tech_frontier_hospital.png",
       "hasImage": true,
@@ -2607,7 +2607,7 @@ StellarisGraphDataTech = {
       "id": "tech_galactic_markets",
       "label": "Galactic Markets",
       "group": "Society",
-      "title": "<b>Galactic Markets</b> (tech_galactic_markets)<br/><i>By engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Galactic Markets</b> (tech_galactic_markets)<br/><i>By engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -2646,7 +2646,7 @@ StellarisGraphDataTech = {
       "id": "tech_gene_banks",
       "label": "Gene Banks",
       "group": "Society",
-      "title": "<b>Gene Banks</b> (tech_gene_banks)<br/><i>Gene Banks filter and curate available genomes for deployment in clones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Gene Banks</b> (tech_gene_banks)<br/><i>Gene Banks filter and curate available genomes for deployment in clones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2682,7 +2682,7 @@ StellarisGraphDataTech = {
       "id": "tech_gene_expressions",
       "label": "Targeted Gene Expressions",
       "group": "Society",
-      "title": "<b>Targeted Gene Expressions</b> (tech_gene_expressions)<br/><i>Stricter control of RNA and protein production on the cellular level.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Targeted Gene Expressions</b> (tech_gene_expressions)<br/><i>Stricter control of RNA and protein production on the cellular level.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2702,7 +2702,7 @@ StellarisGraphDataTech = {
       "id": "tech_gene_seed_purification",
       "label": "Gene Seed Purification",
       "group": "Society",
-      "title": "<b>Gene Seed Purification</b> (tech_gene_seed_purification)<br/><i>Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Gene Seed Purification</b> (tech_gene_seed_purification)<br/><i>Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2722,7 +2722,7 @@ StellarisGraphDataTech = {
       "id": "tech_gene_tailoring",
       "label": "Gene Tailoring",
       "group": "Society",
-      "title": "<b>Gene Tailoring</b> (tech_gene_tailoring)<br/><i>Making gene-editing tools widely available is sure to have a positive impact on our development as a species.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000",
+      "title": "<b>Gene Tailoring</b> (tech_gene_tailoring)<br/><i>Making gene-editing tools widely available is sure to have a positive impact on our development as a species.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>8000<br/>Not for machine intelligence",
       "level": 15,
       "image": "images/technologies/tech_gene_tailoring.png",
       "hasImage": true,
@@ -2756,7 +2756,7 @@ StellarisGraphDataTech = {
       "id": "tech_genome_mapping",
       "label": "Genome Mapping",
       "group": "Society",
-      "title": "<b>Genome Mapping</b> (tech_genome_mapping)<br/><i>Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000",
+      "title": "<b>Genome Mapping</b> (tech_genome_mapping)<br/><i>Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Biology<br/><b>Base cost: </b>2000<br/>Not for machine intelligence",
       "level": 7,
       "image": "images/technologies/tech_genome_mapping.png",
       "hasImage": true,
@@ -2770,7 +2770,7 @@ StellarisGraphDataTech = {
       "id": "tech_glandular_acclimation",
       "label": "Glandular Acclimation",
       "group": "Society",
-      "title": "<b>Glandular Acclimation</b> (tech_glandular_acclimation)<br/><i>Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>12000",
+      "title": "<b>Glandular Acclimation</b> (tech_glandular_acclimation)<br/><i>Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>12000<br/>Not for machine intelligence",
       "level": 16,
       "image": "images/technologies/tech_glandular_acclimation.png",
       "hasImage": true,
@@ -2903,7 +2903,7 @@ StellarisGraphDataTech = {
       "id": "tech_holo_entertainment",
       "label": "Holo-Entertainment",
       "group": "Society",
-      "title": "<b>Holo-Entertainment</b> (tech_holo_entertainment)<br/><i>Pioneering use of holographic technology allows for the creation of artificial environments that seem as authentic as the real world. It is the next step of immersive entertainment.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Holo-Entertainment</b> (tech_holo_entertainment)<br/><i>Pioneering use of holographic technology allows for the creation of artificial environments that seem as authentic as the real world. It is the next step of immersive entertainment.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter<br/>Not for gestalt consciousness",
       "color": {
         "border": "#00CE56"
       },
@@ -2967,7 +2967,7 @@ StellarisGraphDataTech = {
       "id": "tech_hyper_entertainment_forum",
       "label": "Hyper-Entertainment Forum",
       "group": "Society",
-      "title": "<b>Hyper-Entertainment Forum</b> (tech_hyper_entertainment_forum)<br/><i>These massive entertainment complexes is where dreams come true. Shopping malls, restaurants, amusement parks, virtual arcades, and more. You dream it - we are it!</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
+      "title": "<b>Hyper-Entertainment Forum</b> (tech_hyper_entertainment_forum)<br/><i>These massive entertainment complexes is where dreams come true. Shopping malls, restaurants, amusement parks, virtual arcades, and more. You dream it - we are it!</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 7,
       "image": "images/technologies/tech_hyper_entertainment_forum.png",
       "hasImage": true,
@@ -3018,7 +3018,7 @@ StellarisGraphDataTech = {
       "id": "tech_interplanetary_commerce",
       "label": "Interplanetary Commerce",
       "group": "Society",
-      "title": "<b>Interplanetary Commerce</b> (tech_interplanetary_commerce)<br/><i>With new planetary markets comes new opportunities for commerce. Business will be booming.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Interplanetary Commerce</b> (tech_interplanetary_commerce)<br/><i>With new planetary markets comes new opportunities for commerce. Business will be booming.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter<br/>Not for gestalt consciousness",
       "color": {
         "border": "#00CE56"
       },
@@ -3052,7 +3052,7 @@ StellarisGraphDataTech = {
       "id": "tech_interstellar_economics",
       "label": "Interstellar Economics",
       "group": "Society",
-      "title": "<b>Interstellar Economics</b> (tech_interstellar_economics)<br/><i>As we journeyed into the cosmos and ventured beyond our home system, we also entered a new era of economics. New markets are appearing a startling rate, and economic theorists are struggling to keep up.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
+      "title": "<b>Interstellar Economics</b> (tech_interstellar_economics)<br/><i>As we journeyed into the cosmos and ventured beyond our home system, we also entered a new era of economics. New markets are appearing a startling rate, and economic theorists are struggling to keep up.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/>Not for gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_interstellar_economics.png",
       "hasImage": true,
@@ -3082,7 +3082,7 @@ StellarisGraphDataTech = {
       "id": "tech_living_state",
       "label": "The Living State",
       "group": "Society",
-      "title": "<b>The Living State</b> (tech_living_state)<br/><i>The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
+      "title": "<b>The Living State</b> (tech_living_state)<br/><i>The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 12,
       "image": "images/technologies/tech_living_state.png",
       "hasImage": true,
@@ -3151,7 +3151,7 @@ StellarisGraphDataTech = {
       "id": "tech_morphogenetic_field_mastery",
       "label": "Morphogenetic Field Mastery",
       "group": "Society",
-      "title": "<b>Morphogenetic Field Mastery</b> (tech_morphogenetic_field_mastery)<br/><i>From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Morphogenetic Field Mastery</b> (tech_morphogenetic_field_mastery)<br/><i>From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -3203,7 +3203,7 @@ StellarisGraphDataTech = {
       "id": "tech_neural_implants",
       "label": "Neural Implants",
       "group": "Society",
-      "title": "<b>Neural Implants</b> (tech_neural_implants)<br/><i>Cognition is little but the processing of sensory input. It can be altered.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
+      "title": "<b>Neural Implants</b> (tech_neural_implants)<br/><i>Cognition is little but the processing of sensory input. It can be altered.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 7,
       "image": "images/technologies/tech_neural_implants.png",
       "hasImage": true,
@@ -3251,7 +3251,7 @@ StellarisGraphDataTech = {
       "id": "tech_nutrient_replication",
       "label": "Nutrient Replication",
       "group": "Society",
-      "title": "<b>Nutrient Replication</b> (tech_nutrient_replication)<br/><i>The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Nutrient Replication</b> (tech_nutrient_replication)<br/><i>The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>24000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -3271,7 +3271,7 @@ StellarisGraphDataTech = {
       "id": "tech_paradise_dome",
       "label": "Idyllic Architecture",
       "group": "Society",
-      "title": "<b>Idyllic Architecture</b> (tech_paradise_dome)<br/><i>With the latest advances in architecture, landscaping and holographic technology, we shall build the homes of the future.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
+      "title": "<b>Idyllic Architecture</b> (tech_paradise_dome)<br/><i>With the latest advances in architecture, landscaping and holographic technology, we shall build the homes of the future.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/>Not for gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_paradise_dome.png",
       "hasImage": true,
@@ -3287,7 +3287,7 @@ StellarisGraphDataTech = {
       "id": "tech_penal_colonies",
       "label": "Penal Colonies",
       "group": "Society",
-      "title": "<b>Penal Colonies</b> (tech_penal_colonies)<br/><i>Through the development of special penal worlds, criminals can be rehabilitated through honest, hard labor. Some may be in need of permanent rehabilitation.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Penal Colonies</b> (tech_penal_colonies)<br/><i>Through the development of special penal worlds, criminals can be rehabilitated through honest, hard labor. Some may be in need of permanent rehabilitation.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3379,7 +3379,7 @@ StellarisGraphDataTech = {
       "id": "tech_precognition_interface",
       "label": "Precognition Interface",
       "group": "Society",
-      "title": "<b>Precognition Interface</b> (tech_precognition_interface)<br/><i>Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Precognition Interface</b> (tech_precognition_interface)<br/><i>Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3417,7 +3417,7 @@ StellarisGraphDataTech = {
       "id": "tech_psi_jump_drive_1",
       "label": "Psi Jump Drive",
       "group": "Society",
-      "title": "<b>Psi Jump Drive</b> (tech_psi_jump_drive_1)<br/><i>The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, Dangerous",
+      "title": "<b>Psi Jump Drive</b> (tech_psi_jump_drive_1)<br/><i>The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, Dangerous<br/>Not for gestalt consciousness",
       "color": {
         "border": "#D30000"
       },
@@ -3477,7 +3477,7 @@ StellarisGraphDataTech = {
       "id": "tech_psionic_theory",
       "label": "Psionic Theory",
       "group": "Society",
-      "title": "<b>Psionic Theory</b> (tech_psionic_theory)<br/><i>The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Psionic Theory</b> (tech_psionic_theory)<br/><i>The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3725,7 +3725,7 @@ StellarisGraphDataTech = {
       "id": "tech_resort_colonies",
       "label": "Resort Worlds",
       "group": "Society",
-      "title": "<b>Resort Worlds</b> (tech_resort_colonies)<br/><i>With careful study devoted to landscaping, climate control, and the science of fun,  construction of entire worlds dedicated to leisure can be made possible.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Resort Worlds</b> (tech_resort_colonies)<br/><i>With careful study devoted to landscaping, climate control, and the science of fun,  construction of entire worlds dedicated to leisure can be made possible.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3745,7 +3745,7 @@ StellarisGraphDataTech = {
       "id": "tech_resource_processing_algorithms",
       "label": "Resource Processing Algorithms",
       "group": "Society",
-      "title": "<b>Resource Processing Algorithms</b> (tech_resource_processing_algorithms)<br/><i>Efficiency in all things.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000",
+      "title": "<b>Resource Processing Algorithms</b> (tech_resource_processing_algorithms)<br/><i>Efficiency in all things.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/>Machine intelligence",
       "level": 15,
       "image": "images/technologies/tech_resource_processing_algorithms.png",
       "hasImage": true,
@@ -3779,7 +3779,7 @@ StellarisGraphDataTech = {
       "id": "tech_selected_lineages",
       "label": "Selected Lineages",
       "group": "Society",
-      "title": "<b>Selected Lineages</b> (tech_selected_lineages)<br/><i>Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Selected Lineages</b> (tech_selected_lineages)<br/><i>Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -3799,7 +3799,7 @@ StellarisGraphDataTech = {
       "id": "tech_slave_colonies",
       "label": "Thrall-Worlds",
       "group": "Society",
-      "title": "<b>Thrall-Worlds</b> (tech_slave_colonies)<br/><i>Through the creation of special slave-breeding worlds, we can ensure that we will always have a steady supply of disposable laborers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Thrall-Worlds</b> (tech_slave_colonies)<br/><i>Through the creation of special slave-breeding worlds, we can ensure that we will always have a steady supply of disposable laborers.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 11,
       "image": "images/technologies/tech_slave_colonies.png",
       "hasImage": true,
@@ -3861,7 +3861,7 @@ StellarisGraphDataTech = {
       "id": "tech_space_trading",
       "label": "Offworld Trade Companies",
       "group": "Society",
-      "title": "<b>Offworld Trade Companies</b> (tech_space_trading)<br/><i>Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000",
+      "title": "<b>Offworld Trade Companies</b> (tech_space_trading)<br/><i>Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 7,
       "image": "images/technologies/tech_space_trading.png",
       "hasImage": true,
@@ -3895,7 +3895,7 @@ StellarisGraphDataTech = {
       "id": "tech_subdermal_stimulation",
       "label": "Subdermal Stimulation",
       "group": "Society",
-      "title": "<b>Subdermal Stimulation</b> (tech_subdermal_stimulation)<br/><i>Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Subdermal Stimulation</b> (tech_subdermal_stimulation)<br/><i>Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3933,7 +3933,7 @@ StellarisGraphDataTech = {
       "id": "tech_synthetic_thought_patterns",
       "label": "Synthetic Thought Patterns",
       "group": "Society",
-      "title": "<b>Synthetic Thought Patterns</b> (tech_synthetic_thought_patterns)<br/><i>Thinking outside the box merely places you in another, somewhat larger box.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Synthetic Thought Patterns</b> (tech_synthetic_thought_patterns)<br/><i>Thinking outside the box merely places you in another, somewhat larger box.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>12000<br/>Not for gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_synthetic_thought_patterns.png",
       "hasImage": true,
@@ -3949,7 +3949,7 @@ StellarisGraphDataTech = {
       "id": "tech_telepathy",
       "label": "Telepathy",
       "group": "Society",
-      "title": "<b>Telepathy</b> (tech_telepathy)<br/><i>Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Telepathy</b> (tech_telepathy)<br/><i>Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -4038,7 +4038,7 @@ StellarisGraphDataTech = {
       "id": "tech_unity_of_purpose",
       "label": "Unity of Purpose",
       "group": "Society",
-      "title": "<b>Unity of Purpose</b> (tech_unity_of_purpose)<br/><i>The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Unity of Purpose</b> (tech_unity_of_purpose)<br/><i>The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/>Gestalt consciousness",
       "level": 11,
       "image": "images/technologies/tech_unity_of_purpose.png",
       "hasImage": true,
@@ -4052,7 +4052,7 @@ StellarisGraphDataTech = {
       "id": "tech_vitality_boosters",
       "label": "Vitality Boosters",
       "group": "Society",
-      "title": "<b>Vitality Boosters</b> (tech_vitality_boosters)<br/><i>Where the body fails, science intervenes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
+      "title": "<b>Vitality Boosters</b> (tech_vitality_boosters)<br/><i>Where the body fails, science intervenes.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/>Not for machine intelligence",
       "level": 11,
       "image": "images/technologies/tech_vitality_boosters.png",
       "hasImage": true,
@@ -4334,7 +4334,7 @@ StellarisGraphDataTech = {
       "id": "tech_binary_motivators",
       "label": "Binary Motivators",
       "group": "Engineering",
-      "title": "<b>Binary Motivators</b> (tech_binary_motivators)<br/><i>These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
+      "title": "<b>Binary Motivators</b> (tech_binary_motivators)<br/><i>These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000<br/>Machine intelligence",
       "level": 15,
       "image": "images/technologies/tech_binary_motivators.png",
       "hasImage": true,
@@ -4693,7 +4693,7 @@ StellarisGraphDataTech = {
       "id": "tech_droid_workers",
       "label": "Droids",
       "group": "Engineering",
-      "title": "<b>Droids</b> (tech_droid_workers)<br/><i>Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Droids</b> (tech_droid_workers)<br/><i>Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 12,
       "image": "images/technologies/tech_droid_workers.png",
       "hasImage": true,
@@ -4885,7 +4885,7 @@ StellarisGraphDataTech = {
       "id": "tech_luxuries_1",
       "label": "Nano-Circuit Assembly",
       "group": "Engineering",
-      "title": "<b>Nano-Circuit Assembly</b> (tech_luxuries_1)<br/><i>With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000",
+      "title": "<b>Nano-Circuit Assembly</b> (tech_luxuries_1)<br/><i>With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 7,
       "image": "images/technologies/tech_luxuries_1.png",
       "hasImage": true,
@@ -4901,7 +4901,7 @@ StellarisGraphDataTech = {
       "id": "tech_luxuries_2",
       "label": "Replicator Kiosks",
       "group": "Engineering",
-      "title": "<b>Replicator Kiosks</b> (tech_luxuries_2)<br/><i>These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000",
+      "title": "<b>Replicator Kiosks</b> (tech_luxuries_2)<br/><i>These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000<br/>Not for gestalt consciousness",
       "level": 15,
       "image": "images/technologies/tech_luxuries_2.png",
       "hasImage": true,
@@ -5074,7 +5074,7 @@ StellarisGraphDataTech = {
       "id": "tech_micro_replicators",
       "label": "Micro-Replicators",
       "group": "Engineering",
-      "title": "<b>Micro-Replicators</b> (tech_micro_replicators)<br/><i>Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "title": "<b>Micro-Replicators</b> (tech_micro_replicators)<br/><i>Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 11,
       "image": "images/technologies/tech_micro_replicators.png",
       "hasImage": true,
@@ -5340,7 +5340,7 @@ StellarisGraphDataTech = {
       "id": "tech_nanite_assemblers",
       "label": "Nanite Assemblers",
       "group": "Engineering",
-      "title": "<b>Nanite Assemblers</b> (tech_nanite_assemblers)<br/><i>Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Nanite Assemblers</b> (tech_nanite_assemblers)<br/><i>Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -5725,7 +5725,7 @@ StellarisGraphDataTech = {
       "id": "tech_robomodding",
       "label": "Machine Template System",
       "group": "Engineering",
-      "title": "<b>Machine Template System</b> (tech_robomodding)<br/><i>Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
+      "title": "<b>Machine Template System</b> (tech_robomodding)<br/><i>Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000<br/>Not for gestalt consciousness",
       "level": 9,
       "image": "images/technologies/tech_robomodding.png",
       "hasImage": true,
@@ -5741,7 +5741,7 @@ StellarisGraphDataTech = {
       "id": "tech_robomodding_m",
       "label": "Machine Template System",
       "group": "Engineering",
-      "title": "<b>Machine Template System</b> (tech_robomodding_m)<br/><i>Standardization of assembly templates allow for improved specialization of the drone population.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
+      "title": "<b>Machine Template System</b> (tech_robomodding_m)<br/><i>Standardization of assembly templates allow for improved specialization of the drone population.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000<br/>Machine intelligence",
       "level": 8,
       "image": "images/technologies/tech_robomodding_m.png",
       "hasImage": true,
@@ -5757,7 +5757,7 @@ StellarisGraphDataTech = {
       "id": "tech_robomodding_points_1",
       "label": "Cross-Model Standardization",
       "group": "Engineering",
-      "title": "<b>Cross-Model Standardization</b> (tech_robomodding_points_1)<br/><i>Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
+      "title": "<b>Cross-Model Standardization</b> (tech_robomodding_points_1)<br/><i>Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000<br/>Not for gestalt consciousness",
       "level": 13,
       "image": "images/technologies/tech_robomodding_points_1.png",
       "hasImage": true,
@@ -5774,7 +5774,7 @@ StellarisGraphDataTech = {
       "id": "tech_robomodding_points_2",
       "label": "Fungible Circuitry",
       "group": "Engineering",
-      "title": "<b>Fungible Circuitry</b> (tech_robomodding_points_2)<br/><i>Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Fungible Circuitry</b> (tech_robomodding_points_2)<br/><i>Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -5795,7 +5795,7 @@ StellarisGraphDataTech = {
       "id": "tech_robotic_workers",
       "label": "Robotic Workers",
       "group": "Engineering",
-      "title": "<b>Robotic Workers</b> (tech_robotic_workers)<br/><i>These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
+      "title": "<b>Robotic Workers</b> (tech_robotic_workers)<br/><i>These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.</i><br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 8,
       "image": "images/technologies/tech_robotic_workers.png",
       "hasImage": true,
@@ -5811,7 +5811,7 @@ StellarisGraphDataTech = {
       "id": "tech_self_assembling_components",
       "label": "Self-Assembling Components",
       "group": "Engineering",
-      "title": "<b>Self-Assembling Components</b> (tech_self_assembling_components)<br/><i>Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>12000",
+      "title": "<b>Self-Assembling Components</b> (tech_self_assembling_components)<br/><i>Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.</i><br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>12000<br/>Machine intelligence",
       "level": 15,
       "image": "images/technologies/tech_self_assembling_components.png",
       "hasImage": true,
@@ -5909,7 +5909,7 @@ StellarisGraphDataTech = {
       "id": "tech_solar_panel_network",
       "label": "Orbital Energy Conversion",
       "group": "Engineering",
-      "title": "<b>Orbital Energy Conversion</b> (tech_solar_panel_network)<br/><i>Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Orbital Energy Conversion</b> (tech_solar_panel_network)<br/><i>Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.</i><br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter<br/>Gestalt consciousness",
       "color": {
         "border": "#00CE56"
       },
@@ -6256,7 +6256,7 @@ StellarisGraphDataTech = {
       "id": "tech_synthetic_leaders",
       "label": "Synthetic Personality Matrix",
       "group": "Engineering",
-      "title": "<b>Synthetic Personality Matrix</b> (tech_synthetic_leaders)<br/><i>Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>24000",
+      "title": "<b>Synthetic Personality Matrix</b> (tech_synthetic_leaders)<br/><i>Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>24000<br/>Not for gestalt consciousness",
       "level": 21,
       "image": "images/technologies/tech_synthetic_leaders.png",
       "hasImage": true,
@@ -6272,7 +6272,7 @@ StellarisGraphDataTech = {
       "id": "tech_synthetic_workers",
       "label": "Synthetics",
       "group": "Engineering",
-      "title": "<b>Synthetics</b> (tech_synthetic_workers)<br/><i>Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous",
+      "title": "<b>Synthetics</b> (tech_synthetic_workers)<br/><i>Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.</i><br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous<br/>Not for gestalt consciousness",
       "color": {
         "border": "#D30000"
       },

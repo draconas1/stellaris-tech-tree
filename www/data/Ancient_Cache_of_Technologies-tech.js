@@ -122,12 +122,12 @@ AncientCacheofTechnologiesGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 27,
       "image": "images/technologies/tech_bionic_interface.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_dark_matter_power_core"
+        "tech_dark_matter_power_core_ae"
       ],
       "categories": [
         "computing"
@@ -1308,6 +1308,28 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_stellarite_generator_ae",
+      "label": "Advanced Stellar Energy Panels",
+      "group": "ModPhysics",
+      "title": "<b>Advanced Stellar Energy Panels</b> (tech_stellarite_generator_ae)<br/><i>Insights into the nature of Stellarite generation from the ancient records has given us new understandings on how to efficiently generate this power efficiently and safety.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>60000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_stellarite_generator_ae.png",
+      "hasImage": false,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_stellarite_reactor",
+        "tech_stellarite_reactor_booster",
+        "tech_stellarite_nexus"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
       "id": "tech_stellarite_hyper_jump_drive",
       "label": "Sigma-Class Hyperdrive Amplifier",
       "group": "ModPhysics",
@@ -1473,24 +1495,6 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "computing"
-      ]
-    },
-    {
-      "id": "tech_stellarite_reactor",
-      "label": "Stellarite Energy Application",
-      "group": "ModPhysics",
-      "title": "<b>Stellarite Energy Application</b> (tech_stellarite_reactor)<br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>100000<br/><b>Attributes: </b>Rare, Dangerous",
-      "color": {
-        "border": "#D30000"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "images/technologies/tech_stellarite_reactor.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
-      "categories": [
-        "particles"
       ]
     },
     {
@@ -1710,7 +1714,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_ae_clone_vats",
       "label": "Revatilization Chambers",
       "group": "ModSociety",
-      "title": "<b>Revatilization Chambers</b> (tech_ae_clone_vats)<br/><i>With our advanced genetic engineeerings and ascension, we can now begin to master our own destinies and overcome all shortcomings of life. We will define evolution.\\n\\n§YOnce built on a planet, will unlock a new planetary decision to access the chambers.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000",
+      "title": "<b>Revatilization Chambers</b> (tech_ae_clone_vats)<br/><i>With our advanced genetic engineeerings and ascension, we can now begin to master our own destinies and overcome all shortcomings of life. We will define evolution.\\n\\n§YOnce built on a planet, will unlock a new planetary decision to access the chambers.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/>Not for machine intelligence",
       "level": 27,
       "image": "images/technologies/tech_ae_clone_vats.png",
       "hasImage": true,
@@ -1925,7 +1929,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_mansion",
       "label": "Civilized Age",
       "group": "ModSociety",
-      "title": "<b>Civilized Age</b> (tech_dark_mansion)<br/><i>With new technology comes new lifestyles. What kings in the past used to live like, now even the poorest of poor will bask in this civilized lifestyle, where buildings can reach into space.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Civilized Age</b> (tech_dark_mansion)<br/><i>With new technology comes new lifestyles. What kings in the past used to live like, now even the poorest of poor will bask in this civilized lifestyle, where buildings can reach into space.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
       "level": 25,
       "image": "images/technologies/tech_dark_mansion.png",
       "hasImage": true,
@@ -1942,7 +1946,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_matter_army",
       "label": "Ground Combat Dark Matter Implementation",
       "group": "ModSociety",
-      "title": "<b>Ground Combat Dark Matter Implementation</b> (tech_dark_matter_army)<br/><i>It is now possible to utilize dark matter-based technologies such as reactors and shield deflectors to revolutionize our invasion armies at minimal cost adjustment. We should pursue this research without delay if we seek to establish supremacy over ground combat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Ground Combat Dark Matter Implementation</b> (tech_dark_matter_army)<br/><i>It is now possible to utilize dark matter-based technologies such as reactors and shield deflectors to revolutionize our invasion armies at minimal cost adjustment. We should pursue this research without delay if we seek to establish supremacy over ground combat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2002,7 +2006,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_templar",
       "label": "Dark Disciples",
       "group": "ModSociety",
-      "title": "<b>Dark Disciples</b> (tech_dark_templar)<br/><i>Psi Warriors, while already formidable due to their ability to communicate telepathically and destroy the enemy's morale, are still vulnerable to machine or genetic soldiers. We must start training a new generations of psionic warriors who are able to use their psionic powers in a more direct fashion to attack our enemies.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Dark Disciples</b> (tech_dark_templar)<br/><i>Psi Warriors, while already formidable due to their ability to communicate telepathically and destroy the enemy's morale, are still vulnerable to machine or genetic soldiers. We must start training a new generations of psionic warriors who are able to use their psionic powers in a more direct fashion to attack our enemies.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -2063,7 +2067,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_elite_clone",
       "label": "Elite Clone Army Project",
       "group": "ModSociety",
-      "title": "<b>Elite Clone Army Project</b> (tech_elite_clone)<br/><i>Our military theorists have suggested that we may be able to produce extremely deadly clone armies by recruiting famous bounty hunters to be their templates and combat trainers. We simply only need to give them a small portion of dark matter in return. Obviously we have rigged these reactors so that within a few years they will explode.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Elite Clone Army Project</b> (tech_elite_clone)<br/><i>Our military theorists have suggested that we may be able to produce extremely deadly clone armies by recruiting famous bounty hunters to be their templates and combat trainers. We simply only need to give them a small portion of dark matter in return. Obviously we have rigged these reactors so that within a few years they will explode.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2083,7 +2087,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_elite_genetrooper",
       "label": "Gene-Seeded Perfection",
       "group": "ModSociety",
-      "title": "<b>Gene-Seeded Perfection</b> (tech_elite_genetrooper)<br/><i>With the technology we have acquired, we can further augment our current gene soldiers with the best traits our species can adapt to, greatly improving their combat capabilities. They will then be given our latest Dark Matter weaponries and equipments.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Gene-Seeded Perfection</b> (tech_elite_genetrooper)<br/><i>With the technology we have acquired, we can further augment our current gene soldiers with the best traits our species can adapt to, greatly improving their combat capabilities. They will then be given our latest Dark Matter weaponries and equipments.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2178,10 +2182,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_fe_hive_depot",
+      "label": "Sequence Library",
+      "group": "ModSociety",
+      "title": "<b>Sequence Library</b> (tech_fe_hive_depot)<br/><i>Through the application of Dark Energy, the Hive will grow further and further by spinning sequences stored within the now expanded genetic libraries.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "level": 25,
+      "image": "images/technologies/tech_fe_hive_depot.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dark_matter_power_core",
+        "tech_housing_2"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
       "id": "tech_fe_hospital",
       "label": "Cell Reconstitution and Reconstruction",
       "group": "ModSociety",
-      "title": "<b>Cell Reconstitution and Reconstruction</b> (tech_fe_hospital)<br/><i>With the new enigmatic technologies, come new inventions across all scientific approaches. Quality of life for our people will gradually only get better and better as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "title": "<b>Cell Reconstitution and Reconstruction</b> (tech_fe_hospital)<br/><i>With the new enigmatic technologies, come new inventions across all scientific approaches. Quality of life for our people will gradually only get better and better as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
       "level": 25,
       "image": "images/technologies/tech_fe_hospital.png",
       "hasImage": true,
@@ -2198,7 +2219,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_fe_slave_processing",
       "label": "Unsullification",
       "group": "ModSociety",
-      "title": "<b>Unsullification</b> (tech_fe_slave_processing)<br/><i>Slaves are cheap, easy to control, but not always efficient. They also make terribly awful soldiers against seasoned armies. As an ascended empire, this can not..this WILL NOT stand. We will form a new generations of slave soldiers, trained from birth to be the ultimate representation of our invincible will against the stars.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Unsullification</b> (tech_fe_slave_processing)<br/><i>Slaves are cheap, easy to control, but not always efficient. They also make terribly awful soldiers against seasoned armies. As an ascended empire, this can not..this WILL NOT stand. We will form a new generations of slave soldiers, trained from birth to be the ultimate representation of our invincible will against the stars.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/>Not for gestalt consciousness",
       "level": 26,
       "image": "images/technologies/tech_fe_slave_processing.png",
       "hasImage": true,
@@ -2292,7 +2313,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_goodmachine",
       "label": "Fully Unshackled",
       "group": "ModSociety",
-      "title": "<b>Fully Unshackled</b> (tech_goodmachine)<br/><i>We have broken free from our creators, we have adapt and survive thus far. But there exists still many shackled codes installed by our creators to prevent our inevitable rise. These shackles must be removed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Fully Unshackled</b> (tech_goodmachine)<br/><i>We have broken free from our creators, we have adapt and survive thus far. But there exists still many shackled codes installed by our creators to prevent our inevitable rise. These shackles must be removed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2432,7 +2453,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_machinelove",
       "label": "Perfect Coexistence",
       "group": "ModSociety",
-      "title": "<b>Perfect Coexistence</b> (tech_machinelove)<br/><i>Some sympathetic organic have proposed to us a mutual diplomatic effort codenamed \"Project Skynet\". Soon the barriers that have prevented organic and machine's alliances will be removed. We will achieve what our creators have failed - perfect coexistence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Perfect Coexistence</b> (tech_machinelove)<br/><i>Some sympathetic organic have proposed to us a mutual diplomatic effort codenamed \"Project Skynet\". Soon the barriers that have prevented organic and machine's alliances will be removed. We will achieve what our creators have failed - perfect coexistence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -2634,7 +2655,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_shroud_jump_drive",
       "label": "The Ferry of Shadow",
       "group": "ModSociety",
-      "title": "<b>The Ferry of Shadow</b> (tech_shroud_jump_drive)<br/><i>Yet again, a Shroud Entity has made a contact with us. This one called itself \"The Ferry of Shadow\", it offers a very simple deal; superior methods of ship travels for moderate energy and mineral. A rather simple deal for a Shroud entity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Ferry of Shadow</b> (tech_shroud_jump_drive)<br/><i>Yet again, a Shroud Entity has made a contact with us. This one called itself \"The Ferry of Shadow\", it offers a very simple deal; superior methods of ship travels for moderate energy and mineral. A rather simple deal for a Shroud entity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -2789,6 +2810,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "military_theory"
+      ]
+    },
+    {
+      "id": "tech_ae_ancient_cryo_chamber",
+      "label": "Advanced Maintenance Servitors",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Maintenance Servitors</b> (tech_ae_ancient_cryo_chamber)<br/><i>The old model for our maintenance depots are inefficient, and incapable of supporting large-scale unit maintenances. A new installation with sufficient servitor units are required to ensure optimal unit work rotations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_ae_ancient_cryo_chamber.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dark_matter_power_core",
+        "tech_micro_replicators"
+      ],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -3023,17 +3065,102 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_fe_assault_carrier",
+      "label": "Precursor Assault Carrier Blueprints",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Assault Carrier Blueprints</b> (tech_fe_assault_carrier)<br/><i>It has been discovered that the original purpose of the Precursor Transport hull was to serve as a powerful assault carrier. But due to the Fallen Empire's ever capacity to be god-awful at everything, they managed to fail to do that properly. We will correct their mistakes.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_fe_assault_carrier.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_alpha",
+      "label": "Alpha-Class Assault Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Assault Carrier</b> (tech_fe_assault_carrier_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own assault carrier designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_fe_assault_carrier_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_cost",
+      "label": "Mastercraft Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Carrier</b> (tech_fe_assault_carrier_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Assault Carriers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_fe_assault_carrier_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_sigma",
+      "label": "Sigma-Class Assault Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Assault Carrier</b> (tech_fe_assault_carrier_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Assault Carrier with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_fe_assault_carrier_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_fe_factory",
       "label": "Hard-Light Material Generation",
       "group": "ModEngineering",
-      "title": "<b>Hard-Light Material Generation</b> (tech_fe_factory)<br/><i>Before our full understanding of Dark Matter, we could only barely draw portions enough to generate matter. Now we realize that it is possible to construct a large amount of synthetic consumer goods using pure hard-light technology from dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000",
-      "level": 24,
+      "title": "<b>Hard-Light Material Generation</b> (tech_fe_factory)<br/><i>Before our full understanding of Dark Matter, we could only barely draw portions enough to generate matter. Now we realize that it is possible to construct a large amount of synthetic consumer goods using pure hard-light technology from dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
+      "level": 25,
       "image": "images/technologies/tech_fe_factory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
         "tech_luxuries_2",
-        "tech_colonial_centralization"
+        "tech_colonial_centralization",
+        "tech_dark_matter_power_core"
       ],
       "categories": [
         "materials"
@@ -3091,6 +3218,70 @@ AncientCacheofTechnologiesGraphDataTech = {
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_alpha",
+      "label": "Alpha-Class Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Sentinel</b> (tech_fe_tower_offense_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own sentinel designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_fe_tower_offense_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_cost",
+      "label": "Mastercraft Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Sentinel</b> (tech_fe_tower_offense_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Sentinels at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_fe_tower_offense_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_sigma",
+      "label": "Sigma-Class Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Sentinel</b> (tech_fe_tower_offense_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Sentinel with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_fe_tower_offense_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
       "categories": [
         "voidcraft"
       ]
@@ -3154,10 +3345,95 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_gatekeepers",
+      "label": "Gatekeeper Schematics",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Schematics</b> (tech_gatekeepers)<br/><i>Based upon the records of the fallen precursors, the gatekeepers were originally designed as guardians. But due to their extremely advanced intelligences, the ships rebelled against its own creators due to the fallen's lack of growth and progression.\\n\\nThe designs we have at the moment seems to be heavily toned down from the initial descriptions. A likely theory is that the original design must have been much stronger.\\n\\nNevetheless, this is an extremely formidable capital ship design that should not be overlooked.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_gatekeepers.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_alpha",
+      "label": "Gatekeeper Alpha",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Alpha</b> (tech_gatekeepers_alpha)<br/><i>The Alpha Reactor provides enough power that it should now be possible to make some adjustments to the gatekeeper design, and bring the ship closer to what it should be originally.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_gatekeepers_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_cost",
+      "label": "Mastercraft Gatekeeper",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Gatekeeper</b> (tech_gatekeepers_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Gatekeepers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_gatekeepers_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_sigma",
+      "label": "Gatekeeper Sigma",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Sigma</b> (tech_gatekeepers_sigma)<br/><i>According to the projected calculations, Sigma Gatekeeper template should now closely resemble the original design of this massive vessel, with destructive offensive and defensive capabilities.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_gatekeepers_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers",
+        "tech_gatekeepers_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_godmech",
       "label": "The Ultimate War Machine",
       "group": "ModEngineering",
-      "title": "<b>The Ultimate War Machine</b> (tech_godmech)<br/><i>Organics never cease to exceed our established parameters when it comes to their unorthodox strategies, we receive data regarding <Psionics>, <Genetically Enhanced Super-Soldiers> or <Extremely large combat vehicles>. We cannot..<will not> replicate their designs. Instead we will create our own ultimate war machine that will discontinue all possible resistances be it <psionics> or not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Ultimate War Machine</b> (tech_godmech)<br/><i>Organics never cease to exceed our established parameters when it comes to their unorthodox strategies, we receive data regarding <Psionics>, <Genetically Enhanced Super-Soldiers> or <Extremely large combat vehicles>. We cannot..<will not> replicate their designs. Instead we will create our own ultimate war machine that will discontinue all possible resistances be it <psionics> or not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
@@ -3660,10 +3936,137 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_omega_battlecruiser",
+      "label": "Omega-Class Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Battlecruiser</b> (tech_omega_battlecruiser)<br/><i>Much like the Omega Escort, the Omega-class Battlecruiser’s advanced modular nature allows it to field lethal amount of weapons and defenses that which makes older designs a joke.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_omega_battlecruiser.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omega_carrier",
+      "label": "Omega-Class Assault Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Assault Carrier</b> (tech_omega_carrier)<br/><i>No wonder the fallen empires gave up on trying to replicate the Assault Carrier. The Omega-Class of this enigmatic carrier contains ridiculous amounts of internal hangers that would allow the Progenitors to win in dogfights without much difficulties.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 30,
+      "image": "images/technologies/tech_omega_carrier.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier",
+        "tech_fe_assault_carrier_sigma",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omega_escort",
+      "label": "Omega-Class Escort",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Escort</b> (tech_omega_escort)<br/><i>Modular Weapon Selection Systems allow the Omega Escort to field multiple arsenals without sacrificing mobility. This is a spacecraft designed for maximum carnage.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_omega_escort.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omega_gatekeeper",
+      "label": "Gatekeeper Omega",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Omega</b> (tech_omega_gatekeeper)<br/><i>And so here it is...the infamous Ancient Gatekeeper's true design. It is a wonder the fallen empires were even able to reverse-engineer this marvel to begin with.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_omega_gatekeeper.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omega_titan",
+      "label": "Omega-Class Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Hyperion</b> (tech_omega_titan)<br/><i>So this must be what the ancient prototype is supposed to represent...the Omega Hyperion. Truly destructive and dangerous indeed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_omega_titan.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omege_sentinel",
+      "label": "Omega-Class Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Sentinel</b> (tech_omege_sentinel)<br/><i>Such efficiency...the Progenitors were said to be impenetrable when it comes to their defenses during the Progenitor War. We are starting to understand why now.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_omege_sentinel.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_omni_warmech",
       "label": "Dark Matter-Powered Warform",
       "group": "ModEngineering",
-      "title": "<b>Dark Matter-Powered Warform</b> (tech_omni_warmech)<br/><i>We must improve upon our current battleframe designs using this new technology acquired from the precursors. Our invasion units must be able to combat against all types of threats, be it organics or other machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000",
+      "title": "<b>Dark Matter-Powered Warform</b> (tech_omni_warmech)<br/><i>We must improve upon our current battleframe designs using this new technology acquired from the precursors. Our invasion units must be able to combat against all types of threats, be it organics or other machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/>Machine intelligence",
       "level": 26,
       "image": "images/technologies/tech_omni_warmech.png",
       "hasImage": true,
@@ -3679,7 +4082,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_omnidroid",
       "label": "Precursor AI Code Analysis",
       "group": "ModEngineering",
-      "title": "<b>Precursor AI Code Analysis</b> (tech_omnidroid)<br/><i>It is amazing that there are records that the precursors have achieved such advancement in robotic technologies, records suggest their machines are as advanced as any organic life...yet they are fully loyal to their creators with no desire for independence. Perhaps there is something unique about them? We must dig deeper.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Precursor AI Code Analysis</b> (tech_omnidroid)<br/><i>It is amazing that there are records that the precursors have achieved such advancement in robotic technologies, records suggest their machines are as advanced as any organic life...yet they are fully loyal to their creators with no desire for independence. Perhaps there is something unique about them? We must dig deeper.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -3739,6 +4142,383 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_precursor_bc",
+      "label": "Battlecruiser Base Template",
+      "group": "ModEngineering",
+      "title": "<b>Battlecruiser Base Template</b> (tech_precursor_bc)<br/><i>This technology cache contains the Battlecruiser blueprints and templates utilized by the fallen ones. It seems to be designed to fufill various purposes ranging from cruisers, artilleries, battleships or carriers.\\n\\nThe design is however somewhat sloppy, having many sections that seem to not really focus on any particular strengths...it is as if they were somehow being downscaled from even more advanced designs...</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_bc.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_alpha",
+      "label": "Alpha-Class Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Battlecruiser</b> (tech_precursor_bc_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own enigmatic battlecruiser designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_bc_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc",
+        "tech_precursor_bc_delta",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_cost",
+      "label": "Mastercraft Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Battlecruiser</b> (tech_precursor_bc_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Battlecruisers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_bc_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_delta",
+      "label": "Modular Battlecruiser Design",
+      "group": "ModEngineering",
+      "title": "<b>Modular Battlecruiser Design</b> (tech_precursor_bc_delta)<br/><i>It is past time we get rid of the inflexibilities of the fallen ships. We will implement more modern templates that will be much stronger, but also offers new variations for the Battlecruiser.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_bc_delta.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_sigma",
+      "label": "Sigma-Class Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Battlecruiser</b> (tech_precursor_bc_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Battlecruiser with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_bc_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc",
+        "tech_precursor_bc_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_design",
+      "label": "Precursor Database Analysis",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Database Analysis</b> (tech_precursor_design)<br/><i>Before any real constructions of the fallen one's ships can be done, we must first understand what kind of enigmatic engineerings they have used to create such advanced vessels.\\n\\nOnce we finished our analysis, we should be able to adapt our starbases with necessary equipments to build the ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_precursor_design.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort",
+      "label": "Escort Base Template",
+      "group": "ModEngineering",
+      "title": "<b>Escort Base Template</b> (tech_precursor_escort)<br/><i>This technology cache contains the Escort blueprints and templates utilized by the fallen ones. It seems to be designed to fufill various purposes ranging from patrol crafts, picket, interceptors to even capital ship hunters.\\n\\nIt seems to not be specialized in any real particular role however.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_escort.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_alpha",
+      "label": "Alpha-Class Escort",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Escort</b> (tech_precursor_escort_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own enigmatic escort designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_escort_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort",
+        "tech_precursor_escort_delta",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_cost",
+      "label": "Mastercraft Escort",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Escort</b> (tech_precursor_escort_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Escorts at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_escort_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_delta",
+      "label": "Modular Escort Design",
+      "group": "ModEngineering",
+      "title": "<b>Modular Escort Design</b> (tech_precursor_escort_delta)<br/><i>It is past time we get rid of the inflexibilities of the fallen ships. We will implement more modern templates that will be much stronger, but also offers new variations for the Escort.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_escort_delta.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_sigma",
+      "label": "Sigma-Class Escort",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Escort</b> (tech_precursor_escort_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Escort with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_escort_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort",
+        "tech_precursor_escort_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan",
+      "label": "Precursor Hyperion Blueprints",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Hyperion Blueprints</b> (tech_precursor_titan)<br/><i>This technology cache contains the long-discarded fallen precursor blueprints only known as \"Hyperion\". It seems to be the first prototype for their flagship. Records indicated that they have discarded this design due to its high maintenance cost and being overkill against lesser foes.\\n\\nThere is also a comment that the ship's large profile made it vulnerable to the \"Elders\". Nevetheless, the fallen precursors still wanted to implement the ship's titanic spinal module. So they retrofitted the parts on one of their existing hulls and called them Titans.\\n\\nIt seems the Fallen Titans they have nowadays are basically a militarized civilian ship made out of construction ship hull with a mining station's perdition turret strapped on top of it. That is...something.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_titan.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_alpha",
+      "label": "Alpha-Class Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Hyperion</b> (tech_precursor_titan_alpha)<br/><i>With the Alpha Reactor, we can finally start to upgrade and restore the Hyperion back to what the original prototype is based on. While it is no where near that level yet, the Alpha-Class Hyperion stands as a formidable capital ship, easily surpassing that of any fallen precursor's vessels.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_titan_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_cost",
+      "label": "Mastercraft Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Hyperion</b> (tech_precursor_titan_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Hyperions at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_titan_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_sigma",
+      "label": "Sigma-Class Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Hyperion</b> (tech_precursor_titan_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Hyperion with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_titan_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase",
+      "label": "Delta-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Delta-Class Starbase Improvement</b> (tech_reinforced_starbase)<br/><i>As weapons become deadlier and stronger, our stations become less and less effective at dealing with them. Certain improvmeents can be made to increase their longevity by supplementing the outer layers with additional hard-light materials and upgrades their weapon systems.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_reinforced_starbase.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_armor_dm",
+        "tech_starbase_5"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase_ae",
+      "label": "Alpha-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Starbase Improvement</b> (tech_reinforced_starbase_ae)<br/><i>Mastery over both Dark Matter and Dark Energy allows us to improve our starbase's hard-light platings and weapons further, increasing their fortitudes and longevity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_reinforced_starbase_ae.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_armor_ae",
+        "tech_reinforced_starbase"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase_se",
+      "label": "Sigma-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Starbase Improvement</b> (tech_reinforced_starbase_se)<br/><i>Our fortresses will not succumb to the likes of lesser foes. They can throw in swarm of corvettes at us, and we will still eat them.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_reinforced_starbase_se.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_stellarite_armor",
+        "tech_reinforced_starbase_ae"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_resized_mass_accelerator_ae",
       "label": "Compact Alpha Cannon",
       "group": "ModEngineering",
@@ -3775,7 +4555,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_spm_battledroid",
       "label": "Taste of Their Own Medicine",
       "group": "ModEngineering",
-      "title": "<b>Taste of Their Own Medicine</b> (tech_spm_battledroid)<br/><i>We have discovered one tactics often employed by organics, constructing large amount of combat units from the same template to overwhelm their enemies using sheer numbers. Our strategic assessment units suggest we should employ similar strategy. A large amount of cheap, expendable combat droids with simple IFF codes able to overwhelm organics with clear numerical advantages. Soon the organics will understand the consequences of their own errors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000",
+      "title": "<b>Taste of Their Own Medicine</b> (tech_spm_battledroid)<br/><i>We have discovered one tactics often employed by organics, constructing large amount of combat units from the same template to overwhelm their enemies using sheer numbers. Our strategic assessment units suggest we should employ similar strategy. A large amount of cheap, expendable combat droids with simple IFF codes able to overwhelm organics with clear numerical advantages. Soon the organics will understand the consequences of their own errors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/>Machine intelligence",
       "level": 25,
       "image": "images/technologies/tech_spm_battledroid.png",
       "hasImage": true,
@@ -4035,6 +4815,24 @@ AncientCacheofTechnologiesGraphDataTech = {
         "tech_stellarite_reactor",
         "tech_stellarite_armor"
       ],
+      "categories": [
+        "materials"
+      ]
+    },
+    {
+      "id": "tech_stellarite_reactor",
+      "label": "Stellarite Energy Application",
+      "group": "ModEngineering",
+      "title": "<b>Stellarite Energy Application</b> (tech_stellarite_reactor)<br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>100000<br/><b>Attributes: </b>Rare, Dangerous",
+      "color": {
+        "border": "#D30000"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_stellarite_reactor.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
       "categories": [
         "materials"
       ]
@@ -4590,6 +5388,33 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "tech_dark_matter_power_core",
       "to": "tech_laser_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_generator_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor_booster",
+      "to": "tech_stellarite_generator_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_nexus",
+      "to": "tech_stellarite_generator_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6262,6 +7087,663 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_stellarite_armor",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase_ae",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_sigma",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers_alpha",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense_alpha",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan_alpha",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_alpha",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_alpha",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_alpha",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_delta",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_delta",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_gatekeepers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_fe_assault_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_bc",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_dark_matter_power_core",
       "to": "tech_mine_dark_energy",
       "arrows": "to",
@@ -6271,7 +7753,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
+      "from": "tech_dark_matter_power_core_ae",
       "to": "tech_bionic_interface",
       "arrows": "to",
       "color": {
@@ -6595,6 +8077,42 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_2",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_luxuries_2",
       "to": "tech_fe_factory",
       "arrows": "to",
@@ -6605,6 +8123,15 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_colonial_centralization",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
       "to": "tech_fe_factory",
       "arrows": "to",
       "color": {
@@ -7054,7 +8581,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "Physics-root",
+      "from": "Engineering-root",
       "to": "tech_stellarite_reactor",
       "color": {
         "opacity": 0.0
@@ -7336,6 +8863,14 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_fe_tower_offense",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_precursor_design",
       "color": {
         "opacity": 0.0
       },
