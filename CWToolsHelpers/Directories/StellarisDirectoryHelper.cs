@@ -50,7 +50,11 @@ namespace CWToolsHelpers.Directories {
         public string Localisation => GetLocalisationDirectory(Root);
         public string Buildings => GetBuildingsDirectory(Root);
 
+        public string Decisions => GetDecisionsDirectory(Root);
+
         public string ComponentTemplates => GetComponentTemplatesDirectory(Root);
+        
+        public string ComponentSets => GetComponentSetsDirectory(Root);
 
         public StellarisDirectoryHelper(string rootDirectory, string grouping = null) {
             Root = rootDirectory;
@@ -69,6 +73,10 @@ namespace CWToolsHelpers.Directories {
         private string GetBuildingsDirectory(string rootDirectory) {
             return Path.Combine(GetCommonDirectory(rootDirectory), "buildings");
         }
+        
+        private string GetDecisionsDirectory(string rootDirectory) {
+            return Path.Combine(GetCommonDirectory(rootDirectory), "decisions");
+        }
 
         public static string GetLocalisationDirectory(string rootDirectory) {
             return Path.Combine(rootDirectory, "localisation");
@@ -84,6 +92,10 @@ namespace CWToolsHelpers.Directories {
 
         public static string GetComponentTemplatesDirectory(string rootDirectory) {
             return Path.Combine(GetCommonDirectory(rootDirectory), "component_templates");
+        }
+        
+        public static string GetComponentSetsDirectory(string rootDirectory) {
+            return Path.Combine(GetCommonDirectory(rootDirectory), "component_sets");
         }
         
         /// <summary>

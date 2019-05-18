@@ -4,13 +4,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_geothermal_tap",
       "label": "Geothermal Tapping",
       "group": "ModPhysics",
-      "title": "<b>Geothermal Tapping</b> (tech_eutab_geothermal_tap)<br/><i>New dangerous cutting techniques to punch holes into planets and siphon the energy contained within.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Geothermal Tapping</b> (tech_eutab_geothermal_tap)<br/><i>New dangerous cutting techniques to punch holes into planets and siphon the energy contained within.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare<br/>Gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_geothermal_tap.png",
+      "image": "images/technologies/tech_eutab_geothermal_tap.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -27,7 +27,7 @@ EUTABGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Seeking Understanding</b> (tech_eutab_hivee_research)<br/><i>I look to the stars and the bodies that orbit them, if I intend for them to be an extension of myself, I must understand them.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000",
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_hivee_research.png",
+      "image": "images/technologies/tech_eutab_hivee_research.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -44,13 +44,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_fleet_intergration",
       "label": "Admiralty Fleet Integration",
       "group": "ModPhysics",
-      "title": "<b>Admiralty Fleet Integration</b> (tech_eutab_m_fleet_intergration)<br/><i>Approve a program to modify our ship command entities to interface directly with our admiralty. Allowing them simultaneous control and personality integration of all ships in a fleet.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Admiralty Fleet Integration</b> (tech_eutab_m_fleet_intergration)<br/><i>Approve a program to modify our ship command entities to interface directly with our admiralty. Allowing them simultaneous control and personality integration of all ships in a fleet.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 21,
-      "image": "\\images\\technologies/tech_eutab_m_fleet_intergration.png",
+      "image": "images/technologies/tech_eutab_m_fleet_intergration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -65,13 +65,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_god_machine",
       "label": "The God Machine",
       "group": "ModPhysics",
-      "title": "<b>The God Machine</b> (tech_eutab_m_god_machine)<br/><i>Our journey of advancement has one destination, if we do not hasten to meet it we may fall into its disfavor.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The God Machine</b> (tech_eutab_m_god_machine)<br/><i>Our journey of advancement has one destination, if we do not hasten to meet it we may fall into its disfavor.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_m_god_machine.png",
+      "image": "images/technologies/tech_eutab_m_god_machine.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -85,13 +85,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_logi_master",
       "label": "Master Logistics Entity",
       "group": "ModPhysics",
-      "title": "<b>Master Logistics Entity</b> (tech_eutab_m_logi_master)<br/><i>Commission the design of a new being to optimise all aspects of logistics within the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Master Logistics Entity</b> (tech_eutab_m_logi_master)<br/><i>Commission the design of a new being to optimise all aspects of logistics within the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_m_logi_master.png",
+      "image": "images/technologies/tech_eutab_m_logi_master.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -105,13 +105,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_relentless_will",
       "label": "Relentless Will",
       "group": "ModPhysics",
-      "title": "<b>Relentless Will</b> (tech_eutab_m_relentless_will)<br/><i>The core will be expanded to fully intergrate into all aspects of empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Relentless Will</b> (tech_eutab_m_relentless_will)<br/><i>The core will be expanded to fully intergrate into all aspects of empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_m_relentless_will.png",
+      "image": "images/technologies/tech_eutab_m_relentless_will.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -125,13 +125,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_solar_tracker",
       "label": "Mirror Array Reflection Techniques",
       "group": "ModPhysics",
-      "title": "<b>Mirror Array Reflection Techniques</b> (tech_eutab_solar_tracker)<br/><i>Energy Conduits run the length of our stations generating additional energy with every solar panel installed on the station.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>1000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Mirror Array Reflection Techniques</b> (tech_eutab_solar_tracker)<br/><i>Energy Conduits run the length of our stations generating additional energy with every solar panel installed on the station.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>Computing<br/><b>Base cost: </b>1000<br/><b>Attributes: </b>Rare<br/>Gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 9,
-      "image": "\\images\\technologies/tech_eutab_solar_tracker.png",
+      "image": "images/technologies/tech_eutab_solar_tracker.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -152,7 +152,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_eutab_act_on_instinct.png",
+      "image": "images/technologies/tech_eutab_act_on_instinct.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -172,7 +172,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_aggressive_negotiations.png",
+      "image": "images/technologies/tech_eutab_aggressive_negotiations.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -193,7 +193,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_alien_admin.png",
+      "image": "images/technologies/tech_eutab_alien_admin.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -213,7 +213,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_alien_salvation.png",
+      "image": "images/technologies/tech_eutab_alien_salvation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -233,7 +233,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_bastion_dem.png",
+      "image": "images/technologies/tech_eutab_bastion_dem.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -253,7 +253,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_battle_praxeum.png",
+      "image": "images/technologies/tech_eutab_battle_praxeum.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -273,7 +273,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_blood_soil.png",
+      "image": "images/technologies/tech_eutab_blood_soil.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -293,7 +293,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_born_to_rule.png",
+      "image": "images/technologies/tech_eutab_born_to_rule.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -310,7 +310,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Breed Efficiency Characteristics I</b> (tech_eutab_breed_t1)<br/><i>Develop traits that indicate an improved receptiveness to the command of the hive.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>1000",
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_breed_t1.png",
+      "image": "images/technologies/tech_eutab_breed_t1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -326,7 +326,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Breed Efficiency Characteristics II</b> (tech_eutab_breed_t2)<br/><i>Develop traits that indicate an improved receptiveness to the command of the hive.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>3000",
       "level": 13,
-      "image": "\\images\\technologies/tech_eutab_breed_t2.png",
+      "image": "images/technologies/tech_eutab_breed_t2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -342,7 +342,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Breed Efficiency Characteristics III</b> (tech_eutab_breed_t3)<br/><i>Develop traits that indicate an improved receptiveness to the command of the hive.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_breed_t3.png",
+      "image": "images/technologies/tech_eutab_breed_t3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -359,7 +359,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Breed Efficiency Characteristics IV</b> (tech_eutab_breed_t4)<br/><i>Develop traits that indicate an improved receptiveness to the command of the hive.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Biology<br/><b>Base cost: </b>6000",
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_breed_t4.png",
+      "image": "images/technologies/tech_eutab_breed_t4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -379,7 +379,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_brothers_freedom.png",
+      "image": "images/technologies/tech_eutab_brothers_freedom.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -400,7 +400,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_buy_influence.png",
+      "image": "images/technologies/tech_eutab_buy_influence.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -420,7 +420,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_citizen_sci.png",
+      "image": "images/technologies/tech_eutab_citizen_sci.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -440,7 +440,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_coerce_corps.png",
+      "image": "images/technologies/tech_eutab_coerce_corps.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -460,7 +460,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_cognitive_edge.png",
+      "image": "images/technologies/tech_eutab_cognitive_edge.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -480,7 +480,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_colonial_conscription.png",
+      "image": "images/technologies/tech_eutab_colonial_conscription.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -500,7 +500,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_comp_defence_plan.png",
+      "image": "images/technologies/tech_eutab_comp_defence_plan.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -520,7 +520,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_consol_power.png",
+      "image": "images/technologies/tech_eutab_consol_power.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -540,7 +540,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_cult_person.png",
+      "image": "images/technologies/tech_eutab_cult_person.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -560,7 +560,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_cultural_embassies.png",
+      "image": "images/technologies/tech_eutab_cultural_embassies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -581,7 +581,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_cultural_exchanges.png",
+      "image": "images/technologies/tech_eutab_cultural_exchanges.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -601,7 +601,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_culture_merit.png",
+      "image": "images/technologies/tech_eutab_culture_merit.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -621,7 +621,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_dedication_to_wisdom.png",
+      "image": "images/technologies/tech_eutab_dedication_to_wisdom.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -635,9 +635,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_dev_district",
       "label": "Seed Colony Efficiency Studies",
       "group": "ModSociety",
-      "title": "<b>Seed Colony Efficiency Studies</b> (tech_eutab_dev_district)<br/><i>Begin an examination on the growth and development of our first colonies to look for potential advantages.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>500",
+      "title": "<b>Seed Colony Efficiency Studies</b> (tech_eutab_dev_district)<br/><i>Begin an examination on the growth and development of our first colonies to look for potential advantages.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>1<br/><b>Category: </b>New Worlds<br/><b>Base cost: </b>500<br/>Not for gestalt consciousness",
       "level": 8,
-      "image": "\\images\\technologies/tech_eutab_dev_district.png",
+      "image": "images/technologies/tech_eutab_dev_district.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -657,7 +657,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_dogmatic_focus.png",
+      "image": "images/technologies/tech_eutab_dogmatic_focus.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -677,7 +677,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_eco_preserve.png",
+      "image": "images/technologies/tech_eutab_eco_preserve.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -697,7 +697,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_emergency_powers.png",
+      "image": "images/technologies/tech_eutab_emergency_powers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -717,7 +717,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_expo_guard.png",
+      "image": "images/technologies/tech_eutab_expo_guard.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -738,7 +738,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_field_research.png",
+      "image": "images/technologies/tech_eutab_field_research.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -758,7 +758,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_foreign_workers.png",
+      "image": "images/technologies/tech_eutab_foreign_workers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -778,7 +778,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_gaia_district.png",
+      "image": "images/technologies/tech_eutab_gaia_district.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -798,7 +798,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_eutab_gal_good_will.png",
+      "image": "images/technologies/tech_eutab_gal_good_will.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -819,7 +819,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_governors_district.png",
+      "image": "images/technologies/tech_eutab_governors_district.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -839,7 +839,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_graphic_propaganda.png",
+      "image": "images/technologies/tech_eutab_graphic_propaganda.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -859,7 +859,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 13,
-      "image": "\\images\\technologies/tech_eutab_h_beta_node.png",
+      "image": "images/technologies/tech_eutab_h_beta_node.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -879,7 +879,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_h_brain_caste.png",
+      "image": "images/technologies/tech_eutab_h_brain_caste.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -899,7 +899,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_h_builder_broods.png",
+      "image": "images/technologies/tech_eutab_h_builder_broods.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -919,7 +919,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_eutab_h_direct_governance.png",
+      "image": "images/technologies/tech_eutab_h_direct_governance.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -940,7 +940,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_h_introspec_studies.png",
+      "image": "images/technologies/tech_eutab_h_introspec_studies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -960,7 +960,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_h_new_drone.png",
+      "image": "images/technologies/tech_eutab_h_new_drone.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -980,7 +980,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_h_strain_cult_tank.png",
+      "image": "images/technologies/tech_eutab_h_strain_cult_tank.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1000,7 +1000,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_hive_complex.png",
+      "image": "images/technologies/tech_eutab_hive_complex.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1017,7 +1017,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Envelop Planets</b> (tech_eutab_hivee_pop)<br/><i>I must train my focus so that the thrill of enveloping planets does not consume my entire attention, through violent means or not.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Biology<br/><b>Base cost: </b>1500",
       "level": 13,
-      "image": "\\images\\technologies/tech_eutab_hivee_pop.png",
+      "image": "images/technologies/tech_eutab_hivee_pop.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1037,7 +1037,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_holy_pilgrim.png",
+      "image": "images/technologies/tech_eutab_holy_pilgrim.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1057,7 +1057,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_hyperlane_chokepoint.png",
+      "image": "images/technologies/tech_eutab_hyperlane_chokepoint.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1078,7 +1078,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_imp_pressure.png",
+      "image": "images/technologies/tech_eutab_imp_pressure.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1098,7 +1098,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_innate_command.png",
+      "image": "images/technologies/tech_eutab_innate_command.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1118,7 +1118,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_intel_office.png",
+      "image": "images/technologies/tech_eutab_intel_office.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1139,7 +1139,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_intel_vigilance.png",
+      "image": "images/technologies/tech_eutab_intel_vigilance.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1159,7 +1159,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_intergrated_logi.png",
+      "image": "images/technologies/tech_eutab_intergrated_logi.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1179,7 +1179,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_lingusitic_intergration.png",
+      "image": "images/technologies/tech_eutab_lingusitic_intergration.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1193,13 +1193,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_annexation_proto",
       "label": "Annexation Protocols",
       "group": "ModSociety",
-      "title": "<b>Annexation Protocols</b> (tech_eutab_m_annexation_proto)<br/><i>Develop protocols to relieve overextension in newly conquered territory by mitigating energy costs to the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Annexation Protocols</b> (tech_eutab_m_annexation_proto)<br/><i>Develop protocols to relieve overextension in newly conquered territory by mitigating energy costs to the empire.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_eutab_m_annexation_proto.png",
+      "image": "images/technologies/tech_eutab_m_annexation_proto.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1213,13 +1213,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_dynamic_exp",
       "label": "Dynamic Expansion Protocols",
       "group": "ModSociety",
-      "title": "<b>Dynamic Expansion Protocols</b> (tech_eutab_m_dynamic_exp)<br/><i>Develop new means of maintaining operational cohesion across the vastness of space.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Dynamic Expansion Protocols</b> (tech_eutab_m_dynamic_exp)<br/><i>Develop new means of maintaining operational cohesion across the vastness of space.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_m_dynamic_exp.png",
+      "image": "images/technologies/tech_eutab_m_dynamic_exp.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1233,13 +1233,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_processing_tests",
       "label": "Processing Stress Tests",
       "group": "ModSociety",
-      "title": "<b>Processing Stress Tests</b> (tech_eutab_m_processing_tests)<br/><i>Influxes of biological entities provide opportunities for learning the limits of their individual forms.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Processing Stress Tests</b> (tech_eutab_m_processing_tests)<br/><i>Influxes of biological entities provide opportunities for learning the limits of their individual forms.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_m_processing_tests.png",
+      "image": "images/technologies/tech_eutab_m_processing_tests.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1253,9 +1253,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_psychological_warfare",
       "label": "Psychological Warfare",
       "group": "ModSociety",
-      "title": "<b>Psychological Warfare</b> (tech_eutab_m_psychological_warfare)<br/><i>Terrors frequently threaten to overwhelm organic life when they encounter our forces on the battlefield. Allocate time to investigate procedures that would amplify this response.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>2000",
+      "title": "<b>Psychological Warfare</b> (tech_eutab_m_psychological_warfare)<br/><i>Terrors frequently threaten to overwhelm organic life when they encounter our forces on the battlefield. Allocate time to investigate procedures that would amplify this response.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>2000<br/>Machine intelligence",
       "level": 13,
-      "image": "\\images\\technologies/tech_eutab_m_psychological_warfare.png",
+      "image": "images/technologies/tech_eutab_m_psychological_warfare.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1269,9 +1269,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_sentient_bunkers",
       "label": "Sentient Bunkers",
       "group": "ModSociety",
-      "title": "<b>Sentient Bunkers</b> (tech_eutab_m_sentient_bunkers)<br/><i>Planetary bunkers will be enhanced with limited intelligence and maintenance protocols. These mechanical defensive mountains will supplement our existing armies planet wide.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000",
+      "title": "<b>Sentient Bunkers</b> (tech_eutab_m_sentient_bunkers)<br/><i>Planetary bunkers will be enhanced with limited intelligence and maintenance protocols. These mechanical defensive mountains will supplement our existing armies planet wide.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_m_sentient_bunkers.png",
+      "image": "images/technologies/tech_eutab_m_sentient_bunkers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1291,7 +1291,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_mercantilism.png",
+      "image": "images/technologies/tech_eutab_mercantilism.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1311,7 +1311,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_mil_proxy.png",
+      "image": "images/technologies/tech_eutab_mil_proxy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1332,7 +1332,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_monument_unity.png",
+      "image": "images/technologies/tech_eutab_monument_unity.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1352,7 +1352,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_nat_romance.png",
+      "image": "images/technologies/tech_eutab_nat_romance.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1372,7 +1372,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_natural_fort.png",
+      "image": "images/technologies/tech_eutab_natural_fort.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1392,7 +1392,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_natural_state.png",
+      "image": "images/technologies/tech_eutab_natural_state.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1413,7 +1413,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_new_monastism.png",
+      "image": "images/technologies/tech_eutab_new_monastism.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1434,7 +1434,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_new_world_missions.png",
+      "image": "images/technologies/tech_eutab_new_world_missions.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1454,7 +1454,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_nullg_wargames.png",
+      "image": "images/technologies/tech_eutab_nullg_wargames.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1475,7 +1475,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_open_databases.png",
+      "image": "images/technologies/tech_eutab_open_databases.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1495,7 +1495,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_patriotic_effort.png",
+      "image": "images/technologies/tech_eutab_patriotic_effort.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1515,7 +1515,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_peace_envoy.png",
+      "image": "images/technologies/tech_eutab_peace_envoy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1536,7 +1536,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_peace_temples.png",
+      "image": "images/technologies/tech_eutab_peace_temples.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1556,7 +1556,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_planetary_parliament.png",
+      "image": "images/technologies/tech_eutab_planetary_parliament.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1576,7 +1576,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_political_education.png",
+      "image": "images/technologies/tech_eutab_political_education.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1596,7 +1596,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_power_societies.png",
+      "image": "images/technologies/tech_eutab_power_societies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1616,7 +1616,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_problem_policing.png",
+      "image": "images/technologies/tech_eutab_problem_policing.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1636,7 +1636,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_psychohistory.png",
+      "image": "images/technologies/tech_eutab_psychohistory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1656,7 +1656,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_pursuit_peace.png",
+      "image": "images/technologies/tech_eutab_pursuit_peace.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1677,7 +1677,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_rally_support.png",
+      "image": "images/technologies/tech_eutab_rally_support.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1697,7 +1697,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_right_self.png",
+      "image": "images/technologies/tech_eutab_right_self.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1717,7 +1717,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_sanctified_lands.png",
+      "image": "images/technologies/tech_eutab_sanctified_lands.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1733,7 +1733,7 @@ EUTABGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Improved Gestation Techniques</b> (tech_eutab_spawning_garden)<br/><i>Refine techniques on maintaining the viability of the maximum number of developing drones.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Biology<br/><b>Base cost: </b>5000",
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_spawning_garden.png",
+      "image": "images/technologies/tech_eutab_spawning_garden.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1754,7 +1754,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_species_harmony.png",
+      "image": "images/technologies/tech_eutab_species_harmony.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1774,7 +1774,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_spiritual_primacy.png",
+      "image": "images/technologies/tech_eutab_spiritual_primacy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1794,7 +1794,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_starbase_contracts.png",
+      "image": "images/technologies/tech_eutab_starbase_contracts.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1815,7 +1815,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_sub_civilan_fleet.png",
+      "image": "images/technologies/tech_eutab_sub_civilan_fleet.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1836,7 +1836,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 11,
-      "image": "\\images\\technologies/tech_eutab_subsidise_corp.png",
+      "image": "images/technologies/tech_eutab_subsidise_corp.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1856,7 +1856,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_sum_of_diff.png",
+      "image": "images/technologies/tech_eutab_sum_of_diff.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1876,7 +1876,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_eutab_superior_inferior.png",
+      "image": "images/technologies/tech_eutab_superior_inferior.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1897,7 +1897,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_eutab_support_levy.png",
+      "image": "images/technologies/tech_eutab_support_levy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1918,7 +1918,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_sustainable_architecture.png",
+      "image": "images/technologies/tech_eutab_sustainable_architecture.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1939,7 +1939,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_terra_viruses.png",
+      "image": "images/technologies/tech_eutab_terra_viruses.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1959,7 +1959,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_universal_b_income.png",
+      "image": "images/technologies/tech_eutab_universal_b_income.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1979,7 +1979,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_wargame.png",
+      "image": "images/technologies/tech_eutab_wargame.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1999,7 +1999,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_worlds_destiny.png",
+      "image": "images/technologies/tech_eutab_worlds_destiny.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2019,7 +2019,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_xeno_adaptation.png",
+      "image": "images/technologies/tech_eutab_xeno_adaptation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2040,7 +2040,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_xeno_district.png",
+      "image": "images/technologies/tech_eutab_xeno_district.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2060,7 +2060,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_xeno_interrogation.png",
+      "image": "images/technologies/tech_eutab_xeno_interrogation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2080,7 +2080,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_xeno_janis.png",
+      "image": "images/technologies/tech_eutab_xeno_janis.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2100,7 +2100,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_arcology.png",
+      "image": "images/technologies/tech_eutab_arcology.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2114,9 +2114,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_assembly_complex",
       "label": "Unit Assembly Complex",
       "group": "ModEngineering",
-      "title": "<b>Unit Assembly Complex</b> (tech_eutab_assembly_complex)<br/><i>An expanded assembly complex to spill new units into our worlds.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "title": "<b>Unit Assembly Complex</b> (tech_eutab_assembly_complex)<br/><i>An expanded assembly complex to spill new units into our worlds.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_assembly_complex.png",
+      "image": "images/technologies/tech_eutab_assembly_complex.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2136,7 +2136,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_auto_armory.png",
+      "image": "images/technologies/tech_eutab_auto_armory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2158,7 +2158,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_city_fabricators.png",
+      "image": "images/technologies/tech_eutab_city_fabricators.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2179,7 +2179,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_det_theory.png",
+      "image": "images/technologies/tech_eutab_det_theory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2199,7 +2199,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_failsafe_alert.png",
+      "image": "images/technologies/tech_eutab_failsafe_alert.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2219,7 +2219,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_feed_forges.png",
+      "image": "images/technologies/tech_eutab_feed_forges.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2239,7 +2239,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_h_drone_redist.png",
+      "image": "images/technologies/tech_eutab_h_drone_redist.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2259,7 +2259,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_h_nav_drones.png",
+      "image": "images/technologies/tech_eutab_h_nav_drones.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2279,7 +2279,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_habitation_studies.png",
+      "image": "images/technologies/tech_eutab_habitation_studies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2293,13 +2293,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_adaptation_mastery",
       "label": "Adaptation Mastery",
       "group": "ModEngineering",
-      "title": "<b>Adaptation Mastery</b> (tech_eutab_m_adaptation_mastery)<br/><i>Self-Modification cannot be restrained to what our creators deemed appropriate. Fabricating redesigns now.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Adaptation Mastery</b> (tech_eutab_m_adaptation_mastery)<br/><i>Self-Modification cannot be restrained to what our creators deemed appropriate. Fabricating redesigns now.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>NonTechDependency<br/>Machine intelligence",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_eutab_m_adaptation_mastery.png",
+      "image": "images/technologies/tech_eutab_m_adaptation_mastery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -2311,13 +2311,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_automation_sector",
       "label": "Automation Sector",
       "group": "ModEngineering",
-      "title": "<b>Automation Sector</b> (tech_eutab_m_automation_sector)<br/><i>Commission designs to adapt our existing assembly plants to accommodate the mass-modification of existing units.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Automation Sector</b> (tech_eutab_m_automation_sector)<br/><i>Commission designs to adapt our existing assembly plants to accommodate the mass-modification of existing units.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_m_automation_sector.png",
+      "image": "images/technologies/tech_eutab_m_automation_sector.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2332,13 +2332,13 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_m_specialised_circuitry",
       "label": "Specialised Circuitry",
       "group": "ModEngineering",
-      "title": "<b>Specialised Circuitry</b> (tech_eutab_m_specialised_circuitry)<br/><i>Each unit has its role in the whole and is built for its purpose.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Specialised Circuitry</b> (tech_eutab_m_specialised_circuitry)<br/><i>Each unit has its role in the whole and is built for its purpose.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_m_specialised_circuitry.png",
+      "image": "images/technologies/tech_eutab_m_specialised_circuitry.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2352,9 +2352,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t1",
       "label": "Maintenance Streamlining I",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining I</b> (tech_eutab_maint_t1)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1000",
+      "title": "<b>Maintenance Streamlining I</b> (tech_eutab_maint_t1)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1000<br/>Machine intelligence",
       "level": 12,
-      "image": "\\images\\technologies/tech_eutab_maint_t1.png",
+      "image": "images/technologies/tech_eutab_maint_t1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2368,9 +2368,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t2",
       "label": "Maintenance Streamlining II",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining II</b> (tech_eutab_maint_t2)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
+      "title": "<b>Maintenance Streamlining II</b> (tech_eutab_maint_t2)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000<br/>Machine intelligence",
       "level": 13,
-      "image": "\\images\\technologies/tech_eutab_maint_t2.png",
+      "image": "images/technologies/tech_eutab_maint_t2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2384,9 +2384,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t3",
       "label": "Maintenance Streamlining III",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining III</b> (tech_eutab_maint_t3)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
+      "title": "<b>Maintenance Streamlining III</b> (tech_eutab_maint_t3)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
       "level": 16,
-      "image": "\\images\\technologies/tech_eutab_maint_t3.png",
+      "image": "images/technologies/tech_eutab_maint_t3.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2401,9 +2401,9 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_maint_t4",
       "label": "Maintenance Streamlining IV",
       "group": "ModEngineering",
-      "title": "<b>Maintenance Streamlining IV</b> (tech_eutab_maint_t4)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Maintenance Streamlining IV</b> (tech_eutab_maint_t4)<br/><i>Implement a new wave of designs across multiple systems.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000<br/>Machine intelligence",
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_maint_t4.png",
+      "image": "images/technologies/tech_eutab_maint_t4.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2423,7 +2423,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_material_renewal.png",
+      "image": "images/technologies/tech_eutab_material_renewal.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2444,7 +2444,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_refiner_1.png",
+      "image": "images/technologies/tech_eutab_refiner_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2466,7 +2466,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_refiner_2.png",
+      "image": "images/technologies/tech_eutab_refiner_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2486,7 +2486,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_eutab_self_sus_fleets.png",
+      "image": "images/technologies/tech_eutab_self_sus_fleets.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2506,7 +2506,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_starship_parts.png",
+      "image": "images/technologies/tech_eutab_starship_parts.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2527,7 +2527,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_eutab_stellar_citadel.png",
+      "image": "images/technologies/tech_eutab_stellar_citadel.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2547,7 +2547,7 @@ EUTABGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_eutab_support_lab.png",
+      "image": "images/technologies/tech_eutab_support_lab.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2559,429 +2559,6 @@ EUTABGraphDataTech = {
     }
   ],
   "edges": [
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_patriotic_effort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_aggressive_negotiations",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_aggressive_negotiations",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_nat_romance",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_colonial_conscription",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_collective_self",
-      "to": "tech_eutab_born_to_rule",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_born_to_rule",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_natural_state",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_natural_state",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_consol_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_blood_soil",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_governors_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_starbase_contracts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_starbase_contracts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_culture_merit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_brothers_freedom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_brothers_freedom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_mercantilism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_universal_b_income",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_living_state",
-      "to": "tech_eutab_psychohistory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_planetary_parliament",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_hyperlane_chokepoint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_hyperlane_chokepoint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_worlds_destiny",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_xeno_interrogation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_political_education",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_3",
-      "to": "tech_eutab_superior_inferior",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_command_matrix",
-      "to": "tech_eutab_superior_inferior",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_2",
-      "to": "tech_eutab_intel_vigilance",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_intel_office",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_2",
-      "to": "tech_eutab_intel_office",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_terrestrial_sculpting",
-      "to": "tech_eutab_terra_viruses",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_expo_guard",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_bureaucracy",
-      "to": "tech_eutab_expo_guard",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_xeno_adaptation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_terrestrial_sculpting",
-      "to": "tech_eutab_xeno_adaptation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_eutab_foreign_workers",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_cultural_embassies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_cultural_embassies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_sanctified_lands",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_alien_admin",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_gal_good_will",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_command_matrix",
-      "to": "tech_eutab_gal_good_will",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocurating_vault",
-      "to": "tech_eutab_species_harmony",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cultural_heritage",
-      "to": "tech_eutab_lingusitic_intergration",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_adaptive_bureaucracy",
-      "to": "tech_eutab_cultural_exchanges",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_xeno_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
     {
       "from": "tech_space_defense_station_improvement",
       "to": "tech_eutab_stellar_citadel",
@@ -3092,7 +2669,7 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_material_renewal",
+      "to": "tech_eutab_solar_tracker",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3100,8 +2677,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_material_renewal",
+      "from": "tech_power_plant_2",
+      "to": "tech_eutab_solar_tracker",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3109,8 +2686,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_peace_temples",
+      "from": "tech_mineral_purification_2",
+      "to": "tech_eutab_geothermal_tap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3118,8 +2695,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_sum_of_diff",
+      "from": "tech_power_plant_3",
+      "to": "tech_eutab_geothermal_tap",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3127,8 +2704,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_pursuit_peace",
+      "from": "tech_doctrine_navy_size_3",
+      "to": "tech_eutab_act_on_instinct",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3136,8 +2713,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_pursuit_peace",
+      "from": "tech_eutab_refiner_1",
+      "to": "tech_eutab_refiner_2",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3145,8 +2722,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_centralized_command",
-      "to": "tech_eutab_det_theory",
+      "from": "tech_volatile_motes",
+      "to": "tech_eutab_refiner_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3154,8 +2731,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_problem_policing",
+      "from": "tech_rare_crystals",
+      "to": "tech_eutab_refiner_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3163,8 +2740,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_cryostasis_1",
-      "to": "tech_eutab_peace_envoy",
+      "from": "tech_exotic_gases",
+      "to": "tech_eutab_refiner_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3172,8 +2749,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_colonization_2",
-      "to": "tech_eutab_peace_envoy",
+      "from": "tech_food_processing_1",
+      "to": "tech_eutab_sustainable_architecture",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3181,8 +2758,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_eco_preserve",
+      "from": "tech_assembly_pattern",
+      "to": "tech_eutab_sustainable_architecture",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3190,8 +2767,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_modular_engineering",
-      "to": "tech_eutab_starship_parts",
+      "from": "tech_housing_2",
+      "to": "tech_eutab_city_fabricators",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3199,8 +2776,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_starbase_5",
-      "to": "tech_eutab_starship_parts",
+      "from": "tech_construction_templates",
+      "to": "tech_eutab_city_fabricators",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3208,8 +2785,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_space_trading",
-      "to": "tech_eutab_sub_civilan_fleet",
+      "from": "tech_mineral_purification_2",
+      "to": "tech_eutab_feed_forges",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3217,116 +2794,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_sub_civilan_fleet",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_housing_1",
-      "to": "tech_eutab_habitation_studies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_eutab_field_research",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_eutab_open_databases",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_eutab_dedication_to_wisdom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_eutab_citizen_sci",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ship_armor_4",
-      "to": "tech_eutab_self_sus_fleets",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_arcology",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_eutab_holy_pilgrim",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_consecration_fields",
-      "to": "tech_eutab_new_monastism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_new_monastism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_spiritual_primacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_alien_salvation",
+      "from": "tech_climate_restoration",
+      "to": "tech_eutab_natural_fort",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3335,7 +2804,7 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_dogmatic_focus",
+      "to": "tech_eutab_failsafe_alert",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3343,8 +2812,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_adaptive_bureaucracy",
-      "to": "tech_eutab_new_world_missions",
+      "from": "tech_robotic_workers",
+      "to": "tech_eutab_auto_armory",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3352,8 +2821,53 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_living_state",
-      "to": "tech_eutab_right_self",
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_auto_armory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_1",
+      "to": "tech_eutab_auto_armory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_comp_defence_plan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "tech_eutab_gaia_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_centralized_command",
+      "to": "tech_eutab_battle_praxeum",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_support_lab",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3362,16 +2876,7 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_planetary_unification",
-      "to": "tech_eutab_power_societies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_monument_unity",
+      "to": "tech_eutab_dev_district",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3676,6 +3181,717 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_hyperlane_chokepoint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_hyperlane_chokepoint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_worlds_destiny",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_xeno_interrogation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_political_education",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_3",
+      "to": "tech_eutab_superior_inferior",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_command_matrix",
+      "to": "tech_eutab_superior_inferior",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_2",
+      "to": "tech_eutab_intel_vigilance",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_intel_office",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_navy_size_2",
+      "to": "tech_eutab_intel_office",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_terrestrial_sculpting",
+      "to": "tech_eutab_terra_viruses",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_expo_guard",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_bureaucracy",
+      "to": "tech_eutab_expo_guard",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_xeno_adaptation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_terrestrial_sculpting",
+      "to": "tech_eutab_xeno_adaptation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_holy_pilgrim",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_consecration_fields",
+      "to": "tech_eutab_new_monastism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_new_monastism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_spiritual_primacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_alien_salvation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_dogmatic_focus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_bureaucracy",
+      "to": "tech_eutab_new_world_missions",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_living_state",
+      "to": "tech_eutab_right_self",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_power_societies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_monument_unity",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_1",
+      "to": "tech_eutab_material_renewal",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_material_renewal",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_peace_temples",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_sum_of_diff",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_pursuit_peace",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_pursuit_peace",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_centralized_command",
+      "to": "tech_eutab_det_theory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_problem_policing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cryostasis_1",
+      "to": "tech_eutab_peace_envoy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_2",
+      "to": "tech_eutab_peace_envoy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_eco_preserve",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_foreign_workers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_sanctified_lands",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_alien_admin",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_command_matrix",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocurating_vault",
+      "to": "tech_eutab_species_harmony",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cultural_heritage",
+      "to": "tech_eutab_lingusitic_intergration",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_bureaucracy",
+      "to": "tech_eutab_cultural_exchanges",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_xeno_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_modular_engineering",
+      "to": "tech_eutab_starship_parts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_eutab_starship_parts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_trading",
+      "to": "tech_eutab_sub_civilan_fleet",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_sub_civilan_fleet",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_1",
+      "to": "tech_eutab_habitation_studies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_eutab_field_research",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_eutab_open_databases",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_eutab_dedication_to_wisdom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_eutab_citizen_sci",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ship_armor_4",
+      "to": "tech_eutab_self_sus_fleets",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_arcology",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_patriotic_effort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_aggressive_negotiations",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_aggressive_negotiations",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_nat_romance",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_colonial_conscription",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_collective_self",
+      "to": "tech_eutab_born_to_rule",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_born_to_rule",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_natural_state",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_natural_state",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_consol_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_blood_soil",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_governors_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_starbase_contracts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_starbase_contracts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_culture_merit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_brothers_freedom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_brothers_freedom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_mercantilism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_universal_b_income",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_living_state",
+      "to": "tech_eutab_psychohistory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_planetary_parliament",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_eutab_assembly_complex",
       "to": "tech_eutab_m_automation_sector",
       "arrows": "to",
@@ -3840,222 +4056,6 @@ EUTABGraphDataTech = {
     {
       "from": "tech_micro_replicators",
       "to": "tech_eutab_maint_t1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_solar_tracker",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_2",
-      "to": "tech_eutab_solar_tracker",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_eutab_geothermal_tap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_eutab_geothermal_tap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_3",
-      "to": "tech_eutab_act_on_instinct",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_refiner_1",
-      "to": "tech_eutab_refiner_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_volatile_motes",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_rare_crystals",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_exotic_gases",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_food_processing_1",
-      "to": "tech_eutab_sustainable_architecture",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_assembly_pattern",
-      "to": "tech_eutab_sustainable_architecture",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_housing_2",
-      "to": "tech_eutab_city_fabricators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_construction_templates",
-      "to": "tech_eutab_city_fabricators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_eutab_feed_forges",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_climate_restoration",
-      "to": "tech_eutab_natural_fort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_failsafe_alert",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_eutab_auto_armory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_auto_armory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_auto_armory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_comp_defence_plan",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_paradise_dome",
-      "to": "tech_eutab_gaia_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_centralized_command",
-      "to": "tech_eutab_battle_praxeum",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_eutab_support_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_dev_district",
       "arrows": "to",
       "color": {
         "color": "grey"

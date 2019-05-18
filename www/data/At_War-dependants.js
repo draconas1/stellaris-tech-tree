@@ -5,9 +5,9 @@ AtWarGraphDataDependants = {
       "id": "eac_pdf_base",
       "label": "Planetary Defense Force Base",
       "group": "Building",
-      "title": "<b>Planetary Defense Force Base</b> (eac_pdf_base)<br/><i>Home for the Planetary Defense Force. Use the planetary decision '§BPlanetary Defense Force§!' to interact with the base.</i><br/><b>Mod: </b>At War_ Planetary Defense Force<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals<br/><b>Upkeep:</b> 6 Energy Credits, 2 Alloys",
+      "title": "<b>Planetary Defense Force Base</b> (eac_pdf_base)<br/><i>Home for the Planetary Defense Force. Use the planetary decision '§BPlanetary Defense Force§!' to interact with the base.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals<br/><b>Upkeep:</b> 6 Energy Credits, 2 Alloys<br/><b>Planetary Defense Shipwright Jobs:</b> +2<br/><b>Planetary Defense Shipwbuilding Drone Jobs:</b> +2",
       "level": 6,
-      "image": "\\images\\buildings/eac_pdf_base.png",
+      "image": "images/buildings/eac_pdf_base.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -18,9 +18,9 @@ AtWarGraphDataDependants = {
       "id": "eac_building_planetary_rail_scattergun",
       "label": "Planetary Railgun Battery",
       "group": "Building",
-      "title": "<b>Planetary Railgun Battery</b> (eac_building_planetary_rail_scattergun)<br/><i>This emplacement fires an array of 20 projectiles using twin parallel electromagetic rails to rapidly accelerate them towards targets.\\n§HStats§!\\nAccuracy: §Y40%§!\\nHull Damage / projectile: §Y20 - 35§!\\nCooldown: §Y4§! £resource_time \\nAverage Damage / projectile: §Y2.75§! / £resource_time</i><br/><b>Mod: </b>At War_ Planetary Cannons<br/><b>Build Time: </b>360<br/><b>Category: </b>Army<br/><b>Cost:</b> 600 Minerals, 100 Volatile Motes<br/><b>Upkeep:</b> 8 Energy Credits, 2 Volatile Motes",
+      "title": "<b>Planetary Railgun Battery</b> (eac_building_planetary_rail_scattergun)<br/><i>This emplacement fires an array of 20 projectiles using twin parallel electromagetic rails to rapidly accelerate them towards targets.\\n§HStats§!\\nAccuracy: §Y40%§!\\nHull Damage / projectile: §Y20 - 35§!\\nCooldown: §Y4§! £resource_time \\nAverage Damage / projectile: §Y2.75§! / £resource_time</i><br/><b>Mod: </b>At War: Planetary Cannons<br/><b>Build Time: </b>360<br/><b>Category: </b>Army<br/><b>Cost:</b> 600 Minerals, 100 Volatile Motes<br/><b>Upkeep:</b> 8 Energy Credits, 2 Volatile Motes<br/><b>Kinetic Weapon Technician Jobs:</b> +2<br/><b>Kinetic Weapon Drone Jobs:</b> +2",
       "level": 16,
-      "image": "\\images\\buildings/eac_building_planetary_rail_scattergun.png",
+      "image": "images/buildings/eac_building_planetary_rail_scattergun.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -31,9 +31,9 @@ AtWarGraphDataDependants = {
       "id": "eac_building_planetary_coil_scattergun",
       "label": "Planetary Coilgun Battery",
       "group": "Building",
-      "title": "<b>Planetary Coilgun Battery</b> (eac_building_planetary_coil_scattergun)<br/><i>This emplacement fires an array of 20 projectiles using electromagnetic coils to rapidly accelerate them towards targets.\\n§HStats§!\\nAccuracy: §Y35%§!\\nHull Damage / projectile: §Y10 - 25§!\\nCooldown: §Y3§! £resource_time \\nAverage Damage / projectile: §Y2.00§! / £resource_time</i><br/><b>Mod: </b>At War_ Planetary Cannons<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals, 50 Volatile Motes<br/><b>Upkeep:</b> 6 Energy Credits, 1 Volatile Motes",
+      "title": "<b>Planetary Coilgun Battery</b> (eac_building_planetary_coil_scattergun)<br/><i>This emplacement fires an array of 20 projectiles using electromagnetic coils to rapidly accelerate them towards targets.\\n§HStats§!\\nAccuracy: §Y35%§!\\nHull Damage / projectile: §Y10 - 25§!\\nCooldown: §Y3§! £resource_time \\nAverage Damage / projectile: §Y2.00§! / £resource_time</i><br/><b>Mod: </b>At War: Planetary Cannons<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals, 50 Volatile Motes<br/><b>Upkeep:</b> 6 Energy Credits, 1 Volatile Motes<br/><b>Kinetic Weapon Technician Jobs:</b> +1<br/><b>Kinetic Weapon Drone Jobs:</b> +1",
       "level": 8,
-      "image": "\\images\\buildings/eac_building_planetary_coil_scattergun.png",
+      "image": "images/buildings/eac_building_planetary_coil_scattergun.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -44,9 +44,9 @@ AtWarGraphDataDependants = {
       "id": "eac_building_planetary_tachyon_cannon",
       "label": "Planetary Tachyon Cannon",
       "group": "Building",
-      "title": "<b>Planetary Tachyon Cannon</b> (eac_building_planetary_tachyon_cannon)<br/><i>This emplacement fires a tachyon beam of immense power.\\n§HStats§!\\n §W Accuracy: §! §Y65%§!\\nHull Damage: §Y1,000 - 5,000§!\\nCooldown: §Y10§! £resource_time \\nAverage Damage: §Y195.00§! / £resource_time</i><br/><b>Mod: </b>At War_ Planetary Cannons<br/><b>Build Time: </b>450<br/><b>Category: </b>Army<br/><b>Cost:</b> 800 Minerals, 100 Rare Crystals<br/><b>Upkeep:</b> 10 Energy Credits, 3 Rare Crystals",
+      "title": "<b>Planetary Tachyon Cannon</b> (eac_building_planetary_tachyon_cannon)<br/><i>This emplacement fires a tachyon beam of immense power.\\n§HStats§!\\n §W Accuracy: §! §Y65%§!\\nHull Damage: §Y1,000 - 5,000§!\\nCooldown: §Y10§! £resource_time \\nAverage Damage: §Y195.00§! / £resource_time</i><br/><b>Mod: </b>At War: Planetary Cannons<br/><b>Build Time: </b>450<br/><b>Category: </b>Army<br/><b>Cost:</b> 800 Minerals, 100 Rare Crystals<br/><b>Upkeep:</b> 10 Energy Credits, 3 Rare Crystals<br/><b>Energy Weapon Technician Jobs:</b> +3<br/><b>Energy Weapon Drone Jobs:</b> +3",
       "level": 22,
-      "image": "\\images\\buildings/eac_building_planetary_tachyon_cannon.png",
+      "image": "images/buildings/eac_building_planetary_tachyon_cannon.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -57,9 +57,9 @@ AtWarGraphDataDependants = {
       "id": "eac_building_planetary_neutron_cannon",
       "label": "Planetary Neutron Cannon",
       "group": "Building",
-      "title": "<b>Planetary Neutron Cannon</b> (eac_building_planetary_neutron_cannon)<br/><i>This emplacement fires energy projectiles that consist of tightly concentrated neutrons capable of causing immense damage to the hull of enemy ships.\\n§HStats§!\\nAccuracy: §Y60%§!\\nHull Damage: §Y500 - 1,500§!\\nCooldown: §Y7§! £resource_time \\nAverage Damage: §Y85.71§! / £resource_time</i><br/><b>Mod: </b>At War_ Planetary Cannons<br/><b>Build Time: </b>360<br/><b>Category: </b>Army<br/><b>Cost:</b> 600 Minerals, 75 Rare Crystals<br/><b>Upkeep:</b> 8 Energy Credits, 2 Rare Crystals",
+      "title": "<b>Planetary Neutron Cannon</b> (eac_building_planetary_neutron_cannon)<br/><i>This emplacement fires energy projectiles that consist of tightly concentrated neutrons capable of causing immense damage to the hull of enemy ships.\\n§HStats§!\\nAccuracy: §Y60%§!\\nHull Damage: §Y500 - 1,500§!\\nCooldown: §Y7§! £resource_time \\nAverage Damage: §Y85.71§! / £resource_time</i><br/><b>Mod: </b>At War: Planetary Cannons<br/><b>Build Time: </b>360<br/><b>Category: </b>Army<br/><b>Cost:</b> 600 Minerals, 75 Rare Crystals<br/><b>Upkeep:</b> 8 Energy Credits, 2 Rare Crystals<br/><b>Energy Weapon Technician Jobs:</b> +2<br/><b>Energy Weapon Drone Jobs:</b> +2",
       "level": 20,
-      "image": "\\images\\buildings/eac_building_planetary_neutron_cannon.png",
+      "image": "images/buildings/eac_building_planetary_neutron_cannon.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -70,9 +70,9 @@ AtWarGraphDataDependants = {
       "id": "eac_building_planetary_proton_cannon",
       "label": "Planetary Proton Cannon",
       "group": "Building",
-      "title": "<b>Planetary Proton Cannon</b> (eac_building_planetary_proton_cannon)<br/><i>This emplacement fires energy projectiles that consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships\\n§HStats§!\\nAccuracy: §Y50%§!\\nHull Damage: §Y100 - 500§!\\nCooldown: §Y5§! £resource_time \\nAverage Damage: §Y30.00§! / £resource_time</i><br/><b>Mod: </b>At War_ Planetary Cannons<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals, 50 Rare Crystals<br/><b>Upkeep:</b> 6 Energy Credits, 1 Rare Crystals",
+      "title": "<b>Planetary Proton Cannon</b> (eac_building_planetary_proton_cannon)<br/><i>This emplacement fires energy projectiles that consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships\\n§HStats§!\\nAccuracy: §Y50%§!\\nHull Damage: §Y100 - 500§!\\nCooldown: §Y5§! £resource_time \\nAverage Damage: §Y30.00§! / £resource_time</i><br/><b>Mod: </b>At War: Planetary Cannons<br/><b>Build Time: </b>270<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals, 50 Rare Crystals<br/><b>Upkeep:</b> 6 Energy Credits, 1 Rare Crystals<br/><b>Energy Weapon Technician Jobs:</b> +1<br/><b>Energy Weapon Drone Jobs:</b> +1",
       "level": 17,
-      "image": "\\images\\buildings/eac_building_planetary_proton_cannon.png",
+      "image": "images/buildings/eac_building_planetary_proton_cannon.png",
       "hasImage": true,
       "nodeType": "building",
       "prerequisites": [
@@ -80,12 +80,25 @@ AtWarGraphDataDependants = {
       ]
     },
     {
-      "id": "combat_computers_PRECOG",
-      "label": "Combat Computers",
+      "id": "thruster_components_5",
+      "label": "Dark Matter Thrusters",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_PRECOG)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War_ Advanced Ship Sections<br/><br/><b>Precognitive Interface (Artillery - Max Range)</b><br/><b>Cost:</b> 20 Alloys<br/><br/><b>Precognitive Interface (Artillery - Long Range)</b><br/><b>Cost:</b> 20 Alloys",
+      "title": "<b>Thrusters</b> (thruster_components_5)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.</i><br/><br/><b>Patrol Craft I & Patrol Craft II THRUSTER_5</b><br/><b>Cost:</b> 12 Alloys, 1 Dark Matter<br/><b>Power:</b> -30<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +20",
+      "level": 25,
+      "image": "images/ship_parts/thruster_components_5.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dark_matter_propulsion"
+      ]
+    },
+    {
+      "id": "combat_computers_PRECOG",
+      "label": "Precognitive Interface",
+      "group": "Dependant",
+      "title": "<b>Combat Computers</b> (combat_computers_PRECOG)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War: Advanced Ship Sections<br/><i></i><br/><br/><b>Military Ship Precognitive Interface (Artillery - Max Range)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +10<br/><br/><b>Military Ship Precognitive Interface (Artillery - Long Range)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +10",
       "level": 20,
-      "image": "\\images\\ship_parts/combat_computers_PRECOG.png",
+      "image": "images/ship_parts/combat_computers_PRECOG.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -94,11 +107,11 @@ AtWarGraphDataDependants = {
     },
     {
       "id": "combat_computers_AUTONOMOUS",
-      "label": "Combat Computers",
+      "label": "Autonomous Ship Intellects",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_AUTONOMOUS)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War_ Planetary Defense Force<br/><br/><b>Autonomous Ship Intellect (Picket)</b><br/><b>Cost:</b> 20 Alloys<br/><br/><b>Autonomous Ship Intellect (Swarm)</b><br/><b>Cost:</b> 20 Alloys",
+      "title": "<b>Combat Computers</b> (combat_computers_AUTONOMOUS)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.</i><br/><br/><b>Military Ship Autonomous Ship Intellect (Picket)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Evasion:</b> +10%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Tracking:</b> +30<br/><br/><b>Military Ship Autonomous Ship Intellect (Swarm)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Evasion:</b> +25%<br/><b>Ship Fire Rate:</b> +15%",
       "level": 20,
-      "image": "\\images\\ship_parts/combat_computers_AUTONOMOUS.png",
+      "image": "images/ship_parts/combat_computers_AUTONOMOUS.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -107,11 +120,11 @@ AtWarGraphDataDependants = {
     },
     {
       "id": "combat_computers_SAPIENT",
-      "label": "Combat Computers",
+      "label": "Sapient Combat AI",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_SAPIENT)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War_ Advanced Ship Sections<br/><br/><b>Sapient Combat Computer (Artillery - Max Range)</b><br/><b>Cost:</b> 20 Alloys<br/><br/><b>Sapient Combat Computer (Artillery - Long Range)</b><br/><b>Cost:</b> 20 Alloys",
+      "title": "<b>Combat Computers</b> (combat_computers_SAPIENT)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War: Advanced Ship Sections<br/><i>Exploiting our sapient AI's sense of self-preservation, or fear of death, should greatly enhance its responsiveness in combat.</i><br/><br/><b>Military Ship Sapient Combat Computer (Artillery - Max Range)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Ship Fire Rate:</b> +20%<br/><b>Ship Weapons Range:</b> +20%<br/><br/><b>Military Ship Sapient Combat Computer (Artillery - Long Range)</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -25<br/><b>Ship Fire Rate:</b> +20%<br/><b>Ship Weapons Range:</b> +20%",
       "level": 21,
-      "image": "\\images\\ship_parts/combat_computers_SAPIENT.png",
+      "image": "images/ship_parts/combat_computers_SAPIENT.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -120,11 +133,11 @@ AtWarGraphDataDependants = {
     },
     {
       "id": "combat_computers_ADVANCED",
-      "label": "Combat Computers",
+      "label": "Advanced Combat Roles",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_ADVANCED)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War_ Advanced Ship Sections<br/><br/><b>Advanced Combat Computer (Artillery - Max Range)</b><br/><b>Cost:</b> 10 Alloys<br/><br/><b>Advanced Combat Computer (Artillery - Long Range)</b><br/><b>Cost:</b> 10 Alloys",
+      "title": "<b>Combat Computers</b> (combat_computers_ADVANCED)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War: Advanced Ship Sections<br/><i>Further advances in adaptive combat algorithms enables our shipboard AI to handle its assigned role far more effectively.</i><br/><br/><b>Military Ship Advanced Combat Computer (Artillery - Max Range)</b><br/><b>Cost:</b> 10 Alloys<br/><b>Power:</b> -15<br/><b>Ship Fire Rate:</b> +10%<br/><b>Ship Weapons Range:</b> +10%<br/><br/><b>Military Ship Advanced Combat Computer (Artillery - Long Range)</b><br/><b>Cost:</b> 10 Alloys<br/><b>Power:</b> -15<br/><b>Ship Fire Rate:</b> +10%<br/><b>Ship Weapons Range:</b> +10%",
       "level": 16,
-      "image": "\\images\\ship_parts/combat_computers_ADVANCED.png",
+      "image": "images/ship_parts/combat_computers_ADVANCED.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -133,11 +146,11 @@ AtWarGraphDataDependants = {
     },
     {
       "id": "combat_computers_BASIC",
-      "label": "Combat Computers",
+      "label": "Basic Combat Roles",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_BASIC)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War_ Planetary Defense Force<br/><br/><b>Combat Computer (Picket)</b><br/><b>Cost:</b> 5 Alloys<br/><br/><b>Combat Computer (Swarm)</b><br/><b>Cost:</b> 5 Alloys",
+      "title": "<b>Combat Computers</b> (combat_computers_BASIC)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>Recent progress in AI behavioral theory allows us to designate specific combat roles to our shipboard computers.</i><br/><br/><b>Military Ship Combat Computer (Picket)</b><br/><b>Cost:</b> 5 Alloys<br/><b>Power:</b> -10<br/><b>Ship Fire Rate:</b> +5%<br/><b>Tracking:</b> +10<br/><br/><b>Military Ship Combat Computer (Swarm)</b><br/><b>Cost:</b> 5 Alloys<br/><b>Power:</b> -10<br/><b>Evasion:</b> +5%<br/><b>Ship Fire Rate:</b> +5%",
       "level": 9,
-      "image": "\\images\\ship_parts/combat_computers_BASIC.png",
+      "image": "images/ship_parts/combat_computers_BASIC.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -145,12 +158,220 @@ AtWarGraphDataDependants = {
       ]
     },
     {
-      "id": "EAC_CARRIER_RADAR",
-      "label": "Carrier Radar",
+      "id": "thruster_components_4",
+      "label": "Impulse Thruster",
       "group": "Dependant",
-      "title": "<b>Carrier Radar</b> (EAC_CARRIER_RADAR)<br/><i>Carrier radar to target ships at a very long distance (450)</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Carrier Radar</b><br/><b>Cost:</b> 20 Alloys",
+      "title": "<b>Thrusters</b> (thruster_components_4)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.</i><br/><br/><b>Patrol Craft I & Patrol Craft II THRUSTER_4</b><br/><b>Cost:</b> 12 Alloys<br/><b>Power:</b> -25<br/><b>Base Ship Speed:</b> +75%<br/><b>Chance to Evade:</b> +15",
+      "level": 20,
+      "image": "images/ship_parts/thruster_components_4.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_thrusters_4"
+      ]
+    },
+    {
+      "id": "thruster_components_3",
+      "label": "Plasma Thruster",
+      "group": "Dependant",
+      "title": "<b>Thrusters</b> (thruster_components_3)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.</i><br/><br/><b>Patrol Craft I & Patrol Craft II THRUSTER_3</b><br/><b>Cost:</b> 9 Alloys<br/><b>Power:</b> -20<br/><b>Base Ship Speed:</b> +50%<br/><b>Chance to Evade:</b> +10",
+      "level": 16,
+      "image": "images/ship_parts/thruster_components_3.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_thrusters_3"
+      ]
+    },
+    {
+      "id": "thruster_components_2",
+      "label": "Ion Thruster",
+      "group": "Dependant",
+      "title": "<b>Thrusters</b> (thruster_components_2)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>These electric thrusters use beams of ions to generate thrust without the need for propellant.</i><br/><br/><b>Patrol Craft I & Patrol Craft II THRUSTER_2</b><br/><b>Cost:</b> 6 Alloys<br/><b>Power:</b> -15<br/><b>Base Ship Speed:</b> +25%<br/><b>Chance to Evade:</b> +5",
+      "level": 12,
+      "image": "images/ship_parts/thruster_components_2.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_thrusters_2"
+      ]
+    },
+    {
+      "id": "thruster_components_1",
+      "label": "Chemical Thruster",
+      "group": "Dependant",
+      "title": "<b>Thrusters</b> (thruster_components_1)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>Simple yet moderately effective chemical thrusters that rely on combustible propellant to generate thrust.</i><br/><br/><b>Patrol Craft I & Patrol Craft II THRUSTER_1</b><br/><b>Cost:</b> 3 Alloys<br/><b>Power:</b> -10",
+      "level": 2,
+      "image": "images/ship_parts/thruster_components_1.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_thrusters_1"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_DARK_MATTER_REACTOR",
+      "label": "Dark Matter Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_DARK_MATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><br/><b>Military Station Dark Matter Reactor</b><br/><b>Cost:</b> 80 Alloys, 4 Dark Matter<br/><b>Upkeep:</b> 0.74 Energy Credits, 0.074 Alloys<br/><b>Power:</b> 1100",
+      "level": 25,
+      "image": "images/ship_parts/power_core_PLATFORM_DARK_MATTER_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dark_matter_power_core"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_ZERO_POINT_REACTOR",
+      "label": "Zero Point Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_ZERO_POINT_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><br/><b>Military Station Zero Point Reactor</b><br/><b>Cost:</b> 62 Alloys<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.057 Alloys<br/><b>Power:</b> 950",
+      "level": 20,
+      "image": "images/ship_parts/power_core_PLATFORM_ZERO_POINT_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_zero_point_power"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_ANTIMATTER_REACTOR",
+      "label": "Antimatter Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_ANTIMATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.\"</i><br/><br/><b>Military Station Antimatter Reactor</b><br/><b>Cost:</b> 49 Alloys<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.044 Alloys<br/><b>Power:</b> 800",
+      "level": 16,
+      "image": "images/ship_parts/power_core_PLATFORM_ANTIMATTER_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_antimatter_power"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_COLD_FUSION_REACTOR",
+      "label": "Cold Fusion Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_COLD_FUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><br/><b>Military Station Cold Fusion Reactor</b><br/><b>Cost:</b> 39 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 650",
+      "level": 12,
+      "image": "images/ship_parts/power_core_PLATFORM_COLD_FUSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_cold_fusion_power"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_FUSION_REACTOR",
+      "label": "Fusion Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_FUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><br/><b>Military Station Fusion Reactor</b><br/><b>Cost:</b> 31 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 500",
+      "level": 8,
+      "image": "images/ship_parts/power_core_PLATFORM_FUSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_fusion_power"
+      ]
+    },
+    {
+      "id": "power_core_PLATFORM_FISSION_REACTOR",
+      "label": "Fission Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (power_core_PLATFORM_FISSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Starbase Improvements<br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><br/><b>Military Station Fission Reactor</b><br/><b>Cost:</b> 25 Alloys<br/><b>Upkeep:</b> 0.2 Energy Credits, 0.02 Alloys<br/><b>Power:</b> 350",
+      "level": 2,
+      "image": "images/ship_parts/power_core_PLATFORM_FISSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_fission_power"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceDARK_MATTER_REACTOR",
+      "label": "Dark Matter Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceDARK_MATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.</i><br/><br/><b>Patrol Craft I & Patrol Craft II Dark Matter Reactor</b><br/><b>Cost:</b> 37 Alloys, 1 Dark Matter<br/><b>Upkeep:</b> 0.37 Energy Credits, 0.037 Alloys<br/><b>Power:</b> 285",
+      "level": 25,
+      "image": "images/ship_parts/At War: Planetary Defense ForceDARK_MATTER_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dark_matter_power_core"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceZERO_POINT_REACTOR",
+      "label": "Zero Point Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceZERO_POINT_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><br/><b>Patrol Craft I & Patrol Craft II Zero Point Reactor</b><br/><b>Cost:</b> 28 Alloys<br/><b>Upkeep:</b> 0.28 Energy Credits, 0.028 Alloys<br/><b>Power:</b> 220",
+      "level": 20,
+      "image": "images/ship_parts/At War: Planetary Defense ForceZERO_POINT_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_zero_point_power"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceANTIMATTER_REACTOR",
+      "label": "Antimatter Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceANTIMATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.\"</i><br/><br/><b>Patrol Craft I & Patrol Craft II Antimatter Reactor</b><br/><b>Cost:</b> 22 Alloys<br/><b>Upkeep:</b> 0.22 Energy Credits, 0.022 Alloys<br/><b>Power:</b> 170",
+      "level": 16,
+      "image": "images/ship_parts/At War: Planetary Defense ForceANTIMATTER_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_antimatter_power"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceCOLD_FUSION_REACTOR",
+      "label": "Cold Fusion Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceCOLD_FUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><br/><b>Patrol Craft I & Patrol Craft II Cold Fusion Reactor</b><br/><b>Cost:</b> 17 Alloys<br/><b>Upkeep:</b> 0.17 Energy Credits, 0.017 Alloys<br/><b>Power:</b> 130",
+      "level": 12,
+      "image": "images/ship_parts/At War: Planetary Defense ForceCOLD_FUSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_cold_fusion_power"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceFUSION_REACTOR",
+      "label": "Fusion Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceFUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><br/><b>Patrol Craft I & Patrol Craft II Fusion Reactor</b><br/><b>Cost:</b> 13 Alloys<br/><b>Upkeep:</b> 0.13 Energy Credits, 0.013 Alloys<br/><b>Power:</b> 100",
+      "level": 8,
+      "image": "images/ship_parts/At War: Planetary Defense ForceFUSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_fusion_power"
+      ]
+    },
+    {
+      "id": "At War: Planetary Defense ForceFISSION_REACTOR",
+      "label": "Fission Reactor",
+      "group": "Dependant",
+      "title": "<b>Power Core</b> (At War: Planetary Defense ForceFISSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>At War: Planetary Defense Force<br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><br/><b>Patrol Craft I & Patrol Craft II Fission Reactor</b><br/><b>Cost:</b> 10 Alloys<br/><b>Upkeep:</b> 0.1 Energy Credits, 0.01 Alloys<br/><b>Power:</b> 75",
+      "level": 2,
+      "image": "images/ship_parts/At War: Planetary Defense ForceFISSION_REACTOR.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_fission_power"
+      ]
+    },
+    {
+      "id": "EAC_CARRIER_RADAR",
+      "label": "This technology unlocks the Advanced Carrier layout for Battleships and Titans",
+      "group": "Dependant",
+      "title": "<b>Carrier Radar</b> (EAC_CARRIER_RADAR)<br/><i>Carrier radar to target ships at a very long distance (450)</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><i></i><br/><br/><b>Battleship & Titan & Battlecruiser & Carrier & Flagship & SCX_Carrier Carrier Radar</b><br/><b>Cost:</b> 20 Alloys<br/><b>Power:</b> -100",
       "level": 21,
-      "image": "\\images\\ship_parts/EAC_CARRIER_RADAR.png",
+      "image": "images/ship_parts/EAC_CARRIER_RADAR.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -161,9 +382,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_BOMBER_HANGAR_NEUTRON_TORPEDO",
       "label": "Neutron Torpedo Bomber",
       "group": "Dependant",
-      "title": "<b>Neutron Torpedo Bomber</b> (EAC_BOMBER_HANGAR_NEUTRON_TORPEDO)<br/><i>Equipped with miniature neutron torpedos, these bombers launch energy projectiles that consist of tightly concentrated neutrons capable of causing immense damage to the hull of enemy ships.\"</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Neutron Torpedo Bomber</b><br/><b>Cost:</b> 88 Alloys, 1.3 Exotic Gases<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys",
+      "title": "<b>Neutron Torpedo Bomber</b> (EAC_BOMBER_HANGAR_NEUTRON_TORPEDO)<br/><i>Equipped with miniature neutron torpedos, these bombers launch energy projectiles that consist of tightly concentrated neutrons capable of causing immense damage to the hull of enemy ships.\"</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Neutron Torpedo Bomber</b><br/><b>Cost:</b> 88 Alloys, 1.3 Exotic Gases<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys<br/><b>Power:</b> -60",
       "level": 20,
-      "image": "\\images\\ship_parts/EAC_BOMBER_HANGAR_NEUTRON_TORPEDO.png",
+      "image": "images/ship_parts/EAC_BOMBER_HANGAR_NEUTRON_TORPEDO.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -175,9 +396,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_BOMBER_HANGAR_PROTON_TORPEDO",
       "label": "Proton Torpedo Bomber",
       "group": "Dependant",
-      "title": "<b>Proton Torpedo Bomber</b> (EAC_BOMBER_HANGAR_PROTON_TORPEDO)<br/><i>Equipped with miniature proton torpedos, these bombers launch energy projectiles that consist of tightly concentrated protons capable of causing heavy damage to the hull of enemy ships.\"</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Proton Torpedo Bomber</b><br/><b>Cost:</b> 68 Alloys, 1 Exotic Gases<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Proton Torpedo Bomber</b> (EAC_BOMBER_HANGAR_PROTON_TORPEDO)<br/><i>Equipped with miniature proton torpedos, these bombers launch energy projectiles that consist of tightly concentrated protons capable of causing heavy damage to the hull of enemy ships.\"</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Proton Torpedo Bomber</b><br/><b>Cost:</b> 68 Alloys, 1 Exotic Gases<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -50",
       "level": 17,
-      "image": "\\images\\ship_parts/EAC_BOMBER_HANGAR_PROTON_TORPEDO.png",
+      "image": "images/ship_parts/EAC_BOMBER_HANGAR_PROTON_TORPEDO.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -189,9 +410,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_PLASMA_3",
       "label": "Plasma Thrower Strike Craft",
       "group": "Dependant",
-      "title": "<b>Plasma Thrower Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_3)<br/><i>Equipped with Plasma Throwers, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Plasma Thrower Strike Craft</b><br/><b>Cost:</b> 88 Alloys, 0.33 Exotic Gases<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys",
+      "title": "<b>Plasma Thrower Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_3)<br/><i>Equipped with Plasma Throwers, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Plasma Thrower Strike Craft</b><br/><b>Cost:</b> 88 Alloys, 0.33 Exotic Gases<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys<br/><b>Power:</b> -60",
       "level": 20,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_3.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_3.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -203,9 +424,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_PLASMA_2",
       "label": "Plasma Accelerator Strike Craft",
       "group": "Dependant",
-      "title": "<b>Plasma Accelerator Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_2)<br/><i>Equipped with Plasma Accelerators, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Plasma Accelerator Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Exotic Gases<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Plasma Accelerator Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_2)<br/><i>Equipped with Plasma Accelerators, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Plasma Accelerator Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Exotic Gases<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -50",
       "level": 16,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_2.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_2.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -217,9 +438,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_PLASMA_1",
       "label": "Plasma Thrower Strike Craft",
       "group": "Dependant",
-      "title": "<b>Plasma Thrower Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_1)<br/><i>Equipped with Plasma Throwers, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Plasma Thrower Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Plasma Thrower Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_PLASMA_1)<br/><i>Equipped with Plasma Throwers, these strike craft eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor and hull.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Plasma Thrower Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -40",
       "level": 12,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_1.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_PLASMA_1.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -231,9 +452,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_3",
       "label": "Stormfire Autocannon Strike Craft",
       "group": "Dependant",
-      "title": "<b>Stormfire Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_3)<br/><i>Equipped with Stormfire Autocannons, these strike are craft capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Stormfire Autocannon Strike Craft</b><br/><b>Cost:</b> 88 Alloys, 0.33 Volatile Motes<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys",
+      "title": "<b>Stormfire Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_3)<br/><i>Equipped with Stormfire Autocannons, these strike are craft capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Stormfire Autocannon Strike Craft</b><br/><b>Cost:</b> 88 Alloys, 0.33 Volatile Motes<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys<br/><b>Power:</b> -60",
       "level": 20,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_3.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_3.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -245,9 +466,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_2",
       "label": "Ripper Autocannon Strike Craft",
       "group": "Dependant",
-      "title": "<b>Ripper Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_2)<br/><i>Equipped with Ripper Autocannons, these strike are craft capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Ripper Autocannon Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Volatile Motes<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Ripper Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_2)<br/><i>Equipped with Ripper Autocannons, these strike are craft capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Ripper Autocannon Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Volatile Motes<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -50",
       "level": 16,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_2.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_2.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -259,9 +480,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_1",
       "label": "Autocannon Strike Craft",
       "group": "Dependant",
-      "title": "<b>Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_1)<br/><i>Equipped with Autocannons, these strike craft are capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Autocannon Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Autocannon Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_1)<br/><i>Equipped with Autocannons, these strike craft are capable of spewing a cloud of high-explosive shells at a target.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Autocannon Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -40",
       "level": 12,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_1.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_AUTOCANNON_1.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -273,9 +494,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_NULL_VOID",
       "label": "Null Void Combat Strike Craft",
       "group": "Dependant",
-      "title": "<b>Null Void Combat Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_NULL_VOID)<br/><i>Specially designed to take out enemy shields, these specialized strike craft pack a wallup.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Null Void Combat Strike Craft</b><br/><b>Cost:</b> 88 Alloys<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys",
+      "title": "<b>Null Void Combat Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_NULL_VOID)<br/><i>Specially designed to take out enemy shields, these specialized strike craft pack a wallup.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Null Void Combat Strike Craft</b><br/><b>Cost:</b> 88 Alloys<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.196 Alloys<br/><b>Power:</b> -60",
       "level": 16,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_NULL_VOID.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_NULL_VOID.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -287,9 +508,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_3",
       "label": "Phase Disruptor Strike Craft",
       "group": "Dependant",
-      "title": "<b>Phase Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_3)<br/><i>Equipted with Phase Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Phase Disruptor Strike Craft</b><br/><b>Cost:</b> 52 Alloys, 0.33 Rare Crystals<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.104 Alloys",
+      "title": "<b>Phase Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_3)<br/><i>Equipted with Phase Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Phase Disruptor Strike Craft</b><br/><b>Cost:</b> 52 Alloys, 0.33 Rare Crystals<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60",
       "level": 20,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_3.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_3.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -301,9 +522,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_2",
       "label": "Ion Disruptor Strike Craft",
       "group": "Dependant",
-      "title": "<b>Ion Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_2)<br/><i>Equipted with Ion Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Ion Disruptor Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Rare Crystals<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Ion Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_2)<br/><i>Equipted with Ion Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Ion Disruptor Strike Craft</b><br/><b>Cost:</b> 68 Alloys, 0.25 Rare Crystals<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -50",
       "level": 16,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_2.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_2.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -315,9 +536,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_1",
       "label": "Disruptor Strike Craft",
       "group": "Dependant",
-      "title": "<b>Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_1)<br/><i>Equipted with Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Disruptor Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Disruptor Strike Craft</b> (EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_1)<br/><i>Equipted with Disruptors, these advanced strike craft fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Disruptor Strike Craft</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -40",
       "level": 12,
-      "image": "\\images\\ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_1.png",
+      "image": "images/ship_parts/EAC_STRIKE_CRAFT_HANGAR_DISRUPTOR_1.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -329,9 +550,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_FIGHTER_HANGAR_3",
       "label": "Advanced Combat Fighters",
       "group": "Dependant",
-      "title": "<b>Advanced Combat Fighters</b> (EAC_FIGHTER_HANGAR_3)<br/><i>A further refinement in combat fighter design, these advanced fighters are a pilot's dream. Their performance far exceeds that of previous models.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Advanced Combat Fighters</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys",
+      "title": "<b>Advanced Combat Fighters</b> (EAC_FIGHTER_HANGAR_3)<br/><i>A further refinement in combat fighter design, these advanced fighters are a pilot's dream. Their performance far exceeds that of previous models.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Advanced Combat Fighters</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.136 Alloys<br/><b>Power:</b> -50",
       "level": 16,
-      "image": "\\images\\ship_parts/EAC_FIGHTER_HANGAR_3.png",
+      "image": "images/ship_parts/EAC_FIGHTER_HANGAR_3.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -342,9 +563,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_FIGHTER_HANGAR_2",
       "label": "Improved Combat Fighters",
       "group": "Dependant",
-      "title": "<b>Improved Combat Fighters</b> (EAC_FIGHTER_HANGAR_2)<br/><i>The next generation of combat fighters, featuring improved avionics, better handling characteristics and more powerful armaments.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Improved Combat Fighters</b><br/><b>Cost:</b> 52 Alloys<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.104 Alloys",
+      "title": "<b>Improved Combat Fighters</b> (EAC_FIGHTER_HANGAR_2)<br/><i>The next generation of combat fighters, featuring improved avionics, better handling characteristics and more powerful armaments.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Improved Combat Fighters</b><br/><b>Cost:</b> 52 Alloys<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -40",
       "level": 12,
-      "image": "\\images\\ship_parts/EAC_FIGHTER_HANGAR_2.png",
+      "image": "images/ship_parts/EAC_FIGHTER_HANGAR_2.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -355,9 +576,9 @@ AtWarGraphDataDependants = {
       "id": "EAC_FIGHTER_HANGAR_1",
       "label": "Combat Fighters",
       "group": "Dependant",
-      "title": "<b>Combat Fighters</b> (EAC_FIGHTER_HANGAR_1)<br/><i>A flight of fighter craft provides basic strike craft capability, harassing enemy bombers and strike craft in the vicinity of the mothership.</i><br/><b>Mod: </b>At War_ Carrier Enhancements<br/><br/><b>Combat Fighters</b><br/><b>Cost:</b> 40 Alloys<br/><b>Upkeep:</b> 0.4 Energy Credits, 0.08 Alloys",
+      "title": "<b>Combat Fighters</b> (EAC_FIGHTER_HANGAR_1)<br/><i>A flight of fighter craft provides basic strike craft capability, harassing enemy bombers and strike craft in the vicinity of the mothership.</i><br/><b>Mod: </b>At War: Carrier Enhancements<br/><br/><b>Combat Fighters</b><br/><b>Cost:</b> 40 Alloys<br/><b>Upkeep:</b> 0.4 Energy Credits, 0.08 Alloys<br/><b>Power:</b> -30",
       "level": 8,
-      "image": "\\images\\ship_parts/EAC_FIGHTER_HANGAR_1.png",
+      "image": "images/ship_parts/EAC_FIGHTER_HANGAR_1.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
@@ -422,7 +643,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_DARK_MATTER_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -431,7 +652,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_zero_point_power",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_ZERO_POINT_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -440,7 +661,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_antimatter_power",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_ANTIMATTER_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -449,7 +670,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_cold_fusion_power",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_COLD_FUSION_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -458,7 +679,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_fusion_power",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_FUSION_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -467,61 +688,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_fission_power",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cold_fusion_power",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "power_core",
+      "to": "power_core_PLATFORM_FISSION_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -575,7 +742,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_dark_matter_propulsion",
-      "to": "thruster_components",
+      "to": "thruster_components_5",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -584,7 +751,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_thrusters_4",
-      "to": "thruster_components",
+      "to": "thruster_components_4",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -593,7 +760,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_thrusters_3",
-      "to": "thruster_components",
+      "to": "thruster_components_3",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -602,7 +769,7 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_thrusters_2",
-      "to": "thruster_components",
+      "to": "thruster_components_2",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -611,7 +778,61 @@ AtWarGraphDataDependants = {
     },
     {
       "from": "tech_thrusters_1",
-      "to": "thruster_components",
+      "to": "thruster_components_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "At War: Planetary Defense ForceDARK_MATTER_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "At War: Planetary Defense ForceZERO_POINT_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "At War: Planetary Defense ForceANTIMATTER_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cold_fusion_power",
+      "to": "At War: Planetary Defense ForceCOLD_FUSION_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "At War: Planetary Defense ForceFUSION_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "At War: Planetary Defense ForceFISSION_REACTOR",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -621,6 +842,60 @@ AtWarGraphDataDependants = {
     {
       "from": "eac_aw_tech_advanced_carrier",
       "to": "EAC_CARRIER_RADAR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precognition_interface",
+      "to": "combat_computers_PRECOG",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "eac_aw_tech_advanced_carrier",
+      "to": "combat_computers_PRECOG",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_3",
+      "to": "combat_computers_SAPIENT",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "eac_aw_tech_advanced_carrier",
+      "to": "combat_computers_SAPIENT",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "combat_computers_ADVANCED",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "eac_aw_tech_advanced_carrier",
+      "to": "combat_computers_ADVANCED",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -864,60 +1139,6 @@ AtWarGraphDataDependants = {
     {
       "from": "tech_strike_craft_1",
       "to": "EAC_FIGHTER_HANGAR_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precognition_interface",
-      "to": "combat_computers_PRECOG",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "eac_aw_tech_advanced_carrier",
-      "to": "combat_computers_PRECOG",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_3",
-      "to": "combat_computers_SAPIENT",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "eac_aw_tech_advanced_carrier",
-      "to": "combat_computers_SAPIENT",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "combat_computers_ADVANCED",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "eac_aw_tech_advanced_carrier",
-      "to": "combat_computers_ADVANCED",
       "arrows": "to",
       "color": {
         "color": "grey"

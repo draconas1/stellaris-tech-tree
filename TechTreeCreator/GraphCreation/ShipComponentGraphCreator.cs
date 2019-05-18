@@ -31,7 +31,11 @@ namespace TechTreeCreator.GraphCreation {
 
         protected override void SetVariables(ShipComponent result, CWNode node) {
             result.Size = node.GetKeyValue("size");
-            result.Power = node.GetKeyValueOrDefault("power", "0").ToInt();
+            node.ActOnKeyValues("power", power => result.Properties["Power"] = power);
+            node.ActOnKeyValues("sensor_range", power => result.Properties["Sensor Range"] = power);
+            node.ActOnKeyValues("hyperlane_range", power => result.Properties["Hyperlane Detection Range"] = power);
+            node.ActOnNodes("ship_modifier", modifierNode =>  AddModifiers(result, modifierNode));
+            
             result.ComponentSet = node.GetKeyValue("component_set");
 
             if (result.ComponentSet != null) {
@@ -52,11 +56,20 @@ namespace TechTreeCreator.GraphCreation {
             if (result.Icon.Contains("ship_part_computer_")) {
                 result.Icon = "computers/" + (!result.Icon.Contains("ship_part_computer_default") ? result.Icon.Replace("ship_part_computer_", "ship_part_computer_role_") : result.Icon);
             }
-            
-            node.ActOnNodes("resources", cwNode => {
-                cwNode.ActOnNodes("cost", costNode => costNode.KeyValues.ForEach(value => result.Cost[value.Key] = value.Value.ToDouble()));
-                cwNode.ActOnNodes("upkeep", costNode => costNode.KeyValues.ForEach(value => result.Upkeep[value.Key] = value.Value.ToDouble()));
-            });
+
+            CWNode classRestriction = node.GetNode("class_restriction");
+            // most power cores restricted by ship class
+            if (classRestriction != null) {
+                var classesThatUsePowerCore = classRestriction.Values.Select(x => LocalisationApiHelper.GetName(x)).StringJoin(" & ");
+                result.Name = classesThatUsePowerCore + " " + result.Name;
+            }
+            else {
+                // ion cannon by size
+                node.ActOnNodes("size_restriction", sizeNode => {
+                    var sizesThatUsePowerCore = sizeNode.Values.Select(x => LocalisationApiHelper.GetName(x)).StringJoin(" & ");
+                    result.Name = sizesThatUsePowerCore + " " + result.Name;
+                });
+            }
         }
 
         protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {

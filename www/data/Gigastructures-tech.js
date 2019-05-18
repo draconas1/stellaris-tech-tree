@@ -10,7 +10,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_big_star_particle_accelerator.png",
+      "image": "images/technologies/tech_big_star_particle_accelerator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -31,7 +31,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 15,
-      "image": "\\images\\technologies/tech_exotic_lab_data.png",
+      "image": "images/technologies/tech_exotic_lab_data.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -49,7 +49,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_fusion_disruption.png",
+      "image": "images/technologies/tech_fusion_disruption.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -73,7 +73,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_gas_giant_colony.png",
+      "image": "images/technologies/tech_gas_giant_colony.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -96,7 +96,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 17,
-      "image": "\\images\\technologies/tech_giga_penrose_sphere.png",
+      "image": "images/technologies/tech_giga_penrose_sphere.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -118,7 +118,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_giga_penrose_stabilization.png",
+      "image": "images/technologies/tech_giga_penrose_stabilization.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -140,7 +140,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_high_capacity_cells.png",
+      "image": "images/technologies/tech_high_capacity_cells.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -165,7 +165,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_ignite_browndwarf.png",
+      "image": "images/technologies/tech_ignite_browndwarf.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -188,7 +188,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_kugelblitz_generator.png",
+      "image": "images/technologies/tech_kugelblitz_generator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -211,7 +211,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_mind_uploading.png",
+      "image": "images/technologies/tech_mind_uploading.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -231,7 +231,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_nicoll_dyson_beam.png",
+      "image": "images/technologies/tech_nicoll_dyson_beam.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -255,7 +255,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_nicoll_super_portal.png",
+      "image": "images/technologies/tech_nicoll_super_portal.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -279,7 +279,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_nicoll_superlens.png",
+      "image": "images/technologies/tech_nicoll_superlens.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -302,7 +302,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_ringworld_heating_systems.png",
+      "image": "images/technologies/tech_ringworld_heating_systems.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -322,7 +322,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_big_zoo_station.png",
+      "image": "images/technologies/tech_big_zoo_station.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -343,7 +343,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_fix_barren.png",
+      "image": "images/technologies/tech_fix_barren.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -366,7 +366,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 21,
-      "image": "\\images\\technologies/tech_fix_toxic.png",
+      "image": "images/technologies/tech_fix_toxic.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -390,7 +390,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_gas_giant_plant.png",
+      "image": "images/technologies/tech_gas_giant_plant.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -414,7 +414,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_giga_planetary_computer.png",
+      "image": "images/technologies/tech_giga_planetary_computer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -438,7 +438,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_pouchkinn_lifespan.png",
+      "image": "images/technologies/tech_pouchkinn_lifespan.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -456,7 +456,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 22,
-      "image": "\\images\\technologies/tech_shroud_container.png",
+      "image": "images/technologies/tech_shroud_container.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -476,7 +476,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_shroud_energy.png",
+      "image": "images/technologies/tech_shroud_energy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -496,7 +496,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_shroud_link.png",
+      "image": "images/technologies/tech_shroud_link.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -516,7 +516,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 21,
-      "image": "\\images\\technologies/tech_shroud_summon_armies.png",
+      "image": "images/technologies/tech_shroud_summon_armies.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -536,7 +536,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_shroud_vortex.png",
+      "image": "images/technologies/tech_shroud_vortex.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -558,7 +558,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_atmo_vacuum.png",
+      "image": "images/technologies/tech_atmo_vacuum.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -580,7 +580,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_big_drill.png",
+      "image": "images/technologies/tech_big_drill.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -602,7 +602,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 16,
-      "image": "\\images\\technologies/tech_big_engineering_station.png",
+      "image": "images/technologies/tech_big_engineering_station.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -623,7 +623,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_crystal_drill.png",
+      "image": "images/technologies/tech_crystal_drill.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -646,7 +646,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_fix_squareworld.png",
+      "image": "images/technologies/tech_fix_squareworld.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -666,7 +666,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_gargantuan_ringworld.png",
+      "image": "images/technologies/tech_gargantuan_ringworld.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -688,7 +688,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_giga_penrose_ringworld.png",
+      "image": "images/technologies/tech_giga_penrose_ringworld.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -709,7 +709,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_insane_thrusters.png",
+      "image": "images/technologies/tech_insane_thrusters.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -730,7 +730,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_interstellar_habitat.png",
+      "image": "images/technologies/tech_interstellar_habitat.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -751,7 +751,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_interstellar_ringworld.png",
+      "image": "images/technologies/tech_interstellar_ringworld.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -774,7 +774,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_military_academy_megastructure.png",
+      "image": "images/technologies/tech_military_academy_megastructure.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -794,7 +794,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_neutronium_gigaforge.png",
+      "image": "images/technologies/tech_neutronium_gigaforge.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -816,7 +816,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_nidavellir.png",
+      "image": "images/technologies/tech_nidavellir.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -837,7 +837,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_orbital_elysium.png",
+      "image": "images/technologies/tech_orbital_elysium.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -857,7 +857,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 19,
-      "image": "\\images\\technologies/tech_planet_rings.png",
+      "image": "images/technologies/tech_planet_rings.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -877,7 +877,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_quberine_armor.png",
+      "image": "images/technologies/tech_quberine_armor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -897,7 +897,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_ringworld_mastery.png",
+      "image": "images/technologies/tech_ringworld_mastery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -917,7 +917,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 20,
-      "image": "\\images\\technologies/tech_star_lifters.png",
+      "image": "images/technologies/tech_star_lifters.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -941,7 +941,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_titanic_ringworld.png",
+      "image": "images/technologies/tech_titanic_ringworld.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -962,7 +962,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_ultra_stabilizers.png",
+      "image": "images/technologies/tech_ultra_stabilizers.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -980,7 +980,7 @@ GigastructuresGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Industrial Ultrarapid Replication</b> (tech_ultrarapid_replication)<br/><i>Advances in 3D-printing and modular construction can lead to exponentially faster construction techniques.</i><br/><b>Mod: </b>Gigastructural Engineering & More (2.2)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>25000",
       "level": 16,
-      "image": "\\images\\technologies/tech_ultrarapid_replication.png",
+      "image": "images/technologies/tech_ultrarapid_replication.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1001,7 +1001,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_war_moons.png",
+      "image": "images/technologies/tech_war_moons.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1022,7 +1022,7 @@ GigastructuresGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_war_planets.png",
+      "image": "images/technologies/tech_war_planets.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [

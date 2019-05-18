@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using CWToolsHelpers.Directories;
 using CWToolsHelpers.FileParsing;
+using CWToolsHelpers.Helpers;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Collection;
 using NetExtensions.Object;
@@ -87,7 +88,6 @@ namespace TechTreeCreator.GraphCreation
             result.Tier = node.GetKeyValueOrDefault("tier", "0").ToInt();
             result.BaseCost = node.GetKeyValueOrDefault("cost", "0").ToInt();
 
-           
             //categories, usually only one, but can be more
             if (node.GetNode("category") != null)
             {
@@ -148,6 +148,24 @@ namespace TechTreeCreator.GraphCreation
             }
 
             result.Flags = techFlags;
+
+            node.ActOnNodes("prereqfor_desc", cwNode => {
+                var description = cwNode.GetKeyValue("desc");
+                if (description != null) {
+                    result.ExtraDesc = description;
+                    result.ExtraName = cwNode.GetKeyValue("title");
+                }
+                else {
+                    var subNode = cwNode.Nodes.FirstOrDefault();
+                    if (subNode != null) {
+                        result.ExtraDesc = subNode.GetKeyValue("desc");;
+                        result.ExtraName = subNode.GetKeyValue("title");
+                    }
+                }
+
+                result.ExtraDesc = result.ExtraDesc != null ? LocalisationApiHelper.GetName(result.ExtraDesc) : null;
+                result.ExtraName = result.ExtraName != null ? LocalisationApiHelper.GetName(result.ExtraName) : null;
+            });
         }
 
         protected override string GetDirectory(StellarisDirectoryHelper directoryHelper) {

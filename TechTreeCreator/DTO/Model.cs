@@ -20,7 +20,18 @@ namespace TechTreeCreator.DTO {
         NonTechDependency
     }
 
-    public class Tech : Entity {
+    public interface IHasCost {
+        IDictionary<string, double> Cost { get; }
+        IDictionary<string, double> Upkeep { get; }
+    }
+    
+    public interface IGestaltAvailability {
+        bool? Machines { get; set; }
+        
+        bool? Gestalt { get; set; }
+    }
+
+    public class Tech : Entity, IGestaltAvailability {
         public TechArea Area { get; set; }
 
         public int? Tier { get; set; }
@@ -32,18 +43,26 @@ namespace TechTreeCreator.DTO {
 
         public IEnumerable<string> Categories { get; set; }
         public IEnumerable<TechFlag> Flags { get; set; }
+        
+        public bool? Machines { get; set; }
+        
+        public bool? Gestalt { get; set; }
 
         public Tech(string id) : base(id) {
         }
     }
 
-    public class Building : Entity {
+    public class Building : Entity, IHasCost, IGestaltAvailability {
         public int? BaseBuildTime { get; set; }
         public string Category { get; set; }
 
         public IDictionary<string, double> Cost { get; }
         public IDictionary<string, double> Upkeep { get; }
         public IDictionary<string, double> Produces { get; }
+        
+        public bool? Machines { get; set; }
+        
+        public bool? Gestalt { get; set; }
 
         public Building(string id) : base(id) {
             Cost = new Dictionary<string, double>();
@@ -52,13 +71,14 @@ namespace TechTreeCreator.DTO {
         }
     }
 
-    public class ShipComponent : Entity {
+    public class ShipComponent : Entity, IHasCost {
         public string Size { get; set; }
         public string ComponentSet { get; set; }
         
         public string ComponentSetName { get; set; }
         public string ComponentSetDescription { get; set; }
-        public int Power { get; set; }
+        
+        public Dictionary<string, string> Properties { get; }
         
         public IDictionary<string, double> Cost { get; }
         public IDictionary<string, double> Upkeep { get; }
@@ -66,6 +86,7 @@ namespace TechTreeCreator.DTO {
         public ShipComponent(string id) : base(id) {
             Cost = new Dictionary<string, double>();
             Upkeep = new Dictionary<string, double>();
+            Properties = new Dictionary<string, string>();
         }
     }
     
@@ -84,10 +105,27 @@ namespace TechTreeCreator.DTO {
         }
     }
 
+    public class ShipComponentSetDescription : Entity {
+        public ShipComponentSetDescription(string id) : base(id) {
+        }
+    }
+
+    public class Decision : Entity {
+        public IDictionary<string, double> Cost { get; }
+        
+        public String CustomTooltip { get; set; }
+        public Decision(string id) : base(id) {
+            Cost = new Dictionary<string, double>();
+        }
+    }
+
     public abstract class Entity {
         public string Id { get; protected set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        
+        public String ExtraName { get; set; }
+        public String ExtraDesc { get; set; }
 
         private string icon;
 
@@ -104,6 +142,8 @@ namespace TechTreeCreator.DTO {
 
         public IList<Tech> Prerequisites { get; set; }
         public IEnumerable<string> PrerequisiteIds { get; set; }
+        
+        public IDictionary<string, string> Modifiers { get; }
 
         // ReSharper disable once InconsistentNaming
         public string DLC { get; set; }
@@ -112,6 +152,7 @@ namespace TechTreeCreator.DTO {
 
         protected Entity(string id) {
             Id = id;
+            Modifiers = new Dictionary<string, string>();
         }
         
         protected Entity(Entity other) {
@@ -125,6 +166,7 @@ namespace TechTreeCreator.DTO {
             Prerequisites = new List<Tech>(other.Prerequisites);
             PrerequisiteIds = new List<string>(other.PrerequisiteIds);
             IconFound = other.IconFound;
+            Modifiers = other.Modifiers;
         }
     }
 
@@ -153,8 +195,11 @@ namespace TechTreeCreator.DTO {
     }
 
     public class ObjectsDependantOnTechs {
+        //also add to the clone method at the bottom!
         private ModEntityData<Building> buildings;
         private ModEntityData<ShipComponent> shipComponents;
+        private ModEntityData<ShipComponentSetDescription> shipComponentDescriptions;
+        private ModEntityData<Decision> decisions;
         private ISet<string> modGroups = new HashSet<string>();
 
         public ModEntityData<Building> Buildings {
@@ -165,30 +210,55 @@ namespace TechTreeCreator.DTO {
             }
         }
         
-        public ModEntityData<ShipComponent> ShipComponents {
-            get => shipComponents;
+        public ModEntityData<Decision> Decisions {
+            get => decisions;
             set {
-                shipComponents = value; 
+                decisions = value; 
                 modGroups.AddRange(value.AllEntities.Select(x => x.ModGroup));
-                ShipComponentsSets = shipComponents.Transform<ShipComponentSet>(MergeComponents);
             }
         }
+        
+        public ModEntityData<ShipComponent> ShipComponents => shipComponents;
+
+        public ObjectsDependantOnTechs SetShipComponents(ModEntityData<ShipComponent> shipComponents, ModEntityData<ShipComponentSetDescription> componentSets) {
+            this.shipComponents = shipComponents;
+            this.shipComponentDescriptions = componentSets;
+            if (shipComponents != null && componentSets != null) {
+                ShipComponentsSets = shipComponents.Transform<ShipComponentSet>((modName, entities, links) => MergeComponents(modName, entities, links, componentSets));
+            }
+
+            return this;
+        }
+        
         
         public ModEntityData<ShipComponentSet> ShipComponentsSets {
             get;
             private set;
         }
         
-        private Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>> MergeComponents(IDictionary<string, ShipComponent> shipComponents, ISet<Link> links) {
+        private Tuple<IDictionary<string, ShipComponentSet>, ISet<Link>> MergeComponents(string modName, IDictionary<string, ShipComponent> shipComponents, ISet<Link> links, ModEntityData<ShipComponentSetDescription> componentSetDescriptors) {
             Dictionary<string, ShipComponentSet> result = new Dictionary<string, ShipComponentSet>();
             Dictionary<string, ShipComponentSet> nodeIdToComponentIdLookup = new Dictionary<string, ShipComponentSet>();
+
+            var templateNames = componentSetDescriptors.FindByModName(modName);
+            var componentSetTemplateIds = templateNames != null ? templateNames.AllEntities.Select(x => x.Id).ToHashSet() : new HashSet<string>();
+
+
+            var nonMergedComponents = new HashSet<string>() {"ftl_components", "sensor_components"};
+
             foreach (var shipComponent in shipComponents.Values) {
                 var componentId = shipComponent.ComponentSet ?? shipComponent.Id;
+                // do not merge certain utilities
+                if (nonMergedComponents.Contains(componentId)) {
+                    componentId = shipComponent.Id;
+                }
+                
                 ShipComponentSet shipComponentSet = result.ComputeIfAbsent(componentId, id => new ShipComponentSet(id, shipComponent));
                 shipComponentSet.ShipComponents.Add(shipComponent);
                 nodeIdToComponentIdLookup[shipComponent.Id] = shipComponentSet;
             }
 
+            // combat comptuers handled separately
             if (result.TryGetValue("combat_computers", out var combatComputers)) {
                 foreach (var computersShipComponent in combatComputers.ShipComponents) {
                     int lastUnderscoreIndex = computersShipComponent.Id.LastIndexOf("_", StringComparison.Ordinal);
@@ -198,6 +268,54 @@ namespace TechTreeCreator.DTO {
                     shipComponentSet.ShipComponents.Add(computersShipComponent);
                     nodeIdToComponentIdLookup[computersShipComponent.Id] = shipComponentSet;
                 }
+
+                result.Remove("combat_computers");
+            }
+            
+            
+            // reactors handled separately
+            if (result.TryGetValue("power_core", out var powerCores)) {
+                foreach (var powerCoresShipComponent in powerCores.ShipComponents) {
+                    
+                    // try to use the actual component set for this
+                    string componentSetKey = componentSetTemplateIds.FirstOrDefault(x => powerCoresShipComponent.Id.Contains(x));
+
+                    string key;
+                    if (componentSetKey != null) {
+                        // add the modname such that eahc mod gets its own entries, otherwise all power cores for a given level get eaten by the last mod that touched them
+                        key = modName + componentSetKey;
+                    }
+                    else {
+                        // fallback works for core but not well for mods
+                        int firstUnderScoreIndex = powerCoresShipComponent.Id.IndexOf("_", StringComparison.Ordinal);
+                        var computerLevel = powerCoresShipComponent.Id.Substring(firstUnderScoreIndex);
+                        if (powerCoresShipComponent.Id.StartsWith("ION_CANNON")) {
+                            int firstUnderScoreIndex2 = computerLevel.IndexOf("_", 1, StringComparison.Ordinal);
+                            computerLevel = computerLevel.Substring(firstUnderScoreIndex2);
+                        }
+
+                        key = powerCores.Id + computerLevel;
+                    }
+
+                    ShipComponentSet shipComponentSet = result.ComputeIfAbsent(key, id => new ShipComponentSet(id, powerCoresShipComponent));
+                    
+                    shipComponentSet.ShipComponents.Add(powerCoresShipComponent);
+                    nodeIdToComponentIdLookup[powerCoresShipComponent.Id] = shipComponentSet;
+                }
+                result.Remove("power_core");
+            }
+            
+            // thrusters handled separately
+            if (result.TryGetValue("thruster_components", out var thrusters)) {
+                foreach (var computersShipComponent in thrusters.ShipComponents) {
+                    int lastUnderscoreIndex = computersShipComponent.Id.LastIndexOf("_", StringComparison.Ordinal);
+                    var computerLevel = computersShipComponent.Id.Substring(lastUnderscoreIndex);
+                    string key = thrusters.Id + computerLevel;
+                    ShipComponentSet shipComponentSet = result.ComputeIfAbsent(key, id => new ShipComponentSet(id, computersShipComponent));
+                    shipComponentSet.ShipComponents.Add(computersShipComponent);
+                    nodeIdToComponentIdLookup[computersShipComponent.Id] = shipComponentSet;
+                }
+                result.Remove("thruster_components");
             }
 
             //now need to remake links
@@ -207,20 +325,13 @@ namespace TechTreeCreator.DTO {
 
         public ISet<string> ModGroups => modGroups;
 
-        public IEnumerable<Entity> Get(ParseTarget parseTarget){
-            switch (parseTarget) {
-                case ParseTarget.Technologies: throw new InvalidOperationException("No techs in dependants");
-                case ParseTarget.Buildings: return Buildings.AllEntities;
-                case ParseTarget.ShipComponents: return ShipComponentsSets.AllEntities;
-                default: throw new InvalidOperationException("Unknown type: " + parseTarget);
-            }
-        }
+        
 
         public ObjectsDependantOnTechs CopyOnlyCore() {
             return new ObjectsDependantOnTechs() {
-                Buildings = this.Buildings.FindCoreGameData() ?? new ModEntityData<Building>(),
-                ShipComponents = this.ShipComponents.FindCoreGameData() ?? new ModEntityData<ShipComponent>()
-            };
+                Buildings = this.Buildings?.FindCoreGameData() ?? new ModEntityData<Building>(),
+                Decisions = this.Decisions?.FindCoreGameData() ?? new ModEntityData<Decision>(),
+            }.SetShipComponents(this.ShipComponents?.FindCoreGameData(), this.shipComponentDescriptions?.FindCoreGameData());
             
         }
     }

@@ -16,21 +16,20 @@ namespace TechTreeCreator.Output.Vis {
             this.localisationApi = localisationApi;
             this.outputDirectoryHelper = outputDirectoryHelper;
         }
-        
-        
-        public IDictionary<string, VisData> CreateTechVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
 
+
+        public IDictionary<string, VisData> CreateTechVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
             // perform longest path analysis to find out how many levels we want in each tech
             var maxPathPerTier = new Dictionary<int, int>();
-            
+
             List<Tech> techsWithNoPrereqs = new List<Tech>();
             foreach (var tech in techsAndDependencies.AllEntities) {
                 if (!tech.Tier.HasValue) {
                     throw new InvalidOperationException("All Techs must have Tiers to create vis data.  " + tech.Id);
                 }
-                
+
                 int pathLength = NumberOfPrereqsInSameTier(tech);
-                
+
                 var currentMaxForTier = maxPathPerTier.ComputeIfAbsent(tech.Tier.Value, ignored => 0);
                 if (pathLength > currentMaxForTier) {
                     maxPathPerTier[tech.Tier.Value] = pathLength;
@@ -41,9 +40,10 @@ namespace TechTreeCreator.Output.Vis {
                     techsWithNoPrereqs.Add(tech);
                 }
             }
+
             Log.Logger.Debug("Max path per tier {@maxPaths} Number of techs with no pre-requiste {noPreqCount}", maxPathPerTier, techsWithNoPrereqs.Count);
-            
-            
+
+
             // determine the base levels in the graph that each node will be on.
             var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
             Log.Logger.Debug("Minimum level per tier {@minLevels}", minimumLevelForTier);
@@ -54,9 +54,9 @@ namespace TechTreeCreator.Output.Vis {
                 var primary = tech1.Area - tech2.Area;
                 return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
             });
-            
+
             var modGroups = techsAndDependencies.AllLinks.Select(x => x.To.ModGroup).Distinct().ToList();
-       
+
             // link to supernodes
             var results = new Dictionary<string, VisData>();
             foreach (var modGroup in modGroups) {
@@ -74,7 +74,7 @@ namespace TechTreeCreator.Output.Vis {
 
             return results;
         }
-        
+
         public VisData CreateRootNotes(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
             var result = new VisData() {ModGroup = StellarisDirectoryHelper.StellarisCoreRootDirectory};
             var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
@@ -93,11 +93,11 @@ namespace TechTreeCreator.Output.Vis {
             result.nodes.AddRange(rootNodes.Values);
             return result;
         }
-        
+
         private string CreateRelativePath(string imagesPath) {
             return VisHelpers.CreateRelativePath(imagesPath, outputDirectoryHelper.Root);
         }
-        
+
         private VisNode BuildRootNode(TechArea area, string imagesPath) {
             var relativePath = CreateRelativePath(imagesPath);
             var areaName = area.ToString();
@@ -112,12 +112,12 @@ namespace TechTreeCreator.Output.Vis {
             };
             return result;
         }
-        
+
         private bool Filter<T>(T entity, string modGroup) where T : Entity {
             return modGroup == null || entity.ModGroup == modGroup;
         }
 
-    
+
         private VisEdge BuildRootLink(TechArea area, string to) {
             return new VisEdge() {
                 @from = BuildRootNodeName(area),
@@ -127,11 +127,11 @@ namespace TechTreeCreator.Output.Vis {
                 }
             };
         }
-        
+
         private static string BuildRootNodeName(TechArea techArea) {
             return techArea + "-root";
         }
-        
+
         private Dictionary<int, int> CalculateMinimumLevelForTier(Dictionary<int, int> maxPathsPerTier) {
             var dictionary = new Dictionary<int, int>();
             var maxTier = maxPathsPerTier.Keys.Max();
@@ -163,22 +163,20 @@ namespace TechTreeCreator.Output.Vis {
                     }
                 }
             }
-            
+
             return maxPreqs;
         }
-        
-        private VisNode MarshalTech(Tech tech, Dictionary<int, int> startingLevelsByTier, string imagesPath)
-        {
+
+        private VisNode MarshalTech(Tech tech, Dictionary<int, int> startingLevelsByTier, string imagesPath) {
             var result = VisHelpers.CreateNode(tech, CreateRelativePath(imagesPath), "tech");
             result.prerequisites = tech.PrerequisiteIds != null
                 ? tech.PrerequisiteIds.ToArray()
                 : new[] {BuildRootNodeName(tech.Area)};
-           
+
             result.group = (tech.Mod == "Stellaris" ? "" : "Mod") + tech.Area;
             result.title = result.title + "<br/><b>Tier: </b>" + tech.TierValue;
 
-            if (tech.Categories != null)
-            {
+            if (tech.Categories != null) {
                 var catString = tech.Categories.Count() > 1 ? "Categories" : "Category";
                 var categoriesLocalised = tech.Categories.Select(x => localisationApi.GetName(x)).ToArray();
 
@@ -190,44 +188,40 @@ namespace TechTreeCreator.Output.Vis {
             result.title = result.title + "<br/><b>Base cost: </b>" + (tech.BaseCost ?? 0);
 
             // we are assigning levels in the graph, so work out where this tech sits.
-            result.level = tech.TierValue == -1 ? 0 : CalculateLevel(tech, startingLevelsByTier);  
+            result.level = tech.TierValue == -1 ? 0 : CalculateLevel(tech, startingLevelsByTier);
 
-            if (tech.Flags.Any())
-            {
+            if (tech.Flags.Any()) {
                 result.title = result.title + "<br/><b>Attributes: </b>" + string.Join(", ", tech.Flags);
             }
+            
+            VisHelpers.SetGestaltAvailability(result, tech);
 
             // rare purple tech
-            if (tech.Flags.Contains(TechFlag.Rare))
-            {
+            if (tech.Flags.Contains(TechFlag.Rare)) {
                 VisHelpers.SetBorder(result, "#8900CE");
             }
 
             // starter technology
-            if (tech.Flags.Contains(TechFlag.Starter))
-            {
+            if (tech.Flags.Contains(TechFlag.Starter)) {
                 VisHelpers.SetBorder(result, "#00CE56");
             }
 
             // may cause endgame crisis or AI revolution
-            if (tech.Flags.Contains(TechFlag.Dangerous))
-            {
+            if (tech.Flags.Contains(TechFlag.Dangerous)) {
                 VisHelpers.SetBorder(result, "#D30000");
             }
-            
+
             // tech that requires an acquisition - base weight is 0
-            if (tech.Flags.Contains(TechFlag.NonTechDependency))
-            {
+            if (tech.Flags.Contains(TechFlag.NonTechDependency)) {
                 VisHelpers.SetBorder(result, "#CE7C00");
             }
 
             // tech that is repeatable
-            if (tech.Flags.Contains(TechFlag.Repeatable))
-            {
+            if (tech.Flags.Contains(TechFlag.Repeatable)) {
                 VisHelpers.SetBorder(result, "#0078CE");
             }
+
             return result;
         }
-        
     }
 }

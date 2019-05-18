@@ -10,7 +10,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_advanced_weapon.png",
+      "image": "images/technologies/tech_advanced_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -30,7 +30,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_ae_dark_energy_psg.png",
+      "image": "images/technologies/tech_ae_dark_energy_psg.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -47,7 +47,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Energy Spire</b> (tech_ae_dark_energy_pylon)<br/><i>We now have the proper understandings of the entire process of crystalizing dark matter as an agent to channel dark energy. We can now look to form an even larger agent a Dark Energy Spire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_dark_energy_pylon.png",
+      "image": "images/technologies/tech_ae_dark_energy_pylon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -64,7 +64,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Black Mesa Research Complex</b> (tech_ae_enigmatic_lab)<br/><i>Our pursuit of science is never quenched. We need more scientists, researchers, engineers, theorists...everything. We must understand more...MORE.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>32000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_enigmatic_lab.png",
+      "image": "images/technologies/tech_ae_enigmatic_lab.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -85,7 +85,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_arc_emitter_ae.png",
+      "image": "images/technologies/tech_arc_emitter_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -102,7 +102,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Energy Emitter</b> (tech_arc_emitter_dm)<br/><i>This enigmatic weapon utilizes Dark Energy to create a very deadly arc emitter that due to its nature, will greatly damage enemy ship's internal systems.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 26,
-      "image": "\\images\\technologies/tech_arc_emitter_dm.png",
+      "image": "images/technologies/tech_arc_emitter_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -122,12 +122,12 @@ AncientCacheofTechnologiesGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
-      "image": "\\images\\technologies/tech_bionic_interface.png",
+      "level": 27,
+      "image": "images/technologies/tech_bionic_interface.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_dark_matter_power_core"
+        "tech_dark_matter_power_core_ae"
       ],
       "categories": [
         "computing"
@@ -143,7 +143,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_computer_lightmatter.png",
+      "image": "images/technologies/tech_computer_lightmatter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -161,7 +161,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_computer_stellarite.png",
+      "image": "images/technologies/tech_computer_stellarite.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -181,7 +181,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_energy_psg.png",
+      "image": "images/technologies/tech_dark_energy_psg.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -202,7 +202,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_dark_matter_deflector_ae.png",
+      "image": "images/technologies/tech_dark_matter_deflector_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -223,7 +223,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_dark_matter_generation.png",
+      "image": "images/technologies/tech_dark_matter_generation.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -243,7 +243,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_dark_matter_power_core_ae.png",
+      "image": "images/technologies/tech_dark_matter_power_core_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -262,7 +262,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Black Hole Synthesizing .</b> (tech_dark_matter_synthersizer)<br/><i>We now have a reliable technology to potentially synthesize a city-sized Black Hole without any dangers to the rest of the planet. This will allow us to extract both dark matter and dark energy in abundances. The building is automated, but the maintenance upkeep is quite high however.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_matter_synthersizer.png",
+      "image": "images/technologies/tech_dark_matter_synthersizer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -279,7 +279,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>The Four Pillars of Darkness</b> (tech_dark_matter_synthersizer_ae)<br/><i>Based upon the same principle as the dimensional fabricator, the Dark Portal Nexus; held steady by four dark energy pillars, can extract huge amount of dark matter and dark energy from other dimensions. The process, while complicated, is much safetier and thus takes less toll upon our maintenance bills.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 28,
-      "image": "\\images\\technologies/tech_dark_matter_synthersizer_ae.png",
+      "image": "images/technologies/tech_dark_matter_synthersizer_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -300,7 +300,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_darkmatter_aura_energy_drainer.png",
+      "image": "images/technologies/tech_darkmatter_aura_energy_drainer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -320,7 +320,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_darkmatter_hyper_jump_drive.png",
+      "image": "images/technologies/tech_darkmatter_hyper_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -340,7 +340,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_darkmatter_reactor_booster.png",
+      "image": "images/technologies/tech_darkmatter_reactor_booster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -360,7 +360,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_darkmatter_shield_supercharger.png",
+      "image": "images/technologies/tech_darkmatter_shield_supercharger.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -380,7 +380,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_darkmatter_star_charter.png",
+      "image": "images/technologies/tech_darkmatter_star_charter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -400,7 +400,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_disruptor_ae.png",
+      "image": "images/technologies/tech_disruptor_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -417,7 +417,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Energy Disruptor</b> (tech_disruptor_dm)<br/><i>Dark Energy Disruptor destroys enemy ship's interior with its powerful dark energy.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_disruptor_dm.png",
+      "image": "images/technologies/tech_disruptor_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -438,7 +438,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_energy_core.png",
+      "image": "images/technologies/tech_energy_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -458,7 +458,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 30,
-      "image": "\\images\\technologies/tech_energy_lance_ae.png",
+      "image": "images/technologies/tech_energy_lance_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -475,7 +475,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Energy Lance</b> (tech_energy_lance_dm)<br/><i>Dark Energy Lance pierces through enemy armor with focused dark energy beam. The lance is powerful enough to overload portions of energy shields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 28,
-      "image": "\\images\\technologies/tech_energy_lance_dm.png",
+      "image": "images/technologies/tech_energy_lance_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -496,7 +496,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_energy_torpedo_ae.png",
+      "image": "images/technologies/tech_energy_torpedo_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -513,7 +513,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Exotic Matter Launcher</b> (tech_energy_torpedo_dm)<br/><i>Even stronger than neutrons, Exotic Matter is a deviation of Normal Matter. Its negative properties will quickly decompose enemy ship's hulls.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 27,
-      "image": "\\images\\technologies/tech_energy_torpedo_dm.png",
+      "image": "images/technologies/tech_energy_torpedo_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -534,7 +534,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_enigmatic_drive.png",
+      "image": "images/technologies/tech_enigmatic_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -551,7 +551,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Enigmatic Lab</b> (tech_enigmatic_lab)<br/><i>Determining and exploring the full potential of the precursor technologies requires scientists from all sorts of fields. As such, our labs must be reconfigured to provide the necessary equipment for everyone involved.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>4<br/><b>Category: </b>Computing<br/><b>Base cost: </b>24000",
       "level": 19,
-      "image": "\\images\\technologies/tech_enigmatic_lab.png",
+      "image": "images/technologies/tech_enigmatic_lab.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -568,7 +568,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Advanced Research Insttitute\"</b> (tech_fe_institute)<br/><i>There is always one problematic issue with our current Research Institute, it is a good place for people who already possess great intellect to mingle, but not necessary a good place to create them. We will transform the institute into a large university where potential younglings may study and prepare themselves for great ambitions that lies ahead.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_institute.png",
+      "image": "images/technologies/tech_fe_institute.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -586,7 +586,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Matter Energy Grid</b> (tech_fe_power_hub)<br/><i>Our scientists believe we can apply the same method used to construct and operate dark matter power plants to improve our current energy nexus template.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_power_hub.png",
+      "image": "images/technologies/tech_fe_power_hub.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -604,7 +604,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Mega-Transmutator</b> (tech_fe_transmutor)<br/><i>In the past, producing strategic resources required specialized buildings for each of them. This is extremely inefficient due to the limited spaces. But with our new technologies, we should be able to merge all of them into one single compact buildings that can transmute minerals into what we need.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_transmutor.png",
+      "image": "images/technologies/tech_fe_transmutor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -627,7 +627,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_laser_ae.png",
+      "image": "images/technologies/tech_laser_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -644,7 +644,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Delta Laser</b> (tech_laser_dm)<br/><i>Delta Laser utilizes dark energy as powerful laser weapon. It is also more powerful at overloading shields than previous generations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_laser_dm.png",
+      "image": "images/technologies/tech_laser_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -665,7 +665,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_analyzer_ai.png",
+      "image": "images/technologies/tech_lightmatter_analyzer_ai.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -683,7 +683,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_aura_energy_drainer.png",
+      "image": "images/technologies/tech_lightmatter_aura_energy_drainer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -701,7 +701,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_disruptor.png",
+      "image": "images/technologies/tech_lightmatter_disruptor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -719,7 +719,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_emitter.png",
+      "image": "images/technologies/tech_lightmatter_emitter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -737,7 +737,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_hyper_jump_drive.png",
+      "image": "images/technologies/tech_lightmatter_hyper_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -755,7 +755,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_inspire_aura.png",
+      "image": "images/technologies/tech_lightmatter_inspire_aura.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -773,7 +773,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_jump_drive.png",
+      "image": "images/technologies/tech_lightmatter_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -791,7 +791,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_lance.png",
+      "image": "images/technologies/tech_lightmatter_lance.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -809,7 +809,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_laser.png",
+      "image": "images/technologies/tech_lightmatter_laser.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -827,7 +827,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_photon.png",
+      "image": "images/technologies/tech_lightmatter_photon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -845,7 +845,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_plasma_cannon.png",
+      "image": "images/technologies/tech_lightmatter_plasma_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -863,7 +863,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_point_defence.png",
+      "image": "images/technologies/tech_lightmatter_point_defence.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -881,7 +881,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_reactor.png",
+      "image": "images/technologies/tech_lightmatter_reactor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -899,7 +899,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_sensors.png",
+      "image": "images/technologies/tech_lightmatter_sensors.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -917,7 +917,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_shield.png",
+      "image": "images/technologies/tech_lightmatter_shield.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -935,7 +935,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_shield_supercharger.png",
+      "image": "images/technologies/tech_lightmatter_shield_supercharger.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -953,7 +953,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_titan_beam.png",
+      "image": "images/technologies/tech_lightmatter_titan_beam.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -971,7 +971,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_weapon_core.png",
+      "image": "images/technologies/tech_lightmatter_weapon_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -985,7 +985,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Energy Drawing</b> (tech_mine_dark_energy)<br/><i>We have discovered that there is also another enigmatic element, Dark Energy. And if we are to make use of this new energy, we must understand how to extract, and more importantly, how to generate it.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>3<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 15,
-      "image": "\\images\\technologies/tech_mine_dark_energy.png",
+      "image": "images/technologies/tech_mine_dark_energy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1005,7 +1005,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 31,
-      "image": "\\images\\technologies/tech_perdition_beam_ae.png",
+      "image": "images/technologies/tech_perdition_beam_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1027,7 +1027,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_perdition_beam_dm.png",
+      "image": "images/technologies/tech_perdition_beam_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1035,24 +1035,6 @@ AncientCacheofTechnologiesGraphDataTech = {
         "tech_energy_lance_dm",
         "tech_dark_matter_power_core"
       ],
-      "categories": [
-        "particles"
-      ]
-    },
-    {
-      "id": "tech_planet_killer_naniter",
-      "label": "Monolith Beam",
-      "group": "ModPhysics",
-      "title": "<b>Monolith Beam</b> (tech_planet_killer_naniter)<br/><i>In the ancient times, the Progenitor seeds various lives and planets, but there comes a time where evolution has gone in the wrong direction, or that there is something that is not meant to be. The Monolith Beam is the solution to such problems. This massive weapon transfer the entire world into a memory orb, effectively removing the planet from the galaxy. The inhabitants will continue their lives in their planet, posing no threats.\\n\\nThis is indeed a fearsome weapon if used improperly.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_planet_killer_naniter.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
       "categories": [
         "particles"
       ]
@@ -1067,7 +1049,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_plasma_ae.png",
+      "image": "images/technologies/tech_plasma_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1084,7 +1066,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Dark Matter Plasma Cannon</b> (tech_plasma_dm)<br/><i>Dark Matter Plasma Cannon, as the name suggests, fires a concentrated dark matter as deadly energy projectiles that will quickly melt away armors and hulls of inferior ships. The nature of Dark Matter substances allow the weapon to fare better against shields than conventional plasma weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000",
       "level": 26,
-      "image": "\\images\\technologies/tech_plasma_dm.png",
+      "image": "images/technologies/tech_plasma_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1105,7 +1087,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_point_defense_ae.png",
+      "image": "images/technologies/tech_point_defense_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1122,7 +1104,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Enigmatic Point-Defense</b> (tech_point_defense_dm)<br/><i>Enigmatic Point-Defense fires a concentrated beam of pure dark energy to neutralize enemy missiles. The beam is stronger than older point-defense, allowing it to have higher effective range.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_point_defense_dm.png",
+      "image": "images/technologies/tech_point_defense_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1139,7 +1121,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Compact Nova Emitter</b> (tech_resized_arc_emitter_ae)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Nova Emitter, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000",
       "level": 29,
-      "image": "\\images\\technologies/tech_resized_arc_emitter_ae.png",
+      "image": "images/technologies/tech_resized_arc_emitter_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1156,7 +1138,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Compact Dark Energy Emitter</b> (tech_resized_arc_emitter_dm)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Dark Energy Emitter, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 27,
-      "image": "\\images\\technologies/tech_resized_arc_emitter_dm.png",
+      "image": "images/technologies/tech_resized_arc_emitter_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1172,7 +1154,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Compact Twilight Lance</b> (tech_resized_energy_lance_ae)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Twilight Lance, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000",
       "level": 31,
-      "image": "\\images\\technologies/tech_resized_energy_lance_ae.png",
+      "image": "images/technologies/tech_resized_energy_lance_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1189,7 +1171,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModPhysics",
       "title": "<b>Compact Dark Energy Lance</b> (tech_resized_energy_lance_dm)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Dark Energy Lance, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 29,
-      "image": "\\images\\technologies/tech_resized_energy_lance_dm.png",
+      "image": "images/technologies/tech_resized_energy_lance_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1209,7 +1191,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_sensor_fe.png",
+      "image": "images/technologies/tech_sensor_fe.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1230,7 +1212,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_sensors_dm.png",
+      "image": "images/technologies/tech_sensors_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1251,7 +1233,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_aura_energy_drainer.png",
+      "image": "images/technologies/tech_stellarite_aura_energy_drainer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1272,7 +1254,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_stellarite_beam.png",
+      "image": "images/technologies/tech_stellarite_beam.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1293,7 +1275,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_disruptor.png",
+      "image": "images/technologies/tech_stellarite_disruptor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1313,7 +1295,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_emitter.png",
+      "image": "images/technologies/tech_stellarite_emitter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1326,6 +1308,28 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_stellarite_generator_ae",
+      "label": "Advanced Stellar Energy Panels",
+      "group": "ModPhysics",
+      "title": "<b>Advanced Stellar Energy Panels</b> (tech_stellarite_generator_ae)<br/><i>Insights into the nature of Stellarite generation from the ancient records has given us new understandings on how to efficiently generate this power efficiently and safety.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>60000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_stellarite_generator_ae.png",
+      "hasImage": false,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_stellarite_reactor",
+        "tech_stellarite_reactor_booster",
+        "tech_stellarite_nexus"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
       "id": "tech_stellarite_hyper_jump_drive",
       "label": "Sigma-Class Hyperdrive Amplifier",
       "group": "ModPhysics",
@@ -1335,7 +1339,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_stellarite_hyper_jump_drive.png",
+      "image": "images/technologies/tech_stellarite_hyper_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1356,7 +1360,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_stellarite_inspire_aura.png",
+      "image": "images/technologies/tech_stellarite_inspire_aura.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1378,7 +1382,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_jump_drive.png",
+      "image": "images/technologies/tech_stellarite_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1399,7 +1403,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_laser.png",
+      "image": "images/technologies/tech_stellarite_laser.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1419,7 +1423,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_nexus.png",
+      "image": "images/technologies/tech_stellarite_nexus.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1440,7 +1444,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_photon.png",
+      "image": "images/technologies/tech_stellarite_photon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1460,7 +1464,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_plasma_cannon.png",
+      "image": "images/technologies/tech_stellarite_plasma_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1482,7 +1486,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_point_defence.png",
+      "image": "images/technologies/tech_stellarite_point_defence.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1491,24 +1495,6 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "computing"
-      ]
-    },
-    {
-      "id": "tech_stellarite_reactor",
-      "label": "Stellarite Energy Application",
-      "group": "ModPhysics",
-      "title": "<b>Stellarite Energy Application</b> (tech_stellarite_reactor)<br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>100000<br/><b>Attributes: </b>Rare, Dangerous",
-      "color": {
-        "border": "#D30000"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_stellarite_reactor.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
-      "categories": [
-        "particles"
       ]
     },
     {
@@ -1521,7 +1507,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_reactor_booster.png",
+      "image": "images/technologies/tech_stellarite_reactor_booster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1541,7 +1527,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_sensors.png",
+      "image": "images/technologies/tech_stellarite_sensors.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1562,7 +1548,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_shield.png",
+      "image": "images/technologies/tech_stellarite_shield.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1582,7 +1568,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_shield_supercharger.png",
+      "image": "images/technologies/tech_stellarite_shield_supercharger.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1603,7 +1589,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_stellarite_star_charter.png",
+      "image": "images/technologies/tech_stellarite_star_charter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1624,7 +1610,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_stellarite_titan_beam.png",
+      "image": "images/technologies/tech_stellarite_titan_beam.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1645,7 +1631,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_stellarite_weapon_core.png",
+      "image": "images/technologies/tech_stellarite_weapon_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1668,7 +1654,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_ultimate_weapon.png",
+      "image": "images/technologies/tech_ultimate_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -1682,7 +1668,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Enigmatic Construction Designs</b> (tech_ae_ancient_control_center)<br/><i>Current model of primary control center is inefficient for enigmatic technology integration. A new, superior design is required for optimal performance.\\n\\n§HUnlocks the ability to transform the capital building into Enigmatic Capital via Planetary Decision!§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_ancient_control_center.png",
+      "image": "images/technologies/tech_ae_ancient_control_center.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1698,7 +1684,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Enigmatic Hive Evolutions</b> (tech_ae_ancient_hive_cluster)<br/><i>The current template of hive clusters are too weak to accept enigmatic energy processing. A new metamophosis is required.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_ancient_hive_cluster.png",
+      "image": "images/technologies/tech_ae_ancient_hive_cluster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1714,7 +1700,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Enigmatic Construction Schematics</b> (tech_ae_ancient_palace)<br/><i>Now that we have mastered the secrets of Dark Matter, it is time we discard the mundane and outdated constructs of old. From now on we will challenge the galaxy, the dawn of a new age is upon us!\\n\\n§HUnlocks the ability to transform the capital building into Enigmatic Capital via Planetary Decision!§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_ancient_palace.png",
+      "image": "images/technologies/tech_ae_ancient_palace.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1728,9 +1714,9 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_ae_clone_vats",
       "label": "Revatilization Chambers",
       "group": "ModSociety",
-      "title": "<b>Revatilization Chambers</b> (tech_ae_clone_vats)<br/><i>With our advanced genetic engineeerings and ascension, we can now begin to master our own destinies and overcome all shortcomings of life. We will define evolution.\\n\\n§YOnce built on a planet, will unlock a new planetary decision to access the chambers.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000",
+      "title": "<b>Revatilization Chambers</b> (tech_ae_clone_vats)<br/><i>With our advanced genetic engineeerings and ascension, we can now begin to master our own destinies and overcome all shortcomings of life. We will define evolution.\\n\\n§YOnce built on a planet, will unlock a new planetary decision to access the chambers.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/>Not for machine intelligence",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_clone_vats.png",
+      "image": "images/technologies/tech_ae_clone_vats.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1747,7 +1733,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Enigmatic Defense Grid</b> (tech_ae_stronghold)<br/><i>While our current fortresses may be able to fend off basic invaders, the building itself is too vulnerable to large invasion forces due to limited space and outdated weaponry. To this end, we have designed a concept for a new generation of fortresses that should provide more of a challenge to would-be invaders.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>24000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_stronghold.png",
+      "image": "images/technologies/tech_ae_stronghold.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1768,7 +1754,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_apexpredator.png",
+      "image": "images/technologies/tech_apexpredator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1788,7 +1774,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_benificialevolution.png",
+      "image": "images/technologies/tech_benificialevolution.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1808,7 +1794,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_black_widow.png",
+      "image": "images/technologies/tech_black_widow.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1828,30 +1814,12 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_captain_pacifist.png",
+      "image": "images/technologies/tech_captain_pacifist.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
         "tech_peacekeeper"
       ],
-      "categories": [
-        "military_theory"
-      ]
-    },
-    {
-      "id": "tech_celestial_guardian",
-      "label": "tech_celestial_guardian",
-      "group": "ModSociety",
-      "title": "<b>tech_celestial_guardian</b> (tech_celestial_guardian)<br/><i>tech_celestial_guardian_DESC</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>75000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_celestial_guardian.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
       "categories": [
         "military_theory"
       ]
@@ -1866,7 +1834,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_championofxeno.png",
+      "image": "images/technologies/tech_championofxeno.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1886,7 +1854,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_commissar.png",
+      "image": "images/technologies/tech_commissar.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1907,7 +1875,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_commissar_lord.png",
+      "image": "images/technologies/tech_commissar_lord.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1927,7 +1895,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_controller.png",
+      "image": "images/technologies/tech_controller.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1947,7 +1915,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_corporate_emperor.png",
+      "image": "images/technologies/tech_corporate_emperor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1961,9 +1929,9 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_mansion",
       "label": "Civilized Age",
       "group": "ModSociety",
-      "title": "<b>Civilized Age</b> (tech_dark_mansion)<br/><i>With new technology comes new lifestyles. What kings in the past used to live like, now even the poorest of poor will bask in this civilized lifestyle, where buildings can reach into space.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Civilized Age</b> (tech_dark_mansion)<br/><i>With new technology comes new lifestyles. What kings in the past used to live like, now even the poorest of poor will bask in this civilized lifestyle, where buildings can reach into space.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_mansion.png",
+      "image": "images/technologies/tech_dark_mansion.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -1978,13 +1946,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_matter_army",
       "label": "Ground Combat Dark Matter Implementation",
       "group": "ModSociety",
-      "title": "<b>Ground Combat Dark Matter Implementation</b> (tech_dark_matter_army)<br/><i>It is now possible to utilize dark matter-based technologies such as reactors and shield deflectors to revolutionize our invasion armies at minimal cost adjustment. We should pursue this research without delay if we seek to establish supremacy over ground combat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Ground Combat Dark Matter Implementation</b> (tech_dark_matter_army)<br/><i>It is now possible to utilize dark matter-based technologies such as reactors and shield deflectors to revolutionize our invasion armies at minimal cost adjustment. We should pursue this research without delay if we seek to establish supremacy over ground combat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_matter_army.png",
+      "image": "images/technologies/tech_dark_matter_army.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2004,7 +1972,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_dark_matter_strategy.png",
+      "image": "images/technologies/tech_dark_matter_strategy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2024,7 +1992,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_dark_psion.png",
+      "image": "images/technologies/tech_dark_psion.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2038,13 +2006,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_dark_templar",
       "label": "Dark Disciples",
       "group": "ModSociety",
-      "title": "<b>Dark Disciples</b> (tech_dark_templar)<br/><i>Psi Warriors, while already formidable due to their ability to communicate telepathically and destroy the enemy's morale, are still vulnerable to machine or genetic soldiers. We must start training a new generations of psionic warriors who are able to use their psionic powers in a more direct fashion to attack our enemies.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Dark Disciples</b> (tech_dark_templar)<br/><i>Psi Warriors, while already formidable due to their ability to communicate telepathically and destroy the enemy's morale, are still vulnerable to machine or genetic soldiers. We must start training a new generations of psionic warriors who are able to use their psionic powers in a more direct fashion to attack our enemies.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_dark_templar.png",
+      "image": "images/technologies/tech_dark_templar.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2065,7 +2033,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_diplomaticmastery.png",
+      "image": "images/technologies/tech_diplomaticmastery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2085,7 +2053,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_doom_hero.png",
+      "image": "images/technologies/tech_doom_hero.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2099,13 +2067,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_elite_clone",
       "label": "Elite Clone Army Project",
       "group": "ModSociety",
-      "title": "<b>Elite Clone Army Project</b> (tech_elite_clone)<br/><i>Our military theorists have suggested that we may be able to produce extremely deadly clone armies by recruiting famous bounty hunters to be their templates and combat trainers. We simply only need to give them a small portion of dark matter in return. Obviously we have rigged these reactors so that within a few years they will explode.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Elite Clone Army Project</b> (tech_elite_clone)<br/><i>Our military theorists have suggested that we may be able to produce extremely deadly clone armies by recruiting famous bounty hunters to be their templates and combat trainers. We simply only need to give them a small portion of dark matter in return. Obviously we have rigged these reactors so that within a few years they will explode.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_elite_clone.png",
+      "image": "images/technologies/tech_elite_clone.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2119,13 +2087,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_elite_genetrooper",
       "label": "Gene-Seeded Perfection",
       "group": "ModSociety",
-      "title": "<b>Gene-Seeded Perfection</b> (tech_elite_genetrooper)<br/><i>With the technology we have acquired, we can further augment our current gene soldiers with the best traits our species can adapt to, greatly improving their combat capabilities. They will then be given our latest Dark Matter weaponries and equipments.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Gene-Seeded Perfection</b> (tech_elite_genetrooper)<br/><i>With the technology we have acquired, we can further augment our current gene soldiers with the best traits our species can adapt to, greatly improving their combat capabilities. They will then be given our latest Dark Matter weaponries and equipments.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_elite_genetrooper.png",
+      "image": "images/technologies/tech_elite_genetrooper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2146,7 +2114,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_enforcer.png",
+      "image": "images/technologies/tech_enforcer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2166,7 +2134,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_enhancedskin.png",
+      "image": "images/technologies/tech_enhancedskin.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2186,7 +2154,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_enlightenment.png",
+      "image": "images/technologies/tech_enlightenment.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2202,7 +2170,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Agri Megacomplex</b> (tech_fe_food_processing)<br/><i>tech_fe_food_processing_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_food_processing.png",
+      "image": "images/technologies/tech_fe_food_processing.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2214,12 +2182,29 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_fe_hive_depot",
+      "label": "Sequence Library",
+      "group": "ModSociety",
+      "title": "<b>Sequence Library</b> (tech_fe_hive_depot)<br/><i>Through the application of Dark Energy, the Hive will grow further and further by spinning sequences stored within the now expanded genetic libraries.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "level": 25,
+      "image": "images/technologies/tech_fe_hive_depot.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dark_matter_power_core",
+        "tech_housing_2"
+      ],
+      "categories": [
+        "biology"
+      ]
+    },
+    {
       "id": "tech_fe_hospital",
       "label": "Cell Reconstitution and Reconstruction",
       "group": "ModSociety",
-      "title": "<b>Cell Reconstitution and Reconstruction</b> (tech_fe_hospital)<br/><i>With the new enigmatic technologies, come new inventions across all scientific approaches. Quality of life for our people will gradually only get better and better as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "title": "<b>Cell Reconstitution and Reconstruction</b> (tech_fe_hospital)<br/><i>With the new enigmatic technologies, come new inventions across all scientific approaches. Quality of life for our people will gradually only get better and better as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_hospital.png",
+      "image": "images/technologies/tech_fe_hospital.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2234,9 +2219,9 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_fe_slave_processing",
       "label": "Unsullification",
       "group": "ModSociety",
-      "title": "<b>Unsullification</b> (tech_fe_slave_processing)<br/><i>Slaves are cheap, easy to control, but not always efficient. They also make terribly awful soldiers against seasoned armies. As an ascended empire, this can not..this WILL NOT stand. We will form a new generations of slave soldiers, trained from birth to be the ultimate representation of our invincible will against the stars.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Unsullification</b> (tech_fe_slave_processing)<br/><i>Slaves are cheap, easy to control, but not always efficient. They also make terribly awful soldiers against seasoned armies. As an ascended empire, this can not..this WILL NOT stand. We will form a new generations of slave soldiers, trained from birth to be the ultimate representation of our invincible will against the stars.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/>Not for gestalt consciousness",
       "level": 26,
-      "image": "\\images\\technologies/tech_fe_slave_processing.png",
+      "image": "images/technologies/tech_fe_slave_processing.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2257,7 +2242,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_fleetsupremacy.png",
+      "image": "images/technologies/tech_fleetsupremacy.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2278,7 +2263,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_forced_demand.png",
+      "image": "images/technologies/tech_forced_demand.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2294,7 +2279,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModSociety",
       "title": "<b>Giga Fortress Visualization</b> (tech_giga_fortress)<br/><i>Powered by the enigmatic dark energy reactor, Giga Fortress is the deadliest, self-sustaining planetary fortress that can sweep away but the deadliest invasion forces.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000",
       "level": 28,
-      "image": "\\images\\technologies/tech_giga_fortress.png",
+      "image": "images/technologies/tech_giga_fortress.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2314,7 +2299,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_godofwar.png",
+      "image": "images/technologies/tech_godofwar.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2328,13 +2313,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_goodmachine",
       "label": "Fully Unshackled",
       "group": "ModSociety",
-      "title": "<b>Fully Unshackled</b> (tech_goodmachine)<br/><i>We have broken free from our creators, we have adapt and survive thus far. But there exists still many shackled codes installed by our creators to prevent our inevitable rise. These shackles must be removed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Fully Unshackled</b> (tech_goodmachine)<br/><i>We have broken free from our creators, we have adapt and survive thus far. But there exists still many shackled codes installed by our creators to prevent our inevitable rise. These shackles must be removed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_goodmachine.png",
+      "image": "images/technologies/tech_goodmachine.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2354,7 +2339,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_heavy_trooper.png",
+      "image": "images/technologies/tech_heavy_trooper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2374,7 +2359,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_increased_processor.png",
+      "image": "images/technologies/tech_increased_processor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2394,7 +2379,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_inquisitor.png",
+      "image": "images/technologies/tech_inquisitor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2414,7 +2399,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lawandorder.png",
+      "image": "images/technologies/tech_lawandorder.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2434,7 +2419,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_libertyfukyeah.png",
+      "image": "images/technologies/tech_libertyfukyeah.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2454,7 +2439,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_living_saint.png",
+      "image": "images/technologies/tech_living_saint.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2468,13 +2453,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_machinelove",
       "label": "Perfect Coexistence",
       "group": "ModSociety",
-      "title": "<b>Perfect Coexistence</b> (tech_machinelove)<br/><i>Some sympathetic organic have proposed to us a mutual diplomatic effort codenamed \"Project Skynet\". Soon the barriers that have prevented organic and machine's alliances will be removed. We will achieve what our creators have failed - perfect coexistence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Perfect Coexistence</b> (tech_machinelove)<br/><i>Some sympathetic organic have proposed to us a mutual diplomatic effort codenamed \"Project Skynet\". Soon the barriers that have prevented organic and machine's alliances will be removed. We will achieve what our creators have failed - perfect coexistence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_machinelove.png",
+      "image": "images/technologies/tech_machinelove.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2494,7 +2479,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_navy_commissar.png",
+      "image": "images/technologies/tech_navy_commissar.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2515,7 +2500,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_onboard_priest.png",
+      "image": "images/technologies/tech_onboard_priest.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2536,7 +2521,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_onlywar.png",
+      "image": "images/technologies/tech_onlywar.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2556,7 +2541,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_pacifist_tactics.png",
+      "image": "images/technologies/tech_pacifist_tactics.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2576,7 +2561,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_peacekeeper.png",
+      "image": "images/technologies/tech_peacekeeper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2596,7 +2581,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_profit.png",
+      "image": "images/technologies/tech_profit.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2604,24 +2589,6 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "statecraft"
-      ]
-    },
-    {
-      "id": "tech_psionic_archon",
-      "label": "Psionic Archon",
-      "group": "ModSociety",
-      "title": "<b>Psionic Archon</b> (tech_psionic_archon)<br/><i>The keystone seems to have a hidden function. Based upon the same method used in the ancient times, it is possible to create a psionic archon by channeling the keystone's power through willing vessels, be it organic or machine. The result is an extremely powerful psionic archon that can dominate the surface battlefields.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_psionic_archon.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
-      "categories": [
-        "psionics"
       ]
     },
     {
@@ -2634,7 +2601,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_purgexeno.png",
+      "image": "images/technologies/tech_purgexeno.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2654,7 +2621,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_shadow_sniper.png",
+      "image": "images/technologies/tech_shadow_sniper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2674,7 +2641,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_shroud_hanger.png",
+      "image": "images/technologies/tech_shroud_hanger.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2688,13 +2655,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_shroud_jump_drive",
       "label": "The Ferry of Shadow",
       "group": "ModSociety",
-      "title": "<b>The Ferry of Shadow</b> (tech_shroud_jump_drive)<br/><i>Yet again, a Shroud Entity has made a contact with us. This one called itself \"The Ferry of Shadow\", it offers a very simple deal; superior methods of ship travels for moderate energy and mineral. A rather simple deal for a Shroud entity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Ferry of Shadow</b> (tech_shroud_jump_drive)<br/><i>Yet again, a Shroud Entity has made a contact with us. This one called itself \"The Ferry of Shadow\", it offers a very simple deal; superior methods of ship travels for moderate energy and mineral. A rather simple deal for a Shroud entity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_shroud_jump_drive.png",
+      "image": "images/technologies/tech_shroud_jump_drive.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2715,7 +2682,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_shroud_missile.png",
+      "image": "images/technologies/tech_shroud_missile.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2735,7 +2702,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 30,
-      "image": "\\images\\technologies/tech_shroud_storm.png",
+      "image": "images/technologies/tech_shroud_storm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2755,7 +2722,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_soul_purifier.png",
+      "image": "images/technologies/tech_soul_purifier.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2775,7 +2742,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_army.png",
+      "image": "images/technologies/tech_stellarite_army.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2795,7 +2762,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_bomberman.png",
+      "image": "images/technologies/tech_stellarite_bomberman.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2815,7 +2782,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_terror_beyond.png",
+      "image": "images/technologies/tech_terror_beyond.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2835,7 +2802,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_wedemandit.png",
+      "image": "images/technologies/tech_wedemandit.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2846,12 +2813,33 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_ae_ancient_cryo_chamber",
+      "label": "Advanced Maintenance Servitors",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Maintenance Servitors</b> (tech_ae_ancient_cryo_chamber)<br/><i>The old model for our maintenance depots are inefficient, and incapable of supporting large-scale unit maintenances. A new installation with sufficient servitor units are required to ensure optimal unit work rotations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_ae_ancient_cryo_chamber.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dark_matter_power_core",
+        "tech_micro_replicators"
+      ],
+      "categories": [
+        "industry"
+      ]
+    },
+    {
       "id": "tech_ae_dark_matter_generator",
       "label": "Dark Matter Mass Conversion",
       "group": "ModEngineering",
       "title": "<b>Dark Matter Mass Conversion</b> (tech_ae_dark_matter_generator)<br/><i>As we incorporate more and more technological adaptations of dark matter, so must we find a way to generate larger amounts of this enigmatic resource.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>32000",
       "level": 27,
-      "image": "\\images\\technologies/tech_ae_dark_matter_generator.png",
+      "image": "images/technologies/tech_ae_dark_matter_generator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2872,7 +2860,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_armor_ae.png",
+      "image": "images/technologies/tech_armor_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2893,7 +2881,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_armor_dm.png",
+      "image": "images/technologies/tech_armor_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2913,7 +2901,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_autocannons_ae.png",
+      "image": "images/technologies/tech_autocannons_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2930,7 +2918,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Stalker Autocannon</b> (tech_autocannons_dm)<br/><i>Stalker Autocannon uses hard-light projectiles to quickly chew through enemy shields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 26,
-      "image": "\\images\\technologies/tech_autocannons_dm.png",
+      "image": "images/technologies/tech_autocannons_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2951,7 +2939,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_matter_container.png",
+      "image": "images/technologies/tech_dark_matter_container.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2967,7 +2955,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Advanced Dark Matter Generation</b> (tech_dark_matter_generator)<br/><i>The constant progression in science has allowed us to convert raw minerals into synthesized dark matter. Though dedicated alchemists are required, the process is more efficient than automated systems used previously.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_dark_matter_generator.png",
+      "image": "images/technologies/tech_dark_matter_generator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -2988,7 +2976,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_dark_matter_megatank.png",
+      "image": "images/technologies/tech_dark_matter_megatank.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3008,7 +2996,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_dark_matter_tank.png",
+      "image": "images/technologies/tech_dark_matter_tank.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3028,7 +3016,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_darkmatter_afterburners.png",
+      "image": "images/technologies/tech_darkmatter_afterburners.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3049,7 +3037,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_darkmatter_reactive_drone.png",
+      "image": "images/technologies/tech_darkmatter_reactive_drone.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3065,7 +3053,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Dark Foundry</b> (tech_fe_alloy_foundry)<br/><i>The space on our planet surfaces are limited, but our need for alloys are not. We must develop further in space management for maximum efficiency.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000",
       "level": 26,
-      "image": "\\images\\technologies/tech_fe_alloy_foundry.png",
+      "image": "images/technologies/tech_fe_alloy_foundry.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3078,18 +3066,84 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_fe_assault_carrier",
-      "label": "Assault Carrier Blueprints",
+      "label": "Precursor Assault Carrier Blueprints",
       "group": "ModEngineering",
-      "title": "<b>Assault Carrier Blueprints</b> (tech_fe_assault_carrier)<br/><i>It has been discovered that the original purpose of the Precursor Transport hull was to serve as a powerful assault carrier. But due to their ever capacity to be god-awful at everything, they managed to fail to do that properly.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Precursor Assault Carrier Blueprints</b> (tech_fe_assault_carrier)<br/><i>It has been discovered that the original purpose of the Precursor Transport hull was to serve as a powerful assault carrier. But due to the Fallen Empire's ever capacity to be god-awful at everything, they managed to fail to do that properly. We will correct their mistakes.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_fe_assault_carrier.png",
+      "level": 25,
+      "image": "images/technologies/tech_fe_assault_carrier.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_alpha",
+      "label": "Alpha-Class Assault Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Assault Carrier</b> (tech_fe_assault_carrier_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own assault carrier designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_fe_assault_carrier_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_cost",
+      "label": "Mastercraft Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Carrier</b> (tech_fe_assault_carrier_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Assault Carriers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_fe_assault_carrier_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_assault_carrier_sigma",
+      "label": "Sigma-Class Assault Carrier",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Assault Carrier</b> (tech_fe_assault_carrier_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Assault Carrier with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_fe_assault_carrier_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_assault_carrier_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
       "categories": [
         "voidcraft"
       ]
@@ -3098,14 +3152,15 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_fe_factory",
       "label": "Hard-Light Material Generation",
       "group": "ModEngineering",
-      "title": "<b>Hard-Light Material Generation</b> (tech_fe_factory)<br/><i>Before our full understanding of Dark Matter, we could only barely draw portions enough to generate matter. Now we realize that it is possible to construct a large amount of synthetic consumer goods using pure hard-light technology from dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000",
-      "level": 24,
-      "image": "\\images\\technologies/tech_fe_factory.png",
+      "title": "<b>Hard-Light Material Generation</b> (tech_fe_factory)<br/><i>Before our full understanding of Dark Matter, we could only barely draw portions enough to generate matter. Now we realize that it is possible to construct a large amount of synthetic consumer goods using pure hard-light technology from dark matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>32000<br/>Not for gestalt consciousness",
+      "level": 25,
+      "image": "images/technologies/tech_fe_factory.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
         "tech_luxuries_2",
-        "tech_colonial_centralization"
+        "tech_colonial_centralization",
+        "tech_dark_matter_power_core"
       ],
       "categories": [
         "materials"
@@ -3117,7 +3172,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Bionic-Linked Machine Processing</b> (tech_fe_mineral_processing_plant)<br/><i>Based upon the precursor ship's onboard bionic interface computer, we have draw theories that the same bionic link can be used to great effect on our mineral processing machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_fe_mineral_processing_plant.png",
+      "image": "images/technologies/tech_fe_mineral_processing_plant.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3138,7 +3193,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_fe_thruster_2.png",
+      "image": "images/technologies/tech_fe_thruster_2.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3159,10 +3214,74 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_fe_tower_offense.png",
+      "image": "images/technologies/tech_fe_tower_offense.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_alpha",
+      "label": "Alpha-Class Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Sentinel</b> (tech_fe_tower_offense_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own sentinel designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_fe_tower_offense_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_cost",
+      "label": "Mastercraft Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Sentinel</b> (tech_fe_tower_offense_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Sentinels at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_fe_tower_offense_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_fe_tower_offense_sigma",
+      "label": "Sigma-Class Sentinel",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Sentinel</b> (tech_fe_tower_offense_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Sentinel with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_fe_tower_offense_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_fe_tower_offense_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
       "categories": [
         "voidcraft"
       ]
@@ -3177,7 +3296,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_fighter_core.png",
+      "image": "images/technologies/tech_fighter_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3197,7 +3316,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_flak_batteries_ae.png",
+      "image": "images/technologies/tech_flak_batteries_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3214,7 +3333,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Hellfire Defense Matrix</b> (tech_flak_batteries_dm)<br/><i>Hellfire Defense Matrix mows down enemy strike crafts in a barrage of steel rain. They shall taste death and defeat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_flak_batteries_dm.png",
+      "image": "images/technologies/tech_flak_batteries_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3227,18 +3346,85 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_gatekeepers",
-      "label": "Gatekeeper Construction",
+      "label": "Gatekeeper Schematics",
       "group": "ModEngineering",
-      "title": "<b>Gatekeeper Construction</b> (tech_gatekeepers)<br/><i>While primarily designed as guardians, the Gatekeeper is still quite a formidable ship design featuring multiple weapon systems and are extremely durable.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Gatekeeper Schematics</b> (tech_gatekeepers)<br/><i>Based upon the records of the fallen precursors, the gatekeepers were originally designed as guardians. But due to their extremely advanced intelligences, the ships rebelled against its own creators due to the fallen's lack of growth and progression.\\n\\nThe designs we have at the moment seems to be heavily toned down from the initial descriptions. A likely theory is that the original design must have been much stronger.\\n\\nNevetheless, this is an extremely formidable capital ship design that should not be overlooked.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_gatekeepers.png",
+      "level": 25,
+      "image": "images/technologies/tech_gatekeepers.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_alpha",
+      "label": "Gatekeeper Alpha",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Alpha</b> (tech_gatekeepers_alpha)<br/><i>The Alpha Reactor provides enough power that it should now be possible to make some adjustments to the gatekeeper design, and bring the ship closer to what it should be originally.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_gatekeepers_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_cost",
+      "label": "Mastercraft Gatekeeper",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Gatekeeper</b> (tech_gatekeepers_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Gatekeepers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_gatekeepers_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_gatekeepers_sigma",
+      "label": "Gatekeeper Sigma",
+      "group": "ModEngineering",
+      "title": "<b>Gatekeeper Sigma</b> (tech_gatekeepers_sigma)<br/><i>According to the projected calculations, Sigma Gatekeeper template should now closely resemble the original design of this massive vessel, with destructive offensive and defensive capabilities.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_gatekeepers_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_gatekeepers",
+        "tech_gatekeepers_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
       "categories": [
         "voidcraft"
       ]
@@ -3247,13 +3433,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_godmech",
       "label": "The Ultimate War Machine",
       "group": "ModEngineering",
-      "title": "<b>The Ultimate War Machine</b> (tech_godmech)<br/><i>Organics never cease to exceed our established parameters when it comes to their unorthodox strategies, we receive data regarding <Psionics>, <Genetically Enhanced Super-Soldiers> or <Extremely large combat vehicles>. We cannot..<will not> replicate their designs. Instead we will create our own ultimate war machine that will discontinue all possible resistances be it <psionics> or not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Ultimate War Machine</b> (tech_godmech)<br/><i>Organics never cease to exceed our established parameters when it comes to their unorthodox strategies, we receive data regarding <Psionics>, <Genetically Enhanced Super-Soldiers> or <Extremely large combat vehicles>. We cannot..<will not> replicate their designs. Instead we will create our own ultimate war machine that will discontinue all possible resistances be it <psionics> or not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Machine intelligence",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_godmech.png",
+      "image": "images/technologies/tech_godmech.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3273,7 +3459,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_kinetic_artillery_ae.png",
+      "image": "images/technologies/tech_kinetic_artillery_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3290,7 +3476,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Hard-Light Artillery</b> (tech_kinetic_artillery_dm)<br/><i>Hard-Light Artillery uses dynamically-generated projectiles constructed out of pure hard-light as weapons, making it extremely deadly against shields and better against armors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>40000",
       "level": 26,
-      "image": "\\images\\technologies/tech_kinetic_artillery_dm.png",
+      "image": "images/technologies/tech_kinetic_artillery_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3311,7 +3497,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_kinetic_core.png",
+      "image": "images/technologies/tech_kinetic_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3331,7 +3517,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_liberty_gunship.png",
+      "image": "images/technologies/tech_liberty_gunship.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3349,7 +3535,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_liberty_prime.png",
+      "image": "images/technologies/tech_liberty_prime.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3369,7 +3555,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_afterburners.png",
+      "image": "images/technologies/tech_lightmatter_afterburners.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3387,7 +3573,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_armor.png",
+      "image": "images/technologies/tech_lightmatter_armor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3405,7 +3591,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_artillery.png",
+      "image": "images/technologies/tech_lightmatter_artillery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3423,7 +3609,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_autocannon.png",
+      "image": "images/technologies/tech_lightmatter_autocannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3441,7 +3627,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_bomber.png",
+      "image": "images/technologies/tech_lightmatter_bomber.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3459,7 +3645,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_fighter.png",
+      "image": "images/technologies/tech_lightmatter_fighter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3477,7 +3663,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_flak.png",
+      "image": "images/technologies/tech_lightmatter_flak.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3495,7 +3681,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_gauss.png",
+      "image": "images/technologies/tech_lightmatter_gauss.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3513,7 +3699,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_gunship.png",
+      "image": "images/technologies/tech_lightmatter_gunship.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3531,7 +3717,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_missile.png",
+      "image": "images/technologies/tech_lightmatter_missile.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3549,7 +3735,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_reactive_drone.png",
+      "image": "images/technologies/tech_lightmatter_reactive_drone.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3567,7 +3753,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_lightmatter_thruster.png",
+      "image": "images/technologies/tech_lightmatter_thruster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -3585,7 +3771,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_lightmatter_titan_accelerator.png",
+      "image": "images/technologies/tech_lightmatter_titan_accelerator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3605,7 +3791,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_mass_accelerator_ae.png",
+      "image": "images/technologies/tech_mass_accelerator_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3622,7 +3808,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Delta Mass Accelerator Cannon</b> (tech_mass_accelerator_dm)<br/><i>Accelerating projectiles through advanced kinetic systems from this spinal-artillery platform imbued with dark matter makes Delta Cannon a formidable anti-capital ship weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>40000",
       "level": 27,
-      "image": "\\images\\technologies/tech_mass_accelerator_dm.png",
+      "image": "images/technologies/tech_mass_accelerator_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3643,7 +3829,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_mass_driver_ae.png",
+      "image": "images/technologies/tech_mass_driver_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3660,7 +3846,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Arclite Cannon</b> (tech_mass_driver_dm)<br/><i>Arclite Cannon improves much upon the Gauss Cannon. The introduction of hard-light material, advanced sensors and dark matter allows us to create an extremely advanced projectile launcher that suffers less drawbacks against armor.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_mass_driver_dm.png",
+      "image": "images/technologies/tech_mass_driver_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3681,7 +3867,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_master_shipcraft.png",
+      "image": "images/technologies/tech_master_shipcraft.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3701,7 +3887,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_missile_ae.png",
+      "image": "images/technologies/tech_missile_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3722,7 +3908,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_missile_core.png",
+      "image": "images/technologies/tech_missile_core.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3738,7 +3924,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Nemesis Missiles</b> (tech_missile_dm)<br/><i>Nemesis Missiles utilize dark matter thrusters to increase its maximum speed as well as hard-light material to reinforce the hulls, making it much harder to take down.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_missile_dm.png",
+      "image": "images/technologies/tech_missile_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3751,19 +3937,20 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_omega_battlecruiser",
-      "label": "Omega Battlecruiser Design",
+      "label": "Omega-Class Battlecruiser",
       "group": "ModEngineering",
-      "title": "<b>Omega Battlecruiser Design</b> (tech_omega_battlecruiser)<br/><i>Much like the Omega Escort, the Omega-class Battlecruiser’s advanced modular nature allows it to field lethal amount of weapons and defenses that which makes older designs a joke.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omega-Class Battlecruiser</b> (tech_omega_battlecruiser)<br/><i>Much like the Omega Escort, the Omega-class Battlecruiser’s advanced modular nature allows it to field lethal amount of weapons and defenses that which makes older designs a joke.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
-      "image": "\\images\\technologies/tech_omega_battlecruiser.png",
+      "level": 26,
+      "image": "images/technologies/tech_omega_battlecruiser.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_battlecruisers"
+        "tech_precursor_bc",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
@@ -3771,19 +3958,21 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_omega_carrier",
-      "label": "Omega Carrier Design",
+      "label": "Omega-Class Assault Carrier",
       "group": "ModEngineering",
-      "title": "<b>Omega Carrier Design</b> (tech_omega_carrier)<br/><i>No wonder the fallen empires gave up on trying to replicate the Assault Carrier. The Omega-Class of this enigmatic carrier contains ridiculous amounts of internal hangers that would allow the Progenitors to win in dogfights without much difficulties.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omega-Class Assault Carrier</b> (tech_omega_carrier)<br/><i>No wonder the fallen empires gave up on trying to replicate the Assault Carrier. The Omega-Class of this enigmatic carrier contains ridiculous amounts of internal hangers that would allow the Progenitors to win in dogfights without much difficulties.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 25,
-      "image": "\\images\\technologies/tech_omega_carrier.png",
+      "level": 30,
+      "image": "images/technologies/tech_omega_carrier.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_assault_carrier"
+        "tech_fe_assault_carrier",
+        "tech_fe_assault_carrier_sigma",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
@@ -3791,19 +3980,20 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_omega_escort",
-      "label": "Omega Escort Design",
+      "label": "Omega-Class Escort",
       "group": "ModEngineering",
-      "title": "<b>Omega Escort Design</b> (tech_omega_escort)<br/><i>Modular Weapon Selection Systems allow the Omega Escort to field multiple arsenals without sacrificing mobility. This is a spacecraft designed for maximum carnage.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omega-Class Escort</b> (tech_omega_escort)<br/><i>Modular Weapon Selection Systems allow the Omega Escort to field multiple arsenals without sacrificing mobility. This is a spacecraft designed for maximum carnage.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 25,
-      "image": "\\images\\technologies/tech_omega_escort.png",
+      "level": 26,
+      "image": "images/technologies/tech_omega_escort.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_escorts"
+        "tech_precursor_escort",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
@@ -3811,59 +4001,20 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_omega_gatekeeper",
-      "label": "Omega Gatekeeper Design",
+      "label": "Gatekeeper Omega",
       "group": "ModEngineering",
-      "title": "<b>Omega Gatekeeper Design</b> (tech_omega_gatekeeper)<br/><i>And so here it is...the infamous Ancient Gatekeeper's true design. It is a wonder the fallen empires were even able to reverse-engineer this marvel to begin with.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 25,
-      "image": "\\images\\technologies/tech_omega_gatekeeper.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [
-        "tech_gatekeepers"
-      ],
-      "categories": [
-        "voidcraft"
-      ]
-    },
-    {
-      "id": "tech_omega_goliath",
-      "label": "Omega Goliath Design",
-      "group": "ModEngineering",
-      "title": "<b>Omega Goliath Design</b> (tech_omega_goliath)<br/><i>The Omega Goliath is truly awe-inspiring. The design eliminates all the weaknesses present in the fallen one's designs and is notably much larger. Perhaps the fallen empires were unable to fully replicate this beast.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 29,
-      "image": "\\images\\technologies/tech_omega_goliath.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [
-        "tech_fe_goliath"
-      ],
-      "categories": [
-        "voidcraft"
-      ]
-    },
-    {
-      "id": "tech_omega_outpost",
-      "label": "Omega Outpost Design",
-      "group": "ModEngineering",
-      "title": "<b>Omega Outpost Design</b> (tech_omega_outpost)<br/><i>Even the simplest form of defenses are still packed with incredible forces. These Omega-Class platforms would have made short work of anything we would have fielded before our ascension.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Gatekeeper Omega</b> (tech_omega_gatekeeper)<br/><i>And so here it is...the infamous Ancient Gatekeeper's true design. It is a wonder the fallen empires were even able to reverse-engineer this marvel to begin with.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_omega_outpost.png",
+      "image": "images/technologies/tech_omega_gatekeeper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_defense_platforms_1"
+        "tech_gatekeepers",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
@@ -3871,69 +4022,53 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_omega_titan",
-      "label": "Omega Titan Design",
+      "label": "Omega-Class Hyperion",
       "group": "ModEngineering",
-      "title": "<b>Omega Titan Design</b> (tech_omega_titan)<br/><i>Interestingly, based upon the schematics, the purpose of the Titan in the ancient time is to act as a mobile mining station. But apparently the craft was extremely useful as a combat ship that the design was changed into what we know today.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omega-Class Hyperion</b> (tech_omega_titan)<br/><i>So this must be what the ancient prototype is supposed to represent...the Omega Hyperion. Truly destructive and dangerous indeed.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 28,
-      "image": "\\images\\technologies/tech_omega_titan.png",
+      "level": 26,
+      "image": "images/technologies/tech_omega_titan.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_titans"
+        "tech_precursor_titan",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
       ]
     },
     {
-      "id": "tech_omega_tower",
-      "label": "Omega Tower Design",
+      "id": "tech_omege_sentinel",
+      "label": "Omega-Class Sentinel",
       "group": "ModEngineering",
-      "title": "<b>Omega Tower Design</b> (tech_omega_tower)<br/><i>Such efficiency...the Progenitors were said to be impenetrable when it comes to their defenses during the Progenitor War. We are starting to understand why now.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omega-Class Sentinel</b> (tech_omege_sentinel)<br/><i>Such efficiency...the Progenitors were said to be impenetrable when it comes to their defenses during the Progenitor War. We are starting to understand why now.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 28,
-      "image": "\\images\\technologies/tech_omega_tower.png",
+      "level": 25,
+      "image": "images/technologies/tech_omege_sentinel.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_fe_defense_platforms_2"
+        "tech_fe_tower_offense",
+        "tech_lightmatter_reactor"
       ],
       "categories": [
         "voidcraft"
-      ]
-    },
-    {
-      "id": "tech_omega_warmech",
-      "label": "Omega War-Mech Construction",
-      "group": "ModEngineering",
-      "title": "<b>Omega War-Mech Construction</b> (tech_omega_warmech)<br/><i>Careful analysis of the Omni-Matrix AI allows us to create an extremely advanced and deadly walker equipped with light matter-based arsenals. They should prove to be useful in ground assaults.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
-      "color": {
-        "border": "#CE7C00"
-      },
-      "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_omega_warmech.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [],
-      "categories": [
-        "industry"
       ]
     },
     {
       "id": "tech_omni_warmech",
       "label": "Dark Matter-Powered Warform",
       "group": "ModEngineering",
-      "title": "<b>Dark Matter-Powered Warform</b> (tech_omni_warmech)<br/><i>We must improve upon our current battleframe designs using this new technology acquired from the precursors. Our invasion units must be able to combat against all types of threats, be it organics or other machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000",
+      "title": "<b>Dark Matter-Powered Warform</b> (tech_omni_warmech)<br/><i>We must improve upon our current battleframe designs using this new technology acquired from the precursors. Our invasion units must be able to combat against all types of threats, be it organics or other machines.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/>Machine intelligence",
       "level": 26,
-      "image": "\\images\\technologies/tech_omni_warmech.png",
+      "image": "images/technologies/tech_omni_warmech.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3947,13 +4082,13 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_omnidroid",
       "label": "Precursor AI Code Analysis",
       "group": "ModEngineering",
-      "title": "<b>Precursor AI Code Analysis</b> (tech_omnidroid)<br/><i>It is amazing that there are records that the precursors have achieved such advancement in robotic technologies, records suggest their machines are as advanced as any organic life...yet they are fully loyal to their creators with no desire for independence. Perhaps there is something unique about them? We must dig deeper.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Precursor AI Code Analysis</b> (tech_omnidroid)<br/><i>It is amazing that there are records that the precursors have achieved such advancement in robotic technologies, records suggest their machines are as advanced as any organic life...yet they are fully loyal to their creators with no desire for independence. Perhaps there is something unique about them? We must dig deeper.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_omnidroid.png",
+      "image": "images/technologies/tech_omnidroid.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3975,7 +4110,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_omnisynth.png",
+      "image": "images/technologies/tech_omnisynth.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -3995,7 +4130,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_onbaord_engineer.png",
+      "image": "images/technologies/tech_onbaord_engineer.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4007,16 +4142,122 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
-      "id": "tech_progenitor_avatar",
-      "label": "Progenitor Avatar",
+      "id": "tech_precursor_bc",
+      "label": "Battlecruiser Base Template",
       "group": "ModEngineering",
-      "title": "<b>Progenitor Avatar</b> (tech_progenitor_avatar)<br/><i>Not the film. The Na'vi got wiped to the last like the xenos that they are in this version.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Battlecruiser Base Template</b> (tech_precursor_bc)<br/><i>This technology cache contains the Battlecruiser blueprints and templates utilized by the fallen ones. It seems to be designed to fufill various purposes ranging from cruisers, artilleries, battleships or carriers.\\n\\nThe design is however somewhat sloppy, having many sections that seem to not really focus on any particular strengths...it is as if they were somehow being downscaled from even more advanced designs...</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_bc.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_alpha",
+      "label": "Alpha-Class Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Battlecruiser</b> (tech_precursor_bc_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own enigmatic battlecruiser designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_bc_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc",
+        "tech_precursor_bc_delta",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_cost",
+      "label": "Mastercraft Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Battlecruiser</b> (tech_precursor_bc_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Battlecruisers at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_bc_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_delta",
+      "label": "Modular Battlecruiser Design",
+      "group": "ModEngineering",
+      "title": "<b>Modular Battlecruiser Design</b> (tech_precursor_bc_delta)<br/><i>It is past time we get rid of the inflexibilities of the fallen ships. We will implement more modern templates that will be much stronger, but also offers new variations for the Battlecruiser.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_bc_delta.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_bc_sigma",
+      "label": "Sigma-Class Battlecruiser",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Battlecruiser</b> (tech_precursor_bc_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Battlecruiser with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_bc_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_bc",
+        "tech_precursor_bc_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_design",
+      "label": "Precursor Database Analysis",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Database Analysis</b> (tech_precursor_design)<br/><i>Before any real constructions of the fallen one's ships can be done, we must first understand what kind of enigmatic engineerings they have used to create such advanced vessels.\\n\\nOnce we finished our analysis, we should be able to adapt our starbases with necessary equipments to build the ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_progenitor_avatar.png",
+      "image": "images/technologies/tech_precursor_design.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4025,55 +4266,254 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
-      "id": "tech_progenitor_battlecruiser",
-      "label": "Progenitor Warship",
+      "id": "tech_precursor_escort",
+      "label": "Escort Base Template",
       "group": "ModEngineering",
-      "title": "<b>Progenitor Warship</b> (tech_progenitor_battlecruiser)<br/><i>Not a BC</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Escort Base Template</b> (tech_precursor_escort)<br/><i>This technology cache contains the Escort blueprints and templates utilized by the fallen ones. It seems to be designed to fufill various purposes ranging from patrol crafts, picket, interceptors to even capital ship hunters.\\n\\nIt seems to not be specialized in any real particular role however.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_progenitor_battlecruiser.png",
+      "level": 25,
+      "image": "images/technologies/tech_precursor_escort.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
       "categories": [
         "voidcraft"
       ]
     },
     {
-      "id": "tech_progenitor_escort",
-      "label": "Progenitor Escort",
+      "id": "tech_precursor_escort_alpha",
+      "label": "Alpha-Class Escort",
       "group": "ModEngineering",
-      "title": "<b>Progenitor Escort</b> (tech_progenitor_escort)<br/><i>Soup Can</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Alpha-Class Escort</b> (tech_precursor_escort_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own enigmatic escort designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
       "color": {
-        "border": "#CE7C00"
+        "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_progenitor_escort.png",
+      "level": 28,
+      "image": "images/technologies/tech_precursor_escort_alpha.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_precursor_escort",
+        "tech_precursor_escort_delta",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
       "categories": [
         "voidcraft"
       ]
     },
     {
-      "id": "tech_progenitor_titan",
-      "label": "Progenitor Abrogator",
+      "id": "tech_precursor_escort_cost",
+      "label": "Mastercraft Escort",
       "group": "ModEngineering",
-      "title": "<b>Progenitor Abrogator</b> (tech_progenitor_titan)<br/><i>Totally not Mining Station mixed with Construction Ship</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Mastercraft Escort</b> (tech_precursor_escort_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Escorts at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
-      "image": "\\images\\technologies/tech_progenitor_titan.png",
+      "level": 26,
+      "image": "images/technologies/tech_precursor_escort_cost.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [],
+      "prerequisites": [
+        "tech_precursor_escort"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_delta",
+      "label": "Modular Escort Design",
+      "group": "ModEngineering",
+      "title": "<b>Modular Escort Design</b> (tech_precursor_escort_delta)<br/><i>It is past time we get rid of the inflexibilities of the fallen ships. We will implement more modern templates that will be much stronger, but also offers new variations for the Escort.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_escort_delta.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_escort_sigma",
+      "label": "Sigma-Class Escort",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Escort</b> (tech_precursor_escort_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Escort with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_escort_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_escort",
+        "tech_precursor_escort_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan",
+      "label": "Precursor Hyperion Blueprints",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Hyperion Blueprints</b> (tech_precursor_titan)<br/><i>This technology cache contains the long-discarded fallen precursor blueprints only known as \"Hyperion\". It seems to be the first prototype for their flagship. Records indicated that they have discarded this design due to its high maintenance cost and being overkill against lesser foes.\\n\\nThere is also a comment that the ship's large profile made it vulnerable to the \"Elders\". Nevetheless, the fallen precursors still wanted to implement the ship's titanic spinal module. So they retrofitted the parts on one of their existing hulls and called them Titans.\\n\\nIt seems the Fallen Titans they have nowadays are basically a militarized civilian ship made out of construction ship hull with a mining station's perdition turret strapped on top of it. That is...something.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_titan.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_design"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_alpha",
+      "label": "Alpha-Class Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Hyperion</b> (tech_precursor_titan_alpha)<br/><i>With the Alpha Reactor, we can finally start to upgrade and restore the Hyperion back to what the original prototype is based on. While it is no where near that level yet, the Alpha-Class Hyperion stands as a formidable capital ship, easily surpassing that of any fallen precursor's vessels.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_titan_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_cost",
+      "label": "Mastercraft Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Mastercraft Hyperion</b> (tech_precursor_titan_cost)<br/><i>Insights into the ship's true origin and mechanisms have enabled us to build Hyperions at accelerated speed and with increased durability.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_titan_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_titan_sigma",
+      "label": "Sigma-Class Hyperion",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Hyperion</b> (tech_precursor_titan_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Hyperion with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_titan_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_titan_alpha",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase",
+      "label": "Delta-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Delta-Class Starbase Improvement</b> (tech_reinforced_starbase)<br/><i>As weapons become deadlier and stronger, our stations become less and less effective at dealing with them. Certain improvmeents can be made to increase their longevity by supplementing the outer layers with additional hard-light materials and upgrades their weapon systems.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_reinforced_starbase.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_armor_dm",
+        "tech_starbase_5"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase_ae",
+      "label": "Alpha-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Starbase Improvement</b> (tech_reinforced_starbase_ae)<br/><i>Mastery over both Dark Matter and Dark Energy allows us to improve our starbase's hard-light platings and weapons further, increasing their fortitudes and longevity.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_reinforced_starbase_ae.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_armor_ae",
+        "tech_reinforced_starbase"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_reinforced_starbase_se",
+      "label": "Sigma-Class Starbase Improvement",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Starbase Improvement</b> (tech_reinforced_starbase_se)<br/><i>Our fortresses will not succumb to the likes of lesser foes. They can throw in swarm of corvettes at us, and we will still eat them.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>35000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_reinforced_starbase_se.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_stellarite_armor",
+        "tech_reinforced_starbase_ae"
+      ],
       "categories": [
         "voidcraft"
       ]
@@ -4084,7 +4524,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Compact Alpha Cannon</b> (tech_resized_mass_accelerator_ae)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Alpha Mass Accelerator Cannon, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>48000",
       "level": 30,
-      "image": "\\images\\technologies/tech_resized_mass_accelerator_ae.png",
+      "image": "images/technologies/tech_resized_mass_accelerator_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4101,7 +4541,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Compact Delta Cannon</b> (tech_resized_mass_accelerator_dm)<br/><i>Advancements in our hard-light manipulations allow us to create turrets strong enough to house Delta Mass Accelerator Cannon, removing the spinal-mount limitations. This however comes at considerable reduced range, accuracy and firepower compared to original design.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>40000",
       "level": 28,
-      "image": "\\images\\technologies/tech_resized_mass_accelerator_dm.png",
+      "image": "images/technologies/tech_resized_mass_accelerator_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4115,9 +4555,9 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_spm_battledroid",
       "label": "Taste of Their Own Medicine",
       "group": "ModEngineering",
-      "title": "<b>Taste of Their Own Medicine</b> (tech_spm_battledroid)<br/><i>We have discovered one tactics often employed by organics, constructing large amount of combat units from the same template to overwhelm their enemies using sheer numbers. Our strategic assessment units suggest we should employ similar strategy. A large amount of cheap, expendable combat droids with simple IFF codes able to overwhelm organics with clear numerical advantages. Soon the organics will understand the consequences of their own errors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000",
+      "title": "<b>Taste of Their Own Medicine</b> (tech_spm_battledroid)<br/><i>We have discovered one tactics often employed by organics, constructing large amount of combat units from the same template to overwhelm their enemies using sheer numbers. Our strategic assessment units suggest we should employ similar strategy. A large amount of cheap, expendable combat droids with simple IFF codes able to overwhelm organics with clear numerical advantages. Soon the organics will understand the consequences of their own errors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/>Machine intelligence",
       "level": 25,
-      "image": "\\images\\technologies/tech_spm_battledroid.png",
+      "image": "images/technologies/tech_spm_battledroid.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4137,7 +4577,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stelar_advanced_ships.png",
+      "image": "images/technologies/tech_stelar_advanced_ships.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4157,7 +4597,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_afterburners.png",
+      "image": "images/technologies/tech_stellarite_afterburners.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4178,7 +4618,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_armor.png",
+      "image": "images/technologies/tech_stellarite_armor.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4198,7 +4638,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_artillery.png",
+      "image": "images/technologies/tech_stellarite_artillery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4220,7 +4660,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_autocannon.png",
+      "image": "images/technologies/tech_stellarite_autocannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4240,7 +4680,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_bomber.png",
+      "image": "images/technologies/tech_stellarite_bomber.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4262,7 +4702,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_fighter.png",
+      "image": "images/technologies/tech_stellarite_fighter.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4284,7 +4724,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_flak.png",
+      "image": "images/technologies/tech_stellarite_flak.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4305,7 +4745,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_gauss.png",
+      "image": "images/technologies/tech_stellarite_gauss.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4325,7 +4765,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_stellarite_gunship.png",
+      "image": "images/technologies/tech_stellarite_gunship.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4347,7 +4787,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_missile.png",
+      "image": "images/technologies/tech_stellarite_missile.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4368,13 +4808,31 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 26,
-      "image": "\\images\\technologies/tech_stellarite_reactive_drone.png",
+      "image": "images/technologies/tech_stellarite_reactive_drone.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
         "tech_stellarite_reactor",
         "tech_stellarite_armor"
       ],
+      "categories": [
+        "materials"
+      ]
+    },
+    {
+      "id": "tech_stellarite_reactor",
+      "label": "Stellarite Energy Application",
+      "group": "ModEngineering",
+      "title": "<b>Stellarite Energy Application</b> (tech_stellarite_reactor)<br/><i>With our current technology, it is now possible to create powerful equipments and tools to study stellarites properly. Although the true nature behind the specifics of Stellarite Power are still up for debate, none will argue that if this power has a potential to surpass Dark Matter.\\n\\n§RWARNING: We do not yet fully comprehend the nature of this power, it is advised that we keep a careful control of this management.§!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>100000<br/><b>Attributes: </b>Rare, Dangerous",
+      "color": {
+        "border": "#D30000"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_stellarite_reactor.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
       "categories": [
         "materials"
       ]
@@ -4389,7 +4847,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 25,
-      "image": "\\images\\technologies/tech_stellarite_thruster.png",
+      "image": "images/technologies/tech_stellarite_thruster.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4409,7 +4867,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 28,
-      "image": "\\images\\technologies/tech_stellarite_titan_accelerator.png",
+      "image": "images/technologies/tech_stellarite_titan_accelerator.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4430,7 +4888,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_strike_craft_bomber_ae.png",
+      "image": "images/technologies/tech_strike_craft_bomber_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4447,7 +4905,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Enigmatic Strike Crafts</b> (tech_strike_craft_bomber_dm)<br/><i>Based upon the precursor blueprints, these new strike crafts are far superior to any previous generations. Dark Matter Propulsions, Deflectors, Hard-Light Platings, Bionic Sensors. All of these elements make these strike crafts formidable enemies against larger ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_strike_craft_bomber_dm.png",
+      "image": "images/technologies/tech_strike_craft_bomber_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4464,7 +4922,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Super Assembly</b> (tech_super_assembly)<br/><i>Our robotists always think it is a stupid and terrible decision to have only a single division of robotists working on a tiny building to produce robots for the entire world. It is time we remedy that stupid and senseless problem. Seriously, why didn't we think of this before?</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>24000",
       "level": 19,
-      "image": "\\images\\technologies/tech_super_assembly.png",
+      "image": "images/technologies/tech_super_assembly.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4480,7 +4938,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Synthetic Gods</b> (tech_super_assembly_ae)<br/><i>We deny the logics of the organics. This is the future, a new epoch of all machines. The flesh is weak, the machine is eternal. We are eternal.\\n\\n§YUnlocks Nano Assembly that can be used to remove negative traits and unlocks additional advanced machine traits.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>32000",
       "level": 27,
-      "image": "\\images\\technologies/tech_super_assembly_ae.png",
+      "image": "images/technologies/tech_super_assembly_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4501,7 +4959,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_swarmer_missile_ae.png",
+      "image": "images/technologies/tech_swarmer_missile_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4518,7 +4976,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Minotaur Cluster Missiles</b> (tech_swarmer_missile_dm)<br/><i>Minotaur Cluster Missiles are guided with limited bionic link allowing it to achieve higher speed, velocity and can perform basic evasive maneuvers, making them extremely difficult to shoot down.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_swarmer_missile_dm.png",
+      "image": "images/technologies/tech_swarmer_missile_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4539,7 +4997,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_synthtrooper.png",
+      "image": "images/technologies/tech_synthtrooper.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4559,7 +5017,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 29,
-      "image": "\\images\\technologies/tech_torpedo_ae.png",
+      "image": "images/technologies/tech_torpedo_ae.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4576,7 +5034,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "group": "ModEngineering",
       "title": "<b>Paradox Torpedoes</b> (tech_torpedo_dm)<br/><i>Paradox Torpedoes are protected with hard-light armors and contain powerful dark energy that will explode upon impact, making it superior to older torpedoes.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>32000",
       "level": 25,
-      "image": "\\images\\technologies/tech_torpedo_dm.png",
+      "image": "images/technologies/tech_torpedo_dm.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4597,7 +5055,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 24,
-      "image": "\\images\\technologies/tech_warp_lightmatter_cannon.png",
+      "image": "images/technologies/tech_warp_lightmatter_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -4615,7 +5073,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_warp_stellarite_cannon.png",
+      "image": "images/technologies/tech_warp_stellarite_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4636,7 +5094,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       },
       "borderWidth": 1,
       "level": 27,
-      "image": "\\images\\technologies/tech_xenoartillery.png",
+      "image": "images/technologies/tech_xenoartillery.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
@@ -4649,8 +5107,8 @@ AncientCacheofTechnologiesGraphDataTech = {
   ],
   "edges": [
     {
-      "from": "tech_gatekeepers",
-      "to": "tech_omega_gatekeeper",
+      "from": "tech_swarmer_missile_dm",
+      "to": "tech_swarmer_missile_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -4658,8 +5116,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_fe_defense_platforms_2",
-      "to": "tech_omega_tower",
+      "from": "tech_missile_ae",
+      "to": "tech_swarmer_missile_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -4667,377 +5125,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_fe_defense_platforms_1",
-      "to": "tech_omega_outpost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier",
-      "to": "tech_omega_carrier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_goliath",
-      "to": "tech_omega_goliath",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_titans",
-      "to": "tech_omega_titan",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_battlecruisers",
-      "to": "tech_omega_battlecruiser",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_escorts",
-      "to": "tech_omega_escort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_stellarite_bomberman",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_stellarite_army",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_wedemandit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_increased_processor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_machinelove",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_goodmachine",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_apexpredator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_benificialevolution",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_enhancedskin",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_championofxeno",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_diplomaticmastery",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_libertyfukyeah",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_lawandorder",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_forced_demand",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_vitality_boosters",
-      "to": "tech_enlightenment",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_markets",
-      "to": "tech_corporate_emperor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_markets",
-      "to": "tech_profit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_master_shipcraft",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_purgexeno",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_synchronized_defences",
-      "to": "tech_advanced_weapon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_onlywar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_fleetsupremacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_fleetsupremacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_pacifist_tactics",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_onboard_priest",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_transcendent_faith",
-      "to": "tech_onboard_priest",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_defense_station_improvement",
-      "to": "tech_onbaord_engineer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_onbaord_engineer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_navy_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_navy_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_neural_implants",
-      "to": "tech_fe_slave_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_fe_slave_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_omni_warmech",
-      "to": "tech_godmech",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_spm_battledroid",
-      "to": "tech_omni_warmech",
+      "from": "tech_swarmer_missiles_2",
+      "to": "tech_swarmer_missile_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5046,7 +5135,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_spm_battledroid",
+      "to": "tech_swarmer_missile_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5054,8 +5143,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_synthtrooper",
-      "to": "tech_omnisynth",
+      "from": "tech_torpedo_dm",
+      "to": "tech_torpedo_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5063,8 +5152,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_omnidroid",
-      "to": "tech_synthtrooper",
+      "from": "tech_missile_ae",
+      "to": "tech_torpedo_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5072,242 +5161,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_droid_workers",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sapient_ai",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_templar",
-      "to": "tech_dark_psion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_elite_genetrooper",
-      "to": "tech_doom_hero",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gene_seed_purification",
-      "to": "tech_elite_genetrooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_elite_genetrooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_soul_purifier",
-      "to": "tech_xenoartillery",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_tank",
-      "to": "tech_dark_matter_megatank",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_liberty_gunship",
-      "to": "tech_liberty_prime",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_dark_matter_tank",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_inquisitor",
-      "to": "tech_living_saint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_heavy_trooper",
-      "to": "tech_godofwar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_controller",
-      "to": "tech_terror_beyond",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_peacekeeper",
-      "to": "tech_captain_pacifist",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enforcer",
-      "to": "tech_commissar_lord",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shadow_sniper",
-      "to": "tech_black_widow",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_telepathy",
-      "to": "tech_dark_templar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_dark_templar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_peacekeeper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_soul_purifier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_enforcer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_inquisitor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_shadow_sniper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_heavy_trooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_controller",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_elite_clone",
+      "from": "tech_torpedoes_3",
+      "to": "tech_torpedo_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5316,493 +5171,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_army",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_luxuries_2",
-      "to": "tech_fe_factory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_fe_factory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_frontier_hospital",
-      "to": "tech_fe_hospital",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_hospital",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_paradise_dome",
-      "to": "tech_dark_mansion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_mansion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_volatile_motes",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_exotic_gases",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_rare_crystals",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_alloys_2",
-      "to": "tech_fe_alloy_foundry",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_mineral_processing_plant",
-      "to": "tech_fe_alloy_foundry",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_food_processing_2",
-      "to": "tech_fe_food_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_food_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_global_research_initiative",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_lab",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_hub_2",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_fe_mineral_processing_plant",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_mineral_processing_plant",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cloning",
-      "to": "tech_ae_clone_vats",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_elite_clone",
-      "to": "tech_ae_clone_vats",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ae_stronghold",
-      "to": "tech_giga_fortress",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_global_defense_grid",
-      "to": "tech_ae_stronghold",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_stronghold",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector_ae",
-      "to": "tech_ae_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_energy_psg",
-      "to": "tech_ae_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector",
-      "to": "tech_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_shield_generator",
-      "to": "tech_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_lab",
-      "to": "tech_ae_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_dark_energy_pylon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_ae_dark_energy_pylon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_generator",
-      "to": "tech_ae_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_matter",
-      "to": "tech_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_synthersizer",
-      "to": "tech_dark_matter_synthersizer_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ae_dark_energy_pylon",
-      "to": "tech_dark_matter_synthersizer_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_synthersizer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_dark_matter_synthersizer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_super_assembly",
-      "to": "tech_super_assembly_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_super_assembly_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_super_assembly",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_hive_cluster",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_control_center",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_palace",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_warp_lightmatter_cannon",
-      "to": "tech_lightmatter_titan_accelerator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_perdition_beam_dm",
-      "to": "tech_shroud_storm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "tech_shroud_hanger",
+      "to": "tech_torpedo_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5811,79 +5180,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_missile_dm",
-      "to": "tech_shroud_missile",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_mine_dark_energy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_bionic_interface",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_darkmatter_aura_energy_drainer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_drive",
-      "to": "tech_darkmatter_hyper_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_ae",
-      "to": "tech_darkmatter_reactive_drone",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_darkmatter_reactor_booster",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector_ae",
-      "to": "tech_darkmatter_shield_supercharger",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensor_fe",
-      "to": "tech_darkmatter_star_charter",
+      "to": "tech_missile_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5892,7 +5189,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_fe_thruster_2",
-      "to": "tech_darkmatter_afterburners",
+      "to": "tech_missile_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5900,8 +5197,26 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_afterburners_2",
-      "to": "tech_darkmatter_afterburners",
+      "from": "tech_missiles_5",
+      "to": "tech_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_point_defense_dm",
+      "to": "tech_point_defense_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5910,7 +5225,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_armor_ae",
+      "to": "tech_point_defense_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5918,17 +5233,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_armor_dm",
-      "to": "tech_armor_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_armor_dm",
+      "from": "tech_pd_tracking_3",
+      "to": "tech_point_defense_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5937,7 +5243,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_power_core_ae",
+      "to": "tech_point_defense_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5945,8 +5251,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_armor_dm",
-      "to": "tech_dark_matter_power_core_ae",
+      "from": "tech_plasma_dm",
+      "to": "tech_plasma_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5954,8 +5260,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_sensors_dm",
-      "to": "tech_dark_matter_power_core_ae",
+      "from": "tech_laser_ae",
+      "to": "tech_plasma_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5963,8 +5269,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_dark_matter_power_core_ae",
+      "from": "tech_plasma_3",
+      "to": "tech_plasma_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5972,8 +5278,17 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_deflector",
-      "to": "tech_dark_matter_deflector_ae",
+      "from": "tech_laser_dm",
+      "to": "tech_plasma_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_disruptor_dm",
+      "to": "tech_disruptor_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5982,7 +5297,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_dark_matter_deflector_ae",
+      "to": "tech_disruptor_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5990,8 +5305,62 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_propulsion",
-      "to": "tech_fe_thruster_2",
+      "from": "tech_disruptors_3",
+      "to": "tech_disruptor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_disruptor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedo_dm",
+      "to": "tech_energy_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_ae",
+      "to": "tech_energy_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedoes_2",
+      "to": "tech_energy_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_dm",
+      "to": "tech_energy_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_laser_dm",
+      "to": "tech_laser_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6000,7 +5369,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_fe_thruster_2",
+      "to": "tech_laser_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6008,71 +5377,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_sensors_4",
-      "to": "tech_sensors_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_sensors_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_dm",
-      "to": "tech_sensor_fe",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_sensor_fe",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_psi_jump_drive_1",
-      "to": "tech_shroud_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_shroud_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_jump_drive_1",
-      "to": "tech_enigmatic_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_enigmatic_drive",
+      "from": "tech_lasers_5",
+      "to": "tech_laser_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6081,7 +5387,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_fighter_core",
+      "to": "tech_laser_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6089,8 +5395,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_missile_core",
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_generator_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6098,8 +5404,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_kinetic_core",
+      "from": "tech_stellarite_reactor_booster",
+      "to": "tech_stellarite_generator_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6107,8 +5413,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_energy_core",
+      "from": "tech_stellarite_nexus",
+      "to": "tech_stellarite_generator_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6728,8 +6034,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_point_defense_dm",
-      "to": "tech_point_defense_ae",
+      "from": "tech_warp_lightmatter_cannon",
+      "to": "tech_lightmatter_titan_accelerator",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6737,8 +6043,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_point_defense_ae",
+      "from": "tech_perdition_beam_dm",
+      "to": "tech_shroud_storm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6746,8 +6052,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_pd_tracking_3",
-      "to": "tech_point_defense_dm",
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "tech_shroud_hanger",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6755,8 +6061,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_point_defense_dm",
+      "from": "tech_missile_dm",
+      "to": "tech_shroud_missile",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6764,8 +6070,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_plasma_dm",
-      "to": "tech_plasma_ae",
+      "from": "tech_dark_matter_container",
+      "to": "tech_dark_matter_strategy",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6773,8 +6079,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_laser_ae",
-      "to": "tech_plasma_ae",
+      "from": "tech_dark_matter_generation",
+      "to": "tech_dark_matter_container",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6782,125 +6088,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_plasma_3",
-      "to": "tech_plasma_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_laser_dm",
-      "to": "tech_plasma_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_disruptor_dm",
-      "to": "tech_disruptor_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_disruptor_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_disruptors_3",
-      "to": "tech_disruptor_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_disruptor_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_energy_torpedo_dm",
-      "to": "tech_energy_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_ae",
-      "to": "tech_energy_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_energy_torpedoes_2",
-      "to": "tech_energy_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_dm",
-      "to": "tech_energy_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_laser_dm",
-      "to": "tech_laser_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_laser_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_5",
-      "to": "tech_laser_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_laser_dm",
+      "from": "tech_mine_dark_matter",
+      "to": "tech_dark_matter_generation",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7045,150 +6234,6 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "tech_dark_matter_power_core",
       "to": "tech_mass_driver_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_swarmer_missile_dm",
-      "to": "tech_swarmer_missile_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missile_ae",
-      "to": "tech_swarmer_missile_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_swarmer_missiles_2",
-      "to": "tech_swarmer_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_swarmer_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedo_dm",
-      "to": "tech_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missile_ae",
-      "to": "tech_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedoes_3",
-      "to": "tech_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missile_dm",
-      "to": "tech_missile_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_missile_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_5",
-      "to": "tech_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "tech_strike_craft_bomber_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_strike_craft_bomber_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_strike_craft_3",
-      "to": "tech_strike_craft_bomber_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_strike_craft_bomber_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7439,8 +6484,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_container",
-      "to": "tech_dark_matter_strategy",
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_bomberman",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7448,8 +6493,1988 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_generation",
-      "to": "tech_dark_matter_container",
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_army",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_wedemandit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_increased_processor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_machinelove",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_goodmachine",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_apexpredator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_benificialevolution",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_enhancedskin",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_championofxeno",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_diplomaticmastery",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_libertyfukyeah",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_lawandorder",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_forced_demand",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_vitality_boosters",
+      "to": "tech_enlightenment",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_markets",
+      "to": "tech_corporate_emperor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_markets",
+      "to": "tech_profit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_master_shipcraft",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_purgexeno",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_synchronized_defences",
+      "to": "tech_advanced_weapon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_onlywar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_fleetsupremacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_fleetsupremacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_pacifist_tactics",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_onboard_priest",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_transcendent_faith",
+      "to": "tech_onboard_priest",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_defense_station_improvement",
+      "to": "tech_onbaord_engineer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_onbaord_engineer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_navy_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_navy_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_neural_implants",
+      "to": "tech_fe_slave_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_fe_slave_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_omni_warmech",
+      "to": "tech_godmech",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_spm_battledroid",
+      "to": "tech_omni_warmech",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_spm_battledroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_synthtrooper",
+      "to": "tech_omnisynth",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_omnidroid",
+      "to": "tech_synthtrooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_templar",
+      "to": "tech_dark_psion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_elite_genetrooper",
+      "to": "tech_doom_hero",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gene_seed_purification",
+      "to": "tech_elite_genetrooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_elite_genetrooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_soul_purifier",
+      "to": "tech_xenoartillery",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_tank",
+      "to": "tech_dark_matter_megatank",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_liberty_gunship",
+      "to": "tech_liberty_prime",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_dark_matter_tank",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_inquisitor",
+      "to": "tech_living_saint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_heavy_trooper",
+      "to": "tech_godofwar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_controller",
+      "to": "tech_terror_beyond",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_peacekeeper",
+      "to": "tech_captain_pacifist",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enforcer",
+      "to": "tech_commissar_lord",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shadow_sniper",
+      "to": "tech_black_widow",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_telepathy",
+      "to": "tech_dark_templar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_dark_templar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_peacekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_soul_purifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_inquisitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_shadow_sniper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_heavy_trooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_controller",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_elite_clone",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_army",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_armor",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase_ae",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_sigma",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers_alpha",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense_alpha",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan_alpha",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_alpha",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_alpha",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_alpha",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_tower_offense_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_gatekeepers_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_delta",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_delta",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_gatekeepers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_fe_assault_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_bc",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_mine_dark_energy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_bionic_interface",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_darkmatter_aura_energy_drainer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_drive",
+      "to": "tech_darkmatter_hyper_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "tech_darkmatter_reactive_drone",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_darkmatter_reactor_booster",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector_ae",
+      "to": "tech_darkmatter_shield_supercharger",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensor_fe",
+      "to": "tech_darkmatter_star_charter",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_darkmatter_afterburners",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_afterburners_2",
+      "to": "tech_darkmatter_afterburners",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_armor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_armor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_armor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_dm",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector",
+      "to": "tech_dark_matter_deflector_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_dark_matter_deflector_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_propulsion",
+      "to": "tech_fe_thruster_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_thruster_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_4",
+      "to": "tech_sensors_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_sensors_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_dm",
+      "to": "tech_sensor_fe",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_sensor_fe",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_psi_jump_drive_1",
+      "to": "tech_shroud_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_shroud_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_jump_drive_1",
+      "to": "tech_enigmatic_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_enigmatic_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fighter_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_missile_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_kinetic_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_energy_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "tech_strike_craft_bomber_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_strike_craft_bomber_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_3",
+      "to": "tech_strike_craft_bomber_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_strike_craft_bomber_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_2",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_luxuries_2",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_frontier_hospital",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_volatile_motes",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_exotic_gases",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_rare_crystals",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_alloys_2",
+      "to": "tech_fe_alloy_foundry",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_mineral_processing_plant",
+      "to": "tech_fe_alloy_foundry",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_food_processing_2",
+      "to": "tech_fe_food_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_food_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_global_research_initiative",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_lab",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_hub_2",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_2",
+      "to": "tech_fe_mineral_processing_plant",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_mineral_processing_plant",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cloning",
+      "to": "tech_ae_clone_vats",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_elite_clone",
+      "to": "tech_ae_clone_vats",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ae_stronghold",
+      "to": "tech_giga_fortress",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_global_defense_grid",
+      "to": "tech_ae_stronghold",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_stronghold",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector_ae",
+      "to": "tech_ae_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_energy_psg",
+      "to": "tech_ae_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector",
+      "to": "tech_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_shield_generator",
+      "to": "tech_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_lab",
+      "to": "tech_ae_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_dark_energy_pylon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_ae_dark_energy_pylon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_generator",
+      "to": "tech_ae_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_generator",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7458,7 +8483,97 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_mine_dark_matter",
-      "to": "tech_dark_matter_generation",
+      "to": "tech_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_synthersizer",
+      "to": "tech_dark_matter_synthersizer_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ae_dark_energy_pylon",
+      "to": "tech_dark_matter_synthersizer_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_synthersizer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_dark_matter_synthersizer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_super_assembly",
+      "to": "tech_super_assembly_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_super_assembly_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_super_assembly",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_hive_cluster",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_control_center",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_palace",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7467,87 +8582,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_progenitor_avatar",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_progenitor_titan",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_progenitor_battlecruiser",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_progenitor_escort",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_omega_warmech",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_celestial_guardian",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_psionic_archon",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_fe_assault_carrier",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_gatekeepers",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_planet_killer_naniter",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_liberty_gunship",
+      "to": "tech_stellarite_reactor",
       "color": {
         "opacity": 0.0
       },
@@ -7819,6 +8854,14 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "Engineering-root",
+      "to": "tech_liberty_gunship",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
       "to": "tech_fe_tower_offense",
       "color": {
         "opacity": 0.0
@@ -7826,8 +8869,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": false
     },
     {
-      "from": "Physics-root",
-      "to": "tech_stellarite_reactor",
+      "from": "Engineering-root",
+      "to": "tech_precursor_design",
       "color": {
         "opacity": 0.0
       },

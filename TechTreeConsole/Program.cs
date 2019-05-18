@@ -28,7 +28,8 @@ namespace TechTreeConsole {
                 string outputDir = OUTPUT_WINDOWS;
                 string modFileSuffix = "-windows";
                 string stellarisUserDir = STELLARIS_USER_WINDOWS;
-                bool sortModfile = false;
+                bool forceOverwrite = false;
+                bool createModListFile = false;
                 foreach (var arg in args) {
                     if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
                         rootDir = STELLARIS_ROOT_MAC;
@@ -38,7 +39,11 @@ namespace TechTreeConsole {
                     }
 
                     if (arg.Equals("modfile", StringComparison.InvariantCultureIgnoreCase)) {
-                        sortModfile = true;
+                        createModListFile = true;
+                    }
+
+                    if (arg.Equals("overwrite", StringComparison.InvariantCultureIgnoreCase)) {
+                        forceOverwrite = true;
                     }
                 }
 
@@ -53,7 +58,7 @@ namespace TechTreeConsole {
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
                     .CreateLogger();
 
-                if (sortModfile) {
+                if (createModListFile) {
                     IList<ModDefinitionFile> modFiles = ModDirectoryHelper.LoadModDefinitions(stellarisUserDir);
                     ModDirectoryHelper.WriteModInfoFile(modsFilePath, modFiles);
                     Environment.Exit(0);
@@ -66,9 +71,10 @@ namespace TechTreeConsole {
 
                 var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
                 techTreeCreatorManager.Mods = modList;
-                techTreeCreatorManager.ForceModOverwriting = false;
+                techTreeCreatorManager.ForceModOverwriting = forceOverwrite;
                 
-                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents});
+                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents, ParseTarget.Decisions});
+                //techTreeCreatorManager.Parse(new [] { ParseTarget.ShipComponents});
                 
 //
 //                foreach (var (modGoup, visData) in techsData) {
@@ -81,6 +87,7 @@ namespace TechTreeConsole {
             }
             catch (Exception e) {
                 Log.Logger.Fatal(e, "Fatal Error");
+                Environment.Exit(1);
             }
             finally{Log.CloseAndFlush();}
         }

@@ -165,6 +165,7 @@ namespace TechTreeCreator
             VisData.WriteJavascriptObject(modInfos, OutputDirectoryHelper.Data, jsModMappingFileName, jsModMappingFileVariable);
 
             var importListing = modInfos.Select(x => x.fileName).Select(x => $"<script type=\"text/javascript\" src=\"data/{x}?v=2\"></script>").ToList();
+            importListing.Sort();
             File.WriteAllLines(Path.Combine(OutputDirectoryHelper.Data, jsImportFileName), importListing);
         }
         
@@ -179,7 +180,6 @@ namespace TechTreeCreator
         }
 
         private void CopyCategoryImages(string techOutputDir) {
-            // tech category images no mod support here
             var categoryDir = Path.Combine(techOutputDir, "categories");
             Directory.CreateDirectory(categoryDir);
             

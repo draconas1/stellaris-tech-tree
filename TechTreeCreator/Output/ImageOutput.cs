@@ -120,6 +120,9 @@ namespace TechTreeCreator.Output
                         case Pfim.ImageFormat.Rgb24:
                             Image.LoadPixelData<Bgr24>(newData, ddsImage.Width, ddsImage.Height).Save(outputPath);
                             return true;
+                        case Pfim.ImageFormat.R5g5b5:
+                            Image.LoadPixelData<Bgra5551>(newData, ddsImage.Width, ddsImage.Height).Save(outputPath);
+                            return true;
                         default:
                             Log.Logger.Warning("Image {inputPath} had unknown format {format}", inputPath, ddsImage.Format);
                             return false;

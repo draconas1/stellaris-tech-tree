@@ -1,3 +1,10 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using CWToolsHelpers.Localisation;
+using NetExtensions.Object;
+using Serilog;
 using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output.Vis {
@@ -31,6 +38,90 @@ namespace TechTreeCreator.Output.Vis {
             return result;
         }
 
+        // fucking capitalisation
+        private static string GetPotentialLocalisationKeys(ILocalisationApiHelper localisation, string rootKey) {
+            var result = new List<string>();
+            result.Add(rootKey);
+            result.Add(rootKey.ToUpperInvariant());
+            result.Add("mod_" + rootKey);
+            result.Add("MOD_" + rootKey.ToUpperInvariant());
+
+            foreach (var key in result) {
+                if (localisation.HasValueForKey(key)) {
+                    return localisation.GetName(key);
+                }
+            }
+
+            return rootKey;
+        }
+        
+        public static void AddModifiersToNode(ILocalisationApiHelper localisation, VisNode node, 
+            IDictionary<string, string> modifiers, 
+            Entity source,
+            bool localiseKeys = true) {
+            foreach (var modifierNodeKeyValue in modifiers) {
+                string key = localiseKeys ? GetPotentialLocalisationKeys(localisation, modifierNodeKeyValue.Key) : modifierNodeKeyValue.Key;
+                string prefix = "";
+                string suffix = "";
+                string value = modifierNodeKeyValue.Value;
+                try {
+                    if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("ADD")) {
+                        double intValue = value.ToDouble();
+                        prefix = intValue >= 0 ? "+" : "";
+                    }
+
+                    if (modifierNodeKeyValue.Key.ToUpperInvariant().EndsWith("MULT")) {
+                        int percentageValue = (int) (value.ToDouble() * 100);
+                        prefix = percentageValue >= 0 ? "+" : "";
+                        suffix = "%";
+                        value = percentageValue.ToString(CultureInfo.InvariantCulture);
+                    }
+                }
+                catch (FormatException e) {
+                    Log.Logger.Error(e, "Error parsing {nodeId} from {filePath}", node.id, source.FilePath);
+                }
+
+                node.title = $"{node.title}<br/><b>{key}:</b> {prefix}{value}{suffix}";
+            }
+        }
+        
+        public static string CreateCostString<T>(ILocalisationApiHelper localisation, string resourceType, IDictionary<string, T> costs) {
+            if (costs.Any()) {
+                string costString = $"<br/><b>{resourceType}:</b>";
+                foreach (var (key, value) in costs) {
+                    costString = $"{costString} {value} {localisation.GetName(key)},";
+                }
+
+                return costString.Remove(costString.Length - 1);
+                ;
+            }
+            else {
+                return "";
+            }
+        }
+
+        public static void SetLevel(VisNode node, Entity entity, IDictionary<string, VisNode> prereqTechNodeLookup) {
+            // find the highest prerequisite tech level and then add 1 to it to ensure it is rendered in a sensible place.
+            var highestLevelOfPrerequisiteTechs = entity.Prerequisites.Select(x => prereqTechNodeLookup[x.Id].level).Max();
+            if (!highestLevelOfPrerequisiteTechs.HasValue) {
+                throw new Exception(entity.Name + " Had no prerequiste levels: " + entity.FilePath);
+            }
+
+            node.level = highestLevelOfPrerequisiteTechs + 1;
+        }
+
+        public static void SetGestaltAvailability(VisNode node, Entity entity) {
+            if (entity is IGestaltAvailability iga) {
+                if (iga.Machines.HasValue) {
+                    node.title = node.title + "<br/>" + (!iga.Machines.Value ? "Not for machine intelligence" : "Machine intelligence");
+                }
+            
+                if (iga.Gestalt.HasValue) {
+                    node.title = node.title + "<br/>" + (!iga.Gestalt.Value ? "Not for gestalt consciousness" : "Gestalt consciousness");
+                }
+            }
+        }
+
         public static string CreateRelativePath(string fullPath, string relativeTo) {
             var relativePath = fullPath.Replace(relativeTo, "");
             relativePath = relativePath.Replace(@"\", "/");
@@ -45,7 +136,7 @@ namespace TechTreeCreator.Output.Vis {
         {
             return new VisEdge
             {
-                @from = node.From.Id,
+                from = node.From.Id,
                 to = node.To.Id,
                 arrows = "to",
                 dashes = true,
