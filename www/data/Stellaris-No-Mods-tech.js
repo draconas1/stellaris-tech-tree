@@ -6463,933 +6463,6 @@ StellarisNoModsGraphDataTech = {
   ],
   "edges": [
     {
-      "from": "tech_thrusters_4",
-      "to": "tech_dark_matter_propulsion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_dark_matter_power_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_5",
-      "to": "tech_dark_matter_deflector",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_micro_replicators",
-      "to": "tech_self_assembling_components",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_adaptive_combat_algorithms",
-      "to": "tech_biomechanics",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_bureaucracy",
-      "to": "tech_adaptive_combat_algorithms",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_binary_motivators",
-      "to": "tech_nanite_assemblers",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_nanite_assemblers",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_binary_motivators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robomodding_m",
-      "to": "tech_binary_motivators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robomodding_points_1",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_synthetic_workers",
-      "to": "tech_robomodding_points_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robomodding",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_droid_workers",
-      "to": "tech_robomodding_points_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_robomodding",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_powered_exoskeletons",
-      "to": "tech_robomodding_m",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_ftl_inhibitor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_jump_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gateway_activation",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_gateway_construction",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_3",
-      "to": "tech_gateway_activation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_wormhole_stabilization",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_2",
-      "to": "tech_hyper_drive_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_hyper_drive_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_hyper_drive_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_hub_1",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_power_hub_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_hub_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_power_plant_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_2",
-      "to": "tech_power_plant_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_1",
-      "to": "tech_power_plant_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_3",
-      "to": "tech_sensors_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_2",
-      "to": "tech_sensors_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_planetary_shield_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shield_rechargers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_shields_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_3",
-      "to": "tech_shields_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_2",
-      "to": "tech_shields_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_1",
-      "to": "tech_shields_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_shields_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_2",
-      "to": "tech_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_1",
-      "to": "tech_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_reactor_boosters_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_antimatter_power",
-      "to": "tech_zero_point_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cold_fusion_power",
-      "to": "tech_antimatter_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_cold_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fission_power",
-      "to": "tech_fusion_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_synchronized_defences",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_auxiliary_fire_control",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_autonomous",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_2",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sapient_ai",
-      "to": "tech_combat_computers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_1",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_combat_computers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_combat_computers_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_positronic_implants",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_sapient_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_self_aware_logic",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_aware_logic",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cryostasis_1",
-      "to": "tech_cryostasis_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_administrative_ai",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_1",
-      "to": "tech_cryostasis_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_administrative_ai",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_global_research_initiative",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_2",
-      "to": "tech_physics_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_physics_1",
-      "to": "tech_physics_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_4",
-      "to": "tech_space_science_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_3",
-      "to": "tech_space_science_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_2",
-      "to": "tech_space_science_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_science_1",
-      "to": "tech_space_science_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_construction",
-      "to": "tech_space_science_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_basic_science_lab_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_basic_science_lab_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedoes_2",
-      "to": "tech_torpedoes_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_torpedoes_1",
-      "to": "tech_torpedoes_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_torpedoes_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_swarmer_missiles_1",
-      "to": "tech_swarmer_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_swarmer_missiles_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_4",
-      "to": "tech_missiles_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_3",
-      "to": "tech_missiles_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_2",
-      "to": "tech_missiles_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_1",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fusion_power",
-      "to": "tech_missiles_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_2",
-      "to": "tech_flak_batteries_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_flak_batteries_1",
-      "to": "tech_flak_batteries_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_2",
-      "to": "tech_autocannons_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocannons_1",
-      "to": "tech_autocannons_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_autocannons_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_accelerator_1",
-      "to": "tech_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_mass_accelerator_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_5",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_kinetic_artillery_1",
-      "to": "tech_kinetic_artillery_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_kinetic_artillery_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_4",
-      "to": "tech_mass_drivers_5",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_3",
-      "to": "tech_mass_drivers_4",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_2",
-      "to": "tech_mass_drivers_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_drivers_1",
-      "to": "tech_mass_drivers_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
       "from": "tech_colossus",
       "to": "tech_pk_nanobots",
       "arrows": "to",
@@ -7444,44 +6517,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_physics_2",
-      "to": "tech_repeatable_reduced_building_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_2",
-      "to": "tech_repeatable_weapon_type_energy_fire_rate",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lasers_4",
-      "to": "tech_repeatable_weapon_type_energy_damage",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shields_4",
-      "to": "tech_repeatable_improved_shield_output",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_repeatable_improved_tile_energy_output",
+      "from": "tech_sensors_2",
+      "to": "tech_experimental_subspace_navigation",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8290,8 +7327,260 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_sensors_2",
-      "to": "tech_experimental_subspace_navigation",
+      "from": "tech_torpedoes_2",
+      "to": "tech_torpedoes_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_1",
+      "to": "tech_torpedoes_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_torpedoes_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_swarmer_missiles_1",
+      "to": "tech_swarmer_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_swarmer_missiles_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_4",
+      "to": "tech_missiles_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_3",
+      "to": "tech_missiles_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_2",
+      "to": "tech_missiles_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_1",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_missiles_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_2",
+      "to": "tech_flak_batteries_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_1",
+      "to": "tech_flak_batteries_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_2",
+      "to": "tech_autocannons_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_1",
+      "to": "tech_autocannons_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_autocannons_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_accelerator_1",
+      "to": "tech_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mass_accelerator_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_5",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_kinetic_artillery_1",
+      "to": "tech_kinetic_artillery_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_kinetic_artillery_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_4",
+      "to": "tech_mass_drivers_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_3",
+      "to": "tech_mass_drivers_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_2",
+      "to": "tech_mass_drivers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_drivers_1",
+      "to": "tech_mass_drivers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_thrusters_4",
+      "to": "tech_dark_matter_propulsion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_dark_matter_power_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_5",
+      "to": "tech_dark_matter_deflector",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8310,6 +7599,600 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "tech_akx_worm_2",
       "to": "tech_akx_worm_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_ftl_inhibitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_jump_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gateway_activation",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_gateway_construction",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_3",
+      "to": "tech_gateway_activation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_wormhole_stabilization",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_2",
+      "to": "tech_hyper_drive_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_hyper_drive_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_hyper_drive_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_hub_1",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_power_hub_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_hub_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_power_plant_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_2",
+      "to": "tech_power_plant_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_1",
+      "to": "tech_power_plant_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_3",
+      "to": "tech_sensors_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_2",
+      "to": "tech_sensors_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_planetary_shield_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shield_rechargers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_shields_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_3",
+      "to": "tech_shields_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_2",
+      "to": "tech_shields_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_1",
+      "to": "tech_shields_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_shields_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_2",
+      "to": "tech_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_1",
+      "to": "tech_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_reactor_boosters_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_antimatter_power",
+      "to": "tech_zero_point_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cold_fusion_power",
+      "to": "tech_antimatter_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fusion_power",
+      "to": "tech_cold_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fission_power",
+      "to": "tech_fusion_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_synchronized_defences",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_auxiliary_fire_control",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_autonomous",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_2",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_combat_computers_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_1",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_combat_computers_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_combat_computers_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_positronic_implants",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_sapient_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_self_aware_logic",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_self_aware_logic",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cryostasis_1",
+      "to": "tech_cryostasis_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_administrative_ai",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_1",
+      "to": "tech_cryostasis_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_administrative_ai",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_global_research_initiative",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_2",
+      "to": "tech_physics_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_1",
+      "to": "tech_physics_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_4",
+      "to": "tech_space_science_5",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_3",
+      "to": "tech_space_science_4",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_2",
+      "to": "tech_space_science_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_science_1",
+      "to": "tech_space_science_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_construction",
+      "to": "tech_space_science_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_basic_science_lab_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_basic_science_lab_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_physics_2",
+      "to": "tech_repeatable_reduced_building_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_2",
+      "to": "tech_repeatable_weapon_type_energy_fire_rate",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_4",
+      "to": "tech_repeatable_weapon_type_energy_damage",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shields_4",
+      "to": "tech_repeatable_improved_shield_output",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_repeatable_improved_tile_energy_output",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9424,6 +9307,87 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_repeatable_improved_starbase_capacity",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_5",
+      "to": "tech_repeatable_command_limit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_navy_size_4",
+      "to": "tech_repeatable_naval_cap",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_vitality_boosters",
+      "to": "tech_repeatable_improved_leader_life_span",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_health",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_repeatable_improved_army_damage",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_repeatable_improved_edict_length",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_bureaucracy",
+      "to": "tech_repeatable_improved_core_system_cap",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gene_crops",
+      "to": "tech_repeatable_improved_tile_food_output",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_sensors_4",
       "to": "tech_mine_dark_matter",
       "arrows": "to",
@@ -9523,8 +9487,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_repeatable_improved_starbase_capacity",
+      "from": "tech_micro_replicators",
+      "to": "tech_self_assembling_components",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9532,8 +9496,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_doctrine_fleet_size_5",
-      "to": "tech_repeatable_command_limit",
+      "from": "tech_adaptive_combat_algorithms",
+      "to": "tech_biomechanics",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9541,8 +9505,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_doctrine_navy_size_4",
-      "to": "tech_repeatable_naval_cap",
+      "from": "tech_colonial_bureaucracy",
+      "to": "tech_adaptive_combat_algorithms",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9550,8 +9514,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_vitality_boosters",
-      "to": "tech_repeatable_improved_leader_life_span",
+      "from": "tech_binary_motivators",
+      "to": "tech_nanite_assemblers",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9559,8 +9523,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_health",
+      "from": "tech_galactic_administration",
+      "to": "tech_nanite_assemblers",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9568,8 +9532,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_combat_training",
-      "to": "tech_repeatable_improved_army_damage",
+      "from": "tech_colonial_centralization",
+      "to": "tech_binary_motivators",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9577,8 +9541,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_repeatable_improved_edict_length",
+      "from": "tech_robomodding_m",
+      "to": "tech_binary_motivators",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9586,8 +9550,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_galactic_bureaucracy",
-      "to": "tech_repeatable_improved_core_system_cap",
+      "from": "tech_robomodding_points_1",
+      "to": "tech_robomodding_points_2",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9595,8 +9559,44 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_gene_crops",
-      "to": "tech_repeatable_improved_tile_food_output",
+      "from": "tech_synthetic_workers",
+      "to": "tech_robomodding_points_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robomodding",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_droid_workers",
+      "to": "tech_robomodding_points_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_robomodding",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_powered_exoskeletons",
+      "to": "tech_robomodding_m",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9605,79 +9605,15 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_micro_replicators",
+      "to": "tech_nanite_repair_system",
       "color": {
         "opacity": 0.0
       },
       "dashes": false
     },
     {
-      "from": "Physics-root",
-      "to": "tech_bio_reactor",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_power_plant_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_sensors_2",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_fission_power",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_automated_exploration",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_physics_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_archeology_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_curator_lab",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_basic_science_lab_1",
+      "from": "Society-root",
+      "to": "tech_neuroregeneration",
       "color": {
         "opacity": 0.0
       },
@@ -9685,23 +9621,15 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_missiles_1",
+      "to": "tech_repeatable_lcluster_clue",
       "color": {
         "opacity": 0.0
       },
       "dashes": false
     },
     {
-      "from": "Engineering-root",
-      "to": "tech_flak_batteries_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_mass_drivers_1",
+      "from": "Physics-root",
+      "to": "tech_lgate_activation",
       "color": {
         "opacity": 0.0
       },
@@ -9709,31 +9637,7 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "Society-root",
-      "to": "tech_space_whale_weapon_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_scourge_missile_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_swarm_strike_craft_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_amoeba_strike_craft_1",
+      "to": "tech_gargantuan_evolution",
       "color": {
         "opacity": 0.0
       },
@@ -9813,15 +9717,7 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_nanite_repair_system",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_neuroregeneration",
+      "to": "tech_missiles_1",
       "color": {
         "opacity": 0.0
       },
@@ -9829,23 +9725,15 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_repeatable_lcluster_clue",
+      "to": "tech_flak_batteries_1",
       "color": {
         "opacity": 0.0
       },
       "dashes": false
     },
     {
-      "from": "Physics-root",
-      "to": "tech_lgate_activation",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_gargantuan_evolution",
+      "from": "Engineering-root",
+      "to": "tech_mass_drivers_1",
       "color": {
         "opacity": 0.0
       },
@@ -9862,6 +9750,126 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "Physics-root",
       "to": "tech_akx_worm_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_decoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_enigmatic_encoder",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_dragon_armor",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_executive_retreat",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_xeno_tourism_agency",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_orbital_trash_dispersal",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_bio_reactor",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_power_plant_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_sensors_2",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_fission_power",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_automated_exploration",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_physics_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_archeology_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_curator_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_basic_science_lab_1",
       "color": {
         "opacity": 0.0
       },
@@ -9910,54 +9918,6 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "Physics-root",
       "to": "tech_lasers_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_executive_retreat",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_xeno_tourism_agency",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_orbital_trash_dispersal",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_decoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_enigmatic_encoder",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Engineering-root",
-      "to": "tech_dragon_armor",
       "color": {
         "opacity": 0.0
       },
@@ -10156,8 +10116,48 @@ StellarisNoModsGraphDataTech = {
       "dashes": false
     },
     {
+      "from": "Society-root",
+      "to": "tech_space_whale_weapon_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_scourge_missile_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_swarm_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_amoeba_strike_craft_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
       "from": "Engineering-root",
       "to": "tech_nanite_transmutation",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_micro_replicators",
       "color": {
         "opacity": 0.0
       },

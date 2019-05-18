@@ -20,9 +20,19 @@ dependantDataFiles = [
     "fileName": "Ancient_Cache_of_Technologies-dependants.js"
   },
   {
+    "name": "Starborn",
+    "jsVarable": "StarbornGraphDataDependants",
+    "fileName": "Starborn-dependants.js"
+  },
+  {
     "name": "Gigastructures",
     "jsVarable": "GigastructuresGraphDataDependants",
     "fileName": "Gigastructures-dependants.js"
+  },
+  {
+    "name": "Dyson Swarm",
+    "jsVarable": "DysonSwarmGraphDataDependants",
+    "fileName": "Dyson_Swarm-dependants.js"
   },
   {
     "name": "At War",

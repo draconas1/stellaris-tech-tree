@@ -148,7 +148,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_giga_fortress_obelisk",
       "label": "Giga Fortress - Obelisk of Light",
       "group": "Building",
-      "title": "<b>Giga Fortress - Obelisk of Light</b> (building_giga_fortress_obelisk)<br/><i>The installed Obelisk of Light module greatly enhances the fortress's defenses as well as providing extra training grounds for our armies. Additional generators will also be installed to provide Dark Energy and Dark Matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 200 Food, 50 Unity, 1 Influence, 10 Dark Matter, 10 Dark Energy<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +100",
+      "title": "<b>Giga Fortress - Obelisk of Light</b> (building_giga_fortress_obelisk)<br/><i>The installed Obelisk of Light module greatly enhances the fortress's defenses as well as providing extra training grounds for our armies. Additional generators will also be installed to provide Dark Energy and Dark Matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 50 Unity, 1 Influence, 10 Dark Matter, 10 Dark Energy<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +100<br/><b>planet_pops_food_upkeep_mult:</b> -100%",
       "level": 29,
       "image": "images/buildings/building_giga_fortress_obelisk.png",
       "hasImage": true,
@@ -161,7 +161,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_giga_fortress_lab",
       "label": "Giga Fortress - Seat of Power",
       "group": "Building",
-      "title": "<b>Giga Fortress - Seat of Power</b> (building_giga_fortress_lab)<br/><i>The Seat of Power module moves some of our political leaders aboard the fortress, increasing our empire's unity and upper management as well as greater influence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 200 Food, 100 Unity, 2 Influence<br/><b>Amenities:</b> +100<br/><b>Housing:</b> +100<br/><b>Stability:</b> +50",
+      "title": "<b>Giga Fortress - Seat of Power</b> (building_giga_fortress_lab)<br/><i>The Seat of Power module moves some of our political leaders aboard the fortress, increasing our empire's unity and upper management as well as greater influence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 100 Unity, 2 Influence<br/><b>Amenities:</b> +100<br/><b>Housing:</b> +100<br/><b>Stability:</b> +50<br/><b>planet_pops_food_upkeep_mult:</b> -100%",
       "level": 29,
       "image": "images/buildings/building_giga_fortress_lab.png",
       "hasImage": true,
@@ -174,7 +174,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_giga_fortress_array",
       "label": "Giga Fortress - Strategy Center",
       "group": "Building",
-      "title": "<b>Giga Fortress - Strategy Center</b> (building_giga_fortress_array)<br/><i>The Strategy Center module connects the fortress super computers with the empire's fleets for greater coordinations. A Mentat will also be stationed to function as tactical strategic analysist.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 200 Food, 50 Unity, 1 Influence<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +50<br/><b>Mentat:</b> +1",
+      "title": "<b>Giga Fortress - Strategy Center</b> (building_giga_fortress_array)<br/><i>The Strategy Center module connects the fortress super computers with the empire's fleets for greater coordinations. A Mentat will also be stationed to function as tactical strategic analysist.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 15000 Minerals, 250 Dark Matter, 250 Dark Energy<br/><b>Produces:</b> 50 Unity, 1 Influence<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +50<br/><b>Mentat:</b> +1<br/><b>planet_pops_food_upkeep_mult:</b> -100%",
       "level": 29,
       "image": "images/buildings/building_giga_fortress_array.png",
       "hasImage": true,
@@ -187,7 +187,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_giga_fortress",
       "label": "Giga Fortress",
       "group": "Building",
-      "title": "<b>Giga Fortress</b> (building_giga_fortress)<br/><i>Giga Fortress is an titanic-sized, self-sustain planetary fortress armed with three battleship-sized hypervelocity batteries and various other defense systems as well as a legion of garrison forces. The mere presence of it inspires confidence in all citizens and removes any chances of unrest, for any who'd dare rebel would be swiftly annihilated.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 1250 Minerals, 25 Influence, 100 Dark Matter, 100 Dark Energy<br/><b>Produces:</b> 200 Food, 50 Unity<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +50",
+      "title": "<b>Giga Fortress</b> (building_giga_fortress)<br/><i>Giga Fortress is an titanic-sized, self-sustain planetary fortress armed with three battleship-sized hypervelocity batteries and various other defense systems as well as a legion of garrison forces. The mere presence of it inspires confidence in all citizens and removes any chances of unrest, for any who'd dare rebel would be swiftly annihilated.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>1200<br/><b>Category: </b>Army<br/><b>Cost:</b> 1250 Minerals, 25 Influence, 100 Dark Matter, 100 Dark Energy<br/><b>Produces:</b> 50 Unity<br/><b>Amenities:</b> +20<br/><b>Housing:</b> +20<br/><b>Stability:</b> +50<br/><b>planet_pops_food_upkeep_mult:</b> -100%",
       "level": 29,
       "image": "images/buildings/building_giga_fortress.png",
       "hasImage": true,
@@ -421,7 +421,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_food_processing_complex",
       "label": "Agri Mega-Complex",
       "group": "Building",
-      "title": "<b>Agri Mega-Complex</b> (building_ae_food_processing_complex)<br/><i>It matters not whether the planet has no green, for the green is everywhere, and that green is good.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 450 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 1 Energy Credits, 5 Dark Matter<br/><b>Farmer Jobs:</b> +8<br/><b>Agri-Drone Jobs:</b> +8<br/><b>£food£ Food from £job_farmer£ Farmers:</b> +50%<br/><b>Max Agriculture Districts:</b> 8",
+      "title": "<b>Agri Mega-Complex</b> (building_ae_food_processing_complex)<br/><i>It matters not whether the planet has no green, for the green is everywhere, and that green is good.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 450 Minerals, 150 Dark Matter<br/><b>Upkeep:</b> 1 Energy Credits, 5 Dark Matter<br/><b>Farmer Jobs:</b> +8<br/><b>Agri-Drone Jobs:</b> +8<br/><b>£food£ Food from £job£ Jobs:</b> +20%<br/><b>Max Agriculture Districts:</b> 8<br/><b>Max Districts:</b> +4",
       "level": 26,
       "image": "images/buildings/building_ae_food_processing_complex.png",
       "hasImage": true,
@@ -434,7 +434,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_fe_food_processing_complex",
       "label": "Agri Super-Complex",
       "group": "Building",
-      "title": "<b>Agri Super-Complex</b> (building_fe_food_processing_complex)<br/><i>Multiple agricultural bio-domes powered by a central dark matter facility that will ensure the planet always have fresh green apples, or whatever it is our government uses for food.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter<br/><b>Farmer Jobs:</b> +4<br/><b>Agri-Drone Jobs:</b> +4<br/><b>£food£ Food from £job_farmer£ Farmers:</b> +35%<br/><b>Max Agriculture Districts:</b> 6",
+      "title": "<b>Agri Super-Complex</b> (building_fe_food_processing_complex)<br/><i>Multiple agricultural bio-domes powered by a central dark matter facility that will ensure the planet always have fresh green apples, or whatever it is our government uses for food.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter<br/><b>Farmer Jobs:</b> +4<br/><b>Agri-Drone Jobs:</b> +4<br/><b>planets_food_produces_mult:</b> +10%<br/><b>Max Agriculture Districts:</b> 4<br/><b>Max Districts:</b> +2",
       "level": 26,
       "image": "images/buildings/building_fe_food_processing_complex.png",
       "hasImage": true,
@@ -447,7 +447,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_power_hub",
       "label": "Alpha Master Power Nexus",
       "group": "Building",
-      "title": "<b>Alpha Master Power Nexus</b> (building_ae_power_hub)<br/><i>Exploting the advanced network systems of the engimatic constructs on the planet's capital building allows the Nexus to create a planet-wide energy network that massively increases energy production.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 150 Dark Energy, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 5 Dark Energy<br/><b>Technician Jobs:</b> +8<br/><b>Tech-Drone Jobs:</b> +8<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +50%<br/><b>Max Generator Districts:</b> 8",
+      "title": "<b>Alpha Master Power Nexus</b> (building_ae_power_hub)<br/><i>Exploting the advanced network systems of the engimatic constructs on the planet's capital building allows the Nexus to create a planet-wide energy network that massively increases energy production.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>520<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 150 Dark Energy, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 5 Dark Energy<br/><b>Technician Jobs:</b> +8<br/><b>Tech-Drone Jobs:</b> +8<br/><b>£energy£ Energy Credits from £job£ Jobs:</b> +20%<br/><b>Max Generator Districts:</b> 8<br/><b>Max Districts:</b> +4",
       "level": 26,
       "image": "images/buildings/building_ae_power_hub.png",
       "hasImage": true,
@@ -460,7 +460,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_fe_power_hub",
       "label": "Dark Energy Power Grid",
       "group": "Building",
-      "title": "<b>Dark Energy Power Grid</b> (building_fe_power_hub)<br/><i>Advanced super-computers and enigmatic screening allows this new generation Power Grid to not only provides additional energy augmentations, but also makes additional room for extra energy districts.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 350 Minerals, 50 Dark Energy, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Energy<br/><b>Technician Jobs:</b> +4<br/><b>Tech-Drone Jobs:</b> +4<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +35%<br/><b>Max Generator Districts:</b> 6",
+      "title": "<b>Dark Energy Power Grid</b> (building_fe_power_hub)<br/><i>Advanced super-computers and enigmatic screening allows this new generation Power Grid to not only provides additional energy augmentations, but also makes additional room for extra energy districts.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 350 Minerals, 50 Dark Energy, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Energy<br/><b>Technician Jobs:</b> +4<br/><b>Tech-Drone Jobs:</b> +4<br/><b>£energy£ Energy Credits from £job£ Jobs:</b> +10%<br/><b>Max Generator Districts:</b> 4<br/><b>Max Districts:</b> +2",
       "level": 26,
       "image": "images/buildings/building_fe_power_hub.png",
       "hasImage": true,
@@ -473,7 +473,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_ae_mineral_processing_plant",
       "label": "Alpha Processor Mega-Complex",
       "group": "Building",
-      "title": "<b>Alpha Processor Mega-Complex</b> (building_ae_mineral_processing_plant)<br/><i>This district-sized mega-complex is able to transform even the crudest and dumbest minerals into high-quality, high yield minerals.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>540<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 150 Dark Matter, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 5 Dark Matter<br/><b>Miner Jobs:</b> +8<br/><b>Mining Drone Jobs:</b> +8<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +50%<br/><b>Max Mining Districts:</b> 8",
+      "title": "<b>Alpha Processor Mega-Complex</b> (building_ae_mineral_processing_plant)<br/><i>This district-sized mega-complex is able to transform even the crudest and dumbest minerals into high-quality, high yield minerals.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>540<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 150 Dark Matter, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 5 Dark Matter<br/><b>Miner Jobs:</b> +8<br/><b>Mining Drone Jobs:</b> +8<br/><b>£minerals£ Minerals from £job£ Jobs:</b> +20%<br/><b>Max Mining Districts:</b> 8<br/><b>Max Districts:</b> +4",
       "level": 26,
       "image": "images/buildings/building_ae_mineral_processing_plant.png",
       "hasImage": true,
@@ -486,7 +486,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "building_fe_mineral_processing_plant",
       "label": "Advanced Mineral Processing Facility",
       "group": "Building",
-      "title": "<b>Advanced Mineral Processing Facility</b> (building_fe_mineral_processing_plant)<br/><i>A noble task for a better future. Materials processed here pave way for a brighter tomorrow.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter<br/><b>Miner Jobs:</b> +4<br/><b>Mining Drone Jobs:</b> +4<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +35%<br/><b>Max Mining Districts:</b> 6",
+      "title": "<b>Advanced Mineral Processing Facility</b> (building_fe_mineral_processing_plant)<br/><i>A noble task for a better future. Materials processed here pave way for a brighter tomorrow.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 400 Minerals, 50 Dark Matter, 100 Alloys<br/><b>Upkeep:</b> 2 Energy Credits, 1 Dark Matter<br/><b>Miner Jobs:</b> +4<br/><b>Mining Drone Jobs:</b> +4<br/><b>£minerals£ Minerals from £job£ Jobs:</b> +10%<br/><b>Max Mining Districts:</b> 4<br/><b>Max Districts:</b> +2",
       "level": 26,
       "image": "images/buildings/building_fe_mineral_processing_plant.png",
       "hasImage": true,
@@ -678,16 +678,68 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
-      "id": "ship_aura_components",
-      "label": "Enigmatic Sensors",
+      "id": "ACOT_PLANET_KILLER_NANITE",
+      "label": "Monolith Beam",
       "group": "Dependant",
-      "title": "<b>Ship Aura (Titan)</b> (ship_aura_components)<br/><i>Titan ships can be equipped with field emitters that project and maintain localized fields that induce various effects in enemy or friendly vessels.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Enigmatic Sensors</i><br/><br/><b>Military Ship Enigmatic Network Inhibitor</b><br/><b>Power:</b> 0<br/><br/><b>Military Ship Light Matter Forge Network</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><br/><b>Military Ship Seraphim Network Inhibitor</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><br/><b>Military Ship Stellarite Forge Network</b><br/><b>Power:</b> 0<br/><br/><b>Military Ship Dawnbringer Network Inhibitor</b><br/><b>Power:</b> 0",
+      "title": "<b>Monolith Beam</b> (ACOT_PLANET_KILLER_NANITE)<br/><i>An ancient weapon of the progenitor used to store planets into a memory orb. This will allow the planet and its inhabitants to continue living while removing the planet from the galaxy completely. A terrifying weapons in the wrong hands.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><br/><b>Monolith Beam</b><br/><b>Power:</b> -50000",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_NANITE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_planet_killer_naniter"
+      ]
+    },
+    {
+      "id": "ACOT_ENIGMATIC_SHIELD_AE",
+      "label": "Dark Energy Deflectors",
+      "group": "Dependant",
+      "title": "<b>Dark Energy Deflectors</b> (ACOT_ENIGMATIC_SHIELD_AE)<br/><i>Dark Energy Deflectors are notably stronger than Dark Matter variant, but also requires Dark Energy to power instead as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Dark Energy Deflectors are notably stronger than Dark Matter variant, but also requires Dark Energy to power instead as a result.</i><br/><br/><b>Large Dark Energy Deflectors</b><br/><b>Cost:</b> 16 Alloys, 12 Dark Energy<br/><b>Upkeep:</b> 1.45 Energy Credits, 1.45 Alloys<br/><b>Power:</b> -375<br/><b>Shield Hit Points:</b> +1500<br/><b>Daily Shield Regen:</b> 30.0<br/><br/><b>Medium Dark Energy Deflectors</b><br/><b>Cost:</b> 8 Alloys, 6 Dark Energy<br/><b>Upkeep:</b> 0.75 Energy Credits, 0.75 Alloys<br/><b>Power:</b> -160<br/><b>Shield Hit Points:</b> +650<br/><b>Daily Shield Regen:</b> 13.0<br/><br/><b>Small Dark Energy Deflectors</b><br/><b>Cost:</b> 6 Alloys, 3 Dark Energy<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.44 Alloys<br/><b>Power:</b> -60<br/><b>Shield Hit Points:</b> +275<br/><b>Daily Shield Regen:</b> 5.0",
       "level": 28,
+      "image": "images/ship_parts/ACOT_ENIGMATIC_SHIELD_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dark_matter_deflector_ae"
+      ]
+    },
+    {
+      "id": "ACOT_ARMOR_AE",
+      "label": "Abyss Armor",
+      "group": "Dependant",
+      "title": "<b>Abyss Armor</b> (ACOT_ARMOR_AE)<br/><i>Abyss Armor is imbued with a small amount of Dark Energy Shield, allowing it to fare better against anti-armor weapons should the primary shield generator fails.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Abyss Armor is imbued with a small amount of Dark Energy Shield, allowing it to fare better against anti-armor weapons should the primary shield generator fails.</i><br/><br/><b>Large Abyss Armor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +1875<br/><b>Daily Armor Regen:</b> 18.75<br/><br/><b>Medium Abyss Armor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +600<br/><b>Daily Armor Regen:</b> 6.0<br/><br/><b>Small Abyss Armor</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +240<br/><b>Daily Armor Regen:</b> 2.4",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_ARMOR_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_armor_ae"
+      ]
+    },
+    {
+      "id": "ACOT_ARMOR_DM",
+      "label": "HardLight Armor",
+      "group": "Dependant",
+      "title": "<b>Hard-Light Armor</b> (ACOT_ARMOR_DM)<br/><i>Hard-Light is a dynamic material constructed out of pure solid light. It is much denser and harder when fully formed than neutronium.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Hard-Light is a dynamic material constructed out of pure solid light. It is much denser and harder when fully formed than neutronium.</i><br/><br/><b>Large Hard-Light Armor</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +1150<br/><b>Daily Armor Regen:</b> 11.5<br/><br/><b>Medium Hard-Light Armor</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +460<br/><b>Daily Armor Regen:</b> 4.6<br/><br/><b>Small Hard-Light Armor</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +185<br/><b>Daily Armor Regen:</b> 1.85",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_ARMOR_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_armor_dm"
+      ]
+    },
+    {
+      "id": "ship_aura_components",
+      "label": "Enigmatic Jumping Techniques",
+      "group": "Dependant",
+      "title": "<b>Ship Aura (Titan)</b> (ship_aura_components)<br/><i>Titan ships can be equipped with field emitters that project and maintain localized fields that induce various effects in enemy or friendly vessels.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Early theories suggest that the new generation jump drives can either be a direct improvement to the predecessor, or create a unique but extremely niche jump drive optimized for very large jumping distance.</i><br/><br/><b>Military Ship Jump Stablizer</b><br/><b>Cost:</b> 20 Alloys, 2 Dark Matter, 2 Dark Energy<br/><b>Power:</b> 0<br/><br/><b>Military Ship Enigmatic Network Inhibitor</b><br/><b>Cost:</b> 15 Alloys, 0.15 Dark Matter, 0.15 Dark Energy<br/><b>Power:</b> 0<br/><br/><b>Military Ship Stellar Jump Stablizer</b><br/><b>Cost:</b> 10 Alloys, 1 Stellarite Energy<br/><b>Power:</b> 0<br/><br/><b>Military Ship Stellarite Forge Network</b><br/><b>Cost:</b> 10 Alloys, 1 Stellarite Energy<br/><b>Power:</b> 0<br/><br/><b>Military Ship Dawnbringer Network Inhibitor</b><br/><b>Cost:</b> 10 Alloys, 1 Stellarite Energy<br/><b>Power:</b> 0<br/><br/><b>Military Ship Starbender Waypoint</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><br/><b>Military Ship Light Matter Forge Network</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><br/><b>Military Ship Seraphim Network Inhibitor</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0",
+      "level": 29,
       "image": "images/ship_parts/ship_aura_components.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_darkmatter_aura_energy_drainer"
+        "tech_darkmatter_hyper_jump_drive"
       ]
     },
     {
@@ -772,7 +824,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "thruster_components_AE",
       "label": "Refined Dark Matter Thrusters",
       "group": "Dependant",
-      "title": "<b>Thrusters</b> (thruster_components_AE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>This pristine and fully optimized Dark Matter Propulsion System is possibly the strongest thrusters in the galaxy, easily outperforming all previous generations. A civilized technology, for a more civilized ship.</i><br/><br/><b>Goliath Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 100 Alloys, 16 Dark Matter<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +8<br/><br/><b>Fallen Titan & Precursor Hyperion & Gatekeeper Warden & Precursor Assault Carrier & progenitor_carrier Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 80 Alloys, 8 Dark Matter<br/><b>Power:</b> -640<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Precursor Battlecruiser & Battlecruiser Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 30 Alloys, 4 Dark Matter<br/><b>Power:</b> -320<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Precursor Escort & Escort Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 10 Alloys, 2 Dark Matter<br/><b>Power:</b> -80<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Colossus Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 100 Alloys, 24 Dark Matter<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +125%<br/><br/><b>Titan & SCX_Dreadnought & Flagship & dcv & ultradreadnought & SCX_Dreadnought Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 80 Alloys, 24 Dark Matter<br/><b>Power:</b> -640<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +8<br/><br/><b>Battlecruiser & Battleship & SCX_Carrier & Carrier & Dreadnought & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 40 Alloys, 16 Dark Matter<br/><b>Power:</b> -320<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +12<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 20 Alloys, 8 Dark Matter<br/><b>Power:</b> -160<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +16<br/><br/><b>Destroyer Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 10 Alloys, 4 Dark Matter<br/><b>Power:</b> -80<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +20<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 5 Alloys, 2 Dark Matter<br/><b>Power:</b> -40<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +22",
+      "title": "<b>Thrusters</b> (thruster_components_AE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>This pristine and fully optimized Dark Matter Propulsion System is possibly the strongest thrusters in the galaxy, easily outperforming all previous generations. A civilized technology, for a more civilized ship.</i><br/><br/><b>Goliath Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 100 Alloys, 16 Dark Matter, 16 Dark Energy<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +8<br/><br/><b>Fallen Titan & Precursor Hyperion & Gatekeeper Warden & Precursor Assault Carrier & Progenitor Carrier Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 80 Alloys, 8 Dark Matter, 8 Dark Energy<br/><b>Power:</b> -640<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Precursor Battlecruiser & Battlecruiser Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 30 Alloys, 4 Dark Matter, 4 Dark Energy<br/><b>Power:</b> -320<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Precursor Escort & Escort Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 10 Alloys, 2 Dark Matter, 2 Dark Energy<br/><b>Power:</b> -80<br/><b>Base Ship Speed:</b> +150%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Colossus & Herculean Battlestation Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 100 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +125%<br/><br/><b>Titan & SCX_Dreadnought & Flagship & dcv & ultradreadnought & SCX_Dreadnought Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 80 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Power:</b> -640<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +8<br/><br/><b>Battlecruiser & Battleship & SCX_Carrier & Carrier & Dreadnought & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 40 Alloys, 8 Dark Matter, 8 Dark Energy<br/><b>Power:</b> -320<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +12<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 20 Alloys, 4 Dark Matter, 4 Dark Energy<br/><b>Power:</b> -160<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +16<br/><br/><b>Destroyer Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 10 Alloys, 2 Dark Matter, 2 Dark Energy<br/><b>Power:</b> -80<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +20<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Refined Dark Matter Thrusters</b><br/><b>Cost:</b> 5 Alloys, 1 Dark Matter, 1 Dark Energy<br/><b>Power:</b> -40<br/><b>Base Ship Speed:</b> +125%<br/><b>Chance to Evade:</b> +22",
       "level": 28,
       "image": "images/ship_parts/thruster_components_AE.png",
       "hasImage": true,
@@ -889,13 +941,247 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "Ancient Cache of TechnologiesDARK_MATTER_REACTOR",
       "label": "Alpha Enigmatic Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (Ancient Cache of TechnologiesDARK_MATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Alpha Enigmatic Reactor improves upon the basic Dark Matter Reactor by implementing Dark Energy into the mix, creating a much more powerful power generator.</i><br/><br/><b>Defense Tower & Precursor Sentinel Alpha Reactor</b><br/><b>Cost:</b> 592 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 9500<br/><br/><b>Defense Outpost Alpha Reactor</b><br/><b>Power:</b> 3000<br/><br/><b>Goliath & ultradreadnought & Gatekeeper Warden & Flagship Alpha Reactor</b><br/><b>Cost:</b> 850 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 8.5 Energy Credits, 0.85 Alloys<br/><b>Power:</b> 18500<br/><br/><b>Fallen Titan & Precursor Hyperion & Precursor Assault Carrier & progenitor_carrier & Dreadnought Alpha Reactor</b><br/><b>Cost:</b> 592 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 12000<br/><br/><b>Precursor Battlecruiser & Battlecruiser Alpha Reactor</b><br/><b>Cost:</b> 296 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 2.98 Energy Credits, 0.298 Alloys<br/><b>Power:</b> 6000<br/><br/><b>Precursor Escort & Escort Alpha Reactor</b><br/><b>Cost:</b> 148 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 3000<br/><br/><b>Starbase Alpha Reactor</b><br/><b>Power:</b> 40000<br/><br/><b>Ion Cannon Alpha Reactor</b><br/><b>Cost:</b> 74 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 4000<br/><br/><b>Military Station Alpha Reactor</b><br/><b>Cost:</b> 37 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 0.74 Energy Credits, 0.074 Alloys<br/><b>Power:</b> 1000<br/><br/><b>Colossus Alpha Reactor</b><br/><b>Power:</b> 12500<br/><br/><b>Carrier & Titan & SCX_Dreadnought Alpha Reactor</b><br/><b>Cost:</b> 296 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 7500<br/><br/><b>Battlecruiser & Battleship & SCX_Carrier & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Alpha Reactor</b><br/><b>Cost:</b> 148 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 2.98 Energy Credits, 0.298 Alloys<br/><b>Power:</b> 3000<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Alpha Reactor</b><br/><b>Cost:</b> 74 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 1500<br/><br/><b>Destroyer Alpha Reactor</b><br/><b>Cost:</b> 36 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Upkeep:</b> 0.74 Energy Credits, 0.074 Alloys<br/><b>Power:</b> 750<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Alpha Reactor</b><br/><b>Cost:</b> 18 Alloys, 1.5 Dark Matter, 1.5 Dark Energy<br/><b>Upkeep:</b> 0.37 Energy Credits, 0.037 Alloys<br/><b>Power:</b> 385<br/><br/><b>Defense Tower & Precursor Sentinel Stellarite Reactor</b><br/><b>Cost:</b> 246 Alloys, 38 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 18000<br/><br/><b>Defense Outpost Stellarite Reactor</b><br/><b>Cost:</b> 148 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 5 Energy Credits<br/><b>Power:</b> 6000<br/><br/><b>Goliath & ultradreadnought & Gatekeeper Warden Stellarite Reactor</b><br/><b>Cost:</b> 475 Alloys, 72 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 35000<br/><br/><b>Fallen Titan & Precursor Hyperion Stellarite Reactor</b><br/><b>Cost:</b> 266 Alloys, 36 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 20000<br/><br/><b>Precursor Battlecruiser & Battlecruiser Stellarite Reactor</b><br/><b>Cost:</b> 148 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 5 Energy Credits<br/><b>Power:</b> 9000<br/><br/><b>Precursor Escort & Escort Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 11 Stellarite Energy<br/><b>Upkeep:</b> 2.9 Energy Credits<br/><b>Power:</b> 4500<br/><br/><b>Starbase Stellarite Reactor</b><br/><b>Power:</b> 150000<br/><br/><b>Ion Cannon Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 2.96 Energy Credits<br/><b>Power:</b> 6000<br/><br/><b>Military Station Stellarite Reactor</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Upkeep:</b> 1.5 Energy Credits<br/><b>Power:</b> 1875<br/><br/><b>Colossus Stellarite Reactor</b><br/><b>Power:</b> 25000<br/><br/><b>Titan & Flagship & dcv & ultradreadnought & Precursor Assault Carrier & progenitor_carrier & Dreadnought & SCX_Dreadnought Stellarite Reactor</b><br/><b>Cost:</b> 246 Alloys, 40 Stellarite Energy<br/><b>Upkeep:</b> 11 Energy Credits<br/><b>Power:</b> 25000<br/><br/><b>Battleship & SCX_Carrier & Battlecruiser & Carrier & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Stellarite Reactor</b><br/><b>Cost:</b> 188 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 6 Energy Credits<br/><b>Power:</b> 8000<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 10 Stellarite Energy<br/><b>Upkeep:</b> 2.96 Energy Credits<br/><b>Power:</b> 4000<br/><br/><b>Destroyer Stellarite Reactor</b><br/><b>Cost:</b> 37 Alloys, 6 Stellarite Energy<br/><b>Upkeep:</b> 1.5 Energy Credits<br/><b>Power:</b> 2000<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Stellarite Reactor</b><br/><b>Cost:</b> 15 Alloys, 5 Stellarite Energy<br/><b>Upkeep:</b> 0.75 Energy Credits<br/><b>Power:</b> 1000",
+      "title": "<b>Power Core</b> (Ancient Cache of TechnologiesDARK_MATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Alpha Enigmatic Reactor improves upon the basic Dark Matter Reactor by implementing Dark Energy into the mix, creating a much more powerful power generator.</i><br/><br/><b>Defense Tower & Precursor Sentinel Alpha Reactor</b><br/><b>Cost:</b> 592 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 9500<br/><br/><b>Defense Outpost & Precursor Guardian Alpha Reactor</b><br/><b>Power:</b> 3000<br/><br/><b>Goliath & ultradreadnought & Gatekeeper Warden & Flagship Alpha Reactor</b><br/><b>Cost:</b> 850 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 8.5 Energy Credits, 0.85 Alloys<br/><b>Power:</b> 18500<br/><br/><b>Fallen Titan & Precursor Hyperion & Precursor Assault Carrier & Progenitor Carrier & Dreadnought Alpha Reactor</b><br/><b>Cost:</b> 592 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 12000<br/><br/><b>Precursor Battlecruiser & Battlecruiser Alpha Reactor</b><br/><b>Cost:</b> 296 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 2.98 Energy Credits, 0.298 Alloys<br/><b>Power:</b> 6000<br/><br/><b>Precursor Escort & Escort Alpha Reactor</b><br/><b>Cost:</b> 148 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 3000<br/><br/><b>Starbase Alpha Reactor</b><br/><b>Power:</b> 40000<br/><br/><b>Ion Cannon Alpha Reactor</b><br/><b>Cost:</b> 74 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 4000<br/><br/><b>Military Station Alpha Reactor</b><br/><b>Cost:</b> 37 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 0.74 Energy Credits, 0.074 Alloys<br/><b>Power:</b> 1000<br/><br/><b>Colossus & Herculean Battlestation Alpha Reactor</b><br/><b>Power:</b> 12500<br/><br/><b>Carrier & Titan & SCX_Dreadnought Alpha Reactor</b><br/><b>Cost:</b> 296 Alloys, 21 Dark Matter, 21 Dark Energy<br/><b>Upkeep:</b> 5.93 Energy Credits, 0.593 Alloys<br/><b>Power:</b> 7500<br/><br/><b>Battlecruiser & Battleship & SCX_Carrier & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Alpha Reactor</b><br/><b>Cost:</b> 148 Alloys, 12 Dark Matter, 12 Dark Energy<br/><b>Upkeep:</b> 2.98 Energy Credits, 0.298 Alloys<br/><b>Power:</b> 3000<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Alpha Reactor</b><br/><b>Cost:</b> 74 Alloys, 6 Dark Matter, 6 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.148 Alloys<br/><b>Power:</b> 1500<br/><br/><b>Destroyer Alpha Reactor</b><br/><b>Cost:</b> 36 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Upkeep:</b> 0.74 Energy Credits, 0.074 Alloys<br/><b>Power:</b> 750<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Alpha Reactor</b><br/><b>Cost:</b> 18 Alloys, 1.5 Dark Matter, 1.5 Dark Energy<br/><b>Upkeep:</b> 0.37 Energy Credits, 0.037 Alloys<br/><b>Power:</b> 385<br/><br/><b>Defense Tower & Precursor Sentinel Stellarite Reactor</b><br/><b>Cost:</b> 246 Alloys, 38 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 18000<br/><br/><b>Defense Outpost & Precursor Guardian Stellarite Reactor</b><br/><b>Cost:</b> 148 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 5 Energy Credits<br/><b>Power:</b> 6000<br/><br/><b>Goliath & ultradreadnought & Gatekeeper Warden Stellarite Reactor</b><br/><b>Cost:</b> 475 Alloys, 72 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 35000<br/><br/><b>Fallen Titan & Precursor Hyperion Stellarite Reactor</b><br/><b>Cost:</b> 266 Alloys, 36 Stellarite Energy<br/><b>Upkeep:</b> 12 Energy Credits<br/><b>Power:</b> 20000<br/><br/><b>Precursor Battlecruiser & Battlecruiser Stellarite Reactor</b><br/><b>Cost:</b> 148 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 5 Energy Credits<br/><b>Power:</b> 9000<br/><br/><b>Precursor Escort & Escort Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 11 Stellarite Energy<br/><b>Upkeep:</b> 2.9 Energy Credits<br/><b>Power:</b> 4500<br/><br/><b>Starbase Stellarite Reactor</b><br/><b>Power:</b> 150000<br/><br/><b>Ion Cannon Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 2.96 Energy Credits<br/><b>Power:</b> 6000<br/><br/><b>Military Station Stellarite Reactor</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Upkeep:</b> 1.5 Energy Credits<br/><b>Power:</b> 1875<br/><br/><b>Colossus & Herculean Battlestation Stellarite Reactor</b><br/><b>Power:</b> 25000<br/><br/><b>Titan & Flagship & dcv & ultradreadnought & Precursor Assault Carrier & Progenitor Carrier & Dreadnought & SCX_Dreadnought Stellarite Reactor</b><br/><b>Cost:</b> 246 Alloys, 40 Stellarite Energy<br/><b>Upkeep:</b> 11 Energy Credits<br/><b>Power:</b> 25000<br/><br/><b>Battleship & SCX_Carrier & Battlecruiser & Carrier & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Stellarite Reactor</b><br/><b>Cost:</b> 188 Alloys, 20 Stellarite Energy<br/><b>Upkeep:</b> 6 Energy Credits<br/><b>Power:</b> 8000<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Stellarite Reactor</b><br/><b>Cost:</b> 74 Alloys, 10 Stellarite Energy<br/><b>Upkeep:</b> 2.96 Energy Credits<br/><b>Power:</b> 4000<br/><br/><b>Destroyer Stellarite Reactor</b><br/><b>Cost:</b> 37 Alloys, 6 Stellarite Energy<br/><b>Upkeep:</b> 1.5 Energy Credits<br/><b>Power:</b> 2000<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship Stellarite Reactor</b><br/><b>Cost:</b> 15 Alloys, 5 Stellarite Energy<br/><b>Upkeep:</b> 0.75 Energy Credits<br/><b>Power:</b> 1000",
       "level": 27,
       "image": "images/ship_parts/Ancient Cache of TechnologiesDARK_MATTER_REACTOR.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
         "tech_dark_matter_power_core_ae"
+      ]
+    },
+    {
+      "id": "ACOT_POINT_DEFENSE_AE",
+      "label": "Daedalus Point-Defense",
+      "group": "Dependant",
+      "title": "<b>Daedalus Point-Defense</b> (ACOT_POINT_DEFENSE_AE)<br/><i>Look...Missiles!?? MISSILES???! Our enemies hide behind Missile Strikes!! §RTHE COWARDS! THE FOOLS!§!. We..we should take away...their missiles....\\n\\nMISSILE STRIKES!.......FROM THEM.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Daedalus Point-Defense</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -17",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_POINT_DEFENSE_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_point_defense_ae"
+      ]
+    },
+    {
+      "id": "ACOT_POINT_DEFENSE_DM",
+      "label": "Enigmatic Point-Defense",
+      "group": "Dependant",
+      "title": "<b>Enigmatic Point-Defense</b> (ACOT_POINT_DEFENSE_DM)<br/><i>Enigmatic Point-Defense fires a concentrated beam of pure dark energy to neutralize enemy missiles. The beam is stronger than older point-defense, allowing it to have higher effective range.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Enigmatic Point-Defense</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -13",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_POINT_DEFENSE_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_point_defense_dm"
+      ]
+    },
+    {
+      "id": "ACOT_ENERGY_TORPEDO_AE",
+      "label": "Tempest Cannon",
+      "group": "Dependant",
+      "title": "<b>Tempest Cannon</b> (ACOT_ENERGY_TORPEDO_AE)<br/><i>Tempest Launcher is an upgrade to the Dark Energy Cannon, capable of disrupting major ship systems and rip them all into ashes of history.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tempest Cannon</b><br/><b>Cost:</b> 28 Alloys, 20.5 Dark Energy<br/><b>Upkeep:</b> 2.96 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -130",
+      "level": 30,
+      "image": "images/ship_parts/ACOT_ENERGY_TORPEDO_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_energy_torpedo_ae"
+      ]
+    },
+    {
+      "id": "ACOT_ENERGY_TORPEDO_DM",
+      "label": "Dark Energy Cannon",
+      "group": "Dependant",
+      "title": "<b>Dark Energy Cannon</b> (ACOT_ENERGY_TORPEDO_DM)<br/><i>Dark Energy can be formed into a powerful weapon that melts away tissues.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Dark Energy Cannon</b><br/><b>Cost:</b> 86 Alloys, 9.9 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -110",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_ENERGY_TORPEDO_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_energy_torpedo_dm"
+      ]
+    },
+    {
+      "id": "ACOT_DISRUPTOR_AE",
+      "label": "Pendulum Disruptor",
+      "group": "Dependant",
+      "title": "<b>Pendulum Disruptor</b> (ACOT_DISRUPTOR_AE)<br/><i>Pendulum Disruptor fries enemy ship with extremely powerful dark energy ray stronger than its predecessor.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Medium Pendulum Disruptor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -44<br/><br/><b>Small Pendulum Disruptor</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -25",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_DISRUPTOR_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_disruptor_ae"
+      ]
+    },
+    {
+      "id": "ACOT_DISRUPTOR_DM",
+      "label": "Dark Energy Disruptor",
+      "group": "Dependant",
+      "title": "<b>Dark Energy Disruptor</b> (ACOT_DISRUPTOR_DM)<br/><i>Dark Energy Disruptor destroys enemy ship's interior with its powerful dark energy.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Medium Dark Energy Disruptor</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -37<br/><br/><b>Small Dark Energy Disruptor</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_DISRUPTOR_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_disruptor_dm"
+      ]
+    },
+    {
+      "id": "ACOT_PLASMA_AE",
+      "label": "Eclipse Plasma Cannon",
+      "group": "Dependant",
+      "title": "<b>Eclipse Plasma Cannon</b> (ACOT_PLASMA_AE)<br/><i>With the improvements to our dark power technologies, we can create an even deadlier Dark Matter Plasma that is much larger and more destructive.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Eclipse Plasma Cannon</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Matter<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -91<br/><br/><b>Medium Eclipse Plasma Cannon</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Eclipse Plasma Cannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -24",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_PLASMA_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_plasma_ae"
+      ]
+    },
+    {
+      "id": "ACOT_PLASMA_DM",
+      "label": "Dark Matter Plasma Cannon",
+      "group": "Dependant",
+      "title": "<b>Dark Matter Plasma Cannon</b> (ACOT_PLASMA_DM)<br/><i>Dark Matter Plasma Cannon, as the name suggests, fires a concentrated dark matter as deadly energy projectiles that will quickly melt away armors and hulls of inferior ships. The nature of Dark Matter substances allow the weapon to fare better against shields than conventional plasma weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -75<br/><br/><b>Medium Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60<br/><br/><b>Small Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
+      "level": 27,
+      "image": "images/ship_parts/ACOT_PLASMA_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_plasma_dm"
+      ]
+    },
+    {
+      "id": "ACOT_LASER_AE",
+      "label": "Alpha Laser",
+      "group": "Dependant",
+      "title": "<b>Alpha Laser</b> (ACOT_LASER_AE)<br/><i>Additional calibrating to the Delta Laser focusing lens allow us to develop Alpha Laser which are even deadlier against armor platings. This is the proof of our mastery in Dark Energy Manipulation.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Alpha Laser</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Energy<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -82<br/><br/><b>Medium Alpha Laser</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Alpha Laser</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -27",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_LASER_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_laser_ae"
+      ]
+    },
+    {
+      "id": "ACOT_LASER_DM",
+      "label": "Delta Laser",
+      "group": "Dependant",
+      "title": "<b>Delta Laser</b> (ACOT_LASER_DM)<br/><i>Delta Laser utilizes dark energy as powerful laser weapon. It is also more powerful at overloading shields than previous generations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Delta Laser</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Energy<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -70<br/><br/><b>Medium Delta Laser</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -38<br/><br/><b>Small Delta Laser</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -22",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_LASER_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_laser_dm"
+      ]
+    },
+    {
+      "id": "ACOT_FLAK_CANNON_AE",
+      "label": "Inferno Defense Matrix",
+      "group": "Dependant",
+      "title": "<b>Inferno Defense Matrix</b> (ACOT_FLAK_CANNON_AE)<br/><i>Inferno Defense Matrix is equipped with advanced bionic sensors. The mental link between our advanced computers and dedicated class-12 intellect gunners makes Inferno Flak deadly accurate in its targeting and tracking.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Inferno Defense Matrix</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -17",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_FLAK_CANNON_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_flak_batteries_ae"
+      ]
+    },
+    {
+      "id": "ACOT_FLAK_CANNON_DM",
+      "label": "Hellfire Defense Matrix",
+      "group": "Dependant",
+      "title": "<b>Hellfire Defense Matrix</b> (ACOT_FLAK_CANNON_DM)<br/><i>Hellfire Defense Matrix mows down enemy strike crafts in a barrage of steel rain. They shall taste death and defeat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Hellfire Defense Matrix</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -13",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_FLAK_CANNON_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_flak_batteries_dm"
+      ]
+    },
+    {
+      "id": "ACOT_ARTILLERY_AE",
+      "label": "Apocalypse Artillery",
+      "group": "Dependant",
+      "title": "<b>Apocalypse Artillery</b> (ACOT_ARTILLERY_AE)<br/><i>Apocalypse-class Artillery utilizes an even stronger hard-light material made possible with our superior designs. This updated template eliminates almost all weaknesses presented on previous artilleries.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Apocalypse Artillery</b><br/><b>Cost:</b> 28 Alloys, 18 Dark Matter, 18 Dark Energy<br/><b>Upkeep:</b> 2.96 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -130",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_ARTILLERY_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_kinetic_artillery_ae"
+      ]
+    },
+    {
+      "id": "ACOT_ARTILLERY_DM",
+      "label": "Hard-Light Artillery",
+      "group": "Dependant",
+      "title": "<b>Hard-Light Artillery</b> (ACOT_ARTILLERY_DM)<br/><i>Hard-Light Artillery uses dynamically-generated projectiles constructed out of pure hard-light as weapons, making it extremely deadly against shields and better against armors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Hard-Light Artillery</b><br/><b>Cost:</b> 86 Alloys, 8.1 Dark Matter, 8.1 Dark Energy<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -110",
+      "level": 27,
+      "image": "images/ship_parts/ACOT_ARTILLERY_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_kinetic_artillery_dm"
+      ]
+    },
+    {
+      "id": "ACOT_AUTOCANNON_AE",
+      "label": "Reaper Autocannon",
+      "group": "Dependant",
+      "title": "<b>Reaper Autocannon</b> (ACOT_AUTOCANNON_AE)<br/><i>Reaper Autocannon wrecks enemy ship's hulls and shields with its demonic rate of fire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Reaper Autocannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -25",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_AUTOCANNON_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_autocannons_ae"
+      ]
+    },
+    {
+      "id": "ACOT_AUTOCANNON_DM",
+      "label": "Stalker Autocannon",
+      "group": "Dependant",
+      "title": "<b>Stalker Autocannon</b> (ACOT_AUTOCANNON_DM)<br/><i>Stalker Autocannon uses hard-light projectiles to quickly chew through enemy shields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Stalker Autocannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
+      "level": 27,
+      "image": "images/ship_parts/ACOT_AUTOCANNON_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_autocannons_dm"
+      ]
+    },
+    {
+      "id": "ACOT_MASS_DRIVER_AE",
+      "label": "Crucio Cannon",
+      "group": "Dependant",
+      "title": "<b>Crucio Cannon</b> (ACOT_MASS_DRIVER_AE)<br/><i>An upgrade to Arclite Cannon, Crucio-class Cannon utilizes built-in matter generators to further increase the effectiveness of the projectile, allowing it to penetrate shields with ease.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Crucio Cannon</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Matter<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -82<br/><br/><b>Medium Crucio Cannon</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Crucio Cannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -27",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_MASS_DRIVER_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_mass_driver_ae"
+      ]
+    },
+    {
+      "id": "ACOT_MASS_DRIVER_DM",
+      "label": "Arclite Cannon",
+      "group": "Dependant",
+      "title": "<b>Arclite Cannon</b> (ACOT_MASS_DRIVER_DM)<br/><i>Arclite Cannon improves much upon the Gauss Cannon. The introduction of hard-light material, advanced sensors and dark matter allows us to create an extremely advanced projectile launcher that suffers less drawbacks against armor.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Arclite Cannon</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -70<br/><br/><b>Medium Arclite Cannon</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -38<br/><br/><b>Small Arclite Cannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -22",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_MASS_DRIVER_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_mass_driver_dm"
       ]
     },
     {
@@ -974,6 +1260,58 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "nodeType": "shipComponent",
       "prerequisites": [
         "tech_missile_dm"
+      ]
+    },
+    {
+      "id": "ACOT_BOMBERS_HANGAR_AE",
+      "label": "Nemesis Bombers",
+      "group": "Dependant",
+      "title": "<b>Nemesis Bombers</b> (ACOT_BOMBERS_HANGAR_AE)<br/><i>Amongst the archives of the precursors, there is an unidentified blueprints of extremely advanced strike crafts that is totally different from that of precursor designs we are familiar with. But the projected performances are extremely high.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Nemesis Bombers</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -70",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_strike_craft_bomber_ae"
+      ]
+    },
+    {
+      "id": "ACOT_BOMBERS_HANGAR_DM",
+      "label": "Firebrand Bombers",
+      "group": "Dependant",
+      "title": "<b>Firebrand Bombers</b> (ACOT_BOMBERS_HANGAR_DM)<br/><i>Based upon the precursor blueprints, these new strike crafts are far superior to any previous generations. Dark Matter Propulsions, Deflectors, Hard-Light Platings, Bionic Sensors. All of these elements make these strike crafts formidable enemies against larger ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Firebrand Bombers</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_strike_craft_bomber_dm"
+      ]
+    },
+    {
+      "id": "ACOT_FIGHTERS_HANGAR_AE",
+      "label": "Daredevil Interceptors",
+      "group": "Dependant",
+      "title": "<b>Daredevil Interceptors</b> (ACOT_FIGHTERS_HANGAR_AE)<br/><i>Amongst the archives of the precursors, there is an unidentified blueprints of extremely advanced strike crafts that is totally different from that of precursor designs we are familiar with. But the projected performances are extremely high.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Daredevil Interceptors</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -70",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_AE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_strike_craft_bomber_ae"
+      ]
+    },
+    {
+      "id": "ACOT_FIGHTERS_HANGAR_DM",
+      "label": "Phase Interceptors",
+      "group": "Dependant",
+      "title": "<b>Phase Interceptors</b> (ACOT_FIGHTERS_HANGAR_DM)<br/><i>Based upon the precursor blueprints, these new strike crafts are far superior to any previous generations. Dark Matter Propulsions, Deflectors, Hard-Light Platings, Bionic Sensors. All of these elements make these fighters formidable enemies against inferior crafts and missiles.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Phase Interceptors</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_DM.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_strike_craft_bomber_dm"
       ]
     },
     {
@@ -1156,708 +1494,6 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "nodeType": "shipComponent",
       "prerequisites": [
         "tech_energy_lance_dm"
-      ]
-    },
-    {
-      "id": "ACOT_BOMBERS_HANGAR_AE",
-      "label": "Nemesis Bombers",
-      "group": "Dependant",
-      "title": "<b>Nemesis Bombers</b> (ACOT_BOMBERS_HANGAR_AE)<br/><i>Amongst the archives of the precursors, there is an unidentified blueprints of extremely advanced strike crafts that is totally different from that of precursor designs we are familiar with. But the projected performances are extremely high.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Nemesis Bombers</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -70",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_strike_craft_bomber_ae"
-      ]
-    },
-    {
-      "id": "ACOT_BOMBERS_HANGAR_DM",
-      "label": "Firebrand Bombers",
-      "group": "Dependant",
-      "title": "<b>Firebrand Bombers</b> (ACOT_BOMBERS_HANGAR_DM)<br/><i>Based upon the precursor blueprints, these new strike crafts are far superior to any previous generations. Dark Matter Propulsions, Deflectors, Hard-Light Platings, Bionic Sensors. All of these elements make these strike crafts formidable enemies against larger ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Firebrand Bombers</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_strike_craft_bomber_dm"
-      ]
-    },
-    {
-      "id": "ACOT_FIGHTERS_HANGAR_AE",
-      "label": "Daredevil Interceptors",
-      "group": "Dependant",
-      "title": "<b>Daredevil Interceptors</b> (ACOT_FIGHTERS_HANGAR_AE)<br/><i>Amongst the archives of the precursors, there is an unidentified blueprints of extremely advanced strike crafts that is totally different from that of precursor designs we are familiar with. But the projected performances are extremely high.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Daredevil Interceptors</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -70",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_strike_craft_bomber_ae"
-      ]
-    },
-    {
-      "id": "ACOT_FIGHTERS_HANGAR_DM",
-      "label": "Phase Interceptors",
-      "group": "Dependant",
-      "title": "<b>Phase Interceptors</b> (ACOT_FIGHTERS_HANGAR_DM)<br/><i>Based upon the precursor blueprints, these new strike crafts are far superior to any previous generations. Dark Matter Propulsions, Deflectors, Hard-Light Platings, Bionic Sensors. All of these elements make these fighters formidable enemies against inferior crafts and missiles.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Phase Interceptors</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_strike_craft_bomber_dm"
-      ]
-    },
-    {
-      "id": "ACOT_POINT_DEFENSE_AE",
-      "label": "Daedalus Point-Defense",
-      "group": "Dependant",
-      "title": "<b>Daedalus Point-Defense</b> (ACOT_POINT_DEFENSE_AE)<br/><i>Look...Missiles!?? MISSILES???! Our enemies hide behind Missile Strikes!! §RTHE COWARDS! THE FOOLS!§!. We..we should take away...their missiles....\\n\\nMISSILE STRIKES!.......FROM THEM.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Daedalus Point-Defense</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -17",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_POINT_DEFENSE_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_point_defense_ae"
-      ]
-    },
-    {
-      "id": "ACOT_POINT_DEFENSE_DM",
-      "label": "Enigmatic Point-Defense",
-      "group": "Dependant",
-      "title": "<b>Enigmatic Point-Defense</b> (ACOT_POINT_DEFENSE_DM)<br/><i>Enigmatic Point-Defense fires a concentrated beam of pure dark energy to neutralize enemy missiles. The beam is stronger than older point-defense, allowing it to have higher effective range.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Enigmatic Point-Defense</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -13",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_POINT_DEFENSE_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_point_defense_dm"
-      ]
-    },
-    {
-      "id": "ACOT_ENERGY_TORPEDO_AE",
-      "label": "Tempest Launcher",
-      "group": "Dependant",
-      "title": "<b>Tempest Launcher</b> (ACOT_ENERGY_TORPEDO_AE)<br/><i>Tempest Launcher hurls an even larger amounts of Exotic Matter that will disrupt major ship systems and rip them all into ashes of history.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tempest Launcher</b><br/><b>Cost:</b> 28 Alloys, 20.5 Dark Matter<br/><b>Upkeep:</b> 2.96 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -130",
-      "level": 30,
-      "image": "images/ship_parts/ACOT_ENERGY_TORPEDO_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_energy_torpedo_ae"
-      ]
-    },
-    {
-      "id": "ACOT_ENERGY_TORPEDO_DM",
-      "label": "Exotic Matter Launcher",
-      "group": "Dependant",
-      "title": "<b>Exotic Matter Launcher</b> (ACOT_ENERGY_TORPEDO_DM)<br/><i>Even stronger than neutrons, Exotic Matter is a deviation of Normal Matter. it rips apart the target's molecules.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Exotic Matter Launcher</b><br/><b>Cost:</b> 86 Alloys, 9.9 Dark Matter<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -110",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_ENERGY_TORPEDO_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_energy_torpedo_dm"
-      ]
-    },
-    {
-      "id": "ACOT_DISRUPTOR_AE",
-      "label": "Pendulum Disruptor",
-      "group": "Dependant",
-      "title": "<b>Pendulum Disruptor</b> (ACOT_DISRUPTOR_AE)<br/><i>Pendulum Disruptor fries enemy ship with extremely powerful dark energy ray stronger than its predecessor.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Medium Pendulum Disruptor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -44<br/><br/><b>Small Pendulum Disruptor</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -25",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_DISRUPTOR_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_disruptor_ae"
-      ]
-    },
-    {
-      "id": "ACOT_DISRUPTOR_DM",
-      "label": "Dark Energy Disruptor",
-      "group": "Dependant",
-      "title": "<b>Dark Energy Disruptor</b> (ACOT_DISRUPTOR_DM)<br/><i>Dark Energy Disruptor destroys enemy ship's interior with its powerful dark energy.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Medium Dark Energy Disruptor</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -37<br/><br/><b>Small Dark Energy Disruptor</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_DISRUPTOR_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_disruptor_dm"
-      ]
-    },
-    {
-      "id": "ACOT_PLASMA_AE",
-      "label": "Eclipse Plasma Cannon",
-      "group": "Dependant",
-      "title": "<b>Eclipse Plasma Cannon</b> (ACOT_PLASMA_AE)<br/><i>With the improvements to our dark power technologies, we can create an even deadlier Dark Matter Plasma that is much larger and more destructive.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Eclipse Plasma Cannon</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Matter<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -91<br/><br/><b>Medium Eclipse Plasma Cannon</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Eclipse Plasma Cannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -24",
-      "level": 29,
-      "image": "images/ship_parts/ACOT_PLASMA_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_plasma_ae"
-      ]
-    },
-    {
-      "id": "ACOT_PLASMA_DM",
-      "label": "Dark Matter Plasma Cannon",
-      "group": "Dependant",
-      "title": "<b>Dark Matter Plasma Cannon</b> (ACOT_PLASMA_DM)<br/><i>Dark Matter Plasma Cannon, as the name suggests, fires a concentrated dark matter as deadly energy projectiles that will quickly melt away armors and hulls of inferior ships. The nature of Dark Matter substances allow the weapon to fare better against shields than conventional plasma weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -75<br/><br/><b>Medium Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -60<br/><br/><b>Small Dark Matter Plasma Cannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
-      "level": 27,
-      "image": "images/ship_parts/ACOT_PLASMA_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_plasma_dm"
-      ]
-    },
-    {
-      "id": "ACOT_LASER_AE",
-      "label": "Alpha Laser",
-      "group": "Dependant",
-      "title": "<b>Alpha Laser</b> (ACOT_LASER_AE)<br/><i>Additional calibrating to the Delta Laser focusing lens allow us to develop Alpha Laser which are even deadlier against armor platings. This is the proof of our mastery in Dark Energy Manipulation.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Alpha Laser</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Energy<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -82<br/><br/><b>Medium Alpha Laser</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Energy<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Alpha Laser</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Energy<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -27",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_LASER_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_laser_ae"
-      ]
-    },
-    {
-      "id": "ACOT_LASER_DM",
-      "label": "Delta Laser",
-      "group": "Dependant",
-      "title": "<b>Delta Laser</b> (ACOT_LASER_DM)<br/><i>Delta Laser utilizes dark energy as powerful laser weapon. It is also more powerful at overloading shields than previous generations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Delta Laser</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Energy<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -70<br/><br/><b>Medium Delta Laser</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Energy<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -38<br/><br/><b>Small Delta Laser</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Energy<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -22",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_LASER_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_laser_dm"
-      ]
-    },
-    {
-      "id": "ACOT_AUX_ENIGMATIC_AI",
-      "label": "Omni-Matrix Anti-Life Equation Database",
-      "group": "Dependant",
-      "title": "<b>Omni-Matrix Anti-Life Equation Database</b> (ACOT_AUX_ENIGMATIC_AI)<br/><i>This database contains all the informations regarding all weakpoints, flaws and exploitable mechanics of all progenitor-era designs in full detail that can be uploaded to all ship's weapon systems.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omni-Matrix Anti-Life Equation Database</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><b>Ship Experience Gain:</b> +500%<br/><b>Damage to Ascended Empires:</b> +20%<br/><b>Damage to Awakened Empires:</b> +20%<br/><b>Damage to the Original Empire:</b> +100%",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_AUX_ENIGMATIC_AI.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_analyzer_ai"
-      ]
-    },
-    {
-      "id": "ACOT_WEAPONS_CORE_OE",
-      "label": "Super-focused Light Matter Core",
-      "group": "Dependant",
-      "title": "<b>Super-focused Light Matter Core</b> (ACOT_WEAPONS_CORE_OE)<br/><i>Super-focused Light Matter Core converts excess energies from surrounding materials to amplify the ship's weapon systems for even greater performance than before.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Super-focused Light Matter Core</b><br/><b>Cost:</b> 750 Energy Credits, 50 Light Matter<br/><b>Power:</b> 0<br/><b>Ship Weapons Damage:</b> 0.2<br/><b>Ship Fire Rate:</b> +20%",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_WEAPONS_CORE_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_weapon_core"
-      ]
-    },
-    {
-      "id": "ACOT_SHIELD_BOOSTER_OE",
-      "label": "Light Matter Supercharged Barrier",
-      "group": "Dependant",
-      "title": "<b>Light Matter Supercharged Barrier</b> (ACOT_SHIELD_BOOSTER_OE)<br/><i>Superchaging barriers grant the ship's shield generators almost twice as much strengths, far exceeding older generations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Supercharged Barrier</b><br/><b>Power:</b> -480<br/><b>Shield Hit Points:</b> +80%",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_SHIELD_BOOSTER_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_shield_supercharger"
-      ]
-    },
-    {
-      "id": "ACOT_REPAIR_COUNTERMEASURES_OE",
-      "label": "Omega Reactive Countermeasure Drones",
-      "group": "Dependant",
-      "title": "<b>Omega Reactive Countermeasure Drones</b> (ACOT_REPAIR_COUNTERMEASURES_OE)<br/><i>The most sophisticated and durable of all UMDs, the Omega-Class provides the best protection, deterrances and maintenances. Their services will be honored in the archieves of our empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Reactive Countermeasure Drones</b><br/><b>Power:</b> -240<br/><b>Armor Hit Points:</b> +60%<br/><b>Daily Armor Regen:</b> 0.15",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_REPAIR_COUNTERMEASURES_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_reactive_drone"
-      ]
-    },
-    {
-      "id": "ACOT_HYPERCHARGED_JUMPER_OE",
-      "label": "Omega Supercharged Hyperdrive Amplifier",
-      "group": "Dependant",
-      "title": "<b>Omega Supercharged Hyperdrive Amplifier</b> (ACOT_HYPERCHARGED_JUMPER_OE)<br/><i>Additional auxilary amplifiers can be installed on the jump drive's modular turbines to increase their performance. This model requires almost no burden on the FTL driver. Useful for performing Tacticool Espionage Action.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Supercharged Hyperdrive Amplifier</b><br/><b>Power:</b> -360<br/><b>Jump Drive Range:</b> +45%<br/><b>Jump Charge Time:</b> +15%",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_HYPERCHARGED_JUMPER_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_hyper_jump_drive"
-      ]
-    },
-    {
-      "id": "ACOT_AFTERBURNERS_OE",
-      "label": "Omega Afterburners",
-      "group": "Dependant",
-      "title": "<b>Omega Afterburners</b> (ACOT_AFTERBURNERS_OE)<br/><i>In the events that the thrusters alone are still not enough for the ship to go fast. Omega Afterburners can be used to drive the ship closer so that you can hit them with your SWORD! HUO HAEE HYIEE HWAHHH KWAHHH~ It's over!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Afterburners</b><br/><b>Power:</b> -180<br/><b>Sublight Speed:</b> +60%<br/><b>Evasion:</b> +25%",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_AFTERBURNERS_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_afterburners"
-      ]
-    },
-    {
-      "id": "OE_SENSOR_SHIP",
-      "label": "Sensors",
-      "group": "Dependant",
-      "title": "<b>Sensors</b> (OE_SENSOR_SHIP)<br/><i>Sensors will reveal the details of any systems and fleets within their range.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Arrays</b><br/><b>Power:</b> -215<br/><b>Sensor Range:</b> 12<br/><b>Hyperlane Detection Range:</b> 24<br/><b>Tracking:</b> +36",
-      "level": 25,
-      "image": "images/ship_parts/OE_SENSOR_SHIP.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_sensors"
-      ]
-    },
-    {
-      "id": "STELLARITE_DRIVE_OE",
-      "label": "FTL Components",
-      "group": "Dependant",
-      "title": "<b>FTL Components</b> (STELLARITE_DRIVE_OE)<br/><i>Any ship traveling to another system requires an FTL drive of some sort.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Embrace Light Matter. Embrace Eternity. The Stars are in our grasp</i><br/><br/><b>Military Ship & Construction Ship & Colony Ship & Science Ship & Transport Ship & Colossus Eternity Stellar Drive</b><br/><b>Power:</b> -270<br/><b>Jump Charge Time:</b> -99%<br/><b>Jump Drive Range:</b> +200%",
-      "level": 25,
-      "image": "images/ship_parts/STELLARITE_DRIVE_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_jump_drive"
-      ]
-    },
-    {
-      "id": "ACOT_ENIGMATIC_SHIELD_OE",
-      "label": "Divine Shield",
-      "group": "Dependant",
-      "title": "<b>Divine Shield</b> (ACOT_ENIGMATIC_SHIELD_OE)<br/><i>This Light Matter-based shield is even stronger than Stellarite Shields as the shields are reinforced with the Omni-Matrix Network itself.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>This Light Matter-based shield is even stronger than Stellarite Shields as the shields are reinforced with the Omni-Matrix Network itself.\"</i><br/><br/><b>Large Divine Shield</b><br/><b>Power:</b> -3200<br/><b>Shield Hit Points:</b> +9000<br/><b>Daily Shield Regen:</b> 180.0<br/><br/><b>Medium Divine Shield</b><br/><b>Power:</b> -1500<br/><b>Shield Hit Points:</b> +3900<br/><b>Daily Shield Regen:</b> 78.0<br/><br/><b>Small Divine Shield</b><br/><b>Power:</b> -390<br/><b>Shield Hit Points:</b> +1650<br/><b>Daily Shield Regen:</b> 33.0",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_ENIGMATIC_SHIELD_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_shield"
-      ]
-    },
-    {
-      "id": "ACOT_ARMOR_OE",
-      "label": "Celestial Armor",
-      "group": "Dependant",
-      "title": "<b>Celestial Armor</b> (ACOT_ARMOR_OE)<br/><i>Celestial Armor utilizes solidified Light Matter to create one of the most powerful hull material known to any civilizations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Celestial Armor utilizes solidified Light Matter to create one of the most powerful hull material known to any civilizations.</i><br/><br/><b>Large Celestial Armor</b><br/><b>Power:</b> -1600<br/><b>Armor Hit Points:</b> +5700<br/><b>Ship Hull Points:</b> +2850<br/><b>Daily Armor Regen:</b> 57.0<br/><b>Daily Hull Regen:</b> 28.5<br/><br/><b>Medium Celestial Armor</b><br/><b>Power:</b> -750<br/><b>Armor Hit Points:</b> +2250<br/><b>Ship Hull Points:</b> +1125<br/><b>Daily Armor Regen:</b> 22.5<br/><b>Daily Hull Regen:</b> 11.25<br/><br/><b>Small Celestial Armor</b><br/><b>Power:</b> -185<br/><b>Armor Hit Points:</b> +900<br/><b>Ship Hull Points:</b> +450<br/><b>Daily Armor Regen:</b> 9.0<br/><b>Daily Hull Regen:</b> 4.5",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_ARMOR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_armor"
-      ]
-    },
-    {
-      "id": "ACOT_ULTIMATE_WEAPON",
-      "label": "Divine Judgement",
-      "group": "Dependant",
-      "title": "<b>Divine Judgement</b> (ACOT_ULTIMATE_WEAPON)<br/><i>One of the most powerful arsenal ever developed, Divine Judgement projects the ultimate form of expression of the progenitor with destructive force of light matter and psionic energy</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Titan & Goliath & progenitor_avatar & sofe_ancient_weapon & sofe_ancient_cruiser Divine Judgement</b><br/><b>Power:</b> -15500",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_ULTIMATE_WEAPON.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_ultimate_weapon"
-      ]
-    },
-    {
-      "id": "ACOT_GUNSHIP_HANGAR_OE",
-      "label": "Tempest Gunship",
-      "group": "Dependant",
-      "title": "<b>Tempest Gunship</b> (ACOT_GUNSHIP_HANGAR_OE)<br/><i>The Tempest  improves upon the Firestorm-Class Gunship, featuring even better protection and firepower.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tempest Gunship</b><br/><b>Power:</b> -390",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_GUNSHIP_HANGAR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_gunship"
-      ]
-    },
-    {
-      "id": "ACOT_BOMBERS_HANGAR_OE",
-      "label": "Crusader Bomber",
-      "group": "Dependant",
-      "title": "<b>Crusader Bomber</b> (ACOT_BOMBERS_HANGAR_OE)<br/><i>State-of-the-art bombers that outperform all crappier generations. Time to put on the real show.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Crusader Bomber</b><br/><b>Power:</b> -390",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_bomber"
-      ]
-    },
-    {
-      "id": "ACOT_FIGHTERS_HANGAR_OE",
-      "label": "Paladin Inteceptor",
-      "group": "Dependant",
-      "title": "<b>Paladin Inteceptor</b> (ACOT_FIGHTERS_HANGAR_OE)<br/><i>State-of-the-art inteceptors that outperform all crappier generations. Let the hunt begins.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Paladin Inteceptor</b><br/><b>Power:</b> -390",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_fighter"
-      ]
-    },
-    {
-      "id": "ACOT_MISSILE_OE",
-      "label": "Dual Lightbringer Missile",
-      "group": "Dependant",
-      "title": "<b>Dual Lightbringer Missile</b> (ACOT_MISSILE_OE)<br/><i>Lightbringer Missiles are not not only more destructive than Starviper, but are also fired in pairs. This makes them much harder to take down while doublling their firepowers.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Dual Lightbringer Missile</b><br/><b>Power:</b> -240",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_MISSILE_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_missile"
-      ]
-    },
-    {
-      "id": "ACOT_MASS_ACCELERATOR_OE",
-      "label": "Gatecrusher Warp Cannon",
-      "group": "Dependant",
-      "title": "<b>Gatecrusher Warp Cannon</b> (ACOT_MASS_ACCELERATOR_OE)<br/><i>Gatecrusher Warp Cannon fires an enormous slug encased with light matter energy that warps itself into enemy ships via micro-wormhole, bypassing travelling dinstance while still maintaining the full kinetic force, speed and velocity. Our ships can even look away while doing it, because cool guys don't look at explosions.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Gatecrusher Warp Cannon</b><br/><b>Power:</b> -2700",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_MASS_ACCELERATOR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_warp_lightmatter_cannon"
-      ]
-    },
-    {
-      "id": "ACOT_FLAK_CANNON_OE",
-      "label": "Omega Kinetic Defense System",
-      "group": "Dependant",
-      "title": "<b>Omega Kinetic Defense System</b> (ACOT_FLAK_CANNON_OE)<br/><i>Omega-class KDS is an improved version of the previous model, featuring even more potent defensive mechanisms unrivalled by any.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Kinetic Defense System</b><br/><b>Power:</b> -80",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_FLAK_CANNON_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_flak"
-      ]
-    },
-    {
-      "id": "ACOT_ARTILLERY_OE",
-      "label": "Lightbound Hyperveolocity Artillery",
-      "group": "Dependant",
-      "title": "<b>Lightbound Hyperveolocity Artillery</b> (ACOT_ARTILLERY_OE)<br/><i>Lightbound Artillery fires an even stronger super-accelerated light matter shell that makes short work of enemy ships across massive distances without losing density and force.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Lightbound Hyperveolocity Artillery</b><br/><b>Power:</b> -740",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_ARTILLERY_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_artillery"
-      ]
-    },
-    {
-      "id": "ACOT_MASS_DRIVER_OE",
-      "label": "Starbreaker Cannon",
-      "group": "Dependant",
-      "title": "<b>Starbreaker Cannon</b> (ACOT_MASS_DRIVER_OE)<br/><i>Starbreaker Cannon further amplifies the power of the kinetic force of Sundowner Cannon by further augmenting it with light matter and psionic-focusing of the operator.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Starbreaker Cannon</b><br/><b>Power:</b> -185",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_MASS_DRIVER_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_gauss"
-      ]
-    },
-    {
-      "id": "ACOT_AUTOCANNON_OE",
-      "label": "Light Pulse-Cannon",
-      "group": "Dependant",
-      "title": "<b>Light Pulse-Cannon</b> (ACOT_AUTOCANNON_OE)<br/><i>This short-ranged anti-shield automatic weapon utilizes special ammunication loaded with solidified light matter canisters that explodes on contact with extremely deadly precision and kinetic force.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Pulse-Cannon</b><br/><b>Power:</b> -170",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_AUTOCANNON_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_autocannon"
-      ]
-    },
-    {
-      "id": "ACOT_TITAN_CANNON_OE",
-      "label": "Tidebringer Warp Stellarcannon",
-      "group": "Dependant",
-      "title": "<b>Tidebringer Warp Stellarcannon</b> (ACOT_TITAN_CANNON_OE)<br/><i>Like bringing a tidal wave of destruction upon the enemy ship, except its a wave of PURE Light Matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tidebringer Warp Stellarcannon</b><br/><b>Power:</b> -10000",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_TITAN_CANNON_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_titan_accelerator"
-      ]
-    },
-    {
-      "id": "ACOT_ARC_EMITTER_OE",
-      "label": "Divine Storm Discharger",
-      "group": "Dependant",
-      "title": "<b>Divine Storm Discharger</b> (ACOT_ARC_EMITTER_OE)<br/><i>Divine Storm Discharger cleaves through enemy ships with high-frequency, solidified light matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Focused Divine Storm Discharger</b><br/><b>Power:</b> -6000<br/><br/><b>Divine Storm Discharger</b><br/><b>Power:</b> -2700",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_ARC_EMITTER_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_emitter"
-      ]
-    },
-    {
-      "id": "ACOT_PERDITION_BEAM_OE",
-      "label": "Light of Annihilation",
-      "group": "Dependant",
-      "title": "<b>Light of Annihilation</b> (ACOT_PERDITION_BEAM_OE)<br/><i>A weapon forged out of pure anger, Light of Annihilation infuses the operator's will to kill the enemy into the already destructive weapon into an even greater intensity. Rip and Tear.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light of Annihilation</b><br/><b>Power:</b> -6000",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_PERDITION_BEAM_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_titan_beam"
-      ]
-    },
-    {
-      "id": "ACOT_POINT_DEFENSE_OE",
-      "label": "Lancer Point Defense System",
-      "group": "Dependant",
-      "title": "<b>Lancer Point Defense System</b> (ACOT_POINT_DEFENSE_OE)<br/><i>The ability to manipulate Light Matter at will allows this PDS to fire an equivalent of micro-lance energy weapon. The effect is destructive to all targets, especially compared to other PDS by standards.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Lancer Point Defense System</b><br/><b>Power:</b> -80",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_POINT_DEFENSE_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_point_defence"
-      ]
-    },
-    {
-      "id": "ACOT_PARTICLE_LANCE_OE",
-      "label": "Searing Prismatic Lance",
-      "group": "Dependant",
-      "title": "<b>Searing Prismatic Lance</b> (ACOT_PARTICLE_LANCE_OE)<br/><i>This spinal amplifier weapon fires a continious stream of light energy through prismatic lens and light crystal to devastate enemy formations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Searing Prismatic Lance</b><br/><b>Power:</b> -2700",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_PARTICLE_LANCE_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_lance"
-      ]
-    },
-    {
-      "id": "ACOT_OMNI_PLASMA_OE",
-      "label": "Supercharged Light Energy Cannon",
-      "group": "Dependant",
-      "title": "<b>Supercharged Light Energy Cannon</b> (ACOT_OMNI_PLASMA_OE)<br/><i>Based on the same concept as previous design, the weapon is able to fire an even deadlier light energy sphere over a longer distance.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Supercharged Light Energy Cannon</b><br/><b>Power:</b> -2400",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_OMNI_PLASMA_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_plasma_cannon"
-      ]
-    },
-    {
-      "id": "ACOT_DISRUPTOR_OE",
-      "label": "Ray of Light",
-      "group": "Dependant",
-      "title": "<b>Ray of Light</b> (ACOT_DISRUPTOR_OE)<br/><i>This advanced disruptor weapon modifies Light Matter substance into a high-frequency wave that deconstructs matter on the molecular level, deleting the enemy ship from existence, bypassing all useless armors and shields they hide behind. Stupid metal boxes.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Ray of Light</b><br/><b>Power:</b> -270<br/><br/><b>Ray of Light</b><br/><b>Power:</b> -180",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_DISRUPTOR_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_disruptor"
-      ]
-    },
-    {
-      "id": "ACOT_PLASMA_OE",
-      "label": "Light Matter Plasma Cannon",
-      "group": "Dependant",
-      "title": "<b>Light Matter Plasma Cannon</b> (ACOT_PLASMA_OE)<br/><i>Light Matter can be modified as a very powerful corrosive-like state that can eat away other materials whole, creating an extremely deadly anti-ship weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Plasma Cannon</b><br/><b>Power:</b> -270",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_PLASMA_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_photon"
-      ]
-    },
-    {
-      "id": "ACOT_LASER_OE",
-      "label": "Omega Laser Cannon",
-      "group": "Dependant",
-      "title": "<b>Omega Laser Cannon</b> (ACOT_LASER_OE)<br/><i>Omega Laser utilizes Light Matter energy to cleave ship platings like butter. it is far superior to any other previously known laser weaponry.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Laser Cannon</b><br/><b>Power:</b> -210",
-      "level": 25,
-      "image": "images/ship_parts/ACOT_LASER_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_laser"
-      ]
-    },
-    {
-      "id": "ACOT_FLAK_CANNON_AE",
-      "label": "Inferno Defense Matrix",
-      "group": "Dependant",
-      "title": "<b>Inferno Defense Matrix</b> (ACOT_FLAK_CANNON_AE)<br/><i>Inferno Defense Matrix is equipped with advanced bionic sensors. The mental link between our advanced computers and dedicated class-12 intellect gunners makes Inferno Flak deadly accurate in its targeting and tracking.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Inferno Defense Matrix</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -17",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_FLAK_CANNON_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_flak_batteries_ae"
-      ]
-    },
-    {
-      "id": "ACOT_FLAK_CANNON_DM",
-      "label": "Hellfire Defense Matrix",
-      "group": "Dependant",
-      "title": "<b>Hellfire Defense Matrix</b> (ACOT_FLAK_CANNON_DM)<br/><i>Hellfire Defense Matrix mows down enemy strike crafts in a barrage of steel rain. They shall taste death and defeat.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Hellfire Defense Matrix</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -13",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_FLAK_CANNON_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_flak_batteries_dm"
-      ]
-    },
-    {
-      "id": "ACOT_ARTILLERY_AE",
-      "label": "Apocalypse Artillery",
-      "group": "Dependant",
-      "title": "<b>Apocalypse Artillery</b> (ACOT_ARTILLERY_AE)<br/><i>Apocalypse-class Artillery utilizes an even stronger hard-light material made possible with our superior designs. This updated template eliminates almost all weaknesses presented on previous artilleries.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Apocalypse Artillery</b><br/><b>Cost:</b> 28 Alloys, 20.5 Dark Matter<br/><b>Upkeep:</b> 2.96 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -130",
-      "level": 29,
-      "image": "images/ship_parts/ACOT_ARTILLERY_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_kinetic_artillery_ae"
-      ]
-    },
-    {
-      "id": "ACOT_ARTILLERY_DM",
-      "label": "Hard-Light Artillery",
-      "group": "Dependant",
-      "title": "<b>Hard-Light Artillery</b> (ACOT_ARTILLERY_DM)<br/><i>Hard-Light Artillery uses dynamically-generated projectiles constructed out of pure hard-light as weapons, making it extremely deadly against shields and better against armors.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Hard-Light Artillery</b><br/><b>Cost:</b> 86 Alloys, 9.9 Dark Matter<br/><b>Upkeep:</b> 1.48 Energy Credits, 0.296 Alloys<br/><b>Power:</b> -110",
-      "level": 27,
-      "image": "images/ship_parts/ACOT_ARTILLERY_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_kinetic_artillery_dm"
-      ]
-    },
-    {
-      "id": "ACOT_AUTOCANNON_AE",
-      "label": "Reaper Autocannon",
-      "group": "Dependant",
-      "title": "<b>Reaper Autocannon</b> (ACOT_AUTOCANNON_AE)<br/><i>Reaper Autocannon wrecks enemy ship's hulls and shields with its demonic rate of fire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Reaper Autocannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -25",
-      "level": 29,
-      "image": "images/ship_parts/ACOT_AUTOCANNON_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_autocannons_ae"
-      ]
-    },
-    {
-      "id": "ACOT_AUTOCANNON_DM",
-      "label": "Stalker Autocannon",
-      "group": "Dependant",
-      "title": "<b>Stalker Autocannon</b> (ACOT_AUTOCANNON_DM)<br/><i>Stalker Autocannon uses hard-light projectiles to quickly chew through enemy shields.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Stalker Autocannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -21",
-      "level": 27,
-      "image": "images/ship_parts/ACOT_AUTOCANNON_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_autocannons_dm"
-      ]
-    },
-    {
-      "id": "ACOT_MASS_DRIVER_AE",
-      "label": "Crucio Cannon",
-      "group": "Dependant",
-      "title": "<b>Crucio Cannon</b> (ACOT_MASS_DRIVER_AE)<br/><i>An upgrade to Arclite Cannon, Crucio-class Cannon utilizes built-in matter generators to further increase the effectiveness of the projectile, allowing it to penetrate shields with ease.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Crucio Cannon</b><br/><b>Cost:</b> 22 Alloys, 18 Dark Matter<br/><b>Upkeep:</b> 2.28 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -82<br/><br/><b>Medium Crucio Cannon</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -46<br/><br/><b>Small Crucio Cannon</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -27",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_MASS_DRIVER_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_mass_driver_ae"
-      ]
-    },
-    {
-      "id": "ACOT_MASS_DRIVER_DM",
-      "label": "Arclite Cannon",
-      "group": "Dependant",
-      "title": "<b>Arclite Cannon</b> (ACOT_MASS_DRIVER_DM)<br/><i>Arclite Cannon improves much upon the Gauss Cannon. The introduction of hard-light material, advanced sensors and dark matter allows us to create an extremely advanced projectile launcher that suffers less drawbacks against armor.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Large Arclite Cannon</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> -70<br/><br/><b>Medium Arclite Cannon</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> -38<br/><br/><b>Small Arclite Cannon</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> -22",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_MASS_DRIVER_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_mass_driver_dm"
-      ]
-    },
-    {
-      "id": "ACOT_ENIGMATIC_SHIELD_AE",
-      "label": "Dark Energy Deflectors",
-      "group": "Dependant",
-      "title": "<b>Dark Energy Deflectors</b> (ACOT_ENIGMATIC_SHIELD_AE)<br/><i>Dark Energy Deflectors are notably stronger than Dark Matter variant, but also requires Dark Energy to power instead as a result.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Dark Energy Deflectors are notably stronger than Dark Matter variant, but also requires Dark Energy to power instead as a result.</i><br/><br/><b>Large Dark Energy Deflectors</b><br/><b>Cost:</b> 16 Alloys, 12 Dark Energy<br/><b>Upkeep:</b> 1.45 Energy Credits, 1.45 Alloys<br/><b>Power:</b> -375<br/><b>Shield Hit Points:</b> +1500<br/><b>Daily Shield Regen:</b> 30.0<br/><br/><b>Medium Dark Energy Deflectors</b><br/><b>Cost:</b> 8 Alloys, 6 Dark Energy<br/><b>Upkeep:</b> 0.75 Energy Credits, 0.75 Alloys<br/><b>Power:</b> -160<br/><b>Shield Hit Points:</b> +650<br/><b>Daily Shield Regen:</b> 13.0<br/><br/><b>Small Dark Energy Deflectors</b><br/><b>Cost:</b> 6 Alloys, 3 Dark Energy<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.44 Alloys<br/><b>Power:</b> -60<br/><b>Shield Hit Points:</b> +275<br/><b>Daily Shield Regen:</b> 5.0",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_ENIGMATIC_SHIELD_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_dark_matter_deflector_ae"
-      ]
-    },
-    {
-      "id": "ACOT_ARMOR_AE",
-      "label": "Abyss Armor",
-      "group": "Dependant",
-      "title": "<b>Abyss Armor</b> (ACOT_ARMOR_AE)<br/><i>Abyss Armor is imbued with a small amount of Dark Energy Shield, allowing it to fare better against anti-armor weapons should the primary shield generator fails.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Abyss Armor is imbued with a small amount of Dark Energy Shield, allowing it to fare better against anti-armor weapons should the primary shield generator fails.</i><br/><br/><b>Large Abyss Armor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +1875<br/><b>Daily Armor Regen:</b> 18.75<br/><br/><b>Medium Abyss Armor</b><br/><b>Cost:</b> 8 Alloys, 13.5 Dark Matter<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +600<br/><b>Daily Armor Regen:</b> 6.0<br/><br/><b>Small Abyss Armor</b><br/><b>Cost:</b> 4 Alloys, 9.5 Dark Matter<br/><b>Upkeep:</b> 0.58 Energy Credits, 0.058 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +240<br/><b>Daily Armor Regen:</b> 2.4",
-      "level": 28,
-      "image": "images/ship_parts/ACOT_ARMOR_AE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_armor_ae"
-      ]
-    },
-    {
-      "id": "ACOT_ARMOR_DM",
-      "label": "HardLight Armor",
-      "group": "Dependant",
-      "title": "<b>Hard-Light Armor</b> (ACOT_ARMOR_DM)<br/><i>Hard-Light is a dynamic material constructed out of pure solid light. It is much denser and harder when fully formed than neutronium.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Hard-Light is a dynamic material constructed out of pure solid light. It is much denser and harder when fully formed than neutronium.</i><br/><br/><b>Large Hard-Light Armor</b><br/><b>Cost:</b> 70 Alloys, 8.1 Dark Matter<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.228 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +1150<br/><b>Daily Armor Regen:</b> 11.5<br/><br/><b>Medium Hard-Light Armor</b><br/><b>Cost:</b> 30 Alloys, 5.4 Dark Matter<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +460<br/><b>Daily Armor Regen:</b> 4.6<br/><br/><b>Small Hard-Light Armor</b><br/><b>Cost:</b> 10 Alloys, 2.7 Dark Matter<br/><b>Upkeep:</b> 0.29 Energy Credits, 0.058 Alloys<br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +185<br/><b>Daily Armor Regen:</b> 1.85",
-      "level": 26,
-      "image": "images/ship_parts/ACOT_ARMOR_DM.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_armor_dm"
       ]
     },
     {
@@ -2277,10 +1913,517 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
+      "id": "ACOT_AUX_ENIGMATIC_AI",
+      "label": "Omni-Matrix Anti-Life Equation Database",
+      "group": "Dependant",
+      "title": "<b>Omni-Matrix Anti-Life Equation Database</b> (ACOT_AUX_ENIGMATIC_AI)<br/><i>This database contains all the informations regarding all weakpoints, flaws and exploitable mechanics of all progenitor-era designs in full detail that can be uploaded to all ship's weapon systems.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omni-Matrix Anti-Life Equation Database</b><br/><b>Cost:</b> 750 Energy Credits, 25 Light Matter<br/><b>Power:</b> 0<br/><b>Ship Experience Gain:</b> +500%<br/><b>Damage to Ascended Empires:</b> +20%<br/><b>Damage to Awakened Empires:</b> +20%<br/><b>Damage to the Original Empire:</b> +100%",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_AUX_ENIGMATIC_AI.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_analyzer_ai"
+      ]
+    },
+    {
+      "id": "ACOT_WEAPONS_CORE_OE",
+      "label": "Super-focused Light Matter Core",
+      "group": "Dependant",
+      "title": "<b>Super-focused Light Matter Core</b> (ACOT_WEAPONS_CORE_OE)<br/><i>Super-focused Light Matter Core converts excess energies from surrounding materials to amplify the ship's weapon systems for even greater performance than before.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Super-focused Light Matter Core</b><br/><b>Cost:</b> 750 Energy Credits, 50 Light Matter<br/><b>Power:</b> 0<br/><b>Ship Weapons Damage:</b> 0.2<br/><b>Ship Fire Rate:</b> +20%",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_WEAPONS_CORE_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_weapon_core"
+      ]
+    },
+    {
+      "id": "ACOT_SHIELD_BOOSTER_OE",
+      "label": "Light Matter Supercharged Barrier",
+      "group": "Dependant",
+      "title": "<b>Light Matter Supercharged Barrier</b> (ACOT_SHIELD_BOOSTER_OE)<br/><i>Superchaging barriers grant the ship's shield generators almost twice as much strengths, far exceeding older generations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Supercharged Barrier</b><br/><b>Power:</b> -480<br/><b>Shield Hit Points:</b> +80%",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_SHIELD_BOOSTER_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_shield_supercharger"
+      ]
+    },
+    {
+      "id": "ACOT_REPAIR_COUNTERMEASURES_OE",
+      "label": "Omega Reactive Countermeasure Drones",
+      "group": "Dependant",
+      "title": "<b>Omega Reactive Countermeasure Drones</b> (ACOT_REPAIR_COUNTERMEASURES_OE)<br/><i>The most sophisticated and durable of all UMDs, the Omega-Class provides the best protection, deterrances and maintenances. Their services will be honored in the archieves of our empire.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Reactive Countermeasure Drones</b><br/><b>Power:</b> -240<br/><b>Armor Hit Points:</b> +60%<br/><b>Daily Armor Regen:</b> 0.15",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_REPAIR_COUNTERMEASURES_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_reactive_drone"
+      ]
+    },
+    {
+      "id": "ACOT_HYPERCHARGED_JUMPER_OE",
+      "label": "Omega Supercharged Hyperdrive Amplifier",
+      "group": "Dependant",
+      "title": "<b>Omega Supercharged Hyperdrive Amplifier</b> (ACOT_HYPERCHARGED_JUMPER_OE)<br/><i>Additional auxilary amplifiers can be installed on the jump drive's modular turbines to increase their performance. This model requires almost no burden on the FTL driver. Useful for performing Tacticool Espionage Action.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Supercharged Hyperdrive Amplifier</b><br/><b>Power:</b> -360<br/><b>Jump Drive Range:</b> +45%<br/><b>Jump Charge Time:</b> +15%",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_HYPERCHARGED_JUMPER_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_hyper_jump_drive"
+      ]
+    },
+    {
+      "id": "ACOT_AFTERBURNERS_OE",
+      "label": "Omega Afterburners",
+      "group": "Dependant",
+      "title": "<b>Omega Afterburners</b> (ACOT_AFTERBURNERS_OE)<br/><i>In the events that the thrusters alone are still not enough for the ship to go fast. Omega Afterburners can be used to drive the ship closer so that you can hit them with your SWORD! HUO HAEE HYIEE HWAHHH KWAHHH~ It's over!</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Afterburners</b><br/><b>Power:</b> -180<br/><b>Sublight Speed:</b> +60%<br/><b>Evasion:</b> +25%",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_AFTERBURNERS_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_afterburners"
+      ]
+    },
+    {
+      "id": "OE_SENSOR_SHIP",
+      "label": "Sensors",
+      "group": "Dependant",
+      "title": "<b>Sensors</b> (OE_SENSOR_SHIP)<br/><i>Sensors will reveal the details of any systems and fleets within their range.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Arrays</b><br/><b>Power:</b> -215<br/><b>Sensor Range:</b> 12<br/><b>Hyperlane Detection Range:</b> 24<br/><b>Tracking:</b> +36",
+      "level": 25,
+      "image": "images/ship_parts/OE_SENSOR_SHIP.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_sensors"
+      ]
+    },
+    {
+      "id": "STELLARITE_DRIVE_OE",
+      "label": "FTL Components",
+      "group": "Dependant",
+      "title": "<b>FTL Components</b> (STELLARITE_DRIVE_OE)<br/><i>Any ship traveling to another system requires an FTL drive of some sort.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Embrace Light Matter. Embrace Eternity. The Stars are in our grasp</i><br/><br/><b>Military Ship & Construction Ship & Colony Ship & Science Ship & Transport Ship & Colossus Eternity Stellar Drive</b><br/><b>Power:</b> -270<br/><b>Jump Charge Time:</b> -99%<br/><b>Jump Drive Range:</b> +200%",
+      "level": 25,
+      "image": "images/ship_parts/STELLARITE_DRIVE_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_jump_drive"
+      ]
+    },
+    {
+      "id": "ACOT_ENIGMATIC_SHIELD_OE",
+      "label": "Divine Shield",
+      "group": "Dependant",
+      "title": "<b>Divine Shield</b> (ACOT_ENIGMATIC_SHIELD_OE)<br/><i>This Light Matter-based shield is even stronger than Stellarite Shields as the shields are reinforced with the Omni-Matrix Network itself.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>This Light Matter-based shield is even stronger than Stellarite Shields as the shields are reinforced with the Omni-Matrix Network itself.\"</i><br/><br/><b>Large Divine Shield</b><br/><b>Power:</b> -3200<br/><b>Shield Hit Points:</b> +9000<br/><b>Daily Shield Regen:</b> 180.0<br/><br/><b>Medium Divine Shield</b><br/><b>Power:</b> -1500<br/><b>Shield Hit Points:</b> +3900<br/><b>Daily Shield Regen:</b> 78.0<br/><br/><b>Small Divine Shield</b><br/><b>Power:</b> -390<br/><b>Shield Hit Points:</b> +1650<br/><b>Daily Shield Regen:</b> 33.0",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_ENIGMATIC_SHIELD_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_shield"
+      ]
+    },
+    {
+      "id": "ACOT_ARMOR_OE",
+      "label": "Celestial Armor",
+      "group": "Dependant",
+      "title": "<b>Celestial Armor</b> (ACOT_ARMOR_OE)<br/><i>Celestial Armor utilizes solidified Light Matter to create one of the most powerful hull material known to any civilizations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Celestial Armor utilizes solidified Light Matter to create one of the most powerful hull material known to any civilizations.</i><br/><br/><b>Large Celestial Armor</b><br/><b>Power:</b> -1600<br/><b>Armor Hit Points:</b> +5700<br/><b>Ship Hull Points:</b> +2850<br/><b>Daily Armor Regen:</b> 57.0<br/><b>Daily Hull Regen:</b> 28.5<br/><br/><b>Medium Celestial Armor</b><br/><b>Power:</b> -750<br/><b>Armor Hit Points:</b> +2250<br/><b>Ship Hull Points:</b> +1125<br/><b>Daily Armor Regen:</b> 22.5<br/><b>Daily Hull Regen:</b> 11.25<br/><br/><b>Small Celestial Armor</b><br/><b>Power:</b> -185<br/><b>Armor Hit Points:</b> +900<br/><b>Ship Hull Points:</b> +450<br/><b>Daily Armor Regen:</b> 9.0<br/><b>Daily Hull Regen:</b> 4.5",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_ARMOR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_armor"
+      ]
+    },
+    {
+      "id": "ACOT_ULTIMATE_WEAPON",
+      "label": "Divine Judgement",
+      "group": "Dependant",
+      "title": "<b>Divine Judgement</b> (ACOT_ULTIMATE_WEAPON)<br/><i>One of the most powerful arsenal ever developed, Divine Judgement projects the ultimate form of expression of the progenitor with destructive force of light matter and psionic energy</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Titan & Goliath & Progenitor Avatar & Gaia Arkship & Nova Starbender Divine Judgement</b><br/><b>Power:</b> -15500",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_ULTIMATE_WEAPON.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_ultimate_weapon"
+      ]
+    },
+    {
+      "id": "ACOT_GUNSHIP_HANGAR_OE",
+      "label": "Tempest Gunship",
+      "group": "Dependant",
+      "title": "<b>Tempest Gunship</b> (ACOT_GUNSHIP_HANGAR_OE)<br/><i>The Tempest  improves upon the Firestorm-Class Gunship, featuring even better protection and firepower.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tempest Gunship</b><br/><b>Power:</b> -390",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_GUNSHIP_HANGAR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_gunship"
+      ]
+    },
+    {
+      "id": "ACOT_BOMBERS_HANGAR_OE",
+      "label": "Crusader Bomber",
+      "group": "Dependant",
+      "title": "<b>Crusader Bomber</b> (ACOT_BOMBERS_HANGAR_OE)<br/><i>State-of-the-art bombers that outperform all crappier generations. Time to put on the real show.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Crusader Bomber</b><br/><b>Power:</b> -390",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_BOMBERS_HANGAR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_bomber"
+      ]
+    },
+    {
+      "id": "ACOT_FIGHTERS_HANGAR_OE",
+      "label": "Paladin Inteceptor",
+      "group": "Dependant",
+      "title": "<b>Paladin Inteceptor</b> (ACOT_FIGHTERS_HANGAR_OE)<br/><i>State-of-the-art inteceptors that outperform all crappier generations. Let the hunt begins.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Paladin Inteceptor</b><br/><b>Power:</b> -390",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_FIGHTERS_HANGAR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_fighter"
+      ]
+    },
+    {
+      "id": "ACOT_MISSILE_OE",
+      "label": "Dual Lightbringer Missile",
+      "group": "Dependant",
+      "title": "<b>Dual Lightbringer Missile</b> (ACOT_MISSILE_OE)<br/><i>Lightbringer Missiles are not not only more destructive than Starviper, but are also fired in pairs. This makes them much harder to take down while doublling their firepowers.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Dual Lightbringer Missile</b><br/><b>Power:</b> -240",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_MISSILE_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_missile"
+      ]
+    },
+    {
+      "id": "ACOT_MASS_ACCELERATOR_OE",
+      "label": "Gatecrusher Warp Cannon",
+      "group": "Dependant",
+      "title": "<b>Gatecrusher Warp Cannon</b> (ACOT_MASS_ACCELERATOR_OE)<br/><i>Gatecrusher Warp Cannon fires an enormous slug encased with light matter energy that warps itself into enemy ships via micro-wormhole, bypassing travelling dinstance while still maintaining the full kinetic force, speed and velocity. Our ships can even look away while doing it, because cool guys don't look at explosions.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Gatecrusher Warp Cannon</b><br/><b>Power:</b> -2700",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_MASS_ACCELERATOR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_warp_lightmatter_cannon"
+      ]
+    },
+    {
+      "id": "ACOT_FLAK_CANNON_OE",
+      "label": "Omega Kinetic Defense System",
+      "group": "Dependant",
+      "title": "<b>Omega Kinetic Defense System</b> (ACOT_FLAK_CANNON_OE)<br/><i>Omega-class KDS is an improved version of the previous model, featuring even more potent defensive mechanisms unrivalled by any.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Kinetic Defense System</b><br/><b>Power:</b> -80",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_FLAK_CANNON_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_flak"
+      ]
+    },
+    {
+      "id": "ACOT_ARTILLERY_OE",
+      "label": "Lightbound Hyperveolocity Artillery",
+      "group": "Dependant",
+      "title": "<b>Lightbound Hyperveolocity Artillery</b> (ACOT_ARTILLERY_OE)<br/><i>Lightbound Artillery fires an even stronger super-accelerated light matter shell that makes short work of enemy ships across massive distances without losing density and force.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Lightbound Hyperveolocity Artillery</b><br/><b>Power:</b> -740",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_ARTILLERY_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_artillery"
+      ]
+    },
+    {
+      "id": "ACOT_MASS_DRIVER_OE",
+      "label": "Starbreaker Cannon",
+      "group": "Dependant",
+      "title": "<b>Starbreaker Cannon</b> (ACOT_MASS_DRIVER_OE)<br/><i>Starbreaker Cannon further amplifies the power of the kinetic force of Sundowner Cannon by further augmenting it with light matter and psionic-focusing of the operator.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Starbreaker Cannon</b><br/><b>Power:</b> -185",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_MASS_DRIVER_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_gauss"
+      ]
+    },
+    {
+      "id": "ACOT_AUTOCANNON_OE",
+      "label": "Light Pulse-Cannon",
+      "group": "Dependant",
+      "title": "<b>Light Pulse-Cannon</b> (ACOT_AUTOCANNON_OE)<br/><i>This short-ranged anti-shield automatic weapon utilizes special ammunication loaded with solidified light matter canisters that explodes on contact with extremely deadly precision and kinetic force.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Pulse-Cannon</b><br/><b>Power:</b> -170",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_AUTOCANNON_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_autocannon"
+      ]
+    },
+    {
+      "id": "ACOT_TITAN_CANNON_OE",
+      "label": "Tidebringer Warp Stellarcannon",
+      "group": "Dependant",
+      "title": "<b>Tidebringer Warp Stellarcannon</b> (ACOT_TITAN_CANNON_OE)<br/><i>Like bringing a tidal wave of destruction upon the enemy ship, except its a wave of PURE Light Matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Tidebringer Warp Stellarcannon</b><br/><b>Power:</b> -10000",
+      "level": 26,
+      "image": "images/ship_parts/ACOT_TITAN_CANNON_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_titan_accelerator"
+      ]
+    },
+    {
+      "id": "ACOT_ARC_EMITTER_OE",
+      "label": "Divine Storm Discharger",
+      "group": "Dependant",
+      "title": "<b>Divine Storm Discharger</b> (ACOT_ARC_EMITTER_OE)<br/><i>Divine Storm Discharger cleaves through enemy ships with high-frequency, solidified light matter.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Focused Divine Storm Discharger</b><br/><b>Power:</b> -6000<br/><br/><b>Divine Storm Discharger</b><br/><b>Power:</b> -2700",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_ARC_EMITTER_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_emitter"
+      ]
+    },
+    {
+      "id": "ACOT_PERDITION_BEAM_OE",
+      "label": "Light of Annihilation",
+      "group": "Dependant",
+      "title": "<b>Light of Annihilation</b> (ACOT_PERDITION_BEAM_OE)<br/><i>A weapon forged out of pure anger, Light of Annihilation infuses the operator's will to kill the enemy into the already destructive weapon into an even greater intensity. Rip and Tear.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light of Annihilation</b><br/><b>Power:</b> -6000",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_PERDITION_BEAM_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_titan_beam"
+      ]
+    },
+    {
+      "id": "ACOT_POINT_DEFENSE_OE",
+      "label": "Lancer Point Defense System",
+      "group": "Dependant",
+      "title": "<b>Lancer Point Defense System</b> (ACOT_POINT_DEFENSE_OE)<br/><i>The ability to manipulate Light Matter at will allows this PDS to fire an equivalent of micro-lance energy weapon. The effect is destructive to all targets, especially compared to other PDS by standards.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Lancer Point Defense System</b><br/><b>Power:</b> -80",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_POINT_DEFENSE_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_point_defence"
+      ]
+    },
+    {
+      "id": "ACOT_PARTICLE_LANCE_OE",
+      "label": "Searing Prismatic Lance",
+      "group": "Dependant",
+      "title": "<b>Searing Prismatic Lance</b> (ACOT_PARTICLE_LANCE_OE)<br/><i>This spinal amplifier weapon fires a continious stream of light energy through prismatic lens and light crystal to devastate enemy formations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Searing Prismatic Lance</b><br/><b>Power:</b> -2700",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_PARTICLE_LANCE_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_lance"
+      ]
+    },
+    {
+      "id": "ACOT_OMNI_PLASMA_OE",
+      "label": "Supercharged Light Energy Cannon",
+      "group": "Dependant",
+      "title": "<b>Supercharged Light Energy Cannon</b> (ACOT_OMNI_PLASMA_OE)<br/><i>Based on the same concept as previous design, the weapon is able to fire an even deadlier light energy sphere over a longer distance.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Supercharged Light Energy Cannon</b><br/><b>Power:</b> -2400",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_OMNI_PLASMA_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_plasma_cannon"
+      ]
+    },
+    {
+      "id": "ACOT_DISRUPTOR_OE",
+      "label": "Ray of Light",
+      "group": "Dependant",
+      "title": "<b>Ray of Light</b> (ACOT_DISRUPTOR_OE)<br/><i>This advanced disruptor weapon modifies Light Matter substance into a high-frequency wave that deconstructs matter on the molecular level, deleting the enemy ship from existence, bypassing all useless armors and shields they hide behind. Stupid metal boxes.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Ray of Light</b><br/><b>Power:</b> -270<br/><br/><b>Ray of Light</b><br/><b>Power:</b> -180",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_DISRUPTOR_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_disruptor"
+      ]
+    },
+    {
+      "id": "ACOT_PLASMA_OE",
+      "label": "Light Matter Plasma Cannon",
+      "group": "Dependant",
+      "title": "<b>Light Matter Plasma Cannon</b> (ACOT_PLASMA_OE)<br/><i>Light Matter can be modified as a very powerful corrosive-like state that can eat away other materials whole, creating an extremely deadly anti-ship weapons.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Light Matter Plasma Cannon</b><br/><b>Power:</b> -270",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_PLASMA_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_photon"
+      ]
+    },
+    {
+      "id": "ACOT_LASER_OE",
+      "label": "Omega Laser Cannon",
+      "group": "Dependant",
+      "title": "<b>Omega Laser Cannon</b> (ACOT_LASER_OE)<br/><i>Omega Laser utilizes Light Matter energy to cleave ship platings like butter. it is far superior to any other previously known laser weaponry.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Omega Laser Cannon</b><br/><b>Power:</b> -210",
+      "level": 25,
+      "image": "images/ship_parts/ACOT_LASER_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_laser"
+      ]
+    },
+    {
+      "id": "ACOT_SE_PLANET_KILLER_NANOBOTS",
+      "label": "Sigma Nanobot Diffuser",
+      "group": "Dependant",
+      "title": "<b>Sigma Nanobot Diffuser</b> (ACOT_SE_PLANET_KILLER_NANOBOTS)<br/><i>Swarms of nanobots are dispersed in the atmosphere. They infect sapient beings and restructure themselves into cybernetic implants, turning their unwitting hosts into cyborgs slaved to the Machine Intelligence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Sigma Nanobot Diffuser</b>",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_SE_PLANET_KILLER_NANOBOTS.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_se_nanobot_diffuser"
+      ]
+    },
+    {
+      "id": "ACOT_SE_PLANET_KILLER_GODRAY",
+      "label": "Sigma Divine Enforcer",
+      "group": "Dependant",
+      "title": "<b>Sigma Divine Enforcer</b> (ACOT_SE_PLANET_KILLER_GODRAY)<br/><i>A psionic projector shines divine truth upon the world to make true believers out of all who are capable of belief, and annihilating those who are not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Sigma Divine Enforcer</b>",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_SE_PLANET_KILLER_GODRAY.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_se_divine_enforcer"
+      ]
+    },
+    {
+      "id": "ACOT_SE_PLANET_KILLER_NEUTRON",
+      "label": "Sigma Neutron Sweep",
+      "group": "Dependant",
+      "title": "<b>Sigma Neutron Sweep</b> (ACOT_SE_PLANET_KILLER_NEUTRON)<br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Sigma Neutron Sweep</b>",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_SE_PLANET_KILLER_NEUTRON.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_se_neutron_sweep"
+      ]
+    },
+    {
+      "id": "ACOT_SE_PLANET_KILLER_SHIELDER",
+      "label": "Sigma Global Pacifier",
+      "group": "Dependant",
+      "title": "<b>Sigma Global Pacifier</b> (ACOT_SE_PLANET_KILLER_SHIELDER)<br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Sigma Global Pacifier</b>",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_SE_PLANET_KILLER_SHIELDER.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_se_global_pacifier"
+      ]
+    },
+    {
+      "id": "ACOT_SE_PLANET_KILLER_CRACKER",
+      "label": "Sigma World Cracker",
+      "group": "Dependant",
+      "title": "<b>Sigma World Cracker</b> (ACOT_SE_PLANET_KILLER_CRACKER)<br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Sigma World Cracker</b>",
+      "level": 29,
+      "image": "images/ship_parts/ACOT_SE_PLANET_KILLER_CRACKER.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_se_world_cracker"
+      ]
+    },
+    {
+      "id": "ACOT_PLANET_KILLER_NANOBOTS",
+      "label": "Alpha Nanobot Diffuser",
+      "group": "Dependant",
+      "title": "<b>Alpha Nanobot Diffuser</b> (ACOT_PLANET_KILLER_NANOBOTS)<br/><i>Swarms of nanobots are dispersed in the atmosphere. They infect sapient beings and restructure themselves into cybernetic implants, turning their unwitting hosts into cyborgs slaved to the Machine Intelligence.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Alpha Nanobot Diffuser</b>",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_NANOBOTS.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dm_nanobot_diffuser"
+      ]
+    },
+    {
+      "id": "ACOT_PLANET_KILLER_GODRAY",
+      "label": "Alpha Divine Enforcer",
+      "group": "Dependant",
+      "title": "<b>Alpha Divine Enforcer</b> (ACOT_PLANET_KILLER_GODRAY)<br/><i>A psionic projector shines divine truth upon the world to make true believers out of all who are capable of belief, and annihilating those who are not.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Alpha Divine Enforcer</b>",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_GODRAY.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dm_divine_enforcer"
+      ]
+    },
+    {
+      "id": "ACOT_PLANET_KILLER_NEUTRON",
+      "label": "Alpha Neutron Sweep",
+      "group": "Dependant",
+      "title": "<b>Alpha Neutron Sweep</b> (ACOT_PLANET_KILLER_NEUTRON)<br/><i>An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Alpha Neutron Sweep</b>",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_NEUTRON.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dm_neutron_sweep"
+      ]
+    },
+    {
+      "id": "ACOT_PLANET_KILLER_SHIELDER",
+      "label": "Alpha Global Pacifier",
+      "group": "Dependant",
+      "title": "<b>Alpha Global Pacifier</b> (ACOT_PLANET_KILLER_SHIELDER)<br/><i>A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Alpha Global Pacifier</b>",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_SHIELDER.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dm_global_pacifier"
+      ]
+    },
+    {
+      "id": "ACOT_PLANET_KILLER_CRACKER",
+      "label": "Alpha World Cracker",
+      "group": "Dependant",
+      "title": "<b>Alpha World Cracker</b> (ACOT_PLANET_KILLER_CRACKER)<br/><i>A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><br/><b>Alpha World Cracker</b>",
+      "level": 28,
+      "image": "images/ship_parts/ACOT_PLANET_KILLER_CRACKER.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_dm_world_cracker"
+      ]
+    },
+    {
       "id": "combat_computers_AE",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_AE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>A unique combat computer that forms a bionic link between organic and synthetic. It is impervious to all intrusion attempts and possesses unrivalled combat algorithms.</i><br/><br/><b>Military Ship Bionic Interface Carrier Computer (Stationary)</b><br/><b>Cost:</b> 20 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Power:</b> -40<br/><b>Ship Hull Points:</b> +10%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +25%<br/><b>Strike Craft Attack Speed:</b> +25%<br/><b>Strike Craft Speed:</b> +25%<br/><br/><b>Military Ship Bionic Interface Carrier Computer (Evasive)</b><br/><b>Cost:</b> 20 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Power:</b> -40<br/><b>Ship Hull Points:</b> +10%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +25%<br/><b>Strike Craft Attack Speed:</b> +25%<br/><b>Strike Craft Speed:</b> +25%",
+      "title": "<b>Combat Computers</b> (combat_computers_AE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>A unique combat computer that forms a bionic link between organic and synthetic. It is impervious to all intrusion attempts and possesses unrivalled combat algorithms.</i><br/><br/><b>Military Ship Bionic Interface Carrier Computer (Stationary)</b><br/><b>Cost:</b> 20 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Power:</b> -40<br/><b>Ship Hull Points:</b> +10%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +25%<br/><b>Strike Craft Attack Speed:</b> +25%<br/><b>Strike Craft Speed:</b> +25%<br/><br/><b>Military Ship Bionic Interface Carrier Computer (Evasive)</b><br/><b>Cost:</b> 20 Alloys, 3 Dark Matter, 3 Dark Energy<br/><b>Power:</b> -40<br/><b>Ship Hull Points:</b> +10%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +25%<br/><b>Strike Craft Attack Speed:</b> +25%<br/><b>Strike Craft Speed:</b> +25%<br/><br/><b>Herculean Battlestation Bionic Interface Herculean Computer\"</b><br/><b>Cost:</b> 10 Alloys, 1 Dark Matter, 1 Dark Energy<br/><b>Power:</b> -100<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Accuracy:</b> +15%<br/><b>Ship Weapons Damage:</b> 0.15<br/><br/><b>Herculean Battlestation Bionic Herculean Colossus Computer</b><br/><b>Cost:</b> 10 Alloys, 1 Dark Matter, 1 Dark Energy<br/><b>Power:</b> -100<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Accuracy:</b> +15%<br/><b>Ship Weapons Damage:</b> 0.15",
       "level": 28,
       "image": "images/ship_parts/combat_computers_AE.png",
       "hasImage": false,
@@ -2294,7 +2437,7 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "combat_computers_COMPUTER",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_COMPUTER)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>A unique combat computer that forms a bionic link between organic and synthetic. It is impervious to all intrusion attempts and possesses unrivalled combat algorithms.</i><br/><br/><b>Military Station Bionic Interface Combat Computer (Platform)\"</b><br/><b>Cost:</b> 10 Alloys, 1 Dark Matter, 1 Dark Energy<br/><b>Power:</b> -20<br/><b>Ship Fire Rate:</b> +20%<br/><b>Tracking:</b> +30<br/><b>Chance to Hit:</b> +15<br/><br/><b>Military Station Defensive Omni-Matrix Analyzer (Platform Station XBOX One)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Starbase Offensive Omni-Matrix Analyzer (Station)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Station Defensive Combat Analyzer (Platform Station XBOX One)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Starbase Offensive Combat Analyzer (Station)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Defensive Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%",
+      "title": "<b>Combat Computers</b> (combat_computers_COMPUTER)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>A unique combat computer that forms a bionic link between organic and synthetic. It is impervious to all intrusion attempts and possesses unrivalled combat algorithms.</i><br/><br/><b>Military Station Bionic Interface Combat Computer (Platform)\"</b><br/><b>Cost:</b> 10 Alloys, 1 Dark Matter, 1 Dark Energy<br/><b>Power:</b> -20<br/><b>Ship Fire Rate:</b> +20%<br/><b>Tracking:</b> +30<br/><b>Chance to Hit:</b> +15<br/><br/><b>Military Station Defensive Combat Analyzer (Platform Station XBOX One)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Starbase Offensive Combat Analyzer (Station)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Defensive Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Small Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Station Defensive Omni-Matrix Analyzer (Platform Station XBOX One)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Starbase Offensive Omni-Matrix Analyzer (Station)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Small Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%",
       "level": 28,
       "image": "images/ship_parts/combat_computers_COMPUTER.png",
       "hasImage": false,
@@ -2356,16 +2499,16 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
-      "id": "combat_computers_OE",
+      "id": "combat_computers_SE",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_OE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Omni-Matrix Combat Analyzer is the most advanced bio-synthetic combat computer adaptation ever developed. The system effectively increases the amount of operating crews by two-fold or more without actually taking up space of the ship.</i><br/><br/><b>Military Ship Omni-Matrix Carrier Combat Analyzer (Stationary)</b><br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +25%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +55%<br/><b>Strike Craft Attack Speed:</b> +55%<br/><b>Strike Craft Speed:</b> +55%<br/><br/><b>Military Ship Omni-Matrix Carrier Combat Analyzer (Evasive)</b><br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +25%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +55%<br/><b>Strike Craft Attack Speed:</b> +55%<br/><b>Strike Craft Speed:</b> +55%",
+      "title": "<b>Combat Computers</b> (combat_computers_SE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Stellar-Class Combat Analyzer is an extremely advanced combat computer that analyze the battlefield conditions in real-time and predicts the best course of actions and then automatically instruct the ship's entire systems to react accordingly with minimal manual input required.</i><br/><br/><b>Military Ship Stellar Carrier Combat Analyzer (Stationary)</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +15%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +40%<br/><b>Strike Craft Attack Speed:</b> +40%<br/><b>Strike Craft Speed:</b> +40%<br/><br/><b>Military Ship Stellar Carrier Combat Analyzer (Evasive)</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +15%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +40%<br/><b>Strike Craft Attack Speed:</b> +40%<br/><b>Strike Craft Speed:</b> +40%<br/><br/><b>Herculean Battlestation Herculean Stellar-Combat Analyzer</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -100<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Tracking:</b> +25<br/><b>Accuracy:</b> +25%<br/><b>Ship Weapons Damage:</b> 0.25<br/><br/><b>Herculean Battlestation Stellar Herculean Colossus Computer</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -100<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Accuracy:</b> +25%<br/><b>Ship Weapons Damage:</b> 0.25",
       "level": 26,
-      "image": "images/ship_parts/combat_computers_OE.png",
+      "image": "images/ship_parts/combat_computers_SE.png",
       "hasImage": false,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_computer_lightmatter",
+        "tech_computer_stellarite",
         "tech_fe_assault_carrier"
       ]
     },
@@ -2373,52 +2516,52 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "id": "combat_computers_GOLIATH",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_GOLIATH)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Omni-Matrix Combat Analyzer is the most advanced bio-synthetic combat computer adaptation ever developed. The system effectively increases the amount of operating crews by two-fold or more without actually taking up space of the ship.</i><br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Defensive Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%",
-      "level": 25,
+      "title": "<b>Combat Computers</b> (combat_computers_GOLIATH)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Stellar-Class Combat Analyzer is an extremely advanced combat computer that analyze the battlefield conditions in real-time and predicts the best course of actions and then automatically instruct the ship's entire systems to react accordingly with minimal manual input required.</i><br/><br/><b>Military Ship Defensive Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Goliath)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Goliath)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%",
+      "level": 26,
       "image": "images/ship_parts/combat_computers_GOLIATH.png",
       "hasImage": false,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_computer_lightmatter"
+        "tech_computer_stellarite"
       ]
     },
     {
       "id": "combat_computers_TITAN",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_TITAN)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Omni-Matrix Combat Analyzer is the most advanced bio-synthetic combat computer adaptation ever developed. The system effectively increases the amount of operating crews by two-fold or more without actually taking up space of the ship.</i><br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Defensive Combat Analyzer (Titanic Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship SE_BALANCE_COMBAT_COMPUTER_TITAN</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Titanic Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%",
-      "level": 25,
+      "title": "<b>Combat Computers</b> (combat_computers_TITAN)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Stellar-Class Combat Analyzer is an extremely advanced combat computer that analyze the battlefield conditions in real-time and predicts the best course of actions and then automatically instruct the ship's entire systems to react accordingly with minimal manual input required.</i><br/><br/><b>Military Ship Defensive Combat Analyzer (Titanic Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship SE_BALANCE_COMBAT_COMPUTER_TITAN</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Titanic Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Titanic Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%",
+      "level": 26,
       "image": "images/ship_parts/combat_computers_TITAN.png",
       "hasImage": false,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_computer_lightmatter"
+        "tech_computer_stellarite"
       ]
     },
     {
       "id": "combat_computers_BATTLECRUISER",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_BATTLECRUISER)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Omni-Matrix Combat Analyzer is the most advanced bio-synthetic combat computer adaptation ever developed. The system effectively increases the amount of operating crews by two-fold or more without actually taking up space of the ship.</i><br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Large Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Large Ships</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Large Ships)</b><br/><b>Power:</b> -210<br/><b>Shield Hit Points:</b> +25%<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><br/><b>Military Ship Defensive Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Shield Hit Points:</b> +15%<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%",
-      "level": 25,
+      "title": "<b>Combat Computers</b> (combat_computers_BATTLECRUISER)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Stellar-Class Combat Analyzer is an extremely advanced combat computer that analyze the battlefield conditions in real-time and predicts the best course of actions and then automatically instruct the ship's entire systems to react accordingly with minimal manual input required.</i><br/><br/><b>Military Ship Defensive Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Balanced Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Offensive Combat Analyzer (Large Ships)</b><br/><b>Cost:</b> 30 Alloys, 5 Stellarite Energy<br/><b>Power:</b> -40<br/><b>Ship Fire Rate:</b> +15%<br/><b>Ship Weapons Range:</b> +15%<br/><b>Tracking:</b> +15<br/><b>Ship Weapons Damage:</b> 0.15<br/><b>Accuracy:</b> +15%<br/><b>Evasion:</b> +15%<br/><br/><b>Military Ship Defensive Omni-Matrix Analyzer (Large Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Balanced Omni-Matrix Analyzer (Large Ships</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%<br/><br/><b>Military Ship Offensive Omni-Matrix Analyzer (Large Ships)</b><br/><b>Power:</b> -210<br/><b>Ship Fire Rate:</b> +25%<br/><b>Ship Weapons Range:</b> +25%<br/><b>Tracking:</b> +25<br/><b>Ship Weapons Damage:</b> 0.25<br/><b>Accuracy:</b> +25%<br/><b>Evasion:</b> +25%",
+      "level": 26,
       "image": "images/ship_parts/combat_computers_BATTLECRUISER.png",
       "hasImage": false,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_computer_lightmatter"
+        "tech_computer_stellarite"
       ]
     },
     {
-      "id": "combat_computers_SE",
+      "id": "combat_computers_OE",
       "label": "Combat Computers",
       "group": "Dependant",
-      "title": "<b>Combat Computers</b> (combat_computers_SE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Stellar-Class Combat Analyzer is an extremely advanced combat computer that analyze the battlefield conditions in real-time and predicts the best course of actions and then automatically instruct the ship's entire systems to react accordingly with minimal manual input required.</i><br/><br/><b>Military Ship Stellar Carrier Combat Analyzer (Stationary)</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +15%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +40%<br/><b>Strike Craft Attack Speed:</b> +40%<br/><b>Strike Craft Speed:</b> +40%<br/><br/><b>Military Ship Stellar Carrier Combat Analyzer (Evasive)</b><br/><b>Cost:</b> 40 Alloys, 10 Stellarite Energy<br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +15%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +40%<br/><b>Strike Craft Attack Speed:</b> +40%<br/><b>Strike Craft Speed:</b> +40%",
+      "title": "<b>Combat Computers</b> (combat_computers_OE)<br/><i>All military ships have on-board computers dedicated to combat, handling targeting-calculations, evasive maneuvers and damage-control.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>The Omni-Matrix Combat Analyzer is the most advanced bio-synthetic combat computer adaptation ever developed. The system effectively increases the amount of operating crews by two-fold or more without actually taking up space of the ship.</i><br/><br/><b>Military Ship Omni-Matrix Carrier Combat Analyzer (Stationary)</b><br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +25%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +55%<br/><b>Strike Craft Attack Speed:</b> +55%<br/><b>Strike Craft Speed:</b> +55%<br/><br/><b>Military Ship Omni-Matrix Carrier Combat Analyzer (Evasive)</b><br/><b>Power:</b> -80<br/><b>Ship Hull Points:</b> +25%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Strike Craft Damage:</b> +55%<br/><b>Strike Craft Attack Speed:</b> +55%<br/><b>Strike Craft Speed:</b> +55%<br/><br/><b>Herculean Battlestation Herculean Omni-Matrix Combat Analyzer</b><br/><b>Power:</b> -500<br/><b>Ship Fire Rate:</b> +35%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Tracking:</b> +35<br/><b>Accuracy:</b> +35%<br/><b>Ship Weapons Damage:</b> 0.35<br/><br/><b>Herculean Battlestation Omni-Matrix Herculean Colossus Computer</b><br/><b>Power:</b> -500<br/><b>Ship Fire Rate:</b> +35%<br/><b>Ship Weapons Range:</b> +20%<br/><b>Tracking:</b> +35<br/><b>Accuracy:</b> +35%<br/><b>Ship Weapons Damage:</b> 0.35",
       "level": 26,
-      "image": "images/ship_parts/combat_computers_SE.png",
+      "image": "images/ship_parts/combat_computers_OE.png",
       "hasImage": false,
       "nodeType": "shipComponent",
       "prerequisites": [
-        "tech_computer_stellarite",
+        "tech_computer_lightmatter",
         "tech_fe_assault_carrier"
       ]
     },
@@ -2436,29 +2579,29 @@ AncientCacheofTechnologiesGraphDataDependants = {
       ]
     },
     {
-      "id": "thruster_components_OE",
-      "label": "Thrusters",
-      "group": "Dependant",
-      "title": "<b>Thrusters</b> (thruster_components_OE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Ancient yet extremely powerful ship thrusters far exceed that of other designs made by lesser empires.</i><br/><br/><b>Colossus & Goliath & progenitor_avatar & Flagship & ultradreadnought & sofe_aegis_guard Light Matter Thrusters</b><br/><b>Power:</b> -2500<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +16<br/><br/><b>Titan & SCX_Dreadnought & dcv & Fallen Titan & Precursor Hyperion & Dreadnought & Precursor Assault Carrier & progenitor_carrier & Gatekeeper Warden & progenitor_titan Light Matter Thrusters</b><br/><b>Power:</b> -2490<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +19<br/><br/><b>Battlecruiser & Precursor Battlecruiser & SCX_Carrier & Battleship & Carrier & Battlecruiser & progenitor_battlecruiser & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Light Matter Thrusters</b><br/><b>Power:</b> -1200<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Light Matter Thrusters</b><br/><b>Power:</b> -690<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +27<br/><br/><b>Destroyer & progenitor_escort & Precursor Escort Light Matter Thrusters</b><br/><b>Power:</b> -390<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +31<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship & Escort Light Matter Thrusters</b><br/><b>Power:</b> -270<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +35",
-      "level": 25,
-      "image": "images/ship_parts/thruster_components_OE.png",
-      "hasImage": true,
-      "nodeType": "shipComponent",
-      "prerequisites": [
-        "tech_lightmatter_thruster"
-      ]
-    },
-    {
       "id": "thruster_components_SE",
       "label": "Thrusters",
       "group": "Dependant",
-      "title": "<b>Thrusters</b> (thruster_components_SE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Powerful ship thrusters utilizing stellarite power to move at great speed.</i><br/><br/><b>Colossus & Goliath & Flagship & ultradreadnought Stellarite Thrusters</b><br/><b>Cost:</b> 150 Alloys, 450 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +12<br/><br/><b>Titan & dcv & Fallen Titan & Precursor Hyperion & Dreadnought & Gatekeeper Warden & Precursor Assault Carrier & progenitor_carrier & SCX_Dreadnought Stellarite Thrusters</b><br/><b>Cost:</b> 120 Alloys, 360 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -690<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Battlecruiser & Precursor Battlecruiser & Battleship & SCX_Carrier & Carrier & Battlecruiser & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Stellarite Thrusters</b><br/><b>Cost:</b> 60 Alloys, 180 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -360<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +18<br/><br/><b>Cruiser & Precursor Escort & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Stellarite Thrusters</b><br/><b>Cost:</b> 30 Alloys, 90 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -190<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Destroyer Stellarite Thrusters</b><br/><b>Cost:</b> 15 Alloys, 45 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -100<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +26<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship & Escort Stellarite Thrusters</b><br/><b>Cost:</b> 10 Alloys, 30 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -50<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +30",
+      "title": "<b>Thrusters</b> (thruster_components_SE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Powerful ship thrusters utilizing stellarite power to move at great speed.</i><br/><br/><b>Colossus & Herculean Battlestation & Goliath & Flagship & ultradreadnought Stellarite Thrusters</b><br/><b>Cost:</b> 150 Alloys, 450 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -800<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +12<br/><br/><b>Titan & dcv & Fallen Titan & Precursor Hyperion & Dreadnought & Gatekeeper Warden & Precursor Assault Carrier & Progenitor Carrier & SCX_Dreadnought Stellarite Thrusters</b><br/><b>Cost:</b> 120 Alloys, 360 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -690<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +14<br/><br/><b>Battlecruiser & Precursor Battlecruiser & Battleship & SCX_Carrier & Carrier & Battlecruiser & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Stellarite Thrusters</b><br/><b>Cost:</b> 60 Alloys, 180 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -360<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +18<br/><br/><b>Cruiser & Precursor Escort & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Stellarite Thrusters</b><br/><b>Cost:</b> 30 Alloys, 90 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -190<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Destroyer Stellarite Thrusters</b><br/><b>Cost:</b> 15 Alloys, 45 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -100<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +26<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship & Escort Stellarite Thrusters</b><br/><b>Cost:</b> 10 Alloys, 30 Energy Credits, 3.5 Stellarite Energy<br/><b>Power:</b> -50<br/><b>Base Ship Speed:</b> +175%<br/><b>Chance to Evade:</b> +30",
       "level": 26,
       "image": "images/ship_parts/thruster_components_SE.png",
       "hasImage": true,
       "nodeType": "shipComponent",
       "prerequisites": [
         "tech_stellarite_thruster"
+      ]
+    },
+    {
+      "id": "thruster_components_OE",
+      "label": "Thrusters",
+      "group": "Dependant",
+      "title": "<b>Thrusters</b> (thruster_components_OE)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Ancient yet extremely powerful ship thrusters far exceed that of other designs made by lesser empires.</i><br/><br/><b>Colossus & Herculean Battlestation & Goliath & Progenitor Avatar & Flagship & ultradreadnought & Aegis of Light Light Matter Thrusters</b><br/><b>Power:</b> -2500<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +16<br/><br/><b>Titan & SCX_Dreadnought & dcv & Fallen Titan & Precursor Hyperion & Dreadnought & Precursor Assault Carrier & Progenitor Carrier & Gatekeeper Warden & Progenitor Abrogator Light Matter Thrusters</b><br/><b>Power:</b> -2490<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +19<br/><br/><b>Battlecruiser & Precursor Battlecruiser & SCX_Carrier & Battleship & Carrier & Battlecruiser & Progenitor Stellarcraft & rs_dreadnought & rs_heavy_dreadnought_type_a & rs_heavy_dreadnought_type_b & rs_heavy_dreadnought_type_c & rs_heavy_dreadnought_type_d & rs_heavy_dreadnought_type_e & rs_heavy_dreadnought_type_f & rs_heavy_dreadnought_type_g & rs_heavy_dreadnought_type_h Light Matter Thrusters</b><br/><b>Power:</b> -1200<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +22<br/><br/><b>Cruiser & StrikeCruiser & supportship & rs_support_cruiser & rs_ea_cruiser & rs_battlecruiser Light Matter Thrusters</b><br/><b>Power:</b> -690<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +27<br/><br/><b>Destroyer & Progenitor Sentinel & Precursor Escort Light Matter Thrusters</b><br/><b>Power:</b> -390<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +31<br/><br/><b>Corvette & Colony Ship & Construction Ship & Science Ship & Transport Ship & Escort Light Matter Thrusters</b><br/><b>Power:</b> -270<br/><b>Base Ship Speed:</b> +250%<br/><b>Chance to Evade:</b> +35",
+      "level": 25,
+      "image": "images/ship_parts/thruster_components_OE.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_lightmatter_thruster"
       ]
     },
     {
@@ -2997,6 +3140,51 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
+      "from": "tech_planet_killer_naniter",
+      "to": "ACOT_PLANET_KILLER_NANITE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector_ae",
+      "to": "ACOT_ENIGMATIC_SHIELD_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "ACOT_ARMOR_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "ACOT_ARMOR_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_darkmatter_hyper_jump_drive",
+      "to": "ship_aura_components",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_darkmatter_aura_energy_drainer",
       "to": "ship_aura_components",
       "arrows": "to",
@@ -3213,6 +3401,168 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
+      "from": "tech_point_defense_ae",
+      "to": "ACOT_POINT_DEFENSE_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_point_defense_dm",
+      "to": "ACOT_POINT_DEFENSE_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedo_ae",
+      "to": "ACOT_ENERGY_TORPEDO_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedo_dm",
+      "to": "ACOT_ENERGY_TORPEDO_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_disruptor_ae",
+      "to": "ACOT_DISRUPTOR_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_disruptor_dm",
+      "to": "ACOT_DISRUPTOR_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_ae",
+      "to": "ACOT_PLASMA_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_dm",
+      "to": "ACOT_PLASMA_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_laser_ae",
+      "to": "ACOT_LASER_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_laser_dm",
+      "to": "ACOT_LASER_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_ae",
+      "to": "ACOT_FLAK_CANNON_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_flak_batteries_dm",
+      "to": "ACOT_FLAK_CANNON_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_kinetic_artillery_ae",
+      "to": "ACOT_ARTILLERY_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_kinetic_artillery_dm",
+      "to": "ACOT_ARTILLERY_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_ae",
+      "to": "ACOT_AUTOCANNON_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocannons_dm",
+      "to": "ACOT_AUTOCANNON_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_driver_ae",
+      "to": "ACOT_MASS_DRIVER_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_driver_dm",
+      "to": "ACOT_MASS_DRIVER_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_swarmer_missile_ae",
       "to": "ACOT_SWARMER_MISSILES_AE",
       "arrows": "to",
@@ -3260,6 +3610,42 @@ AncientCacheofTechnologiesGraphDataDependants = {
     {
       "from": "tech_missile_dm",
       "to": "ACOT_MISSILE_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_ae",
+      "to": "ACOT_BOMBERS_HANGAR_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "ACOT_BOMBERS_HANGAR_DM",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_ae",
+      "to": "ACOT_FIGHTERS_HANGAR_AE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "ACOT_FIGHTERS_HANGAR_DM",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3393,8 +3779,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_strike_craft_bomber_ae",
-      "to": "ACOT_BOMBERS_HANGAR_AE",
+      "from": "tech_shroud_storm",
+      "to": "ACOT_PSI_STORM",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3402,8 +3788,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "ACOT_BOMBERS_HANGAR_DM",
+      "from": "tech_shroud_hanger",
+      "to": "ACOT_CLOUDBALL_SHROUD",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3411,8 +3797,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_strike_craft_bomber_ae",
-      "to": "ACOT_FIGHTERS_HANGAR_AE",
+      "from": "tech_shroud_missile",
+      "to": "ACOT_MISSILE_SHROUD",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3420,8 +3806,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "ACOT_FIGHTERS_HANGAR_DM",
+      "from": "tech_stellarite_hyper_jump_drive",
+      "to": "ship_aura_components",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3429,8 +3815,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_point_defense_ae",
-      "to": "ACOT_POINT_DEFENSE_AE",
+      "from": "tech_stellarite_inspire_aura",
+      "to": "ship_aura_components",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3438,8 +3824,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_point_defense_dm",
-      "to": "ACOT_POINT_DEFENSE_DM",
+      "from": "tech_stellarite_aura_energy_drainer",
+      "to": "ship_aura_components",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3447,8 +3833,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_energy_torpedo_ae",
-      "to": "ACOT_ENERGY_TORPEDO_AE",
+      "from": "tech_stellarite_weapon_core",
+      "to": "ACOT_WEAPONS_CORE_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3456,8 +3842,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_energy_torpedo_dm",
-      "to": "ACOT_ENERGY_TORPEDO_DM",
+      "from": "tech_stellarite_star_charter",
+      "to": "ACOT_STARCHARTER_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3465,8 +3851,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_disruptor_ae",
-      "to": "ACOT_DISRUPTOR_AE",
+      "from": "tech_stellarite_shield_supercharger",
+      "to": "ACOT_SHIELD_BOOSTER_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3474,8 +3860,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_disruptor_dm",
-      "to": "ACOT_DISRUPTOR_DM",
+      "from": "tech_stellarite_reactor_booster",
+      "to": "ACOT_REACTOR_BOOSTER_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3483,8 +3869,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_plasma_ae",
-      "to": "ACOT_PLASMA_AE",
+      "from": "tech_stellarite_reactive_drone",
+      "to": "ACOT_REPAIR_COUNTERMEASURES_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3492,8 +3878,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_plasma_dm",
-      "to": "ACOT_PLASMA_DM",
+      "from": "tech_stellarite_hyper_jump_drive",
+      "to": "ACOT_HYPERCHARGED_JUMPER_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3501,8 +3887,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_laser_ae",
-      "to": "ACOT_LASER_AE",
+      "from": "tech_stellarite_afterburners",
+      "to": "ACOT_AFTERBURNERS_SE",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3510,8 +3896,278 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_laser_dm",
-      "to": "ACOT_LASER_DM",
+      "from": "tech_computer_stellarite",
+      "to": "combat_computers_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "combat_computers_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_computer_stellarite",
+      "to": "combat_computers_COMPUTER",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_computer_stellarite",
+      "to": "combat_computers_GOLIATH",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_computer_stellarite",
+      "to": "combat_computers_TITAN",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_computer_stellarite",
+      "to": "combat_computers_BATTLECRUISER",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "Ancient Cache of TechnologiesDARK_MATTER_REACTOR",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_sensors",
+      "to": "SE_SENSOR_SHIP",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "thruster_components_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_jump_drive",
+      "to": "STELLARITE_DRIVE_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_shield",
+      "to": "ACOT_ENIGMATIC_SHIELD_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_armor",
+      "to": "ACOT_ARMOR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_gunship",
+      "to": "ACOT_GUNSHIP_HANGAR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_bomber",
+      "to": "ACOT_BOMBERS_HANGAR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_fighter",
+      "to": "ACOT_FIGHTERS_HANGAR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_missile",
+      "to": "ACOT_MISSILE_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_warp_stellarite_cannon",
+      "to": "ACOT_MASS_ACCELERATOR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_flak",
+      "to": "ACOT_FLAK_CANNON_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_artillery",
+      "to": "ACOT_ARTILLERY_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_gauss",
+      "to": "ACOT_MASS_DRIVER_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_autocannon",
+      "to": "ACOT_AUTOCANNON_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_titan_accelerator",
+      "to": "ACOT_TITAN_CANNON_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_emitter",
+      "to": "ACOT_ARC_EMITTER_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_titan_beam",
+      "to": "ACOT_PERDITION_BEAM_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_point_defence",
+      "to": "ACOT_POINT_DEFENSE_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_beam",
+      "to": "ACOT_PARTICLE_LANCE_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_plasma_cannon",
+      "to": "ACOT_OMNI_PLASMA_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_disruptor",
+      "to": "ACOT_DISRUPTOR_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_photon",
+      "to": "ACOT_PLASMA_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_laser",
+      "to": "ACOT_LASER_SE",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_hyper_jump_drive",
+      "to": "ship_aura_components",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3870,8 +4526,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_flak_batteries_ae",
-      "to": "ACOT_FLAK_CANNON_AE",
+      "from": "tech_se_nanobot_diffuser",
+      "to": "ACOT_SE_PLANET_KILLER_NANOBOTS",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3879,8 +4535,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_flak_batteries_dm",
-      "to": "ACOT_FLAK_CANNON_DM",
+      "from": "tech_se_divine_enforcer",
+      "to": "ACOT_SE_PLANET_KILLER_GODRAY",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3888,8 +4544,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_kinetic_artillery_ae",
-      "to": "ACOT_ARTILLERY_AE",
+      "from": "tech_se_neutron_sweep",
+      "to": "ACOT_SE_PLANET_KILLER_NEUTRON",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3897,8 +4553,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_kinetic_artillery_dm",
-      "to": "ACOT_ARTILLERY_DM",
+      "from": "tech_se_global_pacifier",
+      "to": "ACOT_SE_PLANET_KILLER_SHIELDER",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3906,8 +4562,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_autocannons_ae",
-      "to": "ACOT_AUTOCANNON_AE",
+      "from": "tech_se_world_cracker",
+      "to": "ACOT_SE_PLANET_KILLER_CRACKER",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3915,8 +4571,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_autocannons_dm",
-      "to": "ACOT_AUTOCANNON_DM",
+      "from": "tech_dm_nanobot_diffuser",
+      "to": "ACOT_PLANET_KILLER_NANOBOTS",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3924,8 +4580,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_mass_driver_ae",
-      "to": "ACOT_MASS_DRIVER_AE",
+      "from": "tech_dm_divine_enforcer",
+      "to": "ACOT_PLANET_KILLER_GODRAY",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3933,8 +4589,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_mass_driver_dm",
-      "to": "ACOT_MASS_DRIVER_DM",
+      "from": "tech_dm_neutron_sweep",
+      "to": "ACOT_PLANET_KILLER_NEUTRON",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3942,8 +4598,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_deflector_ae",
-      "to": "ACOT_ENIGMATIC_SHIELD_AE",
+      "from": "tech_dm_global_pacifier",
+      "to": "ACOT_PLANET_KILLER_SHIELDER",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3951,395 +4607,8 @@ AncientCacheofTechnologiesGraphDataDependants = {
       "dashes": true
     },
     {
-      "from": "tech_armor_ae",
-      "to": "ACOT_ARMOR_AE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_dm",
-      "to": "ACOT_ARMOR_DM",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shroud_storm",
-      "to": "ACOT_PSI_STORM",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shroud_hanger",
-      "to": "ACOT_CLOUDBALL_SHROUD",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shroud_missile",
-      "to": "ACOT_MISSILE_SHROUD",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_inspire_aura",
-      "to": "ship_aura_components",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_aura_energy_drainer",
-      "to": "ship_aura_components",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_weapon_core",
-      "to": "ACOT_WEAPONS_CORE_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_star_charter",
-      "to": "ACOT_STARCHARTER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_shield_supercharger",
-      "to": "ACOT_SHIELD_BOOSTER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor_booster",
-      "to": "ACOT_REACTOR_BOOSTER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactive_drone",
-      "to": "ACOT_REPAIR_COUNTERMEASURES_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_hyper_jump_drive",
-      "to": "ACOT_HYPERCHARGED_JUMPER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_afterburners",
-      "to": "ACOT_AFTERBURNERS_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_computer_stellarite",
-      "to": "combat_computers_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier",
-      "to": "combat_computers_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_computer_stellarite",
-      "to": "combat_computers_COMPUTER",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_computer_stellarite",
-      "to": "combat_computers_GOLIATH",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_computer_stellarite",
-      "to": "combat_computers_TITAN",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_computer_stellarite",
-      "to": "combat_computers_BATTLECRUISER",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "Ancient Cache of TechnologiesDARK_MATTER_REACTOR",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_sensors",
-      "to": "SE_SENSOR_SHIP",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "thruster_components_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_jump_drive",
-      "to": "STELLARITE_DRIVE_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_shield",
-      "to": "ACOT_ENIGMATIC_SHIELD_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_armor",
-      "to": "ACOT_ARMOR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_gunship",
-      "to": "ACOT_GUNSHIP_HANGAR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_bomber",
-      "to": "ACOT_BOMBERS_HANGAR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_fighter",
-      "to": "ACOT_FIGHTERS_HANGAR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_missile",
-      "to": "ACOT_MISSILE_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_warp_stellarite_cannon",
-      "to": "ACOT_MASS_ACCELERATOR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_flak",
-      "to": "ACOT_FLAK_CANNON_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_artillery",
-      "to": "ACOT_ARTILLERY_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_gauss",
-      "to": "ACOT_MASS_DRIVER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_autocannon",
-      "to": "ACOT_AUTOCANNON_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_titan_accelerator",
-      "to": "ACOT_TITAN_CANNON_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_emitter",
-      "to": "ACOT_ARC_EMITTER_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_titan_beam",
-      "to": "ACOT_PERDITION_BEAM_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_point_defence",
-      "to": "ACOT_POINT_DEFENSE_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_beam",
-      "to": "ACOT_PARTICLE_LANCE_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_plasma_cannon",
-      "to": "ACOT_OMNI_PLASMA_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_disruptor",
-      "to": "ACOT_DISRUPTOR_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_photon",
-      "to": "ACOT_PLASMA_SE",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_laser",
-      "to": "ACOT_LASER_SE",
+      "from": "tech_dm_world_cracker",
+      "to": "ACOT_PLANET_KILLER_CRACKER",
       "arrows": "to",
       "color": {
         "color": "grey"

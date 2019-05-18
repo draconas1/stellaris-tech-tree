@@ -4,7 +4,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_compact_omni_emitter",
       "label": "Compact Omni Emitters",
       "group": "ModPhysics",
-      "title": "<b>Compact Omni Emitters</b> (tech_compact_omni_emitter)<br/><i>Based on our small-scaling experience with Tachyon Lance, theoretically a smaller Omni Arc Emitter is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Compact Omni Emitters</b> (tech_compact_omni_emitter)<br/><i>Based on our small-scaling experience with Tachyon Lance, theoretically a smaller Omni Arc Emitter is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -25,7 +25,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_compact_omni_lance",
       "label": "Compact Omni Lance",
       "group": "ModPhysics",
-      "title": "<b>Compact Omni Lance</b> (tech_compact_omni_lance)<br/><i>Based on our small-scaling experience with Tachyon Lance, theoretically a smaller Omni Lance is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Compact Omni Lance</b> (tech_compact_omni_lance)<br/><i>Based on our small-scaling experience with Tachyon Lance, theoretically a smaller Omni Lance is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -46,7 +46,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_dark_energy_shield",
       "label": "Dark Energy Shield",
       "group": "ModPhysics",
-      "title": "<b>Dark Energy Shield</b> (tech_dark_energy_shield)<br/><i>These shields utilize dark energy to repel incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Energy Shield</b> (tech_dark_energy_shield)<br/><i>These shields utilize dark energy to repel incoming projectiles in a way that seems to utterly defy the laws of nature.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -64,7 +64,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_dimensional_weapon",
       "label": "Dimensional Beam",
       "group": "ModPhysics",
-      "title": "<b>Dimensional Beam</b> (tech_dimensional_weapon)<br/><i>The Dimensional Beam is a type of 5th dimensional weaponry designed to cause significant damage to enemy vessels from every dimension.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dimensional Beam</b> (tech_dimensional_weapon)<br/><i>The Dimensional Beam is a type of 5th dimensional weaponry designed to cause significant damage to enemy vessels from every dimension.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -82,7 +82,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_dragon_breath",
       "label": "Dragon Breath",
       "group": "ModPhysics",
-      "title": "<b>Dragon Breath</b> (tech_dragon_breath)<br/><i>Harnessing the science behind the dragon fire, this weapon simulates its effects to 100% likeness plus sound effects.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dragon Breath</b> (tech_dragon_breath)<br/><i>Harnessing the science behind the dragon fire, this weapon simulates its effects to 100% likeness plus sound effects.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -100,7 +100,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_elder_tiyanki_weapon",
       "label": "Elder Tiyanki Weapon",
       "group": "ModPhysics",
-      "title": "<b>Elder Tiyanki Weapon</b> (tech_elder_tiyanki_weapon)<br/><i>Given our knowledge of titanic weapons and our knowledge of the Elder Tiyanki Space Whale, our top engineers can attempt to create a gigantic Tiyanki weapon of our own.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Elder Tiyanki Weapon</b> (tech_elder_tiyanki_weapon)<br/><i>Given our knowledge of titanic weapons and our knowledge of the Elder Tiyanki Space Whale, our top engineers can attempt to create a gigantic Tiyanki weapon of our own.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -161,7 +161,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_dark_matter_power_plant",
       "label": "Dark Matter Power Plant",
       "group": "ModPhysics",
-      "title": "<b>Dark Matter Power Plant</b> (tech_fe_dark_matter_power_plant)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
+      "title": "<b>Dark Matter Power Plant</b> (tech_fe_dark_matter_power_plant)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -202,7 +202,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_gray_goo_beam",
       "label": "Gray Goo Beam",
       "group": "ModPhysics",
-      "title": "<b>Gray Goo Beam</b> (tech_gray_goo_beam)<br/><i>The research paper says Gray Goo is Good. What is this mysterious weapon?</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Gray Goo Beam</b> (tech_gray_goo_beam)<br/><i>The research paper says Gray Goo is Good. What is this mysterious weapon?</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -220,7 +220,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_ion_disruptor",
       "label": "Ion Disruptor",
       "group": "ModPhysics",
-      "title": "<b>Ion Disruptor</b> (tech_ion_disruptor)<br/><i>An experimental disruptor that fires ion beams to devastate enemy vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Ion Disruptor</b> (tech_ion_disruptor)<br/><i>An experimental disruptor that fires ion beams to devastate enemy vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -238,7 +238,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_matter_generator",
       "label": "Matter Generator",
       "group": "ModPhysics",
-      "title": "<b>Matter Generator</b> (tech_matter_generator)<br/><i>By using vast amounts of energy we are able to convert light into matter from seemingly nothing.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Matter Generator</b> (tech_matter_generator)<br/><i>By using vast amounts of energy we are able to convert light into matter from seemingly nothing.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -258,7 +258,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_omni_emitter",
       "label": "Omni Arc Emitters",
       "group": "ModPhysics",
-      "title": "<b>Omni Arc Emitters</b> (tech_omni_emitter)<br/><i>Omni Arc Emitters are powerful symbols of an empire's might, capable of smiting enemy fleets from afar.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omni Arc Emitters</b> (tech_omni_emitter)<br/><i>Omni Arc Emitters are powerful symbols of an empire's might, capable of smiting enemy fleets from afar.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -276,7 +276,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_omni_lance",
       "label": "Omni Lance",
       "group": "ModPhysics",
-      "title": "<b>Omni Lance</b> (tech_omni_lance)<br/><i>Only the most civilized in the galaxy use Omni Lances as their weapon of choice.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omni Lance</b> (tech_omni_lance)<br/><i>Only the most civilized in the galaxy use Omni Lances as their weapon of choice.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -294,7 +294,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_portal_generator",
       "label": "Portal Generator",
       "group": "ModPhysics",
-      "title": "<b>Portal Generator</b> (tech_portal_generator)<br/><i>The Portal Generator rips open the fabric of space-time, creating a temporary portal for an unknown, extra-dimensional being to target enemy positions.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, Dangerous, NonTechDependency",
+      "title": "<b>Portal Generator</b> (tech_portal_generator)<br/><i>The Portal Generator rips open the fabric of space-time, creating a temporary portal for an unknown, extra-dimensional being to target enemy positions.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, Dangerous, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -312,7 +312,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_psi_deflector",
       "label": "Psionic Deflector",
       "group": "ModPhysics",
-      "title": "<b>Psionic Deflector</b> (tech_psi_deflector)<br/><i>A Psionic Deflector draws power from the minds its own crew.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Psionic Deflector</b> (tech_psi_deflector)<br/><i>A Psionic Deflector draws power from the minds its own crew.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -330,7 +330,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_resized_arc_emitter_2",
       "label": "Large Arc Emitters",
       "group": "ModPhysics",
-      "title": "<b>Large Arc Emitters</b> (tech_resized_arc_emitter_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Arc Emitter.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
+      "title": "<b>Large Arc Emitters</b> (tech_resized_arc_emitter_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Arc Emitter.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
       "level": 25,
       "image": "images/technologies/tech_resized_arc_emitter_2.png",
       "hasImage": true,
@@ -347,7 +347,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_resized_energy_lance_2",
       "label": "Large Tachyon Lance",
       "group": "ModPhysics",
-      "title": "<b>Large Tachyon Lance</b> (tech_resized_energy_lance_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Tachyon Lance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
+      "title": "<b>Large Tachyon Lance</b> (tech_resized_energy_lance_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Tachyon Lance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
       "level": 25,
       "image": "images/technologies/tech_resized_energy_lance_2.png",
       "hasImage": true,
@@ -364,7 +364,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_stellarite_weapon",
       "label": "Stellarite Beam",
       "group": "ModPhysics",
-      "title": "<b>Stellarite Beam</b> (tech_stellarite_weapon)<br/><i>Harnessing the science behind the Stellarite's most feared weapon, a destructive form of pure solar energy is unleasehed upon the enemy.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Stellarite Beam</b> (tech_stellarite_weapon)<br/><i>Harnessing the science behind the Stellarite's most feared weapon, a destructive form of pure solar energy is unleasehed upon the enemy.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -382,7 +382,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_synthetic_dark_matter",
       "label": "Dark Matter Lab",
       "group": "ModPhysics",
-      "title": "<b>Dark Matter Lab</b> (tech_synthetic_dark_matter)<br/><i>By smashing ultra-heated matter at lightspeed, we are able to create Dark Matter at this laboratory.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Dark Matter Lab</b> (tech_synthetic_dark_matter)<br/><i>By smashing ultra-heated matter at lightspeed, we are able to create Dark Matter at this laboratory.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -403,7 +403,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_synthetic_living_metal",
       "label": "Living Metal Factory",
       "group": "ModPhysics",
-      "title": "<b>Living Metal Factory</b> (tech_synthetic_living_metal)<br/><i>Properties of Living Metal can be synthetically produced at our current technology level.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Living Metal Factory</b> (tech_synthetic_living_metal)<br/><i>Properties of Living Metal can be synthetically produced at our current technology level.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -424,7 +424,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_synthetic_zro",
       "label": "Synthetic Zro Facility",
       "group": "ModPhysics",
-      "title": "<b>Synthetic Zro Facility</b> (tech_synthetic_zro)<br/><i>It is possible to synthetically produce Zro at our current technology level.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Synthetic Zro Facility</b> (tech_synthetic_zro)<br/><i>It is possible to synthetically produce Zro at our current technology level.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -445,7 +445,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_ascended_society_1",
       "label": "Societal Buildings",
       "group": "ModSociety",
-      "title": "<b>Societal Buildings</b> (tech_ascended_society_1)<br/><i>Societal buildings cater for the needs of our citizens while promoting certain ideologies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
+      "title": "<b>Societal Buildings</b> (tech_ascended_society_1)<br/><i>Societal buildings cater for the needs of our citizens while promoting certain ideologies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -465,7 +465,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_ascended_society_2",
       "label": "Societal Ascendance",
       "group": "ModSociety",
-      "title": "<b>Societal Ascendance</b> (tech_ascended_society_2)<br/><i>Advanced soceital buildings sway the beliefs of the masses, pushing them to the edge of fanaticism.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Societal Ascendance</b> (tech_ascended_society_2)<br/><i>Advanced soceital buildings sway the beliefs of the masses, pushing them to the edge of fanaticism.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -486,7 +486,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_ascended_society_3",
       "label": "Ascended Society",
       "group": "ModSociety",
-      "title": "<b>Ascended Society</b> (tech_ascended_society_3)<br/><i>We can now build highly advanced buildings fitting of our stature as an Ascended Society.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>17000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Ascended Society</b> (tech_ascended_society_3)<br/><i>We can now build highly advanced buildings fitting of our stature as an Ascended Society.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>17000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -506,7 +506,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_central_square",
       "label": "Central Square",
       "group": "ModSociety",
-      "title": "<b>Central Square</b> (tech_central_square)<br/><i>The Central Square and its surrounding buildings help shape a planet's cultural identity. Here, citizens and visitors alike can meet for local festivities and celebrations.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
+      "title": "<b>Central Square</b> (tech_central_square)<br/><i>The Central Square and its surrounding buildings help shape a planet's cultural identity. Here, citizens and visitors alike can meet for local festivities and celebrations.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Ascended Society<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -546,7 +546,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_agri_processing_complex",
       "label": "Agri-Processing Complex",
       "group": "ModSociety",
-      "title": "<b>Agri-Processing Complex</b> (tech_fe_agri_processing_complex)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
+      "title": "<b>Agri-Processing Complex</b> (tech_fe_agri_processing_complex)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -669,7 +669,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_paradise_creation",
       "label": "Utopian Worlds",
       "group": "ModSociety",
-      "title": "<b>Utopian Worlds</b> (tech_paradise_creation)<br/><i>Combining our mastery in terraforming, landscaping and engineering, we can create a true wonder in the universe and a Utopian world for our citizens to live.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
+      "title": "<b>Utopian Worlds</b> (tech_paradise_creation)<br/><i>Combining our mastery in terraforming, landscaping and engineering, we can create a true wonder in the universe and a Utopian world for our citizens to live.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare<br/>Not for gestalt consciousness",
       "color": {
         "border": "#8900CE"
       },
@@ -690,7 +690,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_compact_omni_cannon",
       "label": "Compact Omni Cannon",
       "group": "ModEngineering",
-      "title": "<b>Compact Omni Cannon</b> (tech_compact_omni_cannon)<br/><i>Based on our small-scaling experience with Giga Cannon, theoretically a smaller Omni Cannon is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Compact Omni Cannon</b> (tech_compact_omni_cannon)<br/><i>Based on our small-scaling experience with Giga Cannon, theoretically a smaller Omni Cannon is also possible.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -711,7 +711,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_dark_matter_plating",
       "label": "Dark Matter Plating",
       "group": "ModEngineering",
-      "title": "<b>Dark Matter Plating</b> (tech_dark_matter_plating)<br/><i>This plating utilizes the invisible dark matter to boost ship integrity.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dark Matter Plating</b> (tech_dark_matter_plating)<br/><i>This plating utilizes the invisible dark matter to boost ship integrity.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -770,7 +770,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_ancient_factory",
       "label": "Autonomous Fabricators",
       "group": "ModEngineering",
-      "title": "<b>Autonomous Fabricators</b> (tech_fe_ancient_factory)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
+      "title": "<b>Autonomous Fabricators</b> (tech_fe_ancient_factory)<br/><i>Powered by dark matter and fully autonomous, this marvel of engineering is the pinnacle of technology and industry, and can only be built on Utopian Worlds.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Utopian Paradise<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
@@ -952,7 +952,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_hellfire_autocannons",
       "label": "Hellfire Autocannons",
       "group": "ModEngineering",
-      "title": "<b>Hellfire Autocannons</b> (tech_hellfire_autocannons)<br/><i>This autocannon rains hellfire upon our enemies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Hellfire Autocannons</b> (tech_hellfire_autocannons)<br/><i>This autocannon rains hellfire upon our enemies.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -970,7 +970,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_improved_dragon_armor",
       "label": "Improved Dragon Armor",
       "group": "ModEngineering",
-      "title": "<b>Improved Dragon Armor</b> (tech_improved_dragon_armor)<br/><i>This armor seems to improve upon the unique mineral nanostructures found on the Ether Drake's scales.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Improved Dragon Armor</b> (tech_improved_dragon_armor)<br/><i>This armor seems to improve upon the unique mineral nanostructures found on the Ether Drake's scales.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -988,7 +988,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_massive_autocannons",
       "label": "Massive Autocannons",
       "group": "ModEngineering",
-      "title": "<b>Massive Autocannons</b> (tech_massive_autocannons)<br/><i>This Autocannon is massive, designed to cause maximum destruction and mayhem.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Massive Autocannons</b> (tech_massive_autocannons)<br/><i>This Autocannon is massive, designed to cause maximum destruction and mayhem.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1006,7 +1006,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_omni_cannon",
       "label": "Omni Cannon",
       "group": "ModEngineering",
-      "title": "<b>Omni Cannon</b> (tech_omni_cannon)<br/><i>Omni Cannons are titanic guns capable of launching projectiles across vast distances.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Omni Cannon</b> (tech_omni_cannon)<br/><i>Omni Cannons are titanic guns capable of launching projectiles across vast distances.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1024,7 +1024,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_psi_missile_system",
       "label": "Psionic Missile System",
       "group": "ModEngineering",
-      "title": "<b>Psionic Missile System</b> (tech_psi_missile_system)<br/><i>An experimental missile system controlled by psionic abilities, allowing full control of the missiles through willpower of the crew.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Psionic Missile System</b> (tech_psi_missile_system)<br/><i>An experimental missile system controlled by psionic abilities, allowing full control of the missiles through willpower of the crew.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1042,7 +1042,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_resized_mass_accelerator_2",
       "label": "Large Giga Cannon",
       "group": "ModEngineering",
-      "title": "<b>Large Giga Cannon</b> (tech_resized_mass_accelerator_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Giga Cannon.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>15000",
+      "title": "<b>Large Giga Cannon</b> (tech_resized_mass_accelerator_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Giga Cannon.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>15000",
       "level": 25,
       "image": "images/technologies/tech_resized_mass_accelerator_2.png",
       "hasImage": true,
@@ -1059,7 +1059,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_scrapper_weapon",
       "label": "Scrapper Weapon",
       "group": "ModEngineering",
-      "title": "<b>Scrapper Weapon</b> (tech_scrapper_weapon)<br/><i>This weapon launches a massive metallic projectile almost at the speed of light.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Scrapper Weapon</b> (tech_scrapper_weapon)<br/><i>This weapon launches a massive metallic projectile almost at the speed of light.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1077,7 +1077,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_shadow_strike_craft",
       "label": "Shadow Strike Craft",
       "group": "ModEngineering",
-      "title": "<b>Shadow Strike Craft</b> (tech_shadow_strike_craft)<br/><i>Inspired by the Infinity Machine, the next generation of versatile strike crafts are hard to detect and even harder to hit.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Shadow Strike Craft</b> (tech_shadow_strike_craft)<br/><i>Inspired by the Infinity Machine, the next generation of versatile strike crafts are hard to detect and even harder to hit.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1095,7 +1095,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_terror_cannon",
       "label": "Terror Cannon",
       "group": "ModEngineering",
-      "title": "<b>Terror Cannon</b> (tech_terror_cannon)<br/><i>This deadly cannon inspires utter terror with its size.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Terror Cannon</b> (tech_terror_cannon)<br/><i>This deadly cannon inspires utter terror with its size.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1113,7 +1113,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_titan_armor",
       "label": "Titan Armor",
       "group": "ModEngineering",
-      "title": "<b>Titan Armor</b> (tech_titan_armor)<br/><i>Denser than Neutronium, the titan armor is made of the toughest material known to this galaxy.</i><br/><b>Mod: </b>The Zenith of Fallen Empires: Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Titan Armor</b> (tech_titan_armor)<br/><i>Denser than Neutronium, the titan armor is made of the toughest material known to this galaxy.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>25000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -1168,33 +1168,6 @@ ZenithofFallenEmpiresGraphDataTech = {
     {
       "from": "tech_fallen_technologies_3",
       "to": "tech_paradise_creation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mass_accelerator_2",
-      "to": "tech_resized_mass_accelerator_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_arc_emitter_2",
-      "to": "tech_resized_arc_emitter_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_energy_lance_2",
-      "to": "tech_resized_energy_lance_2",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -1258,6 +1231,33 @@ ZenithofFallenEmpiresGraphDataTech = {
     {
       "from": "tech_omni_lance",
       "to": "tech_compact_omni_lance",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mass_accelerator_2",
+      "to": "tech_resized_mass_accelerator_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_arc_emitter_2",
+      "to": "tech_resized_arc_emitter_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_lance_2",
+      "to": "tech_resized_energy_lance_2",
       "arrows": "to",
       "color": {
         "color": "grey"

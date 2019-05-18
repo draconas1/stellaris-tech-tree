@@ -41,7 +41,7 @@ namespace TechTreeCreator.GraphCreation
 
             techs?.ApplyToChain((modTechs, modLinks) => {
                 foreach (var (key, tech) in modTechs) {
-                    if (tech.Prerequisites.Count() == tech.PrerequisiteIds.Count()) {
+                    if (tech.Prerequisites.Count == tech.PrerequisiteIds.Count()) {
                         continue;
                     }
 

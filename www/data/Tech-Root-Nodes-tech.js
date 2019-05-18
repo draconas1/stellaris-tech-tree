@@ -12,8 +12,7 @@ TechRootNodesGraphDataTech = {
       "categories": [
         "particles",
         "field_manipulation",
-        "computing",
-        "eac_category_reshuffle"
+        "computing"
       ]
     },
     {
@@ -25,13 +24,12 @@ TechRootNodesGraphDataTech = {
       "hasImage": true,
       "nodeType": "tech",
       "categories": [
-        "biology",
         "psionics",
+        "biology",
         "statecraft",
         "new_worlds",
         "military_theory",
-        "voidcraft",
-        "eac_category_reshuffle"
+        "voidcraft"
       ]
     },
     {
@@ -43,11 +41,10 @@ TechRootNodesGraphDataTech = {
       "hasImage": true,
       "nodeType": "tech",
       "categories": [
-        "propulsion",
-        "industry",
         "voidcraft",
+        "industry",
+        "propulsion",
         "materials",
-        "eac_category_reshuffle",
         "field_manipulation"
       ]
     }

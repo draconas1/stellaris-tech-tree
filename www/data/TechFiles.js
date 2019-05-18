@@ -10,6 +10,11 @@ techDataFiles = [
     "fileName": "Zenith_of_Fallen_Empires-tech.js"
   },
   {
+    "name": "Starborn",
+    "jsVarable": "StarbornGraphDataTech",
+    "fileName": "Starborn-tech.js"
+  },
+  {
     "name": "Gigastructures",
     "jsVarable": "GigastructuresGraphDataTech",
     "fileName": "Gigastructures-tech.js"
@@ -18,6 +23,11 @@ techDataFiles = [
     "name": "EUTAB",
     "jsVarable": "EUTABGraphDataTech",
     "fileName": "EUTAB-tech.js"
+  },
+  {
+    "name": "Dyson Swarm",
+    "jsVarable": "DysonSwarmGraphDataTech",
+    "fileName": "Dyson_Swarm-tech.js"
   },
   {
     "name": "At War",

@@ -93,6 +93,32 @@ GigastructuresGraphDataDependants = {
       ]
     },
     {
+      "id": "thruster_components_THRUSTER",
+      "label": "Corvette",
+      "group": "Dependant",
+      "title": "<b>Thrusters</b> (thruster_components_THRUSTER)<br/><i>Thrusters are used for sub-FTL propulsion, and is a vital component for all ships.</i><br/><b>Mod: </b>Gigastructural Engineering & More (2.2)<br/><i>The Corvette is the most basic military ship, armed and ready in the event of hostile contacts.</i><br/><br/><b>gigahuge_ship GIGAHUGE_THRUSTER</b><br/><b>Power:</b> -27<br/><b>Base Ship Speed:</b> +75%<br/><b>Chance to Evade:</b> +2",
+      "level": 5,
+      "image": "images/ship_parts/thruster_components_THRUSTER.png",
+      "hasImage": true,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_corvettes"
+      ]
+    },
+    {
+      "id": "ARMOR_QUBERINE",
+      "label": "Quberine-Laced Neutronium Armor",
+      "group": "Dependant",
+      "title": "<b>Quberine-Laced Neutronium Armor</b> (ARMOR_QUBERINE)<br/><i>Neutronium alloys enhanced with small amounts of Quberine from the Squareworld, enhancing the toughness of the plating.</i><br/><b>Mod: </b>Gigastructural Engineering & More (2.2)<br/><br/><b>Large Quberine-Laced Neutronium Armor</b><br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +1015<br/><b>Daily Hull Regen:</b> 0.5<br/><b>Daily Armor Regen:</b> 1.5<br/><br/><b>Medium Quberine-Laced Neutronium Armor</b><br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +405<br/><b>Daily Hull Regen:</b> 0.5<br/><b>Daily Armor Regen:</b> 1.5<br/><br/><b>Small Quberine-Laced Neutronium Armor</b><br/><b>Power:</b> 0<br/><b>Armor Hit Points:</b> +165<br/><b>Daily Hull Regen:</b> 0.5<br/><b>Daily Armor Regen:</b> 1",
+      "level": 21,
+      "image": "images/ship_parts/ARMOR_QUBERINE.png",
+      "hasImage": false,
+      "nodeType": "shipComponent",
+      "prerequisites": [
+        "tech_quberine_armor"
+      ]
+    },
+    {
       "id": "GIGA_SUPER_OMEGA_LANCE_1",
       "label": "Omega Eraser Beam",
       "group": "Dependant",
@@ -190,6 +216,33 @@ GigastructuresGraphDataDependants = {
     {
       "from": "tech_gas_giant_colony",
       "to": "building_gas_fusion_plant",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "combat_computers_AUTONOMOUS",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_corvettes",
+      "to": "thruster_components_THRUSTER",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_quberine_armor",
+      "to": "ARMOR_QUBERINE",
       "arrows": "to",
       "color": {
         "color": "grey"

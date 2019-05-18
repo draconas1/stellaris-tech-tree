@@ -104,7 +104,8 @@ namespace TechTreeCreator.GraphCreation {
                          data.Links.Add(new Link() {From = prereq, To = entity});
                      }
                      else {
-                         Log.Logger.Warning("Could not find prerequisite {prerequisite} for {entityType} {entityId}", prerequisiteId, entity.GetType().Name, entity.Id);
+                         Log.Logger.Warning("Could not find prerequisite {prerequisite} for {entityType} {entityId} in {filePath}", 
+                             prerequisiteId, entity.GetType().Name, entity.Id, entity.FilePath);
                      }
                  }
 

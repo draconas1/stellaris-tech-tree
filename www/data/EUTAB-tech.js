@@ -2560,6 +2560,429 @@ EUTABGraphDataTech = {
   ],
   "edges": [
     {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_patriotic_effort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_aggressive_negotiations",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_aggressive_negotiations",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_nat_romance",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_colonial_conscription",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_collective_self",
+      "to": "tech_eutab_born_to_rule",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_born_to_rule",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_natural_state",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_natural_state",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_consol_power",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_blood_soil",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_governors_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_starbase_contracts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_starbase_contracts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_culture_merit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_brothers_freedom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_brothers_freedom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_mercantilism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_universal_b_income",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_living_state",
+      "to": "tech_eutab_psychohistory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_planetary_parliament",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_hyperlane_chokepoint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_hyperlane_chokepoint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_worlds_destiny",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_xeno_interrogation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_political_education",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_3",
+      "to": "tech_eutab_superior_inferior",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_command_matrix",
+      "to": "tech_eutab_superior_inferior",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_2",
+      "to": "tech_eutab_intel_vigilance",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_intel_office",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_navy_size_2",
+      "to": "tech_eutab_intel_office",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_terrestrial_sculpting",
+      "to": "tech_eutab_terra_viruses",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_expo_guard",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_bureaucracy",
+      "to": "tech_eutab_expo_guard",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_xeno_adaptation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_terrestrial_sculpting",
+      "to": "tech_eutab_xeno_adaptation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_foreign_workers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_cultural_embassies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_sanctified_lands",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_alien_admin",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_command_matrix",
+      "to": "tech_eutab_gal_good_will",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_autocurating_vault",
+      "to": "tech_eutab_species_harmony",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cultural_heritage",
+      "to": "tech_eutab_lingusitic_intergration",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_bureaucracy",
+      "to": "tech_eutab_cultural_exchanges",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_xeno_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_space_defense_station_improvement",
       "to": "tech_eutab_stellar_citadel",
       "arrows": "to",
@@ -2669,151 +3092,7 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_solar_tracker",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_2",
-      "to": "tech_eutab_solar_tracker",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_eutab_geothermal_tap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_plant_3",
-      "to": "tech_eutab_geothermal_tap",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_3",
-      "to": "tech_eutab_act_on_instinct",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_refiner_1",
-      "to": "tech_eutab_refiner_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_volatile_motes",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_rare_crystals",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_exotic_gases",
-      "to": "tech_eutab_refiner_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_food_processing_1",
-      "to": "tech_eutab_sustainable_architecture",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_assembly_pattern",
-      "to": "tech_eutab_sustainable_architecture",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_housing_2",
-      "to": "tech_eutab_city_fabricators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_construction_templates",
-      "to": "tech_eutab_city_fabricators",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_eutab_feed_forges",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_climate_restoration",
-      "to": "tech_eutab_natural_fort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_failsafe_alert",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_robotic_workers",
-      "to": "tech_eutab_auto_armory",
+      "to": "tech_eutab_material_renewal",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2822,7 +3101,7 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_starbase_3",
-      "to": "tech_eutab_auto_armory",
+      "to": "tech_eutab_material_renewal",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2830,8 +3109,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_auto_armory",
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_peace_temples",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2839,8 +3118,8 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_comp_defence_plan",
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_sum_of_diff",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2848,8 +3127,17 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_paradise_dome",
-      "to": "tech_eutab_gaia_district",
+      "from": "tech_colonial_centralization",
+      "to": "tech_eutab_pursuit_peace",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_eutab_pursuit_peace",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2858,7 +3146,142 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_centralized_command",
-      "to": "tech_eutab_battle_praxeum",
+      "to": "tech_eutab_det_theory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_problem_policing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cryostasis_1",
+      "to": "tech_eutab_peace_envoy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_2",
+      "to": "tech_eutab_peace_envoy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_eco_preserve",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_modular_engineering",
+      "to": "tech_eutab_starship_parts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_eutab_starship_parts",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_trading",
+      "to": "tech_eutab_sub_civilan_fleet",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_sub_civilan_fleet",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_1",
+      "to": "tech_eutab_habitation_studies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_eutab_field_research",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_1",
+      "to": "tech_eutab_open_databases",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_eutab_dedication_to_wisdom",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_eutab_citizen_sci",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ship_armor_4",
+      "to": "tech_eutab_self_sus_fleets",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_arcology",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2867,7 +3290,70 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_mega_engineering",
-      "to": "tech_eutab_support_lab",
+      "to": "tech_eutab_holy_pilgrim",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_consecration_fields",
+      "to": "tech_eutab_new_monastism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_new_monastism",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_administration",
+      "to": "tech_eutab_spiritual_primacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_artificial_moral_codes",
+      "to": "tech_eutab_alien_salvation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_dogmatic_focus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_adaptive_bureaucracy",
+      "to": "tech_eutab_new_world_missions",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_living_state",
+      "to": "tech_eutab_right_self",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -2876,7 +3362,16 @@ EUTABGraphDataTech = {
     },
     {
       "from": "tech_planetary_unification",
-      "to": "tech_eutab_dev_district",
+      "to": "tech_eutab_power_societies",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_dev_district",
+      "to": "tech_eutab_monument_unity",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3181,717 +3676,6 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_hyperlane_chokepoint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_hyperlane_chokepoint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_worlds_destiny",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_xeno_interrogation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_political_education",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_3",
-      "to": "tech_eutab_superior_inferior",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_command_matrix",
-      "to": "tech_eutab_superior_inferior",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_2",
-      "to": "tech_eutab_intel_vigilance",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_intel_office",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_navy_size_2",
-      "to": "tech_eutab_intel_office",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_terrestrial_sculpting",
-      "to": "tech_eutab_terra_viruses",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_expo_guard",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_bureaucracy",
-      "to": "tech_eutab_expo_guard",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_xeno_adaptation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_terrestrial_sculpting",
-      "to": "tech_eutab_xeno_adaptation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_eutab_holy_pilgrim",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_consecration_fields",
-      "to": "tech_eutab_new_monastism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_new_monastism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_spiritual_primacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_alien_salvation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_dogmatic_focus",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_adaptive_bureaucracy",
-      "to": "tech_eutab_new_world_missions",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_living_state",
-      "to": "tech_eutab_right_self",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_power_societies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_monument_unity",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_1",
-      "to": "tech_eutab_material_renewal",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_material_renewal",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_peace_temples",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_sum_of_diff",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_pursuit_peace",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_pursuit_peace",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_centralized_command",
-      "to": "tech_eutab_det_theory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_problem_policing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cryostasis_1",
-      "to": "tech_eutab_peace_envoy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_2",
-      "to": "tech_eutab_peace_envoy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_eco_preserve",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mega_engineering",
-      "to": "tech_eutab_foreign_workers",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_cultural_embassies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_3",
-      "to": "tech_eutab_cultural_embassies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_sanctified_lands",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_alien_admin",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_gal_good_will",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_command_matrix",
-      "to": "tech_eutab_gal_good_will",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_autocurating_vault",
-      "to": "tech_eutab_species_harmony",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cultural_heritage",
-      "to": "tech_eutab_lingusitic_intergration",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_adaptive_bureaucracy",
-      "to": "tech_eutab_cultural_exchanges",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_xeno_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_modular_engineering",
-      "to": "tech_eutab_starship_parts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_5",
-      "to": "tech_eutab_starship_parts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_trading",
-      "to": "tech_eutab_sub_civilan_fleet",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_sub_civilan_fleet",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_housing_1",
-      "to": "tech_eutab_habitation_studies",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_eutab_field_research",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_1",
-      "to": "tech_eutab_open_databases",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_eutab_dedication_to_wisdom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_eutab_citizen_sci",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ship_armor_4",
-      "to": "tech_eutab_self_sus_fleets",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_arcology",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_patriotic_effort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_aggressive_negotiations",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_aggressive_negotiations",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_administration",
-      "to": "tech_eutab_nat_romance",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_colonial_conscription",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_collective_self",
-      "to": "tech_eutab_born_to_rule",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_born_to_rule",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_natural_state",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_artificial_moral_codes",
-      "to": "tech_eutab_natural_state",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_consol_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_ambitions",
-      "to": "tech_eutab_blood_soil",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_governors_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_interstellar_campaigns",
-      "to": "tech_eutab_starbase_contracts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_starbase_contracts",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_culture_merit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_eutab_brothers_freedom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_eutab_brothers_freedom",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_mercantilism",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_unification",
-      "to": "tech_eutab_universal_b_income",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_living_state",
-      "to": "tech_eutab_psychohistory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_eutab_dev_district",
-      "to": "tech_eutab_planetary_parliament",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
       "from": "tech_eutab_assembly_complex",
       "to": "tech_eutab_m_automation_sector",
       "arrows": "to",
@@ -4056,6 +3840,222 @@ EUTABGraphDataTech = {
     {
       "from": "tech_micro_replicators",
       "to": "tech_eutab_maint_t1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_1",
+      "to": "tech_eutab_solar_tracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_2",
+      "to": "tech_eutab_solar_tracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_2",
+      "to": "tech_eutab_geothermal_tap",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_plant_3",
+      "to": "tech_eutab_geothermal_tap",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_navy_size_3",
+      "to": "tech_eutab_act_on_instinct",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_eutab_refiner_1",
+      "to": "tech_eutab_refiner_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_volatile_motes",
+      "to": "tech_eutab_refiner_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_rare_crystals",
+      "to": "tech_eutab_refiner_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_exotic_gases",
+      "to": "tech_eutab_refiner_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_food_processing_1",
+      "to": "tech_eutab_sustainable_architecture",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_assembly_pattern",
+      "to": "tech_eutab_sustainable_architecture",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_2",
+      "to": "tech_eutab_city_fabricators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_construction_templates",
+      "to": "tech_eutab_city_fabricators",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_2",
+      "to": "tech_eutab_feed_forges",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_climate_restoration",
+      "to": "tech_eutab_natural_fort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_ambitions",
+      "to": "tech_eutab_failsafe_alert",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_robotic_workers",
+      "to": "tech_eutab_auto_armory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
+      "to": "tech_eutab_auto_armory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_1",
+      "to": "tech_eutab_auto_armory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_interstellar_campaigns",
+      "to": "tech_eutab_comp_defence_plan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "tech_eutab_gaia_district",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_centralized_command",
+      "to": "tech_eutab_battle_praxeum",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_eutab_support_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_unification",
+      "to": "tech_eutab_dev_district",
       "arrows": "to",
       "color": {
         "color": "grey"

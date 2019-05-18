@@ -178,7 +178,7 @@
   {
     "Name": "At War_ Carrier Enhancements",
     "NameRaw": "At War: Carrier Enhancements",
-    "ModGroup": null,
+    "ModGroup": "At War",
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1660235095/EAC_AW_CARRIER.zip",
     "ModDirectoryPath": null,
     "Include": true
@@ -330,7 +330,7 @@
   {
     "Name": "EUTAB - Ethos Unique Techs and Buildings",
     "NameRaw": "EUTAB - Ethos Unique Techs and Buildings",
-    "ModGroup": null,
+    "ModGroup": "EUTAB",
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\804732593/eutab.zip",
     "ModDirectoryPath": null,
     "Include": true

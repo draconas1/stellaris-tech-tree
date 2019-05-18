@@ -429,6 +429,48 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_dm_global_pacifier",
+      "label": "Advanced Pacifier Capacitors",
+      "group": "ModPhysics",
+      "title": "<b>Advanced Pacifier Capacitors</b> (tech_dm_global_pacifier)<br/><i>Installing additional alpha reactors will vastly improve the Global Pacifier's charge-up time.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_dm_global_pacifier.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_pk_shielder",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_dm_neutron_sweep",
+      "label": "Advanced Neutron Radiator",
+      "group": "ModPhysics",
+      "title": "<b>Advanced Neutron Radiator</b> (tech_dm_neutron_sweep)<br/><i>Upgrading the Neutron Sweeper's primary weapon with additional neutron radiators will greatly increase its charge-up time.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_dm_neutron_sweep.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_pk_neutron",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
       "id": "tech_energy_core",
       "label": "Energy Counterdistortion Matrix",
       "group": "ModPhysics",
@@ -488,9 +530,9 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_energy_torpedo_ae",
-      "label": "Tempest Launcher",
+      "label": "Tempest Energy Cannon",
       "group": "ModPhysics",
-      "title": "<b>Tempest Launcher</b> (tech_energy_torpedo_ae)<br/><i>Tempest Launcher hurls an even larger amounts of Exotic Matter that will disrupt major ship systems and melts away all substances.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Tempest Energy Cannon</b> (tech_energy_torpedo_ae)<br/><i>Tempest Launcher hurls an even larger amounts of energy projectiles will disrupt major ship systems and melts away all substances.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -509,9 +551,9 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "id": "tech_energy_torpedo_dm",
-      "label": "Exotic Matter Launcher",
+      "label": "Dark Energy Cannon",
       "group": "ModPhysics",
-      "title": "<b>Exotic Matter Launcher</b> (tech_energy_torpedo_dm)<br/><i>Even stronger than neutrons, Exotic Matter is a deviation of Normal Matter. Its negative properties will quickly decompose enemy ship's hulls.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
+      "title": "<b>Dark Energy Cannon</b> (tech_energy_torpedo_dm)<br/><i>Based upon the principles of Dark Energy-based weapon, the Dominator-class DEC focuses the energy's negative properties into a plasma-like projectile that will quickly eat away enemy ship's hulls.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000",
       "level": 27,
       "image": "images/technologies/tech_energy_torpedo_dm.png",
       "hasImage": true,
@@ -1040,6 +1082,24 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_planet_killer_naniter",
+      "label": "Monolith Beam",
+      "group": "ModPhysics",
+      "title": "<b>Monolith Beam</b> (tech_planet_killer_naniter)<br/><i>In the ancient times, the Progenitor seeds various lives and planets, but there comes a time where evolution has gone in the wrong direction, or that there is something that is not meant to be. The Monolith Beam is the solution to such problems. This massive weapon transfer the entire world into a memory orb, effectively removing the planet from the galaxy. The inhabitants will continue their lives in their planet, posing no threats.\\n\\nThis is indeed a fearsome weapon if used improperly.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_planet_killer_naniter.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
       "id": "tech_plasma_ae",
       "label": "Eclipse Plasma Cannon",
       "group": "ModPhysics",
@@ -1182,6 +1242,48 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_se_global_pacifier",
+      "label": "tech_se_global_pacifier",
+      "group": "ModPhysics",
+      "title": "<b>tech_se_global_pacifier</b> (tech_se_global_pacifier)<br/><i>tech_se_global_pacifier_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_se_global_pacifier.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dm_global_pacifier",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "field_manipulation"
+      ]
+    },
+    {
+      "id": "tech_se_neutron_sweep",
+      "label": "tech_se_neutron_sweep",
+      "group": "ModPhysics",
+      "title": "<b>tech_se_neutron_sweep</b> (tech_se_neutron_sweep)<br/><i>tech_se_neutron_sweep_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_se_neutron_sweep.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dm_neutron_sweep",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "particles"
+      ]
+    },
+    {
       "id": "tech_sensor_fe",
       "label": "Dark Matter Shifting Pattern Analysis",
       "group": "ModPhysics",
@@ -1318,7 +1420,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "borderWidth": 1,
       "level": 27,
       "image": "images/technologies/tech_stellarite_generator_ae.png",
-      "hasImage": false,
+      "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
         "tech_stellarite_reactor",
@@ -1825,6 +1927,24 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_celestial_guardian",
+      "label": "tech_celestial_guardian",
+      "group": "ModSociety",
+      "title": "<b>tech_celestial_guardian</b> (tech_celestial_guardian)<br/><i>tech_celestial_guardian_DESC</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>75000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_celestial_guardian.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "military_theory"
+      ]
+    },
+    {
       "id": "tech_championofxeno",
       "label": "Champion of the Xeno",
       "group": "ModSociety",
@@ -2044,6 +2164,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_dm_divine_enforcer",
+      "label": "Advanced Psionic Amplifier",
+      "group": "ModSociety",
+      "title": "<b>Advanced Psionic Amplifier</b> (tech_dm_divine_enforcer)<br/><i>Amplifying the Divine Enforcer with powerful psionic amplifiers will make the weapon performs its charging sequences much faster.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_dm_divine_enforcer.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_pk_godray",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "psionics"
+      ]
+    },
+    {
       "id": "tech_doom_hero",
       "label": "Precursor Genetic Implementation",
       "group": "ModSociety",
@@ -2168,7 +2309,7 @@ AncientCacheofTechnologiesGraphDataTech = {
       "id": "tech_fe_food_processing",
       "label": "Agri Megacomplex",
       "group": "ModSociety",
-      "title": "<b>Agri Megacomplex</b> (tech_fe_food_processing)<br/><i>tech_fe_food_processing_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
+      "title": "<b>Agri Megacomplex</b> (tech_fe_food_processing)<br/><i>More often that not we stand under the difficult situation where some planets are just too annoying to make green apples, or the planet simply does not have any green. But with the advent of better power sources, we can create a self-sufficient mega agri-complex that should eliminate all these problems. Green Apples wll be everywhere.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>32000",
       "level": 25,
       "image": "images/technologies/tech_fe_food_processing.png",
       "hasImage": true,
@@ -2592,6 +2733,24 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_psionic_archon",
+      "label": "Psionic Archon",
+      "group": "ModSociety",
+      "title": "<b>Psionic Archon</b> (tech_psionic_archon)<br/><i>The keystone seems to have a hidden function. Based upon the same method used in the ancient times, it is possible to create a psionic archon by channeling the keystone's power through willing vessels, be it organic or machine. The result is an extremely powerful psionic archon that can dominate the surface battlefields.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_psionic_archon.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "psionics"
+      ]
+    },
+    {
       "id": "tech_purgexeno",
       "label": "Zero Tolerance",
       "group": "ModSociety",
@@ -2609,6 +2768,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "military_theory"
+      ]
+    },
+    {
+      "id": "tech_se_divine_enforcer",
+      "label": "tech_se_divine_enforcer",
+      "group": "ModSociety",
+      "title": "<b>tech_se_divine_enforcer</b> (tech_se_divine_enforcer)<br/><i>tech_se_divine_enforcer_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_se_divine_enforcer.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dm_divine_enforcer",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "psionics"
       ]
     },
     {
@@ -3045,6 +3225,48 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "materials"
+      ]
+    },
+    {
+      "id": "tech_dm_nanobot_diffuser",
+      "label": "Advanced Nanobots Productor",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Nanobots Productor</b> (tech_dm_nanobot_diffuser)<br/><i>Utilizing advanced hard-light technology to quickly produce nanobots will vastly improve the speed of Nano Infusion's charge.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_dm_nanobot_diffuser.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_pk_nanobots",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_dm_world_cracker",
+      "label": "Advanced Starkiller Lens",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Starkiller Lens</b> (tech_dm_world_cracker)<br/><i>Applying additional focusing lens to the Planet Cracker's beam reduces the superweapon's charge-up time immensely.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 27,
+      "image": "images/technologies/tech_dm_world_cracker.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_pk_cracker",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -3979,6 +4201,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_omega_colossus",
+      "label": "Omega-Class Herculean",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Herculean</b> (tech_omega_colossus)<br/><i>The Omega-Class Herculean...the very mobile battlestation that the Progenitors once used. Its weapon loadouts are massive, possibly amongst one of the deadliest weapon one can field in this era.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_omega_colossus.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_colossus",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_omega_escort",
       "label": "Omega-Class Escort",
       "group": "ModEngineering",
@@ -4021,6 +4264,27 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_omega_guardian",
+      "label": "Omega-Class Guardian",
+      "group": "ModEngineering",
+      "title": "<b>Omega-Class Guardian</b> (tech_omega_guardian)<br/><i>Such efficiency...the Progenitors were said to be impenetrable when it comes to their defenses during the Progenitor War. We are starting to understand why now.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>400000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_omega_guardian.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_guardian",
+        "tech_lightmatter_reactor"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_omega_titan",
       "label": "Omega-Class Hyperion",
       "group": "ModEngineering",
@@ -4039,6 +4303,24 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_omega_warmech",
+      "label": "Omega War-Mech Construction",
+      "group": "ModEngineering",
+      "title": "<b>Omega War-Mech Construction</b> (tech_omega_warmech)<br/><i>Careful analysis of the Omni-Matrix AI allows us to create an extremely advanced and deadly walker equipped with light matter-based arsenals. They should prove to be useful in ground assaults.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_omega_warmech.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "industry"
       ]
     },
     {
@@ -4248,6 +4530,69 @@ AncientCacheofTechnologiesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_precursor_colossus",
+      "label": "Herculean Battlestation",
+      "group": "ModEngineering",
+      "title": "<b>Herculean Battlestation</b> (tech_precursor_colossus)<br/><i>This data reveeals the hidden truth. The colossi that the fallen precursors used were in fact incompleted...it is only one portion of a much larger weapon. This \"Herculean\" is a massive battlestation dwarfing even citadels. The ship is massive enough that it can support two primary reactors and has a built-in self-repair protocol that allows it to repair its hull to full conditions as soon as it reaches critical damage for the first time. The \"Colossus\" portion makes up the inner layer of the station. It seems the fallen empire decided to strip down the original design and only utilized the Colossus Section for their world-altering weapons.\\n\\nThis does not make a lot of senses...why would the fallen precursors decided to give us this schematics? Perhaps they think that we won't be able to build such a massive vessel? Is there a hidden exhaust port somewhere that may blow up the ship in one hit? We can only guess.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_precursor_colossus.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_colossus_ae",
+      "label": "Alpha-Class Herculean",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Herculean</b> (tech_precursor_colossus_ae)<br/><i>The Alpha Reactor provides enough power that it should now be possible to make some adjustments to the Herculean design, and bring the ship closer to what it should be originally.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_precursor_colossus_ae.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_colossus",
+        "tech_dark_matter_power_core_ae",
+        "tech_fe_thruster_2"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_colossus_se",
+      "label": "Sigma-Class Herculean",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Herculean</b> (tech_precursor_colossus_se)<br/><i>According to the projected calculations, Herculean Sigma template should now closely resemble the original design of this massive battlestation, with destructive offensive and defensive capabilities.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 29,
+      "image": "images/technologies/tech_precursor_colossus_se.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_colossus",
+        "tech_precursor_colossus_ae",
+        "tech_stellarite_reactor",
+        "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_precursor_design",
       "label": "Precursor Database Analysis",
       "group": "ModEngineering",
@@ -4317,13 +4662,11 @@ AncientCacheofTechnologiesGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 24,
       "image": "images/technologies/tech_precursor_escort_cost.png",
       "hasImage": true,
       "nodeType": "tech",
-      "prerequisites": [
-        "tech_precursor_escort"
-      ],
+      "prerequisites": [],
       "categories": [
         "voidcraft"
       ]
@@ -4366,6 +4709,86 @@ AncientCacheofTechnologiesGraphDataTech = {
         "tech_precursor_escort_alpha",
         "tech_stellarite_reactor",
         "tech_stellarite_thruster"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_guardian",
+      "label": "Precursor Guardian Schematics",
+      "group": "ModEngineering",
+      "title": "<b>Precursor Guardian Schematics</b> (tech_precursor_guardian)<br/><i>There seems to be multiple records and design variations for the defense platforms utilized by the fallen precursors, the most well-known one is the Defense Outpost that we have seen the fallen used regularly. But we have discovered that there is another, more interesting design called \"Guardians\". It is larger and more powerful than the Outposts and seems to have much better rooms for improvements. Records indicate they have not utilized Guardians due to its more sophisticated design. They preferred to use Outposts which are easier to build, as its hull are basically made out of the same as mining stations. Such hedonistic tendencies is what led them to their downfall.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_precursor_guardian.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_guardian_alpha",
+      "label": "Alpha-Class Guardian",
+      "group": "ModEngineering",
+      "title": "<b>Alpha-Class Guardian</b> (tech_precursor_guardian_alpha)<br/><i>With the Alpha Reactor, it is now possible to entirely surpass the fallen precursors and create our very own guardian designs. We will show the fools how it's done.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>125000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_guardian_alpha.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_guardian"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_guardian_cost",
+      "label": "tech_precursor_guardian_cost",
+      "group": "ModEngineering",
+      "title": "<b>tech_precursor_guardian_cost</b> (tech_precursor_guardian_cost)<br/><i>tech_precursor_guardian_cost_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 25,
+      "image": "images/technologies/tech_precursor_guardian_cost.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_guardian"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_precursor_guardian_sigma",
+      "label": "Sigma-Class Guardian",
+      "group": "ModEngineering",
+      "title": "<b>Sigma-Class Guardian</b> (tech_precursor_guardian_sigma)<br/><i>The introduction of Stellarite Reactor; combined with additional insights gained from the recently acquired pieces of information from the Outer Cluster's hidden archives have enable us to create a much more durable Guardian with extra capacitors for augmentations.</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>200000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 26,
+      "image": "images/technologies/tech_precursor_guardian_sigma.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_precursor_guardian",
+        "tech_precursor_guardian_alpha",
+        "tech_stellarite_reactor"
       ],
       "categories": [
         "voidcraft"
@@ -4451,6 +4874,78 @@ AncientCacheofTechnologiesGraphDataTech = {
         "tech_stellarite_reactor",
         "tech_stellarite_thruster"
       ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_progenitor_avatar",
+      "label": "Progenitor Avatar",
+      "group": "ModEngineering",
+      "title": "<b>Progenitor Avatar</b> (tech_progenitor_avatar)<br/><i>Not the film. The Na'vi got wiped to the last like the xenos that they are in this version.</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_progenitor_avatar.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_progenitor_battlecruiser",
+      "label": "Progenitor Warship",
+      "group": "ModEngineering",
+      "title": "<b>Progenitor Warship</b> (tech_progenitor_battlecruiser)<br/><i>Not a BC</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_progenitor_battlecruiser.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_progenitor_escort",
+      "label": "Progenitor Escort",
+      "group": "ModEngineering",
+      "title": "<b>Progenitor Escort</b> (tech_progenitor_escort)<br/><i>Soup Can</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_progenitor_escort.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_progenitor_titan",
+      "label": "Progenitor Abrogator",
+      "group": "ModEngineering",
+      "title": "<b>Progenitor Abrogator</b> (tech_progenitor_titan)<br/><i>Totally not Mining Station mixed with Construction Ship</i><br/><b>Mod: </b>Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 24,
+      "image": "images/technologies/tech_progenitor_titan.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
       "categories": [
         "voidcraft"
       ]
@@ -4549,6 +5044,48 @@ AncientCacheofTechnologiesGraphDataTech = {
       ],
       "categories": [
         "propulsion"
+      ]
+    },
+    {
+      "id": "tech_se_nanobot_diffuser",
+      "label": "tech_se_nanobot_diffuser",
+      "group": "ModEngineering",
+      "title": "<b>tech_se_nanobot_diffuser</b> (tech_se_nanobot_diffuser)<br/><i>tech_se_nanobot_diffuser_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_se_nanobot_diffuser.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dm_nanobot_diffuser",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_se_world_cracker",
+      "label": "tech_se_world_cracker",
+      "group": "ModEngineering",
+      "title": "<b>tech_se_world_cracker</b> (tech_se_world_cracker)<br/><i>tech_se_world_cracker_DESC</i><br/><b>Mod: </b>Ancient Cache of Technologies<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 28,
+      "image": "images/technologies/tech_se_world_cracker.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_dm_world_cracker",
+        "tech_precursor_colossus"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -5107,8 +5644,8 @@ AncientCacheofTechnologiesGraphDataTech = {
   ],
   "edges": [
     {
-      "from": "tech_swarmer_missile_dm",
-      "to": "tech_swarmer_missile_ae",
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_bomberman",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5116,8 +5653,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_missile_ae",
-      "to": "tech_swarmer_missile_ae",
+      "from": "tech_stellarite_reactor",
+      "to": "tech_stellarite_army",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5125,8 +5662,305 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_swarmer_missiles_2",
-      "to": "tech_swarmer_missile_dm",
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_wedemandit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_increased_processor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_machinelove",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_computers_autonomous",
+      "to": "tech_goodmachine",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_apexpredator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_benificialevolution",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonization_5",
+      "to": "tech_enhancedskin",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_championofxeno",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_diplomaticmastery",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_libertyfukyeah",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_manifest_destiny",
+      "to": "tech_lawandorder",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_forced_demand",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_vitality_boosters",
+      "to": "tech_enlightenment",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_markets",
+      "to": "tech_corporate_emperor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_markets",
+      "to": "tech_profit",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_master_shipcraft",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_purgexeno",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_synchronized_defences",
+      "to": "tech_advanced_weapon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_onlywar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_fleetsupremacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_fleetsupremacy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_galactic_campaigns",
+      "to": "tech_pacifist_tactics",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_onboard_priest",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_transcendent_faith",
+      "to": "tech_onboard_priest",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_space_defense_station_improvement",
+      "to": "tech_onbaord_engineer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_onbaord_engineer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_doctrine_fleet_size_4",
+      "to": "tech_navy_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_navy_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_combat_training",
+      "to": "tech_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_commissar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_neural_implants",
+      "to": "tech_fe_slave_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_fe_slave_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_omni_warmech",
+      "to": "tech_godmech",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_spm_battledroid",
+      "to": "tech_omni_warmech",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5135,7 +5969,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_swarmer_missile_dm",
+      "to": "tech_spm_battledroid",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5143,8 +5977,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_torpedo_dm",
-      "to": "tech_torpedo_ae",
+      "from": "tech_synthtrooper",
+      "to": "tech_omnisynth",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5152,8 +5986,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_missile_ae",
-      "to": "tech_torpedo_ae",
+      "from": "tech_omnidroid",
+      "to": "tech_synthtrooper",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5161,8 +5995,242 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_torpedoes_3",
-      "to": "tech_torpedo_dm",
+      "from": "tech_droid_workers",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sapient_ai",
+      "to": "tech_omnidroid",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_templar",
+      "to": "tech_dark_psion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_elite_genetrooper",
+      "to": "tech_doom_hero",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gene_seed_purification",
+      "to": "tech_elite_genetrooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_elite_genetrooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_soul_purifier",
+      "to": "tech_xenoartillery",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_tank",
+      "to": "tech_dark_matter_megatank",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_liberty_gunship",
+      "to": "tech_liberty_prime",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_dark_matter_tank",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_inquisitor",
+      "to": "tech_living_saint",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_heavy_trooper",
+      "to": "tech_godofwar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_controller",
+      "to": "tech_terror_beyond",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_peacekeeper",
+      "to": "tech_captain_pacifist",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enforcer",
+      "to": "tech_commissar_lord",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_shadow_sniper",
+      "to": "tech_black_widow",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_telepathy",
+      "to": "tech_dark_templar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_dark_templar",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_peacekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_soul_purifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_inquisitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_shadow_sniper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_heavy_trooper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_controller",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_army",
+      "to": "tech_elite_clone",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5171,7 +6239,538 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_torpedo_dm",
+      "to": "tech_dark_matter_army",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_housing_2",
+      "to": "tech_fe_hive_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_micro_replicators",
+      "to": "tech_ae_ancient_cryo_chamber",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_luxuries_2",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_colonial_centralization",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_factory",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_frontier_hospital",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_hospital",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_mansion",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_volatile_motes",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_exotic_gases",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_rare_crystals",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_transmutor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_alloys_2",
+      "to": "tech_fe_alloy_foundry",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_mineral_processing_plant",
+      "to": "tech_fe_alloy_foundry",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_food_processing_2",
+      "to": "tech_fe_food_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_food_processing",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_global_research_initiative",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_lab",
+      "to": "tech_fe_institute",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_power_hub_2",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_fe_power_hub",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mineral_purification_2",
+      "to": "tech_fe_mineral_processing_plant",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fe_mineral_processing_plant",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cloning",
+      "to": "tech_ae_clone_vats",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_elite_clone",
+      "to": "tech_ae_clone_vats",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ae_stronghold",
+      "to": "tech_giga_fortress",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_global_defense_grid",
+      "to": "tech_ae_stronghold",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_stronghold",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector_ae",
+      "to": "tech_ae_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_energy_psg",
+      "to": "tech_ae_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector",
+      "to": "tech_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_planetary_shield_generator",
+      "to": "tech_dark_energy_psg",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_lab",
+      "to": "tech_ae_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_basic_science_lab_2",
+      "to": "tech_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_enigmatic_lab",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_dark_energy_pylon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_ae_dark_energy_pylon",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_generator",
+      "to": "tech_ae_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_matter",
+      "to": "tech_dark_matter_generator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_synthersizer",
+      "to": "tech_dark_matter_synthersizer_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_ae_dark_energy_pylon",
+      "to": "tech_dark_matter_synthersizer_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_synthersizer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_dark_matter_synthersizer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_super_assembly",
+      "to": "tech_super_assembly_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_super_assembly_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_super_assembly",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_hive_cluster",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_control_center",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_ae_ancient_palace",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_warp_lightmatter_cannon",
+      "to": "tech_lightmatter_titan_accelerator",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_perdition_beam_dm",
+      "to": "tech_shroud_storm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "tech_shroud_hanger",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5180,7 +6779,718 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_missile_dm",
-      "to": "tech_missile_ae",
+      "to": "tech_shroud_missile",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dm_nanobot_diffuser",
+      "to": "tech_se_nanobot_diffuser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_se_nanobot_diffuser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dm_divine_enforcer",
+      "to": "tech_se_divine_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_se_divine_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dm_neutron_sweep",
+      "to": "tech_se_neutron_sweep",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_se_neutron_sweep",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dm_global_pacifier",
+      "to": "tech_se_global_pacifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_se_global_pacifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dm_world_cracker",
+      "to": "tech_se_world_cracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_se_world_cracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_pk_nanobots",
+      "to": "tech_dm_nanobot_diffuser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_dm_nanobot_diffuser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_pk_godray",
+      "to": "tech_dm_divine_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_dm_divine_enforcer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_pk_neutron",
+      "to": "tech_dm_neutron_sweep",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_dm_neutron_sweep",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_pk_shielder",
+      "to": "tech_dm_global_pacifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_dm_global_pacifier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_pk_cracker",
+      "to": "tech_dm_world_cracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_dm_world_cracker",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_armor",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase_ae",
+      "to": "tech_reinforced_starbase_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reinforced_starbase",
+      "to": "tech_reinforced_starbase_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_reinforced_starbase",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_omega_colossus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_colossus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_gatekeeper",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_sigma",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omege_sentinel",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_battlecruiser",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_escort",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_guardian",
+      "to": "tech_omega_guardian",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lightmatter_reactor",
+      "to": "tech_omega_guardian",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_precursor_colossus_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus_ae",
+      "to": "tech_precursor_colossus_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_colossus_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_colossus_se",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers_alpha",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_gatekeepers_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense_alpha",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_tower_offense_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan_alpha",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_titan_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier_alpha",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_fe_assault_carrier_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_alpha",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_bc_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_alpha",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_thruster",
+      "to": "tech_precursor_escort_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_guardian",
+      "to": "tech_precursor_guardian_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_guardian_alpha",
+      "to": "tech_precursor_guardian_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_stellarite_reactor",
+      "to": "tech_precursor_guardian_sigma",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_guardian",
+      "to": "tech_precursor_guardian_cost",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_colossus",
+      "to": "tech_precursor_colossus_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_colossus_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5189,7 +7499,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_fe_thruster_2",
-      "to": "tech_missile_ae",
+      "to": "tech_precursor_colossus_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5197,26 +7507,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_missiles_5",
-      "to": "tech_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_missile_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_point_defense_dm",
-      "to": "tech_point_defense_ae",
+      "from": "tech_fe_tower_offense",
+      "to": "tech_fe_tower_offense_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5225,7 +7517,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_point_defense_ae",
+      "to": "tech_fe_tower_offense_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5233,8 +7525,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_pd_tracking_3",
-      "to": "tech_point_defense_dm",
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_tower_offense_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5242,53 +7534,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_point_defense_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_dm",
-      "to": "tech_plasma_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_laser_ae",
-      "to": "tech_plasma_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_3",
-      "to": "tech_plasma_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_laser_dm",
-      "to": "tech_plasma_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_disruptor_dm",
-      "to": "tech_disruptor_ae",
+      "from": "tech_gatekeepers",
+      "to": "tech_gatekeepers_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5297,7 +7544,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_disruptor_ae",
+      "to": "tech_gatekeepers_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5305,8 +7552,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_disruptors_3",
-      "to": "tech_disruptor_dm",
+      "from": "tech_fe_thruster_2",
+      "to": "tech_gatekeepers_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5314,53 +7561,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_disruptor_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_energy_torpedo_dm",
-      "to": "tech_energy_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_ae",
-      "to": "tech_energy_torpedo_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_energy_torpedoes_2",
-      "to": "tech_energy_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_plasma_dm",
-      "to": "tech_energy_torpedo_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_laser_dm",
-      "to": "tech_laser_ae",
+      "from": "tech_precursor_titan",
+      "to": "tech_precursor_titan_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5369,7 +7571,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_laser_ae",
+      "to": "tech_precursor_titan_alpha",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5377,8 +7579,179 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_lasers_5",
-      "to": "tech_laser_dm",
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_titan_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_assault_carrier",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_fe_assault_carrier_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc_delta",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_bc_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort_delta",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_precursor_escort_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_guardian",
+      "to": "tech_precursor_guardian_alpha",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_bc",
+      "to": "tech_precursor_bc_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_escort",
+      "to": "tech_precursor_escort_delta",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_gatekeepers",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_titan",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_fe_assault_carrier",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_bc",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_precursor_design",
+      "to": "tech_precursor_escort",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -5387,7 +7760,295 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_dark_matter_power_core",
-      "to": "tech_laser_dm",
+      "to": "tech_mine_dark_energy",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_bionic_interface",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_darkmatter_aura_energy_drainer",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_enigmatic_drive",
+      "to": "tech_darkmatter_hyper_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_ae",
+      "to": "tech_darkmatter_reactive_drone",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_darkmatter_reactor_booster",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector_ae",
+      "to": "tech_darkmatter_shield_supercharger",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensor_fe",
+      "to": "tech_darkmatter_star_charter",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_darkmatter_afterburners",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_afterburners_2",
+      "to": "tech_darkmatter_afterburners",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_armor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_armor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_armor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_armor_dm",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_dm",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mine_dark_energy",
+      "to": "tech_dark_matter_power_core_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_deflector",
+      "to": "tech_dark_matter_deflector_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_dark_matter_deflector_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_propulsion",
+      "to": "tech_fe_thruster_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_fe_thruster_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_4",
+      "to": "tech_sensors_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_sensors_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_sensors_dm",
+      "to": "tech_sensor_fe",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_sensor_fe",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_psi_jump_drive_1",
+      "to": "tech_shroud_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_shroud_jump_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_jump_drive_1",
+      "to": "tech_enigmatic_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_enigmatic_drive",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_fighter_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_missile_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_kinetic_core",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_energy_core",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6034,8 +8695,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_warp_lightmatter_cannon",
-      "to": "tech_lightmatter_titan_accelerator",
+      "from": "tech_point_defense_dm",
+      "to": "tech_point_defense_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6043,8 +8704,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_perdition_beam_dm",
-      "to": "tech_shroud_storm",
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_point_defense_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6052,8 +8713,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "tech_shroud_hanger",
+      "from": "tech_pd_tracking_3",
+      "to": "tech_point_defense_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6061,8 +8722,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_missile_dm",
-      "to": "tech_shroud_missile",
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_point_defense_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6070,8 +8731,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_container",
-      "to": "tech_dark_matter_strategy",
+      "from": "tech_plasma_dm",
+      "to": "tech_plasma_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6079,8 +8740,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_dark_matter_generation",
-      "to": "tech_dark_matter_container",
+      "from": "tech_laser_ae",
+      "to": "tech_plasma_ae",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6088,8 +8749,125 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_mine_dark_matter",
-      "to": "tech_dark_matter_generation",
+      "from": "tech_plasma_3",
+      "to": "tech_plasma_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_laser_dm",
+      "to": "tech_plasma_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_disruptor_dm",
+      "to": "tech_disruptor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_disruptor_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_disruptors_3",
+      "to": "tech_disruptor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_disruptor_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedo_dm",
+      "to": "tech_energy_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_ae",
+      "to": "tech_energy_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_energy_torpedoes_2",
+      "to": "tech_energy_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_plasma_dm",
+      "to": "tech_energy_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_laser_dm",
+      "to": "tech_laser_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_laser_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_lasers_5",
+      "to": "tech_laser_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_laser_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6234,6 +9012,150 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "tech_dark_matter_power_core",
       "to": "tech_mass_driver_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_swarmer_missile_dm",
+      "to": "tech_swarmer_missile_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missile_ae",
+      "to": "tech_swarmer_missile_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_swarmer_missiles_2",
+      "to": "tech_swarmer_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_swarmer_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedo_dm",
+      "to": "tech_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missile_ae",
+      "to": "tech_torpedo_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_torpedoes_3",
+      "to": "tech_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_torpedo_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missile_dm",
+      "to": "tech_missile_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_fe_thruster_2",
+      "to": "tech_missile_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_5",
+      "to": "tech_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_missile_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_bomber_dm",
+      "to": "tech_strike_craft_bomber_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core_ae",
+      "to": "tech_strike_craft_bomber_ae",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_strike_craft_3",
+      "to": "tech_strike_craft_bomber_dm",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_dark_matter_power_core",
+      "to": "tech_strike_craft_bomber_dm",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6484,8 +9406,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_stellarite_bomberman",
+      "from": "tech_dark_matter_container",
+      "to": "tech_dark_matter_strategy",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -6493,1988 +9415,8 @@ AncientCacheofTechnologiesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_stellarite_army",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_wedemandit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_increased_processor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_machinelove",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_computers_autonomous",
-      "to": "tech_goodmachine",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_apexpredator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_benificialevolution",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonization_5",
-      "to": "tech_enhancedskin",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_championofxeno",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_diplomaticmastery",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_libertyfukyeah",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_manifest_destiny",
-      "to": "tech_lawandorder",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_forced_demand",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_vitality_boosters",
-      "to": "tech_enlightenment",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_markets",
-      "to": "tech_corporate_emperor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_markets",
-      "to": "tech_profit",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_master_shipcraft",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_purgexeno",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_synchronized_defences",
-      "to": "tech_advanced_weapon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_onlywar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_fleetsupremacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_fleetsupremacy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_galactic_campaigns",
-      "to": "tech_pacifist_tactics",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_onboard_priest",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_transcendent_faith",
-      "to": "tech_onboard_priest",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_space_defense_station_improvement",
-      "to": "tech_onbaord_engineer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_onbaord_engineer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_doctrine_fleet_size_4",
-      "to": "tech_navy_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_navy_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_combat_training",
-      "to": "tech_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_commissar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_neural_implants",
-      "to": "tech_fe_slave_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_fe_slave_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_omni_warmech",
-      "to": "tech_godmech",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_spm_battledroid",
-      "to": "tech_omni_warmech",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_spm_battledroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_synthtrooper",
-      "to": "tech_omnisynth",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_omnidroid",
-      "to": "tech_synthtrooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_droid_workers",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sapient_ai",
-      "to": "tech_omnidroid",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_templar",
-      "to": "tech_dark_psion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_elite_genetrooper",
-      "to": "tech_doom_hero",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gene_seed_purification",
-      "to": "tech_elite_genetrooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_elite_genetrooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_soul_purifier",
-      "to": "tech_xenoartillery",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_tank",
-      "to": "tech_dark_matter_megatank",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_liberty_gunship",
-      "to": "tech_liberty_prime",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_dark_matter_tank",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_inquisitor",
-      "to": "tech_living_saint",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_heavy_trooper",
-      "to": "tech_godofwar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_controller",
-      "to": "tech_terror_beyond",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_peacekeeper",
-      "to": "tech_captain_pacifist",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enforcer",
-      "to": "tech_commissar_lord",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_shadow_sniper",
-      "to": "tech_black_widow",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_telepathy",
-      "to": "tech_dark_templar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_dark_templar",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_peacekeeper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_soul_purifier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_enforcer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_inquisitor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_shadow_sniper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_heavy_trooper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_controller",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_army",
-      "to": "tech_elite_clone",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_army",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_armor",
-      "to": "tech_reinforced_starbase_se",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reinforced_starbase_ae",
-      "to": "tech_reinforced_starbase_se",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_ae",
-      "to": "tech_reinforced_starbase_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reinforced_starbase",
-      "to": "tech_reinforced_starbase_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_dm",
-      "to": "tech_reinforced_starbase",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_starbase_5",
-      "to": "tech_reinforced_starbase",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gatekeepers",
-      "to": "tech_omega_gatekeeper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omega_gatekeeper",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier",
-      "to": "tech_omega_carrier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier_sigma",
-      "to": "tech_omega_carrier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omega_carrier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_titan",
-      "to": "tech_omega_titan",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omega_titan",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_tower_offense",
-      "to": "tech_omege_sentinel",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omege_sentinel",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc",
-      "to": "tech_omega_battlecruiser",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omega_battlecruiser",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort",
-      "to": "tech_omega_escort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_lightmatter_reactor",
-      "to": "tech_omega_escort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gatekeepers",
-      "to": "tech_gatekeepers_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gatekeepers_alpha",
-      "to": "tech_gatekeepers_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_gatekeepers_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_gatekeepers_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_tower_offense_alpha",
-      "to": "tech_fe_tower_offense_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_fe_tower_offense_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_fe_tower_offense_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_titan_alpha",
-      "to": "tech_precursor_titan_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_precursor_titan_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_precursor_titan_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier_alpha",
-      "to": "tech_fe_assault_carrier_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_fe_assault_carrier_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_fe_assault_carrier_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc",
-      "to": "tech_precursor_bc_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc_alpha",
-      "to": "tech_precursor_bc_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_precursor_bc_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_precursor_bc_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort",
-      "to": "tech_precursor_escort_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort_alpha",
-      "to": "tech_precursor_escort_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_reactor",
-      "to": "tech_precursor_escort_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_stellarite_thruster",
-      "to": "tech_precursor_escort_sigma",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gatekeepers",
-      "to": "tech_gatekeepers_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_tower_offense",
-      "to": "tech_fe_tower_offense_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_titan",
-      "to": "tech_precursor_titan_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier",
-      "to": "tech_fe_assault_carrier_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc",
-      "to": "tech_precursor_bc_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort",
-      "to": "tech_precursor_escort_cost",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_tower_offense",
-      "to": "tech_fe_tower_offense_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_fe_tower_offense_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_fe_tower_offense_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_gatekeepers",
-      "to": "tech_gatekeepers_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_gatekeepers_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_gatekeepers_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_titan",
-      "to": "tech_precursor_titan_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_precursor_titan_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_precursor_titan_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_assault_carrier",
-      "to": "tech_fe_assault_carrier_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_fe_assault_carrier_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_fe_assault_carrier_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc",
-      "to": "tech_precursor_bc_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc_delta",
-      "to": "tech_precursor_bc_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_precursor_bc_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_precursor_bc_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort",
-      "to": "tech_precursor_escort_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort_delta",
-      "to": "tech_precursor_escort_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_precursor_escort_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_precursor_escort_alpha",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_bc",
-      "to": "tech_precursor_bc_delta",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_escort",
-      "to": "tech_precursor_escort_delta",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_design",
-      "to": "tech_gatekeepers",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_design",
-      "to": "tech_precursor_titan",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_design",
-      "to": "tech_fe_assault_carrier",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_design",
-      "to": "tech_precursor_bc",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_precursor_design",
-      "to": "tech_precursor_escort",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_mine_dark_energy",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_bionic_interface",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_darkmatter_aura_energy_drainer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_drive",
-      "to": "tech_darkmatter_hyper_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_ae",
-      "to": "tech_darkmatter_reactive_drone",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_darkmatter_reactor_booster",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector_ae",
-      "to": "tech_darkmatter_shield_supercharger",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensor_fe",
-      "to": "tech_darkmatter_star_charter",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_thruster_2",
-      "to": "tech_darkmatter_afterburners",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_afterburners_2",
-      "to": "tech_darkmatter_afterburners",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_armor_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_dm",
-      "to": "tech_armor_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_armor_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_power_core_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_armor_dm",
-      "to": "tech_dark_matter_power_core_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_dm",
-      "to": "tech_dark_matter_power_core_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_dark_matter_power_core_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector",
-      "to": "tech_dark_matter_deflector_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_dark_matter_deflector_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_propulsion",
-      "to": "tech_fe_thruster_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_fe_thruster_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_4",
-      "to": "tech_sensors_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_sensors_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_sensors_dm",
-      "to": "tech_sensor_fe",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_sensor_fe",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_psi_jump_drive_1",
-      "to": "tech_shroud_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_shroud_jump_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_jump_drive_1",
-      "to": "tech_enigmatic_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_enigmatic_drive",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fighter_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_missile_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_kinetic_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_energy_core",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_strike_craft_bomber_dm",
-      "to": "tech_strike_craft_bomber_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_strike_craft_bomber_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_strike_craft_3",
-      "to": "tech_strike_craft_bomber_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_strike_craft_bomber_dm",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_hive_depot",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_housing_2",
-      "to": "tech_fe_hive_depot",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_ae_ancient_cryo_chamber",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_micro_replicators",
-      "to": "tech_ae_ancient_cryo_chamber",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_luxuries_2",
-      "to": "tech_fe_factory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_colonial_centralization",
-      "to": "tech_fe_factory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_factory",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_frontier_hospital",
-      "to": "tech_fe_hospital",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_hospital",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_paradise_dome",
-      "to": "tech_dark_mansion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_mansion",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_volatile_motes",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_exotic_gases",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_rare_crystals",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_transmutor",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_alloys_2",
-      "to": "tech_fe_alloy_foundry",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_fe_mineral_processing_plant",
-      "to": "tech_fe_alloy_foundry",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_food_processing_2",
-      "to": "tech_fe_food_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_food_processing",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_global_research_initiative",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_lab",
-      "to": "tech_fe_institute",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_power_hub_2",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_fe_power_hub",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mineral_purification_2",
-      "to": "tech_fe_mineral_processing_plant",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_fe_mineral_processing_plant",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cloning",
-      "to": "tech_ae_clone_vats",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_elite_clone",
-      "to": "tech_ae_clone_vats",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ae_stronghold",
-      "to": "tech_giga_fortress",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_global_defense_grid",
-      "to": "tech_ae_stronghold",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_stronghold",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector_ae",
-      "to": "tech_ae_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_energy_psg",
-      "to": "tech_ae_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_deflector",
-      "to": "tech_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_shield_generator",
-      "to": "tech_dark_energy_psg",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_enigmatic_lab",
-      "to": "tech_ae_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_basic_science_lab_2",
-      "to": "tech_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_enigmatic_lab",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_dark_energy_pylon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_ae_dark_energy_pylon",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_generator",
-      "to": "tech_ae_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_generator",
+      "from": "tech_dark_matter_generation",
+      "to": "tech_dark_matter_container",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8483,97 +9425,7 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "tech_mine_dark_matter",
-      "to": "tech_dark_matter_generator",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_synthersizer",
-      "to": "tech_dark_matter_synthersizer_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_ae_dark_energy_pylon",
-      "to": "tech_dark_matter_synthersizer_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_dark_matter_synthersizer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_mine_dark_energy",
-      "to": "tech_dark_matter_synthersizer",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_super_assembly",
-      "to": "tech_super_assembly_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_super_assembly_ae",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core",
-      "to": "tech_super_assembly",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_hive_cluster",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_control_center",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_dark_matter_power_core_ae",
-      "to": "tech_ae_ancient_palace",
+      "to": "tech_dark_matter_generation",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -8582,7 +9434,71 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_stellarite_reactor",
+      "to": "tech_progenitor_avatar",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_progenitor_titan",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_progenitor_battlecruiser",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_progenitor_escort",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_omega_warmech",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_celestial_guardian",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_psionic_archon",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_planet_killer_naniter",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_liberty_gunship",
       "color": {
         "opacity": 0.0
       },
@@ -8854,7 +9770,23 @@ AncientCacheofTechnologiesGraphDataTech = {
     },
     {
       "from": "Engineering-root",
-      "to": "tech_liberty_gunship",
+      "to": "tech_precursor_escort_cost",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_precursor_colossus",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_precursor_guardian",
       "color": {
         "opacity": 0.0
       },
@@ -8871,6 +9803,14 @@ AncientCacheofTechnologiesGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_precursor_design",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_stellarite_reactor",
       "color": {
         "opacity": 0.0
       },

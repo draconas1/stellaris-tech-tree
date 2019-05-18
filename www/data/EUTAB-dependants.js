@@ -2,19 +2,6 @@ EUTABGraphDataDependants = {
   "ModGroup": "EUTAB",
   "nodes": [
     {
-      "id": "building_military_academy",
-      "label": "Military Academy",
-      "group": "Building",
-      "title": "<b>Military Academy</b> (building_military_academy)<br/><i>Military Academies improve local recruitment rates and offer a higher standard of training.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Build Time: </b>480<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals<br/><b>Upkeep:</b> 2 Energy Credits<br/><b>Soldier Jobs:</b> +1<br/><b>Warrior Drone Jobs:</b> +1",
-      "level": 12,
-      "image": "images/buildings/building_military_academy.png",
-      "hasImage": true,
-      "nodeType": "building",
-      "prerequisites": [
-        "tech_centralized_command"
-      ]
-    },
-    {
       "id": "building_hydroponics_farm",
       "label": "Hydroponics Farms",
       "group": "Building",
@@ -51,6 +38,19 @@ EUTABGraphDataDependants = {
       "nodeType": "building",
       "prerequisites": [
         "tech_paradise_dome"
+      ]
+    },
+    {
+      "id": "building_military_academy",
+      "label": "Military Academy",
+      "group": "Building",
+      "title": "<b>Military Academy</b> (building_military_academy)<br/><i>Military Academies improve local recruitment rates and offer a higher standard of training.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Build Time: </b>480<br/><b>Category: </b>Army<br/><b>Cost:</b> 400 Minerals<br/><b>Upkeep:</b> 2 Energy Credits<br/><b>Soldier Jobs:</b> +1<br/><b>Warrior Drone Jobs:</b> +1",
+      "level": 12,
+      "image": "images/buildings/building_military_academy.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_centralized_command"
       ]
     },
     {
@@ -325,6 +325,24 @@ EUTABGraphDataDependants = {
       "dashes": true
     },
     {
+      "from": "tech_planetary_government",
+      "to": "building_maintenance_depot",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_paradise_dome",
+      "to": "building_paradise_dome",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_centralized_command",
       "to": "building_military_academy",
       "arrows": "to",
@@ -507,24 +525,6 @@ EUTABGraphDataDependants = {
     {
       "from": "tech_eutab_dev_district",
       "to": "building_eutab_dev_district",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_planetary_government",
-      "to": "building_maintenance_depot",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_paradise_dome",
-      "to": "building_paradise_dome",
       "arrows": "to",
       "color": {
         "color": "grey"
