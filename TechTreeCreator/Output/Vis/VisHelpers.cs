@@ -33,6 +33,7 @@ namespace TechTreeCreator.Output.Vis {
 
         public static string CreateRelativePath(string fullPath, string relativeTo) {
             var relativePath = fullPath.Replace(relativeTo, "");
+            relativePath = relativePath.Replace(@"\", "/");
             if (relativePath.StartsWith("/")) {
                 relativePath = relativePath.Remove(0, 1);
             }
