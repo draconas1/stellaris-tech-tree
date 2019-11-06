@@ -1,25 +1,25 @@
 [
   {
-    "Name": "!!!!Universal Districts Patch",
-    "NameRaw": "!!!!Universal Districts Patch",
+    "Name": "!! 00 Performance",
+    "NameRaw": "!! 00 Performance",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1635222296/!!!!Universal Districts Patch.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1882139456/Z PERFORMANCE.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "!!District Overhaul",
-    "NameRaw": "!!District Overhaul",
+    "Name": "!! 00 Performance Universial Compatibility",
+    "NameRaw": "!! 00 Performance Universial Compatibility",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1742527573/districtoverhaul.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1884132190/z performance_compatibility.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "!Ancient Cache of Technologies_ Override",
-    "NameRaw": "!Ancient Cache of Technologies: Override",
+    "Name": "!~ Universal Notifications Patch ~!",
+    "NameRaw": "!~ Universal Notifications Patch ~!",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1504307690/!zofeacotoveride.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1822425191/notifications.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -27,15 +27,7 @@
     "Name": "!At War_ Planetary Cannons STAR WARS Edition",
     "NameRaw": "!At War: Planetary Cannons STAR WARS Edition",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1647273693/eac_aw_pc_sw.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "!At War_ Planetary Defense Force Downscaled Patch",
-    "NameRaw": "!At War: Planetary Defense Force Downscaled Patch",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1654814283/eac_aw_pdf_ds.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1647273693/EAC_AW_PC_SW.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -48,6 +40,22 @@
     "Include": false
   },
   {
+    "Name": "!CGM_ Planets Enhanced",
+    "NameRaw": "!CGM: Planets Enhanced",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1418548545/cgm_planets_enhanced.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "!Core Game Mechanics_ Buildings",
+    "NameRaw": "!Core Game Mechanics: Buildings",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1365485813/buildings.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
     "Name": "!Gigastructures - Real Space Patch",
     "NameRaw": "!Gigastructures - Real Space Patch",
     "ModGroup": null,
@@ -56,164 +64,388 @@
     "Include": false
   },
   {
-    "Name": "!Gigastructures - Starborn Patch",
-    "NameRaw": "!Gigastructures - Starborn Patch",
-    "ModGroup": null,
-    "ArchiveFilePath": null,
-    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/0gigastructurestarborn",
-    "Include": false
-  },
-  {
     "Name": "!habitable Structures Patch",
     "NameRaw": "!habitable Structures Patch",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1636492142/!zhabitable_structures_patch.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1636492142",
+    "Include": false
+  },
+  {
+    "Name": "!Modifiers fix(2.5._)",
+    "NameRaw": "!Modifiers fix(2.5.*)",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1688887083/modifier_fix.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "!Mod Menu",
-    "NameRaw": "!Mod Menu",
+    "Name": "!Starborn Compatibility Patch",
+    "NameRaw": "!Starborn Compatibility Patch",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1087781345/modmenu.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "!Planetary Diversity - Exotic Worlds",
-    "NameRaw": "!Planetary Diversity - Exotic Worlds",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1732437279/planetary_diversity_exotics.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "[2.2] Mett's Ascendancy and Home Ringworld Starts",
-    "NameRaw": "[2.2] Mett's Ascendancy and Home Ringworld Starts",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1146451228/mett_ascendancy_and_home_ringworld_starts.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/0starborndistrictpatch",
     "Include": false
   },
   {
     "Name": "_Remastered Human Portraits",
     "NameRaw": "*Remastered Human Portraits",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1591647610/zrhp.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1591647610",
+    "Include": false
+  },
+  {
+    "Name": "01_Amazing Space Battles",
+    "NameRaw": "01_Amazing Space Battles",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1878473679/ASB.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "_Remastered Human Portraits Expanded",
-    "NameRaw": "*Remastered Human Portraits Expanded",
+    "Name": "02_Colored Ethics",
+    "NameRaw": "02_Colored Ethics",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1635059883/RHPE.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1766020710",
+    "Include": false
+  },
+  {
+    "Name": "03_Crisis Manager - End-Game Edition [BETA]",
+    "NameRaw": "03_Crisis Manager - End-Game Edition [BETA]",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1400726514/CrisisManagerEndGame.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "~Glavius's Ultimate AI for 2.2.7",
-    "NameRaw": "~Glavius's Ultimate AI for 2.2.7",
+    "Name": "04_Dark Matter Power Creation",
+    "NameRaw": "04_Dark Matter Power Creation",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1584133829/gai.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1438342529/darkmattercreation.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "A True Synthetic Age",
-    "NameRaw": "A True Synthetic Age",
+    "Name": "05_Dynamic Difficulty - Ultimate Customization",
+    "NameRaw": "05_Dynamic Difficulty - Ultimate Customization",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1616134111/truesynthage.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1590362799/custom_difficulty.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "Additional Mega Planets",
-    "NameRaw": "Additional Mega Planets",
+    "Name": "06_Dyson Swarm",
+    "NameRaw": "06_Dyson Swarm",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1732072958/eq.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1624127196",
+    "Include": false
+  },
+  {
+    "Name": "07_Encourage Growth Permanently",
+    "NameRaw": "07_Encourage Growth Permanently",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1593221761",
+    "Include": false
+  },
+  {
+    "Name": "08_Expanded Stellaris Traditions",
+    "NameRaw": "08_Expanded Stellaris Traditions",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/946222466",
+    "Include": false
+  },
+  {
+    "Name": "09_Plentiful Traditions 2.5.0",
+    "NameRaw": "09_Plentiful Traditions 2.5.0",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1311725711",
+    "Include": false
+  },
+  {
+    "Name": "10_Galactic Market Location",
+    "NameRaw": "10_Galactic Market Location",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1667052422/EAC_GML.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "Ancient Cache of Technologies",
-    "NameRaw": "Ancient Cache of Technologies",
-    "ModGroup": "Ancient Cache of Technologies",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1419304439/zotfeenigtech.zip",
-    "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
-    "Name": "Ancient Caches of Technologies_ Sins of the Fallen Empires - BETA",
-    "NameRaw": "Ancient Caches of Technologies: Sins of the Fallen Empires - BETA",
-    "ModGroup": "Ancient Cache of Technologies",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1481972266/zotfesofe.zip",
-    "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
-    "Name": "Art of Stellaris_Loading Screens",
-    "NameRaw": "Art of Stellaris:Loading Screens",
+    "Name": "11_Guilli's Planet Modifiers 2.5",
+    "NameRaw": "11_Guilli's Planet Modifiers 2.5",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1741184386/ArtOfStellaris.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\865040033/Guilli's Planet Modifiers 2.5.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "12_Guilli's Ship Components 2.3",
+    "NameRaw": "12_Guilli's Ship Components 2.3",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\690350384/Guilli's Ship Components 2.3.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "14_Improved Mars",
+    "NameRaw": "14_Improved Mars",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1693364111",
+    "Include": false
+  },
+  {
+    "Name": "15_Mod Menu",
+    "NameRaw": "15_Mod Menu",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1087781345",
+    "Include": false
+  },
+  {
+    "Name": "16_More Events Mod",
+    "NameRaw": "16_More Events Mod",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\727000451/mem_stable.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "17_PLANETARY DIVERSITY New Worlds Module",
+    "NameRaw": "17_PLANETARY DIVERSITY New Worlds Module",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1616934635/planetary_diversity-nw.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "18_Planetary Diveristy - Planetary Habitats",
+    "NameRaw": "18_Planetary Diveristy - Planetary Habitats",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1878751971",
+    "Include": false
+  },
+  {
+    "Name": "19_Planetary Diversity - Exotic Worlds",
+    "NameRaw": "19_Planetary Diversity - Exotic Worlds",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1732437279",
+    "Include": false
+  },
+  {
+    "Name": "20_Planetary Diversity - More Arcologies",
+    "NameRaw": "20_Planetary Diversity - More Arcologies",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1732447147",
+    "Include": false
+  },
+  {
+    "Name": "21_Planetary Diversity - Reworked Habitability",
+    "NameRaw": "21_Planetary Diversity - Reworked Habitability",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1807850864",
+    "Include": false
+  },
+  {
+    "Name": "22_Planetary Diversity - Unique Worlds",
+    "NameRaw": "22_Planetary Diversity - Unique Worlds",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1740165239",
+    "Include": false
+  },
+  {
+    "Name": "23_Real Space 3.4",
+    "NameRaw": "23_Real Space 3.4",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/937289339",
+    "Include": false
+  },
+  {
+    "Name": "24_Gigastructural Engineering & More (2.4)",
+    "NameRaw": "24_Gigastructural Engineering & More (2.4)",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1121692237",
+    "Include": false
+  },
+  {
+    "Name": "25_Star Finder",
+    "NameRaw": "25_Star Finder",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/starfinder",
+    "Include": false
+  },
+  {
+    "Name": "26_UI Overhaul Dynamic",
+    "NameRaw": "26_UI Overhaul Dynamic",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1623423360",
+    "Include": false
+  },
+  {
+    "Name": "29_UI Overhaul Dynamic - Checksum Schism Version",
+    "NameRaw": "29_UI Overhaul Dynamic - Checksum Schism Version",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1880893750/ui_overhaul_qhd_checksum.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "30_UI Overhaul Dynamic - Extended Topbar & Modbuttons",
+    "NameRaw": "30_UI Overhaul Dynamic - Extended Topbar & Modbuttons",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1785149533/ui_overhaul_qhd_topbar_modbuttons.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "31_Vassals Expanded and Reworked",
+    "NameRaw": "31_Vassals Expanded and Reworked",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1813104049",
+    "Include": false
+  },
+  {
+    "Name": "32_Dynamic Political Events",
+    "NameRaw": "32_Dynamic Political Events",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1227620643/cc_events.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "33_Traditional Trees",
+    "NameRaw": "33_Traditional Trees",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1703333167",
+    "Include": false
+  },
+  {
+    "Name": "34_Planetary Diversity",
+    "NameRaw": "34_Planetary Diversity",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/819148835",
+    "Include": false
+  },
+  {
+    "Name": "35_!Starborn Compatibility Patch",
+    "NameRaw": "35_!Starborn Compatibility Patch",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/0starborndistrictpatch",
+    "Include": false
+  },
+  {
+    "Name": "36_!habitable Structures Patch",
+    "NameRaw": "36_!habitable Structures Patch",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1636492142",
+    "Include": false
+  },
+  {
+    "Name": "37_Universal Resource Patch [+2.4]",
+    "NameRaw": "37_Universal Resource Patch [+2.4]",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1595876588",
+    "Include": false
+  },
+  {
+    "Name": "A Deadly Tempest",
+    "NameRaw": "A Deadly Tempest",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1539768809/a_deadly_tempest.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "All Unique Systems",
+    "NameRaw": "All Unique Systems",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1749231641",
+    "Include": false
+  },
+  {
+    "Name": "Amazing Space Battles",
+    "NameRaw": "Amazing Space Battles",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1878473679/ASB.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Animated Humanoid Synthetic Portraits Update for 2.3",
+    "NameRaw": "Animated Humanoid Synthetic Portraits Update for 2.3",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1790763608/syntheticportrait.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "ASB Addon_ More Particles",
+    "NameRaw": "ASB Addon: More Particles",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1468105710/ASB More Particles.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
     "Name": "At War_ Advanced Ship Sections",
     "NameRaw": "At War: Advanced Ship Sections",
-    "ModGroup": "At War",
+    "ModGroup": null,
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1612679489/EAC_AW_SHIPS.zip",
     "ModDirectoryPath": null,
-    "Include": true
+    "Include": false
   },
   {
     "Name": "At War_ Better Admiral Experience",
     "NameRaw": "At War: Better Admiral Experience",
-    "ModGroup": "At War",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1630977779/EAC_BAE.zip",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1630977779/EAC_AW_BAE.zip",
     "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
-    "Name": "At War_ Carrier Enhancements",
-    "NameRaw": "At War: Carrier Enhancements",
-    "ModGroup": "At War",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1660235095/EAC_AW_CARRIER.zip",
-    "ModDirectoryPath": null,
-    "Include": true
+    "Include": false
   },
   {
     "Name": "At War_ Defense Platform Longevity",
     "NameRaw": "At War: Defense Platform Longevity",
-    "ModGroup": "At War",
+    "ModGroup": null,
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1633386532/EAC_AW_DPL.zip",
     "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
-    "Name": "At War_ Planetary Cannons",
-    "NameRaw": "At War: Planetary Cannons",
-    "ModGroup": "At War",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1609801017/EAC_AW_PC.zip",
-    "ModDirectoryPath": null,
-    "Include": true
+    "Include": false
   },
   {
     "Name": "At War_ Planetary Defense Force",
     "NameRaw": "At War: Planetary Defense Force",
-    "ModGroup": "At War",
+    "ModGroup": null,
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1653043481/EAC_AW_PDF.zip",
     "ModDirectoryPath": null,
-    "Include": true
+    "Include": false
   },
   {
     "Name": "At War_ Starbase Improvements",
     "NameRaw": "At War: Starbase Improvements",
-    "ModGroup": "At War",
+    "ModGroup": null,
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1613766846/EAC_AW_STATIONS.zip",
     "ModDirectoryPath": null,
-    "Include": true
+    "Include": false
   },
   {
     "Name": "Automatic Pop Migration",
@@ -235,16 +467,16 @@
     "Name": "Better Galaxy Icon Overview",
     "NameRaw": "Better Galaxy Icon Overview",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1607355392/better_galaxy_icon_overview.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1607355392",
     "Include": false
   },
   {
-    "Name": "Bigger Planet View",
-    "NameRaw": "Bigger Planet View",
+    "Name": "Colored Ethics",
+    "NameRaw": "Colored Ethics",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1587178040/BiggerPlanetView.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1766020710",
     "Include": false
   },
   {
@@ -256,10 +488,18 @@
     "Include": false
   },
   {
-    "Name": "Cybrxkhan's Assortment of Namelists for Stellaris",
-    "NameRaw": "Cybrxkhan's Assortment of Namelists for Stellaris",
+    "Name": "Crisis Manager - End-Game Edition [BETA]",
+    "NameRaw": "Crisis Manager - End-Game Edition [BETA]",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\682691478/CANS.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1400726514/CrisisManagerEndGame.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Cyborg Portraits",
+    "NameRaw": "Cyborg Portraits",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1639761478/cyborg_portraits.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -288,10 +528,26 @@
     "Include": false
   },
   {
-    "Name": "Dune 2000 Empires (Achievement compatible)",
-    "NameRaw": "Dune 2000 Empires (Achievement compatible)",
+    "Name": "Dragon-themed Descriptive Fantasy Names",
+    "NameRaw": "Dragon-themed Descriptive Fantasy Names",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1601100088/d2k-empires.zip",
+    "ArchiveFilePath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/902479647/dragon-names.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Dynamic Difficulty - Ultimate Customization",
+    "NameRaw": "Dynamic Difficulty - Ultimate Customization",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1590362799/custom_difficulty.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Dynamic Political Events",
+    "NameRaw": "Dynamic Political Events",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1227620643/cc_events.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -299,9 +555,9 @@
     "Name": "Dyson Swarm",
     "NameRaw": "Dyson Swarm",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1624127196/dyson_swarm.zip",
-    "ModDirectoryPath": null,
-    "Include": true
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1624127196",
+    "Include": false
   },
   {
     "Name": "Empire University",
@@ -315,33 +571,17 @@
     "Name": "Encourage Growth Permanently",
     "NameRaw": "Encourage Growth Permanently",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1593221761/BetterFoodBoost.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Enhanced Habitats",
-    "NameRaw": "Enhanced Habitats",
-    "ModGroup": null,
     "ArchiveFilePath": null,
-    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/enhanced-hab",
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1593221761",
     "Include": false
   },
   {
     "Name": "EUTAB - Ethos Unique Techs and Buildings",
     "NameRaw": "EUTAB - Ethos Unique Techs and Buildings",
     "ModGroup": "EUTAB",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\804732593/eutab.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/804732593",
     "Include": true
-  },
-  {
-    "Name": "EUTAB - Unique Buildings (Achievements Enabled)",
-    "NameRaw": "EUTAB - Unique Buildings (Achievements Enabled)",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1399770323/eutabuniquebuildings.zip",
-    "ModDirectoryPath": null,
-    "Include": false
   },
   {
     "Name": "Evolving HyperLanes",
@@ -352,27 +592,19 @@
     "Include": false
   },
   {
+    "Name": "Expanded Stellaris Traditions",
+    "NameRaw": "Expanded Stellaris Traditions",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/946222466",
+    "Include": false
+  },
+  {
     "Name": "Extended Vanilla Clothes",
     "NameRaw": "Extended Vanilla Clothes",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\873063455/extended_vanilla_clothes.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Extended Vanilla Palette (2.2._)",
-    "NameRaw": "Extended Vanilla Palette (2.2.*)",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1588853224/evp.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Fallen Empire Building Artwork Dedesigned - ACOT",
-    "NameRaw": "Fallen Empire Building Artwork Dedesigned - ACOT",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1596756334/acotredesign.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/873063455",
     "Include": false
   },
   {
@@ -384,34 +616,18 @@
     "Include": false
   },
   {
-    "Name": "Gigastructural Engineering & More (2.2)",
-    "NameRaw": "Gigastructural Engineering & More (2.2)",
+    "Name": "Gigastructural Engineering & More (2.4)",
+    "NameRaw": "Gigastructural Engineering & More (2.4)",
     "ModGroup": "Gigastructures",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1121692237/gigastructuresandmore.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1121692237",
     "Include": true
   },
   {
-    "Name": "Guilli's Bioform Hive Mind Civic",
-    "NameRaw": "Guilli's Bioform Hive Mind Civic",
+    "Name": "Guilli's Planet Modifiers 2.5",
+    "NameRaw": "Guilli's Planet Modifiers 2.5",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1729004593/Guilli's Bioform Hive Mind Civic.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Guilli's Planet Modifiers 2.2",
-    "NameRaw": "Guilli's Planet Modifiers 2.2",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\865040033/Guilli's Planet Modifiers 2.2.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Guilli's Plantoid Ship Graphics Pack",
-    "NameRaw": "Guilli's Plantoid Ship Graphics Pack",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\796045259/White Plantoid Ships.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\865040033/Guilli's Planet Modifiers 2.5.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -419,7 +635,31 @@
     "Name": "GUILLI's PM + Planetary Diversity Patch",
     "NameRaw": "GUILLI's PM + Planetary Diversity Patch",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1680336144/planetary_diversity-nw-gpm.zip",
+    "ArchiveFilePath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1680336144/planetary_diversity-nw-gpm.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Guilli's Ship Components 2.3",
+    "NameRaw": "Guilli's Ship Components 2.3",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\690350384/Guilli's Ship Components 2.3.zip",
+    "ModDirectoryPath": null,
+    "Include": true
+  },
+  {
+    "Name": "Guilli's Technologies 2.5",
+    "NameRaw": "Guilli's Technologies 2.5",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1793768254/Guilli's Technologies 2.5.zip",
+    "ModDirectoryPath": null,
+    "Include": true
+  },
+  {
+    "Name": "Human Revolution [2.3.x]",
+    "NameRaw": "Human Revolution [2.3.x]",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1807480766/hrsupdated.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -435,8 +675,8 @@
     "Name": "Improved Mars",
     "NameRaw": "Improved Mars",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1693364111/akmi.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1693364111",
     "Include": false
   },
   {
@@ -448,10 +688,66 @@
     "Include": false
   },
   {
+    "Name": "Interplanetary Agriculture",
+    "NameRaw": "Interplanetary Agriculture",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1872228567/tea.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
     "Name": "Job Descriptions (Achievement OK)",
     "NameRaw": "Job Descriptions (Achievement OK)",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1585106954/job_desc.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1585106954",
+    "Include": false
+  },
+  {
+    "Name": "Ketaros Clothes Base",
+    "NameRaw": "Ketaros Clothes Base",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1897941371",
+    "Include": false
+  },
+  {
+    "Name": "Ketaros Girls Hairs",
+    "NameRaw": "Ketaros Girls Hairs",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1899793146",
+    "Include": false
+  },
+  {
+    "Name": "Ketaros Hairs Pack Base",
+    "NameRaw": "Ketaros Hairs Pack Base",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1897723710",
+    "Include": false
+  },
+  {
+    "Name": "Ketaros Loadscreens",
+    "NameRaw": "Ketaros Loadscreens",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1900516126",
+    "Include": false
+  },
+  {
+    "Name": "Known Precursor",
+    "NameRaw": "Known Precursor",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1780597499",
+    "Include": false
+  },
+  {
+    "Name": "Light Borders",
+    "NameRaw": "Light Borders",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1506081421/light_borders.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -464,18 +760,42 @@
     "Include": false
   },
   {
-    "Name": "New Additions_ Edicts & Decisions",
-    "NameRaw": "New Additions: Edicts & Decisions",
+    "Name": "Mod Menu",
+    "NameRaw": "Mod Menu",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1660238390/EAC_NA_ACE.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1087781345",
+    "Include": false
+  },
+  {
+    "Name": "More Colours for Machines",
+    "NameRaw": "More Colours for Machines",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1839854769/robotcolour.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "Nod Virtual Assistant",
-    "NameRaw": "Nod Virtual Assistant",
+    "Name": "More Events Mod",
+    "NameRaw": "More Events Mod",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1535597838/nodvoiceadvisor.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\727000451/mem_stable.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "More Insults",
+    "NameRaw": "More Insults",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1223822935",
+    "Include": false
+  },
+  {
+    "Name": "New Additions_ Edicts & Decisions",
+    "NameRaw": "New Additions: Edicts & Decisions",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1660238390/EAC_NA_ACE.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -488,6 +808,14 @@
     "Include": false
   },
   {
+    "Name": "Perfectly Balanced Advisor",
+    "NameRaw": "Perfectly Balanced Advisor",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1864372552/advisor_spiffco.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
     "Name": "Pioneers Empires",
     "NameRaw": "Pioneers Empires",
     "ModGroup": null,
@@ -496,19 +824,59 @@
     "Include": false
   },
   {
+    "Name": "PJs __ Better Megastructures",
+    "NameRaw": "PJs :: Better Megastructures",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1711098117",
+    "Include": false
+  },
+  {
+    "Name": "Planetary Diveristy - Planetary Habitats",
+    "NameRaw": "Planetary Diveristy - Planetary Habitats",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1878751971",
+    "Include": false
+  },
+  {
     "Name": "Planetary Diversity",
     "NameRaw": "Planetary Diversity",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\819148835/planetary_diversity.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/819148835",
+    "Include": false
+  },
+  {
+    "Name": "Planetary Diversity - Exotic Worlds",
+    "NameRaw": "Planetary Diversity - Exotic Worlds",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1732437279",
     "Include": false
   },
   {
     "Name": "Planetary Diversity - More Arcologies",
     "NameRaw": "Planetary Diversity - More Arcologies",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1732447147/planetary_diversity_arcologies.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1732447147",
+    "Include": false
+  },
+  {
+    "Name": "Planetary Diversity - Reworked Habitability",
+    "NameRaw": "Planetary Diversity - Reworked Habitability",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1807850864",
+    "Include": false
+  },
+  {
+    "Name": "Planetary Diversity - Unique Worlds",
+    "NameRaw": "Planetary Diversity - Unique Worlds",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1740165239",
     "Include": false
   },
   {
@@ -520,27 +888,35 @@
     "Include": false
   },
   {
-    "Name": "Real Space - New Frontiers",
-    "NameRaw": "Real Space - New Frontiers",
+    "Name": "Planet-States",
+    "NameRaw": "Planet-States",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1588303618/realspace_new_frontiers.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1855732934",
+    "Include": false
+  },
+  {
+    "Name": "Plentiful Traditions 2.5.0",
+    "NameRaw": "Plentiful Traditions 2.5.0",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1311725711",
+    "Include": false
+  },
+  {
+    "Name": "Primitives Everywhere",
+    "NameRaw": "Primitives Everywhere",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1459937168/primitiveseverywhere.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "Real Space 3.2",
-    "NameRaw": "Real Space 3.2",
+    "Name": "Real Space 3.4",
+    "NameRaw": "Real Space 3.4",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\937289339/real_space.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "Scourge Ships",
-    "NameRaw": "Scourge Ships",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1093167117/scourgeships.zip",
-    "ModDirectoryPath": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/937289339",
     "Include": false
   },
   {
@@ -560,11 +936,11 @@
     "Include": false
   },
   {
-    "Name": "Staggered Habitats",
-    "NameRaw": "Staggered Habitats",
+    "Name": "Star Finder",
+    "NameRaw": "Star Finder",
     "ModGroup": null,
     "ArchiveFilePath": null,
-    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/staggered-hab",
+    "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/starfinder",
     "Include": false
   },
   {
@@ -573,7 +949,15 @@
     "ModGroup": null,
     "ArchiveFilePath": null,
     "ModDirectoryPath": "D:\\Users\\Draconas\\Documents\\Paradox Interactive\\Stellaris\\mod/starborn",
-    "Include": true
+    "Include": false
+  },
+  {
+    "Name": "Storypack_ The Nyblax and the Collector",
+    "NameRaw": "Storypack: The Nyblax and the Collector",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1878601358/storypack.zip",
+    "ModDirectoryPath": null,
+    "Include": false
   },
   {
     "Name": "Superstructures",
@@ -581,29 +965,13 @@
     "ModGroup": null,
     "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1603029229/superstructures.zip",
     "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
-    "Name": "Technology Guided",
-    "NameRaw": "Technology Guided",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1612811589/technology_guided.zip",
-    "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "The Infinity Stones",
-    "NameRaw": "The Infinity Stones",
+    "Name": "The Zenith of Fallen Empires _ Crisis Manager [Compatibility Patch]",
+    "NameRaw": "The Zenith of Fallen Empires / Crisis Manager [Compatibility Patch]",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1657016929/theinfinitystones.zip",
-    "ModDirectoryPath": null,
-    "Include": false
-  },
-  {
-    "Name": "The Quintessential British Name List",
-    "NameRaw": "The Quintessential British Name List",
-    "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\681545718/tearsdalebritishnamelist.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1624601443/ZoFE_CMT.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
@@ -611,7 +979,7 @@
     "Name": "The Zenith of Fallen Empires 2.0",
     "NameRaw": "The Zenith of Fallen Empires 2.0",
     "ModGroup": "Zenith of Fallen Empires",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1317022177/the_zenith_of_fallen_empires_2.zip",
+    "ArchiveFilePath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1317022177/the_zenith_of_fallen_empires_2.zip",
     "ModDirectoryPath": null,
     "Include": true
   },
@@ -656,18 +1024,10 @@
     "Include": true
   },
   {
-    "Name": "The Zenith of Fallen Empires_ Original People",
-    "NameRaw": "The Zenith of Fallen Empires: Original People",
-    "ModGroup": "Zenith of Fallen Empires",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1709504284/the_zenith_of_fallen_empires_original_people.zip",
-    "ModDirectoryPath": null,
-    "Include": true
-  },
-  {
     "Name": "The Zenith of Fallen Empires_ Paradise Lost",
     "NameRaw": "The Zenith of Fallen Empires: Paradise Lost",
     "ModGroup": "Zenith of Fallen Empires",
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1353101239/the_zenith_of_fallen_empires_paradise_lost.zip",
+    "ArchiveFilePath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1353101239/the_zenith_of_fallen_empires_paradise_lost.zip",
     "ModDirectoryPath": null,
     "Include": true
   },
@@ -688,6 +1048,14 @@
     "Include": true
   },
   {
+    "Name": "Tiny Fleets",
+    "NameRaw": "Tiny Fleets",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1629519297/ivam_tiny_fleets.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
     "Name": "Tiny Outliner v2",
     "NameRaw": "Tiny Outliner v2",
     "ModGroup": null,
@@ -696,19 +1064,67 @@
     "Include": false
   },
   {
-    "Name": "UI Overhaul 1080p & 1440p",
-    "NameRaw": "UI Overhaul 1080p & 1440p",
+    "Name": "Traditional Trees",
+    "NameRaw": "Traditional Trees",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1623423360/ui_overhaul_qhd.zip",
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1703333167",
+    "Include": false
+  },
+  {
+    "Name": "Two and half Ascension by kERHUS",
+    "NameRaw": "Two and half Ascension by kERHUS",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1904492942",
+    "Include": false
+  },
+  {
+    "Name": "UI Overhaul Dynamic",
+    "NameRaw": "UI Overhaul Dynamic",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1623423360",
+    "Include": false
+  },
+  {
+    "Name": "UI Overhaul Dynamic - Checksum Schism Version",
+    "NameRaw": "UI Overhaul Dynamic - Checksum Schism Version",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1880893750/ui_overhaul_qhd_checksum.zip",
     "ModDirectoryPath": null,
     "Include": false
   },
   {
-    "Name": "UI Overhaul 1080p Plus",
-    "NameRaw": "UI Overhaul 1080p Plus",
+    "Name": "UI Overhaul Dynamic - Extended Topbar & Modbuttons",
+    "NameRaw": "UI Overhaul Dynamic - Extended Topbar & Modbuttons",
     "ModGroup": null,
-    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\684509615/ui_overhaul_1080.zip",
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1785149533/ui_overhaul_qhd_topbar_modbuttons.zip",
     "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Universal Resource Patch [+2.4]",
+    "NameRaw": "Universal Resource Patch [+2.4]",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1595876588",
+    "Include": false
+  },
+  {
+    "Name": "Unofficial Machine & Synthetic Empire DLC",
+    "NameRaw": "Unofficial Machine & Synthetic Empire DLC",
+    "ModGroup": null,
+    "ArchiveFilePath": "C:\\\\Games\\\\SteamLibrary\\\\steamapps\\\\workshop\\\\content\\\\281990\\\\1762062219/unofficialmachinedlc.zip",
+    "ModDirectoryPath": null,
+    "Include": false
+  },
+  {
+    "Name": "Vassals Expanded and Reworked",
+    "NameRaw": "Vassals Expanded and Reworked",
+    "ModGroup": null,
+    "ArchiveFilePath": null,
+    "ModDirectoryPath": "C:/Games/SteamLibrary/steamapps/workshop/content/281990/1813104049",
     "Include": false
   }
 ]

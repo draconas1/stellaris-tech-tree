@@ -27,9 +27,8 @@ TechRootNodesGraphDataTech = {
         "psionics",
         "biology",
         "statecraft",
-        "new_worlds",
         "military_theory",
-        "voidcraft"
+        "new_worlds"
       ]
     },
     {
@@ -44,8 +43,7 @@ TechRootNodesGraphDataTech = {
         "voidcraft",
         "industry",
         "propulsion",
-        "materials",
-        "field_manipulation"
+        "materials"
       ]
     }
   ],

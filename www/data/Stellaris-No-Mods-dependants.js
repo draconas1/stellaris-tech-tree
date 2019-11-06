@@ -200,7 +200,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "building_energy_nexus",
       "label": "Energy Nexus",
       "group": "Building",
-      "title": "<b>Energy Nexus</b> (building_energy_nexus)<br/><i>This colossal facility centralizes all energy grids on the planet, improving their efficiency.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 300 Minerals, 50 Exotic Gases, 150 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 1 Exotic Gases<br/><b>Technician Jobs:</b> +2<br/><b>Tech-Drone Jobs:</b> +2<br/><b>Max Generator Districts:</b> 4<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +25%",
+      "title": "<b>Energy Nexus</b> (building_energy_nexus)<br/><i>This colossal facility centralizes all energy grids on the planet, improving their efficiency.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 300 Minerals, 50 Exotic Gases, 150 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 1 Exotic Gases<br/><b>Technician Jobs:</b> +2<br/><b>Tech-Drone Jobs:</b> +2<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +25%<br/><b>Max Generator Districts:</b> 4",
       "level": 12,
       "image": "images/buildings/building_energy_nexus.png",
       "hasImage": true,
@@ -213,7 +213,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "building_energy_grid",
       "label": "Energy Grid",
       "group": "Building",
-      "title": "<b>Energy Grid</b> (building_energy_grid)<br/><i>A carefully calibrated grid network maximizes the output of power generators.</i><br/><b>Build Time: </b>360<br/><b>Category: </b>Resource<br/><b>Cost:</b> 100 Minerals, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Technician Jobs:</b> +1<br/><b>Tech-Drone Jobs:</b> +1<br/><b>Max Generator Districts:</b> 2<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +15%<br/>Gestalt consciousness",
+      "title": "<b>Energy Grid</b> (building_energy_grid)<br/><i>A carefully calibrated grid network maximizes the output of power generators.</i><br/><b>Build Time: </b>360<br/><b>Category: </b>Resource<br/><b>Cost:</b> 100 Minerals, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Technician Jobs:</b> +1<br/><b>Tech-Drone Jobs:</b> +1<br/><b>£energy£ Energy Credits from £job_technician£ Technicians:</b> +15%<br/><b>Max Generator Districts:</b> 2<br/>Gestalt consciousness",
       "level": 7,
       "image": "images/buildings/building_energy_grid.png",
       "hasImage": true,
@@ -226,7 +226,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "building_mineral_purification_hub",
       "label": "Mineral Purification Hubs",
       "group": "Building",
-      "title": "<b>Mineral Purification Hubs</b> (building_mineral_purification_hub)<br/><i>Massive hubs where minerals are received and then shuttled to arrays of purifiers.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 300 Minerals, 50 Volatile Motes, 150 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 1 Volatile Motes<br/><b>Miner Jobs:</b> +2<br/><b>Mining Drone Jobs:</b> +2<br/><b>Max Mining Districts:</b> 4<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +25%",
+      "title": "<b>Mineral Purification Hubs</b> (building_mineral_purification_hub)<br/><i>Massive hubs where minerals are received and then shuttled to arrays of purifiers.</i><br/><b>Build Time: </b>480<br/><b>Category: </b>Resource<br/><b>Cost:</b> 300 Minerals, 50 Volatile Motes, 150 Alloys<br/><b>Upkeep:</b> 1 Energy Credits, 1 Volatile Motes<br/><b>Miner Jobs:</b> +2<br/><b>Mining Drone Jobs:</b> +2<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +25%<br/><b>Max Mining Districts:</b> 4",
       "level": 12,
       "image": "images/buildings/building_mineral_purification_hub.png",
       "hasImage": true,
@@ -239,7 +239,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "building_mineral_purification_plant",
       "label": "Mineral Purification Plants",
       "group": "Building",
-      "title": "<b>Mineral Purification Plants</b> (building_mineral_purification_plant)<br/><i>Minerals that have passed through these purifiers are of the highest quality.</i><br/><b>Build Time: </b>360<br/><b>Category: </b>Resource<br/><b>Cost:</b> 100 Minerals, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Miner Jobs:</b> +1<br/><b>Mining Drone Jobs:</b> +1<br/><b>Max Mining Districts:</b> 2<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +15%",
+      "title": "<b>Mineral Purification Plants</b> (building_mineral_purification_plant)<br/><i>Minerals that have passed through these purifiers are of the highest quality.</i><br/><b>Build Time: </b>360<br/><b>Category: </b>Resource<br/><b>Cost:</b> 100 Minerals, 100 Alloys<br/><b>Upkeep:</b> 1 Energy Credits<br/><b>Miner Jobs:</b> +1<br/><b>Mining Drone Jobs:</b> +1<br/><b>£minerals£ Minerals from £job_miner£ Miners:</b> +15%<br/><b>Max Mining Districts:</b> 2",
       "level": 8,
       "image": "images/buildings/building_mineral_purification_plant.png",
       "hasImage": true,
@@ -1039,6 +1039,19 @@ StellarisNoModsGraphDataDependants = {
       "nodeType": "building",
       "prerequisites": [
         "tech_mine_volatile_motes"
+      ]
+    },
+    {
+      "id": "building_crystal_plant_2",
+      "label": "Lithoid Crystal Plant",
+      "group": "Building",
+      "title": "<b>Lithoid Crystal Plant</b> (building_crystal_plant_2)<br/><i>The discovery of new crystal manufacturing techniques, far below the surface in the city of the Kha'lanka lithoids, has effectivized artificial crystal manufacturing through oxidation of rapidly growing silicon-based cell-clusters.</i><br/><b>Build Time: </b>800<br/><b>Category: </b>Manufacturing<br/><b>Cost:</b> 1000 Minerals<br/><b>Upkeep:</b> 3 Energy Credits<br/><b>Translucer Jobs:</b> +3<br/><b>Lensing Drone Jobs:</b> +3",
+      "level": 11,
+      "image": "images/buildings/building_crystal_plant_2.png",
+      "hasImage": true,
+      "nodeType": "building",
+      "prerequisites": [
+        "tech_rare_crystals"
       ]
     },
     {
@@ -2462,7 +2475,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "StellarisZERO_POINT_REACTOR",
       "label": "Zero Point Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (StellarisZERO_POINT_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><br/><b>Starbase Zero Point Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Zero Point Reactor</b><br/><b>Cost:</b> 56 Alloys<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.057 Alloys<br/><b>Power:</b> 575<br/><br/><b>Titan Zero Point Reactor</b><br/><b>Cost:</b> 448 Alloys<br/><b>Upkeep:</b> 4.56 Energy Credits, 0.456 Alloys<br/><b>Power:</b> 3200<br/><br/><b>Battleship Zero Point Reactor</b><br/><b>Cost:</b> 224 Alloys<br/><b>Upkeep:</b> 2.29 Energy Credits, 0.229 Alloys<br/><b>Power:</b> 1550<br/><br/><b>Cruiser Zero Point Reactor</b><br/><b>Cost:</b> 112 Alloys<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.114 Alloys<br/><b>Power:</b> 800<br/><br/><b>Destroyer Zero Point Reactor</b><br/><b>Cost:</b> 56 Alloys<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.057 Alloys<br/><b>Power:</b> 430<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Zero Point Reactor</b><br/><b>Cost:</b> 28 Alloys<br/><b>Upkeep:</b> 0.28 Energy Credits, 0.028 Alloys<br/><b>Power:</b> 220",
+      "title": "<b>Power Core</b> (StellarisZERO_POINT_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.</i><br/><br/><b>Starbase Zero Point Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Platform Zero Point Reactor</b><br/><b>Cost:</b> 56 Alloys<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.057 Alloys<br/><b>Power:</b> 575<br/><br/><b>Titan Zero Point Reactor</b><br/><b>Cost:</b> 448 Alloys<br/><b>Upkeep:</b> 4.56 Energy Credits, 0.456 Alloys<br/><b>Power:</b> 3200<br/><br/><b>Battleship Zero Point Reactor</b><br/><b>Cost:</b> 224 Alloys<br/><b>Upkeep:</b> 2.29 Energy Credits, 0.229 Alloys<br/><b>Power:</b> 1550<br/><br/><b>Cruiser Zero Point Reactor</b><br/><b>Cost:</b> 112 Alloys<br/><b>Upkeep:</b> 1.14 Energy Credits, 0.114 Alloys<br/><b>Power:</b> 800<br/><br/><b>Destroyer Zero Point Reactor</b><br/><b>Cost:</b> 56 Alloys<br/><b>Upkeep:</b> 0.57 Energy Credits, 0.057 Alloys<br/><b>Power:</b> 430<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Zero Point Reactor</b><br/><b>Cost:</b> 28 Alloys<br/><b>Upkeep:</b> 0.28 Energy Credits, 0.028 Alloys<br/><b>Power:</b> 220",
       "level": 18,
       "image": "images/ship_parts/StellarisZERO_POINT_REACTOR.png",
       "hasImage": false,
@@ -2475,7 +2488,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "StellarisANTIMATTER_REACTOR",
       "label": "Antimatter Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (StellarisANTIMATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.\"</i><br/><br/><b>Starbase Antimatter Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Antimatter Reactor</b><br/><b>Cost:</b> 44 Alloys<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.044 Alloys<br/><b>Power:</b> 440<br/><br/><b>Titan Antimatter Reactor</b><br/><b>Cost:</b> 352 Alloys<br/><b>Upkeep:</b> 3.51 Energy Credits, 0.351 Alloys<br/><b>Power:</b> 2500<br/><br/><b>Battleship Antimatter Reactor</b><br/><b>Cost:</b> 176 Alloys<br/><b>Upkeep:</b> 1.76 Energy Credits, 0.176 Alloys<br/><b>Power:</b> 1250<br/><br/><b>Cruiser Antimatter Reactor</b><br/><b>Cost:</b> 88 Alloys<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.088 Alloys<br/><b>Power:</b> 620<br/><br/><b>Destroyer Antimatter Reactor</b><br/><b>Cost:</b> 44 Alloys<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.044 Alloys<br/><b>Power:</b> 320<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Antimatter Reactor</b><br/><b>Cost:</b> 22 Alloys<br/><b>Upkeep:</b> 0.22 Energy Credits, 0.022 Alloys<br/><b>Power:</b> 170",
+      "title": "<b>Power Core</b> (StellarisANTIMATTER_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.\"</i><br/><br/><b>Starbase Antimatter Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Platform Antimatter Reactor</b><br/><b>Cost:</b> 44 Alloys<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.044 Alloys<br/><b>Power:</b> 440<br/><br/><b>Titan Antimatter Reactor</b><br/><b>Cost:</b> 352 Alloys<br/><b>Upkeep:</b> 3.51 Energy Credits, 0.351 Alloys<br/><b>Power:</b> 2500<br/><br/><b>Battleship Antimatter Reactor</b><br/><b>Cost:</b> 176 Alloys<br/><b>Upkeep:</b> 1.76 Energy Credits, 0.176 Alloys<br/><b>Power:</b> 1250<br/><br/><b>Cruiser Antimatter Reactor</b><br/><b>Cost:</b> 88 Alloys<br/><b>Upkeep:</b> 0.88 Energy Credits, 0.088 Alloys<br/><b>Power:</b> 620<br/><br/><b>Destroyer Antimatter Reactor</b><br/><b>Cost:</b> 44 Alloys<br/><b>Upkeep:</b> 0.44 Energy Credits, 0.044 Alloys<br/><b>Power:</b> 320<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Antimatter Reactor</b><br/><b>Cost:</b> 22 Alloys<br/><b>Upkeep:</b> 0.22 Energy Credits, 0.022 Alloys<br/><b>Power:</b> 170",
       "level": 15,
       "image": "images/ship_parts/StellarisANTIMATTER_REACTOR.png",
       "hasImage": false,
@@ -2488,7 +2501,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "StellarisCOLD_FUSION_REACTOR",
       "label": "Cold Fusion Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (StellarisCOLD_FUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><br/><b>Starbase Cold Fusion Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Cold Fusion Reactor</b><br/><b>Cost:</b> 34 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 340<br/><br/><b>Titan Cold Fusion Reactor</b><br/><b>Cost:</b> 272 Alloys<br/><b>Upkeep:</b> 2.7 Energy Credits, 0.27 Alloys<br/><b>Power:</b> 1900<br/><br/><b>Battleship Cold Fusion Reactor</b><br/><b>Cost:</b> 136 Alloys<br/><b>Upkeep:</b> 1.35 Energy Credits, 0.135 Alloys<br/><b>Power:</b> 950<br/><br/><b>Cruiser Cold Fusion Reactor</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.068 Alloys<br/><b>Power:</b> 480<br/><br/><b>Destroyer Cold Fusion Reactor</b><br/><b>Cost:</b> 34 Alloys<br/><b>Upkeep:</b> 0.34 Energy Credits, 0.034 Alloys<br/><b>Power:</b> 240<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Cold Fusion Reactor</b><br/><b>Cost:</b> 17 Alloys<br/><b>Upkeep:</b> 0.17 Energy Credits, 0.017 Alloys<br/><b>Power:</b> 130",
+      "title": "<b>Power Core</b> (StellarisCOLD_FUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.</i><br/><br/><b>Starbase Cold Fusion Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Platform Cold Fusion Reactor</b><br/><b>Cost:</b> 34 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 340<br/><br/><b>Titan Cold Fusion Reactor</b><br/><b>Cost:</b> 272 Alloys<br/><b>Upkeep:</b> 2.7 Energy Credits, 0.27 Alloys<br/><b>Power:</b> 1900<br/><br/><b>Battleship Cold Fusion Reactor</b><br/><b>Cost:</b> 136 Alloys<br/><b>Upkeep:</b> 1.35 Energy Credits, 0.135 Alloys<br/><b>Power:</b> 950<br/><br/><b>Cruiser Cold Fusion Reactor</b><br/><b>Cost:</b> 68 Alloys<br/><b>Upkeep:</b> 0.68 Energy Credits, 0.068 Alloys<br/><b>Power:</b> 480<br/><br/><b>Destroyer Cold Fusion Reactor</b><br/><b>Cost:</b> 34 Alloys<br/><b>Upkeep:</b> 0.34 Energy Credits, 0.034 Alloys<br/><b>Power:</b> 240<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Cold Fusion Reactor</b><br/><b>Cost:</b> 17 Alloys<br/><b>Upkeep:</b> 0.17 Energy Credits, 0.017 Alloys<br/><b>Power:</b> 130",
       "level": 11,
       "image": "images/ship_parts/StellarisCOLD_FUSION_REACTOR.png",
       "hasImage": false,
@@ -2501,7 +2514,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "StellarisFUSION_REACTOR",
       "label": "Fusion Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (StellarisFUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><br/><b>Starbase Fusion Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Fusion Reactor</b><br/><b>Cost:</b> 26 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 260<br/><br/><b>Titan Fusion Reactor</b><br/><b>Cost:</b> 208 Alloys<br/><b>Upkeep:</b> 2.08 Energy Credits, 0.208 Alloys<br/><b>Power:</b> 1450<br/><br/><b>Battleship Fusion Reactor</b><br/><b>Cost:</b> 104 Alloys<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 720<br/><br/><b>Cruiser Fusion Reactor</b><br/><b>Cost:</b> 52 Alloys<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.052 Alloys<br/><b>Power:</b> 360<br/><br/><b>Destroyer Fusion Reactor</b><br/><b>Cost:</b> 26 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 180<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Fusion Reactor</b><br/><b>Cost:</b> 13 Alloys<br/><b>Upkeep:</b> 0.13 Energy Credits, 0.013 Alloys<br/><b>Power:</b> 100",
+      "title": "<b>Power Core</b> (StellarisFUSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.</i><br/><br/><b>Starbase Fusion Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Platform Fusion Reactor</b><br/><b>Cost:</b> 26 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 260<br/><br/><b>Titan Fusion Reactor</b><br/><b>Cost:</b> 208 Alloys<br/><b>Upkeep:</b> 2.08 Energy Credits, 0.208 Alloys<br/><b>Power:</b> 1450<br/><br/><b>Battleship Fusion Reactor</b><br/><b>Cost:</b> 104 Alloys<br/><b>Upkeep:</b> 1.04 Energy Credits, 0.104 Alloys<br/><b>Power:</b> 720<br/><br/><b>Cruiser Fusion Reactor</b><br/><b>Cost:</b> 52 Alloys<br/><b>Upkeep:</b> 0.52 Energy Credits, 0.052 Alloys<br/><b>Power:</b> 360<br/><br/><b>Destroyer Fusion Reactor</b><br/><b>Cost:</b> 26 Alloys<br/><b>Upkeep:</b> 0.26 Energy Credits, 0.026 Alloys<br/><b>Power:</b> 180<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Fusion Reactor</b><br/><b>Cost:</b> 13 Alloys<br/><b>Upkeep:</b> 0.13 Energy Credits, 0.013 Alloys<br/><b>Power:</b> 100",
       "level": 7,
       "image": "images/ship_parts/StellarisFUSION_REACTOR.png",
       "hasImage": false,
@@ -2514,7 +2527,7 @@ StellarisNoModsGraphDataDependants = {
       "id": "StellarisFISSION_REACTOR",
       "label": "Fission Reactor",
       "group": "Dependant",
-      "title": "<b>Power Core</b> (StellarisFISSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><br/><b>Starbase Fission Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Fission Reactor</b><br/><b>Cost:</b> 20 Alloys<br/><b>Upkeep:</b> 0.2 Energy Credits, 0.02 Alloys<br/><b>Power:</b> 200<br/><br/><b>Titan Fission Reactor</b><br/><b>Cost:</b> 160 Alloys<br/><b>Upkeep:</b> 1.6 Energy Credits, 0.16 Alloys<br/><b>Power:</b> 1100<br/><br/><b>Battleship Fission Reactor</b><br/><b>Cost:</b> 80 Alloys<br/><b>Upkeep:</b> 0.8 Energy Credits, 0.08 Alloys<br/><b>Power:</b> 550<br/><br/><b>Cruiser Fission Reactor</b><br/><b>Cost:</b> 40 Alloys<br/><b>Upkeep:</b> 0.4 Energy Credits, 0.04 Alloys<br/><b>Power:</b> 280<br/><br/><b>Destroyer Fission Reactor</b><br/><b>Cost:</b> 20 Alloys<br/><b>Upkeep:</b> 0.2 Energy Credits, 0.02 Alloys<br/><b>Power:</b> 140<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Fission Reactor</b><br/><b>Cost:</b> 10 Alloys<br/><b>Upkeep:</b> 0.1 Energy Credits, 0.01 Alloys<br/><b>Power:</b> 75",
+      "title": "<b>Power Core</b> (StellarisFISSION_REACTOR)<br/><i>Few things work without power, and the power core is a vital part of any machine.</i><br/><i>This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.</i><br/><br/><b>Starbase Fission Reactor</b><br/><b>Power:</b> 10000<br/><br/><b>Military Station Platform Fission Reactor</b><br/><b>Cost:</b> 20 Alloys<br/><b>Upkeep:</b> 0.2 Energy Credits, 0.02 Alloys<br/><b>Power:</b> 200<br/><br/><b>Titan Fission Reactor</b><br/><b>Cost:</b> 160 Alloys<br/><b>Upkeep:</b> 1.6 Energy Credits, 0.16 Alloys<br/><b>Power:</b> 1100<br/><br/><b>Battleship Fission Reactor</b><br/><b>Cost:</b> 80 Alloys<br/><b>Upkeep:</b> 0.8 Energy Credits, 0.08 Alloys<br/><b>Power:</b> 550<br/><br/><b>Cruiser Fission Reactor</b><br/><b>Cost:</b> 40 Alloys<br/><b>Upkeep:</b> 0.4 Energy Credits, 0.04 Alloys<br/><b>Power:</b> 280<br/><br/><b>Destroyer Fission Reactor</b><br/><b>Cost:</b> 20 Alloys<br/><b>Upkeep:</b> 0.2 Energy Credits, 0.02 Alloys<br/><b>Power:</b> 140<br/><br/><b>Corvette & Colony Ship & Private Colony Ship & Construction Ship & Science Ship & Transport Ship Fission Reactor</b><br/><b>Cost:</b> 10 Alloys<br/><b>Upkeep:</b> 0.1 Energy Credits, 0.01 Alloys<br/><b>Power:</b> 75",
       "level": 2,
       "image": "images/ship_parts/StellarisFISSION_REACTOR.png",
       "hasImage": false,
@@ -3330,6 +3343,15 @@ StellarisNoModsGraphDataDependants = {
     {
       "from": "tech_mine_volatile_motes",
       "to": "building_mote_harvesters",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_rare_crystals",
+      "to": "building_crystal_plant_2",
       "arrows": "to",
       "color": {
         "color": "grey"

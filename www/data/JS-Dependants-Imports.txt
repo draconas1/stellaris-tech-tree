@@ -1,9 +1,5 @@
-<script type="text/javascript" src="data/Ancient_Cache_of_Technologies-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/At_War-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/Dyson_Swarm-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/EUTAB-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Gigastructures-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/Starborn-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-No-Mods-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-dependants.js?v=2"></script>

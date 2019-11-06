@@ -30,20 +30,22 @@
 
     <!-- Data -->
 
+    <script type="text/javascript" src="data/Amoebas_And_More-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/At_War-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Dyson_Swarm-tech.js?v=2"></script>
     <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
-    <script type="text/javascript" src="data/Starborn-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Guillis__Ship_Components-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Guillis_Technologies-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/New_Ship_Classes-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Stellaris-tech.js?v=2"></script>
+    <script type="text/javascript" src="data/Superstructures-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=2"></script>
     <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-tech.js?v=2"></script>
 
 
     <script type="text/javascript" src="data/Ancient_Cache_of_Technologies-dependants.js?v=2"></script>
-    <script type="text/javascript" src="data/At_War-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/Dyson_Swarm-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/EUTAB-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/Gigastructures-dependants.js?v=2"></script>
@@ -51,6 +53,7 @@
     <script type="text/javascript" src="data/Stellaris-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/Stellaris-No-Mods-dependants.js?v=2"></script>
     <script type="text/javascript" src="data/Zenith_of_Fallen_Empires-dependants.js?v=2"></script>
+
 
 
 
@@ -65,7 +68,7 @@
 <body onload="FocusOnInput()">
 <h1 class="title">Stellaris Tech Tree</h1>
 <p>
-    A complete dependency tree of all technologies in Stellaris 2.2.7 by
+    A complete dependency tree of all technologies in Stellaris 2.5.1 by
     <a href="https://steamcommunity.com/id/draconas/myworkshopfiles/?appid=281990&sort=score&browsefilter=myfiles&view=imagewall">Draconas</a>
 </p>
 <div id="topBar">
@@ -179,7 +182,10 @@
       techs: data.jsVarable,
       dependants: []
     });
-    dependantDataFiles.forEach(data => modToVariables[data.name].dependants.push(data.jsVarable));
+    dependantDataFiles.forEach(data => {
+        var mod = modToVariables[data.name]
+        mod.dependants.push(data.jsVarable)
+    });
 
     var modlist = document.getElementById("modListRow");
     Object.keys(modToVariables).forEach(modName => {

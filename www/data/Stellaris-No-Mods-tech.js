@@ -4,9 +4,9 @@ StellarisNoModsGraphDataTech = {
       "id": "null_void_beam",
       "label": "Null Void Beam",
       "group": "Physics",
-      "title": "<b>Null Void Beam</b> (null_void_beam)<br/><i>By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Null Void Beam</b> (null_void_beam)<br/><i>By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Particles<br/><b>Base cost: </b>2500<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
-        "border": "#8900CE"
+        "border": "#CE7C00"
       },
       "borderWidth": 1,
       "level": 10,
@@ -124,15 +124,33 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "id": "tech_archeology_lab",
-      "label": "Curator Archeology Lab",
+      "label": "Curator Archaeology Lab",
       "group": "Physics",
-      "title": "<b>Curator Archeology Lab</b> (tech_archeology_lab)<br/><i>A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Curator Archaeology Lab</b> (tech_archeology_lab)<br/><i>A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
       "level": 10,
       "image": "images/technologies/tech_archeology_lab.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_archeology_lab_ancrel",
+      "label": "Curator Archaeology Lab",
+      "group": "Physics",
+      "title": "<b>Curator Archaeology Lab</b> (tech_archeology_lab_ancrel)<br/><i>A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Computing<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 10,
+      "image": "images/technologies/tech_archeology_lab_ancrel.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [],
@@ -467,6 +485,26 @@ StellarisNoModsGraphDataTech = {
       ],
       "categories": [
         "particles"
+      ]
+    },
+    {
+      "id": "tech_dyson_sphere",
+      "label": "Dyson Sphere",
+      "group": "Physics",
+      "title": "<b>Dyson Sphere</b> (tech_dyson_sphere)<br/><i>A §YDyson Sphere§! fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.</i><br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_dyson_sphere.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "field_manipulation"
       ]
     },
     {
@@ -887,6 +925,26 @@ StellarisNoModsGraphDataTech = {
       "prerequisites": [],
       "categories": [
         "particles"
+      ]
+    },
+    {
+      "id": "tech_matter_decompressor",
+      "label": "Matter Decompressor",
+      "group": "Physics",
+      "title": "<b>Matter Decompressor</b> (tech_matter_decompressor)<br/><i>The §YMatter Decompressor§! lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.</i><br/><i>Requires the Megacorp DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_matter_decompressor.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "field_manipulation"
       ]
     },
     {
@@ -1429,6 +1487,26 @@ StellarisNoModsGraphDataTech = {
       ]
     },
     {
+      "id": "tech_science_nexus",
+      "label": "Science Nexus",
+      "group": "Physics",
+      "title": "<b>Science Nexus</b> (tech_science_nexus)<br/><i>The research labs and databanks of a §YScience Nexus§! generate an immense flow of raw, undiluted science.</i><br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_science_nexus.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
       "id": "tech_self_aware_logic",
       "label": "Self-Evolving Logic",
       "group": "Physics",
@@ -1485,6 +1563,26 @@ StellarisNoModsGraphDataTech = {
       "nodeType": "tech",
       "prerequisites": [
         "tech_sensors_3"
+      ],
+      "categories": [
+        "computing"
+      ]
+    },
+    {
+      "id": "tech_sentry_array",
+      "label": "Sentry Array",
+      "group": "Physics",
+      "title": "<b>Sentry Array</b> (tech_sentry_array)<br/><i>The stages of the §YSentry Array§! gradually expand sensor range, eventually covering the entire galaxy.</i><br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_sentry_array.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
       ],
       "categories": [
         "computing"
@@ -1840,6 +1938,26 @@ StellarisNoModsGraphDataTech = {
       "prerequisites": [],
       "categories": [
         "biology"
+      ]
+    },
+    {
+      "id": "tech_arcane_deciphering",
+      "label": "Arcane Deciphering",
+      "group": "Society",
+      "title": "<b>Arcane Deciphering</b> (tech_arcane_deciphering)<br/><i>Various artifacts and technologies functioning by arcane means that cannot be understood or replicated... at least not by conventional science as it is known to us.</i><br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 11,
+      "image": "images/technologies/tech_arcane_deciphering.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_society_2"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3033,6 +3151,26 @@ StellarisNoModsGraphDataTech = {
       ]
     },
     {
+      "id": "tech_interstellar_assembly",
+      "label": "Interstellar Assembly",
+      "group": "Society",
+      "title": "<b>Interstellar Assembly</b> (tech_interstellar_assembly)<br/><i>A meeting place for galactic powers, increasing immigration attraction and global opinion of us.</i><br/><i>Requires the Megacorp DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_interstellar_assembly.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
       "id": "tech_interstellar_campaigns",
       "label": "Interstellar Campaigns",
       "group": "Society",
@@ -3124,6 +3262,26 @@ StellarisNoModsGraphDataTech = {
       ],
       "categories": [
         "new_worlds"
+      ]
+    },
+    {
+      "id": "tech_mega_art",
+      "label": "Mega Art Installation",
+      "group": "Society",
+      "title": "<b>Mega Art Installation</b> (tech_mega_art)<br/><i>An artistic beacon on a stellar scale, this installation inspires and represents the spirit of its creators.</i><br/><i>Requires the Megacorp DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_mega_art.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "statecraft"
       ]
     },
     {
@@ -3892,6 +4050,26 @@ StellarisNoModsGraphDataTech = {
       ]
     },
     {
+      "id": "tech_strategic_coordination",
+      "label": "Strategic Coordination Center",
+      "group": "Society",
+      "title": "<b>Strategic Coordination Center</b> (tech_strategic_coordination)<br/><i>A facility synchronizing the national Starbase network, augmenting defensive and offensive capabilities.</i><br/><i>Requires the Megacorp DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_strategic_coordination.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "military_theory"
+      ]
+    },
+    {
       "id": "tech_subdermal_stimulation",
       "label": "Subdermal Stimulation",
       "group": "Society",
@@ -4556,7 +4734,7 @@ StellarisNoModsGraphDataTech = {
       "borderWidth": 1,
       "level": 17,
       "image": "images/technologies/tech_crystal_armor_2.png",
-      "hasImage": true,
+      "hasImage": false,
       "nodeType": "tech",
       "prerequisites": [],
       "categories": [
@@ -4816,6 +4994,22 @@ StellarisNoModsGraphDataTech = {
       ],
       "categories": [
         "propulsion"
+      ]
+    },
+    {
+      "id": "tech_habitat_1",
+      "label": "Orbital Habitats",
+      "group": "Engineering",
+      "title": "<b>Orbital Habitats</b> (tech_habitat_1)<br/><i>Allows the construction of largely self-sustaining Orbital Habitats.</i><br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
+      "level": 15,
+      "image": "images/technologies/tech_habitat_1.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_starbase_4"
+      ],
+      "categories": [
+        "voidcraft"
       ]
     },
     {
@@ -5722,6 +5916,26 @@ StellarisNoModsGraphDataTech = {
       ]
     },
     {
+      "id": "tech_ring_world",
+      "label": "Ring World",
+      "group": "Engineering",
+      "title": "<b>Ring World</b> (tech_ring_world)<br/><i>A §YRing World§! allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.</i><br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 22,
+      "image": "images/technologies/tech_ring_world.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_mega_engineering"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_robomodding",
       "label": "Machine Template System",
       "group": "Engineering",
@@ -6526,33 +6740,6 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_starbase_5",
-      "to": "tech_mega_engineering",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_battleships",
-      "to": "tech_mega_engineering",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_zero_point_power",
-      "to": "tech_mega_engineering",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
       "from": "tech_housing_1",
       "to": "tech_housing_2",
       "arrows": "to",
@@ -6987,6 +7174,15 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "tech_starbase_3",
       "to": "tech_modular_engineering",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_4",
+      "to": "tech_habitat_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7606,8 +7802,8 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_hyper_drive_1",
-      "to": "tech_ftl_inhibitor",
+      "from": "tech_mega_engineering",
+      "to": "tech_ring_world",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7615,8 +7811,17 @@ StellarisNoModsGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_zero_point_power",
-      "to": "tech_jump_drive_1",
+      "from": "tech_mega_engineering",
+      "to": "tech_matter_decompressor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_dyson_sphere",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -7644,6 +7849,96 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "tech_hyper_drive_3",
       "to": "tech_gateway_activation",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_mega_art",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_interstellar_assembly",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_strategic_coordination",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_sentry_array",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_mega_engineering",
+      "to": "tech_science_nexus",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_mega_engineering",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_battleships",
+      "to": "tech_mega_engineering",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_mega_engineering",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_hyper_drive_1",
+      "to": "tech_ftl_inhibitor",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_zero_point_power",
+      "to": "tech_jump_drive_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -9191,6 +9486,15 @@ StellarisNoModsGraphDataTech = {
     },
     {
       "from": "tech_society_2",
+      "to": "tech_arcane_deciphering",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_society_2",
       "to": "tech_society_3",
       "arrows": "to",
       "color": {
@@ -9854,6 +10158,14 @@ StellarisNoModsGraphDataTech = {
     {
       "from": "Physics-root",
       "to": "tech_archeology_lab",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_archeology_lab_ancrel",
       "color": {
         "opacity": 0.0
       },

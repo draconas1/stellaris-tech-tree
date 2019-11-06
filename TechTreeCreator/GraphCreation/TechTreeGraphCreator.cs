@@ -48,8 +48,8 @@ namespace TechTreeCreator.GraphCreation
                     Log.Logger.Debug("Tech {id} had missing pre-requisite, trying to find it in the complete listing", key);
                     var populatedPreReqs = tech.Prerequisites.Select(preReq => preReq.Id).ToHashSet();
                     foreach (var missingPreReq in tech.PrerequisiteIds.Where(x => !populatedPreReqs.Contains(x))) {
-                        Tech attemptToFindPreq = techs[missingPreReq];
-                        if (attemptToFindPreq != null) {
+                        if (techs.ContainsEntityInTree(missingPreReq)) {
+                            Tech attemptToFindPreq = techs[missingPreReq];
                             tech.Prerequisites.Add(attemptToFindPreq);
                             modLinks.Add(new Link() {From = attemptToFindPreq, To = tech});
                             Log.Logger.Debug("Found prereq {key} in file {file}", attemptToFindPreq.Id, attemptToFindPreq.FilePath);

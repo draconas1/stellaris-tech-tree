@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTreeCreator", "TechTreeCreator\TechTreeCreator.csproj", "{E643228B-8C02-4EA2-80E1-9DFD097E4DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTreeCreator", "TechTreeCreator\TechTreeCreator.csproj", "{E643228B-8C02-4EA2-80E1-9DFD097E4DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensions", "NetExtensions\NetExtensions.csproj", "{6BA76F2B-3EB5-4063-BDFF-E2BFB602F8EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetExtensions", "NetExtensions\NetExtensions.csproj", "{6BA76F2B-3EB5-4063-BDFF-E2BFB602F8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExtensionsTests", "NetExtensionsTests\NetExtensionsTests.csproj", "{42443036-3FF2-4628-89A3-4F2EA1227B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetExtensionsTests", "NetExtensionsTests\NetExtensionsTests.csproj", "{42443036-3FF2-4628-89A3-4F2EA1227B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWToolsHelpers", "CWToolsHelpers\CWToolsHelpers.csproj", "{16F2F71B-E5D2-4BFE-9B2C-7296071FAA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CWToolsHelpers", "CWToolsHelpers\CWToolsHelpers.csproj", "{16F2F71B-E5D2-4BFE-9B2C-7296071FAA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTreeConsole", "TechTreeConsole\TechTreeConsole.csproj", "{8322EAE1-2EB4-4E7C-BB87-0D8833240BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTreeConsole", "TechTreeConsole\TechTreeConsole.csproj", "{8322EAE1-2EB4-4E7C-BB87-0D8833240BC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

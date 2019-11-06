@@ -9,7 +9,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_compact_omni_emitter.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -30,7 +30,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_compact_omni_lance.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -51,7 +51,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_dark_energy_shield.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -69,7 +69,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_dimensional_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -87,7 +87,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_dragon_breath.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -105,7 +105,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_elder_tiyanki_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -120,12 +120,8 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fallen_technologies_2",
       "label": "Physics Mastery",
       "group": "ModPhysics",
-      "title": "<b>Physics Mastery</b> (tech_fallen_technologies_2)<br/><i>Our mastery of physics allow us to perform feats considered impossible mere generations ago.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 24,
+      "title": "<b>Physics Mastery</b> (tech_fallen_technologies_2)<br/><i>Our mastery of physics allow us to perform feats considered impossible mere generations ago.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>32000",
+      "level": 23,
       "image": "images/technologies/tech_fallen_technologies_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -140,12 +136,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_class_4_singularity",
       "label": "Class-4 Singularity",
       "group": "ModPhysics",
-      "title": "<b>Class-4 Singularity</b> (tech_fe_class_4_singularity)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The containment fields powering this massive power plant is the pinnacle of technology.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Class-4 Singularity</b> (tech_fe_class_4_singularity)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The containment fields powering this massive power plant is the pinnacle of technology.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Field Manipulation<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_class_4_singularity.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -166,7 +162,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
+      "level": 26,
       "image": "images/technologies/tech_fe_dark_matter_power_plant.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -181,12 +177,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_master_archive",
       "label": "Master Archive",
       "group": "ModPhysics",
-      "title": "<b>Master Archive</b> (tech_fe_master_archive)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The collected knowledge of the entire empire is stored here, with a complex and arcane data retrieval system, providing invaluable knowledge to those who seek it.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Master Archive</b> (tech_fe_master_archive)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The collected knowledge of the entire empire is stored here, with a complex and arcane data retrieval system, providing invaluable knowledge to those who seek it.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Computing<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_master_archive.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -207,7 +203,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_gray_goo_beam.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -225,7 +221,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_ion_disruptor.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -243,7 +239,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_matter_generator.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -263,7 +259,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_omni_emitter.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -281,7 +277,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_omni_lance.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -299,7 +295,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_portal_generator.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -317,7 +313,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_psi_deflector.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -331,7 +327,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Arc Emitters",
       "group": "ModPhysics",
       "title": "<b>Large Arc Emitters</b> (tech_resized_arc_emitter_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Arc Emitter.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_resized_arc_emitter_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -348,7 +344,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Tachyon Lance",
       "group": "ModPhysics",
       "title": "<b>Large Tachyon Lance</b> (tech_resized_energy_lance_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Tachyon Lance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>15000",
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_resized_energy_lance_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -369,7 +365,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_stellarite_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -387,7 +383,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_synthetic_dark_matter.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -408,7 +404,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_synthetic_living_metal.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -429,7 +425,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_synthetic_zro.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -450,7 +446,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 21,
+      "level": 20,
       "image": "images/technologies/tech_ascended_society_1.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -470,7 +466,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_ascended_society_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -491,7 +487,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_ascended_society_3.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -511,7 +507,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 20,
+      "level": 19,
       "image": "images/technologies/tech_central_square.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -526,12 +522,8 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fallen_technologies_1",
       "label": "Societal Evolution",
       "group": "ModSociety",
-      "title": "<b>Societal Evolution</b> (tech_fallen_technologies_1)<br/><i>Forces of evolution are pushing our society forward into a new age.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 19,
+      "title": "<b>Societal Evolution</b> (tech_fallen_technologies_1)<br/><i>Forces of evolution are pushing our society forward into a new age.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>20000",
+      "level": 18,
       "image": "images/technologies/tech_fallen_technologies_1.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -551,7 +543,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
+      "level": 26,
       "image": "images/technologies/tech_fe_agri_processing_complex.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -566,12 +558,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_ancient_cryo_chamber",
       "label": "Cryo-Chamber",
       "group": "ModSociety",
-      "title": "<b>Cryo-Chamber</b> (tech_fe_ancient_cryo_chamber)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Rows upon rows of cryo-pods line this massive structure, useful for preserving species, or keeping prisoners.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Cryo-Chamber</b> (tech_fe_ancient_cryo_chamber)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Rows upon rows of cryo-pods line this massive structure, useful for preserving species, or keeping prisoners.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_ancient_cryo_chamber.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -586,12 +578,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_empyrean_shrine",
       "label": "Empyrean Shrine",
       "group": "ModSociety",
-      "title": "<b>Empyrean Shrine</b> (tech_fe_empyrean_shrine)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The shrine itself vibrates somehow, making it appear slightly blurred from a distance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Empyrean Shrine</b> (tech_fe_empyrean_shrine)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The shrine itself vibrates somehow, making it appear slightly blurred from a distance.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_empyrean_shrine.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -607,12 +599,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_nourishment_center",
       "label": "Nourishment Center",
       "group": "ModSociety",
-      "title": "<b>Nourishment Center</b> (tech_fe_nourishment_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! If it exists as a flavor, it can be replicated here.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Nourishment Center</b> (tech_fe_nourishment_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! If it exists as a flavor, it can be replicated here.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_nourishment_center.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -633,7 +625,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_sky_dome.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -654,7 +646,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_xeno_preserve.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -674,7 +666,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_paradise_creation.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -695,7 +687,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_compact_omni_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -716,7 +708,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_dark_matter_plating.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -729,12 +721,8 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fallen_technologies_3",
       "label": "Engineering Perfection",
       "group": "ModEngineering",
-      "title": "<b>Engineering Perfection</b> (tech_fallen_technologies_3)<br/><i>The pinnacle of engineering and production is finally within our grasp.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
-      "color": {
-        "border": "#8900CE"
-      },
-      "borderWidth": 1,
-      "level": 25,
+      "title": "<b>Engineering Perfection</b> (tech_fallen_technologies_3)<br/><i>The pinnacle of engineering and production is finally within our grasp.\"</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>48000",
+      "level": 24,
       "image": "images/technologies/tech_fallen_technologies_3.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -749,12 +737,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_affluence_center",
       "label": "Affluence Center",
       "group": "ModEngineering",
-      "title": "<b>Affluence Center</b> (tech_fe_affluence_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Any material desire can be met here, no matter how outlandish.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency<br/>Not for gestalt consciousness",
+      "title": "<b>Affluence Center</b> (tech_fe_affluence_center)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! Any material desire can be met here, no matter how outlandish.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency<br/>Not for gestalt consciousness",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_affluence_center.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -775,7 +763,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
+      "level": 26,
       "image": "images/technologies/tech_fe_ancient_factory.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -790,12 +778,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_battlecruisers",
       "label": "Battlecruisers",
       "group": "ModEngineering",
-      "title": "<b>Battlecruisers</b> (tech_fe_battlecruisers)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Battlecruiser-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Battlecruisers</b> (tech_fe_battlecruisers)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Battlecruiser-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_battlecruisers.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -811,12 +799,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_defense_platforms_1",
       "label": "Defense Outposts",
       "group": "ModEngineering",
-      "title": "<b>Defense Outposts</b> (tech_fe_defense_platforms_1)<br/><i>Stolen blueprints from a Precursor Empire enable the development of next generation defensive platforms.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Defense Outposts</b> (tech_fe_defense_platforms_1)<br/><i>Stolen blueprints from a Precursor Empire enable the development of next generation defensive platforms.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_fe_defense_platforms_1.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -831,12 +819,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_defense_platforms_2",
       "label": "Defense Towers",
       "group": "ModEngineering",
-      "title": "<b>Defense Towers</b> (tech_fe_defense_platforms_2)<br/><i>Stolen blueprints from a Precursor Empire enable the development of next generation defensive platforms.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Defense Towers</b> (tech_fe_defense_platforms_2)<br/><i>Stolen blueprints from a Precursor Empire enable the development of next generation defensive platforms.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
+      "level": 26,
       "image": "images/technologies/tech_fe_defense_platforms_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -851,12 +839,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_dimensional_fabricator",
       "label": "Dimensional Fabricator",
       "group": "ModEngineering",
-      "title": "<b>Dimensional Fabricator</b> (tech_fe_dimensional_fabricator)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! This building uses little-understood dimensional technology to tunnel into other realities and siphon off their valuable resources.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Dimensional Fabricator</b> (tech_fe_dimensional_fabricator)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! This building uses little-understood dimensional technology to tunnel into other realities and siphon off their valuable resources.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Industry<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_dimensional_fabricator.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -872,12 +860,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_escorts",
       "label": "Escorts",
       "group": "ModEngineering",
-      "title": "<b>Escorts</b> (tech_fe_escorts)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Escort-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Escorts</b> (tech_fe_escorts)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Escort-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_fe_escorts.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -890,12 +878,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_goliath",
       "label": "Goliath",
       "group": "ModEngineering",
-      "title": "<b>Goliath</b> (tech_fe_goliath)<br/><i>Concept designs obtained from a Precursor Empire details the construction of the monstrous Goliath-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Goliath</b> (tech_fe_goliath)<br/><i>Concept designs obtained from a Precursor Empire details the construction of the monstrous Goliath-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 28,
+      "level": 27,
       "image": "images/technologies/tech_fe_goliath.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -911,12 +899,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_nano_forge",
       "label": "Auto-Forge",
       "group": "ModEngineering",
-      "title": "<b>Auto-Forge</b> (tech_fe_nano_forge)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The colossal nano-replicator bays convert raw materials into advanced alloys with miraculous efficiency.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Auto-Forge</b> (tech_fe_nano_forge)<br/><i>§LThis marvel of engineering is the pinnacle of technology and industry.§! The colossal nano-replicator bays convert raw materials into advanced alloys with miraculous efficiency.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Materials<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 26,
+      "level": 25,
       "image": "images/technologies/tech_fe_nano_forge.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -932,12 +920,12 @@ ZenithofFallenEmpiresGraphDataTech = {
       "id": "tech_fe_titans",
       "label": "Fallen Titans",
       "group": "ModEngineering",
-      "title": "<b>Fallen Titans</b> (tech_fe_titans)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Titan-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Fallen Titans</b> (tech_fe_titans)<br/><i>Stolen blueprints from a Precursor Empire allow for the construction of powerful Titan-class military vessels.</i><br/><b>Mod: </b>The Zenith of Fallen Empires 2.0<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>50000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 27,
+      "level": 26,
       "image": "images/technologies/tech_fe_titans.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -957,7 +945,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_hellfire_autocannons.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -975,7 +963,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_improved_dragon_armor.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -993,7 +981,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_massive_autocannons.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1011,7 +999,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_omni_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1029,7 +1017,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_psi_missile_system.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1043,7 +1031,7 @@ ZenithofFallenEmpiresGraphDataTech = {
       "label": "Large Giga Cannon",
       "group": "ModEngineering",
       "title": "<b>Large Giga Cannon</b> (tech_resized_mass_accelerator_2)<br/><i>Improvements in weapon manufacturing enable us to make a smaller Giga Cannon.</i><br/><b>Mod: </b>The Zenith of Fallen Empires_ Fallen Weaponry<br/><b>Tier: </b>5<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>15000",
-      "level": 25,
+      "level": 24,
       "image": "images/technologies/tech_resized_mass_accelerator_2.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1064,7 +1052,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_scrapper_weapon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1082,7 +1070,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_shadow_strike_craft.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1100,7 +1088,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_terror_cannon.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1118,7 +1106,7 @@ ZenithofFallenEmpiresGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_titan_armor.png",
       "hasImage": true,
       "nodeType": "tech",

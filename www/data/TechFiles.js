@@ -10,9 +10,14 @@ techDataFiles = [
     "fileName": "Zenith_of_Fallen_Empires-tech.js"
   },
   {
-    "name": "Starborn",
-    "jsVarable": "StarbornGraphDataTech",
-    "fileName": "Starborn-tech.js"
+    "name": "Guilli's Technologies 2.5",
+    "jsVarable": "GuillisTechnologies25GraphDataTech",
+    "fileName": "Guillis_Technologies_2.5-tech.js"
+  },
+  {
+    "name": "Guilli's Ship Components 2.3",
+    "jsVarable": "GuillisShipComponents23GraphDataTech",
+    "fileName": "Guillis_Ship_Components_2.3-tech.js"
   },
   {
     "name": "Gigastructures",
@@ -23,21 +28,6 @@ techDataFiles = [
     "name": "EUTAB",
     "jsVarable": "EUTABGraphDataTech",
     "fileName": "EUTAB-tech.js"
-  },
-  {
-    "name": "Dyson Swarm",
-    "jsVarable": "DysonSwarmGraphDataTech",
-    "fileName": "Dyson_Swarm-tech.js"
-  },
-  {
-    "name": "At War",
-    "jsVarable": "AtWarGraphDataTech",
-    "fileName": "At_War-tech.js"
-  },
-  {
-    "name": "Ancient Cache of Technologies",
-    "jsVarable": "AncientCacheofTechnologiesGraphDataTech",
-    "fileName": "Ancient_Cache_of_Technologies-tech.js"
   },
   {
     "name": "Stellaris-No-Mods",

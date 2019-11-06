@@ -28,7 +28,7 @@ namespace TechTreeConsole {
                 string outputDir = OUTPUT_WINDOWS;
                 string modFileSuffix = "-windows";
                 string stellarisUserDir = STELLARIS_USER_WINDOWS;
-                bool forceOverwrite = false;
+                bool forceOverwrite = true;
                 bool createModListFile = false;
                 foreach (var arg in args) {
                     if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
@@ -87,9 +87,10 @@ namespace TechTreeConsole {
             }
             catch (Exception e) {
                 Log.Logger.Fatal(e, "Fatal Error");
-                Environment.Exit(1);
+                //Environment.Exit(1);
             }
             finally{Log.CloseAndFlush();}
+            Console.ReadLine();
         }
     }
 }
