@@ -23,26 +23,31 @@ namespace TechTreeConsole {
         private const string STELLARIS_USER_MAC = "/Users/christian/Documents/Paradox Interactive/Stellaris";
 
         static void Main(string[] args) {
-            try {
+            try
+            {
                 string rootDir = STELLARIS_ROOT_WINDOWS;
                 string outputDir = OUTPUT_WINDOWS;
                 string modFileSuffix = "-windows";
                 string stellarisUserDir = STELLARIS_USER_WINDOWS;
                 bool forceOverwrite = true;
                 bool createModListFile = false;
-                foreach (var arg in args) {
-                    if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase)) {
+                foreach (var arg in args)
+                {
+                    if (arg.Equals("mac", StringComparison.InvariantCultureIgnoreCase))
+                    {
                         rootDir = STELLARIS_ROOT_MAC;
                         outputDir = OUTPUT_MAC;
                         stellarisUserDir = STELLARIS_USER_MAC;
                         modFileSuffix = "-mac";
                     }
 
-                    if (arg.Equals("modfile", StringComparison.InvariantCultureIgnoreCase)) {
+                    if (arg.Equals("modfile", StringComparison.InvariantCultureIgnoreCase))
+                    {
                         createModListFile = true;
                     }
 
-                    if (arg.Equals("overwrite", StringComparison.InvariantCultureIgnoreCase)) {
+                    if (arg.Equals("overwrite", StringComparison.InvariantCultureIgnoreCase))
+                    {
                         forceOverwrite = true;
                     }
                 }
@@ -58,24 +63,28 @@ namespace TechTreeConsole {
                     .WriteTo.Console(LogEventLevel.Debug, outputTemplate, theme: AnsiConsoleTheme.Literate)
                     .CreateLogger();
 
-                if (createModListFile) {
+                if (createModListFile)
+                {
                     IList<ModDefinitionFile> modFiles = ModDirectoryHelper.LoadModDefinitions(stellarisUserDir);
                     ModDirectoryHelper.WriteModInfoFile(modsFilePath, modFiles);
                     Environment.Exit(0);
                 }
 
                 var modList = ModDirectoryHelper.ReadModInfoFile(modsFilePath);
-                foreach (var modFile in modList.Where(x => x.Include)) {
-                    Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name, modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
+                foreach (var modFile in modList.Where(x => x.Include))
+                {
+                    Log.Logger.Information("Mod {name} with data located in {location}", modFile.Name,
+                        modFile.ModDirectoryPath ?? modFile.ArchiveFilePath);
                 }
 
                 var techTreeCreatorManager = new TechTreeCreatorManager(rootDir, outputDir);
                 techTreeCreatorManager.Mods = modList;
                 techTreeCreatorManager.ForceModOverwriting = forceOverwrite;
-                
-                techTreeCreatorManager.Parse(new [] { ParseTarget.Buildings, ParseTarget.ShipComponents, ParseTarget.Decisions});
+
+                techTreeCreatorManager.Parse(new[]
+                    {ParseTarget.Buildings, ParseTarget.ShipComponents, ParseTarget.Decisions});
                 //techTreeCreatorManager.Parse(new [] { ParseTarget.ShipComponents});
-                
+
 //
 //                foreach (var (modGoup, visData) in techsData) {
 //                    Log.Logger.Information("{modGroup} Techs: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
@@ -85,11 +94,16 @@ namespace TechTreeConsole {
 //                    Log.Logger.Information("{modGroup} Buildings: {techCount} Edges: {edgeCount}", modGoup, visData.nodes.Count, visData.edges.Count);
 //                }
             }
-            catch (Exception e) {
+            catch (Exception e)
+            {
                 Log.Logger.Fatal(e, "Fatal Error");
                 //Environment.Exit(1);
             }
-            finally{Log.CloseAndFlush();}
+            finally
+            {
+                Log.Logger.Information("Finished");
+                Log.CloseAndFlush();
+            }
             Console.ReadLine();
         }
     }

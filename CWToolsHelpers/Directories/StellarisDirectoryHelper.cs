@@ -56,9 +56,15 @@ namespace CWToolsHelpers.Directories {
         
         public string ComponentSets => GetComponentSetsDirectory(Root);
 
-        public StellarisDirectoryHelper(string rootDirectory, string grouping = null) {
+        /// <summary>
+        /// Create a new instance.
+        /// </summary>
+        /// <param name="rootDirectory">The Mods Root directory</param>
+        /// <param name="grouping">Optionall the mod group that this mod is from, if not supplied the name will be used</param>
+        /// <param name="name">Optional name of the mod, if this is not supplied the mod directory will be used (note this may be a numerical value for steam mods)</param>
+        public StellarisDirectoryHelper(string rootDirectory, string grouping = null, string name = null) {
             Root = rootDirectory;
-            ModName = new DirectoryInfo(rootDirectory).Name;
+            ModName = name ?? new DirectoryInfo(rootDirectory).Name;
             ModGroup = grouping ?? ModName;
         }
 

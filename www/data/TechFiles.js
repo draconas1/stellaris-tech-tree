@@ -5,19 +5,24 @@ techDataFiles = [
     "fileName": "Stellaris-tech.js"
   },
   {
-    "name": "Zenith of Fallen Empires",
-    "jsVarable": "ZenithofFallenEmpiresGraphDataTech",
-    "fileName": "Zenith_of_Fallen_Empires-tech.js"
+    "name": "Unofficial Machine & Synthetic Empire DLC",
+    "jsVarable": "UnofficialMachineSyntheticEmpireDLCGraphDataTech",
+    "fileName": "Unofficial_Machine__Synthetic_Empire_DLC-tech.js"
   },
   {
-    "name": "Guilli's Technologies 2.5",
-    "jsVarable": "GuillisTechnologies25GraphDataTech",
-    "fileName": "Guillis_Technologies_2.5-tech.js"
+    "name": "The Zenith of Fallen Empires",
+    "jsVarable": "TheZenithofFallenEmpiresGraphDataTech",
+    "fileName": "The_Zenith_of_Fallen_Empires-tech.js"
   },
   {
-    "name": "Guilli's Ship Components 2.3",
-    "jsVarable": "GuillisShipComponents23GraphDataTech",
-    "fileName": "Guillis_Ship_Components_2.3-tech.js"
+    "name": "Stellaris Immortal",
+    "jsVarable": "StellarisImmortalGraphDataTech",
+    "fileName": "Stellaris_Immortal-tech.js"
+  },
+  {
+    "name": "Guilli's Technologies",
+    "jsVarable": "GuillisTechnologiesGraphDataTech",
+    "fileName": "Guillis_Technologies-tech.js"
   },
   {
     "name": "Gigastructures",
@@ -28,6 +33,11 @@ techDataFiles = [
     "name": "EUTAB",
     "jsVarable": "EUTABGraphDataTech",
     "fileName": "EUTAB-tech.js"
+  },
+  {
+    "name": "New Ship Classes",
+    "jsVarable": "NewShipClassesGraphDataTech",
+    "fileName": "New_Ship_Classes-tech.js"
   },
   {
     "name": "Stellaris-No-Mods",

@@ -202,6 +202,29 @@ namespace TechTreeCreator.DTO {
         private ModEntityData<Decision> decisions;
         private ISet<string> modGroups = new HashSet<string>();
 
+        private void FixImages<T>(ModEntityData<T> mods) where T: Entity
+        {
+            if (mods == null) return;
+            // because the image copying only get the most recent version of the entity, make sure that the image flag is set on all
+            // relevant for the vanilla graph display
+            var liveEntity = mods.AllEntitiesByKey;
+            mods.ApplyToChain((entities, links) =>
+            {
+                foreach (var entity in entities.Values)
+                {
+                    entity.IconFound = liveEntity[entity.Id].IconFound;
+                }
+            }); 
+        }
+
+        public void FixImages()
+        {
+            FixImages(buildings);
+            FixImages(shipComponents);
+            FixImages(shipComponentDescriptions);
+            FixImages(decisions);
+        }
+        
         public ModEntityData<Building> Buildings {
             get => buildings;
             set {

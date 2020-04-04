@@ -85,7 +85,7 @@ namespace CWToolsHelpers.Directories {
             var modName = modInfo.Name;
             var modGroup = modInfo.ModGroup ?? modName;
             if (!IsArchiveFile(path) && !isSteamWorkshopModDirectory(path)) {
-                return new StellarisDirectoryHelper(path, modGroup);
+                return new StellarisDirectoryHelper(path, modGroup, modName);
             }
 
             FileInfo zipInfo;
@@ -132,7 +132,7 @@ namespace CWToolsHelpers.Directories {
                 }
             }
             
-            return new StellarisDirectoryHelper(tempFolder, modGroup);
+            return new StellarisDirectoryHelper(tempFolder, modGroup, modName);
         }
         
         /// <summary>

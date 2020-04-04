@@ -81,7 +81,6 @@ GraphOptions = {
         borderRadius: 0
       },
       font: {
-        size: 26,
         align: 'left',
         vadjust: -50
       },
@@ -94,7 +93,6 @@ GraphOptions = {
         borderRadius: 0
       },
       font: {
-        size: 26,
         align: 'left',
         vadjust: -30
       }

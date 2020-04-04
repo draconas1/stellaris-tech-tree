@@ -74,6 +74,16 @@ namespace TechTreeCreator
                 CopyMainImages(techData.AllEntities, ParseTarget.Technologies.ImagesDirectory(),
                     techImageOutputDir);
 
+                // because the image copying only get the most recent version of the entity, make sure that the image flag is set on all
+                // relevant for the vanilla graph display
+                var currentTechs = techData.AllEntitiesByKey;
+                techData.ApplyToChain((techs, links) =>
+                {
+                    foreach (var tech in techs.Values)
+                    {
+                        tech.IconFound = currentTechs[tech.Id].IconFound;
+                    }
+                }); 
                 
                 var techAreas = Enum.GetValues(typeof(TechArea)).Cast<TechArea>();
                 var areaDir = Path.Combine(techImageOutputDir, "areas"); 
@@ -110,6 +120,7 @@ namespace TechTreeCreator
                         var entityData = dependants.Get(parseTarget);
                         CopyMainImages(entityData, parseTarget.ImagesDirectory(), imageOutputDir);
                     }
+                    dependants.FixImages();
                 }
             }
             

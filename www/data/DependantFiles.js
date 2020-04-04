@@ -1,8 +1,8 @@
 dependantDataFiles = [
   {
-    "name": "Stellaris",
-    "jsVarable": "StellarisGraphDataDependants",
-    "fileName": "Stellaris-dependants.js"
+    "name": "Stellaris Immortal",
+    "jsVarable": "StellarisImmortalGraphDataDependants",
+    "fileName": "Stellaris_Immortal-dependants.js"
   },
   {
     "name": "EUTAB",
@@ -10,9 +10,19 @@ dependantDataFiles = [
     "fileName": "EUTAB-dependants.js"
   },
   {
-    "name": "Zenith of Fallen Empires",
-    "jsVarable": "ZenithofFallenEmpiresGraphDataDependants",
-    "fileName": "Zenith_of_Fallen_Empires-dependants.js"
+    "name": "Stellaris",
+    "jsVarable": "StellarisGraphDataDependants",
+    "fileName": "Stellaris-dependants.js"
+  },
+  {
+    "name": "Unofficial Machine & Synthetic Empire DLC",
+    "jsVarable": "UnofficialMachineSyntheticEmpireDLCGraphDataDependants",
+    "fileName": "Unofficial_Machine__Synthetic_Empire_DLC-dependants.js"
+  },
+  {
+    "name": "The Zenith of Fallen Empires",
+    "jsVarable": "TheZenithofFallenEmpiresGraphDataDependants",
+    "fileName": "The_Zenith_of_Fallen_Empires-dependants.js"
   },
   {
     "name": "Gigastructures",
