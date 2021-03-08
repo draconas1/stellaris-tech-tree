@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Text.RegularExpressions;
 using CWToolsHelpers.Localisation;
 using NetExtensions.Object;
 using Serilog;
@@ -9,22 +10,28 @@ using TechTreeCreator.DTO;
 
 namespace TechTreeCreator.Output.Vis {
     public static class VisHelpers {
+        
+        private static readonly Regex IconStringRx = new Regex(@"£.+£", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        private static readonly Regex ColourCodeRx = new Regex(@"§.", RegexOptions.Compiled | RegexOptions.IgnoreCase);
         public static void SetBorder(VisNode node, string borderColour)
         {
             node.color = new VisColor { border = borderColour };
             node.borderWidth = 1;
         }
         
-        public static  VisNode CreateNode(Entity entity, string imagesRelativePath, string nodeType) {
+        public static  VisNode CreateNode(Entity entity, string imagesRelativePath, string nodeType)
+        {
+            var sanitisedName = ColourCodeRx.Replace(IconStringRx.Replace(entity.Name, ""), "");
+            var sanitisedDescription =  ColourCodeRx.Replace(IconStringRx.Replace(entity.Description, ""), "");
             var result = new VisNode {
                 id = entity.Id,
-                label = entity.Name,
-                title = $"<b>{entity.Name}</b> ({entity.Id})",
+                label = sanitisedName,
+                title = $"<b>{sanitisedName}</b> ({entity.Id})",
                 image = $"{imagesRelativePath}/{entity.Id}.png",
                 hasImage = entity.IconFound,
                 nodeType = nodeType
             };
-            result.title = result.title + $"<br/><i>{entity.Description}</i>";
+            result.title = result.title + $"<br/><i>{sanitisedDescription}</i>";
 
             if (entity.Mod != "Stellaris") {
                 result.title = result.title + $"<br/><b>Mod: </b>{entity.Mod}";

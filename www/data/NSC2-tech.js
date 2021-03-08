@@ -1,10 +1,10 @@
-NewShipClassesGraphDataTech = {
+NSC2GraphDataTech = {
   "nodes": [
     {
       "id": "tech_bh_power_2",
       "label": "Improved Flagship Reactors",
       "group": "ModPhysics",
-      "title": "<b>Improved Flagship Reactors</b> (tech_bh_power_2)<br/><i>Reactor powered by an artificial black hole.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Improved Flagship Reactors</b> (tech_bh_power_2)<br/><i>Reactor powered by an artificial black hole.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -24,7 +24,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_bh_power_3",
       "label": "Advanced Flagship Reactors",
       "group": "ModPhysics",
-      "title": "<b>Advanced Flagship Reactors</b> (tech_bh_power_3)<br/><i>Reactor powered by an artificial black hole.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Flagship Reactors</b> (tech_bh_power_3)<br/><i>Reactor powered by an artificial black hole.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -44,7 +44,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_graviton_power",
       "label": "Graviton Reactor",
       "group": "ModPhysics",
-      "title": "<b>Graviton Reactor</b> (tech_graviton_power)<br/><i>Adding gravitational and graviton based based particles to reinforce an antimatter reaction greatly increases the energy production of our reactors.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>60000",
+      "title": "<b>Graviton Reactor</b> (tech_graviton_power)<br/><i>Adding gravitational and graviton based based particles to reinforce an antimatter reaction greatly increases the energy production of our reactors.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>60000",
       "level": 24,
       "image": "images/technologies/tech_graviton_power.png",
       "hasImage": true,
@@ -60,7 +60,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_hyperlane_generation",
       "label": "Hyperlane Generation",
       "group": "ModPhysics",
-      "title": "<b>Hyperlane Generation</b> (tech_hyperlane_generation)<br/><i>Recent developments in both the design of hyperdrives and the activation of derelict Gateways can enable us to develop the way of creating new hyperlanes and removing existing ones, finally allowing us to reshape galactic geography for our needs and purposes.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>25500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Hyperlane Generation</b> (tech_hyperlane_generation)<br/><i>Recent developments in both the design of hyperdrives and the activation of derelict Gateways can enable us to develop the way of creating new hyperlanes and removing existing ones, finally allowing us to reshape galactic geography for our needs and purposes.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -81,7 +81,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_multidimensional_power",
       "label": "Multidimensional Reactor",
       "group": "ModPhysics",
-      "title": "<b>Multidimensional Reactor</b> (tech_multidimensional_power)<br/><i>Creating a matter bridge between different dimensions and alternative realities allows for a steady, if somewhat limited, stream of vacuum energy to power our next generation of reactors.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>72000",
+      "title": "<b>Multidimensional Reactor</b> (tech_multidimensional_power)<br/><i>Creating a matter bridge between different dimensions and alternative realities allows for a steady, if somewhat limited, stream of vacuum energy to power our next generation of reactors.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>72000",
       "level": 27,
       "image": "images/technologies/tech_multidimensional_power.png",
       "hasImage": false,
@@ -97,7 +97,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_naquadria_power",
       "label": "Naquadria Reactor",
       "group": "ModPhysics",
-      "title": "<b>Naquadria Reactor</b> (tech_naquadria_power)<br/><i>Specialized Reactor powered by ancient and rare crystals.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>64000",
+      "title": "<b>Naquadria Reactor</b> (tech_naquadria_power)<br/><i>Specialized Reactor powered by ancient and rare crystals.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>64000",
       "level": 25,
       "image": "images/technologies/tech_naquadria_power.png",
       "hasImage": false,
@@ -113,7 +113,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_dlc_check",
       "label": "Apocalypse Now?",
       "group": "ModPhysics",
-      "title": "<b>Apocalypse Now?</b> (tech_nsc_dlc_check)<br/><i>This is an automatic starting tech to check for the Apocalypse DLC.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter, NonTechDependency",
+      "title": "<b>Apocalypse Now?</b> (tech_nsc_dlc_check)<br/><i>This is an automatic starting tech to check for the Apocalypse DLC.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>0<br/><b>Category: </b>Particles<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -131,7 +131,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_reactor_boosters_1",
       "label": "Graviton Boosters",
       "group": "ModPhysics",
-      "title": "<b>Graviton Boosters</b> (tech_nsc_reactor_boosters_1)<br/><i>The discovery of Graviton power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>16000",
+      "title": "<b>Graviton Boosters</b> (tech_nsc_reactor_boosters_1)<br/><i>The discovery of Graviton power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>16000",
       "level": 19,
       "image": "images/technologies/tech_nsc_reactor_boosters_1.png",
       "hasImage": true,
@@ -148,7 +148,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_reactor_boosters_2",
       "label": "Naquadria Boosters",
       "group": "ModPhysics",
-      "title": "<b>Naquadria Boosters</b> (tech_nsc_reactor_boosters_2)<br/><i>The discovery of Naquadria power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
+      "title": "<b>Naquadria Boosters</b> (tech_nsc_reactor_boosters_2)<br/><i>The discovery of Naquadria power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>20000",
       "level": 20,
       "image": "images/technologies/tech_nsc_reactor_boosters_2.png",
       "hasImage": true,
@@ -165,7 +165,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_reactor_boosters_3",
       "label": "Singularity Boosters",
       "group": "ModPhysics",
-      "title": "<b>Singularity Boosters</b> (tech_nsc_reactor_boosters_3)<br/><i>The discovery of Singularity power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000",
+      "title": "<b>Singularity Boosters</b> (tech_nsc_reactor_boosters_3)<br/><i>The discovery of Singularity power allows for better reactor boosters to be fitted onto our ships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Particles<br/><b>Base cost: </b>24000",
       "level": 21,
       "image": "images/technologies/tech_nsc_reactor_boosters_3.png",
       "hasImage": true,
@@ -182,7 +182,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_optimized_enigmatic_power",
       "label": "Optimized Dark Matter Reactor",
       "group": "ModPhysics",
-      "title": "<b>Optimized Dark Matter Reactor</b> (tech_optimized_enigmatic_power)<br/><i>Enhanced Dark Matter Reactor</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>76000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Optimized Dark Matter Reactor</b> (tech_optimized_enigmatic_power)<br/><i>Enhanced Dark Matter Reactor</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>76000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -203,7 +203,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_power_station",
       "label": "System Energy Grid",
       "group": "ModPhysics",
-      "title": "<b>System Energy Grid</b> (tech_power_station)<br/><i>An expanding star empire requires ever-greater Energy production to sustain it. Creating specialized, space-based Energy-creation facilities will allow us to centralize our Energy production in key systems to better supply our nation's Energy needs.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>System Energy Grid</b> (tech_power_station)<br/><i>An expanding star empire requires ever-greater Energy production to sustain it. Creating specialized, space-based Energy-creation facilities will allow us to centralize our Energy production in key systems to better supply our nation's Energy needs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -223,7 +223,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_singularity_power",
       "label": "Singularity Power",
       "group": "ModPhysics",
-      "title": "<b>Singularity Power</b> (tech_singularity_power)<br/><i>Reactor powered by a quantum singularity.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>68000",
+      "title": "<b>Singularity Power</b> (tech_singularity_power)<br/><i>Reactor powered by a quantum singularity.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Particles<br/><b>Base cost: </b>68000",
       "level": 26,
       "image": "images/technologies/tech_singularity_power.png",
       "hasImage": true,
@@ -239,7 +239,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_galactic_mall",
       "label": "Galactic Mall",
       "group": "ModSociety",
-      "title": "<b>Galactic Mall</b> (tech_galactic_mall)<br/><i>The galaxy's largest consumer mall and shopping center, capable of producing an impressive amount of consumer goods.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>56000",
+      "title": "<b>Galactic Mall</b> (tech_galactic_mall)<br/><i>The galaxy's largest consumer mall and shopping center, capable of producing vast quantities of consumer goods, and the ultimate shopping trip for the galaxy's most dedicated shopaholics.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>56000",
       "level": 24,
       "image": "images/technologies/tech_galactic_mall.png",
       "hasImage": true,
@@ -251,9 +251,9 @@ NewShipClassesGraphDataTech = {
     },
     {
       "id": "tech_hospital",
-      "label": "Galaxy General Hospital",
+      "label": "Galactic General Hospital",
       "group": "ModSociety",
-      "title": "<b>Galaxy General Hospital</b> (tech_hospital)<br/><i>A massive hospital dedicated to the study of the various xenoraces in the galaxy and the analysis and treatment of the various diseases that affect these species.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>56000",
+      "title": "<b>Galactic General Hospital</b> (tech_hospital)<br/><i>An utterly gargantuan, state-of-the-art space-borne hospital, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Biology<br/><b>Base cost: </b>56000",
       "level": 24,
       "image": "images/technologies/tech_hospital.png",
       "hasImage": true,
@@ -267,7 +267,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_disabled_sections",
       "label": "Disabled NSC Ship Sections",
       "group": "ModSociety",
-      "title": "<b>Disabled NSC Ship Sections</b> (tech_nsc_disabled_sections)<br/><i>If you are seeing this tech something is wrong or you used the console.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Materials<br/><b>Base cost: </b>0<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Disabled NSC Ship Sections</b> (tech_nsc_disabled_sections)<br/><i>If you are seeing this tech, something is wrong or you used the console.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Materials<br/><b>Base cost: </b>0<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -282,10 +282,54 @@ NewShipClassesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_nsc_freebooter_khan_training_improve",
+      "label": "Khan's Improved Teachings",
+      "group": "ModSociety",
+      "title": "<b>Khan's Improved Teachings</b> (tech_nsc_freebooter_khan_training_improve)<br/><i>Knowledge is power. Power is everything.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>16000",
+      "level": 19,
+      "image": "images/technologies/tech_nsc_freebooter_khan_training_improve.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "statecraft"
+      ]
+    },
+    {
+      "id": "tech_nsc_freebooter_planet_raiding_improve_1",
+      "label": "Improved Pirate Raid",
+      "group": "ModSociety",
+      "title": "<b>Improved Pirate Raid</b> (tech_nsc_freebooter_planet_raiding_improve_1)<br/><i>We can steal more than now. Let's just teach our crews how to.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>6000",
+      "level": 10,
+      "image": "images/technologies/tech_nsc_freebooter_planet_raiding_improve_1.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "military_theory"
+      ]
+    },
+    {
+      "id": "tech_nsc_freebooter_planet_raiding_improve_2",
+      "label": "Maximized Pirate Raid",
+      "group": "ModSociety",
+      "title": "<b>Maximized Pirate Raid</b> (tech_nsc_freebooter_planet_raiding_improve_2)<br/><i>We will introduce more specialized theory for this job. Our crews will steal more, and we will be rich. Hooray!</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>12000",
+      "level": 14,
+      "image": "images/technologies/tech_nsc_freebooter_planet_raiding_improve_2.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_nsc_freebooter_planet_raiding_improve_1"
+      ],
+      "categories": [
+        "military_theory"
+      ]
+    },
+    {
       "id": "tech_Battlecruiser_1",
       "label": "Battlecruiser",
       "group": "ModEngineering",
-      "title": "<b>Battlecruiser</b> (tech_Battlecruiser_1)<br/><i>New facilities and construction techniques allow us to now build Battlecruiser-class military vessels.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>14000",
+      "title": "<b>Battlecruiser</b> (tech_Battlecruiser_1)<br/><i>As larger and larger vessels become more common, combat is taking place at longer ranges, and offensive firepower is becoming an ever-more-decisive factor in battle. Our naval theorists suggest building a long, powerful vessel capable of mounting large, medium, and most notably, guided weapon emplacements, to specialize in hurling as much weaponry at the enemy as possible, in either mid- or long-range combat.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>14000",
       "level": 16,
       "image": "images/technologies/tech_Battlecruiser_1.png",
       "hasImage": true,
@@ -301,7 +345,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_Carrier_1",
       "label": "Carrier",
       "group": "ModEngineering",
-      "title": "<b>Carrier</b> (tech_Carrier_1)<br/><i>New facilities and construction techniques allow us to now build Carrier-class military vessels.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
+      "title": "<b>Carrier</b> (tech_Carrier_1)<br/><i>Strike Craft have proven to be highly successful weapons in naval combat. It is time to design a specialized warship for the express purpose of carrying these weapons into battle, and housing the large support staff and maintenance bays that they require. Doing so will allow these new Carrier vessels to carry far more strike craft than their more improvised predecessors.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
       "level": 20,
       "image": "images/technologies/tech_Carrier_1.png",
       "hasImage": true,
@@ -317,7 +361,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_Dreadnought_1",
       "label": "Dreadnought",
       "group": "ModEngineering",
-      "title": "<b>Dreadnought</b> (tech_Dreadnought_1)<br/><i>New facilities and construction techniques allow us to now build Dreadnought-class military vessels.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
+      "title": "<b>Dreadnought</b> (tech_Dreadnought_1)<br/><i>The Battleship heralded a new era of ship design and naval combat. The ability to both deliver and take massive damage at long range, and the advent of devastating XL weaponry, have completely changed the nature of warfare. Our naval engineers believe that we should develop an even better version of these powerful ships. Their proposed 'Dreadnoughts' would be capable of mounting heavier defenses, more guns, and even two of the incredible XL weapons that have been so successful on the battlefield.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
       "level": 20,
       "image": "images/technologies/tech_Dreadnought_1.png",
       "hasImage": true,
@@ -333,7 +377,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_Flagship_1",
       "label": "The Flagship",
       "group": "ModEngineering",
-      "title": "<b>The Flagship</b> (tech_Flagship_1)<br/><i>After many decades of combat and engineering experience, we now have the capability to build one massive and unique Flagship to represent our Empire.\"</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Flagship</b> (tech_Flagship_1)<br/><i>The naval arms race has seen the production of larger and larger warships with no end in sight. Our naval engineers have suggested jumping to the logical conclusion of this serial escalation by constructing a ship so massive and powerful, that no empire will be able to support more than one of them at a time. This proposed Flagship will be the ultimate warship. Designed for maximum versatility, each section will have many possible configurations, allowing us to design our Flagship to suit our purposes. Mounting far more thrusters per ton than any other ship, the Flagship will be able to take any position in the fleet, from a long-range battery in the rear, to a massive brawler at the tip of a fleet's spear.\\n\\nThis power and versatility will come at a heavy cost, however. Merely building the Flagship will be an enormous endeavor, requiring a colossal stockpile of resources and a significant investment of time and manpower. Upon completion, it will take the entire GDP of a small star nation to maintain; as a result, it will require a massive amount of political influence to obtain approval for the project.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -351,7 +395,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_StrikeCruiser_1",
       "label": "Strike Cruiser",
       "group": "ModEngineering",
-      "title": "<b>Strike Cruiser</b> (tech_StrikeCruiser_1)<br/><i>New facilities and construction techniques allow us to now build Strike Cruiser-class military vessels.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
+      "title": "<b>Strike Cruiser</b> (tech_StrikeCruiser_1)<br/><i>Battle experience and extensive wargaming exercises show that fleet combat often ends without a decisive outcome, because the losing side makes an immediate, emergency jump to FTL. Our best scientists have miniaturized the Subspace Snare used on starbases for deployment onto a ship. These vessels will be blisteringly fast, to catch enemy fleets in their Snares, maneuverable enough to keep enemy ships from disengaging from combat, and tough enough to withstand significant punishment to ensure the enemy is pinned down for as long as possible.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 15,
       "image": "images/technologies/tech_StrikeCruiser_1.png",
       "hasImage": true,
@@ -367,7 +411,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_advanced_metallurgy_1",
       "label": "Ceramo-Metal Alloys",
       "group": "ModEngineering",
-      "title": "<b>Ceramo-Metal Alloys</b> (tech_advanced_metallurgy_1)<br/><i>The widespread use of advanced ceramics in industry can improve metallurgical yields.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>2500",
+      "title": "<b>Ceramo-Metal Alloys</b> (tech_advanced_metallurgy_1)<br/><i>The widespread use of advanced ceramics in industry can improve metallurgical yields.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4000",
       "level": 10,
       "image": "images/technologies/tech_advanced_metallurgy_1.png",
       "hasImage": true,
@@ -384,7 +428,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_advanced_metallurgy_2",
       "label": "Durasteel-Laced Alloys",
       "group": "ModEngineering",
-      "title": "<b>Durasteel-Laced Alloys</b> (tech_advanced_metallurgy_2)<br/><i>By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>11000",
+      "title": "<b>Durasteel-Laced Alloys</b> (tech_advanced_metallurgy_2)<br/><i>By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>16000",
       "level": 19,
       "image": "images/technologies/tech_advanced_metallurgy_2.png",
       "hasImage": true,
@@ -402,7 +446,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_afterburners_1",
       "label": "Afterburners",
       "group": "ModEngineering",
-      "title": "<b>Afterburners</b> (tech_afterburners_1)<br/><i>These powerful thrusters provide additional combat speed but consume a great deal of power.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>1000",
+      "title": "<b>Afterburners</b> (tech_afterburners_1)<br/><i>These powerful thrusters provide additional combat speed but consume a great deal of power.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
       "level": 6,
       "image": "images/technologies/tech_afterburners_1.png",
       "hasImage": true,
@@ -418,7 +462,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_afterburners_2",
       "label": "Advanced Afterburners",
       "group": "ModEngineering",
-      "title": "<b>Advanced Afterburners</b> (tech_afterburners_2)<br/><i>This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>7500",
+      "title": "<b>Advanced Afterburners</b> (tech_afterburners_2)<br/><i>This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>10000",
       "level": 15,
       "image": "images/technologies/tech_afterburners_2.png",
       "hasImage": true,
@@ -435,7 +479,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_alloys_1",
       "label": "Holographic Casts",
       "group": "ModEngineering",
-      "title": "<b>Holographic Casts</b> (tech_alloys_1)<br/><i>Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>1500",
+      "title": "<b>Holographic Casts</b> (tech_alloys_1)<br/><i>Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000",
       "level": 6,
       "image": "images/technologies/tech_alloys_1.png",
       "hasImage": true,
@@ -451,7 +495,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_alloys_2",
       "label": "Nano-Separators",
       "group": "ModEngineering",
-      "title": "<b>Nano-Separators</b> (tech_alloys_2)<br/><i>Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000",
+      "title": "<b>Nano-Separators</b> (tech_alloys_2)<br/><i>Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_alloys_2.png",
       "hasImage": true,
@@ -468,7 +512,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_assault_armies",
       "label": "Interplanetary Expeditionary Forces",
       "group": "ModEngineering",
-      "title": "<b>Interplanetary Expeditionary Forces</b> (tech_assault_armies)<br/><i>The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>500<br/><b>Attributes: </b>Starter",
+      "title": "<b>Interplanetary Expeditionary Forces</b> (tech_assault_armies)<br/><i>The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -488,7 +532,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_assembly_pattern",
       "label": "Assembly Patterns",
       "group": "ModEngineering",
-      "title": "<b>Assembly Patterns</b> (tech_assembly_pattern)<br/><i>Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1500",
+      "title": "<b>Assembly Patterns</b> (tech_assembly_pattern)<br/><i>Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 7,
       "image": "images/technologies/tech_assembly_pattern.png",
       "hasImage": true,
@@ -504,7 +548,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_basic_industry",
       "label": "Industrial Base",
       "group": "ModEngineering",
-      "title": "<b>Industrial Base</b> (tech_basic_industry)<br/><i>The basic industrial infrastructure that is required to become a spacefaring civilization.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Industrial Base</b> (tech_basic_industry)<br/><i>The basic industrial infrastructure that is required to become a spacefaring civilization.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -522,7 +566,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battlecruiser_build_speed",
       "label": "Standardized Battlecruiser Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Battlecruiser Patterns</b> (tech_battlecruiser_build_speed)<br/><i>Establishing new standard for the modeling and construction of Battlecruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
+      "title": "<b>Standardized Battlecruiser Patterns</b> (tech_battlecruiser_build_speed)<br/><i>Establishing new standards for the modeling and construction of Battlecruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
       "level": 19,
       "image": "images/technologies/tech_battlecruiser_build_speed.png",
       "hasImage": true,
@@ -538,7 +582,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battlecruiser_hull_1",
       "label": "Improved Battlecruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Battlecruiser Hulls</b> (tech_battlecruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Battlecruisers</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Improved Battlecruiser Hulls</b> (tech_battlecruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Battlecruisers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 19,
       "image": "images/technologies/tech_battlecruiser_hull_1.png",
       "hasImage": true,
@@ -554,7 +598,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battlecruiser_hull_2",
       "label": "Advanced Battlecruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Battlecruiser Hulls</b> (tech_battlecruiser_hull_2)<br/><i>The latest generation of Battlecruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Battlecruiser Hulls</b> (tech_battlecruiser_hull_2)<br/><i>The latest generation of Battlecruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -574,7 +618,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battleship_build_speed",
       "label": "Standardized Battleship Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Battleship Patterns</b> (tech_battleship_build_speed)<br/><i>Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>14000",
+      "title": "<b>Standardized Battleship Patterns</b> (tech_battleship_build_speed)<br/><i>Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 20,
       "image": "images/technologies/tech_battleship_build_speed.png",
       "hasImage": true,
@@ -590,7 +634,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battleship_hull_1",
       "label": "Improved Battleship Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Battleship Hulls</b> (tech_battleship_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable battleships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>17000",
+      "title": "<b>Improved Battleship Hulls</b> (tech_battleship_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable battleships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 20,
       "image": "images/technologies/tech_battleship_hull_1.png",
       "hasImage": true,
@@ -606,7 +650,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battleship_hull_2",
       "label": "Advanced Battleship Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Battleship Hulls</b> (tech_battleship_hull_2)<br/><i>The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Battleship Hulls</b> (tech_battleship_hull_2)<br/><i>The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -626,7 +670,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_battleships",
       "label": "Battleships",
       "group": "ModEngineering",
-      "title": "<b>Battleships</b> (tech_battleships)<br/><i>The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>11000",
+      "title": "<b>Battleships</b> (tech_battleships)<br/><i>The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
       "level": 19,
       "image": "images/technologies/tech_battleships.png",
       "hasImage": true,
@@ -642,7 +686,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_carrier_build_speed",
       "label": "Standardized Carrier Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Carrier Patterns</b> (tech_carrier_build_speed)<br/><i>Establishing new standard for the modeling and construction of Carriers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
+      "title": "<b>Standardized Carrier Patterns</b> (tech_carrier_build_speed)<br/><i>Establishing new standards for the modeling and construction of Carriers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 21,
       "image": "images/technologies/tech_carrier_build_speed.png",
       "hasImage": true,
@@ -658,7 +702,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_carrier_hull_1",
       "label": "Improved Carrier Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Carrier Hulls</b> (tech_carrier_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Carriers</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Improved Carrier Hulls</b> (tech_carrier_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Carriers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 21,
       "image": "images/technologies/tech_carrier_hull_1.png",
       "hasImage": true,
@@ -674,7 +718,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_carrier_hull_2",
       "label": "Advanced Carrier Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Carrier Hulls</b> (tech_carrier_hull_2)<br/><i>The latest generation of Carrier hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Carrier Hulls</b> (tech_carrier_hull_2)<br/><i>The latest generation of Carrier hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -694,7 +738,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_construction_templates",
       "label": "Construction Templates",
       "group": "ModEngineering",
-      "title": "<b>Construction Templates</b> (tech_construction_templates)<br/><i>Standardized pre-fab templates massively reduce on-site facility construction times.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>7500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Construction Templates</b> (tech_construction_templates)<br/><i>Standardized pre-fab templates massively reduce on-site facility construction times.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -714,7 +758,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_corvette_build_speed",
       "label": "Standardized Corvette Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Corvette Patterns</b> (tech_corvette_build_speed)<br/><i>Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>1000",
+      "title": "<b>Standardized Corvette Patterns</b> (tech_corvette_build_speed)<br/><i>Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2500",
       "level": 6,
       "image": "images/technologies/tech_corvette_build_speed.png",
       "hasImage": true,
@@ -730,7 +774,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_corvette_hull_1",
       "label": "Improved Corvette Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Corvette Hulls</b> (tech_corvette_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable corvettes.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>1500",
+      "title": "<b>Improved Corvette Hulls</b> (tech_corvette_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable corvettes.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3000",
       "level": 6,
       "image": "images/technologies/tech_corvette_hull_1.png",
       "hasImage": true,
@@ -746,7 +790,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_corvette_hull_2",
       "label": "Advanced Corvette Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Corvette Hulls</b> (tech_corvette_hull_2)<br/><i>The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Corvette Hulls</b> (tech_corvette_hull_2)<br/><i>The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -766,7 +810,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_corvettes",
       "label": "Corvettes",
       "group": "ModEngineering",
-      "title": "<b>Corvettes</b> (tech_corvettes)<br/><i>The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Corvettes</b> (tech_corvettes)<br/><i>The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -786,7 +830,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_cruiser_build_speed",
       "label": "Standardized Cruiser Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Cruiser Patterns</b> (tech_cruiser_build_speed)<br/><i>Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>7500",
+      "title": "<b>Standardized Cruiser Patterns</b> (tech_cruiser_build_speed)<br/><i>Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 15,
       "image": "images/technologies/tech_cruiser_build_speed.png",
       "hasImage": true,
@@ -802,7 +846,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_cruiser_hull_1",
       "label": "Improved Cruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Cruiser Hulls</b> (tech_cruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable cruisers.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>9000",
+      "title": "<b>Improved Cruiser Hulls</b> (tech_cruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable cruisers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 15,
       "image": "images/technologies/tech_cruiser_hull_1.png",
       "hasImage": true,
@@ -818,7 +862,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_cruiser_hull_2",
       "label": "Advanced Cruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Cruiser Hulls</b> (tech_cruiser_hull_2)<br/><i>The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>11000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Cruiser Hulls</b> (tech_cruiser_hull_2)<br/><i>The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -838,7 +882,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_cruisers",
       "label": "Cruisers",
       "group": "ModEngineering",
-      "title": "<b>Cruisers</b> (tech_cruisers)<br/><i>Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Cruisers</b> (tech_cruisers)<br/><i>Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_cruisers.png",
       "hasImage": true,
@@ -854,7 +898,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_crystal_armor_1",
       "label": "Crystal-Infused Plating",
       "group": "ModEngineering",
-      "title": "<b>Crystal-Infused Plating</b> (tech_crystal_armor_1)<br/><i>By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>4500<br/><b>Attributes: </b>NonTechDependency",
+      "title": "<b>Crystal-Infused Plating</b> (tech_crystal_armor_1)<br/><i>By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -872,7 +916,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_crystal_armor_2",
       "label": "Crystal-Forged Plating",
       "group": "ModEngineering",
-      "title": "<b>Crystal-Forged Plating</b> (tech_crystal_armor_2)<br/><i>Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>11000<br/><b>Attributes: </b>Rare, NonTechDependency",
+      "title": "<b>Crystal-Forged Plating</b> (tech_crystal_armor_2)<br/><i>Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare, NonTechDependency",
       "color": {
         "border": "#CE7C00"
       },
@@ -890,7 +934,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_defense_platform_hull_1",
       "label": "Improved Structural Integrity",
       "group": "ModEngineering",
-      "title": "<b>Improved Structural Integrity</b> (tech_defense_platform_hull_1)<br/><i>A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Improved Structural Integrity</b> (tech_defense_platform_hull_1)<br/><i>A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -910,7 +954,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_defense_platforms_1",
       "label": "Defense Platform Increase - Level 1",
       "group": "ModEngineering",
-      "title": "<b>Defense Platform Increase - Level 1</b> (tech_defense_platforms_1)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
+      "title": "<b>Defense Platform Increase - Level 1</b> (tech_defense_platforms_1)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 19,
       "image": "images/technologies/tech_defense_platforms_1.png",
       "hasImage": true,
@@ -926,7 +970,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_defense_platforms_2",
       "label": "Defense Platform Increase - Level 2",
       "group": "ModEngineering",
-      "title": "<b>Defense Platform Increase - Level 2</b> (tech_defense_platforms_2)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Defense Platform Increase - Level 2</b> (tech_defense_platforms_2)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 20,
       "image": "images/technologies/tech_defense_platforms_2.png",
       "hasImage": true,
@@ -943,7 +987,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_defense_platforms_3",
       "label": "Defense Platform Increase - Level 3",
       "group": "ModEngineering",
-      "title": "<b>Defense Platform Increase - Level 3</b> (tech_defense_platforms_3)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
+      "title": "<b>Defense Platform Increase - Level 3</b> (tech_defense_platforms_3)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
       "level": 21,
       "image": "images/technologies/tech_defense_platforms_3.png",
       "hasImage": true,
@@ -960,7 +1004,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_defense_platforms_4",
       "label": "Defense Platform Increase - Level 4",
       "group": "ModEngineering",
-      "title": "<b>Defense Platform Increase - Level 4</b> (tech_defense_platforms_4)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Defense Platform Increase - Level 4</b> (tech_defense_platforms_4)<br/><i>Improved technolgies allow us to construct more defense platforms for our starbases.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 24,
       "image": "images/technologies/tech_defense_platforms_4.png",
       "hasImage": true,
@@ -976,7 +1020,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_destroyer_build_speed",
       "label": "Standardized Destroyer Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Destroyer Patterns</b> (tech_destroyer_build_speed)<br/><i>Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3500",
+      "title": "<b>Standardized Destroyer Patterns</b> (tech_destroyer_build_speed)<br/><i>Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
       "level": 11,
       "image": "images/technologies/tech_destroyer_build_speed.png",
       "hasImage": true,
@@ -992,7 +1036,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_destroyer_hull_1",
       "label": "Improved Destroyer Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Destroyer Hulls</b> (tech_destroyer_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable destroyers.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4500",
+      "title": "<b>Improved Destroyer Hulls</b> (tech_destroyer_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable destroyers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
       "level": 11,
       "image": "images/technologies/tech_destroyer_hull_1.png",
       "hasImage": true,
@@ -1008,7 +1052,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_destroyer_hull_2",
       "label": "Advanced Destroyer Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Destroyer Hulls</b> (tech_destroyer_hull_2)<br/><i>The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Destroyer Hulls</b> (tech_destroyer_hull_2)<br/><i>The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1028,7 +1072,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_destroyers",
       "label": "Destroyers",
       "group": "ModEngineering",
-      "title": "<b>Destroyers</b> (tech_destroyers)<br/><i>While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>2500",
+      "title": "<b>Destroyers</b> (tech_destroyers)<br/><i>While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4000",
       "level": 10,
       "image": "images/technologies/tech_destroyers.png",
       "hasImage": true,
@@ -1044,7 +1088,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_dreadnought_build_speed",
       "label": "Standardized Dreadnought Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Dreadnought Patterns</b> (tech_dreadnought_build_speed)<br/><i>Establishing new standard for the modeling and construction of Dreadnoughts greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Standardized Dreadnought Patterns</b> (tech_dreadnought_build_speed)<br/><i>Establishing new standards for the modeling and construction of Dreadnoughts greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 24,
       "image": "images/technologies/tech_dreadnought_build_speed.png",
       "hasImage": true,
@@ -1060,7 +1104,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_dreadnought_hull_1",
       "label": "Improved Dreadnought Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Dreadnought Hulls</b> (tech_dreadnought_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Dreadnoughts</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
+      "title": "<b>Improved Dreadnought Hulls</b> (tech_dreadnought_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Dreadnoughts.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 24,
       "image": "images/technologies/tech_dreadnought_hull_1.png",
       "hasImage": true,
@@ -1076,7 +1120,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_dreadnought_hull_2",
       "label": "Advanced Dreadnought Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Dreadnought Hulls</b> (tech_dreadnought_hull_2)<br/><i>The latest generation of Dreadnought hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Dreadnought Hulls</b> (tech_dreadnought_hull_2)<br/><i>The latest generation of Dreadnought hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1096,7 +1140,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_droid_workers",
       "label": "Droids",
       "group": "ModEngineering",
-      "title": "<b>Droids</b> (tech_droid_workers)<br/><i>Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4500<br/>Not for gestalt consciousness",
+      "title": "<b>Droids</b> (tech_droid_workers)<br/><i>Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
       "level": 11,
       "image": "images/technologies/tech_droid_workers.png",
       "hasImage": true,
@@ -1113,7 +1157,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_drydock_1",
       "label": "Starbase Drydock",
       "group": "ModEngineering",
-      "title": "<b>Starbase Drydock</b> (tech_drydock_1)<br/><i>This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair warships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Starbase Drydock</b> (tech_drydock_1)<br/><i>This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair many warships at once.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1133,7 +1177,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_engineering_1",
       "label": "Nanomechanics",
       "group": "ModEngineering",
-      "title": "<b>Nanomechanics</b> (tech_engineering_1)<br/><i>Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>500",
+      "title": "<b>Nanomechanics</b> (tech_engineering_1)<br/><i>Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 6,
       "image": "images/technologies/tech_engineering_1.png",
       "hasImage": true,
@@ -1147,7 +1191,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_engineering_2",
       "label": "Supersolid Materials",
       "group": "ModEngineering",
-      "title": "<b>Supersolid Materials</b> (tech_engineering_2)<br/><i>The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4500",
+      "title": "<b>Supersolid Materials</b> (tech_engineering_2)<br/><i>The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 10,
       "image": "images/technologies/tech_engineering_2.png",
       "hasImage": true,
@@ -1163,7 +1207,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_engineering_3",
       "label": "Superfluid Materials",
       "group": "ModEngineering",
-      "title": "<b>Superfluid Materials</b> (tech_engineering_3)<br/><i>The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000",
+      "title": "<b>Superfluid Materials</b> (tech_engineering_3)<br/><i>The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>20000",
       "level": 19,
       "image": "images/technologies/tech_engineering_3.png",
       "hasImage": true,
@@ -1179,7 +1223,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_escortcarrier_1",
       "label": "Escort Carrier",
       "group": "ModEngineering",
-      "title": "<b>Escort Carrier</b> (tech_escortcarrier_1)<br/><i>New facilities and construction techniques allow us to now build Escort Carrier-class military vessels.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Escort Carrier</b> (tech_escortcarrier_1)<br/><i>Planetary combat has long included an aerial component, with fighter and bomber planes proving absolutely essential to any armed conflict. Using section models based on the highly successful Cruiser design, we can now build warships large enough to launch a space-based variant of these powerful war machines.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 16,
       "image": "images/technologies/tech_escortcarrier_1.png",
       "hasImage": true,
@@ -1195,13 +1239,13 @@ NewShipClassesGraphDataTech = {
       "id": "tech_explorationship_1",
       "label": "Exploration Cruiser (Level 1)",
       "group": "ModEngineering",
-      "title": "<b>Exploration Cruiser (Level 1)</b> (tech_explorationship_1)<br/><i>A large combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>7000",
-      "level": 10,
+      "title": "<b>Exploration Cruiser (Level 1)</b> (tech_explorationship_1)<br/><i>Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers suggest the development of a large, combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>7000",
+      "level": 11,
       "image": "images/technologies/tech_explorationship_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_cruisers"
+        "tech_destroyers"
       ],
       "categories": [
         "voidcraft"
@@ -1211,7 +1255,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_explorationship_2",
       "label": "Exploration Cruiser (Level 2)",
       "group": "ModEngineering",
-      "title": "<b>Exploration Cruiser (Level 2)</b> (tech_explorationship_2)<br/><i>A large combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before. Level 2 is a more powerful variant of the class.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Exploration Cruiser (Level 2)</b> (tech_explorationship_2)<br/><i>Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Exploration Cruiser, suggest developing a more powerful variant to further increase the protection available to our best and brightest Science Officers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 14,
       "image": "images/technologies/tech_explorationship_2.png",
       "hasImage": true,
@@ -1228,7 +1272,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_explorationship_3",
       "label": "Exploration Cruiser (Level 3)",
       "group": "ModEngineering",
-      "title": "<b>Exploration Cruiser (Level 3)</b> (tech_explorationship_3)<br/><i>A large combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before. Level 3 is the most powerful variant of the class.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
+      "title": "<b>Exploration Cruiser (Level 3)</b> (tech_explorationship_3)<br/><i>Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Exploration Cruiser's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
       "level": 21,
       "image": "images/technologies/tech_explorationship_3.png",
       "hasImage": true,
@@ -1245,7 +1289,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_flagship_build_speed",
       "label": "Standardized Flagship Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Flagship Patterns</b> (tech_flagship_build_speed)<br/><i>Establishing new standard for the modeling and construction of the Flagship greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Standardized Flagship Patterns</b> (tech_flagship_build_speed)<br/><i>Establishing new standards for the modeling and construction of the Flagship greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
       "level": 25,
       "image": "images/technologies/tech_flagship_build_speed.png",
       "hasImage": true,
@@ -1261,7 +1305,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_flagship_hull_1",
       "label": "Improved Flagship Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Flagship Hulls</b> (tech_flagship_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Flagships</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Improved Flagship Hulls</b> (tech_flagship_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Flagships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
       "level": 25,
       "image": "images/technologies/tech_flagship_hull_1.png",
       "hasImage": true,
@@ -1277,7 +1321,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_flagship_hull_2",
       "label": "Advanced Flagship Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Flagship Hulls</b> (tech_flagship_hull_2)<br/><i>The latest generation of Flagship hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Flagship Hulls</b> (tech_flagship_hull_2)<br/><i>The latest generation of Flagship hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1297,13 +1341,55 @@ NewShipClassesGraphDataTech = {
       "id": "tech_habitat_1",
       "label": "Orbital Habitats",
       "group": "ModEngineering",
-      "title": "<b>Orbital Habitats</b> (tech_habitat_1)<br/><i>Allows the construction of largely self-sustaining Orbital Habitats.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><i>Requires the Utopia DLC</i><br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>7500",
-      "level": 15,
+      "title": "<b>Orbital Habitats</b> (tech_habitat_1)<br/><i>Allows the construction of largely self-sustaining Orbital Habitats.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
+      "level": 14,
       "image": "images/technologies/tech_habitat_1.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
+        "tech_starbase_3"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_habitat_2",
+      "label": "Habitat Expansion",
+      "group": "ModEngineering",
+      "title": "<b>Habitat Expansion</b> (tech_habitat_2)<br/><i>Our early habitats were primitive things compared to the efficient designs we can now develop.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 19,
+      "image": "images/technologies/tech_habitat_2.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_habitat_1",
         "tech_starbase_4"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_habitat_3",
+      "label": "Advanced Space Habitation",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Space Habitation</b> (tech_habitat_3)<br/><i>Years of improvements to our Orbital Habitats have led us to create newer more effective designs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
+      "color": {
+        "border": "#8900CE"
+      },
+      "borderWidth": 1,
+      "level": 20,
+      "image": "images/technologies/tech_habitat_3.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_habitat_2",
+        "tech_starbase_5"
       ],
       "categories": [
         "voidcraft"
@@ -1313,7 +1399,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_heavycarrier_1",
       "label": "Heavy Carrier Upgrade",
       "group": "ModEngineering",
-      "title": "<b>Heavy Carrier Upgrade</b> (tech_heavycarrier_1)<br/><i>As our ship building capabilities continue to increase, we continue to look for new ways to advance our current ship class layouts. This specialized upgrade for the Carrier turns it into a Heavy Carrier, with the ability to support more fighter bays.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
+      "title": "<b>Heavy Carrier Upgrade</b> (tech_heavycarrier_1)<br/><i>As our ship building capabilities continue to increase, we continue to look for new ways to advance our current ship class layouts. Combined with new advancements in miniaturizing many of the support facilities required for the maintenance of strike craft, we believe that we can alter our existing Carrier designs into Heavy Carriers, with the ability to support more hangar bays.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 21,
       "image": "images/technologies/tech_heavycarrier_1.png",
       "hasImage": true,
@@ -1329,7 +1415,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_housing_1",
       "label": "Weather Control Systems",
       "group": "ModEngineering",
-      "title": "<b>Weather Control Systems</b> (tech_housing_1)<br/><i>The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3500",
+      "title": "<b>Weather Control Systems</b> (tech_housing_1)<br/><i>The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000",
       "level": 10,
       "image": "images/technologies/tech_housing_1.png",
       "hasImage": true,
@@ -1343,7 +1429,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_housing_2",
       "label": "Anti-Gravity Engineering",
       "group": "ModEngineering",
-      "title": "<b>Anti-Gravity Engineering</b> (tech_housing_2)<br/><i>With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Anti-Gravity Engineering</b> (tech_housing_2)<br/><i>With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_housing_2.png",
       "hasImage": true,
@@ -1359,7 +1445,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_juggernaut",
       "label": "Juggernaut",
       "group": "ModEngineering",
-      "title": "<b>Juggernaut</b> (tech_juggernaut)<br/><i>A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><i>Requires the Federations DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>25500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Juggernaut</b> (tech_juggernaut)<br/><i>A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><i>Requires the Federations DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1380,7 +1466,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_luxuries_1",
       "label": "Nano-Circuit Assembly",
       "group": "ModEngineering",
-      "title": "<b>Nano-Circuit Assembly</b> (tech_luxuries_1)<br/><i>With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>1500<br/>Not for gestalt consciousness",
+      "title": "<b>Nano-Circuit Assembly</b> (tech_luxuries_1)<br/><i>With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 6,
       "image": "images/technologies/tech_luxuries_1.png",
       "hasImage": true,
@@ -1396,7 +1482,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_luxuries_2",
       "label": "Replicator Kiosks",
       "group": "ModEngineering",
-      "title": "<b>Replicator Kiosks</b> (tech_luxuries_2)<br/><i>These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>6000<br/>Not for gestalt consciousness",
+      "title": "<b>Replicator Kiosks</b> (tech_luxuries_2)<br/><i>These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>8000<br/>Not for gestalt consciousness",
       "level": 14,
       "image": "images/technologies/tech_luxuries_2.png",
       "hasImage": true,
@@ -1413,7 +1499,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mechanized_mining",
       "label": "Mechanized Mining",
       "group": "ModEngineering",
-      "title": "<b>Mechanized Mining</b> (tech_mechanized_mining)<br/><i>The application of mechanical engineering to mineral extraction is a fundamental requirement for any industrial society.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Mechanized Mining</b> (tech_mechanized_mining)<br/><i>The application of mechanical engineering to mineral extraction is a fundamental requirement for any industrial society.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1431,7 +1517,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mineral_purification_1",
       "label": "Mineral Purification",
       "group": "ModEngineering",
-      "title": "<b>Mineral Purification</b> (tech_mineral_purification_1)<br/><i>Optimal processing of mined materials have allowed us to reach new levels of efficiency.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1500",
+      "title": "<b>Mineral Purification</b> (tech_mineral_purification_1)<br/><i>Optimal processing of mined materials have allowed us to reach new levels of efficiency.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 7,
       "image": "images/technologies/tech_mineral_purification_1.png",
       "hasImage": true,
@@ -1447,7 +1533,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mineral_purification_2",
       "label": "Advanced Mineral Purification",
       "group": "ModEngineering",
-      "title": "<b>Advanced Mineral Purification</b> (tech_mineral_purification_2)<br/><i>Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4500",
+      "title": "<b>Advanced Mineral Purification</b> (tech_mineral_purification_2)<br/><i>Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 11,
       "image": "images/technologies/tech_mineral_purification_2.png",
       "hasImage": true,
@@ -1464,7 +1550,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mining_1",
       "label": "Geothermal Fracking",
       "group": "ModEngineering",
-      "title": "<b>Geothermal Fracking</b> (tech_mining_1)<br/><i>New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>500",
+      "title": "<b>Geothermal Fracking</b> (tech_mining_1)<br/><i>New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 6,
       "image": "images/technologies/tech_mining_1.png",
       "hasImage": true,
@@ -1480,7 +1566,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mining_2",
       "label": "Deep Core Mining",
       "group": "ModEngineering",
-      "title": "<b>Deep Core Mining</b> (tech_mining_2)<br/><i>These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2500",
+      "title": "<b>Deep Core Mining</b> (tech_mining_2)<br/><i>These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 10,
       "image": "images/technologies/tech_mining_2.png",
       "hasImage": true,
@@ -1496,7 +1582,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mining_3",
       "label": "Mineral Isolation",
       "group": "ModEngineering",
-      "title": "<b>Mineral Isolation</b> (tech_mining_3)<br/><i>Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Mineral Isolation</b> (tech_mining_3)<br/><i>Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_mining_3.png",
       "hasImage": true,
@@ -1512,7 +1598,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_mining_base",
       "label": "System Mineral Refinery",
       "group": "ModEngineering",
-      "title": "<b>System Mineral Refinery</b> (tech_mining_base)<br/><i>As we expand among the stars, we require ever more resources to support our civilization. Creating specialized, space-based mineral refineries could help centralize production and increase efficiency, leading to higher mineral yields.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
+      "title": "<b>System Mineral Refinery</b> (tech_mining_base)<br/><i>As we expand among the stars, we require ever more resources to support our civilization. Creating specialized, space-based mineral refineries could help centralize production and increase efficiency, leading to higher mineral yields.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1532,7 +1618,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_modular_engineering",
       "label": "Modular Engineering",
       "group": "ModEngineering",
-      "title": "<b>Modular Engineering</b> (tech_modular_engineering)<br/><i>Streamlined starbase construction procedures, using modular designs, will reduce the present build cost and time.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Modular Engineering</b> (tech_modular_engineering)<br/><i>Streamlined starbase construction procedures, using modular designs, will reduce the present build cost and time.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1552,7 +1638,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_nsc_ai_computer_1",
       "label": "Artifical Intellgience Combat System",
       "group": "ModEngineering",
-      "title": "<b>Artifical Intellgience Combat System</b> (tech_nsc_ai_computer_1)<br/><i>This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat. Available for Carriers, Fleet Support Ships, and the Flagship.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Artifical Intellgience Combat System</b> (tech_nsc_ai_computer_1)<br/><i>This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat. Available for Carriers, Fleet Support Ships, and the Flagship.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
       "level": 14,
       "image": "images/technologies/tech_nsc_ai_computer_1.png",
       "hasImage": true,
@@ -1563,10 +1649,60 @@ NewShipClassesGraphDataTech = {
       ]
     },
     {
+      "id": "tech_nsc_freebooter_boarding_pod_1",
+      "label": "Basic Boarding Pod",
+      "group": "ModEngineering",
+      "title": "<b>Basic Boarding Pod</b> (tech_nsc_freebooter_boarding_pod_1)<br/><i>This basic boarding pod allows our space-pirates to infiltrate enemy ships, giving a chance to seize them through brutal close quarters combat.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>NonTechDependency",
+      "color": {
+        "border": "#CE7C00"
+      },
+      "borderWidth": 1,
+      "level": 6,
+      "image": "images/technologies/tech_nsc_freebooter_boarding_pod_1.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_nsc_freebooter_boarding_pod_2",
+      "label": "Advanced Boarding Pod",
+      "group": "ModEngineering",
+      "title": "<b>Advanced Boarding Pod</b> (tech_nsc_freebooter_boarding_pod_2)<br/><i>This advanced boarding pod transports an increased number of space-pirates than before, doubling the chance to seize enemy ships through brutal close quarters combat.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>8000",
+      "level": 14,
+      "image": "images/technologies/tech_nsc_freebooter_boarding_pod_2.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_nsc_freebooter_boarding_pod_1"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
+      "id": "tech_pasmod_basic_drop_pod",
+      "label": "New Orbital Drop Pod",
+      "group": "ModEngineering",
+      "title": "<b>New Orbital Drop Pod</b> (tech_pasmod_basic_drop_pod)<br/><i>The Orbital Drop Pod is designed to drop a limited number of invasion armies onto an enemy planet. Due to the space required to house and transport the armies, it can be only equipped on the new Invasion Core section of the Escort Carrier or Carrier.\\n\\nThe Pod will automatically deploy when Planetary Devastation reaches 30%.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
+      "level": 17,
+      "image": "images/technologies/tech_pasmod_basic_drop_pod.png",
+      "hasImage": true,
+      "nodeType": "tech",
+      "prerequisites": [
+        "tech_escortcarrier_1"
+      ],
+      "categories": [
+        "voidcraft"
+      ]
+    },
+    {
       "id": "tech_pd_destroyer_1",
       "label": "PD Destroyer Upgrade",
       "group": "ModEngineering",
-      "title": "<b>PD Destroyer Upgrade</b> (tech_pd_destroyer_1)<br/><i>Advanced construction techniques allow Destroyers to equip a large array of point defense weapons.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
+      "title": "<b>PD Destroyer Upgrade</b> (tech_pd_destroyer_1)<br/><i>Missiles, torpedoes, and strike craft all pose a grave threat to our fleets. Our naval engineers suggest re-designing our Destroyers to mount an array of numerous point-defense weapons to shoot down these targets before they can reach our ships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
       "level": 11,
       "image": "images/technologies/tech_pd_destroyer_1.png",
       "hasImage": true,
@@ -1582,7 +1718,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_powered_exoskeletons",
       "label": "Powered Exoskeletons",
       "group": "ModEngineering",
-      "title": "<b>Powered Exoskeletons</b> (tech_powered_exoskeletons)<br/><i>Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>500",
+      "title": "<b>Powered Exoskeletons</b> (tech_powered_exoskeletons)<br/><i>Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 6,
       "image": "images/technologies/tech_powered_exoskeletons.png",
       "hasImage": true,
@@ -1596,9 +1732,9 @@ NewShipClassesGraphDataTech = {
     },
     {
       "id": "tech_robotic_workers",
-      "label": "Advanced Robotics",
+      "label": "Robotic Workers",
       "group": "ModEngineering",
-      "title": "<b>Advanced Robotics</b> (tech_robotic_workers)<br/><i>These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1500<br/>Not for gestalt consciousness",
+      "title": "<b>Robotic Workers</b> (tech_robotic_workers)<br/><i>These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000<br/>Not for gestalt consciousness",
       "level": 7,
       "image": "images/technologies/tech_robotic_workers.png",
       "hasImage": true,
@@ -1614,7 +1750,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_sensorstation_1",
       "label": "Sensor Station",
       "group": "ModEngineering",
-      "title": "<b>Sensor Station</b> (tech_sensorstation_1)<br/><i>This will allow construction of starbase sensor stations to assist in monitoring our borders.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Sensor Station</b> (tech_sensorstation_1)<br/><i>The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1634,7 +1770,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_armor_1",
       "label": "Nanocomposite Materials",
       "group": "ModEngineering",
-      "title": "<b>Nanocomposite Materials</b> (tech_ship_armor_1)<br/><i>Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Materials<br/><b>Base cost: </b>500<br/><b>Attributes: </b>Starter",
+      "title": "<b>Nanocomposite Materials</b> (tech_ship_armor_1)<br/><i>Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Materials<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1652,7 +1788,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_armor_2",
       "label": "Ceramo-Metal Materials",
       "group": "ModEngineering",
-      "title": "<b>Ceramo-Metal Materials</b> (tech_ship_armor_2)<br/><i>A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>1000",
+      "title": "<b>Ceramo-Metal Materials</b> (tech_ship_armor_2)<br/><i>A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Materials<br/><b>Base cost: </b>2500",
       "level": 6,
       "image": "images/technologies/tech_ship_armor_2.png",
       "hasImage": true,
@@ -1668,7 +1804,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_armor_3",
       "label": "Plasteel Materials",
       "group": "ModEngineering",
-      "title": "<b>Plasteel Materials</b> (tech_ship_armor_3)<br/><i>Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>3500",
+      "title": "<b>Plasteel Materials</b> (tech_ship_armor_3)<br/><i>Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Materials<br/><b>Base cost: </b>5000",
       "level": 10,
       "image": "images/technologies/tech_ship_armor_3.png",
       "hasImage": true,
@@ -1684,7 +1820,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_armor_4",
       "label": "Durasteel Materials",
       "group": "ModEngineering",
-      "title": "<b>Durasteel Materials</b> (tech_ship_armor_4)<br/><i>This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>7500",
+      "title": "<b>Durasteel Materials</b> (tech_ship_armor_4)<br/><i>This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Materials<br/><b>Base cost: </b>10000",
       "level": 14,
       "image": "images/technologies/tech_ship_armor_4.png",
       "hasImage": true,
@@ -1700,7 +1836,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_armor_5",
       "label": "Neutronium Materials",
       "group": "ModEngineering",
-      "title": "<b>Neutronium Materials</b> (tech_ship_armor_5)<br/><i>This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>14000",
+      "title": "<b>Neutronium Materials</b> (tech_ship_armor_5)<br/><i>This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Materials<br/><b>Base cost: </b>20000",
       "level": 19,
       "image": "images/technologies/tech_ship_armor_5.png",
       "hasImage": true,
@@ -1716,7 +1852,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_ship_upkeep_1",
       "label": "Efficient Fleet Supply Lines",
       "group": "ModEngineering",
-      "title": "<b>Efficient Fleet Supply Lines</b> (tech_ship_upkeep_1)<br/><i>Advancements in technology allow us to operate much more efficient supply lines to our fleet, thereby significantly reducing our ship upkeep costs.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Efficient Fleet Supply Lines</b> (tech_ship_upkeep_1)<br/><i>Advancements in technology and logistics allow us to operate much more efficient supply lines to our fleets, thereby significantly reducing our ship upkeep costs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 17,
       "image": "images/technologies/tech_ship_upkeep_1.png",
       "hasImage": true,
@@ -1732,7 +1868,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_solar_panel_network",
       "label": "Orbital Energy Conversion",
       "group": "ModEngineering",
-      "title": "<b>Orbital Energy Conversion</b> (tech_solar_panel_network)<br/><i>Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter<br/>Gestalt consciousness",
+      "title": "<b>Orbital Energy Conversion</b> (tech_solar_panel_network)<br/><i>Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter<br/>Gestalt consciousness",
       "color": {
         "border": "#00CE56"
       },
@@ -1752,7 +1888,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_construction",
       "label": "Offworld Construction",
       "group": "ModEngineering",
-      "title": "<b>Offworld Construction</b> (tech_space_construction)<br/><i>Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Offworld Construction</b> (tech_space_construction)<br/><i>Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Industry<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1770,7 +1906,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_defense_station_1",
       "label": "Deep Space Defenses",
       "group": "ModEngineering",
-      "title": "<b>Deep Space Defenses</b> (tech_space_defense_station_1)<br/><i>This will enable the construction of defensive deep space platforms to protect our Starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Deep Space Defenses</b> (tech_space_defense_station_1)<br/><i>This will enable the construction of defensive deep space platforms to protect our Starbases.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1790,7 +1926,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_defense_station_2",
       "label": "Deep Space Defenses 2",
       "group": "ModEngineering",
-      "title": "<b>Deep Space Defenses 2</b> (tech_space_defense_station_2)<br/><i>This will enable the construction of defensive deep space stations to protect our Starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Deep Space Defenses 2</b> (tech_space_defense_station_2)<br/><i>As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Defense Stations, an upgrade to the basic Defense Platforms we currently use, will allow us to better defend our territory from enemy attack.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 14,
       "image": "images/technologies/tech_space_defense_station_2.png",
       "hasImage": true,
@@ -1806,7 +1942,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_defense_station_3",
       "label": "Deep Space Defenses 3",
       "group": "ModEngineering",
-      "title": "<b>Deep Space Defenses 3</b> (tech_space_defense_station_3)<br/><i>This will enable the construction of defensive deep space fortresses to protect our Starbases.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Deep Space Defenses 3</b> (tech_space_defense_station_3)<br/><i>As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Fortress-level defensive installations, an upgrade to the Defense Stations currently in use, will allow us to better defend our territory from enemy attack.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 19,
       "image": "images/technologies/tech_space_defense_station_3.png",
       "hasImage": true,
@@ -1823,7 +1959,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_defense_station_improvement",
       "label": "Corps of Engineers",
       "group": "ModEngineering",
-      "title": "<b>Corps of Engineers</b> (tech_space_defense_station_improvement)<br/><i>The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>9000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Corps of Engineers</b> (tech_space_defense_station_improvement)<br/><i>The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1844,7 +1980,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_exploration",
       "label": "Space Exploration",
       "group": "ModEngineering",
-      "title": "<b>Space Exploration</b> (tech_space_exploration)<br/><i>The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Space Exploration</b> (tech_space_exploration)<br/><i>The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1864,7 +2000,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_mining_1",
       "label": "Zero-G Refineries",
       "group": "ModEngineering",
-      "title": "<b>Zero-G Refineries</b> (tech_space_mining_1)<br/><i>The addition of internal refineries on mining stations will substantially increase mineral production.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>500",
+      "title": "<b>Zero-G Refineries</b> (tech_space_mining_1)<br/><i>The addition of internal refineries on mining stations will substantially increase mineral production.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2000",
       "level": 6,
       "image": "images/technologies/tech_space_mining_1.png",
       "hasImage": true,
@@ -1880,7 +2016,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_mining_2",
       "label": "Long-Range Mineral Scanners",
       "group": "ModEngineering",
-      "title": "<b>Long-Range Mineral Scanners</b> (tech_space_mining_2)<br/><i>Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>1500",
+      "title": "<b>Long-Range Mineral Scanners</b> (tech_space_mining_2)<br/><i>Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Industry<br/><b>Base cost: </b>3000",
       "level": 7,
       "image": "images/technologies/tech_space_mining_2.png",
       "hasImage": true,
@@ -1896,7 +2032,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_mining_3",
       "label": "Mineral Cutting Beams",
       "group": "ModEngineering",
-      "title": "<b>Mineral Cutting Beams</b> (tech_space_mining_3)<br/><i>These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>2500",
+      "title": "<b>Mineral Cutting Beams</b> (tech_space_mining_3)<br/><i>These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4000",
       "level": 10,
       "image": "images/technologies/tech_space_mining_3.png",
       "hasImage": true,
@@ -1912,7 +2048,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_mining_4",
       "label": "Autonomous Mining Drones",
       "group": "ModEngineering",
-      "title": "<b>Autonomous Mining Drones</b> (tech_space_mining_4)<br/><i>Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>4500",
+      "title": "<b>Autonomous Mining Drones</b> (tech_space_mining_4)<br/><i>Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
       "level": 11,
       "image": "images/technologies/tech_space_mining_4.png",
       "hasImage": true,
@@ -1928,7 +2064,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_space_mining_5",
       "label": "Nanite Mineral Probes",
       "group": "ModEngineering",
-      "title": "<b>Nanite Mineral Probes</b> (tech_space_mining_5)<br/><i>These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>6000",
+      "title": "<b>Nanite Mineral Probes</b> (tech_space_mining_5)<br/><i>These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_space_mining_5.png",
       "hasImage": true,
@@ -1944,7 +2080,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_specialcomponents_1",
       "label": "Advanced Warship Components",
       "group": "ModEngineering",
-      "title": "<b>Advanced Warship Components</b> (tech_specialcomponents_1)<br/><i>Unlocks a new set of ship modules allowing for the enhancement and further specialization of ships with a unique bonus.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
+      "title": "<b>Advanced Warship Components</b> (tech_specialcomponents_1)<br/><i>Our scientists have come up with a wide range of powerful new modules allowing for the enhancement and further specialization of our warships. Now we only have to miniaturize them, to make them small enough to carry aboard our vessels.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
       "level": 10,
       "image": "images/technologies/tech_specialcomponents_1.png",
       "hasImage": true,
@@ -1960,7 +2096,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_spitfire_1",
       "label": "Spitfire Battleship Specialization",
       "group": "ModEngineering",
-      "title": "<b>Spitfire Battleship Specialization</b> (tech_spitfire_1)<br/><i>With the increasing risk and expense of smaller military ship classes threatening our Capital Ships, our engineers have a few blueprints that could adapt the Battleship into an anti-Corvette/Destroyer powerhouse, although at a higher production cost.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
+      "title": "<b>Spitfire Battleship Specialization</b> (tech_spitfire_1)<br/><i>While capital ships are far more powerful than any vessels that have come before them, they are also far more expensive, and pose juicy targets for swarms of smaller, cheaper vessels that can overwhelm the capital ships with sheer numbers. To counter this, our engineers are working on a few blueprints that could adapt the Battleship into an anti-Corvette-and-Destroyer powerhouse, along with weapons specifically designed for that purpose. These new designs will cause these 'Spitfire Battleships' to have an even higher production cost, but such sacrifices are worth it, if it means protecting our vulnerable capital ships.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000",
       "level": 20,
       "image": "images/technologies/tech_spitfire_1.png",
       "hasImage": true,
@@ -1976,7 +2112,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_1",
       "label": "Starbase Construction",
       "group": "ModEngineering",
-      "title": "<b>Starbase Construction</b> (tech_starbase_1)<br/><i>A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Starbase Construction</b> (tech_starbase_1)<br/><i>A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -1996,7 +2132,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_2",
       "label": "Starport",
       "group": "ModEngineering",
-      "title": "<b>Starport</b> (tech_starbase_2)<br/><i>The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Starport</b> (tech_starbase_2)<br/><i>The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -2016,7 +2152,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_3",
       "label": "Starhold",
       "group": "ModEngineering",
-      "title": "<b>Starhold</b> (tech_starbase_3)<br/><i>As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3500",
+      "title": "<b>Starhold</b> (tech_starbase_3)<br/><i>As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>5000",
       "level": 10,
       "image": "images/technologies/tech_starbase_3.png",
       "hasImage": true,
@@ -2032,7 +2168,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_4",
       "label": "Star Fortress",
       "group": "ModEngineering",
-      "title": "<b>Star Fortress</b> (tech_starbase_4)<br/><i>These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>7500",
+      "title": "<b>Star Fortress</b> (tech_starbase_4)<br/><i>These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 14,
       "image": "images/technologies/tech_starbase_4.png",
       "hasImage": true,
@@ -2048,7 +2184,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_5",
       "label": "Citadel",
       "group": "ModEngineering",
-      "title": "<b>Citadel</b> (tech_starbase_5)<br/><i>Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>14000",
+      "title": "<b>Citadel</b> (tech_starbase_5)<br/><i>Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20000",
       "level": 19,
       "image": "images/technologies/tech_starbase_5.png",
       "hasImage": true,
@@ -2062,9 +2198,9 @@ NewShipClassesGraphDataTech = {
     },
     {
       "id": "tech_starbase_6",
-      "label": "Stronghold Starbase",
+      "label": "Grand Citadel Starbase",
       "group": "ModEngineering",
-      "title": "<b>Stronghold Starbase</b> (tech_starbase_6)<br/><i>The Stronghold is a powerful and highly advanced system defense station.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Grand Citadel Starbase</b> (tech_starbase_6)<br/><i>As fleets grow larger and more powerful, it becomes necessary for our starbases and defensive installations to grow in strength, as well. The Grand Citadel is a powerful and highly advanced system defense station, a massive upgrade to existing Citadel-class starbases. These valuable and highly developed starbases are important installations to our empire, and can support a wide range of facilities.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
       "level": 24,
       "image": "images/technologies/tech_starbase_6.png",
       "hasImage": true,
@@ -2078,9 +2214,9 @@ NewShipClassesGraphDataTech = {
     },
     {
       "id": "tech_starbase_7",
-      "label": "Headquarters Starbase",
+      "label": "Solar Stronghold Starbase",
       "group": "ModEngineering",
-      "title": "<b>Headquarters Starbase</b> (tech_starbase_7)<br/><i>The final upgrade in the starbase chain, the Headquarters is the ultimate command and defense station.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
+      "title": "<b>Solar Stronghold Starbase</b> (tech_starbase_7)<br/><i>The final upgrade in the starbase chain, the Solar Stronghold is the ultimate command and defense station, the largest class of starbase that it is possible to build. Enemy fleets will break upon these massive bulwarks, and each one is a vital asset to our empire, defending the most critical locations on the galactic map.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000",
       "level": 25,
       "image": "images/technologies/tech_starbase_7.png",
       "hasImage": true,
@@ -2096,7 +2232,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_starbase_upkeep_1",
       "label": "Efficient Starbase Maintenance",
       "group": "ModEngineering",
-      "title": "<b>Efficient Starbase Maintenance</b> (tech_starbase_upkeep_1)<br/><i>Advancements in training allow us to teach our staff much more efficient maintenance methods, thereby significantly reducing our starbase upkeep costs.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Efficient Starbase Maintenance</b> (tech_starbase_upkeep_1)<br/><i>Advancements in technology and training allow us to teach our starbase support staff much  more efficient maintenance methods, thereby significantly reducing our starbase upkeep costs.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 15,
       "image": "images/technologies/tech_starbase_upkeep_1.png",
       "hasImage": true,
@@ -2112,7 +2248,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strike_craft_1",
       "label": "Carrier Operations",
       "group": "ModEngineering",
-      "title": "<b>Carrier Operations</b> (tech_strike_craft_1)<br/><i>These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>1500",
+      "title": "<b>Carrier Operations</b> (tech_strike_craft_1)<br/><i>These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>1<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>3000",
       "level": 6,
       "image": "images/technologies/tech_strike_craft_1.png",
       "hasImage": true,
@@ -2128,7 +2264,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strike_craft_2",
       "label": "Improved Strike Craft",
       "group": "ModEngineering",
-      "title": "<b>Improved Strike Craft</b> (tech_strike_craft_2)<br/><i>The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>4500",
+      "title": "<b>Improved Strike Craft</b> (tech_strike_craft_2)<br/><i>The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>6000",
       "level": 10,
       "image": "images/technologies/tech_strike_craft_2.png",
       "hasImage": true,
@@ -2144,7 +2280,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strike_craft_3",
       "label": "Advanced Strike Craft",
       "group": "ModEngineering",
-      "title": "<b>Advanced Strike Craft</b> (tech_strike_craft_3)<br/><i>A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>9000",
+      "title": "<b>Advanced Strike Craft</b> (tech_strike_craft_3)<br/><i>A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 14,
       "image": "images/technologies/tech_strike_craft_3.png",
       "hasImage": true,
@@ -2160,7 +2296,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strikecruiser_build_speed",
       "label": "Standardized Strike Cruiser Patterns",
       "group": "ModEngineering",
-      "title": "<b>Standardized Strike Cruiser Patterns</b> (tech_strikecruiser_build_speed)<br/><i>Establishing new standard for the modeling and construction of Strike Cruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
+      "title": "<b>Standardized Strike Cruiser Patterns</b> (tech_strikecruiser_build_speed)<br/><i>Establishing new standards for the modeling and construction of Strike Cruisers greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>10000",
       "level": 16,
       "image": "images/technologies/tech_strikecruiser_build_speed.png",
       "hasImage": true,
@@ -2176,7 +2312,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strikecruiser_hull_1",
       "label": "Improved Strike Cruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Strike Cruiser Hulls</b> (tech_strikecruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Strike Cruiser</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
+      "title": "<b>Improved Strike Cruiser Hulls</b> (tech_strikecruiser_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable Strike Cruisers.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>12000",
       "level": 16,
       "image": "images/technologies/tech_strikecruiser_hull_1.png",
       "hasImage": true,
@@ -2192,7 +2328,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_strikecruiser_hull_2",
       "label": "Advanced Strike Cruiser Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Strike Cruiser Hulls</b> (tech_strikecruiser_hull_2)<br/><i>The latest generation of Strike Cruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Strike Cruiser Hulls</b> (tech_strikecruiser_hull_2)<br/><i>The latest generation of Strike Cruiser hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>16000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -2212,7 +2348,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_stronghold_upgrades",
       "label": "Improved Starbases",
       "group": "ModEngineering",
-      "title": "<b>Improved Starbases</b> (tech_stronghold_upgrades)<br/><i>Establishing new standard for the modeling and construction of all Starbases greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Improved Starbases</b> (tech_stronghold_upgrades)<br/><i>Establishing new standards for the modeling and construction of all starbases greatly improves the efficiency of the production pipeline.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>56000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -2232,7 +2368,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_supercarrier_1",
       "label": "Supercarrier Upgrade",
       "group": "ModEngineering",
-      "title": "<b>Supercarrier Upgrade</b> (tech_supercarrier_1)<br/><i>As our ship building capabilities continue to increase, we continue to look for new ways to advance our current ship class layouts. This specialized upgrade for the Battlecruiser turns it into a Supercarrier, with the ability to support a huge number of fighter bays.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Supercarrier Upgrade</b> (tech_supercarrier_1)<br/><i>Further efforts in both ship construction and miniaturization of strike craft support facilities will allow us to squeeze an absolutely incredible number of hangar bays into our Carriers. These Supercarriers will be able to support swarms of strike craft, the better to defend our fleets from attack, and to overwhelm the foe with our best pilots.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 22,
       "image": "images/technologies/tech_supercarrier_1.png",
       "hasImage": true,
@@ -2248,7 +2384,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_supportcruiser_1",
       "label": "Support Cruiser Upgrade",
       "group": "ModEngineering",
-      "title": "<b>Support Cruiser Upgrade</b> (tech_supportcruiser_1)<br/><i>As our fleets grow in size and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long range supply lines. The Support Cruiser is the answer to this problem, adding new support capabilities to the Cruiser class warship.\"</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
+      "title": "<b>Support Cruiser Upgrade</b> (tech_supportcruiser_1)<br/><i>As our fleets grow in size, and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long-range supply lines. The Support Cruiser is the answer to this problem, adding new support capabilities to our Cruisers through the addition of advanced modules.\"</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>28000",
       "level": 20,
       "image": "images/technologies/tech_supportcruiser_1.png",
       "hasImage": true,
@@ -2264,7 +2400,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_synthetic_leaders",
       "label": "Synthetic Personality Matrix",
       "group": "ModEngineering",
-      "title": "<b>Synthetic Personality Matrix</b> (tech_synthetic_leaders)<br/><i>Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>17000<br/>Not for gestalt consciousness",
+      "title": "<b>Synthetic Personality Matrix</b> (tech_synthetic_leaders)<br/><i>Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>24000<br/>Not for gestalt consciousness",
       "level": 21,
       "image": "images/technologies/tech_synthetic_leaders.png",
       "hasImage": true,
@@ -2280,7 +2416,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_synthetic_workers",
       "label": "Synthetics",
       "group": "ModEngineering",
-      "title": "<b>Synthetics</b> (tech_synthetic_workers)<br/><i>Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>14000<br/><b>Attributes: </b>Rare, Dangerous<br/>Not for gestalt consciousness",
+      "title": "<b>Synthetics</b> (tech_synthetic_workers)<br/><i>Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Industry<br/><b>Base cost: </b>20000<br/><b>Attributes: </b>Rare, Dangerous<br/>Not for gestalt consciousness",
       "color": {
         "border": "#D30000"
       },
@@ -2302,7 +2438,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_thrusters_1",
       "label": "Chemical Thrusters",
       "group": "ModEngineering",
-      "title": "<b>Chemical Thrusters</b> (tech_thrusters_1)<br/><i>Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
+      "title": "<b>Chemical Thrusters</b> (tech_thrusters_1)<br/><i>Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>0<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>0<br/><b>Attributes: </b>Starter",
       "color": {
         "border": "#00CE56"
       },
@@ -2320,7 +2456,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_thrusters_2",
       "label": "Ion Thrusters",
       "group": "ModEngineering",
-      "title": "<b>Ion Thrusters</b> (tech_thrusters_2)<br/><i>These electric thrusters use beams of ions to generate thrust without the need for propellant.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>2500",
+      "title": "<b>Ion Thrusters</b> (tech_thrusters_2)<br/><i>These electric thrusters use beams of ions to generate thrust without the need for propellant.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>2<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>4000",
       "level": 10,
       "image": "images/technologies/tech_thrusters_2.png",
       "hasImage": true,
@@ -2336,7 +2472,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_thrusters_3",
       "label": "Plasma Thrusters",
       "group": "ModEngineering",
-      "title": "<b>Plasma Thrusters</b> (tech_thrusters_3)<br/><i>An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>6000",
+      "title": "<b>Plasma Thrusters</b> (tech_thrusters_3)<br/><i>An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>3<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>8000",
       "level": 14,
       "image": "images/technologies/tech_thrusters_3.png",
       "hasImage": true,
@@ -2352,7 +2488,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_thrusters_4",
       "label": "Impulse Thrusters",
       "group": "ModEngineering",
-      "title": "<b>Impulse Thrusters</b> (tech_thrusters_4)<br/><i>These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>11000",
+      "title": "<b>Impulse Thrusters</b> (tech_thrusters_4)<br/><i>These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Propulsion<br/><b>Base cost: </b>16000",
       "level": 19,
       "image": "images/technologies/tech_thrusters_4.png",
       "hasImage": true,
@@ -2368,7 +2504,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_titan_hull_1",
       "label": "Improved Titan Hulls",
       "group": "ModEngineering",
-      "title": "<b>Improved Titan Hulls</b> (tech_titan_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable titans.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>23000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Improved Titan Hulls</b> (tech_titan_hull_1)<br/><i>Advances in building techniques will allow for the construction of sturdier and more durable titans.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>40000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -2388,7 +2524,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_titan_hull_2",
       "label": "Advanced Titan Hulls",
       "group": "ModEngineering",
-      "title": "<b>Advanced Titan Hulls</b> (tech_titan_hull_2)<br/><i>The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>25500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Advanced Titan Hulls</b> (tech_titan_hull_2)<br/><i>The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>48000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -2408,7 +2544,7 @@ NewShipClassesGraphDataTech = {
       "id": "tech_titans",
       "label": "Titans",
       "group": "ModEngineering",
-      "title": "<b>Titans</b> (tech_titans)<br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>20500",
+      "title": "<b>Titans</b> (tech_titans)<br/><i>Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><i>Requires the Apocalypse DLC</i><br/><b>Tier: </b>5<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>32000",
       "level": 24,
       "image": "images/technologies/tech_titans.png",
       "hasImage": true,
@@ -2422,9 +2558,9 @@ NewShipClassesGraphDataTech = {
     },
     {
       "id": "tech_tomahawk_cruise_missile_1",
-      "label": "Tomahawk Advanced Cruise Missile",
+      "label": "Advanced Cruise Missiles",
       "group": "ModEngineering",
-      "title": "<b>Tomahawk Advanced Cruise Missile</b> (tech_tomahawk_cruise_missile_1)<br/><i>An extremely expensive anti-capital ship missile with a very long range and high damage. Very useful for defense stations or long range artillery ships.</i><br/><b>Mod: </b>(-NSC2 Season 4-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
+      "title": "<b>Advanced Cruise Missiles</b> (tech_tomahawk_cruise_missile_1)<br/><i>With the advent of Battlecruisers, which are designed to be capable of fielding large numbers of missile launchers, and the development of combat at longer and longer ranges, as well as the appearance of massive capital ships and defensive installations, there is a clear need for larger, more powerful missiles capable of taking on these new threats, and being launched from our Battlecruisers. These Advanced Cruise Missiles are the answer to this emerging need.</i><br/><b>Mod: </b>(-NSC2 Season 6-)<br/><b>Tier: </b>4<br/><b>Category: </b>Voidcraft<br/><b>Base cost: </b>24000",
       "level": 20,
       "image": "images/technologies/tech_tomahawk_cruise_missile_1.png",
       "hasImage": true,
@@ -2925,7 +3061,43 @@ NewShipClassesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_habitat_2",
+      "to": "tech_habitat_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_5",
+      "to": "tech_habitat_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_habitat_1",
+      "to": "tech_habitat_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_starbase_4",
+      "to": "tech_habitat_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_starbase_3",
       "to": "tech_habitat_1",
       "arrows": "to",
       "color": {
@@ -3186,6 +3358,42 @@ NewShipClassesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_nsc_freebooter_planet_raiding_improve_1",
+      "to": "tech_nsc_freebooter_planet_raiding_improve_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_nsc_freebooter_boarding_pod_1",
+      "to": "tech_nsc_freebooter_boarding_pod_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_missiles_5",
+      "to": "tech_tomahawk_cruise_missile_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_cruisers",
+      "to": "tech_specialcomponents_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_gateway_activation",
       "to": "tech_hyperlane_generation",
       "arrows": "to",
@@ -3197,15 +3405,6 @@ NewShipClassesGraphDataTech = {
     {
       "from": "tech_mega_engineering",
       "to": "tech_hyperlane_generation",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_missiles_5",
-      "to": "tech_tomahawk_cruise_missile_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3278,60 +3477,6 @@ NewShipClassesGraphDataTech = {
     {
       "from": "tech_Battlecruiser_1",
       "to": "tech_ship_upkeep_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_singularity_power",
-      "to": "tech_nsc_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_nsc_reactor_boosters_2",
-      "to": "tech_nsc_reactor_boosters_3",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_nsc_reactor_boosters_1",
-      "to": "tech_nsc_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_naquadria_power",
-      "to": "tech_nsc_reactor_boosters_2",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_reactor_boosters_3",
-      "to": "tech_nsc_reactor_boosters_1",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_graviton_power",
-      "to": "tech_nsc_reactor_boosters_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3501,6 +3646,60 @@ NewShipClassesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_singularity_power",
+      "to": "tech_nsc_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_nsc_reactor_boosters_2",
+      "to": "tech_nsc_reactor_boosters_3",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_nsc_reactor_boosters_1",
+      "to": "tech_nsc_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_naquadria_power",
+      "to": "tech_nsc_reactor_boosters_2",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_reactor_boosters_3",
+      "to": "tech_nsc_reactor_boosters_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
+      "from": "tech_graviton_power",
+      "to": "tech_nsc_reactor_boosters_1",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "tech_bh_power_2",
       "to": "tech_bh_power_3",
       "arrows": "to",
@@ -3566,15 +3765,6 @@ NewShipClassesGraphDataTech = {
     {
       "from": "tech_zero_point_power",
       "to": "tech_graviton_power",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_cruisers",
-      "to": "tech_specialcomponents_1",
       "arrows": "to",
       "color": {
         "color": "grey"
@@ -3681,7 +3871,7 @@ NewShipClassesGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_cruisers",
+      "from": "tech_destroyers",
       "to": "tech_explorationship_1",
       "arrows": "to",
       "color": {
@@ -3780,6 +3970,15 @@ NewShipClassesGraphDataTech = {
       "dashes": true
     },
     {
+      "from": "tech_escortcarrier_1",
+      "to": "tech_pasmod_basic_drop_pod",
+      "arrows": "to",
+      "color": {
+        "color": "grey"
+      },
+      "dashes": true
+    },
+    {
       "from": "Engineering-root",
       "to": "tech_housing_1",
       "color": {
@@ -3853,6 +4052,46 @@ NewShipClassesGraphDataTech = {
     },
     {
       "from": "Society-root",
+      "to": "tech_nsc_freebooter_khan_training_improve",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_nsc_freebooter_planet_raiding_improve_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Engineering-root",
+      "to": "tech_nsc_freebooter_boarding_pod_1",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
+      "to": "tech_nsc_disabled_sections",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Physics-root",
+      "to": "tech_nsc_dlc_check",
+      "color": {
+        "opacity": 0.0
+      },
+      "dashes": false
+    },
+    {
+      "from": "Society-root",
       "to": "tech_hospital",
       "color": {
         "opacity": 0.0
@@ -3870,22 +4109,6 @@ NewShipClassesGraphDataTech = {
     {
       "from": "Engineering-root",
       "to": "tech_nsc_ai_computer_1",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Society-root",
-      "to": "tech_nsc_disabled_sections",
-      "color": {
-        "opacity": 0.0
-      },
-      "dashes": false
-    },
-    {
-      "from": "Physics-root",
-      "to": "tech_nsc_dlc_check",
       "color": {
         "opacity": 0.0
       },

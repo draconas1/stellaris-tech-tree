@@ -433,7 +433,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_act_on_instinct",
       "label": "Act on Instinct",
       "group": "ModSociety",
-      "title": "<b>Act on Instinct</b> (tech_eutab_act_on_instinct)<br/><i>§RWe are going to have to act, if we want to live in a different world.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Act on Instinct</b> (tech_eutab_act_on_instinct)<br/><i>We are going to have to act, if we want to live in a different world.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>4<br/><b>Category: </b>Military Theory<br/><b>Base cost: </b>8000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -494,7 +494,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_aggressive_negotiations",
       "label": "Aggressive Negotiations",
       "group": "ModSociety",
-      "title": "<b>Aggressive Negotiations</b> (tech_eutab_aggressive_negotiations)<br/><i>§T\"Where did he learn to negotiate like that?\"\\n\"I wonder.\"§!\\n\\nAs our contacts with alien nations multiply we learn a common thread connects them all. Respect is tightly bound to the ability to project violence.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Aggressive Negotiations</b> (tech_eutab_aggressive_negotiations)<br/><i>\"Where did he learn to negotiate like that?\"\\n\"I wonder.\"\\n\\nAs our contacts with alien nations multiply we learn a common thread connects them all. Respect is tightly bound to the ability to project violence.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>6000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -535,7 +535,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_alien_salvation",
       "label": "Salvation through Service",
       "group": "ModSociety",
-      "title": "<b>Salvation through Service</b> (tech_eutab_alien_salvation)<br/><i>§TLost souls taken from futile lives, rejoice! True purpose returns to your species.§!\\nLiberated citizens of misguided lands will be instructed in our ways through service to our various factions.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Salvation through Service</b> (tech_eutab_alien_salvation)<br/><i>Lost souls taken from futile lives, rejoice! True purpose returns to your species.\\nLiberated citizens of misguided lands will be instructed in our ways through service to our various factions.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>4000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1003,7 +1003,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_cultural_exchanges",
       "label": "Exo-Cultural Exchanges",
       "group": "ModSociety",
-      "title": "<b>Exo-Cultural Exchanges</b> (tech_eutab_cultural_exchanges)<br/><i>Establish procedures and organisations to study social sciences including the biological, social and cultural aspects of the species we encounter among the stars.£building  §SVisitor Center§! now also produce §S1§! additional £society  Society Research. £building  §SXeno Cultural Quarter§! now also produces §S3§! additional £society Society Research.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Exo-Cultural Exchanges</b> (tech_eutab_cultural_exchanges)<br/><i>Establish procedures and organisations to study social sciences including the biological, social and cultural aspects of the species we encounter among the stars.society Society Research.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1043,7 +1043,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_dd_implants",
       "label": "Direct Democracy Implants",
       "group": "ModSociety",
-      "title": "<b>Direct Democracy Implants</b> (tech_eutab_dd_implants)<br/><i>One Sentient, One Vote. All citizens are now able to directly vote on law proposed by our government with a thought.£building §SPlanetary Parliament§! now also produces §G+3§! £unity Unity.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
+      "title": "<b>Direct Democracy Implants</b> (tech_eutab_dd_implants)<br/><i>One Sentient, One Vote. All citizens are now able to directly vote on law proposed by our government with a thought.unity Unity.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1441,12 +1441,12 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_golden_path",
       "label": "The Golden Path",
       "group": "ModSociety",
-      "title": "<b>The Golden Path</b> (tech_eutab_golden_path)<br/><i>§It has occurred to me more than once that holy boredom is good and sufficient reason for the invention of free will.§</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
+      "title": "<b>The Golden Path</b> (tech_eutab_golden_path)<br/><i>t has occurred to me more than once that holy boredom is good and sufficient reason for the invention of free will.§</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>5<br/><b>Category: </b>Psionics<br/><b>Base cost: </b>15000<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_eutab_golden_path.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1647,7 +1647,7 @@ EUTABGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_eutab_hive_alpha_node.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -1819,7 +1819,7 @@ EUTABGraphDataTech = {
       "id": "tech_eutab_intel_vigilance",
       "label": "Xeno Intelligence Vigilance",
       "group": "ModSociety",
-      "title": "<b>Xeno Intelligence Vigilance</b> (tech_eutab_intel_vigilance)<br/><i>§TA man has to be alert all the time if he expects to keep on breathing. If not, some Xeno son-of-a-bitch will sneak up behind him and beat him to death with a sock full of shit.§</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2500<br/><b>Attributes: </b>Rare",
+      "title": "<b>Xeno Intelligence Vigilance</b> (tech_eutab_intel_vigilance)<br/><i>A man has to be alert all the time if he expects to keep on breathing. If not, some Xeno son-of-a-bitch will sneak up behind him and beat him to death with a sock full of shit.§</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>2<br/><b>Category: </b>Statecraft<br/><b>Base cost: </b>2500<br/><b>Attributes: </b>Rare",
       "color": {
         "border": "#8900CE"
       },
@@ -1976,7 +1976,7 @@ EUTABGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_eutab_medigel_cultivation.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -2582,7 +2582,7 @@ EUTABGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 14,
+      "level": 15,
       "image": "images/technologies/tech_eutab_species_harmony.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -3000,22 +3000,6 @@ EUTABGraphDataTech = {
       ]
     },
     {
-      "id": "tech_eutab_assembly_complex",
-      "label": "Unit Assembly Complex",
-      "group": "ModEngineering",
-      "title": "<b>Unit Assembly Complex</b> (tech_eutab_assembly_complex)<br/><i>An expanded assembly complex to spill new units into our worlds.</i><br/><b>Mod: </b>EUTAB - Ethos Unique Techs and Buildings<br/><b>Tier: </b>3<br/><b>Category: </b>Industry<br/><b>Base cost: </b>5000<br/>Machine intelligence",
-      "level": 15,
-      "image": "images/technologies/tech_eutab_assembly_complex.png",
-      "hasImage": true,
-      "nodeType": "tech",
-      "prerequisites": [
-        "tech_self_assembling_components"
-      ],
-      "categories": [
-        "industry"
-      ]
-    },
-    {
       "id": "tech_eutab_auto_armory",
       "label": "Automated Deep Space Armories",
       "group": "ModEngineering",
@@ -3227,7 +3211,7 @@ EUTABGraphDataTech = {
         "border": "#CE7C00"
       },
       "borderWidth": 1,
-      "level": 24,
+      "level": 23,
       "image": "images/technologies/tech_eutab_m_adaptation_mastery.png",
       "hasImage": true,
       "nodeType": "tech",
@@ -3245,12 +3229,12 @@ EUTABGraphDataTech = {
         "border": "#8900CE"
       },
       "borderWidth": 1,
-      "level": 19,
+      "level": 20,
       "image": "images/technologies/tech_eutab_m_automation_sector.png",
       "hasImage": true,
       "nodeType": "tech",
       "prerequisites": [
-        "tech_eutab_assembly_complex",
+        "tech_mega_assembly",
         "tech_embodied_dynamism"
       ],
       "categories": [
@@ -5187,7 +5171,7 @@ EUTABGraphDataTech = {
       "dashes": true
     },
     {
-      "from": "tech_eutab_assembly_complex",
+      "from": "tech_mega_assembly",
       "to": "tech_eutab_m_automation_sector",
       "arrows": "to",
       "color": {
@@ -5279,15 +5263,6 @@ EUTABGraphDataTech = {
     {
       "from": "tech_galactic_campaigns",
       "to": "tech_eutab_m_annexation_proto",
-      "arrows": "to",
-      "color": {
-        "color": "grey"
-      },
-      "dashes": true
-    },
-    {
-      "from": "tech_self_assembling_components",
-      "to": "tech_eutab_assembly_complex",
       "arrows": "to",
       "color": {
         "color": "grey"

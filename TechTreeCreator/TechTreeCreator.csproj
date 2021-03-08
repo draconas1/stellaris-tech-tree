@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>TechTreeCreator</AssemblyName>
     <RootNamespace>TechTreeCreator</RootNamespace>
     <PackageId>TechTreeCreator</PackageId>
@@ -13,7 +13,6 @@
 		<PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0006" />
 		<PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
 		<!-- <PackageReference Include="FParsec" Version="1.0.4-RC3" /> -->
-		<PackageReference Include="Microsoft.AspNetCore.All" />
 		<PackageReference Include="cwtools" Version="0.3.0" />
 		<PackageReference Include="FSharp.Core" Version="4.5.4" />
 	  </ItemGroup>

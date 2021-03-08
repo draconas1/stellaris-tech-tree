@@ -18,48 +18,61 @@ namespace TechTreeCreator.Output.Vis {
         }
 
 
-        public IDictionary<string, VisData> CreateTechVisData(ModEntityData<Tech> techsAndDependencies, string imagesPath) {
-            // perform longest path analysis to find out how many levels we want in each tech
-            var maxPathPerTier = new Dictionary<int, int>();
+        public IDictionary<string, VisData> CreateTechVisData(ModEntityData<Tech> allTechsAndDependencies, string imagesPath) {
+            var modGroups = allTechsAndDependencies.AllLinks.Select(x => x.To.ModGroup).Distinct().ToList();
 
-            List<Tech> techsWithNoPrereqs = new List<Tech>();
-            foreach (var tech in techsAndDependencies.AllEntities) {
-                if (!tech.Tier.HasValue) {
-                    throw new InvalidOperationException("All Techs must have Tiers to create vis data.  " + tech.Id);
-                }
-
-                int pathLength = NumberOfPrereqsInSameTier(tech);
-
-                var currentMaxForTier = maxPathPerTier.ComputeIfAbsent(tech.Tier.Value, ignored => 0);
-                if (pathLength > currentMaxForTier) {
-                    maxPathPerTier[tech.Tier.Value] = pathLength;
-                }
-
-                // need to link to a supernode to make it look good
-                if (!tech.Prerequisites.Any()) {
-                    techsWithNoPrereqs.Add(tech);
-                }
-            }
-
-            Log.Logger.Debug("Max path per tier {@maxPaths} Number of techs with no pre-requiste {noPreqCount}", maxPathPerTier, techsWithNoPrereqs.Count);
-
-
-            // determine the base levels in the graph that each node will be on.
-            var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
-            Log.Logger.Debug("Minimum level per tier {@minLevels}", minimumLevelForTier);
-
-            //sort the input by area as it produces a nicer graph.
-            var techList = techsAndDependencies.AllEntities.ToList();
-            techList.Sort((tech1, tech2) => {
-                var primary = tech1.Area - tech2.Area;
-                return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
-            });
-
-            var modGroups = techsAndDependencies.AllLinks.Select(x => x.To.ModGroup).Distinct().ToList();
-
+            var coreData = allTechsAndDependencies.FindCoreGameData();
+            
             // link to supernodes
             var results = new Dictionary<string, VisData>();
-            foreach (var modGroup in modGroups) {
+            foreach (var modGroup in modGroups)
+            {
+                var techsForGroup = allTechsAndDependencies.FindByModGroup(modGroup).Reverse().ToList();
+
+                var current = coreData;
+                foreach (var forGroup in techsForGroup)
+                {
+                    current = forGroup.Copy(current);
+                }
+
+                var techsAndDependencies = current;
+            
+                // perform longest path analysis to find out how many levels we want in each tech
+                var maxPathPerTier = new Dictionary<int, int>();
+
+                List<Tech> techsWithNoPrereqs = new List<Tech>();
+                foreach (var tech in techsAndDependencies.AllEntities) {
+                    if (!tech.Tier.HasValue) {
+                        throw new InvalidOperationException("All Techs must have Tiers to create vis data.  " + tech.Id);
+                    }
+
+                    int pathLength = NumberOfPrereqsInSameTier(tech);
+
+                    var currentMaxForTier = maxPathPerTier.ComputeIfAbsent(tech.Tier.Value, ignored => 0);
+                    if (pathLength > currentMaxForTier) {
+                        maxPathPerTier[tech.Tier.Value] = pathLength;
+                    }
+
+                    // need to link to a supernode to make it look good
+                    if (!tech.Prerequisites.Any()) {
+                        techsWithNoPrereqs.Add(tech);
+                    }
+                }
+
+                Log.Logger.Debug("Max path per tier {@maxPaths} Number of techs with no pre-requiste {noPreqCount}", maxPathPerTier, techsWithNoPrereqs.Count);
+
+
+                // determine the base levels in the graph that each node will be on.
+                var minimumLevelForTier = CalculateMinimumLevelForTier(maxPathPerTier);
+                Log.Logger.Debug("Minimum level per tier {@minLevels}", minimumLevelForTier);
+
+                //sort the input by area as it produces a nicer graph.
+                var techList = techsAndDependencies.AllEntities.ToList();
+                techList.Sort((tech1, tech2) => {
+                    var primary = tech1.Area - tech2.Area;
+                    return primary != 0 ? primary : string.Compare(tech1.Id, tech2.Id, StringComparison.Ordinal);
+                });
+
                 var result = new VisData() {
                     nodes = techList.Where(x => Filter(x, modGroup)).Select(x => MarshalTech(x, minimumLevelForTier, imagesPath)).ToList(),
                     edges = techsAndDependencies.AllLinks.Where(x => Filter(x.To, modGroup)).Select(VisHelpers.MarshalLink).ToList()

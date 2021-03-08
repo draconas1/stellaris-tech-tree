@@ -1,10 +1,9 @@
 <script type="text/javascript" src="data/EUTAB-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Gigastructures-tech.js?v=2"></script>
-<script type="text/javascript" src="data/Guillis_Technologies-tech.js?v=2"></script>
-<script type="text/javascript" src="data/New_Ship_Classes-tech.js?v=2"></script>
-<script type="text/javascript" src="data/Stellaris_Immortal-tech.js?v=2"></script>
+<script type="text/javascript" src="data/Guilli-tech.js?v=2"></script>
+<script type="text/javascript" src="data/NSC2-tech.js?v=2"></script>
+<script type="text/javascript" src="data/Sensor_Expansion-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-No-Mods-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-tech.js?v=2"></script>
 <script type="text/javascript" src="data/Tech-Root-Nodes-tech.js?v=2"></script>
-<script type="text/javascript" src="data/The_Zenith_of_Fallen_Empires-tech.js?v=2"></script>
-<script type="text/javascript" src="data/Unofficial_Machine__Synthetic_Empire_DLC-tech.js?v=2"></script>
+<script type="text/javascript" src="data/ZoFE-tech.js?v=2"></script>

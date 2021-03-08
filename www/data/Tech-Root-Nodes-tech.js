@@ -13,9 +13,9 @@ TechRootNodesGraphDataTech = {
         "particles",
         "field_manipulation",
         "computing",
-        "voidcraft",
         "psionics",
-        "statecraft"
+        "statecraft",
+        "voidcraft"
       ]
     },
     {
@@ -32,7 +32,6 @@ TechRootNodesGraphDataTech = {
         "statecraft",
         "military_theory",
         "new_worlds",
-        "voidcraft",
         "materials"
       ]
     },

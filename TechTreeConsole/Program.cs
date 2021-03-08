@@ -13,13 +13,13 @@ using TechTreeCreator.Logger;
 
 namespace TechTreeConsole {
     class Program {
-        private const string STELLARIS_ROOT_WINDOWS = "C:/Games/SteamLibrary/steamapps/common/Stellaris";
+        private const string STELLARIS_ROOT_WINDOWS = @"C:\Games\Steam\steamapps\common\Stellaris";
         private const string STELLARIS_ROOT_MAC = "/Users/christian/Library/Application Support/Steam/steamapps/common/Stellaris";       
 
-        private const string OUTPUT_WINDOWS = "C:/Users/Draconas/source/repos/stellaris-tech-tree/www";
+        private const string OUTPUT_WINDOWS = @"C:\Users\Draconas\Documents\dev\stellaris-tech-tree\www";
         private const string OUTPUT_MAC = "/Users/christian/dev/graph/stellaris-tech-tree/www";
 
-        private const string STELLARIS_USER_WINDOWS = @"D:\Users\Draconas\Documents\Paradox Interactive\Stellaris";
+        private const string STELLARIS_USER_WINDOWS = @"C:\Users\Draconas\Documents\Paradox Interactive\Stellaris";
         private const string STELLARIS_USER_MAC = "/Users/christian/Documents/Paradox Interactive/Stellaris";
 
         static void Main(string[] args) {

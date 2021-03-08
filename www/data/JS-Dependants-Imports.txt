@@ -1,7 +1,5 @@
 <script type="text/javascript" src="data/EUTAB-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Gigastructures-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/Stellaris_Immortal-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-dependants.js?v=2"></script>
 <script type="text/javascript" src="data/Stellaris-No-Mods-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/The_Zenith_of_Fallen_Empires-dependants.js?v=2"></script>
-<script type="text/javascript" src="data/Unofficial_Machine__Synthetic_Empire_DLC-dependants.js?v=2"></script>
+<script type="text/javascript" src="data/ZoFE-dependants.js?v=2"></script>

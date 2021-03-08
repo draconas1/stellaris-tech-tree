@@ -18,12 +18,22 @@ namespace TechTreeCreator.DTO {
             entities = new Dictionary<string, T>();
             Links = new HashSet<Link>();
         }
+        private ModEntityData(StellarisDirectoryHelper directoryHelper, ModEntityData<T> previous, Dictionary<string, T> entities, ISet<Link> links) {
+            this.directoryHelper = directoryHelper;
+            this.previous = previous;
+            this.entities = entities;
+            Links = links;
+        }
         
         public ModEntityData(StellarisDirectoryHelper directoryHelper, ModEntityData<T> previous = null) {
             this.directoryHelper = directoryHelper;
             this.previous = previous;
             entities = new Dictionary<string, T>();
             Links = new HashSet<Link>();
+        }
+
+        public ModEntityData<T> Copy(ModEntityData<T> newPrevious) {
+            return new ModEntityData<T>(directoryHelper, newPrevious, this.entities, this.Links);
         }
 
         public bool ContainsEntity(string key) {
